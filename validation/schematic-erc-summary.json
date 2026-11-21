@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-21",
+  "schematic_netlist_sha256": "e6d58ba176c7d3b843c184bf627a4be0540f0e4156bfabd702182b28c6d4b9e6",
+  "erc_export_sha256": "073f47f7808f90ad3a8714c670836c77a8edeb4c54bceaee5efc8be5ff2c9c0e",
+  "erc_counts": {
+    "warn": 2
+  },
+  "error_count": 0,
+  "warning_count": 2,
+  "warnings": [
+    {
+      "type": "warn",
+      "rule": "SHOWDANDLING",
+      "primitives": [
+        {
+          "primitiveId": "f7774e7608753545",
+          "sheet": "35c8fed936c1c8a9",
+          "name": "$2N40"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "SHOWDANDLING",
+      "primitives": [
+        {
+          "primitiveId": "252e156da25f36da",
+          "sheet": "35c8fed936c1c8a9",
+          "name": "$2N39"
+        }
+      ]
+    }
+  ],
+  "warning_mapping": "Native engineering inspection maps the two SHOWDANDLING primitives to TP_GPIO30/31, U2 pins32/31; PCB-only TP20/21 are absent by design in schematic scope.",
+  "library_metadata_check": {
+    "components": 97,
+    "Device_Footprint_SupplierPart_all_present": true,
+    "SupplierPart_matches_design": true,
+    "scope": "Compared actual final export properties against reviewed design input."
+  },
+  "NC_marker_check": {
+    "result": "All intentional NC flags read back true",
+    "evidence": "Native EDA operation and readback reported by primary engineering task; netlist comparator itself only checks NC connectivity."
+  },
+  "scope": "Schematic ERC and component metadata only; not PCB DRC, routing clearance or hardware verification."
+}

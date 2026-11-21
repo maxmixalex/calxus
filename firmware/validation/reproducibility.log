@@ -1,0 +1,6 @@
+2026-11-21
+First build: source files acquired through native GitHub connector, exact pinned input hashes verified.
+Second build: four exact source files fetched from raw.githubusercontent.com at pinned commit by build_silverlink.py.
+PASS: all inputs verified, reference program SHA1 and SHA256 match.
+PASS: both complete 8192-byte images are byte-for-byte identical.
+No physical USB device, EEPROM programming, or calculator transfer was tested.

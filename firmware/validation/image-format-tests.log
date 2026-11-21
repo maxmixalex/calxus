@@ -1,0 +1,7 @@
+2026-11-21: validate image structure; no hardware I/O
+PASS valid reference image: {'image_bytes': 8192, 'code_bytes': 5120, 'checksum': '0x5a', 'code_sha256': '3227e2eb733c93737c05fbf556e52afab8048e9719be72286c2d50bc0539916f', 'image_sha256': 'a56dc1ebb386ab03d0d60da3deb4c1583530f4063fd934c7f042a9fc6ba20af5'}
+PASS rejection short image: 24LC64 image must be exactly 8192 bytes; got 8191
+PASS rejection bad signature: Expected TUSB3410 signature 10 34 and Autoexec type 07
+PASS rejection bad checksum: Application checksum mismatch
+PASS rejection missing terminator: Missing explicit end-of-header byte
+PASS rejection wrong fill: Unused EEPROM bytes must be FF in this canonical image

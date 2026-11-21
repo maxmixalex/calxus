@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.blend1
+*.FCStd1
+.DS_Store
+firmware/local-build/
+firmware/upstream/
+tmp/

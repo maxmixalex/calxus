@@ -1,0 +1,12 @@
+{
+  "binary_sha256": "3227e2eb733c93737c05fbf556e52afab8048e9719be72286c2d50bc0539916f",
+  "device_descriptor_offset": "0x0FB3",
+  "configuration_descriptor_offset": "0x0FC5",
+  "vid": "0451",
+  "pid": "E001",
+  "bcdDevice": "0208",
+  "iSerialNumber": 0,
+  "bMaxPower_raw": 50,
+  "bMaxPower_mA": 100,
+  "scope": "Offline inspection of rebuilt binary descriptor template; not a USB enumeration capture. Runtime firmware fills wTotalLength."
+}

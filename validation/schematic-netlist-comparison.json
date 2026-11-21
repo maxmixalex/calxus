@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "design_sha256": "994d27cecacbf06824c64d86912e64e5657ac8876b3270f9a241cc3110145d1d",
+  "actual_sha256": "e6d58ba176c7d3b843c184bf627a4be0540f0e4156bfabd702182b28c6d4b9e6",
+  "expected_components": 97,
+  "actual_components": 97,
+  "expected_pins": 344,
+  "actual_pins": 344,
+  "comparison_scope": "schematic",
+  "excluded_pcb_only_refs": [
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "TP10",
+    "TP11",
+    "TP12",
+    "TP13",
+    "TP14",
+    "TP15",
+    "TP16",
+    "TP17",
+    "TP18",
+    "TP19",
+    "TP20",
+    "TP21",
+    "TP22",
+    "TP23"
+  ],
+  "alias_basis": "Verified project library: TUSB EP33, CH343 EP17, grouped USB-C pins, USB-A shield5",
+  "errors": [],
+  "notes": [
+    "Singleton logical net TP_GPIO30: [('U2', '32')]; verify intentional test point/NC treatment (PCB-only test pads are explicitly excluded in this scope.)",
+    "Singleton logical net TP_GPIO31: [('U2', '31')]; verify intentional test point/NC treatment (PCB-only test pads are explicitly excluded in this scope.)"
+  ],
+  "scope": "Pin-net export equivalence only for the stated schematic/PCB scope; does not verify routed copper, firmware, power timing or hardware behavior"
+}
