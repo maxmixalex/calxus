@@ -1,0 +1,262 @@
+{
+  "schema": "calxus.native-tht-drill-expectations.v1",
+  "units": "mm",
+  "pcb_uuid": "2a0c39c6c6694f40",
+  "source_archive_sha256": "18d8a0ccdbf3b630a9615d0ea36fb3fe75de02d21a5d2e9f1b2f07a6cd53cfa9",
+  "source_epru_sha256": "0e350e62bb8487d3ab99a5ed5566ca2ef7808e0d8770583c4cd07f661eeeed48",
+  "source_method": "Saved project FOOTPRINT PAD + actual PCB COMPONENT transform; native PCB PAD for free mounting holes. No API hole getter.",
+  "coordinate_system": "PCB XY, Y up; origin matches native source and layout. Resolve any Gerber/Excellon export origin offset explicitly before comparison.",
+  "counts": {
+    "holes": 6,
+    "plated": 6,
+    "unplated": 0,
+    "by_ref": {
+      "J2": 6
+    }
+  },
+  "verification_requirements": [
+    "Compare every listed plated and unplated hole, not only the four mounting holes.",
+    "ROUND: verify diameter and center. SLOT: verify tool diameter, overall length, center and axis or equivalent G85/router endpoints.",
+    "J2 signals1-4 nominal1.0mm; shield5/6 nominal2.1x0.8mm with long axis parallel boardY.",
+    "Solder-pad offset is a copper offset; do not shift the source drill center by the erroneous API holeOffset getter.",
+    "Final signal/GND vias, VIPPO fabrication instructions, drill registration and process tolerances require separate final-route checks."
+  ],
+  "holes": [
+    {
+      "ref": "J2",
+      "pin": "1",
+      "component_id": "b5596e790541d216",
+      "footprint_uuid": "27a835ea6dfc1a7f",
+      "pad_source_id": "e29",
+      "net": "VBUS_USBA",
+      "plated": true,
+      "shape": "ROUND",
+      "center_mm": [
+        36.50000574,
+        4.82504242
+      ],
+      "source_local": {
+        "units": "mil",
+        "centerX": -137.795,
+        "centerY": 29.53,
+        "hole": {
+          "holeType": "ROUND",
+          "width": 39.37,
+          "height": 39.37
+        },
+        "padAngle": 180,
+        "relativeAngle": 0,
+        "padOffsetX": 0.001,
+        "padOffsetY": 0
+      },
+      "component_pose": {
+        "units": "mil",
+        "x": 1574.8031,
+        "y": 160.4323,
+        "angle_deg": 0
+      },
+      "diameter_mm": 0.9999979999999999
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "component_id": "b5596e790541d216",
+      "footprint_uuid": "27a835ea6dfc1a7f",
+      "pad_source_id": "e28",
+      "net": "USB_A_DM",
+      "plated": true,
+      "shape": "ROUND",
+      "center_mm": [
+        39.00012774,
+        4.82504242
+      ],
+      "source_local": {
+        "units": "mil",
+        "centerX": -39.365,
+        "centerY": 29.53,
+        "hole": {
+          "holeType": "ROUND",
+          "width": 39.37,
+          "height": 39.37
+        },
+        "padAngle": 180,
+        "relativeAngle": 0,
+        "padOffsetX": 0.005,
+        "padOffsetY": 0
+      },
+      "component_pose": {
+        "units": "mil",
+        "x": 1574.8031,
+        "y": 160.4323,
+        "angle_deg": 0
+      },
+      "diameter_mm": 0.9999979999999999
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "component_id": "b5596e790541d216",
+      "footprint_uuid": "27a835ea6dfc1a7f",
+      "pad_source_id": "e27",
+      "net": "USB_A_DP",
+      "plated": true,
+      "shape": "ROUND",
+      "center_mm": [
+        41.00012374,
+        4.82504242
+      ],
+      "source_local": {
+        "units": "mil",
+        "centerX": 39.375,
+        "centerY": 29.53,
+        "hole": {
+          "holeType": "ROUND",
+          "width": 39.37,
+          "height": 39.37
+        },
+        "padAngle": 180,
+        "relativeAngle": 0,
+        "padOffsetX": 0.005,
+        "padOffsetY": 0
+      },
+      "component_pose": {
+        "units": "mil",
+        "x": 1574.8031,
+        "y": 160.4323,
+        "angle_deg": 0
+      },
+      "diameter_mm": 0.9999979999999999
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "component_id": "b5596e790541d216",
+      "footprint_uuid": "27a835ea6dfc1a7f",
+      "pad_source_id": "e26",
+      "net": "GND",
+      "plated": true,
+      "shape": "ROUND",
+      "center_mm": [
+        43.499991740000006,
+        4.82504242
+      ],
+      "source_local": {
+        "units": "mil",
+        "centerX": 137.795,
+        "centerY": 29.53,
+        "hole": {
+          "holeType": "ROUND",
+          "width": 39.37,
+          "height": 39.37
+        },
+        "padAngle": 180,
+        "relativeAngle": 0,
+        "padOffsetX": 0,
+        "padOffsetY": 0
+      },
+      "component_pose": {
+        "units": "mil",
+        "x": 1574.8031,
+        "y": 160.4323,
+        "angle_deg": 0
+      },
+      "diameter_mm": 0.9999979999999999
+    },
+    {
+      "ref": "J2",
+      "pin": "5",
+      "component_id": "b5596e790541d216",
+      "footprint_uuid": "27a835ea6dfc1a7f",
+      "pad_source_id": "e25",
+      "net": "GND",
+      "plated": true,
+      "shape": "SLOT",
+      "center_mm": [
+        33.550049740000006,
+        3.32491842
+      ],
+      "source_local": {
+        "units": "mil",
+        "centerX": -253.935,
+        "centerY": -29.53,
+        "hole": {
+          "holeType": "SLOT",
+          "width": 82.677,
+          "height": 31.496
+        },
+        "padAngle": 180,
+        "relativeAngle": 90,
+        "padOffsetX": 0,
+        "padOffsetY": 0
+      },
+      "component_pose": {
+        "units": "mil",
+        "x": 1574.8031,
+        "y": 160.4323,
+        "angle_deg": 0
+      },
+      "slot_tool_diameter_mm": 0.7999983999999999,
+      "slot_overall_length_mm": 2.0999958000000003,
+      "slot_centerline_length_mm": 1.2999974000000005,
+      "slot_axis_degrees_ccw_from_x": 90,
+      "slot_end_centers_mm": [
+        [
+          33.550049740000006,
+          2.6749197199999997
+        ],
+        [
+          33.550049740000006,
+          3.97491712
+        ]
+      ]
+    },
+    {
+      "ref": "J2",
+      "pin": "6",
+      "component_id": "b5596e790541d216",
+      "footprint_uuid": "27a835ea6dfc1a7f",
+      "pad_source_id": "e24",
+      "net": "GND",
+      "plated": true,
+      "shape": "SLOT",
+      "center_mm": [
+        46.44994774,
+        3.32491842
+      ],
+      "source_local": {
+        "units": "mil",
+        "centerX": 253.935,
+        "centerY": -29.53,
+        "hole": {
+          "holeType": "SLOT",
+          "width": 82.677,
+          "height": 31.496
+        },
+        "padAngle": 180,
+        "relativeAngle": 90,
+        "padOffsetX": 0,
+        "padOffsetY": 0
+      },
+      "component_pose": {
+        "units": "mil",
+        "x": 1574.8031,
+        "y": 160.4323,
+        "angle_deg": 0
+      },
+      "slot_tool_diameter_mm": 0.7999983999999999,
+      "slot_overall_length_mm": 2.0999958000000003,
+      "slot_centerline_length_mm": 1.2999974000000005,
+      "slot_axis_degrees_ccw_from_x": 90,
+      "slot_end_centers_mm": [
+        [
+          46.44994774,
+          2.6749197199999997
+        ],
+        [
+          46.44994774,
+          3.97491712
+        ]
+      ]
+    }
+  ]
+}

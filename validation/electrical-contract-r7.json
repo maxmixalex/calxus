@@ -1,0 +1,1731 @@
+{
+  "pass": true,
+  "component_count": 120,
+  "named_net_count": 69,
+  "check_count": 335,
+  "errors": [],
+  "switch_states": [
+    {
+      "mode": "NATIVE",
+      "contacts": [
+        [
+          1,
+          3
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "IN1_IN0": [
+        0,
+        0
+      ],
+      "power": [
+        "VBUS_NATIVE"
+      ],
+      "MUX_EN_N": 0,
+      "data_pair": [
+        "USB_NATIVE_DP",
+        "USB_NATIVE_DM"
+      ]
+    },
+    {
+      "mode": "USB-A",
+      "contacts": [
+        [
+          2,
+          3
+        ],
+        [
+          7,
+          8
+        ]
+      ],
+      "IN1_IN0": [
+        0,
+        1
+      ],
+      "power": [
+        "VBUS_USBA"
+      ],
+      "MUX_EN_N": 0,
+      "data_pair": [
+        "USB_A_DP",
+        "USB_A_DM"
+      ]
+    },
+    {
+      "mode": "SILVER",
+      "contacts": [
+        [
+          3,
+          4
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "IN1_IN0": [
+        1,
+        0
+      ],
+      "power": [
+        "5V_SERIAL"
+      ],
+      "MUX_EN_N": 0,
+      "data_pair": [
+        "USB_SIL_DP",
+        "USB_SIL_DM"
+      ]
+    },
+    {
+      "mode": "UART",
+      "contacts": [
+        [
+          3,
+          5
+        ],
+        [
+          8,
+          10
+        ]
+      ],
+      "IN1_IN0": [
+        1,
+        1
+      ],
+      "power": [
+        "5V_SERIAL"
+      ],
+      "MUX_EN_N": 0,
+      "data_pair": [
+        "USB_UART_DP",
+        "USB_UART_DM"
+      ]
+    },
+    {
+      "mode": "OPEN_GAP",
+      "contacts": [],
+      "IN1_IN0": [
+        1,
+        1
+      ],
+      "power": [],
+      "MUX_EN_N": 1,
+      "data_pair": []
+    }
+  ],
+  "calculations": {
+    "suspend_divider_unloaded_V": 1.728654,
+    "UART_TX_pullup_current_upper_mA": 0.3
+  },
+  "checks": [
+    {
+      "check": "D11 polarity variant BAT54C-7-F",
+      "pass": true
+    },
+    {
+      "check": "D14 polarity variant BAT54A-7-F",
+      "pass": true
+    },
+    {
+      "check": "D8 polarity variant BAT54WS-7-F",
+      "pass": true
+    },
+    {
+      "check": "D9 polarity variant BAT54WS-7-F",
+      "pass": true
+    },
+    {
+      "check": "D10 polarity variant BAT54WS-7-F",
+      "pass": true
+    },
+    {
+      "check": "D12 polarity variant BAT54WS-7-F",
+      "pass": true
+    },
+    {
+      "check": "D13 polarity variant BAT54WS-7-F",
+      "pass": true
+    },
+    {
+      "check": "D15 polarity variant BAT54WS-7-F",
+      "pass": true
+    },
+    {
+      "check": "D16 polarity variant BAT54WS-7-F",
+      "pass": true
+    },
+    {
+      "check": "Unique component references",
+      "pass": true
+    },
+    {
+      "check": "No unintended named singleton networks",
+      "pass": true,
+      "observed": {}
+    },
+    {
+      "check": "J1.A1B12 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J1.B1A12 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J1.A4B9 = VBUS_IN",
+      "pass": true,
+      "observed": "VBUS_IN"
+    },
+    {
+      "check": "J1.B4A9 = VBUS_IN",
+      "pass": true,
+      "observed": "VBUS_IN"
+    },
+    {
+      "check": "J1.A6 = USB_UP_DP",
+      "pass": true,
+      "observed": "USB_UP_DP"
+    },
+    {
+      "check": "J1.B6 = USB_UP_DP",
+      "pass": true,
+      "observed": "USB_UP_DP"
+    },
+    {
+      "check": "J1.A7 = USB_UP_DM",
+      "pass": true,
+      "observed": "USB_UP_DM"
+    },
+    {
+      "check": "J1.B7 = USB_UP_DM",
+      "pass": true,
+      "observed": "USB_UP_DM"
+    },
+    {
+      "check": "J1.A5 = CC1",
+      "pass": true,
+      "observed": "CC1"
+    },
+    {
+      "check": "J1.B5 = CC2",
+      "pass": true,
+      "observed": "CC2"
+    },
+    {
+      "check": "J1.A8 = None",
+      "pass": true
+    },
+    {
+      "check": "J1.B8 = None",
+      "pass": true
+    },
+    {
+      "check": "J1.1 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J1.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J1.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J1.4 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "R1 joins CC1 / GND",
+      "pass": true
+    },
+    {
+      "check": "R1 value 5.1k",
+      "pass": true,
+      "observed": "5.1k 1%"
+    },
+    {
+      "check": "R2 joins CC2 / GND",
+      "pass": true
+    },
+    {
+      "check": "R2 value 5.1k",
+      "pass": true,
+      "observed": "5.1k 1%"
+    },
+    {
+      "check": "J2.1 = VBUS_USBA",
+      "pass": true,
+      "observed": "VBUS_USBA"
+    },
+    {
+      "check": "J2.2 = USB_A_DM",
+      "pass": true,
+      "observed": "USB_A_DM"
+    },
+    {
+      "check": "J2.3 = USB_A_DP",
+      "pass": true,
+      "observed": "USB_A_DP"
+    },
+    {
+      "check": "J2.4 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J2.5 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J2.6 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J3.1 = VBUS_NATIVE",
+      "pass": true,
+      "observed": "VBUS_NATIVE"
+    },
+    {
+      "check": "J3.2 = USB_NATIVE_DM",
+      "pass": true,
+      "observed": "USB_NATIVE_DM"
+    },
+    {
+      "check": "J3.3 = USB_NATIVE_DP",
+      "pass": true,
+      "observed": "USB_NATIVE_DP"
+    },
+    {
+      "check": "J3.4 = None",
+      "pass": true
+    },
+    {
+      "check": "J3.5 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J3.6 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U1.1 = MUX_EN_N",
+      "pass": true,
+      "observed": "MUX_EN_N"
+    },
+    {
+      "check": "U1.2 = SEL1",
+      "pass": true,
+      "observed": "SEL1"
+    },
+    {
+      "check": "U1.3 = USB_UART_DP",
+      "pass": true,
+      "observed": "USB_UART_DP"
+    },
+    {
+      "check": "U1.4 = USB_SIL_DP",
+      "pass": true,
+      "observed": "USB_SIL_DP"
+    },
+    {
+      "check": "U1.5 = USB_A_DP",
+      "pass": true,
+      "observed": "USB_A_DP"
+    },
+    {
+      "check": "U1.6 = USB_NATIVE_DP",
+      "pass": true,
+      "observed": "USB_NATIVE_DP"
+    },
+    {
+      "check": "U1.7 = USB_UP_DP",
+      "pass": true,
+      "observed": "USB_UP_DP"
+    },
+    {
+      "check": "U1.8 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U1.9 = USB_UP_DM",
+      "pass": true,
+      "observed": "USB_UP_DM"
+    },
+    {
+      "check": "U1.10 = USB_NATIVE_DM",
+      "pass": true,
+      "observed": "USB_NATIVE_DM"
+    },
+    {
+      "check": "U1.11 = USB_A_DM",
+      "pass": true,
+      "observed": "USB_A_DM"
+    },
+    {
+      "check": "U1.12 = USB_SIL_DM",
+      "pass": true,
+      "observed": "USB_SIL_DM"
+    },
+    {
+      "check": "U1.13 = USB_UART_DM",
+      "pass": true,
+      "observed": "USB_UART_DM"
+    },
+    {
+      "check": "U1.14 = SEL0",
+      "pass": true,
+      "observed": "SEL0"
+    },
+    {
+      "check": "U1.15 = None",
+      "pass": true
+    },
+    {
+      "check": "U1.16 = VBUS_IN",
+      "pass": true,
+      "observed": "VBUS_IN"
+    },
+    {
+      "check": "D1.1 = USB_UP_DP",
+      "pass": true,
+      "observed": "USB_UP_DP"
+    },
+    {
+      "check": "D1.6 = USB_UP_DP",
+      "pass": true,
+      "observed": "USB_UP_DP"
+    },
+    {
+      "check": "D1.3 = USB_UP_DM",
+      "pass": true,
+      "observed": "USB_UP_DM"
+    },
+    {
+      "check": "D1.4 = USB_UP_DM",
+      "pass": true,
+      "observed": "USB_UP_DM"
+    },
+    {
+      "check": "D1.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "D1.5 = VBUS_IN",
+      "pass": true,
+      "observed": "VBUS_IN"
+    },
+    {
+      "check": "D2.1 = USB_NATIVE_DP",
+      "pass": true,
+      "observed": "USB_NATIVE_DP"
+    },
+    {
+      "check": "D2.6 = USB_NATIVE_DP",
+      "pass": true,
+      "observed": "USB_NATIVE_DP"
+    },
+    {
+      "check": "D2.3 = USB_NATIVE_DM",
+      "pass": true,
+      "observed": "USB_NATIVE_DM"
+    },
+    {
+      "check": "D2.4 = USB_NATIVE_DM",
+      "pass": true,
+      "observed": "USB_NATIVE_DM"
+    },
+    {
+      "check": "D2.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "D2.5 = VBUS_NATIVE",
+      "pass": true,
+      "observed": "VBUS_NATIVE"
+    },
+    {
+      "check": "D3.1 = USB_A_DP",
+      "pass": true,
+      "observed": "USB_A_DP"
+    },
+    {
+      "check": "D3.6 = USB_A_DP",
+      "pass": true,
+      "observed": "USB_A_DP"
+    },
+    {
+      "check": "D3.3 = USB_A_DM",
+      "pass": true,
+      "observed": "USB_A_DM"
+    },
+    {
+      "check": "D3.4 = USB_A_DM",
+      "pass": true,
+      "observed": "USB_A_DM"
+    },
+    {
+      "check": "D3.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "D3.5 = VBUS_USBA",
+      "pass": true,
+      "observed": "VBUS_USBA"
+    },
+    {
+      "check": "U6 active-low TPS2552DBVR",
+      "pass": true
+    },
+    {
+      "check": "U6.1 = VBUS_IN",
+      "pass": true,
+      "observed": "VBUS_IN"
+    },
+    {
+      "check": "U6.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U6.3 = SERIAL_EN_N",
+      "pass": true,
+      "observed": "SERIAL_EN_N"
+    },
+    {
+      "check": "U6.4 = PWR_FAULT_N",
+      "pass": true,
+      "observed": "PWR_FAULT_N"
+    },
+    {
+      "check": "U6.5 = ILIM_SERIAL",
+      "pass": true,
+      "observed": "ILIM_SERIAL"
+    },
+    {
+      "check": "U6.6 = 5V_SERIAL",
+      "pass": true,
+      "observed": "5V_SERIAL"
+    },
+    {
+      "check": "U9 active-low TPS2552DBVR",
+      "pass": true
+    },
+    {
+      "check": "U9.1 = VBUS_IN",
+      "pass": true,
+      "observed": "VBUS_IN"
+    },
+    {
+      "check": "U9.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U9.3 = NATIVE_EN_N",
+      "pass": true,
+      "observed": "NATIVE_EN_N"
+    },
+    {
+      "check": "U9.4 = PWR_FAULT_N",
+      "pass": true,
+      "observed": "PWR_FAULT_N"
+    },
+    {
+      "check": "U9.5 = ILIM_NATIVE",
+      "pass": true,
+      "observed": "ILIM_NATIVE"
+    },
+    {
+      "check": "U9.6 = VBUS_NATIVE",
+      "pass": true,
+      "observed": "VBUS_NATIVE"
+    },
+    {
+      "check": "U10 active-low TPS2552DBVR",
+      "pass": true
+    },
+    {
+      "check": "U10.1 = VBUS_IN",
+      "pass": true,
+      "observed": "VBUS_IN"
+    },
+    {
+      "check": "U10.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U10.3 = USBA_EN_N",
+      "pass": true,
+      "observed": "USBA_EN_N"
+    },
+    {
+      "check": "U10.4 = PWR_FAULT_N",
+      "pass": true,
+      "observed": "PWR_FAULT_N"
+    },
+    {
+      "check": "U10.5 = ILIM_USBA",
+      "pass": true,
+      "observed": "ILIM_USBA"
+    },
+    {
+      "check": "U10.6 = VBUS_USBA",
+      "pass": true,
+      "observed": "VBUS_USBA"
+    },
+    {
+      "check": "R6 joins ILIM_SERIAL / GND",
+      "pass": true
+    },
+    {
+      "check": "R6 value 226k",
+      "pass": true,
+      "observed": "226k 1%"
+    },
+    {
+      "check": "R36 joins ILIM_NATIVE / GND",
+      "pass": true
+    },
+    {
+      "check": "R36 value 52.3k",
+      "pass": true,
+      "observed": "52.3k 1%"
+    },
+    {
+      "check": "R37 joins ILIM_USBA / GND",
+      "pass": true
+    },
+    {
+      "check": "R37 value 52.3k",
+      "pass": true,
+      "observed": "52.3k 1%"
+    },
+    {
+      "check": "U5.1 = 5V_SERIAL",
+      "pass": true,
+      "observed": "5V_SERIAL"
+    },
+    {
+      "check": "U5.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U5.3 = 5V_SERIAL",
+      "pass": true,
+      "observed": "5V_SERIAL"
+    },
+    {
+      "check": "U5.4 = None",
+      "pass": true
+    },
+    {
+      "check": "U5.5 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "R3 joins SEL1 / VBUS_IN",
+      "pass": true
+    },
+    {
+      "check": "R3 value 47k",
+      "pass": true,
+      "observed": "47k 1%"
+    },
+    {
+      "check": "R4 joins SEL0 / VBUS_IN",
+      "pass": true
+    },
+    {
+      "check": "R4 value 47k",
+      "pass": true,
+      "observed": "47k 1%"
+    },
+    {
+      "check": "R32 joins NATIVE_EN_N / VBUS_IN",
+      "pass": true
+    },
+    {
+      "check": "R32 value 47k",
+      "pass": true,
+      "observed": "47k 1%"
+    },
+    {
+      "check": "R33 joins USBA_EN_N / VBUS_IN",
+      "pass": true
+    },
+    {
+      "check": "R33 value 47k",
+      "pass": true,
+      "observed": "47k 1%"
+    },
+    {
+      "check": "R34 joins SERIAL_EN_N / VBUS_IN",
+      "pass": true
+    },
+    {
+      "check": "R34 value 47k",
+      "pass": true,
+      "observed": "47k 1%"
+    },
+    {
+      "check": "R35 joins MUX_EN_N / VBUS_IN",
+      "pass": true
+    },
+    {
+      "check": "R35 value 47k",
+      "pass": true,
+      "observed": "47k 1%"
+    },
+    {
+      "check": "SW1 NATIVE: select bits",
+      "pass": true,
+      "observed": [
+        0,
+        0
+      ]
+    },
+    {
+      "check": "SW1 NATIVE: exactly correct power branch",
+      "pass": true,
+      "observed": [
+        "VBUS_NATIVE"
+      ]
+    },
+    {
+      "check": "SW1 NATIVE: mux enable",
+      "pass": true,
+      "observed": true
+    },
+    {
+      "check": "SW1 USB-A: select bits",
+      "pass": true,
+      "observed": [
+        0,
+        1
+      ]
+    },
+    {
+      "check": "SW1 USB-A: exactly correct power branch",
+      "pass": true,
+      "observed": [
+        "VBUS_USBA"
+      ]
+    },
+    {
+      "check": "SW1 USB-A: mux enable",
+      "pass": true,
+      "observed": true
+    },
+    {
+      "check": "SW1 SILVER: select bits",
+      "pass": true,
+      "observed": [
+        1,
+        0
+      ]
+    },
+    {
+      "check": "SW1 SILVER: exactly correct power branch",
+      "pass": true,
+      "observed": [
+        "5V_SERIAL"
+      ]
+    },
+    {
+      "check": "SW1 SILVER: mux enable",
+      "pass": true,
+      "observed": true
+    },
+    {
+      "check": "SW1 UART: select bits",
+      "pass": true,
+      "observed": [
+        1,
+        1
+      ]
+    },
+    {
+      "check": "SW1 UART: exactly correct power branch",
+      "pass": true,
+      "observed": [
+        "5V_SERIAL"
+      ]
+    },
+    {
+      "check": "SW1 UART: mux enable",
+      "pass": true,
+      "observed": true
+    },
+    {
+      "check": "SW1 OPEN_GAP: select bits",
+      "pass": true,
+      "observed": [
+        1,
+        1
+      ]
+    },
+    {
+      "check": "SW1 OPEN_GAP: exactly correct power branch",
+      "pass": true,
+      "observed": []
+    },
+    {
+      "check": "SW1 OPEN_GAP: mux enable",
+      "pass": true,
+      "observed": false
+    },
+    {
+      "check": "U2.1 = SIL_VREGEN",
+      "pass": true,
+      "observed": "SIL_VREGEN"
+    },
+    {
+      "check": "U2.2 = SIL_SUSPEND",
+      "pass": true,
+      "observed": "SIL_SUSPEND"
+    },
+    {
+      "check": "U2.3 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "U2.4 = SIL_1V8",
+      "pass": true,
+      "observed": "SIL_1V8"
+    },
+    {
+      "check": "U2.5 = SIL_PUR",
+      "pass": true,
+      "observed": "SIL_PUR"
+    },
+    {
+      "check": "U2.6 = SIL_DP",
+      "pass": true,
+      "observed": "SIL_DP"
+    },
+    {
+      "check": "U2.7 = SIL_DM",
+      "pass": true,
+      "observed": "SIL_DM"
+    },
+    {
+      "check": "U2.8 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U2.9 = SIL_RESET",
+      "pass": true,
+      "observed": "SIL_RESET"
+    },
+    {
+      "check": "U2.10 = SIL_SDA",
+      "pass": true,
+      "observed": "SIL_SDA"
+    },
+    {
+      "check": "U2.11 = SIL_SCL",
+      "pass": true,
+      "observed": "SIL_SCL"
+    },
+    {
+      "check": "U2.12 = None",
+      "pass": true
+    },
+    {
+      "check": "U2.13 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "U2.14 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "U2.15 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "U2.16 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "U2.17 = SIL_SIN",
+      "pass": true,
+      "observed": "SIL_SIN"
+    },
+    {
+      "check": "U2.18 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U2.19 = None",
+      "pass": true
+    },
+    {
+      "check": "U2.20 = None",
+      "pass": true
+    },
+    {
+      "check": "U2.21 = None",
+      "pass": true
+    },
+    {
+      "check": "U2.22 = None",
+      "pass": true
+    },
+    {
+      "check": "U2.23 = SIL_TEST0",
+      "pass": true,
+      "observed": "SIL_TEST0"
+    },
+    {
+      "check": "U2.24 = SIL_TEST1",
+      "pass": true,
+      "observed": "SIL_TEST1"
+    },
+    {
+      "check": "U2.25 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "U2.26 = SIL_X2",
+      "pass": true,
+      "observed": "SIL_X2"
+    },
+    {
+      "check": "U2.27 = SIL_X1",
+      "pass": true,
+      "observed": "SIL_X1"
+    },
+    {
+      "check": "U2.28 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U2.29 = TI_GPIO_RING",
+      "pass": true,
+      "observed": "TI_GPIO_RING"
+    },
+    {
+      "check": "U2.30 = TI_GPIO_TIP",
+      "pass": true,
+      "observed": "TI_GPIO_TIP"
+    },
+    {
+      "check": "U2.31 = TP_GPIO31",
+      "pass": true,
+      "observed": "TP_GPIO31"
+    },
+    {
+      "check": "U2.32 = TP_GPIO30",
+      "pass": true,
+      "observed": "TP_GPIO30"
+    },
+    {
+      "check": "U2.33 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "R7 joins USB_SIL_DP / SIL_DP",
+      "pass": true
+    },
+    {
+      "check": "R7 value 22R",
+      "pass": true,
+      "observed": "22R 1%"
+    },
+    {
+      "check": "R8 joins USB_SIL_DM / SIL_DM",
+      "pass": true
+    },
+    {
+      "check": "R8 value 22R",
+      "pass": true,
+      "observed": "22R 1%"
+    },
+    {
+      "check": "R9 joins SIL_PUR / USB_SIL_DP",
+      "pass": true
+    },
+    {
+      "check": "R9 value 1.5k",
+      "pass": true,
+      "observed": "1.5k 1%"
+    },
+    {
+      "check": "R10 joins 3V3 / SIL_RESET",
+      "pass": true
+    },
+    {
+      "check": "R10 value 15k",
+      "pass": true,
+      "observed": "15k 1%"
+    },
+    {
+      "check": "R11 joins SIL_RESET / SIL_VREGEN",
+      "pass": true
+    },
+    {
+      "check": "R11 value 32.4k",
+      "pass": true,
+      "observed": "32.4k 1%"
+    },
+    {
+      "check": "C11 joins SIL_RESET / GND",
+      "pass": true
+    },
+    {
+      "check": "D10.1 = SIL_SUSPEND",
+      "pass": true,
+      "observed": "SIL_SUSPEND"
+    },
+    {
+      "check": "D10.2 = SIL_VREGEN",
+      "pass": true,
+      "observed": "SIL_VREGEN"
+    },
+    {
+      "check": "R12 joins 3V3 / SIL_1V8",
+      "pass": true
+    },
+    {
+      "check": "R12 value 90.9k",
+      "pass": true,
+      "observed": "90.9k 1%"
+    },
+    {
+      "check": "R13 joins SIL_1V8 / GND",
+      "pass": true
+    },
+    {
+      "check": "R13 value 100k",
+      "pass": true,
+      "observed": "100k 1%"
+    },
+    {
+      "check": "R14 joins SIL_TEST0 / 3V3",
+      "pass": true
+    },
+    {
+      "check": "R14 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "R15 joins SIL_TEST1 / 3V3",
+      "pass": true
+    },
+    {
+      "check": "R15 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "R16 joins SIL_SIN / 3V3",
+      "pass": true
+    },
+    {
+      "check": "R16 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "Y2.1 = SIL_X1",
+      "pass": true,
+      "observed": "SIL_X1"
+    },
+    {
+      "check": "Y2.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "Y2.3 = SIL_X2",
+      "pass": true,
+      "observed": "SIL_X2"
+    },
+    {
+      "check": "Y2.4 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "C12 joins SIL_X1 / GND",
+      "pass": true
+    },
+    {
+      "check": "C13 joins SIL_X2 / GND",
+      "pass": true
+    },
+    {
+      "check": "J4.1 = TI_TIP",
+      "pass": true,
+      "observed": "TI_TIP"
+    },
+    {
+      "check": "J4.2 = TI_RING",
+      "pass": true,
+      "observed": "TI_RING"
+    },
+    {
+      "check": "J4.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "Q1.1 = TI_BASE_TIP",
+      "pass": true,
+      "observed": "TI_BASE_TIP"
+    },
+    {
+      "check": "Q1.2 = TI_GPIO_TIP",
+      "pass": true,
+      "observed": "TI_GPIO_TIP"
+    },
+    {
+      "check": "Q1.3 = TI_TIP",
+      "pass": true,
+      "observed": "TI_TIP"
+    },
+    {
+      "check": "D8.1 = TI_TIP",
+      "pass": true,
+      "observed": "TI_TIP"
+    },
+    {
+      "check": "D8.2 = TI_GPIO_TIP",
+      "pass": true,
+      "observed": "TI_GPIO_TIP"
+    },
+    {
+      "check": "R19 joins 3V3 / TI_BASE_TIP",
+      "pass": true
+    },
+    {
+      "check": "R19 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "R17 joins 3V3 / TI_GPIO_TIP",
+      "pass": true
+    },
+    {
+      "check": "R17 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "Q2.1 = TI_BASE_RING",
+      "pass": true,
+      "observed": "TI_BASE_RING"
+    },
+    {
+      "check": "Q2.2 = TI_GPIO_RING",
+      "pass": true,
+      "observed": "TI_GPIO_RING"
+    },
+    {
+      "check": "Q2.3 = TI_RING",
+      "pass": true,
+      "observed": "TI_RING"
+    },
+    {
+      "check": "D9.1 = TI_RING",
+      "pass": true,
+      "observed": "TI_RING"
+    },
+    {
+      "check": "D9.2 = TI_GPIO_RING",
+      "pass": true,
+      "observed": "TI_GPIO_RING"
+    },
+    {
+      "check": "R20 joins 3V3 / TI_BASE_RING",
+      "pass": true
+    },
+    {
+      "check": "R20 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "R18 joins 3V3 / TI_GPIO_RING",
+      "pass": true
+    },
+    {
+      "check": "R18 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "U4.1 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U4.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U4.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U4.4 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U4.5 = EE_SDA",
+      "pass": true,
+      "observed": "EE_SDA"
+    },
+    {
+      "check": "U4.6 = EE_SCL",
+      "pass": true,
+      "observed": "EE_SCL"
+    },
+    {
+      "check": "U4.7 = EE_WP",
+      "pass": true,
+      "observed": "EE_WP"
+    },
+    {
+      "check": "U4.8 = EE_VCC",
+      "pass": true,
+      "observed": "EE_VCC"
+    },
+    {
+      "check": "J8.1 = EE_VCC",
+      "pass": true,
+      "observed": "EE_VCC"
+    },
+    {
+      "check": "J8.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J8.3 = EE_SCL",
+      "pass": true,
+      "observed": "EE_SCL"
+    },
+    {
+      "check": "J8.4 = EE_SDA",
+      "pass": true,
+      "observed": "EE_SDA"
+    },
+    {
+      "check": "J8.5 = EE_WP",
+      "pass": true,
+      "observed": "EE_WP"
+    },
+    {
+      "check": "J8.6 = SIL_RESET",
+      "pass": true,
+      "observed": "SIL_RESET"
+    },
+    {
+      "check": "J9.1 = SIL_SCL",
+      "pass": true,
+      "observed": "SIL_SCL"
+    },
+    {
+      "check": "J9.2 = EE_SCL",
+      "pass": true,
+      "observed": "EE_SCL"
+    },
+    {
+      "check": "J10.1 = EE_WP",
+      "pass": true,
+      "observed": "EE_WP"
+    },
+    {
+      "check": "J10.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "R23 joins SIL_SDA / EE_SDA",
+      "pass": true
+    },
+    {
+      "check": "R23 value 0R",
+      "pass": true,
+      "observed": "0R 1%"
+    },
+    {
+      "check": "R25 joins 3V3 / EE_VCC",
+      "pass": true
+    },
+    {
+      "check": "R25 value 0R",
+      "pass": true,
+      "observed": "0R 1%"
+    },
+    {
+      "check": "R21 joins EE_SDA / EE_VCC",
+      "pass": true
+    },
+    {
+      "check": "R21 value 4.7k",
+      "pass": true,
+      "observed": "4.7k 1%"
+    },
+    {
+      "check": "R22 joins EE_SCL / EE_VCC",
+      "pass": true
+    },
+    {
+      "check": "R22 value 4.7k",
+      "pass": true,
+      "observed": "4.7k 1%"
+    },
+    {
+      "check": "R27 joins EE_WP / EE_VCC",
+      "pass": true
+    },
+    {
+      "check": "R27 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "No permanent parallel path around removable J9",
+      "pass": true
+    },
+    {
+      "check": "U3.1 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "U3.2 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U3.3 = 5V_SERIAL",
+      "pass": true,
+      "observed": "5V_SERIAL"
+    },
+    {
+      "check": "U3.4 = UART_TX",
+      "pass": true,
+      "observed": "UART_TX"
+    },
+    {
+      "check": "U3.5 = UART_RX",
+      "pass": true,
+      "observed": "UART_RX"
+    },
+    {
+      "check": "U3.6 = UART_V3",
+      "pass": true,
+      "observed": "UART_V3"
+    },
+    {
+      "check": "U3.7 = USB_UART_DP",
+      "pass": true,
+      "observed": "USB_UART_DP"
+    },
+    {
+      "check": "U3.8 = USB_UART_DM",
+      "pass": true,
+      "observed": "USB_UART_DM"
+    },
+    {
+      "check": "U3.9 = 5V_SERIAL",
+      "pass": true,
+      "observed": "5V_SERIAL"
+    },
+    {
+      "check": "U3.10 = None",
+      "pass": true
+    },
+    {
+      "check": "U3.11 = None",
+      "pass": true
+    },
+    {
+      "check": "U3.12 = None",
+      "pass": true
+    },
+    {
+      "check": "U3.13 = None",
+      "pass": true
+    },
+    {
+      "check": "U3.14 = None",
+      "pass": true
+    },
+    {
+      "check": "U3.15 = None",
+      "pass": true
+    },
+    {
+      "check": "U3.16 = None",
+      "pass": true
+    },
+    {
+      "check": "U3.17 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U7.1 = None",
+      "pass": true
+    },
+    {
+      "check": "U7.2 = UART_TX",
+      "pass": true,
+      "observed": "UART_TX"
+    },
+    {
+      "check": "U7.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U7.4 = UART_TX_OD",
+      "pass": true,
+      "observed": "UART_TX_OD"
+    },
+    {
+      "check": "U7.5 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "U8.1 = None",
+      "pass": true
+    },
+    {
+      "check": "U8.2 = UART_RX_FILTER",
+      "pass": true,
+      "observed": "UART_RX_FILTER"
+    },
+    {
+      "check": "U8.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "U8.4 = UART_RX",
+      "pass": true,
+      "observed": "UART_RX"
+    },
+    {
+      "check": "U8.5 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "TX non-inverting open drain part",
+      "pass": true
+    },
+    {
+      "check": "RX non-inverting tolerant Schmitt part",
+      "pass": true
+    },
+    {
+      "check": "D16.1 = UART_PULLUP",
+      "pass": true,
+      "observed": "UART_PULLUP"
+    },
+    {
+      "check": "D16.2 = 3V3",
+      "pass": true,
+      "observed": "3V3"
+    },
+    {
+      "check": "R28 joins UART_TX_OD / UART_PULLUP",
+      "pass": true
+    },
+    {
+      "check": "R28 value 10k",
+      "pass": true,
+      "observed": "10k 1%"
+    },
+    {
+      "check": "R29 joins UART_TX_OD / UART_TX_EXT",
+      "pass": true
+    },
+    {
+      "check": "R29 value 1k",
+      "pass": true,
+      "observed": "1k 1%"
+    },
+    {
+      "check": "R30 joins UART_RX_EXT / UART_RX_FILTER",
+      "pass": true
+    },
+    {
+      "check": "R30 value 1k",
+      "pass": true,
+      "observed": "1k 1%"
+    },
+    {
+      "check": "R31 joins UART_RX_FILTER / UART_PULLUP",
+      "pass": true
+    },
+    {
+      "check": "R31 value 47k",
+      "pass": true,
+      "observed": "47k 1%"
+    },
+    {
+      "check": "J5.1 = CASIO_RX",
+      "pass": true,
+      "observed": "CASIO_RX"
+    },
+    {
+      "check": "J5.2 = CASIO_TX",
+      "pass": true,
+      "observed": "CASIO_TX"
+    },
+    {
+      "check": "J5.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J6.1 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "J6.2 = AUX_RX",
+      "pass": true,
+      "observed": "AUX_RX"
+    },
+    {
+      "check": "J6.3 = AUX_TX",
+      "pass": true,
+      "observed": "AUX_TX"
+    },
+    {
+      "check": "J6.4 = None",
+      "pass": true
+    },
+    {
+      "check": "J7.1 = CASIO_RX",
+      "pass": true,
+      "observed": "CASIO_RX"
+    },
+    {
+      "check": "J7.2 = CASIO_TX",
+      "pass": true,
+      "observed": "CASIO_TX"
+    },
+    {
+      "check": "J7.3 = UART_RX_EXT",
+      "pass": true,
+      "observed": "UART_RX_EXT"
+    },
+    {
+      "check": "J7.4 = UART_TX_EXT",
+      "pass": true,
+      "observed": "UART_TX_EXT"
+    },
+    {
+      "check": "J7.5 = AUX_RX",
+      "pass": true,
+      "observed": "AUX_RX"
+    },
+    {
+      "check": "J7.6 = AUX_TX",
+      "pass": true,
+      "observed": "AUX_TX"
+    },
+    {
+      "check": "UART modes paired and exclusive",
+      "pass": true
+    },
+    {
+      "check": "D4.1 = TI_TIP",
+      "pass": true,
+      "observed": "TI_TIP"
+    },
+    {
+      "check": "D4.2 = TI_RING",
+      "pass": true,
+      "observed": "TI_RING"
+    },
+    {
+      "check": "D4.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "D5.1 = CASIO_RX",
+      "pass": true,
+      "observed": "CASIO_RX"
+    },
+    {
+      "check": "D5.2 = CASIO_TX",
+      "pass": true,
+      "observed": "CASIO_TX"
+    },
+    {
+      "check": "D5.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "D6.1 = AUX_RX",
+      "pass": true,
+      "observed": "AUX_RX"
+    },
+    {
+      "check": "D6.2 = AUX_TX",
+      "pass": true,
+      "observed": "AUX_TX"
+    },
+    {
+      "check": "D6.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "D7.1 = CC1",
+      "pass": true,
+      "observed": "CC1"
+    },
+    {
+      "check": "D7.2 = CC2",
+      "pass": true,
+      "observed": "CC2"
+    },
+    {
+      "check": "D7.3 = GND",
+      "pass": true,
+      "observed": "GND"
+    },
+    {
+      "check": "C1 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C2 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C3 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C4 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C5 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C6 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C7 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C8 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C9 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C10 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C11 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C12 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C13 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C14 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C15 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C16 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C17 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C18 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C19 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C20 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C21 has ground return and distinct terminal",
+      "pass": true
+    },
+    {
+      "check": "C22 has ground return and distinct terminal",
+      "pass": true
+    }
+  ],
+  "scope": "Independent logical design audit only. No EDA export, PCB copper, analogue simulation or hardware measurement is implied.",
+  "design_sha256": "0877a26f484a80654b146c332041a5291ad61c37b861dc38caf7ec7c4f77a43d",
+  "logical_pin_map_sha256": "ae5f572f8ca68bed60f05a26d7b1c6b1a621bc0aca4289133fced656f29e7b17"
+}

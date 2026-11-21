@@ -1,0 +1,222 @@
+{
+  "schema": "calxus.native-qfn-paste-check.v1",
+  "snapshot_file": "qfn-footprint-sources-native-fixed.json",
+  "snapshot_bytes": 91369,
+  "snapshot_sha256": "dfdc5a43c03b492c444b46f6361648edfb4f99d96b6bf490b7cf7882d0089d9a",
+  "native_exported_at": "2026-11-21T09:48:33.547Z",
+  "project_uuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+  "baseline_archive_sha256": "89a5900eadeafcf96c7f488b5a86ed0c1d5a850b1fee566fb0b3807436e7f6a9",
+  "document_footprint_api_count": 0,
+  "scope": "Actual source returned by the imported project-linked library fallback. This is native source verification, not rendered TopPaste Gerber verification.",
+  "results": [
+    {
+      "reference": "U2",
+      "footprint_uuid": "6d6747048cb070d5",
+      "source_method": "lib_Footprint.getDocumentSource fallback",
+      "source_project_library_uuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+      "duplicate_identical_dochead_count": 2,
+      "nonheader_duplicate_keys": false,
+      "ep_pin": "33",
+      "ep_paste_window_count": 4,
+      "single_original_window_remaining": false,
+      "all_top_paste_fill_count": 36,
+      "peripheral_paste_fill_count": 32,
+      "peripheral_paste_and_all_pad_fields_unchanged": true,
+      "ep_auto_paste_expansion_mil": {
+        "top": -3937,
+        "bottom": -3937
+      },
+      "apertures": [
+        {
+          "id": "e15",
+          "center_relative_ep_mm": [
+            -0.8450000000017,
+            -0.8450000000017
+          ],
+          "size_mm": [
+            1.4900000000042,
+            1.4900000000042
+          ],
+          "corner_radius_mm": 0.049999999999799996,
+          "bbox_local_mm": [
+            -1.5900000000038,
+            -1.5900000000038002,
+            -0.09999999999959988,
+            -0.09999999999959999
+          ]
+        },
+        {
+          "id": "e116",
+          "center_relative_ep_mm": [
+            0.8450000000017,
+            -0.8450000000017
+          ],
+          "size_mm": [
+            1.4900000000042,
+            1.4900000000042
+          ],
+          "corner_radius_mm": 0.049999999999799996,
+          "bbox_local_mm": [
+            0.09999999999959999,
+            -1.5900000000038002,
+            1.5900000000038002,
+            -0.09999999999959999
+          ]
+        },
+        {
+          "id": "e117",
+          "center_relative_ep_mm": [
+            -0.8450000000017,
+            0.8450000000017
+          ],
+          "size_mm": [
+            1.4900000000042,
+            1.4900000000042
+          ],
+          "corner_radius_mm": 0.049999999999799996,
+          "bbox_local_mm": [
+            -1.5900000000038,
+            0.09999999999959988,
+            -0.09999999999959988,
+            1.5900000000038
+          ]
+        },
+        {
+          "id": "e118",
+          "center_relative_ep_mm": [
+            0.8450000000017,
+            0.8450000000017
+          ],
+          "size_mm": [
+            1.4900000000042,
+            1.4900000000042
+          ],
+          "corner_radius_mm": 0.049999999999799996,
+          "bbox_local_mm": [
+            0.09999999999959999,
+            0.09999999999959988,
+            1.5900000000038002,
+            1.5900000000038
+          ]
+        }
+      ],
+      "pairwise_overlap_areas_mm2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "web_mm": 0.19999999999999996,
+      "coverage_percent": 72.42327684862204,
+      "pass": true
+    },
+    {
+      "reference": "U3",
+      "footprint_uuid": "c020f55e3a184cd3",
+      "source_method": "lib_Footprint.getDocumentSource fallback",
+      "source_project_library_uuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+      "duplicate_identical_dochead_count": 2,
+      "nonheader_duplicate_keys": false,
+      "ep_pin": "17",
+      "ep_paste_window_count": 4,
+      "single_original_window_remaining": false,
+      "all_top_paste_fill_count": 20,
+      "peripheral_paste_fill_count": 16,
+      "peripheral_paste_and_all_pad_fields_unchanged": true,
+      "ep_auto_paste_expansion_mil": {
+        "top": -3937,
+        "bottom": -3937
+      },
+      "apertures": [
+        {
+          "id": "e47",
+          "center_relative_ep_mm": [
+            -0.42499999999829996,
+            -0.42499999999829996
+          ],
+          "size_mm": [
+            0.6499999999974,
+            0.6499999999974
+          ],
+          "corner_radius_mm": 0.049999999999799996,
+          "bbox_local_mm": [
+            -0.749847599997,
+            -0.749974599997,
+            -0.09984759999960005,
+            -0.0999745999996
+          ]
+        },
+        {
+          "id": "e66",
+          "center_relative_ep_mm": [
+            0.42499999999829996,
+            -0.42499999999829996
+          ],
+          "size_mm": [
+            0.6499999999974,
+            0.6499999999974
+          ],
+          "corner_radius_mm": 0.049999999999799996,
+          "bbox_local_mm": [
+            0.1001523999996,
+            -0.749974599997,
+            0.7501523999969999,
+            -0.0999745999996
+          ]
+        },
+        {
+          "id": "e67",
+          "center_relative_ep_mm": [
+            -0.42499999999829996,
+            0.4249999999982999
+          ],
+          "size_mm": [
+            0.6499999999974,
+            0.6499999999974
+          ],
+          "corner_radius_mm": 0.049999999999799996,
+          "bbox_local_mm": [
+            -0.749847599997,
+            0.1000253999996,
+            -0.09984759999960005,
+            0.7500253999969999
+          ]
+        },
+        {
+          "id": "e68",
+          "center_relative_ep_mm": [
+            0.42499999999829996,
+            0.4249999999982999
+          ],
+          "size_mm": [
+            0.6499999999974,
+            0.6499999999974
+          ],
+          "corner_radius_mm": 0.049999999999799996,
+          "bbox_local_mm": [
+            0.1001523999996,
+            0.1000253999996,
+            0.7501523999969999,
+            0.7500253999969999
+          ]
+        }
+      ],
+      "pairwise_overlap_areas_mm2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "web_mm": 0.19999999999999996,
+      "coverage_percent": 58.180714609215556,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "native_canvas_mutations_performed": false,
+  "top_paste_gerber_verified": false
+}

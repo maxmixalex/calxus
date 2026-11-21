@@ -1,0 +1,26 @@
+{
+  "schema": "calxus.canonical-native-deliverables.v1",
+  "selected_original_native_archive": {
+    "path": "hardware/native/Calxus_RevA_final.epro2",
+    "sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+    "bytes": 346898
+  },
+  "canonical_archive": {
+    "path": "hardware/native/Calxus_RevA.epro2",
+    "sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+    "bytes": 346898
+  },
+  "native_original_unchanged": true,
+  "diagnostic_copy_not_selected": true,
+  "gerber": {
+    "path": "hardware/manufacturing/Calxus_RevA_Gerber.zip",
+    "sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+    "bytes": 212148
+  },
+  "schematic_pdf": {
+    "path": "hardware/schematic/Calxus_RevA_schematic.pdf",
+    "sha256": "77b6e4918fc024a38e6ae59e9ba34164da7999fc66308e35dbaae1b2b98c003f",
+    "bytes": 283420
+  },
+  "manufacturing_release_accepted": false
+}

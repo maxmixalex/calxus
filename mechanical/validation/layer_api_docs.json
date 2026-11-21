@@ -1,0 +1,41 @@
+{
+  "source": "Native EasyEDA Pro doc.api PCB_Layer, retrieved 2026-11-21",
+  "methods": {
+    "getStackup": {
+      "title": "读取当前 PCB 的物理叠层与铜厚",
+      "remarks": "返回层序、铜厚、介质厚度、材料与介电常数等物理参数\n\nADD since EDA v4.1.93",
+      "visibility": "beta",
+      "params": [],
+      "returns": {
+        "type": "IPCB_Stackup",
+        "description": "物理叠层数据"
+      },
+      "isAsync": true
+    },
+    "modifyLayer": {
+      "title": "修改图层属性",
+      "remarks": "仅内层和自定义层允许修改名称；仅内层允许修改类型, 透明度仅支持0-100之间的数",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "layer",
+          "type": "TPCB_LayersInTheSelectable",
+          "description": "层",
+          "required": true
+        },
+        {
+          "name": "property",
+          "type": "{ name?: string; type?: TPCB_LayerTypesOfInnerLayer; color?: string; transparency?: number }",
+          "description": "属性",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean",
+        "description": "修改后的图层属性，如若为 `undefined` 则代表修改失败或图层不存在"
+      },
+      "example": "```javascript\n// 1. 新增一个自定义层作为修改对象\nconst customLayerId = await eda.pcb_Layer.addCustomLayer();\n\n// 2. 读取修改前的名称与颜色\nconst before = (await eda.pcb_Layer.getAllLayers()).find(l => l.id === customLayerId);\n\n// 3. 修改名称、颜色与透明度（保留现场供观察）\nconst modifyResult = await eda.pcb_Layer.modifyLayer(customLayerId, {\n  name: '嘉立创示例_工艺说明',\n  color: '#FF6600',\n  transparency: 30,\n});\n\n// 4. 重新读取图层列表确认修改生效\nconst after = (await eda.pcb_Layer.getAllLayers()).find(l => l.id === customLayerId);\n\nconsole.log('modifyResult:', modifyResult);\nconsole.log('nameBefore:', before?.name, '→ nameAfter:', after?.name);\nconsole.log('colorBefore:', before?.color, '→ colorAfter:', after?.color);\n```",
+      "isAsync": true
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schema": "calxus.routing-native-handoff.v1",
+  "frozen_at_utc": "2026-11-21T13:09:41.575807+00:00",
+  "canonical_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "canonical_live_project_uuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+  "pcb_uuid": "2a0c39c6c6694f40",
+  "manufacturing_release_accepted": false,
+  "native_drc_passed": false,
+  "raw_native_error_leaf_count": 4,
+  "reviewed_metric_items": [
+    "USB_UP",
+    "USB_SIL",
+    "USB_UART"
+  ],
+  "unexplained_native_item": "Import Changes: Schematic Netlist vs PCB Netlist mismatch; exact97/345/21pin-map andsourcebindings independently pass; isolated repair attempts did not remove native leaf.",
+  "ratline_count": 0,
+  "live_LINE_count": 1493,
+  "archive_LINE_count": 1508,
+  "VIA_count": 189,
+  "component_count": 97,
+  "preserved_rule_limit_mm": 0.254,
+  "artifacts": [
+    {
+      "path": "hardware/native/Calxus_RevA_final.epro2",
+      "bytes": 346898,
+      "sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac"
+    },
+    {
+      "path": "hardware/native/Calxus_RevA_final_routing.png",
+      "bytes": 1020967,
+      "sha256": "93daf0eb258abb1f33b218801b5960e3efcfb43b3c0c901f0fc462b31313f32f"
+    },
+    {
+      "path": "hardware/native/Calxus_RevA_final_routing.svg.gz",
+      "bytes": 4719717,
+      "sha256": "87be064402c759ebd3d7746b17d6cb8e375c77d64578a710a77174c5e3e4c749"
+    },
+    {
+      "path": "validation/native-final-geometry.json",
+      "bytes": 24379,
+      "sha256": "3194489a73a68887282381e32e9a2b74ad7728c40201038af6a13c6ac265755b"
+    },
+    {
+      "path": "validation/native-final-usb-path-lengths.json",
+      "bytes": 121900,
+      "sha256": "7748993f67083c4a8fb470c786896a004324ad2c65d4d7f5883f07aa1eebaea2"
+    },
+    {
+      "path": "validation/native-differential-length-semantics.json",
+      "bytes": 13008,
+      "sha256": "5bbfddc021f0c126fc129866d68aeaef0092295c33b0886c66ade7079b2e4b77"
+    },
+    {
+      "path": "validation/native-final-drc-raw-tree.json",
+      "bytes": 7463,
+      "sha256": "a738e5950e11488b1b0771ccf5eb46e9115a969874abd746a3080a29a245c73d"
+    },
+    {
+      "path": "validation/native-final-drc-readback-summary.json",
+      "bytes": 3268,
+      "sha256": "5f6cab4b6cc0a447d1be09911da4c151dab7cca3d1aff68abc5bd24db1281222"
+    },
+    {
+      "path": "validation/native-final-to-candidate.json",
+      "bytes": 51119,
+      "sha256": "b738aeb21c6bfea4dd4429ef54751a67efc4e9105b8c76a2a6e2877dbe6edbc3"
+    },
+    {
+      "path": "validation/native-final-line-count-reconciliation.json",
+      "bytes": 3788,
+      "sha256": "ba1e9fce9e95d85fdffb441131590424593da75bd5d5ac5b2c5a9b54f366fa9e"
+    },
+    {
+      "path": "validation/native-final-preview-compression.json",
+      "bytes": 430,
+      "sha256": "c6911ba16d8cf74d0b8914428eeff2e7782223069f7cdaa49b379a1d6a061ff9"
+    },
+    {
+      "path": "validation/native-netlist-reference-diagnostic.json",
+      "bytes": 6277,
+      "sha256": "376575ce15ebb983cd4b9cd1710835c402b40e3950d78ba50634459e22a80771"
+    },
+    {
+      "path": "validation/native-canonical-return-guard.json",
+      "bytes": 3682,
+      "sha256": "92e7a53e20c8ac158787514368a4cf8441ab0c4cd859748078ca14a09217ac2f"
+    },
+    {
+      "path": "validation/native-canonical-ready-for-review.json",
+      "bytes": 933,
+      "sha256": "a7ed921f6c4405559bb0f7932a02b0114f9e8d2bd0b02b7b92f7567a13b8e446"
+    },
+    {
+      "path": "validation/native-final-pcba-export.json",
+      "bytes": 2424,
+      "sha256": "2d1b6de58f838e601f49837f2b093baca78978a7df144eeaf6e4c3065862e7a3"
+    },
+    {
+      "path": "automation/lceda_reconcile_final_copper.js",
+      "bytes": 19294,
+      "sha256": "12df341130a1a825ea76fc7859c369f386ac6bd9326905776b246a88da28045b"
+    },
+    {
+      "path": "automation/lceda_apply_functional_silk.js",
+      "bytes": 7023,
+      "sha256": "76aa6c4c0e2c52564580b8bdd7944455ec545bc020ca39cfcf2f9971444bb8e4"
+    },
+    {
+      "path": "automation/lceda_finalize_native_release.js",
+      "bytes": 5078,
+      "sha256": "9ffef7aef1d208092e95c7f33737ba5aa2bb8adc9a728c71d0fe4d8c82cade2d"
+    },
+    {
+      "path": "automation/lceda_diagnostic_reference_netlist.js",
+      "bytes": 2959,
+      "sha256": "810bc677e97ccad83aa42f245059533b4db0a871f02428519286ec96857b649e"
+    },
+    {
+      "path": "automation/lceda_diagnostic_guarded_eco.js",
+      "bytes": 3363,
+      "sha256": "ad07adcb3dd899450598e62a05e58cb14bffd7f909bc44c8408310ed260319fe"
+    },
+    {
+      "path": "tools/compare_native_final_to_candidate.py",
+      "bytes": 5575,
+      "sha256": "fe8c3ce4324466de208c6bda83a948458966ea9b809cd21ed2bbcb02ac08f64b"
+    },
+    {
+      "path": "tools/check_native_candidate_geometry.py",
+      "bytes": 18708,
+      "sha256": "04671515e0a27d3d99cc96d8418ad69fc3555dc2141d9f8b3d4c3b446c640b9b"
+    },
+    {
+      "path": "tools/measure_native_usb_paths.py",
+      "bytes": 8967,
+      "sha256": "6fd48238cef9328fabc3d94ab18c6658a4621c5b6437f99c284f2014b5c17db9"
+    },
+    {
+      "path": "tools/diagnose_native_differential_lengths.py",
+      "bytes": 4401,
+      "sha256": "6373dec4b2b777583ac5e79889e64d2e1c9f18fb336e0e40e958d4e82efb6b72"
+    }
+  ]
+}

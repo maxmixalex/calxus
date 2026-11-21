@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-21",
+  "note": "Manufacturer documents consulted, local retrieval hashes recorded. Original manufacturer PDFs are linked rather than republished in this project. Local EDA catalog snapshot records supplier identity, not a future inventory guarantee.",
+  "sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tusb3410.pdf",
+      "local": "tusb3410.pdf",
+      "sections": [
+        "3pinfunctions",
+        "4.5currents",
+        "6.5crystal",
+        "6.6buspoweredsuspend"
+      ],
+      "retrieved_file_sha256": "1ee2c8831308d541c91d3b3d32babef48b30f727953e6938663a906af547c0fa",
+      "retrieved_file_bytes": 3000184,
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://www.wch-ic.com/downloads/CH343DS1_PDF.html",
+      "local": "ch343.pdf",
+      "version": "2.0manufacturerdatasheetmirroredbydistributor",
+      "sections": [
+        "pinout",
+        "VIO",
+        "powercurrents"
+      ],
+      "retrieved_file_sha256": "d1dba2658f17b842a14a1911e65ce1a19fa8d1fdb8f777183e4cde4febb34865",
+      "retrieved_file_bytes": 277847,
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://github.com/queueRAM/ti_graph_link",
+      "local": "silverlink_schematic.kicad_sch",
+      "sections": [
+        "SilverLinkBRev3schematic",
+        "READMEGPIOmapping"
+      ],
+      "retrieved_file_sha256": "c7ca2e77b5297105cab0e90086b5efc23e51e611538a3c3a3546cc4cc566fec4",
+      "retrieved_file_bytes": 141401,
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tps2552.pdf",
+      "local": "tps2552.pdf",
+      "sections": [
+        "pinsDBV",
+        "table9-2currentlimit"
+      ],
+      "retrieved_file_sha256": "b6a2d18ce02fb21eafcc7e1f1d8c4d69074cac38fad44d496682f3393f26445e",
+      "retrieved_file_bytes": 2470936,
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf",
+      "local": "sn74lvc1g07.pdf",
+      "retrieved_file_sha256": "0471dcddef6983c851c474963ea86075f98c26a2995b7337218aecfedf1ee9c4",
+      "retrieved_file_bytes": 3049621,
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "local": "sn74lvc1g17.pdf",
+      "retrieved_file_sha256": "74ff979da5dcaf2b3695cf9a500b46962bb8489033db989b5537ec5cef88c61d",
+      "retrieved_file_bytes": 3015528,
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://www.allenwan.com/hpcalcserialcable/",
+      "scope": "HP50gonly;39gsnotproven",
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://www.wch.cn/downloads/CH440DS1_PDF.html",
+      "local": "ch444.pdf",
+      "version": "3E (literal identifier on retrieved manufacturer manual)",
+      "sections": [
+        "4.4 CH444G pins",
+        "control truth table",
+        "6 electrical characteristics"
+      ],
+      "retrieved_file_sha256": "9d1e117e3f2726c5822cb1359ee019db496de6ddb388dc548022f220e7a9a908",
+      "retrieved_file_bytes": 295501,
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://tech.alpsalpine.com/e/products/detail/SSSS224100/",
+      "local": "../evidence/alps_circuit.gif",
+      "sections": [
+        "nonshorting DP4T",
+        "commons3 and8",
+        "contact rating"
+      ],
+      "retrieved_file_sha256": "314dd5b6ed4d6ad1bf3f435542d30a9c6d4d9b8177797384e1f09f89ecc83e9d",
+      "retrieved_file_bytes": 5077,
+      "retrieved_date": "2026-11-21"
+    },
+    {
+      "url": "https://www.nexperia.com/product/PESD5V0S2BT",
+      "scope": "bidirectional dual-line low-speed ESD pinout"
+    },
+    {
+      "url": "https://www.diodes.com/assets/Datasheets/BAT54A_BAT54C_BAT54S.pdf",
+      "scope": "BAT54A common-anode/BAT54C common-cathode pinout"
+    },
+    {
+      "url": "https://www.diodes.com/assets/Datasheets/AP2112.pdf",
+      "scope": "LDO pin map and capacitance"
+    },
+    {
+      "url": "https://www.lcsc.com/product-detail/C3338413.html",
+      "scope": "Harwin1x2 service headers"
+    },
+    {
+      "url": "https://www.lcsc.com/product-detail/C131339.html",
+      "scope": "PH1x3 tail-pad footprint identity"
+    },
+    {
+      "url": "https://www.lcsc.com/product-detail/C5305.html",
+      "scope": "manual2.54mm shunt accessory"
+    },
+    {
+      "url": "https://datasheet.lcsc.com/datasheet/pdf/d8f5df2b196cdbe2164d9785cc185649.pdf?productCode=C456017",
+      "supplier_product_url": "https://www.lcsc.com/product-detail/C456017.html",
+      "manufacturer": "SHOU HAN",
+      "mpn": "AF 10.0 HC6.3",
+      "lcsc": "C456017",
+      "retrieved_date": "2026-11-21",
+      "retrieved_file_sha256": "ee5d4b8816e55fe004c6fe2ba3d62a638dca8d69ebdd43346dd025e3645a20a4",
+      "retrieved_file_bytes": 1328063,
+      "facts": {
+        "right_angle": true,
+        "body_depth_mm": 10,
+        "body_height_mm": 6.3,
+        "body_width_mm": 13.2,
+        "signals": 4,
+        "rear_shell_tabs": 2
+      },
+      "scope": "Original manufacturer dimensional drawing hosted by LCSC; linked, not republished. Stock observed31780 on2026-11-21 around10:13UTC; not future availability."
+    }
+  ]
+}

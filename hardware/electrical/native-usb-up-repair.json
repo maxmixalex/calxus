@@ -1,0 +1,430 @@
+{
+  "schema": "calxus.usb-up-reviewed-local-repair.v1",
+  "units": "mil",
+  "source_original_plan_sha256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+  "reason": "Remove historical USB_UP_DM wide-copper self-contact shortcut and match both Type-C orientations through either selected downstream branch.",
+  "authorization": "Explicit root approval: local USB_UP copper, ordinary VBUS_IN via28 move/resize, short10mil power neck within existing500mA rule minimum. Components and all HS vias unchanged.",
+  "modify_lines": [
+    {
+      "id": "ed40be3f38c7c27b",
+      "old": {
+        "id": "ed40be3f38c7c27b",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 263.5,
+        "y1": 797.2,
+        "x2": 225,
+        "y2": 797.2,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "ed40be3f38c7c27b",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 263.5,
+        "y1": 797.2,
+        "x2": 226.96850393700788,
+        "y2": 797.2,
+        "width": 9.5313,
+        "locked": true
+      }
+    },
+    {
+      "id": "fe1f780ca39d4696",
+      "old": {
+        "id": "fe1f780ca39d4696",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 225,
+        "y1": 797.2,
+        "x2": 225,
+        "y2": 836.6,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "fe1f780ca39d4696",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 226.96850393700788,
+        "y1": 797.2,
+        "x2": 226.96850393700788,
+        "y2": 836.6,
+        "width": 9.5313,
+        "locked": true
+      }
+    },
+    {
+      "id": "a4b12270ece21cb2",
+      "old": {
+        "id": "a4b12270ece21cb2",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 225,
+        "y1": 836.6,
+        "x2": 263.5,
+        "y2": 836.6,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "a4b12270ece21cb2",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 226.96850393700788,
+        "y1": 836.6,
+        "x2": 263.5,
+        "y2": 836.6,
+        "width": 9.5313,
+        "locked": true
+      }
+    },
+    {
+      "id": "7937cd24407e3ff6",
+      "old": {
+        "id": "7937cd24407e3ff6",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 600,
+        "y1": 770,
+        "x2": 584,
+        "y2": 750,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "7937cd24407e3ff6",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 600,
+        "y1": 770,
+        "x2": 582.7676280766193,
+        "y2": 750,
+        "width": 9.5313,
+        "locked": true
+      }
+    },
+    {
+      "id": "11266a3eaf608628",
+      "old": {
+        "id": "11266a3eaf608628",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 584,
+        "y1": 750,
+        "x2": 600,
+        "y2": 730,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "11266a3eaf608628",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 582.7676280766193,
+        "y1": 750,
+        "x2": 600,
+        "y2": 730,
+        "width": 9.5313,
+        "locked": true
+      }
+    }
+  ],
+  "delete_lines": [
+    {
+      "id": "1a6f28a2d6cd9325",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 263.5,
+      "y1": 816.9,
+      "x2": 302,
+      "y2": 816.9,
+      "width": 9.5313,
+      "locked": true
+    },
+    {
+      "id": "517d0ae7cba763ef",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 302,
+      "y1": 816.9,
+      "x2": 302,
+      "y2": 856.3,
+      "width": 9.5313,
+      "locked": true
+    },
+    {
+      "id": "2b1a9952812c796e",
+      "net": "VBUS_IN",
+      "layer": 1,
+      "x1": 368.14980119910734,
+      "y1": 826.7695535444411,
+      "x2": 334.00981963469746,
+      "y2": 826.7695535444411,
+      "width": 20.0,
+      "locked": false
+    },
+    {
+      "id": "02e07c79d1fc1f12",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 302,
+      "y1": 856.3,
+      "x2": 263.5,
+      "y2": 856.3,
+      "width": 9.5313,
+      "locked": true
+    },
+    {
+      "id": "d321584e04cfa2b5",
+      "net": "VBUS_IN",
+      "layer": 1,
+      "x1": 334.00981963469746,
+      "y1": 826.7695535444411,
+      "x2": 332.9298202178971,
+      "y2": 825.6895541276409,
+      "width": 20.0,
+      "locked": false
+    },
+    {
+      "id": "b6e1148e2fb122cf",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 263.5,
+      "y1": 856.3,
+      "x2": 368.1,
+      "y2": 864.2,
+      "width": 9.5313,
+      "locked": true
+    }
+  ],
+  "add_lines": [
+    {
+      "id": "up_A_0",
+      "tag": "up_A_0",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 263.5,
+      "y1": 816.9,
+      "x2": 307.0866141732283,
+      "y2": 816.9,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_1",
+      "tag": "up_A_1",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 307.0866141732283,
+      "y1": 816.9,
+      "x2": 309.0551181102362,
+      "y2": 818.868503937008,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_2",
+      "tag": "up_A_2",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 309.0551181102362,
+      "y1": 818.868503937008,
+      "x2": 309.0551181102362,
+      "y2": 831.4960629921261,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_3",
+      "tag": "up_A_3",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 309.0551181102362,
+      "y1": 831.4960629921261,
+      "x2": 311.02362204724415,
+      "y2": 833.464566929134,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_4",
+      "tag": "up_A_4",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 311.02362204724415,
+      "y1": 833.464566929134,
+      "x2": 334.251968503937,
+      "y2": 833.464566929134,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_5",
+      "tag": "up_A_5",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 334.251968503937,
+      "y1": 833.464566929134,
+      "x2": 336.2204724409449,
+      "y2": 835.4330708661417,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_6",
+      "tag": "up_A_6",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 336.2204724409449,
+      "y1": 835.4330708661417,
+      "x2": 336.2204724409449,
+      "y2": 847.244094488189,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_7",
+      "tag": "up_A_7",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 336.2204724409449,
+      "y1": 847.244094488189,
+      "x2": 334.251968503937,
+      "y2": 849.2125984251969,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_8",
+      "tag": "up_A_8",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 334.251968503937,
+      "y1": 849.2125984251969,
+      "x2": 301.18110236220474,
+      "y2": 849.2125984251969,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_A_9",
+      "tag": "up_A_9",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 301.18110236220474,
+      "y1": 849.2125984251969,
+      "x2": 301.18110236220474,
+      "y2": 856.3,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_B_0",
+      "tag": "up_B_0",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 263.5,
+      "y1": 856.3,
+      "x2": 301.18110236220474,
+      "y2": 856.3,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_B_1",
+      "tag": "up_B_1",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 301.18110236220474,
+      "y1": 856.3,
+      "x2": 310.62992125984255,
+      "y2": 865.7488188976379,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "up_B_2",
+      "tag": "up_B_2",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 310.62992125984255,
+      "y1": 865.7488188976379,
+      "x2": 368.1,
+      "y2": 864.1999999999999,
+      "width": 9.53125,
+      "locked": true
+    },
+    {
+      "id": "power_top_0",
+      "tag": "power_top_0",
+      "net": "VBUS_IN",
+      "layer": 1,
+      "x1": 368.14980119910734,
+      "y1": 826.7695535444411,
+      "x2": 336.6141732283465,
+      "y2": 812.5984251968505,
+      "width": 10,
+      "locked": false
+    },
+    {
+      "id": "power_bottom_0",
+      "tag": "power_bottom_0",
+      "net": "VBUS_IN",
+      "layer": 2,
+      "x1": 332.9298202178971,
+      "y1": 825.6895541276409,
+      "x2": 336.6141732283465,
+      "y2": 812.5984251968505,
+      "width": 20,
+      "locked": false
+    }
+  ],
+  "modify_vias": [
+    {
+      "id": "aef77ed306de1b93",
+      "tag": "iteration4_via28",
+      "old": {
+        "id": "aef77ed306de1b93",
+        "net": "VBUS_IN",
+        "x": 332.9298202178971,
+        "y": 825.6895541276409,
+        "diameter": 23.61998724520689,
+        "holeDiameter": 11.809993622603445,
+        "locked": false,
+        "mask": {
+          "top": -11.809993622603445,
+          "bottom": -11.809993622603445
+        }
+      },
+      "new": {
+        "id": "aef77ed306de1b93",
+        "net": "VBUS_IN",
+        "x": 336.6141732283465,
+        "y": 812.5984251968505,
+        "diameter": 19.68503937007874,
+        "holeDiameter": 7.874015748031497,
+        "locked": false,
+        "mask": {
+          "top": -9.84251968503937,
+          "bottom": -9.84251968503937
+        }
+      }
+    }
+  ],
+  "power_neck": {
+    "tag": "power_top_0",
+    "net": "VBUS_IN",
+    "width_mil": 10,
+    "length_mm": 0.8781631560951717,
+    "rule_min_mil": 10,
+    "default_power_width_mil": 20
+  },
+  "connector_path_skew_mm": {
+    "A": -0.01207359361866267,
+    "B": -0.20545139760279696
+  },
+  "all_existing_hs_vias_preserved": true,
+  "all_components_preserved": true
+}

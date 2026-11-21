@@ -1,0 +1,3471 @@
+{
+  "schema": "calxus.source-derived-step-instancing.v1",
+  "original_step_gz_sha256": "0600d55ee4667882723c5564e0cbf3183a566e30566b6d9328e32c494a50d8d7",
+  "original_step_gz_bytes": 28999072,
+  "instanced_step_gz_sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+  "instanced_step_gz_bytes": 7745606,
+  "instanced_step_bytes": 56290122,
+  "native_source_sha256": "f748813e98b0f77fead3a735b3de9cb38881a4b7807eb5af440bfa01ddc7a7e3",
+  "fitted_components": 93,
+  "native_leaf_occurrences": 93,
+  "unique_native_leaf_definitions": 20,
+  "occurrences": [
+    {
+      "component": "C1",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C1",
+        "C1~C0603~C0603_L1.6-W0.8-H0.8~MhSK",
+        "C1->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          10.500020320041
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          15.000030480061
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C10",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C10",
+        "C10~C0603~C0603_L1.6-W0.8-H0.8~4xsV",
+        "C10->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          43.500086360173
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          22.750045720091
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C11",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C11",
+        "C11~C0603~C0603_L1.6-W0.8-H0.8~Rs4y",
+        "C11->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          37.500076200152
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          22.500045720091
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C12",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C12",
+        "C12~C0603~C0603_L1.6-W0.8-H0.8~Aa9m",
+        "C12->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          45.500091440183
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          31.500063500127
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C13",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C13",
+        "C13~C0603~C0603_L1.6-W0.8-H0.8~mRkt",
+        "C13->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          52.500104140208
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          31.500063500127
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C14",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C14",
+        "C14~C0603~C0603_L1.6-W0.8-H0.8~c9bj",
+        "C14->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          38.500076200152
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          13.100025400051
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C15",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C15",
+        "C15~C0603~C0603_L1.6-W0.8-H0.8~5WlA",
+        "C15->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          58.000116840234
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.000027940056
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C16",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C16",
+        "C16~C0603~C0603_L1.6-W0.8-H0.8~KATo",
+        "C16->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          57.000114300229
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.500020320041
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C17",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C17",
+        "C17~C0603~C0603_L1.6-W0.8-H0.8~mfJY",
+        "C17->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          61.500121920244
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.000027940056
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C18",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C18",
+        "C18~C0603~C0603_L1.6-W0.8-H0.8~Ka3k",
+        "C18->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.000109220218
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.250027940056
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C19",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C19",
+        "C19~C0603~C0603_L1.6-W0.8-H0.8~GIig",
+        "C19->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.000109220218
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          24.850050800102
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C2",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C2",
+        "C2~C0603~C0603_L1.6-W0.8-H0.8~Zw31",
+        "C2->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          8.500017780036
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          17.000033020066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C20",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C20",
+        "C20~C0603~C0603_L1.6-W0.8-H0.8~kPAi",
+        "C20->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          68.000137160274
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          37.000073660147
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C21",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C21",
+        "C21~C0603~C0603_L1.6-W0.8-H0.8~e5iB",
+        "C21->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          36.400073660147
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          9.200017780036
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C22",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C22",
+        "C22~C0603~C0603_L1.6-W0.8-H0.8~VDU1",
+        "C22->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.500055880112
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.000030480061
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C3",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C3",
+        "C3~C0603~C0603_L1.6-W0.8-H0.8~3eNZ",
+        "C3->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.000058420117
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.800012700025
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C4",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C4",
+        "C4~C0603~C0603_L1.6-W0.8-H0.8~AXx1",
+        "C4->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          64.000127000254
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          39.000078740157
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C5",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C5",
+        "C5~C0603~C0603_L1.6-W0.8-H0.8~atdI",
+        "C5->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          17.500035560071
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          5.50001016002
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C6",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C6",
+        "C6~C0603~C0603_L1.6-W0.8-H0.8~0fEw",
+        "C6->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.000058420117
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          17.000033020066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C7",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C7",
+        "C7~C0603~C0603_L1.6-W0.8-H0.8~YNyG",
+        "C7->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          28.750058420117
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          23.500048260097
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C8",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C8",
+        "C8~C0603~C0603_L1.6-W0.8-H0.8~EKXp",
+        "C8->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          43.500086360173
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          26.300053340107
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "C9",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "C9",
+        "C9~C0603~C0603_L1.6-W0.8-H0.8~PDko",
+        "C9->0",
+        "C0603~C0603_L1.6-W0.8-H0.8~gboW"
+      ],
+      "canonical_shape_hash": 2280511730674642053,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          52.750106680213
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          28.300055880112
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.006203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D1",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D1",
+        "D1~SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~yKmk",
+        "D1->0",
+        "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~ro9B"
+      ],
+      "canonical_shape_hash": 7431735948385566999,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          10.500007620015
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          21.000055880112
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.654795442671
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D10",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D10",
+        "D10~SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~loAW",
+        "D10->0",
+        "SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~hsVB"
+      ],
+      "canonical_shape_hash": 1054804512988996662,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          37.500076200152
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          27.999954279909
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D11",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D11",
+        "D11~SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR~SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95~P9Qm",
+        "D11->0",
+        "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR~SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95~kNHY"
+      ],
+      "canonical_shape_hash": 291660968751383203,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          13.750027940056
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.500055880112
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D12",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D12",
+        "D12~SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~34w2",
+        "D12->0",
+        "SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~hsVB"
+      ],
+      "canonical_shape_hash": 1054804512988996662,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          17.750035560071
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          27.499954279909
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D13",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D13",
+        "D13~SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~8EzN",
+        "D13->0",
+        "SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~hsVB"
+      ],
+      "canonical_shape_hash": 1054804512988996662,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          21.500043180086
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          27.499954279909
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D14",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D14",
+        "D14~SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR~SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95~n8lp",
+        "D14->0",
+        "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR~SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95~kNHY"
+      ],
+      "canonical_shape_hash": 291660968751383203,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          25.250050800102
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.500055880112
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D15",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D15",
+        "D15~SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~CBBj",
+        "D15->0",
+        "SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~hsVB"
+      ],
+      "canonical_shape_hash": 1054804512988996662,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          28.250157480315
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.500055880112
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D16",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D16",
+        "D16~SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~P5Eq",
+        "D16->0",
+        "SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~hsVB"
+      ],
+      "canonical_shape_hash": 1054804512988996662,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          54.000109220218
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.999921259843
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D2",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D2",
+        "D2~SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~jzDP",
+        "D2->0",
+        "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~ro9B"
+      ],
+      "canonical_shape_hash": 7431735948385566999,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          65.750119380239
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          32.000076200152
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.654795442671
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D3",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D3",
+        "D3~SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~aCon",
+        "D3->0",
+        "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~ro9B"
+      ],
+      "canonical_shape_hash": 7431735948385566999,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          40.000066040132
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          10.000007620015
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.654795442671
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D4",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D4",
+        "D4~SOT-23_L2.9-W1.3-P1.90-LS2.4-BR~SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95~CEnQ",
+        "D4->0",
+        "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR~SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95~ZBdI"
+      ],
+      "canonical_shape_hash": 1010277751641512570,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          70.00016510033
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          26.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.55540821403
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D5",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D5",
+        "D5~SOT-23_L2.9-W1.3-P1.90-LS2.4-BR~SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95~2v59",
+        "D5->0",
+        "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR~SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95~ZBdI"
+      ],
+      "canonical_shape_hash": 1010277751641512570,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          70.00016510033
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          17.99998475997
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.55540821403
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D6",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D6",
+        "D6~SOT-23_L2.9-W1.3-P1.90-LS2.4-BR~SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95~5BeA",
+        "D6->0",
+        "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR~SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95~ZBdI"
+      ],
+      "canonical_shape_hash": 1010277751641512570,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          65.00015494031
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          7.999964439929
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.55540821403
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D7",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D7",
+        "D7~SOT-23_L2.9-W1.3-P1.90-LS2.4-BR~SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95~5xGh",
+        "D7->0",
+        "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR~SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95~ZBdI"
+      ],
+      "canonical_shape_hash": 1010277751641512570,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          9.500043180086
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          27.000002540005
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.55540821403
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D8",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D8",
+        "D8~SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~Zhtl",
+        "D8->0",
+        "SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~hsVB"
+      ],
+      "canonical_shape_hash": 1054804512988996662,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          66.250233680467
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.000053340107
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "D9",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "D9",
+        "D9~SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~46Gx",
+        "D9->0",
+        "SOD-323_L1.8-W1.3-LS2.5-RD~SOD-323_L1.8-W1.3-LS2.5-RD~hsVB"
+      ],
+      "canonical_shape_hash": 1054804512988996662,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          69.300139700279
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          28.799956819914
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "J1",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "J1",
+        "J1~USB-C_SMD-TYPE-C-31-M-12_1~USB-C_SMD-TYPE-C-31-M-12_1~vRHI",
+        "J1->0",
+        "USB-C_SMD-TYPE-C-31-M-12_1~USB-C_SMD-TYPE-C-31-M-12_1~9cyr"
+      ],
+      "canonical_shape_hash": 1872748664517621006,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          1.770007493261
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          21.000043180086
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606190525962
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "J10",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "J10",
+        "J10~HDR-TH_2P-P2.54-V-M~HDR2.54-M-LI-1X2P~MeSY",
+        "J10->0",
+        "HDR-TH_2P-P2.54-V-M~HDR2.54-M-LI-1X2P~w9Jk"
+      ],
+      "canonical_shape_hash": 3026415017153436918,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          32.000063500127
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          32.020063500127
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606209257474
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "J2",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "J2",
+        "J2~USB-A-TH_AF-10.0-HC6.3~USB-A-TH_AF-10.0-HC6.3~D3FB",
+        "J2->0",
+        "USB-A-TH_AF-10.0-HC6.3~USB-A-TH_AF-10.0-HC6.3~bius"
+      ],
+      "canonical_shape_hash": 2503556784954682418,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          40.000054600109
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.474988240008
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.056203039011
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0.1
+      ]
+    },
+    {
+      "component": "J6",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "J6",
+        "J6~CONN-TH_B4B-PH-K-S~PH2.0-LI-4P~1QhM",
+        "J6->0",
+        "CONN-TH_B4B-PH-K-S~PH2.0-LI-4P~HAA2"
+      ],
+      "canonical_shape_hash": 7846174897069642496,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          70.500129509823
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          13.000020170395
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.60620318197
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "J7",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "J7",
+        "J7~HDR-TH_6P-P2.54-V-M-R2-C3-S2.54-1~HDR2.54-M-LI-2x3P~scHa",
+        "J7->0",
+        "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54-1~HDR2.54-M-LI-2x3P~a9ri"
+      ],
+      "canonical_shape_hash": 1759544045295819541,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          61.230124460249
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          18.960043180086
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203257462
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "J9",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "J9",
+        "J9~HDR-TH_2P-P2.54-V-M~HDR2.54-M-LI-1X2P~ftAf",
+        "J9->0",
+        "HDR-TH_2P-P2.54-V-M~HDR2.54-M-LI-1X2P~w9Jk"
+      ],
+      "canonical_shape_hash": 3026415017153436918,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          33.270066040132
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          26.250053340107
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606209257474
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "Q1",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "Q1",
+        "Q1~SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR~SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95~OD45",
+        "Q1->0",
+        "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR~SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95~kNHY"
+      ],
+      "canonical_shape_hash": 291660968751383203,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          62.000124460249
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.500055880112
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "Q2",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "Q2",
+        "Q2~SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR~SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95~tKks",
+        "Q2->0",
+        "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR~SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95~kNHY"
+      ],
+      "canonical_shape_hash": 291660968751383203,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          61.750124460249
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          31.500063500127
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R1",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R1",
+        "R1~R0603~R0603~M8IS",
+        "R1->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          5.495010164803
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          29.000058420117
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R10",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R10",
+        "R10~R0603~R0603~vpnC",
+        "R10->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          37.500076200152
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          24.805050795319
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R11",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R11",
+        "R11~R0603~R0603~TJkj",
+        "R11->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          37.500076200152
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          31.005060955339
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R12",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R12",
+        "R12~R0603~R0603~afGR",
+        "R12->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          42.000083820168
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.005058415334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R13",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R13",
+        "R13~R0603~R0603~HmBY",
+        "R13->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          42.000083820168
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          30.855060955339
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R14",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R14",
+        "R14~R0603~R0603~auAX",
+        "R14->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          45.495091444966
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          18.500038100076
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R15",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R15",
+        "R15~R0603~R0603~FvKR",
+        "R15->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          47.495093984971
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          18.500038100076
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R16",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R16",
+        "R16~R0603~R0603~ZhZD",
+        "R16->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          50.995101604986
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          16.750033020066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R17",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R17",
+        "R17~R0603~R0603~lN0s",
+        "R17->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          56.500111760224
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          27.005053335324
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R18",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R18",
+        "R18~R0603~R0603~1RzC",
+        "R18->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          56.500111760224
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          32.205063495344
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R19",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R19",
+        "R19~R0603~R0603~C4L9",
+        "R19->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          56.500111760224
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.605058415334
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R2",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R2",
+        "R2~R0603~R0603~6VZ8",
+        "R2->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          5.495010164803
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          32.250063500127
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R20",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R20",
+        "R20~R0603~R0603~ZqeU",
+        "R20->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          56.500111760224
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.805068575354
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R21",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R21",
+        "R21~R0603~R0603~6qWD",
+        "R21->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          30.245060964905
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          14.250027940056
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R22",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R22",
+        "R22~R0603~R0603~5xfw",
+        "R22->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          38.495076204935
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          15.750030480061
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R23",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R23",
+        "R23~R0603~R0603~ov8n",
+        "R23->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          33.000066040132
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.005040635298
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R25",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R25",
+        "R25~R0603~R0603~VJ8L",
+        "R25->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          33.000066040132
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.255020315258
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R27",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R27",
+        "R27~R0603~R0603~PJDZ",
+        "R27->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          36.250073660147
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.005040635298
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R28",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R28",
+        "R28~R0603~R0603~WIg9",
+        "R28->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          57.995116845017
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          16.750033020066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R29",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R29",
+        "R29~R0603~R0603~Oehd",
+        "R29->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          57.995116845017
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          20.000040640081
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R3",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R3",
+        "R3~R0603~R0603~uRSB",
+        "R3->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          13.000025400051
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.005020315258
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R30",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R30",
+        "R30~R0603~R0603~WFuR",
+        "R30->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          57.995116845017
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          23.250045720091
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R31",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R31",
+        "R31~R0603~R0603~2Xq7",
+        "R31->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          58.995116845017
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          27.250053340107
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R32",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R32",
+        "R32~R0603~R0603~JAU2",
+        "R32->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          8.995017784819
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          10.000020320041
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R33",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R33",
+        "R33~R0603~R0603~NF1e",
+        "R33->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          21.995043184869
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          10.000020320041
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R34",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R34",
+        "R34~R0603~R0603~dIyM",
+        "R34->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          24.750048260097
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          11.755022855263
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R35",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R35",
+        "R35~R0603~R0603~W58a",
+        "R35->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          18.995038104859
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          10.000020320041
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R36",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R36",
+        "R36~R0603~R0603~amMi",
+        "R36->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          59.995119385022
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          36.500073660147
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R37",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R37",
+        "R37~R0603~R0603~S1fO",
+        "R37->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          24.995050804885
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          2.25000508001
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R4",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R4",
+        "R4~R0603~R0603~Drzm",
+        "R4->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          16.250033020066
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.005020315258
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R5",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R5",
+        "R5~R0603~R0603~Z3rM",
+        "R5->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          28.000055880112
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          10.005020315258
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R6",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R6",
+        "R6~R0603~R0603~oMoW",
+        "R6->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          24.995050804885
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          5.50001016002
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R7",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R7",
+        "R7~R0603~R0603~iupV",
+        "R7->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          43.000086360173
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.005040635298
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R8",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R8",
+        "R8~R0603~R0603~zDdw",
+        "R8->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          43.000086360173
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          18.005035555288
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "R9",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "R9",
+        "R9~R0603~R0603~Ki9f",
+        "R9->0",
+        "R0603~R0603~IZmN"
+      ],
+      "canonical_shape_hash": 3361437410796272172,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          39.750078740157
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          19.405038095293
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212153
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "SW1",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "SW1",
+        "SW1~SW-TH_SSSS224100~SW-TH_SSSS224100~LtxF",
+        "SW1->0",
+        "SW-TH_SSSS224100~SW-TH_SSSS224100~8gFp"
+      ],
+      "canonical_shape_hash": 618689968135416405,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          20.000040640081
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          34.009079272
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          5.106204212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U1",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U1",
+        "U1~SOP-16_L10.0-W3.9-P1.27-LS6.0-BL~SOP-16_L9.9-W3.9-H1.5-LS6.0-P1.27~XMFo",
+        "U1->0",
+        "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL~SOP-16_L9.9-W3.9-H1.5-LS6.0-P1.27~JAMr"
+      ],
+      "canonical_shape_hash": 8024839519746852271,
+      "occurrence_matrix_3x4": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          20.000040640081
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          18.000035560071
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.605628212423
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U10",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U10",
+        "U10~SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~09Sd",
+        "U10->0",
+        "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~ro9B"
+      ],
+      "canonical_shape_hash": 186427804735948940,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          29.000083820168
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          3.499931419863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.655142211612
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U2",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U2",
+        "U2~TQFN-32_L5.0-W5.0-P0.50-BL-EP3.5~TQFN-32_L5.0-W5.0-P0.50-BL-EP3.5~VN0H",
+        "U2->0",
+        "TQFN-32_L5.0-W5.0-P0.50-BL-EP3.5~TQFN-32_L5.0-W5.0-P0.50-BL-EP3.5~CTmI"
+      ],
+      "canonical_shape_hash": 392174182067064385,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          48.000096520193
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          25.000050800102
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.626203212035
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U3",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U3",
+        "U3~TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7~TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7~bySb",
+        "U3->0",
+        "TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7~TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7~3bGW"
+      ],
+      "canonical_shape_hash": 824669052428481966,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          60.000119380239
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          10.500020320041
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.616203212246
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U4",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U4",
+        "U4~SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL~SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27~wUqU",
+        "U4->0",
+        "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL~SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27~7lMK"
+      ],
+      "canonical_shape_hash": 658366851119323235,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          34.000068580137
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          15.000030480061
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U5",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U5",
+        "U5~SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL~SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL~bymr",
+        "U5->0",
+        "SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL~SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL~ipp7"
+      ],
+      "canonical_shape_hash": 1309983491058591863,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          29.000058420117
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          20.000040640081
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.756203213434
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U6",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U6",
+        "U6~SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~VBVh",
+        "U6->0",
+        "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~ro9B"
+      ],
+      "canonical_shape_hash": 186427804735948940,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          21.000068580137
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          5.499933959868
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.655142211612
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U7",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U7",
+        "U7~SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR~SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95~FEOM",
+        "U7->0",
+        "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR~SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95~lUmE"
+      ],
+      "canonical_shape_hash": 689876148467754060,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          54.000109220218
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          17.000033020066
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.65333575173
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U8",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U8",
+        "U8~SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR~SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95~zBoR",
+        "U8->0",
+        "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR~SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95~lUmE"
+      ],
+      "canonical_shape_hash": 689876148467754060,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          54.000109220218
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          22.000043180086
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.65333575173
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "U9",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "U9",
+        "U9~SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~yBbk",
+        "U9->0",
+        "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR~SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95~ro9B"
+      ],
+      "canonical_shape_hash": 186427804735948940,
+      "occurrence_matrix_3x4": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          64.000152400305
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          35.99999491999
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.655142211612
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "component": "Y2",
+      "leaf_index": 0,
+      "source_path": [
+        "EasyEDA PCB Model~KrTR",
+        "Y2",
+        "Y2~CRYSTAL-SMD_4P-L3.2-W2.5-BL~CRYSTAL-SMD_4P-L3.2-W2.5-BL~ivrB",
+        "Y2->0",
+        "CRYSTAL-SMD_4P-L3.2-W2.5-BL~CRYSTAL-SMD_4P-L3.2-W2.5-BL~N1XA"
+      ],
+      "canonical_shape_hash": 525732960216283314,
+      "occurrence_matrix_3x4": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          49.000099060198
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          31.500063500127
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.606203212406
+        ]
+      ],
+      "approved_extra_translation_mm": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "write_pcurves": true,
+  "lossless_gzip_compression": {
+    "method": "libdeflate level12, standard gzip format",
+    "uncompressed_bytes": 56290122,
+    "uncompressed_sha256": "bb2874077b616729d86586f61bea703b3d02c517dd0c921d9bad6cf99238e2eb",
+    "decompressed_byte_identical": true
+  },
+  "rejected_alternative": "source-derived-pcurves-omission-rejected.json",
+  "method": "XCAF shared native BREP leaf definitions plus original occurrence locations; exact3D geometry and2D trimming pcurves retained. No tessellation, decimation or shape deletion.",
+  "independent_roundtrip_required": false,
+  "native_final_export_or_cam_acceptance": false,
+  "independent_roundtrip_pass": true,
+  "independent_roundtrip_report": "source-derived-assembly-roundtrip.json",
+  "final_output": "calxus_source_assembly.step.gz",
+  "prior_exchange_roundtrip_pass": null,
+  "original_unshared_retained_in_scratch": true
+}

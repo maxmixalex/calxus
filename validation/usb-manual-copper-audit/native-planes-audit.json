@@ -1,0 +1,176 @@
+{
+  "schema": "calxus.native-planes-audit.v1",
+  "units": "mil",
+  "pcbId": "2a0c39c6c6694f40",
+  "beganAt": "2026-11-21T08:50:21.601Z",
+  "exportedAt": "2026-11-21T08:50:23.030Z",
+  "pours": [],
+  "stackup": {
+    "layers": [
+      {
+        "layerId": 3,
+        "layerName": "Top Silkscreen Layer",
+        "layerType": "TOP_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1
+      },
+      {
+        "layerId": 7,
+        "layerName": "Top Paste Mask Layer",
+        "layerType": "TOP_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 2
+      },
+      {
+        "layerId": 5,
+        "layerName": "Top Solder Mask Layer",
+        "layerType": "TOP_SOLDER_MASK",
+        "kind": "other",
+        "material": "",
+        "thickness": 0.394,
+        "permittivity": 3.3,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 3
+      },
+      {
+        "layerId": 1,
+        "layerName": "Top Layer",
+        "layerType": "TOP",
+        "kind": "copper",
+        "material": null,
+        "thickness": 1.379,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1000
+      },
+      {
+        "layerId": 361,
+        "layerName": "Dielectric1",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "FR4",
+        "thickness": 59.449,
+        "permittivity": 4.5,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      },
+      {
+        "layerId": 15,
+        "layerName": "Inner1",
+        "layerType": "SIGNAL",
+        "kind": "copper",
+        "material": null,
+        "thickness": 1.37795,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      },
+      {
+        "layerId": 362,
+        "layerName": "Dielectric2",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "PP",
+        "thickness": 0.46528272727272724,
+        "permittivity": 4.5,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1002
+      },
+      {
+        "layerId": 16,
+        "layerName": "Inner2",
+        "layerType": "SIGNAL",
+        "kind": "copper",
+        "material": null,
+        "thickness": 1.37795,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1003
+      },
+      {
+        "layerId": 363,
+        "layerName": "Dielectric3",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "PP",
+        "thickness": 0.46528272727272724,
+        "permittivity": 4.5,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1004
+      },
+      {
+        "layerId": 2,
+        "layerName": "Bottom Layer",
+        "layerType": "BOTTOM",
+        "kind": "copper",
+        "material": null,
+        "thickness": 1.3779999999999997,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 9000
+      },
+      {
+        "layerId": 6,
+        "layerName": "Bottom Solder Mask Layer",
+        "layerType": "BOT_SOLDER_MASK",
+        "kind": "other",
+        "material": "",
+        "thickness": 0.394,
+        "permittivity": 3.3,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 10000
+      },
+      {
+        "layerId": 8,
+        "layerName": "Bottom Paste Mask Layer",
+        "layerType": "BOT_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10001
+      },
+      {
+        "layerId": 4,
+        "layerName": "Bottom Silkscreen Layer",
+        "layerType": "BOT_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10002
+      }
+    ],
+    "totalThickness": 66.68046545454546,
+    "unit": "mil"
+  },
+  "sourceRecords": [],
+  "expectedPlaneIds": {
+    "15": "48fe5c6c977c0112",
+    "16": "43d0fa44dbaf8db7"
+  },
+  "scope": "Actual Pour objects and physical stackup plus matching original LAYER/POUR/POURED/COPPER/PHYSICAL source records. A boundary alone does not establish filled copper or continuity; verify poured geometry/Gerber. No rebuild or edits performed."
+}

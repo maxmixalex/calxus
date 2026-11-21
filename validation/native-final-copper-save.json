@@ -1,0 +1,14 @@
+{
+  "jobId": "job-mcp-8151df6d-85d3-4ca2-b454-905035d5d6e1",
+  "completedAt": "2026-11-21T12:32:06.184Z",
+  "candidateSHA256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "next": 30,
+  "total": 30,
+  "done": true,
+  "nativeSaved": true,
+  "counts": {
+    "lines": 1493,
+    "vias": 189
+  },
+  "pending": null
+}

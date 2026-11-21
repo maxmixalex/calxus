@@ -1,0 +1,16 @@
+Reference,Description,Quantity,Material,Source,Notes
+MECH-01,Lower enclosure,1,PETG/ASA,calxus_base_print.stl,4 perimeters; 0.2 mm layers; 35% infill
+MECH-02,Upper enclosure,1,PETG/ASA,calxus_lid_print.stl,Print exterior roof on bed
+MECH-03,Lower cable comb,1,TPU 95A,calxus_comb_lower_tpu_print.stl,100% infill; match measured cable jackets
+MECH-04,Upper cable comb,1,TPU 95A,calxus_comb_upper_tpu_print.stl,100% infill; split face on bed
+MECH-05,M2 x 16 pan/button head screw,4,Steel,Purchased hardware,Head <=4.0 diameter and <=1.8 high; below-head length16
+MECH-06,M2 heat-set insert,5,Brass,Purchased hardware,"OD3.2 nominal x L2.5; four in base, one in slider fork"
+MECH-07,PCB,1,FR-4,EDA package,80x42x1.6; four NPTH2.2 mounting holes
+MECH-08,Mini-B downstream captive cable,1,UL2725 #28 shielded USB cable,Ckmtw S002020047 / LCSC C430897,Jacket OD3.8; comb bore3.6; retain Mini-B end with 250-300 mm cable segment; allow for clamped/internal length
+MECH-09,TI 2.5 mm captive cable,1,Reused C430897 shielded cable,C430897 remainder + verified 2.5 mm plug,Jacket OD3.8; comb bore3.6; 250-300 mm cut segment; label TI; verify plug outlet >=3.8
+MECH-10,Casio 2.5 mm captive cable,1,Reused C430897 shielded cable,C430897 remainder + verified 2.5 mm plug,Jacket OD3.8; comb bore3.6; 250-300 mm cut segment; label CASIO; verify plug outlet >=3.8
+MECH-11,Keyed auxiliary 3-wire tail,1,26 AWG PH harness + outer sleeve,200 mm PH lead + prepared outer sleeve,"Comb bore2.8; build clamped bundle OD2.9..3.1, nominal3.0; no exposed individual conductors under clamp"
+MECH-12,Slider fork,1,PETG / ASA,calxus_slider_fork_print.stl,Print upright with brim; actuator fit must be checked
+MECH-13,Adjustable slider thumb,1,PETG / ASA,calxus_slider_thumb_print.stl,7x6 top; X slots allow +/-0.35 calibration; 0.8 bearing floor; print top surface on bed
+MECH-14,M2 x 6 pan/button head screw,1,Steel,Purchased hardware,Head <=4.0 diameter and <=1.8 high
+MECH-15,Individual 2:1 heat-shrink collar,4,Polyolefin,Purchased harness material,Expanded ID8mm x cut length8mm; installed X86..94 on TPU boots; shrink before housing assembly

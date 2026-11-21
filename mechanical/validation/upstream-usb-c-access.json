@@ -1,0 +1,155 @@
+{
+  "schema": "calxus.usb-c-overmold-access.v1",
+  "native_model_source": "Calxus_RevA_r7_PCBA.step.gz",
+  "native_model_source_sha256": "f748813e98b0f77fead3a735b3de9cb38881a4b7807eb5af440bfa01ddc7a7e3",
+  "case_source_sha256": {
+    "base": "410517a322b05355cd70d48fcbd806df708b64954459edad9091a28ec0a1b5d3",
+    "lid": "1e5648177d9dabcec44d0110b14c967c6f8db665e4a4de2f803672e7dfc6efde"
+  },
+  "native_socket_front_x_mm": -0.8299925067390002,
+  "case_outer_left_face_x_mm": -3.0,
+  "socket_recess_from_outer_wall_mm": 2.170007493261,
+  "native_mating_opening_inner_wire_bounds_mm": [
+    -0.8299925067390002,
+    16.800043180086,
+    1.926190525961,
+    -0.8299925067390002,
+    25.200043180086,
+    4.5861905259619995
+  ],
+  "native_socket_axis_y_z_mm": [
+    21.000043180086,
+    3.2561905259615
+  ],
+  "actual_case_opening_wire_bounds_mm": [
+    -3.0,
+    13.8,
+    -0.7,
+    -3.0,
+    28.2,
+    7.3
+  ],
+  "actual_case_opening_width_height_mm": [
+    14.399999999999999,
+    8.0
+  ],
+  "case_opening_corner_radius_mm": 1.5,
+  "case_cut_interval_x_mm": [
+    -5,
+    2
+  ],
+  "conditional_gauge": {
+    "width_y_mm": 13,
+    "height_z_mm": 6,
+    "corners": "Sharp rectangle, conservative for a rounded overmold inside this bounding box.",
+    "required_leading_overmold_profile_depth_mm": 2.2,
+    "axial_test_interval_x_mm": [
+      -6,
+      -0.8299925067390002
+    ],
+    "lateral_axis_offsets_tested_mm": [
+      -0.25,
+      0,
+      0.25
+    ],
+    "poses": [
+      {
+        "gauge_center_offset_y_z_mm": [
+          -0.25,
+          -0.25
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.1837390818089284,
+        "pass": true
+      },
+      {
+        "gauge_center_offset_y_z_mm": [
+          -0.25,
+          0
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.3175711151456284,
+        "pass": true
+      },
+      {
+        "gauge_center_offset_y_z_mm": [
+          -0.25,
+          0.25
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.23464851418994914,
+        "pass": true
+      },
+      {
+        "gauge_center_offset_y_z_mm": [
+          0,
+          -0.25
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.37296736024398924,
+        "pass": true
+      },
+      {
+        "gauge_center_offset_y_z_mm": [
+          0,
+          0
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.532633557509799,
+        "pass": true
+      },
+      {
+        "gauge_center_offset_y_z_mm": [
+          0,
+          0.25
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.43286638654763715,
+        "pass": true
+      },
+      {
+        "gauge_center_offset_y_z_mm": [
+          0.25,
+          -0.25
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.18367019287778827,
+        "pass": true
+      },
+      {
+        "gauge_center_offset_y_z_mm": [
+          0.25,
+          0
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.31749442956950424,
+        "pass": true
+      },
+      {
+        "gauge_center_offset_y_z_mm": [
+          0.25,
+          0.25
+        ],
+        "intersection_mm3": 0,
+        "case_clearance_mm": 0.23457685377463472,
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "selected_cable": {
+    "manufacturer": "Ckmtw",
+    "part": "S100920007",
+    "lcsc": "C430908",
+    "drawing_date": "2017-12-07",
+    "drawing_revision": "A",
+    "source_url": "https://datasheet.lcsc.com/datasheet/pdf/87deec2addefe4b7731637ed71cc524c.pdf?productCode=C430908",
+    "documented_exposed_type_c_metal_length_mm": 7,
+    "documented_exposed_type_c_metal_length_tolerance_mm": 0.3,
+    "overmold_width_height_dimensions_provided": false,
+    "specific_cable_overmold_fit_certified": false
+  },
+  "scope": "The frozen opening admits the specified conservative rectangular overmold gauge through the full2.17mm recess, including+/-0.25mm axis offsets. This is a CAD access-envelope check, not physical cable mating validation.",
+  "first_article_check": "Measure the actual C430908 leading plastic profile over at least2.2mm from its front shoulder. A profile contained within13x6mm fits this gauge. Confirm complete insertion, retention and electrical connection with the chosen physical cable; the drawing alone does not certify its overmold.",
+  "printed_geometry_changed": false
+}

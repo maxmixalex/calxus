@@ -1,0 +1,177 @@
+{
+  "schema": "calxus.independent-final-release-document-audit.v1",
+  "checked_at_utc": "2026-11-21T13:13:15.436362+00:00",
+  "audit_pass": true,
+  "scope": "Read-only release-document consistency, local link targets, canonical artifact identity and frozen mechanical publication-manifest integrity. No electrical or CAD tests were rerun, no native app operations, no design edits, no Git refs or external publication changes.",
+  "material_document_findings": [],
+  "summary": {
+    "path": "validation/release-summary.json",
+    "sha256": "b0c3c5a36d159e294210ff064546b7bf9b3a33ea6302fedf0b1a58364863093a",
+    "bytes": 29162,
+    "schema": "calxus.release-summary.v3"
+  },
+  "markdown_files_checked": 21,
+  "relative_markdown_links_checked": 142,
+  "broken_relative_links": [],
+  "ignored_link_or_summary_targets": [],
+  "summary_hashed_references_checked": 74,
+  "summary_unique_artifact_files_checked": 56,
+  "all_summary_hashes_and_sizes_match": true,
+  "mechanical_frozen_manifest_files_checked": 95,
+  "all_mechanical_manifest_sha256_git_blob_hashes_and_sizes_match": true,
+  "mechanical_manifest_sha256": "0833bb743b70e6c52b47a3946fb89ab5384ad9ef303712803347f2252d689c85",
+  "canonical_deliverables": {
+    "native_project": {
+      "path": "hardware/native/Calxus_RevA.epro2",
+      "sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+      "bytes": 346898,
+      "status": "actual_native_saved_export"
+    },
+    "gerber": {
+      "path": "hardware/manufacturing/Calxus_RevA_Gerber.zip",
+      "sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+      "bytes": 212148,
+      "status": "actual_native_export_geometry_and_visual_checks_passed"
+    },
+    "native_schematic_pdf": {
+      "path": "hardware/schematic/Calxus_RevA_schematic.pdf",
+      "sha256": "77b6e4918fc024a38e6ae59e9ba34164da7999fc66308e35dbaae1b2b98c003f",
+      "bytes": 283420,
+      "status": "actual_native_export_and_visual_review_passed"
+    },
+    "smt_bom": {
+      "path": "hardware/manufacturing/Calxus_RevA_SMT_BOM.csv",
+      "sha256": "b140198bc3c731722212d716c36ae30f92581616c3613a5031d534641b293cd8",
+      "bytes": 1678,
+      "status": "fresh_native_source_actual_generated_csv_passed"
+    },
+    "smt_cpl": {
+      "path": "hardware/manufacturing/Calxus_RevA_SMT_CPL.csv",
+      "sha256": "53c2f185f8df27c575a0906d7b3c6993361f447fecfb9d31eb4c9f0ae43541b1",
+      "bytes": 1714,
+      "status": "fresh_native_source_actual_generated_csv_passed"
+    },
+    "mechanical_assembly": {
+      "path": "mechanical/output/calxus_source_assembly.step.gz",
+      "sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+      "bytes": 7745606,
+      "status": "source_derived_digital_mechanical_release_passed_native_source_and_cam_compared"
+    }
+  },
+  "explicit_release_limitations": [
+    "Manufacturing release acceptance remains false. Raw native PCB DRC has four items: three reviewed total-LINE-length metric exceptions and one unresolved global Netlist Error.",
+    "Independent schematic/PCB pin-map equivalence and actual CAM geometry checks do not clear the unexplained native diagnostic.",
+    "Canonical complete mechanical assembly is source-derived and digitally accepted; optional fresh native full-PCBA export was not adopted or independently verified for this package.",
+    "No fabricated-board functional, programming, transmission, signal-integrity, power, printing or physical-fit qualification is claimed.",
+    "Two qualified true 2.5 mm TRS male tail ends remain a procurement gap.",
+    "Remote GitHub tree/branch publication and final Windows D-folder synchronization are outside this read-only audit; root must verify those delivery actions separately."
+  ],
+  "historical_supporting_notes": "Old route-plan and r5 ground-plan figures are scoped as planning inputs; native recovery note records a dated checkpoint. Current release entry points consistently identify the final native archive and separately retain source-derived mechanical provenance.",
+  "audited_documents": [
+    {
+      "path": "README.md",
+      "sha256": "31f97bd5e9074d06ae59f970b48782f6c4e2cd76b0cc07d6cf287b0266183905",
+      "bytes": 3946
+    },
+    {
+      "path": "docs/assembly-and-bringup.zh-CN.md",
+      "sha256": "e16c2d43a47b0356a6f76695265c0276f274b710336d7639ac839a3f3998e7dd",
+      "bytes": 9400
+    },
+    {
+      "path": "docs/aux-adapters.zh-CN.md",
+      "sha256": "e0273d69016ebdf8fec6963991ef253940de7994de01786146f3244d20b6ff38",
+      "bytes": 3146
+    },
+    {
+      "path": "docs/electrical-crosscheck.zh-CN.md",
+      "sha256": "cae40f5a4c4117edbf592717d3245a6a10ed46fc28c39f08128cc393762ad096",
+      "bytes": 10394
+    },
+    {
+      "path": "docs/native-project.zh-CN.md",
+      "sha256": "9c54fec428744dd581f120607d3ebd17efeaa2e2995ce2aeab6b832c08f9978d",
+      "bytes": 7918
+    },
+    {
+      "path": "docs/physical-stackup-recovery.zh-CN.md",
+      "sha256": "74e111ceedf2f1a69d988131d8e21b1cb5497b632a4de2570e1320525aab0b48",
+      "bytes": 6697
+    },
+    {
+      "path": "docs/software-compatibility.zh-CN.md",
+      "sha256": "3a821255d4f43d9aae4319bd42c680fec95527cadfba1187780afac35794f5a1",
+      "bytes": 4064
+    },
+    {
+      "path": "docs/sources.md",
+      "sha256": "cc22c2f578bf374d0176cbd149739f0816d65ef0d168ad689dbaef752e7dbd51",
+      "bytes": 5646
+    },
+    {
+      "path": "docs/user-guide.zh-CN.md",
+      "sha256": "961ee4eb607e5a77bce20430bae9ab0acfe16925b49cecaa345531e6164a96b2",
+      "bytes": 7699
+    },
+    {
+      "path": "docs/validation-record.zh-CN.md",
+      "sha256": "cf87d66e8f05279a94dc14888cf37da3885c2be08d103fb09cc402d1752e8f57",
+      "bytes": 9222
+    },
+    {
+      "path": "firmware/README.md",
+      "sha256": "92571bdd08d0519dab3cb8e667f68f5373084776e701c9085020bcd0338f4081",
+      "bytes": 10177
+    },
+    {
+      "path": "hardware/electrical/README.md",
+      "sha256": "fc388fe2c105b21ef4d9204c993e735658f0364ef4d1e2d39c12a0da7c3c2ce0",
+      "bytes": 2494
+    },
+    {
+      "path": "hardware/electrical/electrical-design.zh-CN.md",
+      "sha256": "ddb63f94340fc8691d108d7f51aa11eb023c43c6b92e8d0190e74527d96d4358",
+      "bytes": 7625
+    },
+    {
+      "path": "hardware/electrical/ground-and-vippo.zh-CN.md",
+      "sha256": "91ae06dcb798378b1b6c220d42b218d48cefd2cfd79a675627e5e5a093183c44",
+      "bytes": 3363
+    },
+    {
+      "path": "hardware/electrical/harness-procurement.zh-CN.md",
+      "sha256": "aa663ab21995fdf6b7d0bc16c60f9c17b5cb0b19a567f071dc9e7c0430d022aa",
+      "bytes": 8777
+    },
+    {
+      "path": "hardware/electrical/qfn-stencil.zh-CN.md",
+      "sha256": "a78ea6d6d3e78df806382d27165717848fd4cbd9109fe605ccd97bf119c9f44d",
+      "bytes": 4638
+    },
+    {
+      "path": "hardware/electrical/usb-impedance.zh-CN.md",
+      "sha256": "40173224585600abdf37561843a10c7e9628b0579ab5304fdb9635fa43dc100d",
+      "bytes": 3059
+    },
+    {
+      "path": "hardware/electrical/usb-routing.zh-CN.md",
+      "sha256": "303b31879a8f3c0a5fce3d6665c64715b0b5fd751aafdc7bbcf9e00bc773cbbb",
+      "bytes": 2309
+    },
+    {
+      "path": "hardware/manufacturing/README.md",
+      "sha256": "40c11c477e7c630de788aa96d45061fe21749647fa6ac7e27cebdd1ffa3827e3",
+      "bytes": 7069
+    },
+    {
+      "path": "hardware/native/recovery-inputs/NATIVE-RESUME.md",
+      "sha256": "94e9d5e6860a638d7bb735e264177d3562e12fe6e4e5f324562fa8a54b12632d",
+      "bytes": 4966
+    },
+    {
+      "path": "mechanical/README.md",
+      "sha256": "599c0abd151f7a8285dd1b8bfc0add0da4776a77cec647d25e8457afb96d5db1",
+      "bytes": 26502
+    }
+  ]
+}

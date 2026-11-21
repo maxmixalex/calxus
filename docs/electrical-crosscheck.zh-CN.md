@@ -1,8 +1,8 @@
 # 独立电气核对记录
 
-日期：2026-11-21。对象是最终 CH444G 四档版本，核心 PCB 80×42 mm、外壳 86×48×19 mm。审查输入为 `calxus_design_input.json` 的 D16 修订版：120 个位号、69 个有名网络，其中 23 个 TP 为仅 PCB 测试焊盘，原理图范围为 97 个器件。
+日期：2026-11-21。对象是 CH444G 四档 RevA / r7 版本，核心 PCB 80×42 mm、外壳 86×48×19 mm。审查输入为 `calxus_design_input.json` 的 r7 修订版：120 个位号、69 个有名网络，其中 23 个 TP 为仅 PCB 测试焊盘，原理图范围为 97 个器件、345 个引脚。
 
-本次逻辑审查通过；脚本结果见 [electrical-contract.json](../validation/electrical-contract.json)。它记录输入文件 SHA-256、与放置坐标无关的逻辑引脚表 SHA-256、逐项结果和实际推导的开关状态。该结论针对设计输入，不能代替实际 EDA 网表等价检查、PCB 连通检查或样机实测。
+本次逻辑审查通过；脚本结果见 [electrical-contract-r7.json](../validation/electrical-contract-r7.json)。它记录输入文件 SHA-256、与放置坐标无关的逻辑引脚表 SHA-256、逐项结果和实际推导的开关状态。该结论针对设计输入，不能代替实际 EDA 网表等价检查、PCB 连通检查或样机实测。
 
 ## 核对依据和方式
 
@@ -11,6 +11,7 @@
 | 项目 | 核对结果及实际含义 |
 |---|---|
 | USB-C | A6/B6 同为 D+；A7/B7 同为 D−；CC1/CC2 各自 5.1 kΩ 到地；VBUS 与 GND 分组符合实际库；SBU 未接 |
+| USB-A J2 | C456017 弯插母座；1=VBUS、2=D−、3=D+、4=GND；独立固定脚 5/6 均为 GND，不再使用同号屏蔽焊盘映射 |
 | CH444G | YA/YB 为上行 D+/D−；四对输出依次 native、A、Silver、UART；15 脚 NC；EN# 低有效 |
 | USB 供电 | 三颗 TPS2552DBVR 的 IN1/OUT6、低有效 EN3、GND2、FAULT4、ILIM5 对应正确；只有当前外部支路或串口支路被启用 |
 | TUSB3410 | 3/25 脚为 3.3 V，4 脚为内部 1.8 V，8/18/28/33 接地；USB 6=D+、7=D−；TEST0/TEST1/SIN 有上拉 |
@@ -59,8 +60,20 @@ python tools/compare_netlists.py --scope schematic --design path/to/calxus_desig
 python tools/compare_netlists.py --scope pcb --design path/to/calxus_design_input.json --actual path/to/actual-pcb-netlist.json --output validation/pcb-netlist-comparison.json
 ```
 
-实际嘉立创最终原理图导出已独立比较通过：97 个器件、344 对物理引脚/网络均一致，网名及完整同网引脚组同时匹配。见 [原理图比较记录](../validation/schematic-netlist-comparison.json)。原始导出 SHA-256 为 `e6d58ba176c7d3b843c184bf627a4be0540f0e4156bfabd702182b28c6d4b9e6`。U2.31/.32 的同网 TP 在 PCB 范围，故原理图中各只有一个节点是预期情况。
+本次最终三页原理图在 metadata 同步、逐页保存/关闭/重开后，97 个器件、345 对物理 pin/net、21 个 API=true / 源码=yes 的 NC 均一致，库关联和坐标全部匹配。见[实际原生网表对照](../validation/native-final-schematic-netlist-comparison.json)、[原生审计](../validation/native-final-schematic-audit.json)和[最终归档重建](../validation/native-final-schematic-archive.json)。J2 的独立屏蔽脚 5/6 均接地；U2 GPIO30/31 的同网 TP 只在 PCB 范围，所以原生 ERC 的两条 `SHOWDANDLING` 是预期单节点提示，没有 error/fatal。
 
-最终导出的 97 个器件已逐项另核对 Device、Footprint、Supplier Part 非空，且 Supplier Part 与审查输入相符；U2/U3 的早期库关联缺失已经修复。主工程原生操作已回读全部 NC 标志为 true。实际原理图 ERC 导出无 error/fatal，保留两条 `SHOWDANDLING` warning，对应 U2 未分配 GPIO `TP_GPIO30/31` 的原理图单节点；它们分别接到 PCB-only 的 TP20/21。见 [ERC 与库关联记录](../validation/schematic-erc-summary.json)。这里没有把“无错误”写成“零警告”。PCB 网表、实际铜连接与 PCB DRC 尚待完成。文件格式不受支持时脚本报错，不能通过猜测字段把空输入当作成功。NC 可以在导出中省略或成为独立未连接节点，但不能与其他引脚同网。报告检查命名及连通分组，仍须另做 PCB 实际布线连通、DRC、封装焊盘和机械装配检查。
+最终 PCB 源包含 120 位号、368 个电气焊盘，与审查输入全部匹配，见[PCB 对照](../validation/native-final-pcb-pin-net-comparison.json)。自由测试焊盘 TPn 映射为相应测试点逻辑 1 脚，原始网名保留。原理图—PCB 的实例 UID、器件/封装、345 个 PAD_NET 复合键、21 个 NC 和 Board 关联另有独立核对；该结果不能替代客户端仍报出的全局网表诊断。
 
 依据：TI TUSB3410 SLLS519J（引脚、图 6-11）；WCH CH440 系列本次实际下载版本 3E（§4.4、逻辑门限）；CH343 v2.0（引脚、电源、挂起）；TI TPS2552 SLVS841G（DBV 脚位、反压保护、限流）；Alps SSSS224100 官方电路图；SilverLink B 参考原理图；SN74LVC1G07/17 数据手册。原始链接见[技术来源索引](sources.md)。
+
+## 最终保存源、铜与制造输出复核
+
+统一原生归档 SHA-256 为 `40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac`。源铜审查见[最终几何报告](../validation/native-final-geometry.json)：新增铜净距及非 GND 连通通过；既有高速记录 20 对极小源离散偏差明确保留，最大低于名义 6 mil 约 0.000025 mm。实际原生地铜已重铺，飞线为 0；源解析与原生结果分别记录。
+
+原生原始 DRC 仍为 4 项：USB_UP / USB_SIL / USB_UART 三条总 LINE 长度统计例外和一条全局 `Netlist Error`；连接、净距、物理错误均为 0。长度统计与原生 `getNetLength` 以及保存源线长总和已逐项对应，见[统计口径证据](../validation/native-differential-length-semantics.json)。按真实宽铜接触关系求主路径，两种 USB-C 翻转入口到 Mini-B/USB-A 的最大差长为 0.215986 mm，低于 0.254 mm；SIL 为约 0.122045 mm，UART 为约 0.001643 mm，见[最终主路径报告](../validation/native-final-usb-path-lengths.json)。这属于几何核对，不是电磁仿真或 USB 实测；规则未放宽、提示未隐藏。
+
+全局网表错误在隔离副本经过保存/重开、两次正式 setNetlist 和一次正式 importChanges 后仍存在，保护范围差分为零。原始工程保持不变；不能仅凭引脚图相等宣称错误已解决，见[诊断记录](../validation/native-netlist-reference-diagnostic.json)。因此制造放行保持 false。
+
+实际最终 CAM 已验证 56 个 PAD 孔、2 个 J1 定位孔及 189 个 VIA，共 247 个孔/槽；128 个指定普通过孔双面阻焊桥最小 0.10363 mm，四颗 EP VIPPO 单独按工艺处理。两颗 QFN 各四个钢网开窗及 0.20 mm 桥均通过。四铜层、80×42 mm 闭合板框、四角圆弧和实际图面已检查，见[CAM 报告](../validation/native-final-gerber/gerber-validation.json)。这些通过项没有消除独立保留的原生网表错误，也不证明实物功能。
+
+本次重新导出的原生 BOM/CPL 已筛选并实际生成 87 件 SMT / 34 行 BOM / 87 行 CPL；原生 Mid 坐标、角度和面别保留，见[贴装记录](../hardware/manufacturing/smt-native-export-validation.json)。

@@ -1,0 +1,210 @@
+{
+  "checkedAt": "2026-11-21T10:43:06.485Z",
+  "kind": "sch",
+  "project": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+  "document": "0b9f8a9f53fb8264",
+  "oldId": "464d839cd4909c9e",
+  "newId": "1488a7a605462dd5",
+  "protectedRecords": 1845,
+  "differences": [],
+  "pass": true,
+  "approvedDrawOrderChanges": [
+    {
+      "id": "810494f61b9a8843",
+      "field": "zIndex",
+      "before": 29,
+      "after": 35,
+      "reason": "Native wire-group child draw-order count grows when the two shield branches are added; coordinates, alignment, text and connectivity are compared unchanged."
+    },
+    {
+      "id": "008896768b516b08",
+      "field": "zIndex",
+      "before": 28,
+      "after": 34,
+      "reason": "Native wire-group child draw-order count grows when the two shield branches are added; coordinates, alignment, text and connectivity are compared unchanged."
+    }
+  ],
+  "excludedNonGeometryCounters": [],
+  "allowedGroundWireBefore": {
+    "zIndex": 261,
+    "locked": false
+  },
+  "allowedGroundWireAfter": {
+    "zIndex": 261,
+    "locked": false
+  },
+  "J2": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "1488a7a605462dd5",
+    "componentType": "part",
+    "x": 1690,
+    "y": 1080,
+    "subPartName": "AF 10.0 HC6.3.1",
+    "rotation": 0,
+    "mirror": true,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "f88be022b0b8e1ec",
+      "name": "AF 10.0 HC6.3"
+    },
+    "symbol": {
+      "uuid": "ffe721dc860ea60f",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "AF 10.0 HC6.3"
+    },
+    "footprint": {
+      "uuid": "27a835ea6dfc1a7f",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "USB-A-TH_AF-10.0-HC6.3"
+    },
+    "designator": "J2",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "gge4",
+    "manufacturer": "SHOU HAN(首韩)",
+    "manufacturerId": "AF 10.0 HC6.3",
+    "supplier": "LCSC",
+    "supplierId": "C456017",
+    "otherProperty": {
+      "PCB Layer": "Default",
+      "LCSC Part Name": "壳长10.0mm",
+      "Supplier Footprint": "弯插",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/AF%252010.0%2520HC6.3/458824.html",
+      "Connector Type": "Type-A",
+      "Protocol Standard": "USB 2.0",
+      "Gender": "母",
+      "Mounting Type": "弯插",
+      "Number of Contacts": "4P",
+      "Number of Ports": "1",
+      "Current Rating-Power": "1.5A",
+      "Voltage Rating": "30V",
+      "Connect-Disconnect Life": "5千次",
+      "Supplementary Features": "-",
+      "Center Height": "-",
+      "Length": "10mm",
+      "Detection color": "黑色",
+      "Operating Temperature": "-25℃~+85℃",
+      "Description": "连接器类型:Type-A;协议标准:USB 2.0;公母:母;安装方式:弯插;触点数量:4P;端口数量:1;额定电流 - 电源:1.5A;工作温度:-25℃~+85℃;",
+      "Calxus Function": "Selected downstream USB-A; rear separate shield pins 5/6 grounded; C456017 right-angle body10mm,height6.3mm."
+    }
+  },
+  "netlistCounts": {
+    "components": 97,
+    "pins": 345
+  },
+  "J2Netlist": {
+    "props": {
+      "Unique ID": "gge4",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Device": "f88be022b0b8e1ec",
+      "Footprint": "27a835ea6dfc1a7f",
+      "PCB Layer": "Default",
+      "Symbol": "ffe721dc860ea60f",
+      "Designator": "J2",
+      "LCSC Part Name": "壳长10.0mm",
+      "Supplier Part": "C456017",
+      "Manufacturer": "SHOU HAN(首韩)",
+      "Manufacturer Part": "AF 10.0 HC6.3",
+      "Supplier Footprint": "弯插",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/AF%252010.0%2520HC6.3/458824.html",
+      "Supplier": "LCSC",
+      "3D Model": "f9f717efafec4f23bf23d6e98e617557|0819f05c4eef4c71ace90d822a990e87",
+      "3D Model Title": "USB-A-TH_AF-10.0-HC6.3",
+      "3D Model Transform": "562.991,393.7,0,0,0,0,-0.001,-157.48,-98.425",
+      "Connector Type": "Type-A",
+      "Protocol Standard": "USB 2.0",
+      "Gender": "母",
+      "Mounting Type": "弯插",
+      "Number of Contacts": "4P",
+      "Number of Ports": "1",
+      "Current Rating-Power": "1.5A",
+      "Voltage Rating": "30V",
+      "Connect-Disconnect Life": "5千次",
+      "Supplementary Features": "-",
+      "Center Height": "-",
+      "Length": "10mm",
+      "Detection color": "黑色",
+      "Operating Temperature": "-25℃~+85℃",
+      "Name": "={Manufacturer Part}",
+      "Description": "连接器类型:Type-A;协议标准:USB 2.0;公母:母;安装方式:弯插;触点数量:4P;端口数量:1;额定电流 - 电源:1.5A;工作温度:-25℃~+85℃;",
+      "Reuse Block": "",
+      "Group ID": "",
+      "Channel ID": "$1I42",
+      "Calxus Function": "Selected downstream USB-A; rear separate shield pins 5/6 grounded; C456017 right-angle body10mm,height6.3mm.",
+      "DeviceName": "AF 10.0 HC6.3",
+      "FootprintName": "USB-A-TH_AF-10.0-HC6.3"
+    },
+    "altLibs": {
+      "devices": [],
+      "footprints": []
+    },
+    "pinInfoMap": {
+      "1": {
+        "name": "VCC",
+        "number": "1",
+        "net": "VBUS_USBA",
+        "pinClass": "",
+        "pinDifferentialPairClass": "",
+        "props": {
+          "Pin Number": "1"
+        }
+      },
+      "2": {
+        "name": "D-",
+        "number": "2",
+        "net": "USB_A_DM",
+        "pinClass": "",
+        "pinDifferentialPairClass": "",
+        "props": {
+          "Pin Number": "2"
+        }
+      },
+      "3": {
+        "name": "D+",
+        "number": "3",
+        "net": "USB_A_DP",
+        "pinClass": "",
+        "pinDifferentialPairClass": "",
+        "props": {
+          "Pin Number": "3"
+        }
+      },
+      "4": {
+        "name": "GND",
+        "number": "4",
+        "net": "GND",
+        "pinClass": "",
+        "pinDifferentialPairClass": "",
+        "props": {
+          "Pin Number": "4"
+        }
+      },
+      "5": {
+        "name": "SHELL",
+        "number": "5",
+        "net": "GND",
+        "pinClass": "",
+        "pinDifferentialPairClass": "",
+        "props": {
+          "Pin Number": "5"
+        }
+      },
+      "6": {
+        "name": "SHELL",
+        "number": "6",
+        "net": "GND",
+        "pinClass": "",
+        "pinDifferentialPairClass": "",
+        "props": {
+          "Pin Number": "6"
+        }
+      }
+    }
+  }
+}

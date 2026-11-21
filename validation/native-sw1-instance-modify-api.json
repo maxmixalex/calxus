@@ -1,0 +1,26 @@
+{
+  "source": "Installed doc.api PCB_PrimitiveComponent.modify",
+  "doc": {
+    "title": "\u4fee\u6539\u5668\u4ef6",
+    "visibility": "beta",
+    "params": [
+      {
+        "name": "primitiveId",
+        "type": "string | IPCB_PrimitiveComponent",
+        "description": "\u56fe\u5143 ID",
+        "required": true
+      },
+      {
+        "name": "property",
+        "type": "{ layer?: TPCB_LayersOfComponent; x?: number; y?: number; rotation?: number; primitiveLock?: boolean; addIntoBom?: boolean; designator?: string | null; name?: string | null; uniqueId?: string | null; manufacturer?: string | null; manufacturerId?: string | null; supplier?: string | null; supplierId?: string | null; otherProperty?: { [key: string]: any } }",
+        "required": true
+      }
+    ],
+    "returns": {
+      "type": "IPCB_PrimitiveComponent",
+      "description": "\u5668\u4ef6\u56fe\u5143\u5bf9\u8c61"
+    },
+    "example": "```javascript\n// 1. \u653e\u7f6e\u5f85\u4fee\u6539\u7684\u6d4b\u8bd5\u5668\u4ef6\uff08\u968f\u673a\u5750\u6807\u907f\u514d\u4e0e\u753b\u5e03\u5df2\u6709\u5668\u4ef6\u91cd\u5408\uff09\uff1a\n//    \u6309\u7acb\u521b\u7f16\u53f7\u4ece\u7cfb\u7edf\u5e93\u7cbe\u786e\u53cd\u67e5\u5668\u4ef6\uff0c\u8fd4\u56de\u9879\u4e0d\u542b libraryUuid\uff0c\u9700\u8865\u4e0a\u624d\u80fd\u7528\u4e8e create\nconst x = 20000 + Math.floor(Math.random() * 80000);\nconst y = 20000 + Math.floor(Math.random() * 80000);\nconst devices = await eda.lib_Device.searchByProperties({ supplierId: 'C1523' }, undefined, undefined, undefined, 5, 1);\nconst sysLibUuid = await eda.lib_LibrariesList.getSystemLibraryUuid();\nconst comp = await eda.pcb_PrimitiveComponent.create({ libraryUuid: sysLibUuid, uuid: devices[0].uuid }, 1, x, y);\nconst compId = comp.getState_PrimitiveId();\n\n// 2. \u8bfb\u53d6\u4fee\u6539\u524d\u7684\u4f4d\u7f6e\u4e0e\u65cb\u8f6c\u89d2\u5ea6\nconst beforeX = comp.getState_X();\nconst beforeY = comp.getState_Y();\nconst beforeRotation = comp.getState_Rotation();\n\n// 3. \u6279\u91cf\u4fee\u6539\uff1a\u5e73\u79fb 500mil\uff0c\u65cb\u8f6c 0\u00b0 \u2192 90\u00b0\nawait eda.pcb_PrimitiveComponent.modify(compId, { x: beforeX + 500, y: beforeY + 500, rotation: 90 });\n\n// 4. modify \u8fd4\u56de\u540e\u9700\u8981\u91cd\u65b0 get() \u624d\u80fd\u8bfb\u5230\u753b\u5e03\u4e0a\u7684\u6700\u65b0\u503c\nconst refreshed = await eda.pcb_PrimitiveComponent.get(compId);\n\n// 5. \u4fee\u6539\u7c7b\u4fdd\u7559\u73b0\u573a\uff0c\u4f9b\u89c2\u5bdf\u4fee\u6539\u7ed3\u679c\nconsole.log('primitiveId:', compId);\nconsole.log('x:', beforeX, '\u2192', refreshed.getState_X());\nconsole.log('y:', beforeY, '\u2192', refreshed.getState_Y());\nconsole.log('rotation:', beforeRotation, '\u2192', refreshed.getState_Rotation());\n```",
+    "isAsync": true
+  }
+}

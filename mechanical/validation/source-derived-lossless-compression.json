@@ -1,0 +1,14 @@
+{
+  "schema": "calxus.source-derived-lossless-compression.v2",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "assembly": "calxus_source_assembly.step.gz",
+  "gzip_sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+  "gzip_bytes": 7745606,
+  "method": "libdeflate level12, standard gzip format",
+  "uncompressed_bytes": 56290122,
+  "uncompressed_sha256": "bb2874077b616729d86586f61bea703b3d02c517dd0c921d9bad6cf99238e2eb",
+  "decompressed_byte_identical": true,
+  "independent_gzip_crc_and_raw_sha256_verified": true,
+  "geometry_changed_by_compression": false,
+  "scope": "The compressor compared decompressed bytes with its exact STEP input; promotion independently checked gzip CRC, raw length and raw SHA256. No geometry or STEP text was altered by compression."
+}

@@ -1,0 +1,370 @@
+{
+  "source": "Installed JLCEDA native doc.api via Bridge; read-only documentation only",
+  "native_editor_mutations_performed": false,
+  "first": {
+    "a0": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "title": "查询自动布线 / 自动布局作业状态",
+        "remarks": "返回指定作业的进度、结构化错误与中间结果是否已提交，无需靠超时猜测状态；\n仅适用于 {@link PCB_Document.startAutoRouting | startAutoRouting} 与 {@link PCB_Document.startAutoLayout | startAutoLayout} 启动的作业\n\nADD since EDA v4.1.79",
+        "visibility": "beta",
+        "recommendedFor": [
+          {
+            "role": "cli",
+            "note": "轮询作业进度与终态，避免靠超时猜测"
+          }
+        ],
+        "params": [
+          {
+            "name": "jobId",
+            "type": "string",
+            "description": "作业 ID",
+            "required": true
+          }
+        ],
+        "returns": {
+          "type": "ISYS_JobStatus",
+          "description": "作业状态详情，作业不存在时为 `undefined`"
+        },
+        "isAsync": true
+      }
+    },
+    "a1": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "title": "以作业模型启动自动布线",
+        "remarks": "立即返回作业句柄（`jobId`），任务寿命与本次调用寿命解耦；后续用 {@link PCB_Document.getAutoJobStatus | getAutoJobStatus} 查询进度、{@link PCB_Document.cancelAutoJob | cancelAutoJob} 取消作业、{@link PCB_Document.getAutoJobLog | getAutoJobLog} 读取日志\n\n入参语义与 {@link PCB_Document.autoRouting | autoRouting} 一致\n\n前置条件：自动布线作用于当前激活的 PCB 文档。未先打开并激活目标 PCB 时，作业可能停在 fan-out 阶段不再推进；新内核会在启动前直接抛 `DOCUMENT_NOT_ACTIVE`，本接口会把该错误补成带修复步骤的提示，错误码仍为 `SYS_ApiError.code === DOCUMENT_NOT_ACTIVE`\n\n提交语义：几何只在作业正常结束时提交。取消作业（{@link PCB_Document.cancelAutoJob | cancelAutoJob}）或外部超时导致作业中断时，已算出的走线/过孔会被丢弃；需要保住结果时请轮询到 `completed`，或用 `RoutingNets` 按网络分批布线\n\nADD since EDA v4.1.79",
+        "visibility": "beta",
+        "recommendedFor": [
+          {
+            "role": "cli",
+            "note": "立即返回 jobId、不阻塞；用 {@link PCB_Document.getAutoJobStatus | getAutoJobStatus} 轮询进度，用 {@link PCB_Document.cancelAutoJob | cancelAutoJob} 收尾"
+          }
+        ],
+        "params": [
+          {
+            "name": "props",
+            "type": "IPCB_AutoRoutingProps",
+            "description": "自动布线参数",
+            "required": false
+          }
+        ],
+        "returns": {
+          "type": "ISYS_JobHandle",
+          "description": "自动布线作业句柄"
+        },
+        "isAsync": true
+      }
+    },
+    "a2": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "name": "EPCB_AutoRoutingCornerStyle",
+        "comment": "自动布线拐角风格",
+        "visibility": "public",
+        "values": [
+          {
+            "name": "DEGREE_45",
+            "value": 0,
+            "description": "45 度"
+          },
+          {
+            "name": "DEGREE_90",
+            "value": 1,
+            "description": "90 度"
+          }
+        ]
+      }
+    },
+    "a3": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "query": "自动布线",
+        "total": 11,
+        "matches": [
+          {
+            "name": "PCB_Document",
+            "comment": "PCB & 封装 / 文档操作类",
+            "visibility": "public",
+            "matchedMethods": [
+              "importAutoRouteJsonFile",
+              "importAutoRouteSesFile",
+              "autoRouting",
+              "startAutoRouting",
+              "getAutoJobStatus",
+              "cancelAutoJob",
+              "getAutoJobLog"
+            ]
+          },
+          {
+            "name": "PCB_ManufactureData",
+            "comment": "PCB & 封装 / 生产资料类",
+            "visibility": "public",
+            "matchedMethods": [
+              "getDsnFile",
+              "getAutoRouteJsonFile",
+              "getAutoRouteJsonFileForJRouter"
+            ]
+          },
+          {
+            "name": "SCH_Document",
+            "comment": "原理图 & 符号 / 文档操作类",
+            "visibility": "public",
+            "matchedMethods": [
+              "autoRouting"
+            ]
+          },
+          {
+            "name": "EPCB_AutoRoutingCornerStyle",
+            "comment": "自动布线拐角风格",
+            "visibility": "public"
+          },
+          {
+            "name": "EPCB_AutoRoutingExistingPrimitiveMode",
+            "comment": "自动布线对已有导线/过孔的处理方式",
+            "visibility": "public"
+          },
+          {
+            "name": "EPCB_AutoRoutingOptimization",
+            "comment": "自动布线效果优先级",
+            "visibility": "public"
+          },
+          {
+            "name": "IPCB_AutoJobProgress",
+            "comment": "自动布线 / 自动布局作业进度统计",
+            "visibility": "public"
+          },
+          {
+            "name": "IPCB_AutoJobSnapshot",
+            "comment": "自动布线作业实时快照",
+            "visibility": "public"
+          },
+          {
+            "name": "IPCB_AutoRouteIterationData",
+            "comment": "自动布线引擎当前迭代阶段的最优解",
+            "visibility": "public"
+          },
+          {
+            "name": "IPCB_AutoRoutingProps",
+            "comment": "自动布线入参",
+            "visibility": "public"
+          },
+          {
+            "name": "IPCB_AutoRoutingResult",
+            "comment": "自动布线结果",
+            "visibility": "public"
+          }
+        ]
+      }
+    }
+  },
+  "types": {
+    "a0": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "name": "ISYS_JobStatus",
+        "comment": "作业状态详情",
+        "remarks": "含进度、结构化错误与中间结果是否已提交的信息，无需靠超时猜测状态",
+        "visibility": "public",
+        "fields": [
+          {
+            "name": "jobId",
+            "type": "string",
+            "comment": "作业 ID",
+            "required": true
+          },
+          {
+            "name": "state",
+            "type": "ESYS_JobState",
+            "comment": "作业状态",
+            "required": true
+          },
+          {
+            "name": "progress",
+            "type": "number",
+            "comment": "进度（`0` - `100`，整数百分比）",
+            "required": true
+          },
+          {
+            "name": "error",
+            "type": "{ code: string; message: string }",
+            "comment": "结构化错误信息（作业失败时携带）",
+            "required": false
+          },
+          {
+            "name": "partial",
+            "type": "boolean",
+            "comment": "中间结果是否已提交（如自动布线超时 / 失败后中间几何是否已落盘）",
+            "required": false
+          }
+        ]
+      }
+    },
+    "a1": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "name": "IPCB_AutoJobProgress",
+        "comment": "自动布线 / 自动布局作业进度统计",
+        "remarks": "顶层 `progress` 两类作业必有；其余字段按引擎可选携带：\n布线携带 `routabitity`（布通率），布局携带 `fitness`（GA 适应度）/ `generation`（当前代数）/ `generationsNum`（总代数）",
+        "visibility": "public",
+        "fields": [
+          {
+            "name": "progress",
+            "type": "number",
+            "comment": "当前进度 [0, 1]（引擎最新一次迭代上报值）",
+            "required": true
+          },
+          {
+            "name": "routabitity",
+            "type": "number",
+            "comment": "布通率 [0, 1]（仅自动布线作业携带，引擎最新一次迭代上报值）",
+            "required": false
+          },
+          {
+            "name": "fitness",
+            "type": "number",
+            "comment": "GA 适应度（仅自动布局作业携带）",
+            "required": false
+          },
+          {
+            "name": "generation",
+            "type": "number",
+            "comment": "当前代数（仅自动布局作业携带）",
+            "required": false
+          },
+          {
+            "name": "generationsNum",
+            "type": "number",
+            "comment": "总代数（仅自动布局作业携带）",
+            "required": false
+          }
+        ]
+      }
+    },
+    "a2": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "name": "EPCB_AutoRoutingOptimization",
+        "comment": "自动布线效果优先级",
+        "visibility": "public",
+        "values": [
+          {
+            "name": "COMPLETION",
+            "value": 1,
+            "description": "优先布通率（尽可能完成所有网络）"
+          },
+          {
+            "name": "FASTER",
+            "value": 0,
+            "description": "优先布线速度"
+          }
+        ]
+      }
+    },
+    "a3": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "name": "IPCB_AutoRoutingProps",
+        "comment": "自动布线入参",
+        "visibility": "public",
+        "fields": [
+          {
+            "name": "RoutingNets",
+            "type": "\"selected\" | \"selectedComponents\" | Array<string>",
+            "comment": "布线网络",
+            "required": false
+          },
+          {
+            "name": "cornerStyle",
+            "type": "EPCB_AutoRoutingCornerStyle",
+            "comment": "布线拐角风格",
+            "required": false
+          },
+          {
+            "name": "existingPrimitiveMode",
+            "type": "EPCB_AutoRoutingExistingPrimitiveMode",
+            "comment": "已有导线/过孔的处理方式",
+            "required": false
+          },
+          {
+            "name": "optimization",
+            "type": "EPCB_AutoRoutingOptimization",
+            "comment": "效果优先级",
+            "required": false
+          },
+          {
+            "name": "layers",
+            "type": "Array<TPCB_LayersOfCopper>",
+            "comment": "布线图层",
+            "required": false
+          },
+          {
+            "name": "ignoreNets",
+            "type": "Array<string>",
+            "comment": "忽略网络",
+            "required": false
+          }
+        ]
+      }
+    },
+    "a4": {
+      "ok": true,
+      "path": "doc.api",
+      "data": {
+        "name": "IPCB_AutoJobSnapshot",
+        "comment": "自动布线作业实时快照",
+        "remarks": "`getAutoJobLog` 的返回体：被调用时立刻返回，数据取自编辑器主线程缓存，不等待布线进程",
+        "visibility": "public",
+        "fields": [
+          {
+            "name": "logs",
+            "type": "Array<ISYS_JobLogEntry>",
+            "comment": "引擎基础日志（按作业归档的全量日志）",
+            "required": true
+          },
+          {
+            "name": "result",
+            "type": "IPCB_AutoRouteIterationData | IPCB_AutoLayoutIterationData | null",
+            "comment": "引擎当前迭代阶段的最优解（结构随作业引擎类型：布线为布线迭代数据，布局为布局迭代数据）；作业尚未上报过数据时为 `null`",
+            "required": true
+          },
+          {
+            "name": "progress",
+            "type": "IPCB_AutoJobProgress | null",
+            "comment": "当前进度、布通率 / 适应度等统计数据；作业尚未上报过数据时为 `null`",
+            "required": true
+          }
+        ]
+      }
+    }
+  },
+  "findings": {
+    "status_progress": "ISYS_JobStatus.progress is integer 0–100 percent; no duration guarantee",
+    "snapshot_progress": "IPCB_AutoJobProgress.progress and routabitity are 0–1",
+    "optimization_1": "COMPLETION: maximize routed nets",
+    "cornerStyle_0": "45 degree",
+    "diagnostic": "getAutoJobLog returns cached main-thread snapshot immediately; no routing-process wait",
+    "commit": "startAutoRouting documents normal completion as geometry commit; interruption/cancel may discard results",
+    "cloud_or_ui_confirmation": "Not specified by the retrieved API documentation; do not infer a network/UI wait from low progress"
+  },
+  "getAutoJobLog_signature": {
+    "async": true,
+    "params": [
+      {
+        "name": "jobId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "returns": "IPCB_AutoJobSnapshot",
+    "since": "EDA v4.1.79"
+  }
+}

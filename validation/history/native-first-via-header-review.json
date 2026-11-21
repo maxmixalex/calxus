@@ -1,0 +1,74 @@
+{
+  "jobId": "job-mcp-3ee57008-06ad-4cfb-95ba-a1c8d20c6033",
+  "state": {
+    "schema": "calxus.native-final-copper-reconcile.v2",
+    "candidateSHA256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+    "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+    "next": 0,
+    "completed": [],
+    "startedAt": "2026-11-21T12:26:55.763Z",
+    "sourceBackup": "pcb-before-final-copper-reconcile.epcb2",
+    "pending": {
+      "index": 0,
+      "type": "via",
+      "tag": "additional_2_via0",
+      "id": "3842ea1b1dfeb433",
+      "candidateId": "16baba3b72dd8ade",
+      "at": "2026-11-21T12:26:55.927Z"
+    }
+  },
+  "diffs": [
+    {
+      "key": "DOCHEAD|undefined",
+      "before": {
+        "docType": "PCB",
+        "client": "e0a1efd2585b9efd",
+        "uuid": "2a0c39c6c6694f40",
+        "updateTime": 1795264015846,
+        "version": "1795264015846"
+      },
+      "after": {
+        "docType": "PCB",
+        "client": "b347202d36583cc6",
+        "uuid": "2a0c39c6c6694f40",
+        "updateTime": 1795264052495,
+        "version": "1795264052495"
+      }
+    },
+    {
+      "key": "VIA|3842ea1b1dfeb433",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIL_1V8",
+        "ruleName": "",
+        "centerX": 1738.189,
+        "centerY": 890.748,
+        "holeDiameter": 7.874,
+        "viaDiameter": 19.685,
+        "viaType": "NORMAL",
+        "topSolderExpansion": -9.8425,
+        "bottomSolderExpansion": -9.8425,
+        "locked": false,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "SIL_1V8",
+        "ruleName": "",
+        "centerX": 1738.189,
+        "centerY": 890.3543,
+        "holeDiameter": 7.874,
+        "viaDiameter": 19.685,
+        "viaType": "NORMAL",
+        "topSolderExpansion": -9.8425,
+        "bottomSolderExpansion": -9.8425,
+        "locked": false,
+        "unusedInnerLayers": [],
+        "propagationDelay": 0
+      }
+    }
+  ]
+}

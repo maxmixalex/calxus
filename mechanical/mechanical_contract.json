@@ -1,0 +1,435 @@
+{
+  "schema": "calxus.mechanical-contract.v1",
+  "revision": "R1.2-ADJUSTABLE-PROTOTYPE",
+  "units": "mm",
+  "coordinate_system": "Right-handed; PCB lower-left corner=(0,0,0); PCB thickness extends +Z; X=length; Y=width; Z=height.",
+  "status": "Prototype CAD complete. Native r7 93 fitted component models clear enclosure and fasteners; raw STEP J2 hole-size export discrepancy and model Z correction are separately gated by final native reload/CAM evidence. Physical fit/grip tests remain unperformed.",
+  "board": {
+    "size": [
+      80.0,
+      42.0,
+      1.6
+    ],
+    "corner_radius": 1.0,
+    "mounting_holes": [
+      [
+        3.5,
+        3.5
+      ],
+      [
+        76.5,
+        3.5
+      ],
+      [
+        3.5,
+        38.5
+      ],
+      [
+        76.5,
+        38.5
+      ]
+    ],
+    "mounting_hole_diameter": 2.2,
+    "mounting_keepout_radius_both_faces": 3.0,
+    "max_component_height_top": 8.6,
+    "max_component_height_bottom": 1.8,
+    "actual_exported_thickness_mm": 1.606203212406,
+    "height_reservation_note": "Final r7 fitted population has top8.500006 and bottom1.393797 mm envelope. Native DNP tail connector models extend1.794 below board but are not installed. Rounded design reservations8.6/1.8 retain solder/harness room outside the separate selector keepout."
+  },
+  "enclosure": {
+    "bounds_min": [
+      -3.0,
+      -3.0,
+      -4.5
+    ],
+    "bounds_max": [
+      83.0,
+      45.0,
+      14.5
+    ],
+    "nominal_wall": 2.0,
+    "outer_corner_radius": 3.5,
+    "seam_z": 5.2,
+    "inner_floor_z": -2.5,
+    "inner_roof_z": 12.5,
+    "lip_height": 1.3,
+    "lip_lateral_clearance": 0.25,
+    "lip_vertical_clearance": 0.25,
+    "pcb_capture_clearance": 0.15,
+    "rigid_connector_envelope_y_mm": [
+      -4.925231,
+      45.0
+    ],
+    "rigid_connector_envelope_width_y_mm": 49.925231
+  },
+  "ports": [
+    {
+      "name": "USB_C_UPSTREAM",
+      "side": "xmin",
+      "center": [
+        0.0,
+        21.0,
+        3.3
+      ],
+      "opening_width": 14.4,
+      "opening_height": 8.0,
+      "opening_corner_radius": 1.5,
+      "connector_envelope_min": [
+        -1.0018,
+        16.402,
+        1.6
+      ],
+      "connector_envelope_max": [
+        7.0085,
+        25.596,
+        5.1
+      ],
+      "note": "XY clearance envelope follows selected library outline transformed at anchor (4.22,21), rotation270. Physical HRO body nominal8.94x7.35x3.16; silhouette and height need reconciliation with physical sample. Opening includes cable-overmold access.",
+      "manufacturer_part": "HRO TYPE-C-31-M-12",
+      "lcsc": "C165948",
+      "eda_anchor_mm": [
+        4.22,
+        21.0
+      ],
+      "eda_rotation_deg": 270,
+      "mating_plane_x_target": -1.0,
+      "manufacturer_nominal_body_size_width_depth_height": [
+        8.94,
+        7.35,
+        3.16
+      ],
+      "source": "https://en.krhro.com/Product-Details/726.html"
+    },
+    {
+      "name": "USB_A_DOWNSTREAM_4",
+      "side": "ymin",
+      "center": [
+        40.0,
+        0.0,
+        5.1
+      ],
+      "opening_width": 20.5,
+      "opening_height": 12.0,
+      "opening_corner_radius": 1.0,
+      "connector_envelope_min": [
+        32.85,
+        -4.925231,
+        1.6
+      ],
+      "connector_envelope_max": [
+        47.15,
+        5.074775,
+        7.9
+      ],
+      "note": "Horizontal 10 mm short-body TH socket. Anchor preserves original pin1-4 drill centers; shell body layer48 spans X33.400013..46.600012 and Y-4.925231..5.074775. Envelope X includes 14.3 mm model/shell extent; body-only Z uses manufacturer height6.3. Pins and complete assembly are tested separately in actual r7 STEP. C718032 is rejected: its actual vertical H15 body collided with the lid.",
+      "manufacturer_part": "SHOU HAN AF 10.0 HC6.3",
+      "lcsc": "C456017",
+      "eda_anchor_mm": [
+        40.0,
+        4.07498
+      ],
+      "eda_rotation_deg": 0,
+      "mating_plane_y_target": -4.925231,
+      "expected_body_rear_y": 5.074775,
+      "manufacturer_nominal_body_size_width_depth_height": [
+        13.2,
+        10.0,
+        6.3
+      ],
+      "nominal_front_projection_from_case_mm": 1.925231,
+      "source": "https://datasheet.lcsc.com/datasheet/pdf/d8f5df2b196cdbe2164d9785cc185649.pdf?productCode=C456017"
+    }
+  ],
+  "tail_comb": {
+    "side": "xmax",
+    "axis_z": 5.2,
+    "neck_x": [
+      80.5,
+      83.2
+    ],
+    "neck_y": [
+      6.0,
+      38.0
+    ],
+    "neck_z": [
+      2.1,
+      8.3
+    ],
+    "inner_flange_x": [
+      79.2,
+      80.5
+    ],
+    "outer_flange_x": [
+      83.2,
+      84.5
+    ],
+    "flange_y": [
+      4.8,
+      39.2
+    ],
+    "flange_z": [
+      1.8,
+      8.6
+    ],
+    "case_slot_y": [
+      5.9,
+      38.1
+    ],
+    "case_slot_z": [
+      2.1,
+      8.3
+    ],
+    "nominal_diametral_compression": 0.2,
+    "channels": [
+      {
+        "name": "AUX_KEYED_3WIRE",
+        "y": 10.0,
+        "cable_od_nominal": 3.0,
+        "bore_diameter": 2.8,
+        "cable_source": "26 AWG PH 3-wire harness, nominal 200 mm; add an outer sleeve over the clamped segment.",
+        "prepared_outer_diameter_mm_range": [
+          2.9,
+          3.1
+        ],
+        "nominal_diametral_compression_mm_range": [
+          0.1,
+          0.3
+        ],
+        "length_reference": "200 mm purchased PH lead; final free length depends on internal routing."
+      },
+      {
+        "name": "CASIO_2P5",
+        "y": 18.0,
+        "cable_od_nominal": 3.8,
+        "bore_diameter": 3.6,
+        "cable_source": "Ckmtw S002020047 / LCSC C430897, UL2725 #28 shielded USB cable",
+        "cut_length_mm_range": [
+          250,
+          300
+        ],
+        "length_reference": "Retained/cut cable segment, not guaranteed finished free length; reserve material for 17.3 mm comb/boot and internal PCB routing."
+      },
+      {
+        "name": "TI_2P5",
+        "y": 26.0,
+        "cable_od_nominal": 3.8,
+        "bore_diameter": 3.6,
+        "cable_source": "Ckmtw S002020047 / LCSC C430897, UL2725 #28 shielded USB cable",
+        "cut_length_mm_range": [
+          250,
+          300
+        ],
+        "length_reference": "Retained/cut cable segment, not guaranteed finished free length; reserve material for 17.3 mm comb/boot and internal PCB routing."
+      },
+      {
+        "name": "USB_MINI_B",
+        "y": 34.0,
+        "cable_od_nominal": 3.8,
+        "bore_diameter": 3.6,
+        "cable_source": "Ckmtw S002020047 / LCSC C430897, UL2725 #28 shielded USB cable",
+        "cut_length_mm_range": [
+          250,
+          300
+        ],
+        "length_reference": "Retained/cut cable segment, not guaranteed finished free length; reserve material for 17.3 mm comb/boot and internal PCB routing."
+      }
+    ],
+    "note": "Mini-B, TI and Casio use OD3.8 cable with OD3.6 bores (0.20 mm nominal diametral compression). AUX retains OD2.8 bore: prepare its 26 AWG PH wire bundle with a jacket/sleeve to measured OD2.9..3.1; do not clamp exposed individual conductors. Printed TPU grip requires coupon and pull/flex testing.",
+    "boot_x": [
+      84.5,
+      96.5
+    ],
+    "boot_root_diameter_over_jacket": 3.2,
+    "boot_tip_diameter_over_jacket": 1.4,
+    "retention_collars": {
+      "quantity": 4,
+      "description": "2:1 heat-shrink tube; expanded ID8 mm; cut length8 mm; four individual collars retain the two TPU halves",
+      "installed_x": [
+        86.0,
+        94.0
+      ],
+      "reference_wall_thickness": 0.3,
+      "process": "Slide from loose PCB-end wires before soldering. Shrink around assembled TPU boots before inserting comb in rigid case. Do not overheat cable jacket."
+    },
+    "cable_source_evidence": {
+      "manufacturer": "Ckmtw",
+      "mpn": "S002020047",
+      "lcsc": "C430897",
+      "drawing_revision": "A",
+      "drawing_date": "2012-11-01",
+      "nominal_length_mm": 1500,
+      "nominal_jacket_od_mm": 3.8,
+      "construction": "UL2725 #28x1PR + #28x2C + AL + 64 braid, black",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/4be3348a50351aa811fbe41e427c005c.pdf?productCode=C430897",
+      "datasheet_sha256": "17fbb55f829f1ddadb230e9551f4c5ae0201c9e2ff5932ec97752c584b5178f7",
+      "inspection": "Manufacturer drawing visually checked; source supplied by electrical procurement. Stock status is maintained by the procurement BOM, not this mechanical contract."
+    },
+    "two_p5_plug_candidate": {
+      "mpn": "SP-2533A",
+      "lcsc": "C4992833",
+      "cable_exit_diameter_nominal_mm": 4.0,
+      "cable_exit_diameter_tolerance_mm": 0.5,
+      "nominal_diametral_clearance_for_3p8_mm": 0.2,
+      "worst_case_diametral_clearance_mm": -0.3,
+      "status": "Conditional candidate; at the stated 3.5 mm minimum outlet it will not clear a 3.8 mm jacket. Sample-gauge actual outlet >=3.8 mm before use; supplier stock must be confirmed separately."
+    }
+  },
+  "fasteners": {
+    "lid_screws": {
+      "quantity": 4,
+      "description": "M2 x 16 mm pan/button head machine screw; head diameter <=4.0 mm; head height <=1.8 mm; length measured below head",
+      "clearance_diameter": 2.3,
+      "counterbore_diameter": 4.4,
+      "counterbore_bearing_z": 12.4
+    },
+    "inserts": {
+      "quantity": 5,
+      "description": "M2 short brass heat-set insert; nominal OD 3.2 mm; length 2.5 mm; match actual insert and polymer",
+      "pilot_diameter": 3.0,
+      "top_z": 0.0,
+      "bottom_z": -2.5
+    },
+    "boss_outer_diameter": 6.0,
+    "screw_tip_relief_diameter": 2.1,
+    "screw_tip_relief_bottom_z": -3.8,
+    "slider_screw": {
+      "quantity": 1,
+      "description": "M2 x 6 mm pan/button head machine screw; head diameter<=4.0 mm, height<=1.8 mm",
+      "counterbore_diameter": 4.2,
+      "counterbore_bearing_z": 15.5,
+      "through_slot_size_x_y": [
+        3.1,
+        2.3
+      ],
+      "counterbore_slot_size_x_y": [
+        5.0,
+        4.2
+      ],
+      "calibration_x_range_mm": [
+        -0.35,
+        0.35
+      ]
+    }
+  },
+  "print": {
+    "rigid_material": "PETG or ASA; prototype defaults PETG",
+    "flexible_material": "TPU 95A",
+    "nozzle": 0.4,
+    "layer_height": 0.2,
+    "minimum_perimeters": 4,
+    "infill_percent": 35,
+    "case_orientation": "Base exterior bottom on bed; lid exterior roof on bed. Clean optional slicer support from internal selector guide ledges.",
+    "comb_orientation": "Each split face on bed; upper/lower print-oriented exports supplied.",
+    "tolerances": {
+      "general_xy": 0.25,
+      "general_z": 0.2,
+      "clearance_minimum_nominal": 0.15
+    },
+    "warning": "Fit tolerances depend on printer/material; print included insert/comb coupon first. Not watertight.",
+    "selector_orientation": "Fork upright with brim; thumb upside down with outer face on bed. Print-oriented files supplied."
+  },
+  "selector": {
+    "manufacturer_part": "ALPS SSSS224100",
+    "lcsc": "C255514",
+    "body_center": [
+      20.0,
+      34.0,
+      3.35
+    ],
+    "body_size": [
+      15.0,
+      3.5,
+      3.5
+    ],
+    "pcb_mounting_z": 1.6,
+    "travel_axis": "X",
+    "actuator_direction": "-Y",
+    "position_offsets": [
+      -3.0,
+      -1.0,
+      1.0,
+      3.0
+    ],
+    "actuator_center_y": 31.25,
+    "actuator_center_z": 4.1,
+    "actuator_size_x_y_z": [
+      1.5,
+      2.0,
+      1.5
+    ],
+    "slider_center_y": 30.9,
+    "top_slot_size_x_y": [
+      11.2,
+      3.3
+    ],
+    "slider_collar_z": [
+      11.0,
+      12.2
+    ],
+    "slider_collar_size_x_y": [
+      9.0,
+      8.0
+    ],
+    "thumb_top_z": 17.4,
+    "total_assembly_height_including_thumb": 21.9,
+    "slider_insert_pilot_diameter": 3.0,
+    "slider_insert_z": [
+      9.7,
+      12.2
+    ],
+    "thumb_screw": "M2 x 6 mm, head <=4.0 x 1.8, one additional short M2 insert",
+    "desired_positions_left_to_right": [
+      "0: native Mini-B",
+      "1: USB-A",
+      "2: TI",
+      "3: UART"
+    ],
+    "note": "Official ALPS actuator width1.5, stroke2 per step, body15x3.5x3.5. Fork socket width1.9 gives nominal0.20 per side. Adjustable clamped coupling accommodates model/printed datum variation without moving exterior scale or guides.",
+    "source": "https://tech.alpsalpine.com/e/products/detail/SSSS224100/",
+    "assembly_display_position_offset": -3.0,
+    "fork_socket_width_x": 1.9,
+    "fork_calibration_x_range_mm": [
+      -0.35,
+      0.35
+    ],
+    "assembly_display_fork_calibration_x": 0.0,
+    "library_model_fit_calibration_x_mm": -0.25,
+    "library_model_fit_note": "Only an observed library-model fit. Official public drawing does not dimension absolute actuator X to the footprint datum; adjust the actual assembled unit before tightening.",
+    "assembly_alignment": "Place actual switch in an inner detent (label1 or2), align thumb with that label, allow fork to locate on actuator within the X slots, then tighten existing M2x6 while holding alignment. Verify all four detents without binding.",
+    "thumb_base_z": 14.7,
+    "thumb_outer_size_x_y": [
+      7.0,
+      6.0
+    ],
+    "thumb_stem_size_x_y": [
+      4.6,
+      2.7
+    ],
+    "thumb_stem_top_z": 15.6,
+    "thumb_head_pocket_min_side_wall": 0.9,
+    "thumb_head_pocket_min_end_wall": 1.0,
+    "thumb_head_bearing_floor_thickness": 0.8,
+    "thumb_stem_open_window_size_x_y": [
+      3.0,
+      2.7
+    ],
+    "thumb_stem_end_post_minimum_thickness": 0.8,
+    "thumb_stem_window_z": [
+      12.2,
+      14.7
+    ]
+  },
+  "assembly_population": {
+    "native_component_instances": 97,
+    "actual_fitted_components": 93,
+    "smt_fitted": 87,
+    "manual_th_fitted": 6,
+    "pad_only_dnp_model_refs": [
+      "J3",
+      "J4",
+      "J5",
+      "J8"
+    ],
+    "note": "These four native connector models are reference-only at direct-wire solder pads. Do not assemble the library connector bodies; use the approved cable harness. SW1 is manual TH."
+  }
+}

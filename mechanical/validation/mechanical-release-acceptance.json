@@ -1,0 +1,118 @@
+{
+  "schema": "calxus.mechanical-release-acceptance.v1",
+  "mechanical_release_accepted": true,
+  "scope": "Digital mechanical design release. Does not establish electrical operation, routed-net DRC, USB compliance or physical first-article validation.",
+  "canonical_assembly": "mechanical/output/calxus_source_assembly.step.gz",
+  "canonical_assembly_sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+  "canonical_geometry_origin": "SOURCE_DERIVED_DESIGN_WITH_FINAL_NATIVE_SOURCE_AND_CAM_COMPARISON",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "native_final_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "actual_final_gerber_archive_sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+  "fitted_components": 93,
+  "source_native_components": 97,
+  "omitted_DNP_connector_models": [
+    "J3",
+    "J4",
+    "J5",
+    "J8"
+  ],
+  "assembly_named_objects": 114,
+  "complete_nominal_drill_features": 247,
+  "selector_poses_verified": 16,
+  "printed_designs": 7,
+  "frozen_printed_STEP_STL_files": 14,
+  "actual_native_board_STEP_verified": true,
+  "actual_native_CAM_all247_drills_verified": true,
+  "native_final_component_pose_and_model_binding_comparison_pass": true,
+  "native_and_canonical_outer_wire_boolean_difference_mm3": 0,
+  "actual_CAM_four_R1_quarter_arcs_verified": true,
+  "CAD_geometry_regenerated_for_final_native_comparison": false,
+  "fresh_native_full_pcba_exported": false,
+  "physical_first_article_validated": false,
+  "native_STEP_limit": "Actual final board-only STEP contains58 non-VIA holes and omits189 VIA drill voids. It is preserved as evidence; the complete source-derived assembly remains canonical.",
+  "source_roundtrip_checks_unchanged": true,
+  "preview_limit": "Gerbonara pretty board-fill may show a lower-left closing chord. Actual GKO has four R1 quarter arcs; no fabrication or CAD geometry was changed for the preview.",
+  "evidence": [
+    {
+      "path": "hardware/native/Calxus_RevA_candidate.epro2",
+      "bytes": 334563,
+      "sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449"
+    },
+    {
+      "path": "hardware/native/Calxus_RevA_final.epro2",
+      "bytes": 346898,
+      "sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac"
+    },
+    {
+      "path": "mechanical/output/calxus_source_assembly.step.gz",
+      "bytes": 7745606,
+      "sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7"
+    },
+    {
+      "path": "mechanical/output/calxus_source_board.step.gz",
+      "bytes": 185966,
+      "sha256": "e3bdc9a6e4a051d83e645ff7f497fb5659b16604f3c6d2edf2ab2872f6b485fd"
+    },
+    {
+      "path": "mechanical/validation/Calxus_RevA_final_board.step.gz",
+      "bytes": 49984,
+      "sha256": "75858fce5bc2864461071834c6f30577afb4c42f16d187e9ecce9d45f8d914ea"
+    },
+    {
+      "path": "hardware/manufacturing/Calxus_RevA_Gerber.zip",
+      "bytes": 212148,
+      "sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8"
+    },
+    {
+      "path": "validation/native-final-gerber/gerber-validation.json",
+      "bytes": 595468,
+      "sha256": "d7749c1ab1d195d37f02db79021d3a574174cbaa4ff9d840806b0ab7a12d2e73"
+    },
+    {
+      "path": "validation/native-final-gerber/outline-corners.json",
+      "bytes": 5337,
+      "sha256": "f06a922730fe1784c9b7b47bd2ec4aac7f0bf8320b315519453e39021f6afba8"
+    },
+    {
+      "path": "mechanical/validation/calxus_source_assembly-manifest.json",
+      "bytes": 20092,
+      "sha256": "31331d8697806df3ff4f0de6adaf206ebce1e3b36b7f4971cecbebb87081ec13"
+    },
+    {
+      "path": "mechanical/validation/source-derived-assembly-roundtrip.json",
+      "bytes": 92907,
+      "sha256": "7d7f09a892b4f0de8c37465109acb62cb0ee64f57859f0fda138bf81e04d4f92"
+    },
+    {
+      "path": "mechanical/validation/source-derived-pcba-fit.json",
+      "bytes": 48616,
+      "sha256": "d34f1c756d2137af3c9a546db98a7a791aa42322b3a0499adbc498985881b514"
+    },
+    {
+      "path": "mechanical/validation/source-derived-selector-motion.json",
+      "bytes": 17301,
+      "sha256": "52a05718590c8abc1d6dc681abbc1a44f572372cb1acf37304c410fcb20ecc69"
+    },
+    {
+      "path": "mechanical/validation/native-final-mechanical-source-equivalence.json",
+      "bytes": 160499,
+      "sha256": "3153b32265b52010e4f8e97cca2ebbc366b13e2a9b34c7c5e08aa2f75b76023d"
+    },
+    {
+      "path": "mechanical/validation/native-final-board-brep.json",
+      "bytes": 9456,
+      "sha256": "f52afd99edb4db9188a61acddaade85780e4066c7678394fbd4dd0a56d9cf0c7"
+    },
+    {
+      "path": "mechanical/validation/native-final-board-representation.json",
+      "bytes": 222099,
+      "sha256": "1d44275c9b65fb6c535bf4008f81639b4a29e3ff4769ce2cbdb8f9c14da76f6c"
+    },
+    {
+      "path": "mechanical/validation/printed-parts-frozen-r1_2.json",
+      "bytes": 2620,
+      "sha256": "c1a1110d7fbf704db493ead0f8d8d9a9e919a19d6448a148c5c17ed2f237b067"
+    }
+  ],
+  "fresh_native_full_pcba_exported_scope": "Scope is the published, independently verified mechanical package. An optional fresh native full-PCBA STEP exists in the local Windows exports directory, but it was not transferred, adopted or independently compared. This flag does not claim that no optional local export exists."
+}

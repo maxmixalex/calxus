@@ -1,0 +1,83 @@
+{
+  "revision": "A0-switch-engineering-r7",
+  "native_change_completed": true,
+  "source": {
+    "url": "https://datasheet.lcsc.com/datasheet/pdf/d8f5df2b196cdbe2164d9785cc185649.pdf?productCode=C456017",
+    "supplier_product_url": "https://www.lcsc.com/product-detail/C456017.html",
+    "manufacturer": "SHOU HAN",
+    "mpn": "AF 10.0 HC6.3",
+    "lcsc": "C456017",
+    "retrieved_date": "2026-11-21",
+    "retrieved_file_sha256": "ee5d4b8816e55fe004c6fe2ba3d62a638dca8d69ebdd43346dd025e3645a20a4",
+    "retrieved_file_bytes": 1328063,
+    "facts": {
+      "right_angle": true,
+      "body_depth_mm": 10,
+      "body_height_mm": 6.3,
+      "body_width_mm": 13.2,
+      "signals": 4,
+      "rear_shell_tabs": 2
+    },
+    "scope": "Original manufacturer dimensional drawing hosted by LCSC; linked, not republished. Stock observed31780 on2026-11-21 around10:13UTC; not future availability."
+  },
+  "rejected_previous": {
+    "lcsc": "C718032",
+    "mpn": "USB-A-M3A+4PLF",
+    "reason": "Original manufacturer drawing and actual native STEP establish vertical15mm body; not model rotation error.",
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/e8947e7dcf18605a63fdf421b561b538.pdf?productCode=C718032"
+  },
+  "replacement": {
+    "ref": "J2",
+    "lcsc": "C456017",
+    "mpn": "AF 10.0 HC6.3",
+    "pcb_anchor_mm": [
+      40,
+      4.07498
+    ],
+    "pcb_rotation_deg": 0,
+    "schematic_mirror": true,
+    "pins": {
+      "1": "VBUS_USBA",
+      "2": "USB_A_DM",
+      "3": "USB_A_DP",
+      "4": "GND",
+      "5": "GND",
+      "6": "GND"
+    },
+    "signal_drill_centers_preserved": true,
+    "native_schematic_primitive": "1488a7a605462dd5",
+    "native_pcb_primitive": "b5596e790541d216",
+    "project_device": "f88be022b0b8e1ec",
+    "project_footprint": "27a835ea6dfc1a7f",
+    "schematic_and_pcb_unique_id": "gge4"
+  },
+  "verification": {
+    "components": 97,
+    "schematic_unique_pins": 345,
+    "pcb_physical_pads": 345,
+    "explicit_nc": 21,
+    "SMT": 87,
+    "manual_TH": 6,
+    "pcb_only_testpads": 23,
+    "schematic_protected_records": 1845,
+    "pcb_protected_records": 1275,
+    "fixed_lines": 139,
+    "fixed_vias": 61,
+    "GND_planes": 2,
+    "mount_keepout_regions": 8,
+    "physical_stackup_mm": 1.6062,
+    "qfn_ep_paste_windows_each": 4,
+    "THT_holes": 56,
+    "PTH": 52,
+    "NPTH": 4,
+    "source_drill_table": "../../validation/native-r7-tht-drill-expectations.json",
+    "final_drill_export_accepted": false,
+    "final_pcba_fit_accepted": false
+  },
+  "known_native_API_issue": "Saved FOOTPRINT/archive source specifies J2 ROUND39.37mil and SLOT82.677x31.496mil relativeAngle90, but the first fresh r7 STEP Board renders signals0.100mm and shield slots~0.210x0.080mm nearX. Therefore the discrepancy affects rendered geometry, not only getter display. A stale/converted component cache is suspected but not proven. Do not compensate by enlarging correct source holes. After all live changes are saved and backed up, reload from saved source and independently compare all56 expected holes with final Excellon and STEP.",
+  "mechanical_followup": "Fresh r7 STEP confirms SW1+0.5mm override with zero Board intersection. J2 leads intersect undersized rendered Board holes; model plastic underside is also0.1mm below PCB top. See mechanical/validation/native-r7-j2-board-model-diagnostic.json. Full PCBA fit and manufacture export are NOT accepted.",
+  "routing_followup": "Candidate trace410 VBUS_USBA must be withdrawn for J2 left shield; routing agent reports replacement planned. Full ordinary copper/final DRC are later routing release, not this checkpoint.",
+  "archive_sha256": "18d8a0ccdbf3b630a9615d0ea36fb3fe75de02d21a5d2e9f1b2f07a6cd53cfa9",
+  "design_sha256": "0877a26f484a80654b146c332041a5291ad61c37b861dc38caf7ec7c4f77a43d",
+  "release_limit": "Engineering checkpoint. No assembled hardware, calculator transfers, USB eye/ESD tests or final manufacture-file acceptance is implied."
+}

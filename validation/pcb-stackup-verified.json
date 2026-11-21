@@ -1,0 +1,166 @@
+{
+  "sourcePerMil": 1.0000344826973548,
+  "stackup": {
+    "layers": [
+      {
+        "layerId": 3,
+        "layerName": "Top Silkscreen Layer",
+        "layerType": "TOP_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 1
+      },
+      {
+        "layerId": 7,
+        "layerName": "Top Paste Mask Layer",
+        "layerType": "TOP_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 2
+      },
+      {
+        "layerId": 5,
+        "layerName": "Top Solder Mask Layer",
+        "layerType": "TOP_SOLDER_MASK",
+        "kind": "other",
+        "material": "Solder mask",
+        "thickness": 0.39371436326667514,
+        "permittivity": 3.8,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 3
+      },
+      {
+        "layerId": 1,
+        "layerName": "Top Layer",
+        "layerType": "TOP",
+        "kind": "copper",
+        "material": "Copper 1oz",
+        "thickness": 1.3780002714333635,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1000
+      },
+      {
+        "layerId": 361,
+        "layerName": "PP7628 top",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "7628 prepreg",
+        "thickness": 8.283750203130847,
+        "permittivity": 4.4,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      },
+      {
+        "layerId": 15,
+        "layerName": "Inner1",
+        "layerType": "SIGNAL",
+        "kind": "copper",
+        "material": "Copper 0.5oz",
+        "thickness": 0.5984458321653463,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 2000
+      },
+      {
+        "layerId": 362,
+        "layerName": "FR4 core",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "FR-4 core",
+        "thickness": 41.9305796879009,
+        "permittivity": 4.6,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 2001
+      },
+      {
+        "layerId": 16,
+        "layerName": "Inner2",
+        "layerType": "SIGNAL",
+        "kind": "copper",
+        "material": "Copper 0.5oz",
+        "thickness": 0.5984458321653463,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 3000
+      },
+      {
+        "layerId": 363,
+        "layerName": "PP7628 bottom",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "7628 prepreg",
+        "thickness": 8.283750203130847,
+        "permittivity": 4.4,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 3001
+      },
+      {
+        "layerId": 2,
+        "layerName": "Bottom Layer",
+        "layerType": "BOTTOM",
+        "kind": "copper",
+        "material": "Copper 1oz",
+        "thickness": 1.3780002714333635,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 9000
+      },
+      {
+        "layerId": 6,
+        "layerName": "Bottom Solder Mask Layer",
+        "layerType": "BOT_SOLDER_MASK",
+        "kind": "other",
+        "material": "Solder mask",
+        "thickness": 0.39371436326667514,
+        "permittivity": 3.8,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 10000
+      },
+      {
+        "layerId": 8,
+        "layerName": "Bottom Paste Mask Layer",
+        "layerType": "BOT_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 10001
+      },
+      {
+        "layerId": 4,
+        "layerName": "Bottom Silkscreen Layer",
+        "layerType": "BOT_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 10002
+      }
+    ],
+    "totalThickness": 63.23840102789337,
+    "unit": "mil"
+  },
+  "thicknessMm": 1.6062553861084914
+}

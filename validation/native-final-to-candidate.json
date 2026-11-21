@@ -1,0 +1,1615 @@
+{
+  "schema": "calxus.native-final-to-reviewed-candidate.v1",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "native_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "geometry_source": "Independently parsed saved native project ZIP archives; no rounded API getters",
+  "candidate_counts": {
+    "lines": 1504,
+    "vias": 189,
+    "components": 97
+  },
+  "native_counts": {
+    "lines": 1508,
+    "vias": 189,
+    "components": 97
+  },
+  "component_source_differences": [],
+  "footprint_source_differences": [],
+  "fixed_source_type_differences": [],
+  "via_matches": [
+    {
+      "candidateId": "84ec733ff0c71398",
+      "nativeId": "84ec733ff0c71398",
+      "net": "USB_UP_DP",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "4146bad3dedc458a",
+      "nativeId": "4146bad3dedc458a",
+      "net": "USB_UP_DM",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "136dac46c24376e8",
+      "nativeId": "136dac46c24376e8",
+      "net": "USB_UP_DP",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "a172eb50d6cba057",
+      "nativeId": "a172eb50d6cba057",
+      "net": "USB_UP_DM",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "cec7b08cf99ddd80",
+      "nativeId": "cec7b08cf99ddd80",
+      "net": "USB_NATIVE_DP",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "4bf0913127979c6e",
+      "nativeId": "4bf0913127979c6e",
+      "net": "USB_NATIVE_DM",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "5538e16fa0aad347",
+      "nativeId": "5538e16fa0aad347",
+      "net": "USB_NATIVE_DP",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "82756998d55da9de",
+      "nativeId": "82756998d55da9de",
+      "net": "USB_NATIVE_DM",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "1a2a5c8de0cd25f9",
+      "nativeId": "1a2a5c8de0cd25f9",
+      "net": "USB_A_DP",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "2ca8c37d4d45e084",
+      "nativeId": "2ca8c37d4d45e084",
+      "net": "USB_A_DM",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "58bc2252284b2c6a",
+      "nativeId": "58bc2252284b2c6a",
+      "net": "USB_A_DP",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "a1b1bac9c63b6d6b",
+      "nativeId": "a1b1bac9c63b6d6b",
+      "net": "USB_A_DM",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "ab043084eee6de7b",
+      "nativeId": "ab043084eee6de7b",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "170646d820b6c217",
+      "nativeId": "170646d820b6c217",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "a93ffe22921c60a0",
+      "nativeId": "a93ffe22921c60a0",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "7751afa9b96652c1",
+      "nativeId": "7751afa9b96652c1",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "2550afeb2875ad29",
+      "nativeId": "2550afeb2875ad29",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "0b9d31afbfecae89",
+      "nativeId": "0b9d31afbfecae89",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "17077d66f911113b",
+      "nativeId": "17077d66f911113b",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "89573436f3d877d6",
+      "nativeId": "89573436f3d877d6",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "400bbe0a7d6d643b",
+      "nativeId": "400bbe0a7d6d643b",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "42761d9427b0bc87",
+      "nativeId": "42761d9427b0bc87",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "1cc57f974266a22e",
+      "nativeId": "1cc57f974266a22e",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "141421b490d729de",
+      "nativeId": "141421b490d729de",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "3953a112aa8dcee2",
+      "nativeId": "3953a112aa8dcee2",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "3fa5e92405750492",
+      "nativeId": "3fa5e92405750492",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "4af9e08bb8177d5d",
+      "nativeId": "4af9e08bb8177d5d",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "619a924c36594da5",
+      "nativeId": "619a924c36594da5",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "388bdf9aef67bc85",
+      "nativeId": "388bdf9aef67bc85",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "6bab802e69dac2f1",
+      "nativeId": "6bab802e69dac2f1",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "b26173de43a06ff4",
+      "nativeId": "b26173de43a06ff4",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "fb71dc2bf35364ca",
+      "nativeId": "fb71dc2bf35364ca",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "ec4b3219c934ecfb",
+      "nativeId": "ec4b3219c934ecfb",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "f841e7d59955d378",
+      "nativeId": "f841e7d59955d378",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "7a0dcf2f99e781ea",
+      "nativeId": "7a0dcf2f99e781ea",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "26077c13d5d64ec0",
+      "nativeId": "26077c13d5d64ec0",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "38e281607052b539",
+      "nativeId": "38e281607052b539",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "1719997b98183089",
+      "nativeId": "1719997b98183089",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "45969eaf5354faa9",
+      "nativeId": "45969eaf5354faa9",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "66a603977e80079f",
+      "nativeId": "66a603977e80079f",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "a2dd82c561c981bb",
+      "nativeId": "a2dd82c561c981bb",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "ea36aeaa3830d394",
+      "nativeId": "ea36aeaa3830d394",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "78c1a7bc7bfe97e6",
+      "nativeId": "78c1a7bc7bfe97e6",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "82c43892b0f26668",
+      "nativeId": "82c43892b0f26668",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "0947a7c39d3f1b83",
+      "nativeId": "0947a7c39d3f1b83",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "c711430856cff109",
+      "nativeId": "c711430856cff109",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "61186ceb1543d949",
+      "nativeId": "61186ceb1543d949",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "398c8c91d2ea0248",
+      "nativeId": "398c8c91d2ea0248",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "83036479de6ae290",
+      "nativeId": "83036479de6ae290",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "ffedf1ba0f96e03a",
+      "nativeId": "ffedf1ba0f96e03a",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "1a623f3b89437634",
+      "nativeId": "1a623f3b89437634",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "737c14bb695d6380",
+      "nativeId": "737c14bb695d6380",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "f655dc3308036550",
+      "nativeId": "f655dc3308036550",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "7cea14b531f220bc",
+      "nativeId": "7cea14b531f220bc",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "356a05be288aded9",
+      "nativeId": "356a05be288aded9",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "bba81a5d2986be1b",
+      "nativeId": "bba81a5d2986be1b",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "eba18f0444094293",
+      "nativeId": "eba18f0444094293",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "187daca51f930045",
+      "nativeId": "187daca51f930045",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "88fbf59872a66112",
+      "nativeId": "88fbf59872a66112",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "6d0d4e689cff83e2",
+      "nativeId": "6d0d4e689cff83e2",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "06f3599058edeb9b",
+      "nativeId": "06f3599058edeb9b",
+      "net": "GND",
+      "center_difference_mm": 0.0,
+      "hole_difference_mm": 0.0,
+      "outer_difference_mm": 0.0
+    },
+    {
+      "candidateId": "c40663139fdde172",
+      "nativeId": "3133eb8b0172eadd",
+      "net": "SIL_SUSPEND",
+      "center_difference_mm": 2.0388566312453703e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "1f8ed1115f47c419",
+      "nativeId": "92daada21f5d85f3",
+      "net": "SEL0",
+      "center_difference_mm": 1.1378414484668644e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "f653efaf47fa6612",
+      "nativeId": "5a5bbf7e0e3775e1",
+      "net": "SIL_1V8",
+      "center_difference_mm": 3.328329197804153e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "bebc785fb7384c7b",
+      "nativeId": "0f05ead806811b8e",
+      "net": "VBUS_IN",
+      "center_difference_mm": 1.1253333983062817e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "e15fb6271549bf69",
+      "nativeId": "354ab255954529ba",
+      "net": "SEL1",
+      "center_difference_mm": 1.2862313466157782e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "fcd3525f6b56d94a",
+      "nativeId": "38432b0f90847c4f",
+      "net": "5V_SERIAL",
+      "center_difference_mm": 8.102539528805696e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "7b6fcb2030e049e7",
+      "nativeId": "3065f80bfb7d7f7a",
+      "net": "EE_VCC",
+      "center_difference_mm": 8.11654142444397e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "0fb218db02c11ee0",
+      "nativeId": "d787190acf4b0231",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 1.1127208381068377e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "d7dd18a52e044c7f",
+      "nativeId": "8c07b6c53062ae81",
+      "net": "UART_TX",
+      "center_difference_mm": 9.958123937182194e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "4a64035cb17ecd43",
+      "nativeId": "931967d3166860e4",
+      "net": "SIL_TEST1",
+      "center_difference_mm": 1.1652632568717e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "b6aa759bb18b0e3e",
+      "nativeId": "31f1514f76cf9774",
+      "net": "VBUS_NATIVE",
+      "center_difference_mm": 1.3190680147979728e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "e2da7af5b15500b6",
+      "nativeId": "a2d0c667265ac673",
+      "net": "VBUS_NATIVE",
+      "center_difference_mm": 1.288158594399004e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "ce95b68f9233a6e6",
+      "nativeId": "8461c3ec8a7e4eec",
+      "net": "SIL_RESET",
+      "center_difference_mm": 8.098934039566622e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "828ae27876abb289",
+      "nativeId": "210b23aa488afe12",
+      "net": "UART_RX",
+      "center_difference_mm": 1.493583036140514e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "44d76d063c273253",
+      "nativeId": "79d822c4d3f86883",
+      "net": "NATIVE_EN_N",
+      "center_difference_mm": 1.3820882479898701e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "96076b49bc5185bf",
+      "nativeId": "3872f74cdb4c1f1c",
+      "net": "PWR_FAULT_N",
+      "center_difference_mm": 9.766268706592417e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "64085bd28365a1a1",
+      "nativeId": "586f75590a056374",
+      "net": "VBUS_USBA",
+      "center_difference_mm": 1.589177522735997e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "a8f4d71eeacae733",
+      "nativeId": "9289abb9f029f5a3",
+      "net": "SEL0",
+      "center_difference_mm": 8.000862357122771e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "8b571941af4111ed",
+      "nativeId": "7ab84cd11191d37b",
+      "net": "TI_GPIO_TIP",
+      "center_difference_mm": 2.54833921530314e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "9fed075f0a90863e",
+      "nativeId": "2dc101e148fb30ac",
+      "net": "5V_SERIAL",
+      "center_difference_mm": 5.514350977600858e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "ffc82086482ee2c9",
+      "nativeId": "97668f95dde1783b",
+      "net": "SIL_VREGEN",
+      "center_difference_mm": 2.782696097293992e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "92f5e5e21596f220",
+      "nativeId": "35b8ac6265e0b6c2",
+      "net": "CC2",
+      "center_difference_mm": 1.1257484074378906e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "b13757b68da2872c",
+      "nativeId": "1b59b5ab3f4e4cba",
+      "net": "CC2",
+      "center_difference_mm": 6.048704572262511e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "eecf3cc1cc2e904c",
+      "nativeId": "8e4b4a3b6db4a6d2",
+      "net": "GND",
+      "center_difference_mm": 8.787333020312558e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "d8abae84860aade0",
+      "nativeId": "2089c9c783bbce16",
+      "net": "EE_VCC",
+      "center_difference_mm": 9.696682992025276e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "0377d1ba5c66959a",
+      "nativeId": "4b672616b47815ff",
+      "net": "UART_RX",
+      "center_difference_mm": 3.530306346775656e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "a4e64e24560cdd08",
+      "nativeId": "1d2dc1c59778d360",
+      "net": "5V_SERIAL",
+      "center_difference_mm": 4.346365566243933e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "0a01603e0e7ef817",
+      "nativeId": "1c2a889636771238",
+      "net": "SIL_SIN",
+      "center_difference_mm": 5.742697157414985e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "aef77ed306de1b93",
+      "nativeId": "75e3a8ad74d3bd2d",
+      "net": "VBUS_IN",
+      "center_difference_mm": 9.338094036184025e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "c8a7b043c2a0bd52",
+      "nativeId": "4f17ba38de576db9",
+      "net": "MUX_EN_N",
+      "center_difference_mm": 5.744578938894014e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "45f2b43f211f0a77",
+      "nativeId": "f7252d683eb0e2cd",
+      "net": "UART_TX",
+      "center_difference_mm": 9.816098025096687e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "a729347720923331",
+      "nativeId": "b51b05a83cc89faa",
+      "net": "5V_SERIAL",
+      "center_difference_mm": 1.488574905207487e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "577d5234bdb69a99",
+      "nativeId": "b549bc2a142e6b28",
+      "net": "VBUS_USBA",
+      "center_difference_mm": 1.286147329778301e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "bd2501e99cf81997",
+      "nativeId": "07cdbdd110b02a34",
+      "net": "USBA_EN_N",
+      "center_difference_mm": 1.0081037703034136e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "1274fc3508ce2d23",
+      "nativeId": "ac9f2e56d815ceae",
+      "net": "SIL_SIN",
+      "center_difference_mm": 6.851155044344453e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "7940995d4d32a07c",
+      "nativeId": "b0cb8e6c1b5771e4",
+      "net": "NATIVE_EN_N",
+      "center_difference_mm": 6.755575506330385e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "9bdd2b234bc97def",
+      "nativeId": "bbd586f631c4ab47",
+      "net": "GND",
+      "center_difference_mm": 1.4441521517349487e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "848dcf342057426d",
+      "nativeId": "5c72ccca2a746328",
+      "net": "PWR_FAULT_N",
+      "center_difference_mm": 1.3245997283812805e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "847c240f01a715a1",
+      "nativeId": "c136436eb6aec9c1",
+      "net": "EE_VCC",
+      "center_difference_mm": 4.066503398348675e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "e2e96a5122a2beeb",
+      "nativeId": "5ffd7f61aa2ce46a",
+      "net": "USBA_EN_N",
+      "center_difference_mm": 3.327315350867626e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "ab4158041fc9a35d",
+      "nativeId": "1b1ee537de13e829",
+      "net": "MUX_EN_N",
+      "center_difference_mm": 9.760162742561438e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "694cdaa6232a0c0c",
+      "nativeId": "5c9f70000c739c44",
+      "net": "SIL_TEST1",
+      "center_difference_mm": 1.543477880804684e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "d7bc14c88923e25f",
+      "nativeId": "f0fc8584abc2a617",
+      "net": "NATIVE_EN_N",
+      "center_difference_mm": 7.388942614155584e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "5f2c7586d7fd94c4",
+      "nativeId": "10e25f9753e31040",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 1.1947468904984128e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "39e2012eb5e62ef3",
+      "nativeId": "bc3f1d42adc9e607",
+      "net": "MUX_EN_N",
+      "center_difference_mm": 8.667847141219818e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "200e9a4a3c800364",
+      "nativeId": "dfe6e17828b27d99",
+      "net": "EE_SCL",
+      "center_difference_mm": 1.6205433280973807e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "b40f5f99be65eca2",
+      "nativeId": "d99ea61ed4398d28",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 7.460415934157884e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "a27ecc92080c3fa5",
+      "nativeId": "c43cb147fd37f616",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 1.0160518608105914e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "cc90ec368aaf9f21",
+      "nativeId": "b2f349e87ca5656d",
+      "net": "SIL_SCL",
+      "center_difference_mm": 5.451911488488439e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "341222a7e6b42ba4",
+      "nativeId": "a52165ca5ee9bd26",
+      "net": "SIL_SCL",
+      "center_difference_mm": 1.1369725517726786e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "7115309b5385fd06",
+      "nativeId": "d2278d4c74e3c263",
+      "net": "SIL_SCL",
+      "center_difference_mm": 1.1292389816885118e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "6ef1b1f3bdd20e48",
+      "nativeId": "a7e64525ce4fc965",
+      "net": "TI_GPIO_RING",
+      "center_difference_mm": 1.577698873116632e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "1fb5ac61511334a9",
+      "nativeId": "8567680b6bccc9a3",
+      "net": "SIL_VREGEN",
+      "center_difference_mm": 9.858077256075019e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "d70b01696010385f",
+      "nativeId": "ec7d1cd8e7e35e78",
+      "net": "SIL_TEST0",
+      "center_difference_mm": 5.381804262012981e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "9ca06f953588abc0",
+      "nativeId": "e8455e6c3306789f",
+      "net": "SIL_TEST0",
+      "center_difference_mm": 1.164383445285791e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "ee3c4faef18b320f",
+      "nativeId": "8c33a7e619ebe7ff",
+      "net": "EE_SDA",
+      "center_difference_mm": 5.035513815149605e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "8801e14456231fb8",
+      "nativeId": "cb932e617949f406",
+      "net": "PWR_FAULT_N",
+      "center_difference_mm": 7.728443809069404e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "c105c90e382380a4",
+      "nativeId": "24bfaa3b4d4a1f83",
+      "net": "EE_SDA",
+      "center_difference_mm": 9.999074503193046e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "fe5f5afbcbd6b7ff",
+      "nativeId": "9812c43bd62cf5d5",
+      "net": "USBA_EN_N",
+      "center_difference_mm": 2.0171347997191736e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "a7dec221d574f575",
+      "nativeId": "9b588cd681eb437f",
+      "net": "TP_GPIO30",
+      "center_difference_mm": 7.653726825346673e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "d5f6ad02afe16790",
+      "nativeId": "295d25099b5c4e2c",
+      "net": "SIL_RESET",
+      "center_difference_mm": 1.4484557524087698e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "21adacf3219aead0",
+      "nativeId": "9668c69a07a41c6b",
+      "net": "SIL_RESET",
+      "center_difference_mm": 1.3156432659028438e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "367fad24310b0980",
+      "nativeId": "479eec32478779f4",
+      "net": "PWR_FAULT_N",
+      "center_difference_mm": 3.8555858925246604e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "f5e12cfcc4514b07",
+      "nativeId": "77fd24a9acc4667d",
+      "net": "TP_GPIO31",
+      "center_difference_mm": 1.6352130161751283e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "b85181c5667cd1e8",
+      "nativeId": "c817d7de6afefb33",
+      "net": "SEL1",
+      "center_difference_mm": 5.97569253247389e-07,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "bfd4bb3cc3100f4c",
+      "nativeId": "a8a7db254622c793",
+      "net": "SEL1",
+      "center_difference_mm": 1.0988471430474768e-06,
+      "hole_difference_mm": 1.6198587251565753e-07,
+      "outer_difference_mm": 3.2397174503131506e-07
+    },
+    {
+      "candidateId": "91ed6b2d77ba616e",
+      "nativeId": "27b7de00e8f5e021",
+      "net": "SIL_1V8",
+      "center_difference_mm": 6.390618113296513e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "db5f8c5f590c23f0",
+      "nativeId": "bc3cda57be18e3e1",
+      "net": "VBUS_NATIVE",
+      "center_difference_mm": 6.799999915529043e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "cfdc559d3cf940ff",
+      "nativeId": "72691acbe84438e6",
+      "net": "VBUS_NATIVE",
+      "center_difference_mm": 5.646237730660838e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "ce58c1a21aa99739",
+      "nativeId": "ce9673f4ee240181",
+      "net": "VBUS_NATIVE",
+      "center_difference_mm": 8.323460750542493e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "16baba3b72dd8ade",
+      "nativeId": "3842ea1b1dfeb433",
+      "net": "SIL_1V8",
+      "center_difference_mm": 9.84073172461239e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "ff109fbeee74a19d",
+      "nativeId": "4cc6a8ad631a9379",
+      "net": "SIL_1V8",
+      "center_difference_mm": 8.009993760342796e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "e9a8e12f5dedc5c3",
+      "nativeId": "2e51e954b7988688",
+      "net": "SIL_SUSPEND",
+      "center_difference_mm": 1.141402647067589e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "badcef0769e806ca",
+      "nativeId": "06b5348e2272b6ea",
+      "net": "3V3",
+      "center_difference_mm": 3.6055512453737765e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "0d39a1148f87c7a3",
+      "nativeId": "e0a09ae2c780970c",
+      "net": "TI_GPIO_RING",
+      "center_difference_mm": 1.2963024331232914e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "bf0d8263884754fc",
+      "nativeId": "c7497bb2558d0e94",
+      "net": "TI_GPIO_RING",
+      "center_difference_mm": 9.329523064427427e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "e636b78971a8d70c",
+      "nativeId": "0639c3a62430a85d",
+      "net": "TI_GPIO_RING",
+      "center_difference_mm": 5.946427479448031e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "70e3fba024c2b351",
+      "nativeId": "80ef03dbb414751a",
+      "net": "TI_GPIO_RING",
+      "center_difference_mm": 1.5579473620212298e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "0003eecb19777d5e",
+      "nativeId": "b334899e79993de2",
+      "net": "TI_GPIO_TIP",
+      "center_difference_mm": 1.1462983862264572e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "f5624e8a141acaa0",
+      "nativeId": "91da993e3890b734",
+      "net": "TI_GPIO_TIP",
+      "center_difference_mm": 1.0049875615403583e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "df6a51880c471ada",
+      "nativeId": "13a90be946f3b6b1",
+      "net": "TI_GPIO_TIP",
+      "center_difference_mm": 5.922837111597439e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "674e92f834a90d40",
+      "nativeId": "45b9bdb7c077b714",
+      "net": "TI_GPIO_TIP",
+      "center_difference_mm": 4.4045431373869635e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "444c630c776594b9",
+      "nativeId": "dc9ee2933a359799",
+      "net": "TI_GPIO_TIP",
+      "center_difference_mm": 8.800000060546154e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "3d62702f6aa57564",
+      "nativeId": "0ddb1b784f60c376",
+      "net": "3V3",
+      "center_difference_mm": 9.693296666643339e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "680651af3a9bd07b",
+      "nativeId": "1658d98e90ab9dd9",
+      "net": "3V3",
+      "center_difference_mm": 2.0591260989692307e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "72f543982d23d12c",
+      "nativeId": "4303ecc0ebd83709",
+      "net": "USB_SIL_DM",
+      "center_difference_mm": 1.1840608054548042e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "98bd40e6eee4f654",
+      "nativeId": "afc82906cd8e4d47",
+      "net": "USB_SIL_DP",
+      "center_difference_mm": 4.1617304224535206e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "68df587b979f74a0",
+      "nativeId": "517246b11e7deba7",
+      "net": "USB_SIL_DP",
+      "center_difference_mm": 3.452535284694613e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "ea108c43547d519a",
+      "nativeId": "36ec3eb3eec93cb7",
+      "net": "USB_SIL_DM",
+      "center_difference_mm": 1.2088010596907205e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "1c23c636cecf0a78",
+      "nativeId": "b1aa42659a10cef9",
+      "net": "USB_UART_DP",
+      "center_difference_mm": 1.0041912171693992e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "050623813d5c2062",
+      "nativeId": "1ab52edf68b4c5d8",
+      "net": "USB_UART_DP",
+      "center_difference_mm": 1.180677771801941e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "7a73ae3227bdb30a",
+      "nativeId": "9fefe12f254b9486",
+      "net": "USB_UART_DM",
+      "center_difference_mm": 8.438009246569934e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "44bd2193f3c63ad8",
+      "nativeId": "9809d7f16ec15e90",
+      "net": "USB_UART_DM",
+      "center_difference_mm": 5.261178605397004e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "117d75dc3eca8781",
+      "nativeId": "ba456229a91240a8",
+      "net": "SEL0",
+      "center_difference_mm": 9.879271258209582e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "888279396f2637f5",
+      "nativeId": "cd6b3f5b4de15021",
+      "net": "SEL0",
+      "center_difference_mm": 4.808326072757275e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "133a7d9b2575c199",
+      "nativeId": "ee735f5c3a84b171",
+      "net": "SEL0",
+      "center_difference_mm": 9.062008607375871e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "1548968fbb27db26",
+      "nativeId": "e68c36a2533b90ef",
+      "net": "SEL0",
+      "center_difference_mm": 1.428985655675455e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "a888e238e1fc922a",
+      "nativeId": "8db170456e71bbd1",
+      "net": "MUX_EN_N",
+      "center_difference_mm": 9.720082304292777e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "2aa2e7571016651b",
+      "nativeId": "984fa409d65eb61d",
+      "net": "MUX_EN_N",
+      "center_difference_mm": 1.4144963764597627e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "ed343e54265ea765",
+      "nativeId": "b73ea4e09edd18ee",
+      "net": "MUX_EN_N",
+      "center_difference_mm": 1.0217631821951214e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "4bbf3113d9208af2",
+      "nativeId": "e18842b78af6b191",
+      "net": "MUX_EN_N",
+      "center_difference_mm": 5.803447297047386e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "db5ce1555866060f",
+      "nativeId": "8e0b9f5136b01e2c",
+      "net": "EE_SCL",
+      "center_difference_mm": 7.224956781942476e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "92c6ba71550fc6b2",
+      "nativeId": "7c369c98ed617ed4",
+      "net": "EE_SCL",
+      "center_difference_mm": 7.472616734925639e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "26387c4cef1a2fbb",
+      "nativeId": "222f0ee9c660361b",
+      "net": "EE_SCL",
+      "center_difference_mm": 1.0198039036085706e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "ea3b3a73ae735162",
+      "nativeId": "0a645617b119a073",
+      "net": "EE_SCL",
+      "center_difference_mm": 4.237924024835504e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "fb51b9b6c466a9a2",
+      "nativeId": "8dac9cc433701ca9",
+      "net": "EE_SCL",
+      "center_difference_mm": 1.0707007043530624e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "71b2f524430fc866",
+      "nativeId": "fd2c8b76a02083ca",
+      "net": "EE_SCL",
+      "center_difference_mm": 1.414213542403248e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "45d4e1e2598fc31e",
+      "nativeId": "41563ead6eaab464",
+      "net": "5V_SERIAL",
+      "center_difference_mm": 1.4042791730361543e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "56b2e39585cd5fd8",
+      "nativeId": "9d82560925f60619",
+      "net": "5V_SERIAL",
+      "center_difference_mm": 1.3435773158790943e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "b9f604aec838868b",
+      "nativeId": "26b480a59f6e4a69",
+      "net": "VBUS_IN",
+      "center_difference_mm": 1.0554619832058427e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "85601d61dbbf8b01",
+      "nativeId": "07638b2836ac739c",
+      "net": "VBUS_IN",
+      "center_difference_mm": 1.2149074047637607e-06,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "1f93b4af10901ae0",
+      "nativeId": "6e5c76b6a7dcc7f7",
+      "net": "VBUS_IN",
+      "center_difference_mm": 2.4000000007617926e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "8dc9205744cb8698",
+      "nativeId": "6d8d6f615271393e",
+      "net": "VBUS_IN",
+      "center_difference_mm": 7.399999987910632e-07,
+      "hole_difference_mm": 6.000000000099703e-07,
+      "outer_difference_mm": 1.2000000000199406e-06
+    },
+    {
+      "candidateId": "0137e59a75641bfa",
+      "nativeId": "63f62316479b5628",
+      "net": "USB_UART_DP",
+      "center_difference_mm": 1.0000000032050593e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "71c790ec64549cc5",
+      "nativeId": "c5d2b6670adf7837",
+      "net": "USB_UART_DP",
+      "center_difference_mm": 8.246211288870629e-08,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "aa3492827b6817fb",
+      "nativeId": "afd3e13eb54a369d",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 1.2563439041087567e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "9deed5e1e21ecb28",
+      "nativeId": "61d49e54c1d28981",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 1.2517188200700567e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "c8b8b8842343b0d2",
+      "nativeId": "1fb204fde762476d",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 1.2121056054634144e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "51cd80058a184d0a",
+      "nativeId": "4f503707b5c9681e",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 1.0824047299487594e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "bc8c888a0399b2f0",
+      "nativeId": "50e1df4e117c9b5b",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 1.0000000014724719e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "11e8d856b8ffaa39",
+      "nativeId": "fb00d9459b0ce890",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 6.082762542198218e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "4c0e963372835e94",
+      "nativeId": "8ba4c694536cb36b",
+      "net": "SERIAL_EN_N",
+      "center_difference_mm": 9.208691549500035e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "3e4b57e360d3c3c9",
+      "nativeId": "ddc1ee2174702ec0",
+      "net": "UART_V3",
+      "center_difference_mm": 1.31026714799932e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "8052860e3ef865dd",
+      "nativeId": "14d760f665ba38cc",
+      "net": "USB_UART_DM",
+      "center_difference_mm": 1.2712198841524307e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "52c41fdf1a9827d5",
+      "nativeId": "100a17a300e55650",
+      "net": "USB_UART_DM",
+      "center_difference_mm": 7.539230718975801e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "492a8cd298b4d8be",
+      "nativeId": "0b41a834a08c8478",
+      "net": "UART_V3",
+      "center_difference_mm": 7.443117621362629e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "fd0dcbce74bffe13",
+      "nativeId": "03d5903a12581fa1",
+      "net": "5V_SERIAL",
+      "center_difference_mm": 1.4732277541260525e-06,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    },
+    {
+      "candidateId": "d383fef5fb2df488",
+      "nativeId": "4fd6780039d352f0",
+      "net": "5V_SERIAL",
+      "center_difference_mm": 9.055385078828731e-07,
+      "hole_difference_mm": 4.0000000003672654e-07,
+      "outer_difference_mm": 1.0000000000466969e-06
+    }
+  ],
+  "via_failures": [],
+  "unmatched_native_vias": [],
+  "physical_trace_deltas_beyond_10nm": [
+    {
+      "net": "MUX_EN_N",
+      "layer": 2,
+      "native_added_area_mm2": 0.0,
+      "native_removed_area_mm2": 1.9008689543889687e-05,
+      "added_bounds_mm": [],
+      "removed_bounds_mm": [
+        17.687320185787396,
+        9.170665047840874,
+        17.769184616847276,
+        9.244182681975557
+      ]
+    },
+    {
+      "net": "PWR_FAULT_N",
+      "layer": 1,
+      "native_added_area_mm2": 4.8211031952489296e-05,
+      "native_removed_area_mm2": 0.0065109765515542406,
+      "added_bounds_mm": [
+        19.093917694641096,
+        6.526028475950023,
+        19.62371447457346,
+        6.526210474156802
+      ],
+      "removed_bounds_mm": [
+        18.79192585236004,
+        6.374126557971659,
+        19.6234496916127,
+        6.526272475812863
+      ]
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "native_added_area_mm2": 0.0005146202327658319,
+      "native_removed_area_mm2": 0.0005421836104932128,
+      "added_bounds_mm": [
+        28.123134,
+        15.133374868923598,
+        46.78605415896355,
+        32.275526
+      ],
+      "removed_bounds_mm": [
+        28.275035999999997,
+        10.849926373248222,
+        60.644481199999994,
+        32.12362399999999
+      ]
+    },
+    {
+      "net": "SERIAL_EN_N",
+      "layer": 1,
+      "native_added_area_mm2": 0.0,
+      "native_removed_area_mm2": 1.9122461628557785e-05,
+      "added_bounds_mm": [],
+      "removed_bounds_mm": [
+        25.279336349158374,
+        18.33070163836651,
+        25.352866204983652,
+        18.412579424835233
+      ]
+    },
+    {
+      "net": "PWR_FAULT_N",
+      "layer": 2,
+      "native_added_area_mm2": 0.0,
+      "native_removed_area_mm2": 1.9035848830554825e-05,
+      "added_bounds_mm": [],
+      "removed_bounds_mm": [
+        10.09052041432893,
+        23.65809462671498,
+        10.164058511408404,
+        23.739955968644555
+      ]
+    }
+  ],
+  "native_review_mapping": "validation/native-final-review-mapping.json",
+  "fixed_component_footprint_stack_pad_and_via_contract_passed": true,
+  "native_drc_and_cam": "Separate actual native results must be checked; this report does not hide differences."
+}

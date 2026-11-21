@@ -1,0 +1,1562 @@
+{
+  "schema": "calxus.native-model-source-bindings.v1",
+  "source_archive": "Calxus_RevA_r7.epro2",
+  "archive_sha256": "18d8a0ccdbf3b630a9615d0ea36fb3fe75de02d21a5d2e9f1b2f07a6cd53cfa9",
+  "epru_sha256": "0e350e62bb8487d3ab99a5ed5566ca2ef7808e0d8770583c4cd07f661eeeed48",
+  "native_step_sha256": "f748813e98b0f77fead3a735b3de9cb38881a4b7807eb5af440bfa01ddc7a7e3",
+  "component_count": 97,
+  "components": {
+    "C1": {
+      "component_id": "796fd2b6c597b5ba",
+      "xy_mil": [
+        413.3858,
+        590.5512
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "3b56b304b3382631",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C15849",
+      "manufacturer_part": "CL10A105KB8NNNC"
+    },
+    "C2": {
+      "component_id": "4c6aeae29581dcd6",
+      "xy_mil": [
+        334.6457,
+        669.2913
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C3": {
+      "component_id": "dbeece3349976426",
+      "xy_mil": [
+        1141.7323,
+        267.7165
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C4": {
+      "component_id": "e5aa2ca7acea3210",
+      "xy_mil": [
+        2519.685,
+        1535.4331
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C5": {
+      "component_id": "687da77a6cd4a678",
+      "xy_mil": [
+        688.9764,
+        216.5354
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C6": {
+      "component_id": "b0905855c95a7c49",
+      "xy_mil": [
+        1141.7323,
+        669.2913
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "58eadc65214b97e8",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23630",
+      "manufacturer_part": "CL10A225KO8NNNC"
+    },
+    "C7": {
+      "component_id": "fddfff4a311d62e9",
+      "xy_mil": [
+        1131.8898,
+        925.1969
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "58eadc65214b97e8",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23630",
+      "manufacturer_part": "CL10A225KO8NNNC"
+    },
+    "C8": {
+      "component_id": "b6e4657be878d19e",
+      "xy_mil": [
+        1712.5984,
+        1035.4331
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C9": {
+      "component_id": "43902dc030d82a80",
+      "xy_mil": [
+        2076.7717,
+        1114.1732
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C10": {
+      "component_id": "5acb8991a2bc0976",
+      "xy_mil": [
+        1712.5984,
+        895.6693
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C11": {
+      "component_id": "c57fb27031ea43af",
+      "xy_mil": [
+        1476.378,
+        885.8268
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "3b56b304b3382631",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C15849",
+      "manufacturer_part": "CL10A105KB8NNNC"
+    },
+    "C12": {
+      "component_id": "af0dd8a39e37a531",
+      "xy_mil": [
+        1791.3386,
+        1240.1575
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "f98eb804451dac63",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C1663",
+      "manufacturer_part": "CL10C330JB8NNNC"
+    },
+    "C13": {
+      "component_id": "fd19f3e1f327e9de",
+      "xy_mil": [
+        2066.9291,
+        1240.1575
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "f98eb804451dac63",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C1663",
+      "manufacturer_part": "CL10C330JB8NNNC"
+    },
+    "C15": {
+      "component_id": "032c29eacb8784b6",
+      "xy_mil": [
+        2283.4646,
+        551.1811
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C16": {
+      "component_id": "54e9d6877ca6a9f8",
+      "xy_mil": [
+        2244.0945,
+        413.3858
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C17": {
+      "component_id": "e258cef16d8d006f",
+      "xy_mil": [
+        2421.2598,
+        551.1811
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C18": {
+      "component_id": "775a4dd64ff43f7b",
+      "xy_mil": [
+        2125.9843,
+        561.0236
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C19": {
+      "component_id": "ee795a552a30eae1",
+      "xy_mil": [
+        2125.9843,
+        978.3465
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "C20": {
+      "component_id": "e0ecee93a6c7eafe",
+      "xy_mil": [
+        2677.1654,
+        1456.6929
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "3b56b304b3382631",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C15849",
+      "manufacturer_part": "CL10A105KB8NNNC"
+    },
+    "C21": {
+      "component_id": "96419d24a2ab705b",
+      "xy_mil": [
+        1433.0709,
+        362.2047
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "3b56b304b3382631",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C15849",
+      "manufacturer_part": "CL10A105KB8NNNC"
+    },
+    "C22": {
+      "component_id": "29a6c0b1a4f0e7f2",
+      "xy_mil": [
+        1082.6772,
+        590.5512
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "D1": {
+      "component_id": "8b63389dcbeedc59",
+      "xy_mil": [
+        413.3858,
+        826.7717
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "530697620d4e8cf8",
+      "device_uuid": "32fb6a52fa272d77",
+      "model_uuid": "18da8f6c14a34920b3e136b5c401a119",
+      "library_model_transform": "110.236,113.364,0,90,0,0,0.0005,0.0005,0",
+      "instance_model_transform": null,
+      "supplier_part": "C7519",
+      "manufacturer_part": "USBLC6-2SC6"
+    },
+    "D2": {
+      "component_id": "0289a261105bb83a",
+      "xy_mil": [
+        2588.5827,
+        1259.8425
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "530697620d4e8cf8",
+      "device_uuid": "32fb6a52fa272d77",
+      "model_uuid": "18da8f6c14a34920b3e136b5c401a119",
+      "library_model_transform": "110.236,113.364,0,90,0,0,0.0005,0.0005,0",
+      "instance_model_transform": null,
+      "supplier_part": "C7519",
+      "manufacturer_part": "USBLC6-2SC6"
+    },
+    "D4": {
+      "component_id": "dbdd9d3526413697",
+      "xy_mil": [
+        2755.9055,
+        1023.622
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "45828d6b764e01de",
+      "device_uuid": "6b3142ff9774213b",
+      "model_uuid": "c62791f0466c4ae2a892c056b845b0ca",
+      "library_model_transform": "98.64468,114.173,0,180,0,0,0.001,-0.002,0",
+      "instance_model_transform": null,
+      "supplier_part": "C49338",
+      "manufacturer_part": "PESD5V0S2BT,215"
+    },
+    "D5": {
+      "component_id": "19b7671e281200b0",
+      "xy_mil": [
+        2755.9055,
+        708.6614
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "45828d6b764e01de",
+      "device_uuid": "6b3142ff9774213b",
+      "model_uuid": "c62791f0466c4ae2a892c056b845b0ca",
+      "library_model_transform": "98.64468,114.173,0,180,0,0,0.001,-0.002,0",
+      "instance_model_transform": null,
+      "supplier_part": "C49338",
+      "manufacturer_part": "PESD5V0S2BT,215"
+    },
+    "D6": {
+      "component_id": "2da067ef823de2b2",
+      "xy_mil": [
+        2559.0551,
+        314.9606
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "45828d6b764e01de",
+      "device_uuid": "6b3142ff9774213b",
+      "model_uuid": "c62791f0466c4ae2a892c056b845b0ca",
+      "library_model_transform": "98.64468,114.173,0,180,0,0,0.001,-0.002,0",
+      "instance_model_transform": null,
+      "supplier_part": "C49338",
+      "manufacturer_part": "PESD5V0S2BT,215"
+    },
+    "D7": {
+      "component_id": "3251487f2d17c5c4",
+      "xy_mil": [
+        374.0157,
+        1062.9921
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "45828d6b764e01de",
+      "device_uuid": "6b3142ff9774213b",
+      "model_uuid": "c62791f0466c4ae2a892c056b845b0ca",
+      "library_model_transform": "98.64468,114.173,0,180,0,0,0.001,-0.002,0",
+      "instance_model_transform": null,
+      "supplier_part": "C49338",
+      "manufacturer_part": "PESD5V0S2BT,215"
+    },
+    "D8": {
+      "component_id": "586007ef61af9b0e",
+      "xy_mil": [
+        2608.2677,
+        1062.9921
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "4392511bef64e9bc",
+      "device_uuid": "19241da2dcc63f12",
+      "model_uuid": "db63db13d9e342eb939127d413d6200b",
+      "library_model_transform": "104.3305,51.181,0,0,0,0,0,-0.004,0",
+      "instance_model_transform": null,
+      "supplier_part": "C124205",
+      "manufacturer_part": "BAT54WS-7-F"
+    },
+    "D9": {
+      "component_id": "fab79282d9b2a563",
+      "xy_mil": [
+        2728.3465,
+        1133.8583
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "4392511bef64e9bc",
+      "device_uuid": "19241da2dcc63f12",
+      "model_uuid": "db63db13d9e342eb939127d413d6200b",
+      "library_model_transform": "104.3305,51.181,0,0,0,0,0,-0.004,0",
+      "instance_model_transform": null,
+      "supplier_part": "C124205",
+      "manufacturer_part": "BAT54WS-7-F"
+    },
+    "D10": {
+      "component_id": "bf99366022752c87",
+      "xy_mil": [
+        1476.378,
+        1102.3622
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "4392511bef64e9bc",
+      "device_uuid": "19241da2dcc63f12",
+      "model_uuid": "db63db13d9e342eb939127d413d6200b",
+      "library_model_transform": "104.3305,51.181,0,0,0,0,0,-0.004,0",
+      "instance_model_transform": null,
+      "supplier_part": "C124205",
+      "manufacturer_part": "BAT54WS-7-F"
+    },
+    "D11": {
+      "component_id": "fd60e2071cd88b47",
+      "xy_mil": [
+        541.3386,
+        1082.6772
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "728c810dcc14c039",
+      "device_uuid": "170e0390df780ae4",
+      "model_uuid": "89cb27a44ab2466697082bb9fd73a7d0",
+      "library_model_transform": "114.173,110.236,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C134405",
+      "manufacturer_part": "BAT54C-7-F"
+    },
+    "D12": {
+      "component_id": "7ecb28b9ad366e97",
+      "xy_mil": [
+        698.8189,
+        1082.6772
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "4392511bef64e9bc",
+      "device_uuid": "19241da2dcc63f12",
+      "model_uuid": "db63db13d9e342eb939127d413d6200b",
+      "library_model_transform": "104.3305,51.181,0,0,0,0,0,-0.004,0",
+      "instance_model_transform": null,
+      "supplier_part": "C124205",
+      "manufacturer_part": "BAT54WS-7-F"
+    },
+    "D13": {
+      "component_id": "12ed67f2f39fe65c",
+      "xy_mil": [
+        846.4567,
+        1082.6772
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "4392511bef64e9bc",
+      "device_uuid": "19241da2dcc63f12",
+      "model_uuid": "db63db13d9e342eb939127d413d6200b",
+      "library_model_transform": "104.3305,51.181,0,0,0,0,0,-0.004,0",
+      "instance_model_transform": null,
+      "supplier_part": "C124205",
+      "manufacturer_part": "BAT54WS-7-F"
+    },
+    "D14": {
+      "component_id": "4d939424ad38bdd7",
+      "xy_mil": [
+        994.0945,
+        1082.6772
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "728c810dcc14c039",
+      "device_uuid": "4f6fec69871806d5",
+      "model_uuid": "89cb27a44ab2466697082bb9fd73a7d0",
+      "library_model_transform": "114.173,110.236,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C134401",
+      "manufacturer_part": "BAT54A-7-F"
+    },
+    "D15": {
+      "component_id": "7aa440d7df763370",
+      "xy_mil": [
+        1112.2047,
+        1082.6772
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "4392511bef64e9bc",
+      "device_uuid": "19241da2dcc63f12",
+      "model_uuid": "db63db13d9e342eb939127d413d6200b",
+      "library_model_transform": "104.3305,51.181,0,0,0,0,0,-0.004,0",
+      "instance_model_transform": null,
+      "supplier_part": "C124205",
+      "manufacturer_part": "BAT54WS-7-F"
+    },
+    "D16": {
+      "component_id": "b4fe0e8a440b10fb",
+      "xy_mil": [
+        2125.9843,
+        472.4409
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "4392511bef64e9bc",
+      "device_uuid": "19241da2dcc63f12",
+      "model_uuid": "db63db13d9e342eb939127d413d6200b",
+      "library_model_transform": "104.3305,51.181,0,0,0,0,0,-0.004,0",
+      "instance_model_transform": null,
+      "supplier_part": "C124205",
+      "manufacturer_part": "BAT54WS-7-F"
+    },
+    "J1": {
+      "component_id": "1664932fadcbdc19",
+      "xy_mil": [
+        166.1417,
+        826.7717
+      ],
+      "angle_deg": 270,
+      "layer_id": 1,
+      "footprint_uuid": "cac28bf5b833f4e8",
+      "device_uuid": "f6177077576b7674",
+      "model_uuid": "2a22bb5af8894b85972aeeacf9cd92d0",
+      "library_model_transform": "351.9678,311.023,0,180,0,0,0,-43.307,-33.465",
+      "instance_model_transform": null,
+      "supplier_part": "C165948",
+      "manufacturer_part": "TYPE-C-31-M-12"
+    },
+    "J3": {
+      "component_id": "c7ec60838bb943a0",
+      "xy_mil": [
+        2814.9606,
+        1299.2126
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6e0dd955471072ad",
+      "device_uuid": "d1bfbbbc13dd3b1c",
+      "model_uuid": "fd1b55b786fb415ca65c4187088147b7",
+      "library_model_transform": "299.9994,200,0,0,0,0,0,0,-118.11",
+      "instance_model_transform": null,
+      "supplier_part": "C65114",
+      "manufacturer_part": "2.54-2*3P\u9488"
+    },
+    "J4": {
+      "component_id": "e1f62d3d73ed5d88",
+      "xy_mil": [
+        2952.7559,
+        1023.622
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a5ca3bdd9ed9af36",
+      "device_uuid": "37cf493ef55a4cb8",
+      "model_uuid": "ced3ec0dc43640d397bfdc45d14bee2a",
+      "library_model_transform": "311.023,177.204,0,0,0,0,0,22.244,-133.858",
+      "instance_model_transform": null,
+      "supplier_part": "C131339",
+      "manufacturer_part": "B3B-PH-K-S(LF)(SN)"
+    },
+    "J5": {
+      "component_id": "f1ab66557675e99e",
+      "xy_mil": [
+        2952.7559,
+        708.6614
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "a5ca3bdd9ed9af36",
+      "device_uuid": "37cf493ef55a4cb8",
+      "model_uuid": "ced3ec0dc43640d397bfdc45d14bee2a",
+      "library_model_transform": "311.023,177.204,0,0,0,0,0,22.244,-133.858",
+      "instance_model_transform": null,
+      "supplier_part": "C131339",
+      "manufacturer_part": "B3B-PH-K-S(LF)(SN)"
+    },
+    "J6": {
+      "component_id": "561801f7a460b1bc",
+      "xy_mil": [
+        2775.5906,
+        393.7008
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "75d127277a0cc5ef",
+      "device_uuid": "161ed48f6ad027d9",
+      "model_uuid": "ab03000c925549fab984f1c356d5a65e",
+      "library_model_transform": "389.763,185.039,0,180,0,0,0,25.591,-118.11",
+      "instance_model_transform": null,
+      "supplier_part": "C131334",
+      "manufacturer_part": "B4B-PH-K-S(LF)(SN)"
+    },
+    "J7": {
+      "component_id": "8258b83d03526f54",
+      "xy_mil": [
+        2460.6299,
+        846.4567
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6e0dd955471072ad",
+      "device_uuid": "d1bfbbbc13dd3b1c",
+      "model_uuid": "fd1b55b786fb415ca65c4187088147b7",
+      "library_model_transform": "299.9994,200,0,0,0,0,0,0,-118.11",
+      "instance_model_transform": null,
+      "supplier_part": "C65114",
+      "manufacturer_part": "2.54-2*3P\u9488"
+    },
+    "J8": {
+      "component_id": "467634ecc469b1f1",
+      "xy_mil": [
+        1456.6929,
+        1456.6929
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6e0dd955471072ad",
+      "device_uuid": "d1bfbbbc13dd3b1c",
+      "model_uuid": "fd1b55b786fb415ca65c4187088147b7",
+      "library_model_transform": "299.9994,200,0,0,0,0,0,0,-118.11",
+      "instance_model_transform": null,
+      "supplier_part": "C65114",
+      "manufacturer_part": "2.54-2*3P\u9488"
+    },
+    "J10": {
+      "component_id": "02c8655c44cd7012",
+      "xy_mil": [
+        1259.8425,
+        1210.6299
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "07f3395a6ac8002a",
+      "device_uuid": "b325c3c31cfcaae9",
+      "model_uuid": "e35305ec3aa84b66b849f914b715e73f",
+      "library_model_transform": "200,100,0,0,0,0,0,0,-118.11",
+      "instance_model_transform": null,
+      "supplier_part": "C3338413",
+      "manufacturer_part": "M20-9990245"
+    },
+    "Q1": {
+      "component_id": "c9fc55267029d694",
+      "xy_mil": [
+        2440.9449,
+        1082.6772
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "728c810dcc14c039",
+      "device_uuid": "f1ad00a1687d4a3b",
+      "model_uuid": "89cb27a44ab2466697082bb9fd73a7d0",
+      "library_model_transform": "114.173,110.236,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C94514",
+      "manufacturer_part": "MMBT3904-7-F"
+    },
+    "Q2": {
+      "component_id": "0aed2f50261314d5",
+      "xy_mil": [
+        2431.1024,
+        1240.1575
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "728c810dcc14c039",
+      "device_uuid": "f1ad00a1687d4a3b",
+      "model_uuid": "89cb27a44ab2466697082bb9fd73a7d0",
+      "library_model_transform": "114.173,110.236,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C94514",
+      "manufacturer_part": "MMBT3904-7-F"
+    },
+    "R1": {
+      "component_id": "2f21cc491e71f6ae",
+      "xy_mil": [
+        216.5354,
+        1141.7323
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6445fecf465d41de",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23186",
+      "manufacturer_part": "0603WAF5101T5E"
+    },
+    "R2": {
+      "component_id": "81a8eb6d5863e20b",
+      "xy_mil": [
+        216.5354,
+        1269.685
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6445fecf465d41de",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23186",
+      "manufacturer_part": "0603WAF5101T5E"
+    },
+    "R3": {
+      "component_id": "1a41c6a8bb8733d4",
+      "xy_mil": [
+        511.811,
+        393.7008
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "4cdfdb7bbb7cafac",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25819",
+      "manufacturer_part": "0603WAF4702T5E"
+    },
+    "R4": {
+      "component_id": "05f65f455d5bd469",
+      "xy_mil": [
+        639.7638,
+        393.7008
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "4cdfdb7bbb7cafac",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25819",
+      "manufacturer_part": "0603WAF4702T5E"
+    },
+    "R5": {
+      "component_id": "1ec19e815c96a9d8",
+      "xy_mil": [
+        1102.3622,
+        393.7008
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "4cdfdb7bbb7cafac",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25819",
+      "manufacturer_part": "0603WAF4702T5E"
+    },
+    "R6": {
+      "component_id": "f453a4c5592e67dd",
+      "xy_mil": [
+        984.252,
+        216.5354
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "769c34d60376afc7",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C33619",
+      "manufacturer_part": "0603WAF2263T5E"
+    },
+    "R7": {
+      "component_id": "c5701a369870c42a",
+      "xy_mil": [
+        1692.9134,
+        787.4016
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "06e5900e3efbae87",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23345",
+      "manufacturer_part": "0603WAF220JT5E"
+    },
+    "R8": {
+      "component_id": "f81f6535e6d46dfb",
+      "xy_mil": [
+        1692.9134,
+        708.6614
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "06e5900e3efbae87",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23345",
+      "manufacturer_part": "0603WAF220JT5E"
+    },
+    "R9": {
+      "component_id": "bcede431e174bfcf",
+      "xy_mil": [
+        1564.9606,
+        763.7795
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "9109ebb155353c9b",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C22843",
+      "manufacturer_part": "0603WAF1501T5E"
+    },
+    "R10": {
+      "component_id": "375454803d73e220",
+      "xy_mil": [
+        1476.378,
+        976.378
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "45135e59bedc54a0",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C22809",
+      "manufacturer_part": "0603WAF1502T5E"
+    },
+    "R11": {
+      "component_id": "606bb6888edf4e51",
+      "xy_mil": [
+        1476.378,
+        1220.4724
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "a35e96802c6ed4cc",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C13187",
+      "manufacturer_part": "0603WAF3242T5E"
+    },
+    "R12": {
+      "component_id": "25c90508c3413acf",
+      "xy_mil": [
+        1653.5433,
+        1141.7323
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "79242eea3620bee6",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23129",
+      "manufacturer_part": "0603WAF9092T5E"
+    },
+    "R13": {
+      "component_id": "6621ad067bbe053f",
+      "xy_mil": [
+        1653.5433,
+        1214.5669
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "06d1f3406e40cbbe",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25803",
+      "manufacturer_part": "0603WAF1003T5E"
+    },
+    "R14": {
+      "component_id": "29c21b60fcfba0f3",
+      "xy_mil": [
+        1791.3386,
+        728.3465
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R15": {
+      "component_id": "fb3bea76d8a0c8e4",
+      "xy_mil": [
+        1870.0787,
+        728.3465
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R16": {
+      "component_id": "603061cf779c29a2",
+      "xy_mil": [
+        2007.874,
+        659.4488
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R17": {
+      "component_id": "f739f350a774c1b6",
+      "xy_mil": [
+        2224.4094,
+        1062.9921
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R18": {
+      "component_id": "2698083f3a5433cf",
+      "xy_mil": [
+        2224.4094,
+        1267.7165
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R19": {
+      "component_id": "67e6653799f2f216",
+      "xy_mil": [
+        2224.4094,
+        1165.3543
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R20": {
+      "component_id": "fb0bd4323db010af",
+      "xy_mil": [
+        2224.4094,
+        1370.0787
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R21": {
+      "component_id": "c2a72d9a07ba9cfc",
+      "xy_mil": [
+        1190.9449,
+        561.0236
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "066915c5f35e90c3",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23162",
+      "manufacturer_part": "0603WAF4701T5E"
+    },
+    "R22": {
+      "component_id": "f73eb6031f9dd74d",
+      "xy_mil": [
+        1515.748,
+        620.0787
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "066915c5f35e90c3",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23162",
+      "manufacturer_part": "0603WAF4701T5E"
+    },
+    "R23": {
+      "component_id": "78c1850fcfa6536f",
+      "xy_mil": [
+        1299.2126,
+        787.4016
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "c322adc3561748ab",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C21189",
+      "manufacturer_part": "0603WAF0000T5E"
+    },
+    "R25": {
+      "component_id": "7888cfd50bd5c292",
+      "xy_mil": [
+        1299.2126,
+        403.5433
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "c322adc3561748ab",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C21189",
+      "manufacturer_part": "0603WAF0000T5E"
+    },
+    "R27": {
+      "component_id": "ba1990b740825c02",
+      "xy_mil": [
+        1427.1654,
+        787.4016
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R28": {
+      "component_id": "4385a51d3057eb2c",
+      "xy_mil": [
+        2283.4646,
+        659.4488
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6f5d4f51c804c92a",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25804",
+      "manufacturer_part": "0603WAF1002T5E"
+    },
+    "R29": {
+      "component_id": "ea9faf7c41b3566e",
+      "xy_mil": [
+        2283.4646,
+        787.4016
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6e3542e80dc580de",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C21190",
+      "manufacturer_part": "0603WAF1001T5E"
+    },
+    "R30": {
+      "component_id": "9b5f3eae16cba2ca",
+      "xy_mil": [
+        2283.4646,
+        915.3543
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "6e3542e80dc580de",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C21190",
+      "manufacturer_part": "0603WAF1001T5E"
+    },
+    "R31": {
+      "component_id": "08366868c6dc3113",
+      "xy_mil": [
+        2322.8346,
+        1072.8346
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "4cdfdb7bbb7cafac",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25819",
+      "manufacturer_part": "0603WAF4702T5E"
+    },
+    "R32": {
+      "component_id": "17fc420aa52e04ee",
+      "xy_mil": [
+        354.3307,
+        393.7008
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "4cdfdb7bbb7cafac",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25819",
+      "manufacturer_part": "0603WAF4702T5E"
+    },
+    "R33": {
+      "component_id": "3bd155723e9db4bc",
+      "xy_mil": [
+        866.1417,
+        393.7008
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "4cdfdb7bbb7cafac",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25819",
+      "manufacturer_part": "0603WAF4702T5E"
+    },
+    "R34": {
+      "component_id": "37ac8faaac9d625e",
+      "xy_mil": [
+        974.4094,
+        462.5984
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "4cdfdb7bbb7cafac",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25819",
+      "manufacturer_part": "0603WAF4702T5E"
+    },
+    "R35": {
+      "component_id": "d680baafba26fd09",
+      "xy_mil": [
+        748.0315,
+        393.7008
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "4cdfdb7bbb7cafac",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C25819",
+      "manufacturer_part": "0603WAF4702T5E"
+    },
+    "R36": {
+      "component_id": "e06832ba274dc3db",
+      "xy_mil": [
+        2362.2047,
+        1437.0079
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "5149ef3da38f435c",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23198",
+      "manufacturer_part": "0603WAF5232T5E"
+    },
+    "R37": {
+      "component_id": "2c1d94b2c89691cb",
+      "xy_mil": [
+        984.252,
+        88.5827
+      ],
+      "angle_deg": 90,
+      "layer_id": 1,
+      "footprint_uuid": "6457585b9757dfff",
+      "device_uuid": "5149ef3da38f435c",
+      "model_uuid": "fc143cca1e79419f9cd78b61e9279f08",
+      "library_model_transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C23198",
+      "manufacturer_part": "0603WAF5232T5E"
+    },
+    "SW1": {
+      "component_id": "4acc6f736faef614",
+      "xy_mil": [
+        787.4016,
+        1338.5827
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "f854460eb56e1bb5",
+      "device_uuid": "8818a332b4db1da2",
+      "model_uuid": "5321fd0f1d7e4838ba4132001a8c0ba1",
+      "library_model_transform": "590.55,218.5035,0,0,0,0,0,-38.031,-118.11",
+      "instance_model_transform": "590.55,218.5035,0,0,0,0,0,-38.031,-98.42496063",
+      "supplier_part": "C255514",
+      "manufacturer_part": "SSSS224100"
+    },
+    "U1": {
+      "component_id": "54992dff2800f3fd",
+      "xy_mil": [
+        787.4016,
+        708.6614
+      ],
+      "angle_deg": 180,
+      "layer_id": 1,
+      "footprint_uuid": "deb1ec2b048e80fc",
+      "device_uuid": "fa6e0436bb12e948",
+      "model_uuid": "3361a6792abf4a8f8fbca4f1924a67ee",
+      "library_model_transform": "240.39054,393.7,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C86413",
+      "manufacturer_part": "CH444G"
+    },
+    "U2": {
+      "component_id": "690e6b24eed3fefa",
+      "xy_mil": [
+        1889.7638,
+        984.252
+      ],
+      "angle_deg": 270,
+      "layer_id": 1,
+      "footprint_uuid": "6d6747048cb070d5",
+      "device_uuid": "c5aee0da625beea2",
+      "model_uuid": "66f9591183f84123aafe1bc54a5078d5",
+      "library_model_transform": "197.6374,197.6374,0,90,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C2679332",
+      "manufacturer_part": "TUSB3410RHBR"
+    },
+    "U3": {
+      "component_id": "07ff7399f57d3c70",
+      "xy_mil": [
+        2362.2047,
+        413.3858
+      ],
+      "angle_deg": 180,
+      "layer_id": 1,
+      "footprint_uuid": "c020f55e3a184cd3",
+      "device_uuid": "9a1c3e0f4fc112b1",
+      "model_uuid": "bf3177fc8dab4136825cc9ae9b354cf2",
+      "library_model_transform": "118.8974,118.8974,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C2846043",
+      "manufacturer_part": "CH343P"
+    },
+    "U4": {
+      "component_id": "eed7f392c5b23c6a",
+      "xy_mil": [
+        1338.5827,
+        590.5512
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "af151a54a7427fbe",
+      "device_uuid": "375b2c49defae22c",
+      "model_uuid": "e81d2f7d937b4a6ab1dca543ff5d56a4",
+      "library_model_transform": "192.913,236.22,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C511260",
+      "manufacturer_part": "24LC64-I/SN"
+    },
+    "U5": {
+      "component_id": "3f1d56d80d17890c",
+      "xy_mil": [
+        1141.7323,
+        787.4016
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "57bd2d0bb70c0d5d",
+      "device_uuid": "3a799d2df6f5cad4",
+      "model_uuid": "c0f94ce67e934acfa3fe33a5b88e2836",
+      "library_model_transform": "114.173,110.236,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C51118",
+      "manufacturer_part": "AP2112K-3.3TRG1"
+    },
+    "U6": {
+      "component_id": "662036d47b9119cb",
+      "xy_mil": [
+        826.7717,
+        216.5354
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "9563025ebeb8350d",
+      "device_uuid": "2fa5903a95d8d604",
+      "model_uuid": "18da8f6c14a34920b3e136b5c401a119",
+      "library_model_transform": "110.73671,114.173,0,180,0,0,0.001,-0.003,0",
+      "instance_model_transform": null,
+      "supplier_part": "C46506",
+      "manufacturer_part": "TPS2552DBVR"
+    },
+    "U7": {
+      "component_id": "f5d1794089fd4fbd",
+      "xy_mil": [
+        2125.9843,
+        669.2913
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "c0db3e517a4ef62d",
+      "device_uuid": "99f7bf1b088d9128",
+      "model_uuid": "0a2a1b8f50944f73965918ad6e5fe167",
+      "library_model_transform": "114.173,109.636,0,180,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C7829",
+      "manufacturer_part": "SN74LVC1G07DBVR"
+    },
+    "U8": {
+      "component_id": "96a3099e2e76fc2e",
+      "xy_mil": [
+        2125.9843,
+        866.1417
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "c0db3e517a4ef62d",
+      "device_uuid": "76a6c83b7522bae8",
+      "model_uuid": "0a2a1b8f50944f73965918ad6e5fe167",
+      "library_model_transform": "114.173,109.636,0,180,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C7836",
+      "manufacturer_part": "SN74LVC1G17DBVR"
+    },
+    "U9": {
+      "component_id": "33e6b4766de3eabb",
+      "xy_mil": [
+        2519.685,
+        1417.3228
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "9563025ebeb8350d",
+      "device_uuid": "2fa5903a95d8d604",
+      "model_uuid": "18da8f6c14a34920b3e136b5c401a119",
+      "library_model_transform": "110.73671,114.173,0,180,0,0,0.001,-0.003,0",
+      "instance_model_transform": null,
+      "supplier_part": "C46506",
+      "manufacturer_part": "TPS2552DBVR"
+    },
+    "U10": {
+      "component_id": "36cb5fc14d126936",
+      "xy_mil": [
+        1141.7323,
+        137.7953
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "9563025ebeb8350d",
+      "device_uuid": "2fa5903a95d8d604",
+      "model_uuid": "18da8f6c14a34920b3e136b5c401a119",
+      "library_model_transform": "110.73671,114.173,0,180,0,0,0.001,-0.003,0",
+      "instance_model_transform": null,
+      "supplier_part": "C46506",
+      "manufacturer_part": "TPS2552DBVR"
+    },
+    "Y2": {
+      "component_id": "abc3fe6f9d5c5d45",
+      "xy_mil": [
+        1929.1339,
+        1240.1575
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "e9acbd05bd74d2e7",
+      "device_uuid": "2b13796fc32764e1",
+      "model_uuid": "ff2dfd5650294453a14147960efe1838",
+      "library_model_transform": "125.984,98.425,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C6071564",
+      "manufacturer_part": "3225 12M 18PF 20PPM"
+    },
+    "J9": {
+      "component_id": "a73dc0656f828ff9",
+      "xy_mil": [
+        1259.8425,
+        1033.4646
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "07f3395a6ac8002a",
+      "device_uuid": "b325c3c31cfcaae9",
+      "model_uuid": "e35305ec3aa84b66b849f914b715e73f",
+      "library_model_transform": "200,100,0,0,0,0,0,0,-118.11",
+      "instance_model_transform": null,
+      "supplier_part": "C3338413",
+      "manufacturer_part": "M20-9990245"
+    },
+    "D3": {
+      "component_id": "ec2ddbcc5cb015f4",
+      "xy_mil": [
+        1574.8031,
+        393.7008
+      ],
+      "angle_deg": 180,
+      "layer_id": 1,
+      "footprint_uuid": "530697620d4e8cf8",
+      "device_uuid": "32fb6a52fa272d77",
+      "model_uuid": "18da8f6c14a34920b3e136b5c401a119",
+      "library_model_transform": "110.236,113.364,0,90,0,0,0.0005,0.0005,0",
+      "instance_model_transform": null,
+      "supplier_part": "C7519",
+      "manufacturer_part": "USBLC6-2SC6"
+    },
+    "C14": {
+      "component_id": "5737c3d802781e24",
+      "xy_mil": [
+        1515.748,
+        515.748
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "device_uuid": "d92bdabbafdef723",
+      "model_uuid": "ac125912035d415993ca9572d50418b1",
+      "library_model_transform": "62.992,31.496,0,0,0,0,0,0,0",
+      "instance_model_transform": null,
+      "supplier_part": "C14663",
+      "manufacturer_part": "CC0603KRX7R9BB104"
+    },
+    "J2": {
+      "component_id": "b5596e790541d216",
+      "xy_mil": [
+        1574.8031,
+        160.4323
+      ],
+      "angle_deg": 0,
+      "layer_id": 1,
+      "footprint_uuid": "27a835ea6dfc1a7f",
+      "device_uuid": "f88be022b0b8e1ec",
+      "model_uuid": "f9f717efafec4f23bf23d6e98e617557|0819f05c4eef4c71ace90d822a990e87",
+      "library_model_transform": "562.991,393.7,0,0,0,0,-0.001,-157.48,-98.425",
+      "instance_model_transform": null,
+      "supplier_part": "C456017",
+      "manufacturer_part": "AF 10.0 HC6.3"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+此目录保存手工USB/GND铜完成、普通网络自动布线之前的原生快照。`native-usb-audit.json` 保留两条USB-A原生自动合并线的严格等效失败；`approved-deviation.json` 依据独立实际路径、连通、间距、0.65mm隔离带核查，明确接受这两项局部变化。不能将此快照作为最终整板DRC结果。内层铺铜在快照后已由主流程继续恢复，旧`native-planes-audit.json`不代表最终铺铜状态。最终必须重取原生导出并重复检查。

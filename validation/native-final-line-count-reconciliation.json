@@ -1,0 +1,138 @@
+{
+  "missingArchiveIds": [
+    "1fe158c2158c7e6c",
+    "4546c4fce763bf83",
+    "3785fa946c6b20c9",
+    "54056f28a90c588c",
+    "a5b840f452a9a6b6",
+    "6e537f9cacca444c",
+    "e7c6b1aef0aff7be",
+    "dc6566e282cc6339",
+    "b4580283177cc4bb",
+    "5de1360bb57737e7",
+    "aaac32ea554c50b7",
+    "4a516a2a919ca37d",
+    "23e0c1189adc4887",
+    "00a4cce2ec14b16d",
+    "82342ed5331bca14"
+  ],
+  "liveExtra": [],
+  "active": {
+    "documentType": 1,
+    "uuid": "0b9f8a9f53fb8264",
+    "tabId": "0b9f8a9f53fb8264@f4164eed1d531b75438df32f8fdbd7fef0b9cabbcc8488f73581ff7dd5c05855",
+    "parentProjectUuid": "f4164eed1d531b75438df32f8fdbd7fef0b9cabbcc8488f73581ff7dd5c05855"
+  },
+  "source_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "archive_LINE_count": 1508,
+  "live_API_LINE_count": 1493,
+  "details": [
+    {
+      "id": "1fe158c2158c7e6c",
+      "net": "GND",
+      "length_mil": 0.07709999999997308,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "4546c4fce763bf83",
+      "net": "GND",
+      "length_mil": 0.0885000000000673,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "3785fa946c6b20c9",
+      "net": "GND",
+      "length_mil": 0.012586500705337402,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "54056f28a90c588c",
+      "net": "GND",
+      "length_mil": 0.03179999999974825,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "a5b840f452a9a6b6",
+      "net": "GND",
+      "length_mil": 0.040897554939134134,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "6e537f9cacca444c",
+      "net": "GND",
+      "length_mil": 0.039032294321426554,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "e7c6b1aef0aff7be",
+      "net": "GND",
+      "length_mil": 0.08288811736312839,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "dc6566e282cc6339",
+      "net": "GND",
+      "length_mil": 0.01069999999981519,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "b4580283177cc4bb",
+      "net": "GND",
+      "length_mil": 0.010299999999972442,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "5de1360bb57737e7",
+      "net": "GND",
+      "length_mil": 0.012586500705257015,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "aaac32ea554c50b7",
+      "net": "GND",
+      "length_mil": 0.012727922061378434,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "4a516a2a919ca37d",
+      "net": "GND",
+      "length_mil": 0.050299999999992906,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "23e0c1189adc4887",
+      "net": "GND",
+      "length_mil": 0.02060000000005857,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "00a4cce2ec14b16d",
+      "net": "GND",
+      "length_mil": 0.03890000000001237,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    },
+    {
+      "id": "82342ed5331bca14",
+      "net": "UART_V3",
+      "length_mil": 0.04320428219503827,
+      "uncovered_area_mm2": 0.0,
+      "covered_by_same_net_copper": true
+    }
+  ],
+  "all_extra_records_redundant": true,
+  "observed": "Saved archive retains15sub0.1mil LINE records omitted by native opened canvas and getDocumentSource. No inferred private format semantics; report exact geometric coverage."
+}

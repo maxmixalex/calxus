@@ -1,0 +1,56 @@
+{
+  "scope": "Explicit old/new Z sensitivity on the actual native r7 J2 BREP. No native source mutation or hidden alignment. All PCB XY/holes and shell geometry unchanged.",
+  "source": "Calxus_RevA_r7_PCBA.step.gz",
+  "delta_z_mm": 0.1,
+  "results": [
+    {
+      "explicit_model_z_shift_mm": 0,
+      "bbox_mm": [
+        32.850054600109004,
+        -4.925011859991001,
+        -0.8937969609880003,
+        47.150054600109,
+        5.074988240008006,
+        7.807203139011
+      ],
+      "floor_clearance_at_lowest_lead_mm": 1.6062030390119997,
+      "roof_vertical_clearance_mm": 4.692796860989,
+      "front_aperture_top_clearance_mm": 3.2927968609889993,
+      "case": {
+        "base": {
+          "intersection_mm3": 0,
+          "minimum_distance_mm": 1.6062030390119997
+        },
+        "lid": {
+          "intersection_mm3": 0,
+          "minimum_distance_mm": 3.2937969609890088
+        }
+      }
+    },
+    {
+      "explicit_model_z_shift_mm": 0.1,
+      "bbox_mm": [
+        32.850054600109004,
+        -4.925011859991001,
+        -0.7937969609880007,
+        47.150054600109,
+        5.074988240008006,
+        7.907203139011
+      ],
+      "floor_clearance_at_lowest_lead_mm": 1.7062030390119993,
+      "roof_vertical_clearance_mm": 4.592796860989,
+      "front_aperture_top_clearance_mm": 3.1927968609889996,
+      "case": {
+        "base": {
+          "intersection_mm3": 0,
+          "minimum_distance_mm": 1.7062030390119998
+        },
+        "lid": {
+          "intersection_mm3": 0,
+          "minimum_distance_mm": 3.193796960989009
+        }
+      }
+    }
+  ],
+  "enclosure_fit_after_approved_model_shift_pass": true
+}

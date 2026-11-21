@@ -1,0 +1,69 @@
+{
+  "jobId": "job-mcp-06e2dbaf-5a16-42ef-9963-b211369491c7",
+  "completedAt": "2026-11-21T13:04:07.589Z",
+  "counts": {
+    "active": {
+      "documentType": 3,
+      "uuid": "2a0c39c6c6694f40",
+      "tabId": "2a0c39c6c6694f40@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+      "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+    },
+    "ratlines": {
+      "items": [],
+      "hasMore": false,
+      "total": 0
+    },
+    "lineCount": 1493,
+    "viaCount": 189,
+    "componentCount": 97
+  },
+  "export": {
+    "ok": true,
+    "kind": "step-full",
+    "checkedAt": "2026-11-21T13:03:56.935Z",
+    "requested": {
+      "projectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+      "pcbId": "2a0c39c6c6694f40",
+      "schematicPageId": "0b9f8a9f53fb8264"
+    },
+    "files": [
+      {
+        "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_final_PCBA.step",
+        "nativeName": "Calxus_RevA_final_PCBA",
+        "size": 34630884,
+        "type": "text/plain",
+        "saved": true,
+        "format": "step",
+        "readbackByteIdentical": null,
+        "readbackNote": "Large native FileSystem reads are unreliable in this client; accompanying gzip is verified separately."
+      },
+      {
+        "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_final_PCBA.step.gz",
+        "nativeName": null,
+        "size": 6775027,
+        "type": "application/gzip",
+        "saved": true,
+        "format": "gzip",
+        "originalBytes": 34630884,
+        "readbackBytes": 6775027,
+        "readbackByteIdentical": true
+      }
+    ],
+    "failures": [],
+    "activeDocument": {
+      "documentType": 3,
+      "uuid": "2a0c39c6c6694f40",
+      "tabId": "2a0c39c6c6694f40@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+      "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+    },
+    "activationMode": "previous_completed_invocation",
+    "stepElements": [
+      "Component Model"
+    ],
+    "stepGeometryScopeVerified": false,
+    "stepScopeNote": "Requested component models. Inspect the actual STEP products/solids, placements and unavailable models before treating it as a complete assembly.",
+    "finishedAt": "2026-11-21T13:04:07.553Z",
+    "manifestPath": "D:/Works/Calc/Calxus/exports/Calxus_RevA_final_step-full_export-report.json",
+    "manifestSaved": true
+  }
+}

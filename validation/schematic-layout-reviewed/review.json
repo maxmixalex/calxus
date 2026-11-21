@@ -1,0 +1,70 @@
+{
+  "scope": "Schematic text-layout review before the r7 J2 substitution. The final J2 page must be checked again after replacement.",
+  "pdf": {
+    "sha256": "5c3208b8ae97681bfaf1385e168d608caba4043992c50d652bcf677b4a675e26",
+    "bytes": 283197,
+    "pages": 3,
+    "nativeZip": "D:/Works/Calc/Calxus/exports/Calxus_RevA_schematic_layout_review.zip"
+  },
+  "changes": {
+    "horizontalNetLabels": 82,
+    "bottomVerticalNetLabels": 7,
+    "totalNetLabels": 156,
+    "untouchedNetLabels": 67,
+    "titleSizeFields": 6
+  },
+  "nativeChecks": {
+    "horizontal": [
+      {
+        "stage": "verify",
+        "page": "01_USB_Power",
+        "pass": true,
+        "actions": 36,
+        "protectedRecords": 709,
+        "failures": []
+      },
+      {
+        "stage": "verify",
+        "page": "02_TI_SilverLink",
+        "pass": true,
+        "actions": 31,
+        "protectedRecords": 593,
+        "failures": []
+      },
+      {
+        "stage": "verify",
+        "page": "03_UART_Adapters",
+        "pass": true,
+        "actions": 21,
+        "protectedRecords": 281,
+        "failures": []
+      }
+    ],
+    "vertical": [
+      {
+        "stage": "verify",
+        "page": "01_USB_Power",
+        "pass": true,
+        "actions": 4,
+        "protectedRecords": 709,
+        "failures": []
+      },
+      {
+        "stage": "verify",
+        "page": "02_TI_SilverLink",
+        "pass": true,
+        "actions": 3,
+        "protectedRecords": 593,
+        "failures": []
+      }
+    ]
+  },
+  "visualReview": {
+    "method": "Three complete pages rendered with Poppler; affected symbols inspected at 3x with PyMuPDF after each alignment change.",
+    "horizontalLabelsClearOfPinNames": true,
+    "bottomLabelsClearOfSW1Q1Q2D4": true,
+    "pageSizeTitles": "A2",
+    "status": "pass_for_label_layout"
+  },
+  "electricalPreservation": "Native protected-record comparison passed. Components, wires, pin metadata, NET values and NC records were unchanged by these layout-only edits."
+}

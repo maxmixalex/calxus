@@ -1,0 +1,740 @@
+{
+  "schema": "calxus.release-summary.v3",
+  "updated_at_utc": "2026-11-21T13:11:09.299117+00:00",
+  "revision": "RevA / r7",
+  "release_status": "engineering_review_package_actual_cam_passed_native_netlist_error_unresolved",
+  "manufacturing_release_accepted": false,
+  "mechanical_release_accepted": true,
+  "actual_cam_geometry_checks_passed": true,
+  "hardware_tested": false,
+  "blocking_issue": {
+    "code": "UNRESOLVED_NATIVE_NETLIST_ERROR",
+    "raw_item_count": 1,
+    "explanation": "Native global Netlist Error has empty detail and persists after bounded supported operations on a guarded isolated copy. Independent actual/source pin maps and Board binding agree, but do not clear this diagnostic.",
+    "next_evidence": "Actual native GUI Import Changes/difference details; no further speculative SDK mutation in the released original."
+  },
+  "status_rule": "Keep raw native failures visible. Geometric CAM and digital mechanical acceptance do not establish complete electrical DRC acceptance or tested hardware. This is a reviewable complete engineering package, not a released-to-manufacture claim.",
+  "design_input": {
+    "path": "hardware/electrical/calxus_design_input.json",
+    "sha256": "0877a26f484a80654b146c332041a5291ad61c37b861dc38caf7ec7c4f77a43d",
+    "bytes": 106976
+  },
+  "contract_counts": {
+    "schematic_components": 97,
+    "schematic_logical_pins": 345,
+    "explicit_nc": 21,
+    "pcb_refs_including_testpads": 120,
+    "pcb_electrical_pads": 368,
+    "smt_fitted": 87,
+    "smt_bom_rows": 34,
+    "hand_soldered_tht": 6,
+    "fitted_total": 93,
+    "pad_only_dnp_templates": [
+      "J3",
+      "J4",
+      "J5",
+      "J8"
+    ],
+    "pcb_only_testpads": 23,
+    "pcb_copper_line_source_records": 1508,
+    "pcb_copper_line_native_api_items": 1493,
+    "pcb_vias": 189,
+    "total_unique_drill_or_slot_features": 247
+  },
+  "current_deliverables": {
+    "native_project": {
+      "path": "hardware/native/Calxus_RevA.epro2",
+      "sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+      "bytes": 346898,
+      "status": "actual_native_saved_export"
+    },
+    "gerber": {
+      "path": "hardware/manufacturing/Calxus_RevA_Gerber.zip",
+      "sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+      "bytes": 212148,
+      "status": "actual_native_export_geometry_and_visual_checks_passed"
+    },
+    "native_schematic_pdf": {
+      "path": "hardware/schematic/Calxus_RevA_schematic.pdf",
+      "sha256": "77b6e4918fc024a38e6ae59e9ba34164da7999fc66308e35dbaae1b2b98c003f",
+      "bytes": 283420,
+      "status": "actual_native_export_and_visual_review_passed"
+    },
+    "smt_bom": {
+      "path": "hardware/manufacturing/Calxus_RevA_SMT_BOM.csv",
+      "sha256": "b140198bc3c731722212d716c36ae30f92581616c3613a5031d534641b293cd8",
+      "bytes": 1678,
+      "status": "fresh_native_source_actual_generated_csv_passed"
+    },
+    "smt_cpl": {
+      "path": "hardware/manufacturing/Calxus_RevA_SMT_CPL.csv",
+      "sha256": "53c2f185f8df27c575a0906d7b3c6993361f447fecfb9d31eb4c9f0ae43541b1",
+      "bytes": 1714,
+      "status": "fresh_native_source_actual_generated_csv_passed"
+    },
+    "mechanical_assembly": {
+      "path": "mechanical/output/calxus_source_assembly.step.gz",
+      "sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+      "bytes": 7745606,
+      "status": "source_derived_digital_mechanical_release_passed_native_source_and_cam_compared"
+    }
+  },
+  "native_origin": {
+    "project_uuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "pcb_uuid": "2a0c39c6c6694f40",
+    "schematic_uuid": "992d265f851ac884",
+    "saved": true,
+    "close_reopen_performed": true,
+    "ground_pour_regions_rebuilt": 2,
+    "actual_export_artifacts_on_Windows": true,
+    "canonical_original_archive_preserved": true,
+    "diagnostic_copy_not_selected": true,
+    "report": {
+      "path": "validation/canonical-deliverables.json",
+      "sha256": "5961bc8d307f5c806cc43583dbc5d31555674194774dccb074c892441add9332",
+      "bytes": 931
+    }
+  },
+  "checks": {
+    "native_archive": {
+      "status": "passed_actual_saved_export_and_independent_source_checks",
+      "reports": [
+        {
+          "path": "validation/canonical-deliverables.json",
+          "sha256": "5961bc8d307f5c806cc43583dbc5d31555674194774dccb074c892441add9332",
+          "bytes": 931
+        },
+        {
+          "path": "validation/native-final-schematic-archive.json",
+          "sha256": "36ade1d050b0625e87dc6ebff99b28831e57133041cb0860fc85a2a79c836301",
+          "bytes": 121193
+        },
+        {
+          "path": "validation/native-final-pcb-pin-net-comparison.json",
+          "sha256": "db220e0e04612f7e3b778f9291b109d149e89c8e32f40aa178e9bf0d78b32fdb",
+          "bytes": 811
+        },
+        {
+          "path": "validation/native-canonical-return-guard.json",
+          "sha256": "92e7a53e20c8ac158787514368a4cf8441ab0c4cd859748078ca14a09217ac2f",
+          "bytes": 3682
+        }
+      ],
+      "archive": {
+        "path": "hardware/native/Calxus_RevA.epro2",
+        "sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+        "bytes": 346898
+      },
+      "diagnostic_copy_used_as_release": false,
+      "scope": "Original actual native archive selected. Canonical name is a byte-identical copy; not the offline candidate or diagnostic copy."
+    },
+    "schematic_pin_net_nc": {
+      "status": "passed_live_post_reopen_and_saved_archive",
+      "reports": [
+        {
+          "path": "validation/native-final-schematic-audit.json",
+          "sha256": "8ca84420aeb91187b446daa7256e87cf82e9d8c87aa36558bc86c972dd4e7e70",
+          "bytes": 54852
+        },
+        {
+          "path": "validation/native-final-schematic-netlist-comparison.json",
+          "sha256": "f54a98802f3b739ebe12e860e7d964830d1c5c177686b4eb7bc9147cf4c80d94",
+          "bytes": 1404
+        },
+        {
+          "path": "validation/native-final-schematic-metadata-sync.json",
+          "sha256": "70329acb3469e6aab4ff3d5f91bfa0a4b8951de41ed3b522ea6e91cec701f03c",
+          "bytes": 17618
+        },
+        {
+          "path": "validation/native-final-schematic-archive.json",
+          "sha256": "36ade1d050b0625e87dc6ebff99b28831e57133041cb0860fc85a2a79c836301",
+          "bytes": 121193
+        }
+      ],
+      "components": 97,
+      "logical_pins": 345,
+      "explicit_nc": 21,
+      "all_nc_api_true_and_source_yes": true,
+      "all_components_library_pose_matches": true
+    },
+    "schematic_erc": {
+      "status": "passed_with_two_documented_warnings",
+      "reports": [
+        {
+          "path": "validation/native-final-erc.json",
+          "sha256": "21cce79468167d2e8bd0ebd784f5201651e6cec6e4713dbdd988a50d1b5ad31b",
+          "bytes": 411
+        }
+      ],
+      "errors": 0,
+      "fatal": 0,
+      "warnings": 2,
+      "warning_code": "SHOWDANDLING",
+      "reason": "U2 GPIO30/31 connect to PCB-only TP20/21; each net has one schematic node."
+    },
+    "schematic_native_pdf": {
+      "status": "passed_actual_native_export_and_visual_review",
+      "reports": [
+        {
+          "path": "validation/native-final-pdf-export.json",
+          "sha256": "019aa4012298c869a9f3131e164c8e6b034452bc0836b9834cef86dcdd4cc3a2",
+          "bytes": 1415
+        },
+        {
+          "path": "validation/native-final-schematic-review/review.json",
+          "sha256": "7381fd003951ecd52421561c7d4704627e3232ffcea8e13b23689ebb759c15b9",
+          "bytes": 2064
+        }
+      ],
+      "artifact": {
+        "path": "hardware/schematic/Calxus_RevA_schematic.pdf",
+        "sha256": "77b6e4918fc024a38e6ae59e9ba34164da7999fc66308e35dbaae1b2b98c003f",
+        "bytes": 283420
+      },
+      "pages": 3,
+      "frame": "A2",
+      "native_media_box_mm": [
+        [
+          596.1379879421658,
+          422.3314565022786
+        ],
+        [
+          596.1379879421658,
+          422.3314565022786
+        ],
+        [
+          596.1379879421658,
+          422.3314565022786
+        ]
+      ],
+      "note": "Native export margins retained; original PDF is not silently cropped to594x420mm."
+    },
+    "pcb_pin_net": {
+      "status": "passed_independent_saved_source_comparison",
+      "reports": [
+        {
+          "path": "validation/native-final-pcb-pin-net-comparison.json",
+          "sha256": "db220e0e04612f7e3b778f9291b109d149e89c8e32f40aa178e9bf0d78b32fdb",
+          "bytes": 811
+        },
+        {
+          "path": "validation/native-final-schematic-netlist-comparison.json",
+          "sha256": "f54a98802f3b739ebe12e860e7d964830d1c5c177686b4eb7bc9147cf4c80d94",
+          "bytes": 1404
+        }
+      ],
+      "pcb_references": 120,
+      "pcb_electrical_pads": 368,
+      "schematic_components": 97,
+      "schematic_logical_pins": 345,
+      "scope": "Pin graph equivalence and correct component bindings are independently established. This does not resolve the separate native global Netlist Error."
+    },
+    "pcb_source_geometry": {
+      "status": "passed_with_documented_preserved_rounding_exceptions",
+      "reports": [
+        {
+          "path": "validation/native-final-geometry.json",
+          "sha256": "3194489a73a68887282381e32e9a2b74ad7728c40201038af6a13c6ac265755b",
+          "bytes": 24379
+        },
+        {
+          "path": "validation/native-final-line-count-reconciliation.json",
+          "sha256": "ba1e9fce9e95d85fdffb441131590424593da75bd5d5ac5b2c5a9b54f366fa9e",
+          "bytes": 3788
+        }
+      ],
+      "source_copper_line_records": 1508,
+      "native_canvas_line_items": 1493,
+      "redundant_sub_01mil_source_line_records": 15,
+      "all_extra_records_covered_by_same_net_copper": true,
+      "vias": 189,
+      "preserved_rounding_exception_count": 20,
+      "scope": "Exact saved-source copper with conservative pad-offset envelope. Native DRC and actual CAM have separate results."
+    },
+    "pcb_complete_drc": {
+      "status": "failed_one_unexplained_netlist_item_with_three_reviewed_metric_exceptions",
+      "reports": [
+        {
+          "path": "validation/native-final-drc-readback-summary.json",
+          "sha256": "5f6cab4b6cc0a447d1be09911da4c151dab7cca3d1aff68abc5bd24db1281222",
+          "bytes": 3268
+        },
+        {
+          "path": "validation/native-final-drc-raw-tree.json",
+          "sha256": "a738e5950e11488b1b0771ccf5eb46e9115a969874abd746a3080a29a245c73d",
+          "bytes": 7463
+        },
+        {
+          "path": "validation/native-final-drc-and-ratlines.json",
+          "sha256": "1ced6add8818867ea8b0ad0d34957f94c35c9e42be7c4a6ebe59663f53ffab02",
+          "bytes": 189389
+        },
+        {
+          "path": "validation/native-netlist-reference-diagnostic.json",
+          "sha256": "376575ce15ebb983cd4b9cd1710835c402b40e3950d78ba50634459e22a80771",
+          "bytes": 6277
+        }
+      ],
+      "raw_native_state": "failed",
+      "raw_total_items": 4,
+      "raw_categories": {
+        "connection_errors": 0,
+        "clearance_errors": 0,
+        "same_footprint_clearance_errors": 0,
+        "physical_errors": 0,
+        "creepage_errors": 0,
+        "differential_length_metric_items": 3,
+        "unexplained_global_netlist_error_items": 1
+      },
+      "reviewed_metric_exception_count": 3,
+      "reviewed_metric_pairs": [
+        "USB_UP",
+        "USB_SIL",
+        "USB_UART"
+      ],
+      "unexplained_item_count": 1,
+      "unexplained_item": "Global Netlist Error with empty detail; remains after bounded supported operations on isolated copy.",
+      "native_rules_modified": false,
+      "native_violations_suppressed": false,
+      "original_source_unchanged_by_diagnostics": true,
+      "manufacturing_release_accepted": false
+    },
+    "pcb_ratlines": {
+      "status": "passed_actual_native_zero_ratlines",
+      "reports": [
+        {
+          "path": "validation/native-final-drc-readback-summary.json",
+          "sha256": "5f6cab4b6cc0a447d1be09911da4c151dab7cca3d1aff68abc5bd24db1281222",
+          "bytes": 3268
+        }
+      ],
+      "count": 0,
+      "has_more": false,
+      "native_pour_regions_rebuilt": 2
+    },
+    "native_schematic_pcb_association": {
+      "status": "independent_binding_equal_native_global_diagnostic_unresolved",
+      "reports": [
+        {
+          "path": "validation/history/native-netlist-error-source-diagnosis.json",
+          "sha256": "b920774b133f216f0a0caead02a4f65b4d6c96af839c7ee999a25fef3de5a460",
+          "bytes": 103237
+        },
+        {
+          "path": "validation/native-netlist-reference-diagnostic.json",
+          "sha256": "376575ce15ebb983cd4b9cd1710835c402b40e3950d78ba50634459e22a80771",
+          "bytes": 6277
+        }
+      ],
+      "independent_board_binding_verified": true,
+      "independent_instance_uid_device_footprint_pin_map_verified": true,
+      "raw_native_netlist_error_resolved": false,
+      "bounded_diagnostic_actions": [
+        "save_close_reopen",
+        "PCB_current_netlist_setNetlist",
+        "SCH_netlist_setNetlist",
+        "one_official_importChanges_on_isolated_copy"
+      ],
+      "protected_geometry_differences": 0,
+      "reason_not_asserted": "No proven root cause; comparator returns empty PCB-side net arrays despite independently matching real pin maps."
+    },
+    "usb_differential_source_path": {
+      "status": "passed_endpoint_geometry_three_native_metric_exceptions_retained",
+      "reports": [
+        {
+          "path": "validation/native-final-usb-path-lengths.json",
+          "sha256": "7748993f67083c4a8fb470c786896a004324ad2c65d4d7f5883f07aa1eebaea2",
+          "bytes": 121900
+        },
+        {
+          "path": "validation/native-differential-length-semantics.json",
+          "sha256": "5bbfddc021f0c126fc129866d68aeaef0092295c33b0886c66ade7079b2e4b77",
+          "bytes": 13008
+        }
+      ],
+      "skew_limit_mm": 0.254,
+      "maximum_type_c_to_native_or_usb_a_abs_skew_mm": 0.21598539555170504,
+      "main_path_abs_skew_mm": {
+        "UP": 0.012074004979549358,
+        "UP_B": 0.20545025464910083,
+        "SIL": 0.12204515974448782,
+        "UART": 0.0016428117449081014
+      },
+      "native_metric": "Sum of all same-net LINE lengths differs from selected endpoint path; native errors remain visible.",
+      "scope": "Geometric copper-path matching including equal via barrels; not SI simulation, measured propagation delay or USB compliance."
+    },
+    "source_hole_contract": {
+      "status": "passed_current_native_source_extraction",
+      "reports": [
+        {
+          "path": "validation/native-final-tht-drill-expectations.json",
+          "sha256": "64c33b7d4cfc5a103aa6f2fab6fc599dcec2090f4772164a8527e65e19d15aec",
+          "bytes": 51289
+        },
+        {
+          "path": "validation/native-final-nonpad-hole-expectations.json",
+          "sha256": "71d27a2edc06ddae7c5fa782dc3c94ea477b1f577eca422ab2b0db9a6629f0c6",
+          "bytes": 2101
+        },
+        {
+          "path": "validation/native-final-via-drill-expectations.json",
+          "sha256": "a130232e0c6d27f988e5618f3b4fe8e448af685d413e86afbbd430b8b5cf45ca",
+          "bytes": 80254
+        },
+        {
+          "path": "validation/native-final-tented-via-expectations.json",
+          "sha256": "4685ec902923d37b65cf2425a39c0bf35452dd45cf95dda1e6e330e2d574a827",
+          "bytes": 70773
+        }
+      ],
+      "pad_holes": 56,
+      "j1_extra_nonpad_holes": 2,
+      "vias": 189,
+      "total_unique_machining_features": 247,
+      "ordinary_tented_vias": 128,
+      "ep_vippo_vias_separate": 4
+    },
+    "gerber_layers_outline": {
+      "status": "passed_actual_native_cam",
+      "reports": [
+        {
+          "path": "validation/native-final-gerber/gerber-validation.json",
+          "sha256": "d7749c1ab1d195d37f02db79021d3a574174cbaa4ff9d840806b0ab7a12d2e73",
+          "bytes": 595468
+        },
+        {
+          "path": "validation/native-final-gerber/outline-corners.json",
+          "sha256": "f06a922730fe1784c9b7b47bd2ec4aac7f0bf8320b315519453e39021f6afba8",
+          "bytes": 5337
+        }
+      ],
+      "artifact": {
+        "path": "hardware/manufacturing/Calxus_RevA_Gerber.zip",
+        "sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+        "bytes": 212148
+      },
+      "copper_layers": 4,
+      "closed_outline_mm": [
+        80,
+        42
+      ],
+      "quarter_circle_corners": 4,
+      "corner_radius_mm": 1,
+      "native_gerber_bytes_unchanged": true
+    },
+    "gerber_all_drills": {
+      "status": "passed_actual_native_cam_all247",
+      "reports": [
+        {
+          "path": "validation/native-final-gerber/gerber-validation.json",
+          "sha256": "d7749c1ab1d195d37f02db79021d3a574174cbaa4ff9d840806b0ab7a12d2e73",
+          "bytes": 595468
+        }
+      ],
+      "total_unique_holes_or_slots": 247,
+      "plated_combined": 241,
+      "non_plated": 6,
+      "pad_holes": 56,
+      "j1_extra_holes": 2,
+      "via_holes": 189,
+      "unexplained_holes": 0,
+      "auxiliary_via_only_exact_subset": true,
+      "J2": {
+        "round_count": 4,
+        "round_diameter_mm": 1.0,
+        "slot_count": 2,
+        "slot_length_width_mm": [
+          2.1,
+          0.8
+        ],
+        "long_axis": "Y"
+      }
+    },
+    "gerber_ep_stencil": {
+      "status": "passed_actual_native_top_paste",
+      "reports": [
+        {
+          "path": "validation/native-final-gerber/gerber-validation.json",
+          "sha256": "d7749c1ab1d195d37f02db79021d3a574174cbaa4ff9d840806b0ab7a12d2e73",
+          "bytes": 595468
+        },
+        {
+          "path": "validation/native-final-gerber/stock-passive-paste.json",
+          "sha256": "d6cc947e51853b18206cbdae4248272bad0a4cf3a34df76739d3b02683d6a1e1",
+          "bytes": 7834
+        }
+      ],
+      "windows_per_qfn": 4,
+      "minimum_bridge_mm": 0.2,
+      "ep": [
+        {
+          "ref": "U2",
+          "pass": true,
+          "coverage_percent": 72.42325994998123,
+          "minimum_web_mm": 0.20000000000000284
+        },
+        {
+          "ref": "U3",
+          "pass": true,
+          "coverage_percent": 58.18064298222868,
+          "minimum_web_mm": 0.20000000000000107
+        }
+      ],
+      "scope": "Actual aperture geometry; no stencil-thickness/reflow-process qualification."
+    },
+    "gerber_tented_vias": {
+      "status": "passed_actual_both_masks",
+      "reports": [
+        {
+          "path": "validation/native-final-gerber/gerber-validation.json",
+          "sha256": "d7749c1ab1d195d37f02db79021d3a574174cbaa4ff9d840806b0ab7a12d2e73",
+          "bytes": 595468
+        },
+        {
+          "path": "validation/native-final-tented-via-expectations.json",
+          "sha256": "4685ec902923d37b65cf2425a39c0bf35452dd45cf95dda1e6e330e2d574a827",
+          "bytes": 70773
+        }
+      ],
+      "count": 128,
+      "minimum_required_hole_edge_to_mask_opening_mm": 0.1,
+      "minimum_observed_conservative_gap_mm": 0.10363000000000043,
+      "threshold_relaxation_mm": 0,
+      "process_basis": {
+        "solder_mask": "green",
+        "outer_copper_oz": 1
+      },
+      "ep_vippo_separate": 4
+    },
+    "gerber_visual_review": {
+      "status": "passed_actual_viewing_and_independent_root_review",
+      "reports": [
+        {
+          "path": "validation/native-final-gerber/visual-review.json",
+          "sha256": "a6624173cebfc8215269dee89fd156da278f4d347757aab79c754b172d11c979",
+          "bytes": 2942
+        },
+        {
+          "path": "validation/native-final-gerber/functional-silk.json",
+          "sha256": "9a530f443c77e96a8477d075f9aeaa48668c5d7cc731b732dd006c429e9dcc2c",
+          "bytes": 5138
+        },
+        {
+          "path": "validation/native-final-gerber/outline-corners.json",
+          "sha256": "f06a922730fe1784c9b7b47bd2ec4aac7f0bf8320b315519453e39021f6afba8",
+          "bytes": 5337
+        },
+        {
+          "path": "validation/native-final-gerber/stock-passive-paste.json",
+          "sha256": "d6cc947e51853b18206cbdae4248272bad0a4cf3a34df76739d3b02683d6a1e1",
+          "bytes": 7834
+        }
+      ],
+      "images": [
+        {
+          "path": "validation/native-final-gerber/gerber-top.png",
+          "sha256": "b9fe116ec88d235c48da3ec021a91b6860bbe1a7a14afc8b3087ebff54bf34d0",
+          "bytes": 437535
+        },
+        {
+          "path": "validation/native-final-gerber/gerber-bottom.png",
+          "sha256": "49dc8e79fe3e8e524b5945f51b792c0e2e5337798cd5f992f039cd9d186f9bd5",
+          "bytes": 238229
+        },
+        {
+          "path": "validation/native-final-gerber/gerber-top-paste.png",
+          "sha256": "54f21071d0d4f9e6b3522720bd2cb332dbd9d122442575ab0323281c9423d980",
+          "bytes": 55307
+        }
+      ],
+      "preview_only_closing_arc_fix": true,
+      "original_svg_preserved": true,
+      "general_reference_text_cosmetic_limit": "Dense general reference text includes crowding or masking; functional interfaces/modes/polarities separately passed. No general layout perfection claimed."
+    },
+    "smt_bom_cpl": {
+      "status": "passed_fresh_native_exports_and_actual_csv_generation",
+      "reports": [
+        {
+          "path": "hardware/manufacturing/smt-native-export-validation.json",
+          "sha256": "f67d370f1a927de934f24392688655be8a8b0bf6c89c4db4eab3ba5ded88a7e0",
+          "bytes": 19462
+        },
+        {
+          "path": "validation/native-final-smt-source-preservation.json",
+          "sha256": "c30286dd8f257cd65f2ddb6d282c6b42a8dd85be83659730d7451b09840caee5",
+          "bytes": 39234
+        },
+        {
+          "path": "hardware/manufacturing/source/bom-export-report.json",
+          "sha256": "a067b5d0a769d94f14ec4ad34fde28f7e62277ca1da1c39ddcdfd2ce12485dba",
+          "bytes": 711
+        },
+        {
+          "path": "hardware/manufacturing/source/cpl-export-report.json",
+          "sha256": "e62e4884e8b32d6689af035660c11784da5d87d3b6209423fdb3b6e6dbf18b6d",
+          "bytes": 800
+        }
+      ],
+      "smt_count": 87,
+      "bom_rows": 34,
+      "cpl_rows": 87,
+      "basic": 52,
+      "extended": 35,
+      "native_mid_coordinates_retained": true,
+      "native_rotations_retained": true,
+      "side": "Top",
+      "artifacts": [
+        {
+          "path": "hardware/manufacturing/Calxus_RevA_SMT_BOM.csv",
+          "sha256": "b140198bc3c731722212d716c36ae30f92581616c3613a5031d534641b293cd8",
+          "bytes": 1678
+        },
+        {
+          "path": "hardware/manufacturing/Calxus_RevA_SMT_CPL.csv",
+          "sha256": "53c2f185f8df27c575a0906d7b3c6993361f447fecfb9d31eb4c9f0ae43541b1",
+          "bytes": 1714
+        }
+      ]
+    },
+    "mechanical_design": {
+      "status": "passed_digital_mechanical_release",
+      "reports": [
+        {
+          "path": "mechanical/validation/mechanical-release-acceptance.json",
+          "sha256": "fe9dd4e99e8ac4b7d9f32cd28666fe1960fe5212d2782a9c1048defee5d19087",
+          "bytes": 5374
+        },
+        {
+          "path": "mechanical/validation/source-derived-assembly-roundtrip.json",
+          "sha256": "7d7f09a892b4f0de8c37465109acb62cb0ee64f57859f0fda138bf81e04d4f92",
+          "bytes": 92907
+        },
+        {
+          "path": "mechanical/validation/native-final-mechanical-source-equivalence.json",
+          "sha256": "3153b32265b52010e4f8e97cca2ebbc366b13e2a9b34c7c5e08aa2f75b76023d",
+          "bytes": 160499
+        }
+      ],
+      "mechanical_release_accepted": true,
+      "artifact": {
+        "path": "mechanical/output/calxus_source_assembly.step.gz",
+        "sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+        "bytes": 7745606
+      },
+      "geometry_origin": "SOURCE_DERIVED_DESIGN_WITH_FINAL_NATIVE_SOURCE_AND_CAM_COMPARISON",
+      "fitted_components": 93,
+      "named_objects": 114,
+      "drill_features": 247,
+      "selector_poses": 16,
+      "printed_designs": 7,
+      "printed_step_stl_files": 14,
+      "physical_first_article_validated": false,
+      "actual_native_board_STEP_verified": true,
+      "native_board_thickness_mm": 1.606203212406,
+      "native_board_step_non_via_holes": 58,
+      "native_board_step_omitted_via_voids": 189,
+      "actual_CAM_all247_holes_verified": true,
+      "fresh_full_pcba_in_published_verified_package": false,
+      "scope": "Canonical source-derived assembly compared with actual final native source/CAM; actual native board STEP is separate. Optional local full-PCBA export is not adopted or independently verified."
+    },
+    "firmware_build": {
+      "status": "passed",
+      "scope": "Actual host builds and offline image format checks, not programming or communication on hardware",
+      "upstream_commit": "f0db48b761ca64f77ad3d27dd3d0a98930638d04",
+      "toolchain": "SDCC : mcs51/z80/z180/r2k/r2ka/r3ka/sm83/tlcs90/ez80_z80/z80n/ds390/TININative/ds400/hc08/s08/stm8/pdk13/pdk14/pdk15/mos6502 4.2.0 #13081 (Linux)",
+      "binary_sha1": "6255d46f667840cccdf46e94fa7a462330076a0b",
+      "eeprom_bytes": 8192,
+      "eeprom_sha256": "a56dc1ebb386ab03d0d60da3deb4c1583530f4063fd934c7f042a9fc6ba20af5",
+      "reports": [
+        {
+          "path": "firmware/validation/BUILD_RECORD.json",
+          "sha256": "2a84b8620c850a60dc41be1cacd94e9c6e01182604d2fa56ff99d95d31e0668b",
+          "bytes": 1735
+        },
+        {
+          "path": "firmware/validation/reproducibility.log",
+          "sha256": "63fc7b946a3badd1a7471f4a37f6eda4c4e17c09252f89a7c631a8303e2aa15d",
+          "bytes": 446
+        },
+        {
+          "path": "firmware/validation/image-format-tests.log",
+          "sha256": "3c11a0c4eea8dc367718ca49e905d62b748b3c04d600171bb4c25ee4be81cbb8",
+          "bytes": 686
+        }
+      ],
+      "public_distribution": "Project-owned reproducible fetch/build/verification scripts; upstream disassembly and derived images are private local delivery only"
+    },
+    "manufacturing_inspector_software": {
+      "status": "passed_synthetic_parser_regressions",
+      "reports": [
+        {
+          "path": "validation/gerber-drill-inspector-software-checks.json",
+          "sha256": "7032fe3eeab57d0be75b02af3d66de2cd5e6c16b8134097bda417f7da68ccecd",
+          "bytes": 2049
+        },
+        {
+          "path": "validation/gerber-nonpad-hole-inspector-software-checks.json",
+          "sha256": "6f1bbc02f1897bd3efe923269ddc06de372fc45078a33472492eb94b02fdd4d8",
+          "bytes": 1698
+        },
+        {
+          "path": "validation/gerber-mask-inspector-software-checks.json",
+          "sha256": "7d9b68302019ad3eab7d3199ff0d22a26f09ef1864c400d2952d248081f6f298",
+          "bytes": 818
+        }
+      ],
+      "scope": "Synthetic parser and rejection regressions; actual final CAM acceptance is separately recorded above."
+    }
+  },
+  "historical_evidence": {
+    "offline_candidate": {
+      "path": "hardware/native/Calxus_RevA_candidate.epro2",
+      "sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+      "bytes": 334563
+    },
+    "source_review_pdf": {
+      "path": "hardware/schematic/Calxus_RevA_schematic_source_review.pdf",
+      "sha256": "24891f625b8d9dccddafdebf46731d7f47a03087fb6aeecb51e081d71136cc4e",
+      "bytes": 80942
+    },
+    "pre_up_cam_sample_report": {
+      "path": "validation/history/native-hole-adoption-cam-sample/gerber-validation.json",
+      "sha256": "cdd94a27208ab4de98cc549db010f1dd365392a7374ccef46fa8caecaa65d3d9",
+      "bytes": 577523
+    },
+    "outage_checkpoint": "920 executed /880 saved was superseded by complete native routing and final exports. Not the current design state."
+  },
+  "unmeasured_hardware_items": [
+    "first power-up/current/temperature",
+    "external EEPROM programming and readback",
+    "ROM recovery and USB RAM download",
+    "cold boot enumeration",
+    "four-mode switching and supply behavior",
+    "USB signal integrity and actual cable voltage drop",
+    "TI Connect and WebTILP transfers on named calculator/OS/driver versions",
+    "CH343 UART loopback and target transfers",
+    "CASIO and limited HP/AUX target validation",
+    "TI-Nspire logs on a verified hardware revision",
+    "suspend/resume and powered-down backfeed",
+    "physical printed case fit, cable retention and selector durability"
+  ],
+  "procurement_gap": {
+    "status": "open",
+    "item": "Two true2.5mm three-contactTRS male ends for TI/CASIO tails",
+    "reports": [
+      {
+        "path": "hardware/electrical/2p5-trs-stock-check-20261121.json",
+        "sha256": "3c3dc53b95ea9f707699c23b742b2cc762076b5d9d31d13958e4ef3dfd9fdc56",
+        "bytes": 4588
+      },
+      {
+        "path": "hardware/electrical/2p5-trs-cable-check-20261121.json",
+        "sha256": "dd6485de74576bf7cb0cd48e6bbe233579c8ee9eb1a360f66afecc477d6b2daa",
+        "bytes": 2803
+      }
+    ],
+    "note": "Bounded stock search includes finished cables/cut-tail option; no qualified in-stock LCSC replacement verified. No3.5mm/TS/TRRS/DC substitution; no order placed."
+  },
+  "evidence_scope_note": "All linked artifact hashes are actual bytes at this summary. Historical diagnostics retain their historical scope. No final Git commit SHA is embedded, avoiding circular content hashes."
+}

@@ -1,0 +1,1119 @@
+{
+  "schema": "calxus.native-usb-audit.v1",
+  "source_copper": "calxus_work/evidence/native-copper-audit.json",
+  "source_pads": "calxus_work/evidence/native-pads-audit.json",
+  "sha256_copper": "e3142bac9aeb4f7cfb6debc41f372b2b90d3fad70ff13bb84236df0512766952",
+  "sha256_pads": "7ab7e510a156da9ed2dcd957aa71cf5990cf1bf89a70bcd091ad8aaab721fd84",
+  "approved_route_sha256": "14ff0672ea8573d223c20243de83a3e44c3f416dc04031cb7f9b5f248638bbdb",
+  "native_line_count": 139,
+  "native_via_count": 61,
+  "usb_pad_connectivity": {
+    "USB_A_DM": {
+      "pad_groups": [
+        [
+          "D3.3",
+          "D3.4",
+          "J2.2",
+          "U1.11"
+        ]
+      ],
+      "unattached_copper_groups": [],
+      "passed": true
+    },
+    "USB_A_DP": {
+      "pad_groups": [
+        [
+          "D3.1",
+          "D3.6",
+          "J2.3",
+          "U1.5"
+        ]
+      ],
+      "unattached_copper_groups": [],
+      "passed": true
+    },
+    "USB_NATIVE_DM": {
+      "pad_groups": [
+        [
+          "D2.3",
+          "D2.4",
+          "J3.2",
+          "U1.10"
+        ]
+      ],
+      "unattached_copper_groups": [],
+      "passed": true
+    },
+    "USB_NATIVE_DP": {
+      "pad_groups": [
+        [
+          "D2.1",
+          "D2.6",
+          "J3.3",
+          "U1.6"
+        ]
+      ],
+      "unattached_copper_groups": [],
+      "passed": true
+    },
+    "USB_UP_DM": {
+      "pad_groups": [
+        [
+          "D1.3",
+          "D1.4",
+          "J1.B7",
+          "J1.A7",
+          "U1.9"
+        ]
+      ],
+      "unattached_copper_groups": [],
+      "passed": true
+    },
+    "USB_UP_DP": {
+      "pad_groups": [
+        [
+          "D1.1",
+          "D1.6",
+          "J1.A6",
+          "J1.B6",
+          "U1.7"
+        ]
+      ],
+      "unattached_copper_groups": [],
+      "passed": true
+    }
+  },
+  "approved_route_geometry_equivalence": [
+    {
+      "net": "USB_A_DM",
+      "layer": 1,
+      "equivalent_within_mil": 0.11,
+      "passed": false,
+      "expected_line_primitives": 7,
+      "actual_line_primitives": 5,
+      "expected_centerline_union_mm": 13.589953882741911,
+      "actual_centerline_union_mm": 13.589812893825924
+    },
+    {
+      "net": "USB_A_DM",
+      "layer": 2,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 7,
+      "actual_line_primitives": 7,
+      "expected_centerline_union_mm": 21.85400564565614,
+      "actual_centerline_union_mm": 21.854005645656148
+    },
+    {
+      "net": "USB_A_DP",
+      "layer": 1,
+      "equivalent_within_mil": 0.11,
+      "passed": false,
+      "expected_line_primitives": 9,
+      "actual_line_primitives": 7,
+      "expected_centerline_union_mm": 13.820218837115021,
+      "actual_centerline_union_mm": 13.820088312297694
+    },
+    {
+      "net": "USB_A_DP",
+      "layer": 2,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 7,
+      "actual_line_primitives": 7,
+      "expected_centerline_union_mm": 21.854005645656137,
+      "actual_centerline_union_mm": 21.854005645656137
+    },
+    {
+      "net": "USB_NATIVE_DM",
+      "layer": 1,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 9,
+      "actual_line_primitives": 9,
+      "expected_centerline_union_mm": 16.261998513059556,
+      "actual_centerline_union_mm": 16.26199851305955
+    },
+    {
+      "net": "USB_NATIVE_DM",
+      "layer": 2,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 9,
+      "actual_line_primitives": 8,
+      "expected_centerline_union_mm": 48.37765109717507,
+      "actual_centerline_union_mm": 48.37764929759266
+    },
+    {
+      "net": "USB_NATIVE_DP",
+      "layer": 1,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 9,
+      "actual_line_primitives": 9,
+      "expected_centerline_union_mm": 17.00372642724852,
+      "actual_centerline_union_mm": 17.00372642724852
+    },
+    {
+      "net": "USB_NATIVE_DP",
+      "layer": 2,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 9,
+      "actual_line_primitives": 8,
+      "expected_centerline_union_mm": 47.63546019696038,
+      "actual_centerline_union_mm": 47.63545840077516
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 8,
+      "actual_line_primitives": 8,
+      "expected_centerline_union_mm": 13.199335471743327,
+      "actual_centerline_union_mm": 13.199335471743327
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 2,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 7,
+      "actual_line_primitives": 7,
+      "expected_centerline_union_mm": 4.290280441229836,
+      "actual_centerline_union_mm": 4.290280441229835
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 1,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 10,
+      "actual_line_primitives": 10,
+      "expected_centerline_union_mm": 13.703901441858072,
+      "actual_centerline_union_mm": 13.703901441858072
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 2,
+      "equivalent_within_mil": 0.11,
+      "passed": true,
+      "expected_line_primitives": 7,
+      "actual_line_primitives": 7,
+      "expected_centerline_union_mm": 3.6333737452772206,
+      "actual_centerline_union_mm": 3.6333737452772206
+    }
+  ],
+  "planned_via_matches": [
+    {
+      "tag": "UP_aP",
+      "net": "USB_UP_DP",
+      "expected_xy_mil": [
+        600,
+        730
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "84ec733ff0c71398"
+    },
+    {
+      "tag": "UP_aM",
+      "net": "USB_UP_DM",
+      "expected_xy_mil": [
+        626,
+        730
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "4146bad3dedc458a"
+    },
+    {
+      "tag": "UP_bP",
+      "net": "USB_UP_DP",
+      "expected_xy_mil": [
+        520,
+        800
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "136dac46c24376e8"
+    },
+    {
+      "tag": "UP_bM",
+      "net": "USB_UP_DM",
+      "expected_xy_mil": [
+        520,
+        826
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "a172eb50d6cba057"
+    },
+    {
+      "tag": "NATIVE_aP",
+      "net": "USB_NATIVE_DP",
+      "expected_xy_mil": [
+        756,
+        730
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "cec7b08cf99ddd80"
+    },
+    {
+      "tag": "NATIVE_aM",
+      "net": "USB_NATIVE_DM",
+      "expected_xy_mil": [
+        730,
+        730
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "4bf0913127979c6e"
+    },
+    {
+      "tag": "NATIVE_bP",
+      "net": "USB_NATIVE_DP",
+      "expected_xy_mil": [
+        2440,
+        1240
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "5538e16fa0aad347"
+    },
+    {
+      "tag": "NATIVE_bM",
+      "net": "USB_NATIVE_DM",
+      "expected_xy_mil": [
+        2440,
+        1266
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "82756998d55da9de"
+    },
+    {
+      "tag": "A_aP",
+      "net": "USB_A_DP",
+      "expected_xy_mil": [
+        860,
+        700
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "1a2a5c8de0cd25f9"
+    },
+    {
+      "tag": "A_aM",
+      "net": "USB_A_DM",
+      "expected_xy_mil": [
+        834,
+        700
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "2ca8c37d4d45e084"
+    },
+    {
+      "tag": "A_bP",
+      "net": "USB_A_DP",
+      "expected_xy_mil": [
+        1612,
+        500
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "58bc2252284b2c6a"
+    },
+    {
+      "tag": "A_bM",
+      "net": "USB_A_DM",
+      "expected_xy_mil": [
+        1586,
+        500
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "a1b1bac9c63b6d6b"
+    },
+    {
+      "tag": "UP_RETURN_0",
+      "net": "GND",
+      "expected_xy_mil": [
+        660,
+        730
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "ab043084eee6de7b"
+    },
+    {
+      "tag": "UP_RETURN_1",
+      "net": "GND",
+      "expected_xy_mil": [
+        520,
+        860
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "170646d820b6c217"
+    },
+    {
+      "tag": "NATIVE_RETURN_0",
+      "net": "GND",
+      "expected_xy_mil": [
+        790,
+        730
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "a93ffe22921c60a0"
+    },
+    {
+      "tag": "NATIVE_RETURN_1",
+      "net": "GND",
+      "expected_xy_mil": [
+        2400,
+        1298
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "7751afa9b96652c1"
+    },
+    {
+      "tag": "A_RETURN_0",
+      "net": "GND",
+      "expected_xy_mil": [
+        894,
+        700
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "2550afeb2875ad29"
+    },
+    {
+      "tag": "A_RETURN_1",
+      "net": "GND",
+      "expected_xy_mil": [
+        1646,
+        500
+      ],
+      "process_group": null,
+      "matched": true,
+      "native_id": "0b9d31afbfecae89"
+    },
+    {
+      "tag": "U2_EP_GND_1",
+      "net": "GND",
+      "expected_xy_mil": [
+        1833.74502,
+        928.24502
+      ],
+      "process_group": "VIPPO_EP",
+      "matched": true,
+      "native_id": "17077d66f911113b"
+    },
+    {
+      "tag": "U2_EP_GND_2",
+      "net": "GND",
+      "expected_xy_mil": [
+        1943.74502,
+        1038.24502
+      ],
+      "process_group": "VIPPO_EP",
+      "matched": true,
+      "native_id": "89573436f3d877d6"
+    },
+    {
+      "tag": "U3_EP_GND_1",
+      "net": "GND",
+      "expected_xy_mil": [
+        2341.57802,
+        392.77802
+      ],
+      "process_group": "VIPPO_EP",
+      "matched": true,
+      "native_id": "400bbe0a7d6d643b"
+    },
+    {
+      "tag": "U3_EP_GND_2",
+      "net": "GND",
+      "expected_xy_mil": [
+        2381.57802,
+        432.77802
+      ],
+      "process_group": "VIPPO_EP",
+      "matched": true,
+      "native_id": "42761d9427b0bc87"
+    },
+    {
+      "tag": "D1_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        418.6,
+        826.8
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "1cc57f974266a22e"
+    },
+    {
+      "tag": "D2_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2593.8,
+        1259.8
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "141421b490d729de"
+    },
+    {
+      "tag": "D3_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1574.8,
+        398.9
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "3953a112aa8dcee2"
+    },
+    {
+      "tag": "D4_3_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2718.88221,
+        1054.50963
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "3fa5e92405750492"
+    },
+    {
+      "tag": "D5_3_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2718.88221,
+        739.60963
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "4af9e08bb8177d5d"
+    },
+    {
+      "tag": "D6_3_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2522.08221,
+        345.90963
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "619a924c36594da5"
+    },
+    {
+      "tag": "D7_3_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        336.98221,
+        1093.90963
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "388bdf9aef67bc85"
+    },
+    {
+      "tag": "U1_8_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        586.4,
+        866.83332
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "6bab802e69dac2f1"
+    },
+    {
+      "tag": "U10_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1154.9,
+        137.8
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "b26173de43a06ff4"
+    },
+    {
+      "tag": "U2_18_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2024.2,
+        935.0
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "fb71dc2bf35364ca"
+    },
+    {
+      "tag": "U4_1_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1232.69037,
+        496.48221
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "ec4b3219c934ecfb"
+    },
+    {
+      "tag": "U4_3_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1363.6,
+        432.2
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "f841e7d59955d378"
+    },
+    {
+      "tag": "U4_4_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1445.6,
+        488.2
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "7a0dcf2f99e781ea"
+    },
+    {
+      "tag": "U5_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1141.7,
+        776.2
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "26077c13d5d64ec0"
+    },
+    {
+      "tag": "U6_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        919.9,
+        216.5
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "38e281607052b539"
+    },
+    {
+      "tag": "U7_3_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2185.48221,
+        737.60963
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "1719997b98183089"
+    },
+    {
+      "tag": "U8_3_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2185.48221,
+        934.40963
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "45969eaf5354faa9"
+    },
+    {
+      "tag": "U9_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2612.8,
+        1417.3
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "66a603977e80079f"
+    },
+    {
+      "tag": "C1_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        449.4,
+        618.1
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "a2dd82c561c981bb"
+    },
+    {
+      "tag": "C10_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1751.23703,
+        912.84724
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "ea36aeaa3830d394"
+    },
+    {
+      "tag": "C11_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1503.9,
+        849.8
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "78c1a7bc7bfe97e6"
+    },
+    {
+      "tag": "C12_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1827.3,
+        1267.7
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "82c43892b0f26668"
+    },
+    {
+      "tag": "C13_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2076.21749,
+        1302.47333
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "0947a7c39d3f1b83"
+    },
+    {
+      "tag": "C14_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1506.53048,
+        478.96748
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "c711430856cff109"
+    },
+    {
+      "tag": "C15_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2347.0,
+        551.2
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "61186ceb1543d949"
+    },
+    {
+      "tag": "C16_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2253.41749,
+        475.67333
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "398c8c91d2ea0248"
+    },
+    {
+      "tag": "C17_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2484.8,
+        551.2
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "83036479de6ae290"
+    },
+    {
+      "tag": "C18_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2189.5,
+        561.0
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "ffedf1ba0f96e03a"
+    },
+    {
+      "tag": "C2_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        370.6,
+        696.9
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "1a623f3b89437634"
+    },
+    {
+      "tag": "C20_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2713.2,
+        1484.3
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "737c14bb695d6380"
+    },
+    {
+      "tag": "C21_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1496.6,
+        362.2
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "f655dc3308036550"
+    },
+    {
+      "tag": "C22_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1110.2,
+        554.6
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "7cea14b531f220bc"
+    },
+    {
+      "tag": "C3_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1205.3,
+        267.7
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "356a05be288aded9"
+    },
+    {
+      "tag": "C4_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2583.2,
+        1535.4
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "bba81a5d2986be1b"
+    },
+    {
+      "tag": "C5_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        725.0,
+        244.1
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "eba18f0444094293"
+    },
+    {
+      "tag": "C6_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1205.3,
+        669.3
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "187daca51f930045"
+    },
+    {
+      "tag": "C7_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1195.4,
+        925.2
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "88fbf59872a66112"
+    },
+    {
+      "tag": "C8_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        1748.6,
+        1063.0
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "6d0d4e689cff83e2"
+    },
+    {
+      "tag": "C9_2_GND_V",
+      "net": "GND",
+      "expected_xy_mil": [
+        2140.3,
+        1114.2
+      ],
+      "process_group": "ORDINARY_TENTED",
+      "matched": true,
+      "native_id": "06f3599058edeb9b"
+    }
+  ],
+  "ground_stub_presence": [
+    {
+      "tag": "D1_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "D2_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "D3_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "D4_3_GND",
+      "passed": true
+    },
+    {
+      "tag": "D5_3_GND",
+      "passed": true
+    },
+    {
+      "tag": "D6_3_GND",
+      "passed": true
+    },
+    {
+      "tag": "D7_3_GND",
+      "passed": true
+    },
+    {
+      "tag": "U1_8_GND",
+      "passed": true
+    },
+    {
+      "tag": "U10_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "U2_18_GND",
+      "passed": true
+    },
+    {
+      "tag": "U2_28_GND",
+      "passed": true
+    },
+    {
+      "tag": "U2_28_GND",
+      "passed": true
+    },
+    {
+      "tag": "U2_8_GND",
+      "passed": true
+    },
+    {
+      "tag": "U2_8_GND",
+      "passed": true
+    },
+    {
+      "tag": "U3_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "U3_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "U4_1_GND",
+      "passed": true
+    },
+    {
+      "tag": "U4_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "U4_3_GND",
+      "passed": true
+    },
+    {
+      "tag": "U4_4_GND",
+      "passed": true
+    },
+    {
+      "tag": "U5_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "U6_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "U7_3_GND",
+      "passed": true
+    },
+    {
+      "tag": "U8_3_GND",
+      "passed": true
+    },
+    {
+      "tag": "U9_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C1_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C10_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C11_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C12_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C13_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C14_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C15_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C16_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C17_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C18_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C19_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C2_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C20_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C21_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C22_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C3_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C4_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C5_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C6_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C7_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C8_2_GND",
+      "passed": true
+    },
+    {
+      "tag": "C9_2_GND",
+      "passed": true
+    }
+  ],
+  "usb_clearance_violations": [],
+  "minimum_usb_foreign_copper_clearance": {
+    "usb": "6553a314856ad507",
+    "usb_net": "USB_NATIVE_DM",
+    "other": "6ee9091c1662c22f",
+    "other_net": "USB_NATIVE_DP",
+    "distance_mil": 5.999106948780838,
+    "distance_mm": 0.15237731649903327
+  },
+  "route_length_basis": "Approved route path lengths remain applicable only when native copper equivalence passes; centerline union lengths above are measured anew from native copper.",
+  "active_path_lengths_mm": null,
+  "required_skew_limit_mm": 0.254,
+  "passed": false,
+  "errors": [
+    {
+      "kind": "route_changed",
+      "net": "USB_A_DM",
+      "layer": 1,
+      "equivalent_within_mil": 0.11,
+      "passed": false,
+      "expected_line_primitives": 7,
+      "actual_line_primitives": 5,
+      "expected_centerline_union_mm": 13.589953882741911,
+      "actual_centerline_union_mm": 13.589812893825924
+    },
+    {
+      "kind": "route_changed",
+      "net": "USB_A_DP",
+      "layer": 1,
+      "equivalent_within_mil": 0.11,
+      "passed": false,
+      "expected_line_primitives": 9,
+      "actual_line_primitives": 7,
+      "expected_centerline_union_mm": 13.820218837115021,
+      "actual_centerline_union_mm": 13.820088312297694
+    }
+  ],
+  "notices": [
+    {
+      "catalog_dimension_fallbacks": [
+        "J1.A1B12",
+        "J1.B1A12",
+        "J1.B4A9",
+        "J1.A4B9"
+      ]
+    }
+  ],
+  "limits": "Conservative 2D outer copper/pad audit, not field-solver timing or general native DRC. Does not prove internal plane continuity, plating, filled/capped via processing, mask/paste/NPTH clearance, unexported arcs/polygons/pours, or USB signal/EMI/software compatibility. Approved route lengths include ideal1.6mm barrels; package/cable internal delays excluded."
+}

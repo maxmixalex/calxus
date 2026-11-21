@@ -1,0 +1,5004 @@
+{
+  "netlist": {
+    "version": "2.0.0",
+    "components": {
+      "gge3": {
+        "props": {
+          "Designator": "J1",
+          "Supplier Part": "C165948",
+          "Device": "f6177077576b7674",
+          "Footprint": "cac28bf5b833f4e8",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "GND"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          },
+          "4": {
+            "number": "4",
+            "net": "GND"
+          },
+          "A1B12": {
+            "number": "A1B12",
+            "net": "GND"
+          },
+          "A4B9": {
+            "number": "A4B9",
+            "net": "VBUS_IN"
+          },
+          "B8": {
+            "number": "B8",
+            "net": ""
+          },
+          "A5": {
+            "number": "A5",
+            "net": "CC1"
+          },
+          "B7": {
+            "number": "B7",
+            "net": "USB_UP_DM"
+          },
+          "A6": {
+            "number": "A6",
+            "net": "USB_UP_DP"
+          },
+          "A7": {
+            "number": "A7",
+            "net": "USB_UP_DM"
+          },
+          "B6": {
+            "number": "B6",
+            "net": "USB_UP_DP"
+          },
+          "A8": {
+            "number": "A8",
+            "net": ""
+          },
+          "B5": {
+            "number": "B5",
+            "net": "CC2"
+          },
+          "B4A9": {
+            "number": "B4A9",
+            "net": "VBUS_IN"
+          },
+          "B1A12": {
+            "number": "B1A12",
+            "net": "GND"
+          }
+        }
+      },
+      "gge20": {
+        "props": {
+          "Designator": "D1",
+          "Supplier Part": "C7519",
+          "Device": "32fb6a52fa272d77",
+          "Footprint": "530697620d4e8cf8",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "USB_UP_DP"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "USB_UP_DM"
+          },
+          "4": {
+            "number": "4",
+            "net": "USB_UP_DM"
+          },
+          "5": {
+            "number": "5",
+            "net": "VBUS_IN"
+          },
+          "6": {
+            "number": "6",
+            "net": "USB_UP_DP"
+          }
+        }
+      },
+      "gge33": {
+        "props": {
+          "Designator": "R1",
+          "Supplier Part": "C23186",
+          "Device": "6445fecf465d41de",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "CC1"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge62": {
+        "props": {
+          "Designator": "C1",
+          "Supplier Part": "C15849",
+          "Device": "3b56b304b3382631",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge26": {
+        "props": {
+          "Designator": "D7",
+          "Supplier Part": "C49338",
+          "Device": "6b3142ff9774213b",
+          "Footprint": "45828d6b764e01de",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "CC1"
+          },
+          "2": {
+            "number": "2",
+            "net": "CC2"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          }
+        }
+      },
+      "gge13": {
+        "props": {
+          "Designator": "U1",
+          "Supplier Part": "C86413",
+          "Device": "fa6e0436bb12e948",
+          "Footprint": "deb1ec2b048e80fc",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "MUX_EN_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "SEL1"
+          },
+          "3": {
+            "number": "3",
+            "net": "USB_UART_DP"
+          },
+          "4": {
+            "number": "4",
+            "net": "USB_SIL_DP"
+          },
+          "5": {
+            "number": "5",
+            "net": "USB_A_DP"
+          },
+          "6": {
+            "number": "6",
+            "net": "USB_NATIVE_DP"
+          },
+          "7": {
+            "number": "7",
+            "net": "USB_UP_DP"
+          },
+          "8": {
+            "number": "8",
+            "net": "GND"
+          },
+          "9": {
+            "number": "9",
+            "net": "USB_UP_DM"
+          },
+          "10": {
+            "number": "10",
+            "net": "USB_NATIVE_DM"
+          },
+          "11": {
+            "number": "11",
+            "net": "USB_A_DM"
+          },
+          "12": {
+            "number": "12",
+            "net": "USB_SIL_DM"
+          },
+          "13": {
+            "number": "13",
+            "net": "USB_UART_DM"
+          },
+          "14": {
+            "number": "14",
+            "net": "SEL0"
+          },
+          "15": {
+            "number": "15",
+            "net": ""
+          },
+          "16": {
+            "number": "16",
+            "net": "VBUS_IN"
+          }
+        }
+      },
+      "gge35": {
+        "props": {
+          "Designator": "R3",
+          "Supplier Part": "C25819",
+          "Device": "4cdfdb7bbb7cafac",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SEL1"
+          },
+          "2": {
+            "number": "2",
+            "net": "VBUS_IN"
+          }
+        }
+      },
+      "gge36": {
+        "props": {
+          "Designator": "R4",
+          "Supplier Part": "C25819",
+          "Device": "4cdfdb7bbb7cafac",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SEL0"
+          },
+          "2": {
+            "number": "2",
+            "net": "VBUS_IN"
+          }
+        }
+      },
+      "gge63": {
+        "props": {
+          "Designator": "C2",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge5": {
+        "props": {
+          "Designator": "J3",
+          "Supplier Part": "C65114",
+          "Device": "d1bfbbbc13dd3b1c",
+          "Footprint": "6e0dd955471072ad",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_NATIVE"
+          },
+          "2": {
+            "number": "2",
+            "net": "USB_NATIVE_DM"
+          },
+          "3": {
+            "number": "3",
+            "net": "USB_NATIVE_DP"
+          },
+          "4": {
+            "number": "4",
+            "net": ""
+          },
+          "5": {
+            "number": "5",
+            "net": "GND"
+          },
+          "6": {
+            "number": "6",
+            "net": "GND"
+          }
+        }
+      },
+      "gge21": {
+        "props": {
+          "Designator": "D2",
+          "Supplier Part": "C7519",
+          "Device": "32fb6a52fa272d77",
+          "Footprint": "530697620d4e8cf8",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "USB_NATIVE_DP"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "USB_NATIVE_DM"
+          },
+          "4": {
+            "number": "4",
+            "net": "USB_NATIVE_DM"
+          },
+          "5": {
+            "number": "5",
+            "net": "VBUS_NATIVE"
+          },
+          "6": {
+            "number": "6",
+            "net": "USB_NATIVE_DP"
+          }
+        }
+      },
+      "gge81": {
+        "props": {
+          "Designator": "C20",
+          "Supplier Part": "C15849",
+          "Device": "3b56b304b3382631",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_NATIVE"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge4": {
+        "props": {
+          "Designator": "J2",
+          "Supplier Part": "C718032",
+          "Device": "85f262a430955b34",
+          "Footprint": "c449c199fc618788",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_USBA"
+          },
+          "2": {
+            "number": "2",
+            "net": "USB_A_DM"
+          },
+          "3": {
+            "number": "3",
+            "net": "USB_A_DP"
+          },
+          "4": {
+            "number": "4",
+            "net": "GND"
+          },
+          "5": {
+            "number": "5",
+            "net": "GND"
+          }
+        }
+      },
+      "gge22": {
+        "props": {
+          "Designator": "D3",
+          "Supplier Part": "C7519",
+          "Device": "32fb6a52fa272d77",
+          "Footprint": "530697620d4e8cf8",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "USB_A_DP"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "USB_A_DM"
+          },
+          "4": {
+            "number": "4",
+            "net": "USB_A_DM"
+          },
+          "5": {
+            "number": "5",
+            "net": "VBUS_USBA"
+          },
+          "6": {
+            "number": "6",
+            "net": "USB_A_DP"
+          }
+        }
+      },
+      "gge82": {
+        "props": {
+          "Designator": "C21",
+          "Supplier Part": "C15849",
+          "Device": "3b56b304b3382631",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_USBA"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge85": {
+        "props": {
+          "Designator": "SW1",
+          "Supplier Part": "C255514",
+          "Device": "8818a332b4db1da2",
+          "Footprint": "f854460eb56e1bb5",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "NATIVE_EN_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "USBA_EN_N"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          },
+          "4": {
+            "number": "4",
+            "net": "SERIAL_EN_N"
+          },
+          "5": {
+            "number": "5",
+            "net": "SERIAL_EN_N"
+          },
+          "6": {
+            "number": "6",
+            "net": "MODE_NATIVE_N"
+          },
+          "7": {
+            "number": "7",
+            "net": "MODE_USBA_N"
+          },
+          "8": {
+            "number": "8",
+            "net": "GND"
+          },
+          "9": {
+            "number": "9",
+            "net": "MODE_SILVER_N"
+          },
+          "10": {
+            "number": "10",
+            "net": ""
+          }
+        }
+      },
+      "gge86": {
+        "props": {
+          "Designator": "D11",
+          "Supplier Part": "C134405",
+          "Device": "170e0390df780ae4",
+          "Footprint": "728c810dcc14c039",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SEL1"
+          },
+          "2": {
+            "number": "2",
+            "net": "SEL0"
+          },
+          "3": {
+            "number": "3",
+            "net": "MODE_NATIVE_N"
+          }
+        }
+      },
+      "gge87": {
+        "props": {
+          "Designator": "D12",
+          "Supplier Part": "C124205",
+          "Device": "19241da2dcc63f12",
+          "Footprint": "4392511bef64e9bc",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "MODE_USBA_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "SEL1"
+          }
+        }
+      },
+      "gge88": {
+        "props": {
+          "Designator": "D13",
+          "Supplier Part": "C124205",
+          "Device": "19241da2dcc63f12",
+          "Footprint": "4392511bef64e9bc",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "MODE_SILVER_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "SEL0"
+          }
+        }
+      },
+      "gge90": {
+        "props": {
+          "Designator": "D14",
+          "Supplier Part": "C134401",
+          "Device": "4f6fec69871806d5",
+          "Footprint": "728c810dcc14c039",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "NATIVE_EN_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "USBA_EN_N"
+          },
+          "3": {
+            "number": "3",
+            "net": "MUX_EN_N"
+          }
+        }
+      },
+      "gge89": {
+        "props": {
+          "Designator": "D15",
+          "Supplier Part": "C124205",
+          "Device": "19241da2dcc63f12",
+          "Footprint": "4392511bef64e9bc",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SERIAL_EN_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "MUX_EN_N"
+          }
+        }
+      },
+      "gge91": {
+        "props": {
+          "Designator": "R32",
+          "Supplier Part": "C25819",
+          "Device": "4cdfdb7bbb7cafac",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "NATIVE_EN_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "VBUS_IN"
+          }
+        }
+      },
+      "gge92": {
+        "props": {
+          "Designator": "R33",
+          "Supplier Part": "C25819",
+          "Device": "4cdfdb7bbb7cafac",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "USBA_EN_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "VBUS_IN"
+          }
+        }
+      },
+      "gge93": {
+        "props": {
+          "Designator": "R34",
+          "Supplier Part": "C25819",
+          "Device": "4cdfdb7bbb7cafac",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SERIAL_EN_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "VBUS_IN"
+          }
+        }
+      },
+      "gge94": {
+        "props": {
+          "Designator": "R35",
+          "Supplier Part": "C25819",
+          "Device": "4cdfdb7bbb7cafac",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "MUX_EN_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "VBUS_IN"
+          }
+        }
+      },
+      "gge19": {
+        "props": {
+          "Designator": "U9",
+          "Supplier Part": "C46506",
+          "Device": "2fa5903a95d8d604",
+          "Footprint": "9563025ebeb8350d",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "NATIVE_EN_N"
+          },
+          "4": {
+            "number": "4",
+            "net": "PWR_FAULT_N"
+          },
+          "5": {
+            "number": "5",
+            "net": "ILIM_NATIVE"
+          },
+          "6": {
+            "number": "6",
+            "net": "VBUS_NATIVE"
+          }
+        }
+      },
+      "gge95": {
+        "props": {
+          "Designator": "R36",
+          "Supplier Part": "C23198",
+          "Device": "5149ef3da38f435c",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "ILIM_NATIVE"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge64": {
+        "props": {
+          "Designator": "C3",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge84": {
+        "props": {
+          "Designator": "U10",
+          "Supplier Part": "C46506",
+          "Device": "2fa5903a95d8d604",
+          "Footprint": "9563025ebeb8350d",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "USBA_EN_N"
+          },
+          "4": {
+            "number": "4",
+            "net": "PWR_FAULT_N"
+          },
+          "5": {
+            "number": "5",
+            "net": "ILIM_USBA"
+          },
+          "6": {
+            "number": "6",
+            "net": "VBUS_USBA"
+          }
+        }
+      },
+      "gge96": {
+        "props": {
+          "Designator": "R37",
+          "Supplier Part": "C23198",
+          "Device": "5149ef3da38f435c",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "ILIM_USBA"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge65": {
+        "props": {
+          "Designator": "C4",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge16": {
+        "props": {
+          "Designator": "U6",
+          "Supplier Part": "C46506",
+          "Device": "2fa5903a95d8d604",
+          "Footprint": "9563025ebeb8350d",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "SERIAL_EN_N"
+          },
+          "4": {
+            "number": "4",
+            "net": "PWR_FAULT_N"
+          },
+          "5": {
+            "number": "5",
+            "net": "ILIM_SERIAL"
+          },
+          "6": {
+            "number": "6",
+            "net": "5V_SERIAL"
+          }
+        }
+      },
+      "gge38": {
+        "props": {
+          "Designator": "R6",
+          "Supplier Part": "C33619",
+          "Device": "769c34d60376afc7",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "ILIM_SERIAL"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge66": {
+        "props": {
+          "Designator": "C5",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge67": {
+        "props": {
+          "Designator": "C6",
+          "Supplier Part": "C23630",
+          "Device": "58eadc65214b97e8",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "5V_SERIAL"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge15": {
+        "props": {
+          "Designator": "U5",
+          "Supplier Part": "C51118",
+          "Device": "3a799d2df6f5cad4",
+          "Footprint": "57bd2d0bb70c0d5d",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "5V_SERIAL"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "5V_SERIAL"
+          },
+          "4": {
+            "number": "4",
+            "net": ""
+          },
+          "5": {
+            "number": "5",
+            "net": "3V3"
+          }
+        }
+      },
+      "gge68": {
+        "props": {
+          "Designator": "C7",
+          "Supplier Part": "C23630",
+          "Device": "58eadc65214b97e8",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge37": {
+        "props": {
+          "Designator": "R5",
+          "Supplier Part": "C25819",
+          "Device": "4cdfdb7bbb7cafac",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "PWR_FAULT_N"
+          },
+          "2": {
+            "number": "2",
+            "net": "VBUS_IN"
+          }
+        }
+      },
+      "gge83": {
+        "props": {
+          "Designator": "C22",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "VBUS_IN"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge34": {
+        "props": {
+          "Designator": "R2",
+          "Supplier Part": "C23186",
+          "Device": "6445fecf465d41de",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "CC2"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge98": {
+        "props": {
+          "Designator": "U2",
+          "Supplier Part": "C2679332",
+          "Device": "c5aee0da625beea2",
+          "Footprint": "6d6747048cb070d5",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_VREGEN"
+          },
+          "2": {
+            "number": "2",
+            "net": "SIL_SUSPEND"
+          },
+          "3": {
+            "number": "3",
+            "net": "3V3"
+          },
+          "4": {
+            "number": "4",
+            "net": "SIL_1V8"
+          },
+          "5": {
+            "number": "5",
+            "net": "SIL_PUR"
+          },
+          "6": {
+            "number": "6",
+            "net": "SIL_DP"
+          },
+          "7": {
+            "number": "7",
+            "net": "SIL_DM"
+          },
+          "8": {
+            "number": "8",
+            "net": "GND"
+          },
+          "9": {
+            "number": "9",
+            "net": "SIL_RESET"
+          },
+          "10": {
+            "number": "10",
+            "net": "SIL_SDA"
+          },
+          "11": {
+            "number": "11",
+            "net": "SIL_SCL"
+          },
+          "12": {
+            "number": "12",
+            "net": ""
+          },
+          "13": {
+            "number": "13",
+            "net": "3V3"
+          },
+          "14": {
+            "number": "14",
+            "net": "3V3"
+          },
+          "15": {
+            "number": "15",
+            "net": "3V3"
+          },
+          "16": {
+            "number": "16",
+            "net": "3V3"
+          },
+          "17": {
+            "number": "17",
+            "net": "SIL_SIN"
+          },
+          "18": {
+            "number": "18",
+            "net": "GND"
+          },
+          "19": {
+            "number": "19",
+            "net": ""
+          },
+          "20": {
+            "number": "20",
+            "net": ""
+          },
+          "21": {
+            "number": "21",
+            "net": ""
+          },
+          "22": {
+            "number": "22",
+            "net": ""
+          },
+          "23": {
+            "number": "23",
+            "net": "SIL_TEST0"
+          },
+          "24": {
+            "number": "24",
+            "net": "SIL_TEST1"
+          },
+          "25": {
+            "number": "25",
+            "net": "3V3"
+          },
+          "26": {
+            "number": "26",
+            "net": "SIL_X2"
+          },
+          "27": {
+            "number": "27",
+            "net": "SIL_X1"
+          },
+          "28": {
+            "number": "28",
+            "net": "GND"
+          },
+          "29": {
+            "number": "29",
+            "net": "TI_GPIO_RING"
+          },
+          "30": {
+            "number": "30",
+            "net": "TI_GPIO_TIP"
+          },
+          "31": {
+            "number": "31",
+            "net": "TP_GPIO31"
+          },
+          "32": {
+            "number": "32",
+            "net": "TP_GPIO30"
+          },
+          "33": {
+            "number": "33",
+            "net": "GND"
+          }
+        }
+      },
+      "gge39": {
+        "props": {
+          "Designator": "R7",
+          "Supplier Part": "C23345",
+          "Device": "06e5900e3efbae87",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "USB_SIL_DP"
+          },
+          "2": {
+            "number": "2",
+            "net": "SIL_DP"
+          }
+        }
+      },
+      "gge40": {
+        "props": {
+          "Designator": "R8",
+          "Supplier Part": "C23345",
+          "Device": "06e5900e3efbae87",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "USB_SIL_DM"
+          },
+          "2": {
+            "number": "2",
+            "net": "SIL_DM"
+          }
+        }
+      },
+      "gge41": {
+        "props": {
+          "Designator": "R9",
+          "Supplier Part": "C22843",
+          "Device": "9109ebb155353c9b",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_PUR"
+          },
+          "2": {
+            "number": "2",
+            "net": "USB_SIL_DP"
+          }
+        }
+      },
+      "gge69": {
+        "props": {
+          "Designator": "C8",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge70": {
+        "props": {
+          "Designator": "C9",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge71": {
+        "props": {
+          "Designator": "C10",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_1V8"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge46": {
+        "props": {
+          "Designator": "R14",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_TEST0"
+          },
+          "2": {
+            "number": "2",
+            "net": "3V3"
+          }
+        }
+      },
+      "gge47": {
+        "props": {
+          "Designator": "R15",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_TEST1"
+          },
+          "2": {
+            "number": "2",
+            "net": "3V3"
+          }
+        }
+      },
+      "gge48": {
+        "props": {
+          "Designator": "R16",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_SIN"
+          },
+          "2": {
+            "number": "2",
+            "net": "3V3"
+          }
+        }
+      },
+      "gge44": {
+        "props": {
+          "Designator": "R12",
+          "Supplier Part": "C23129",
+          "Device": "79242eea3620bee6",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "SIL_1V8"
+          }
+        }
+      },
+      "gge45": {
+        "props": {
+          "Designator": "R13",
+          "Supplier Part": "C25803",
+          "Device": "06d1f3406e40cbbe",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_1V8"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge14": {
+        "props": {
+          "Designator": "U4",
+          "Supplier Part": "C511260",
+          "Device": "375b2c49defae22c",
+          "Footprint": "af151a54a7427fbe",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "GND"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          },
+          "4": {
+            "number": "4",
+            "net": "GND"
+          },
+          "5": {
+            "number": "5",
+            "net": "EE_SDA"
+          },
+          "6": {
+            "number": "6",
+            "net": "EE_SCL"
+          },
+          "7": {
+            "number": "7",
+            "net": "EE_WP"
+          },
+          "8": {
+            "number": "8",
+            "net": "EE_VCC"
+          }
+        }
+      },
+      "gge10": {
+        "props": {
+          "Designator": "J8",
+          "Supplier Part": "C65114",
+          "Device": "d1bfbbbc13dd3b1c",
+          "Footprint": "6e0dd955471072ad",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "EE_VCC"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "EE_SCL"
+          },
+          "4": {
+            "number": "4",
+            "net": "EE_SDA"
+          },
+          "5": {
+            "number": "5",
+            "net": "EE_WP"
+          },
+          "6": {
+            "number": "6",
+            "net": "SIL_RESET"
+          }
+        }
+      },
+      "gge11": {
+        "props": {
+          "Designator": "J9",
+          "Supplier Part": "C3338413",
+          "Device": "b325c3c31cfcaae9",
+          "Footprint": "07f3395a6ac8002a",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_SCL"
+          },
+          "2": {
+            "number": "2",
+            "net": "EE_SCL"
+          }
+        }
+      },
+      "gge12": {
+        "props": {
+          "Designator": "J10",
+          "Supplier Part": "C3338413",
+          "Device": "b325c3c31cfcaae9",
+          "Footprint": "07f3395a6ac8002a",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "EE_WP"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge55": {
+        "props": {
+          "Designator": "R23",
+          "Supplier Part": "C21189",
+          "Device": "c322adc3561748ab",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_SDA"
+          },
+          "2": {
+            "number": "2",
+            "net": "EE_SDA"
+          }
+        }
+      },
+      "gge56": {
+        "props": {
+          "Designator": "R25",
+          "Supplier Part": "C21189",
+          "Device": "c322adc3561748ab",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "EE_VCC"
+          }
+        }
+      },
+      "gge53": {
+        "props": {
+          "Designator": "R21",
+          "Supplier Part": "C23162",
+          "Device": "066915c5f35e90c3",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "EE_SDA"
+          },
+          "2": {
+            "number": "2",
+            "net": "EE_VCC"
+          }
+        }
+      },
+      "gge54": {
+        "props": {
+          "Designator": "R22",
+          "Supplier Part": "C23162",
+          "Device": "066915c5f35e90c3",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "EE_SCL"
+          },
+          "2": {
+            "number": "2",
+            "net": "EE_VCC"
+          }
+        }
+      },
+      "gge57": {
+        "props": {
+          "Designator": "R27",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "EE_WP"
+          },
+          "2": {
+            "number": "2",
+            "net": "EE_VCC"
+          }
+        }
+      },
+      "gge75": {
+        "props": {
+          "Designator": "C14",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "EE_VCC"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge31": {
+        "props": {
+          "Designator": "D10",
+          "Supplier Part": "C124205",
+          "Device": "19241da2dcc63f12",
+          "Footprint": "4392511bef64e9bc",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_SUSPEND"
+          },
+          "2": {
+            "number": "2",
+            "net": "SIL_VREGEN"
+          }
+        }
+      },
+      "gge42": {
+        "props": {
+          "Designator": "R10",
+          "Supplier Part": "C22809",
+          "Device": "45135e59bedc54a0",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "SIL_RESET"
+          }
+        }
+      },
+      "gge43": {
+        "props": {
+          "Designator": "R11",
+          "Supplier Part": "C13187",
+          "Device": "a35e96802c6ed4cc",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_RESET"
+          },
+          "2": {
+            "number": "2",
+            "net": "SIL_VREGEN"
+          }
+        }
+      },
+      "gge72": {
+        "props": {
+          "Designator": "C11",
+          "Supplier Part": "C15849",
+          "Device": "3b56b304b3382631",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_RESET"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge32": {
+        "props": {
+          "Designator": "Y2",
+          "Supplier Part": "C6071564",
+          "Device": "2b13796fc32764e1",
+          "Footprint": "e9acbd05bd74d2e7",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_X1"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "SIL_X2"
+          },
+          "4": {
+            "number": "4",
+            "net": "GND"
+          }
+        }
+      },
+      "gge73": {
+        "props": {
+          "Designator": "C12",
+          "Supplier Part": "C1663",
+          "Device": "f98eb804451dac63",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_X1"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge74": {
+        "props": {
+          "Designator": "C13",
+          "Supplier Part": "C1663",
+          "Device": "f98eb804451dac63",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "SIL_X2"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge27": {
+        "props": {
+          "Designator": "Q1",
+          "Supplier Part": "C94514",
+          "Device": "f1ad00a1687d4a3b",
+          "Footprint": "728c810dcc14c039",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "TI_BASE_TIP"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_GPIO_TIP"
+          },
+          "3": {
+            "number": "3",
+            "net": "TI_TIP"
+          }
+        }
+      },
+      "gge29": {
+        "props": {
+          "Designator": "D8",
+          "Supplier Part": "C124205",
+          "Device": "19241da2dcc63f12",
+          "Footprint": "4392511bef64e9bc",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "TI_TIP"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_GPIO_TIP"
+          }
+        }
+      },
+      "gge28": {
+        "props": {
+          "Designator": "Q2",
+          "Supplier Part": "C94514",
+          "Device": "f1ad00a1687d4a3b",
+          "Footprint": "728c810dcc14c039",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "TI_BASE_RING"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_GPIO_RING"
+          },
+          "3": {
+            "number": "3",
+            "net": "TI_RING"
+          }
+        }
+      },
+      "gge30": {
+        "props": {
+          "Designator": "D9",
+          "Supplier Part": "C124205",
+          "Device": "19241da2dcc63f12",
+          "Footprint": "4392511bef64e9bc",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "TI_RING"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_GPIO_RING"
+          }
+        }
+      },
+      "gge49": {
+        "props": {
+          "Designator": "R17",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_GPIO_TIP"
+          }
+        }
+      },
+      "gge50": {
+        "props": {
+          "Designator": "R18",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_GPIO_RING"
+          }
+        }
+      },
+      "gge51": {
+        "props": {
+          "Designator": "R19",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_BASE_TIP"
+          }
+        }
+      },
+      "gge52": {
+        "props": {
+          "Designator": "R20",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_BASE_RING"
+          }
+        }
+      },
+      "gge6": {
+        "props": {
+          "Designator": "J4",
+          "Supplier Part": "C131339",
+          "Device": "37cf493ef55a4cb8",
+          "Footprint": "a5ca3bdd9ed9af36",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "TI_TIP"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_RING"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          }
+        }
+      },
+      "gge23": {
+        "props": {
+          "Designator": "D4",
+          "Supplier Part": "C49338",
+          "Device": "6b3142ff9774213b",
+          "Footprint": "45828d6b764e01de",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "TI_TIP"
+          },
+          "2": {
+            "number": "2",
+            "net": "TI_RING"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          }
+        }
+      },
+      "gge99": {
+        "props": {
+          "Designator": "U3",
+          "Supplier Part": "C2846043",
+          "Device": "9a1c3e0f4fc112b1",
+          "Footprint": "c020f55e3a184cd3",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          },
+          "3": {
+            "number": "3",
+            "net": "5V_SERIAL"
+          },
+          "4": {
+            "number": "4",
+            "net": "UART_TX"
+          },
+          "5": {
+            "number": "5",
+            "net": "UART_RX"
+          },
+          "6": {
+            "number": "6",
+            "net": "UART_V3"
+          },
+          "7": {
+            "number": "7",
+            "net": "USB_UART_DP"
+          },
+          "8": {
+            "number": "8",
+            "net": "USB_UART_DM"
+          },
+          "9": {
+            "number": "9",
+            "net": "5V_SERIAL"
+          },
+          "10": {
+            "number": "10",
+            "net": ""
+          },
+          "11": {
+            "number": "11",
+            "net": ""
+          },
+          "12": {
+            "number": "12",
+            "net": ""
+          },
+          "13": {
+            "number": "13",
+            "net": ""
+          },
+          "14": {
+            "number": "14",
+            "net": ""
+          },
+          "15": {
+            "number": "15",
+            "net": ""
+          },
+          "16": {
+            "number": "16",
+            "net": ""
+          },
+          "17": {
+            "number": "17",
+            "net": "GND"
+          }
+        }
+      },
+      "gge76": {
+        "props": {
+          "Designator": "C15",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "5V_SERIAL"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge77": {
+        "props": {
+          "Designator": "C16",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "UART_V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge78": {
+        "props": {
+          "Designator": "C17",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge17": {
+        "props": {
+          "Designator": "U7",
+          "Supplier Part": "C7829",
+          "Device": "99f7bf1b088d9128",
+          "Footprint": "c0db3e517a4ef62d",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": ""
+          },
+          "2": {
+            "number": "2",
+            "net": "UART_TX"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          },
+          "4": {
+            "number": "4",
+            "net": "UART_TX_OD"
+          },
+          "5": {
+            "number": "5",
+            "net": "3V3"
+          }
+        }
+      },
+      "gge59": {
+        "props": {
+          "Designator": "R29",
+          "Supplier Part": "C21190",
+          "Device": "6e3542e80dc580de",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "UART_TX_OD"
+          },
+          "2": {
+            "number": "2",
+            "net": "UART_TX_EXT"
+          }
+        }
+      },
+      "gge58": {
+        "props": {
+          "Designator": "R28",
+          "Supplier Part": "C25804",
+          "Device": "6f5d4f51c804c92a",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "UART_TX_OD"
+          },
+          "2": {
+            "number": "2",
+            "net": "UART_PULLUP"
+          }
+        }
+      },
+      "gge18": {
+        "props": {
+          "Designator": "U8",
+          "Supplier Part": "C7836",
+          "Device": "76a6c83b7522bae8",
+          "Footprint": "c0db3e517a4ef62d",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": ""
+          },
+          "2": {
+            "number": "2",
+            "net": "UART_RX_FILTER"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          },
+          "4": {
+            "number": "4",
+            "net": "UART_RX"
+          },
+          "5": {
+            "number": "5",
+            "net": "3V3"
+          }
+        }
+      },
+      "gge60": {
+        "props": {
+          "Designator": "R30",
+          "Supplier Part": "C21190",
+          "Device": "6e3542e80dc580de",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "UART_RX_EXT"
+          },
+          "2": {
+            "number": "2",
+            "net": "UART_RX_FILTER"
+          }
+        }
+      },
+      "gge61": {
+        "props": {
+          "Designator": "R31",
+          "Supplier Part": "C25819",
+          "Device": "4cdfdb7bbb7cafac",
+          "Footprint": "6457585b9757dfff",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "UART_RX_FILTER"
+          },
+          "2": {
+            "number": "2",
+            "net": "UART_PULLUP"
+          }
+        }
+      },
+      "gge97": {
+        "props": {
+          "Designator": "D16",
+          "Supplier Part": "C124205",
+          "Device": "19241da2dcc63f12",
+          "Footprint": "4392511bef64e9bc",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "UART_PULLUP"
+          },
+          "2": {
+            "number": "2",
+            "net": "3V3"
+          }
+        }
+      },
+      "gge79": {
+        "props": {
+          "Designator": "C18",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge80": {
+        "props": {
+          "Designator": "C19",
+          "Supplier Part": "C14663",
+          "Device": "d92bdabbafdef723",
+          "Footprint": "a4e80cc9a4acb257",
+          "Name": "={Value}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "3V3"
+          },
+          "2": {
+            "number": "2",
+            "net": "GND"
+          }
+        }
+      },
+      "gge7": {
+        "props": {
+          "Designator": "J5",
+          "Supplier Part": "C131339",
+          "Device": "37cf493ef55a4cb8",
+          "Footprint": "a5ca3bdd9ed9af36",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "CASIO_RX"
+          },
+          "2": {
+            "number": "2",
+            "net": "CASIO_TX"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          }
+        }
+      },
+      "gge24": {
+        "props": {
+          "Designator": "D5",
+          "Supplier Part": "C49338",
+          "Device": "6b3142ff9774213b",
+          "Footprint": "45828d6b764e01de",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "CASIO_RX"
+          },
+          "2": {
+            "number": "2",
+            "net": "CASIO_TX"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          }
+        }
+      },
+      "gge9": {
+        "props": {
+          "Designator": "J7",
+          "Supplier Part": "C65114",
+          "Device": "d1bfbbbc13dd3b1c",
+          "Footprint": "6e0dd955471072ad",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "CASIO_RX"
+          },
+          "2": {
+            "number": "2",
+            "net": "CASIO_TX"
+          },
+          "3": {
+            "number": "3",
+            "net": "UART_RX_EXT"
+          },
+          "4": {
+            "number": "4",
+            "net": "UART_TX_EXT"
+          },
+          "5": {
+            "number": "5",
+            "net": "AUX_RX"
+          },
+          "6": {
+            "number": "6",
+            "net": "AUX_TX"
+          }
+        }
+      },
+      "gge8": {
+        "props": {
+          "Designator": "J6",
+          "Supplier Part": "C131334",
+          "Device": "161ed48f6ad027d9",
+          "Footprint": "75d127277a0cc5ef",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "GND"
+          },
+          "2": {
+            "number": "2",
+            "net": "AUX_RX"
+          },
+          "3": {
+            "number": "3",
+            "net": "AUX_TX"
+          },
+          "4": {
+            "number": "4",
+            "net": ""
+          }
+        }
+      },
+      "gge25": {
+        "props": {
+          "Designator": "D6",
+          "Supplier Part": "C49338",
+          "Device": "6b3142ff9774213b",
+          "Footprint": "45828d6b764e01de",
+          "Name": "={Manufacturer Part}"
+        },
+        "pinInfoMap": {
+          "1": {
+            "number": "1",
+            "net": "AUX_RX"
+          },
+          "2": {
+            "number": "2",
+            "net": "AUX_TX"
+          },
+          "3": {
+            "number": "3",
+            "net": "GND"
+          }
+        }
+      }
+    }
+  },
+  "report": {
+    "checkedAt": "2026-11-21T10:10:59.544Z",
+    "scope": "Live document readback. Filesystem persistence and post-reload equivalence must be verified independently.",
+    "saveRequested": true,
+    "components": 97,
+    "pins": 344,
+    "sourcePositions": [
+      {
+        "ref": "J1",
+        "primitiveId": "0c145850f86cb25b",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 290,
+          "y": 1270,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 290,
+          "y": 1270,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D1",
+        "primitiveId": "f5d78981fa124c26",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 540,
+          "y": 1270,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 540,
+          "y": 1270,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D7",
+        "primitiveId": "ab8b1916d7331e2a",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 300,
+          "y": 1060,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 300,
+          "y": 1060,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R1",
+        "primitiveId": "5676cdf828a987ab",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 220,
+          "y": 980,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 220,
+          "y": 980,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R2",
+        "primitiveId": "0c43f4a411b371cf",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 450,
+          "y": 980,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 450,
+          "y": 980,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C1",
+        "primitiveId": "6e86872ac41149aa",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 560,
+          "y": 1100,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 560,
+          "y": 1100,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U1",
+        "primitiveId": "1b3b0832235186d7",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1120,
+          "y": 1220,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1120,
+          "y": 1220,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R3",
+        "primitiveId": "8648d5830117b09c",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 930,
+          "y": 1390,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 930,
+          "y": 1390,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R4",
+        "primitiveId": "c0d13c4c9ad7ce8f",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1310,
+          "y": 1390,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1310,
+          "y": 1390,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C2",
+        "primitiveId": "a7bf8a1a151d838d",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1120,
+          "y": 1470,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1120,
+          "y": 1470,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J3",
+        "primitiveId": "65107b1e5df903a6",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1690,
+          "y": 1340,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1690,
+          "y": 1340,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D2",
+        "primitiveId": "f4714202c682dbe4",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1900,
+          "y": 1340,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1900,
+          "y": 1340,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C20",
+        "primitiveId": "fb558706804d3e68",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 2150,
+          "y": 1340,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 2150,
+          "y": 1340,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J2",
+        "primitiveId": "464d839cd4909c9e",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1690,
+          "y": 1080,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1690,
+          "y": 1080,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D3",
+        "primitiveId": "33cc416e182ffe8a",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1900,
+          "y": 1080,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1900,
+          "y": 1080,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C21",
+        "primitiveId": "9e2c0231d392dc63",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 2150,
+          "y": 1080,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 2150,
+          "y": 1080,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "SW1",
+        "primitiveId": "33fbceeca2d73086",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 290,
+          "y": 660,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 290,
+          "y": 660,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D11",
+        "primitiveId": "08055bc72ee9c9d8",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 550,
+          "y": 760,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 550,
+          "y": 760,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D12",
+        "primitiveId": "26a99a4e4468a8b0",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 550,
+          "y": 630,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 550,
+          "y": 630,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D13",
+        "primitiveId": "b5014d9a53bace09",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 550,
+          "y": 510,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 550,
+          "y": 510,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D14",
+        "primitiveId": "394bb70f7fc33885",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 850,
+          "y": 660,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 850,
+          "y": 660,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D15",
+        "primitiveId": "6bb9b13cf549cb8f",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 850,
+          "y": 510,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 850,
+          "y": 510,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R32",
+        "primitiveId": "e61b8b4b0c8aadd1",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 180,
+          "y": 430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 180,
+          "y": 430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R33",
+        "primitiveId": "5bdd9d3c45f932f6",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 380,
+          "y": 430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 380,
+          "y": 430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R34",
+        "primitiveId": "a7481433260b67ab",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 600,
+          "y": 410,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 600,
+          "y": 410,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R35",
+        "primitiveId": "c52e8ed0058f5af6",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1000,
+          "y": 430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1000,
+          "y": 430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U9",
+        "primitiveId": "329914c16c0e1b36",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1390,
+          "y": 700,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1390,
+          "y": 700,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R36",
+        "primitiveId": "997c7183f4da359f",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1580,
+          "y": 670,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1580,
+          "y": 670,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C3",
+        "primitiveId": "c0b699824ab99ee6",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1250,
+          "y": 770,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1250,
+          "y": 770,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U10",
+        "primitiveId": "814e8bd78151fbe9",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1870,
+          "y": 700,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1870,
+          "y": 700,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R37",
+        "primitiveId": "2c94601c44424d1e",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 2070,
+          "y": 670,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 2070,
+          "y": 670,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C4",
+        "primitiveId": "805b91940649b2ee",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1730,
+          "y": 770,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1730,
+          "y": 770,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U6",
+        "primitiveId": "0a99278f88bc2fb9",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1390,
+          "y": 500,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1390,
+          "y": 500,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R6",
+        "primitiveId": "529b5f4fc8fd94c8",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1580,
+          "y": 470,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1580,
+          "y": 470,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C5",
+        "primitiveId": "edbd8a051b045762",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1250,
+          "y": 570,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1250,
+          "y": 570,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C6",
+        "primitiveId": "8f1853313241c447",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1660,
+          "y": 550,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1660,
+          "y": 550,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U5",
+        "primitiveId": "ce102efe70ccaa65",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1960,
+          "y": 500,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1960,
+          "y": 500,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C7",
+        "primitiveId": "3d0b053396053a6a",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 2160,
+          "y": 550,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 2160,
+          "y": 550,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R5",
+        "primitiveId": "255573a18108e930",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1360,
+          "y": 390,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1360,
+          "y": 390,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C22",
+        "primitiveId": "c73f9ddeaac4cce4",
+        "page": "01_USB_Power",
+        "expected": {
+          "x": 1770,
+          "y": 390,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1770,
+          "y": 390,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U2",
+        "primitiveId": "7c83643c1fec2352",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 700,
+          "y": 1200,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 700,
+          "y": 1200,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R7",
+        "primitiveId": "19c2e056235a30df",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 440,
+          "y": 1260,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 440,
+          "y": 1260,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R8",
+        "primitiveId": "1f2cd23bac464d5f",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 440,
+          "y": 1190,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 440,
+          "y": 1190,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R9",
+        "primitiveId": "21a4a91f1cf14184",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 440,
+          "y": 1360,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 440,
+          "y": 1360,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C8",
+        "primitiveId": "ddef142660c574ec",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 940,
+          "y": 1370,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 940,
+          "y": 1370,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C9",
+        "primitiveId": "c2969bb3266389eb",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 940,
+          "y": 1300,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 940,
+          "y": 1300,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C10",
+        "primitiveId": "415d50cb6a0956e5",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 440,
+          "y": 1100,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 440,
+          "y": 1100,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R14",
+        "primitiveId": "5754bf81fa958769",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 940,
+          "y": 1100,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 940,
+          "y": 1100,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R15",
+        "primitiveId": "1b553306675513d0",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 940,
+          "y": 1030,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 940,
+          "y": 1030,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R16",
+        "primitiveId": "47686c82d2aa7703",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 940,
+          "y": 1170,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 940,
+          "y": 1170,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R12",
+        "primitiveId": "5cfb339fdcb61f4c",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 250,
+          "y": 1040,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 250,
+          "y": 1040,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R13",
+        "primitiveId": "bc6f355154fe998b",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 250,
+          "y": 970,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 250,
+          "y": 970,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U4",
+        "primitiveId": "027c752cb7d5676d",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1610,
+          "y": 1200,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1610,
+          "y": 1200,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J8",
+        "primitiveId": "657c12414592c7b4",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 2050,
+          "y": 1240,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 2050,
+          "y": 1240,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J9",
+        "primitiveId": "e7270382037968fd",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1310,
+          "y": 1140,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1310,
+          "y": 1140,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J10",
+        "primitiveId": "bd8d8fc04150ef75",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1940,
+          "y": 1040,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1940,
+          "y": 1040,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R23",
+        "primitiveId": "0eecce80a21afc62",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1320,
+          "y": 1260,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1320,
+          "y": 1260,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R25",
+        "primitiveId": "885e0f405da832ea",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1320,
+          "y": 1380,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1320,
+          "y": 1380,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R21",
+        "primitiveId": "57f7a99891298d39",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1800,
+          "y": 1390,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1800,
+          "y": 1390,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R22",
+        "primitiveId": "c0d7f90144836ced",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1800,
+          "y": 1300,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1800,
+          "y": 1300,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R27",
+        "primitiveId": "348952e0b8606522",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1800,
+          "y": 1130,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1800,
+          "y": 1130,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C14",
+        "primitiveId": "1a4cc1a574e09b43",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 2050,
+          "y": 1430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 2050,
+          "y": 1430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D10",
+        "primitiveId": "a7653578c0d003cd",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 480,
+          "y": 640,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 480,
+          "y": 640,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R10",
+        "primitiveId": "7c70d88e74f07058",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 220,
+          "y": 730,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 220,
+          "y": 730,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R11",
+        "primitiveId": "212b135acd25b5a4",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 450,
+          "y": 730,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 450,
+          "y": 730,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C11",
+        "primitiveId": "c835c1f11e102022",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 220,
+          "y": 560,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 220,
+          "y": 560,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "Y2",
+        "primitiveId": "666de069fbde7a49",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1090,
+          "y": 650,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1090,
+          "y": 650,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C12",
+        "primitiveId": "4225a217011620c4",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 930,
+          "y": 530,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 930,
+          "y": 530,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C13",
+        "primitiveId": "041f5ec7bcf6d649",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1250,
+          "y": 530,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1250,
+          "y": 530,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "Q1",
+        "primitiveId": "9493818f0b75f8f2",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1730,
+          "y": 700,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1730,
+          "y": 700,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D8",
+        "primitiveId": "43721daddef7981a",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1870,
+          "y": 710,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1870,
+          "y": 710,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "Q2",
+        "primitiveId": "2d0bbc637f87b9ec",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1730,
+          "y": 500,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1730,
+          "y": 500,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D9",
+        "primitiveId": "95d28b355bd4688d",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1870,
+          "y": 510,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1870,
+          "y": 510,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R17",
+        "primitiveId": "2d6f589f298b6ff2",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1550,
+          "y": 640,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1550,
+          "y": 640,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R18",
+        "primitiveId": "501fd1e1dfe0f536",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1550,
+          "y": 430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1550,
+          "y": 430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R19",
+        "primitiveId": "a51672bfe2cbdefa",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1580,
+          "y": 770,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1580,
+          "y": 770,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R20",
+        "primitiveId": "14c21b7b5db41197",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 1580,
+          "y": 560,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1580,
+          "y": 560,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J4",
+        "primitiveId": "1fadbfec09785af4",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 2150,
+          "y": 620,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 2150,
+          "y": 620,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D4",
+        "primitiveId": "51427484fc1d4f2f",
+        "page": "02_TI_SilverLink",
+        "expected": {
+          "x": 2010,
+          "y": 430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 2010,
+          "y": 430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U3",
+        "primitiveId": "c0af1726e5c3b756",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 460,
+          "y": 1230,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 460,
+          "y": 1230,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C15",
+        "primitiveId": "f4748c4f293d0837",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 240,
+          "y": 1390,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 240,
+          "y": 1390,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C16",
+        "primitiveId": "6d85e26d39ffa608",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 240,
+          "y": 1100,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 240,
+          "y": 1100,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C17",
+        "primitiveId": "515c8a46ea7f8249",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 240,
+          "y": 1470,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 240,
+          "y": 1470,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U7",
+        "primitiveId": "d1742f8240b5f502",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1230,
+          "y": 1320,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1230,
+          "y": 1320,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R29",
+        "primitiveId": "ea743a516a63cbda",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1520,
+          "y": 1320,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1520,
+          "y": 1320,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R28",
+        "primitiveId": "49d523b340715b2e",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1450,
+          "y": 1430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1450,
+          "y": 1430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "U8",
+        "primitiveId": "104e5792a6ba5d70",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1230,
+          "y": 1050,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1230,
+          "y": 1050,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R30",
+        "primitiveId": "defa5b445197cf09",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1510,
+          "y": 1060,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1510,
+          "y": 1060,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "R31",
+        "primitiveId": "cc009f22e689d77b",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1700,
+          "y": 1160,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1700,
+          "y": 1160,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D16",
+        "primitiveId": "b86c6af49e33e123",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1840,
+          "y": 1430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1840,
+          "y": 1430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C18",
+        "primitiveId": "3785faea33d67740",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1070,
+          "y": 1430,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1070,
+          "y": 1430,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "C19",
+        "primitiveId": "18d8071349ee0c44",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1070,
+          "y": 1180,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1070,
+          "y": 1180,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J5",
+        "primitiveId": "db485dc60e4f3835",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 590,
+          "y": 600,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 590,
+          "y": 600,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D5",
+        "primitiveId": "217c324a3288e090",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 330,
+          "y": 600,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 330,
+          "y": 600,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J7",
+        "primitiveId": "c42e9b24d8c3a98d",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1060,
+          "y": 630,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1060,
+          "y": 630,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "J6",
+        "primitiveId": "718c1a84e6d62a60",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1680,
+          "y": 600,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1680,
+          "y": 600,
+          "rotation": 0
+        },
+        "pass": true
+      },
+      {
+        "ref": "D6",
+        "primitiveId": "46266bb8d543d280",
+        "page": "03_UART_Adapters",
+        "expected": {
+          "x": 1960,
+          "y": 600,
+          "rotation": 0
+        },
+        "actual": {
+          "x": 1960,
+          "y": 600,
+          "rotation": 0
+        },
+        "pass": true
+      }
+    ],
+    "nc": [
+      {
+        "ref": "J1",
+        "pin": "B8",
+        "page": "01_USB_Power",
+        "componentId": "0c145850f86cb25b",
+        "pinId": "0c145850f86cb25b-e12",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "J1",
+        "pin": "A8",
+        "page": "01_USB_Power",
+        "componentId": "0c145850f86cb25b",
+        "pinId": "0c145850f86cb25b-e36",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "J3",
+        "pin": "4",
+        "page": "01_USB_Power",
+        "componentId": "65107b1e5df903a6",
+        "pinId": "65107b1e5df903a6-e16",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U1",
+        "pin": "15",
+        "page": "01_USB_Power",
+        "componentId": "1b3b0832235186d7",
+        "pinId": "1b3b0832235186d7-e62",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U5",
+        "pin": "4",
+        "page": "01_USB_Power",
+        "componentId": "ce102efe70ccaa65",
+        "pinId": "ce102efe70ccaa65-e17",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "SW1",
+        "pin": "10",
+        "page": "01_USB_Power",
+        "componentId": "33fbceeca2d73086",
+        "pinId": "33fbceeca2d73086-e75",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U2",
+        "pin": "12",
+        "page": "02_TI_SilverLink",
+        "componentId": "7c83643c1fec2352",
+        "pinId": "7c83643c1fec2352-e49",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U2",
+        "pin": "19",
+        "page": "02_TI_SilverLink",
+        "componentId": "7c83643c1fec2352",
+        "pinId": "7c83643c1fec2352-e77",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U2",
+        "pin": "20",
+        "page": "02_TI_SilverLink",
+        "componentId": "7c83643c1fec2352",
+        "pinId": "7c83643c1fec2352-e81",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U2",
+        "pin": "21",
+        "page": "02_TI_SilverLink",
+        "componentId": "7c83643c1fec2352",
+        "pinId": "7c83643c1fec2352-e85",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U2",
+        "pin": "22",
+        "page": "02_TI_SilverLink",
+        "componentId": "7c83643c1fec2352",
+        "pinId": "7c83643c1fec2352-e89",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "J6",
+        "pin": "4",
+        "page": "03_UART_Adapters",
+        "componentId": "718c1a84e6d62a60",
+        "pinId": "718c1a84e6d62a60-e16",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U3",
+        "pin": "10",
+        "page": "03_UART_Adapters",
+        "componentId": "c0af1726e5c3b756",
+        "pinId": "c0af1726e5c3b756-e41",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U3",
+        "pin": "11",
+        "page": "03_UART_Adapters",
+        "componentId": "c0af1726e5c3b756",
+        "pinId": "c0af1726e5c3b756-e45",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U3",
+        "pin": "12",
+        "page": "03_UART_Adapters",
+        "componentId": "c0af1726e5c3b756",
+        "pinId": "c0af1726e5c3b756-e49",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U3",
+        "pin": "13",
+        "page": "03_UART_Adapters",
+        "componentId": "c0af1726e5c3b756",
+        "pinId": "c0af1726e5c3b756-e53",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U3",
+        "pin": "14",
+        "page": "03_UART_Adapters",
+        "componentId": "c0af1726e5c3b756",
+        "pinId": "c0af1726e5c3b756-e57",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U3",
+        "pin": "15",
+        "page": "03_UART_Adapters",
+        "componentId": "c0af1726e5c3b756",
+        "pinId": "c0af1726e5c3b756-e61",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U3",
+        "pin": "16",
+        "page": "03_UART_Adapters",
+        "componentId": "c0af1726e5c3b756",
+        "pinId": "c0af1726e5c3b756-e65",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U7",
+        "pin": "1",
+        "page": "03_UART_Adapters",
+        "componentId": "d1742f8240b5f502",
+        "pinId": "d1742f8240b5f502-e28",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      },
+      {
+        "ref": "U8",
+        "pin": "1",
+        "page": "03_UART_Adapters",
+        "componentId": "104e5792a6ba5d70",
+        "pinId": "104e5792a6ba5d70-e5",
+        "apiNoConnected": true,
+        "sourceValue": "yes"
+      }
+    ],
+    "metadata": [
+      {
+        "ref": "J1",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C165948",
+        "expectedSupplierPart": "C165948"
+      },
+      {
+        "ref": "J2",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C718032",
+        "expectedSupplierPart": "C718032"
+      },
+      {
+        "ref": "J3",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C65114",
+        "expectedSupplierPart": "C65114"
+      },
+      {
+        "ref": "J4",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C131339",
+        "expectedSupplierPart": "C131339"
+      },
+      {
+        "ref": "J5",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C131339",
+        "expectedSupplierPart": "C131339"
+      },
+      {
+        "ref": "J6",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C131334",
+        "expectedSupplierPart": "C131334"
+      },
+      {
+        "ref": "J7",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C65114",
+        "expectedSupplierPart": "C65114"
+      },
+      {
+        "ref": "J8",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C65114",
+        "expectedSupplierPart": "C65114"
+      },
+      {
+        "ref": "J9",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C3338413",
+        "expectedSupplierPart": "C3338413"
+      },
+      {
+        "ref": "J10",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C3338413",
+        "expectedSupplierPart": "C3338413"
+      },
+      {
+        "ref": "U1",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C86413",
+        "expectedSupplierPart": "C86413"
+      },
+      {
+        "ref": "U2",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C2679332",
+        "expectedSupplierPart": "C2679332"
+      },
+      {
+        "ref": "U3",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C2846043",
+        "expectedSupplierPart": "C2846043"
+      },
+      {
+        "ref": "U4",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C511260",
+        "expectedSupplierPart": "C511260"
+      },
+      {
+        "ref": "U5",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C51118",
+        "expectedSupplierPart": "C51118"
+      },
+      {
+        "ref": "U6",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C46506",
+        "expectedSupplierPart": "C46506"
+      },
+      {
+        "ref": "U7",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C7829",
+        "expectedSupplierPart": "C7829"
+      },
+      {
+        "ref": "U8",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C7836",
+        "expectedSupplierPart": "C7836"
+      },
+      {
+        "ref": "U9",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C46506",
+        "expectedSupplierPart": "C46506"
+      },
+      {
+        "ref": "D1",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C7519",
+        "expectedSupplierPart": "C7519"
+      },
+      {
+        "ref": "D2",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C7519",
+        "expectedSupplierPart": "C7519"
+      },
+      {
+        "ref": "D3",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C7519",
+        "expectedSupplierPart": "C7519"
+      },
+      {
+        "ref": "D4",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C49338",
+        "expectedSupplierPart": "C49338"
+      },
+      {
+        "ref": "D5",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C49338",
+        "expectedSupplierPart": "C49338"
+      },
+      {
+        "ref": "D6",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C49338",
+        "expectedSupplierPart": "C49338"
+      },
+      {
+        "ref": "D7",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C49338",
+        "expectedSupplierPart": "C49338"
+      },
+      {
+        "ref": "Q1",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C94514",
+        "expectedSupplierPart": "C94514"
+      },
+      {
+        "ref": "Q2",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C94514",
+        "expectedSupplierPart": "C94514"
+      },
+      {
+        "ref": "D8",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C124205",
+        "expectedSupplierPart": "C124205"
+      },
+      {
+        "ref": "D9",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C124205",
+        "expectedSupplierPart": "C124205"
+      },
+      {
+        "ref": "D10",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C124205",
+        "expectedSupplierPart": "C124205"
+      },
+      {
+        "ref": "Y2",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C6071564",
+        "expectedSupplierPart": "C6071564"
+      },
+      {
+        "ref": "R1",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23186",
+        "expectedSupplierPart": "C23186"
+      },
+      {
+        "ref": "R2",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23186",
+        "expectedSupplierPart": "C23186"
+      },
+      {
+        "ref": "R3",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25819",
+        "expectedSupplierPart": "C25819"
+      },
+      {
+        "ref": "R4",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25819",
+        "expectedSupplierPart": "C25819"
+      },
+      {
+        "ref": "R5",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25819",
+        "expectedSupplierPart": "C25819"
+      },
+      {
+        "ref": "R6",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C33619",
+        "expectedSupplierPart": "C33619"
+      },
+      {
+        "ref": "R7",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23345",
+        "expectedSupplierPart": "C23345"
+      },
+      {
+        "ref": "R8",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23345",
+        "expectedSupplierPart": "C23345"
+      },
+      {
+        "ref": "R9",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C22843",
+        "expectedSupplierPart": "C22843"
+      },
+      {
+        "ref": "R10",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C22809",
+        "expectedSupplierPart": "C22809"
+      },
+      {
+        "ref": "R11",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C13187",
+        "expectedSupplierPart": "C13187"
+      },
+      {
+        "ref": "R12",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23129",
+        "expectedSupplierPart": "C23129"
+      },
+      {
+        "ref": "R13",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25803",
+        "expectedSupplierPart": "C25803"
+      },
+      {
+        "ref": "R14",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R15",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R16",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R17",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R18",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R19",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R20",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R21",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23162",
+        "expectedSupplierPart": "C23162"
+      },
+      {
+        "ref": "R22",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23162",
+        "expectedSupplierPart": "C23162"
+      },
+      {
+        "ref": "R23",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C21189",
+        "expectedSupplierPart": "C21189"
+      },
+      {
+        "ref": "R25",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C21189",
+        "expectedSupplierPart": "C21189"
+      },
+      {
+        "ref": "R27",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R28",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25804",
+        "expectedSupplierPart": "C25804"
+      },
+      {
+        "ref": "R29",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C21190",
+        "expectedSupplierPart": "C21190"
+      },
+      {
+        "ref": "R30",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C21190",
+        "expectedSupplierPart": "C21190"
+      },
+      {
+        "ref": "R31",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25819",
+        "expectedSupplierPart": "C25819"
+      },
+      {
+        "ref": "C1",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C15849",
+        "expectedSupplierPart": "C15849"
+      },
+      {
+        "ref": "C2",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C3",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C4",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C5",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C6",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23630",
+        "expectedSupplierPart": "C23630"
+      },
+      {
+        "ref": "C7",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23630",
+        "expectedSupplierPart": "C23630"
+      },
+      {
+        "ref": "C8",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C9",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C10",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C11",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C15849",
+        "expectedSupplierPart": "C15849"
+      },
+      {
+        "ref": "C12",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C1663",
+        "expectedSupplierPart": "C1663"
+      },
+      {
+        "ref": "C13",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C1663",
+        "expectedSupplierPart": "C1663"
+      },
+      {
+        "ref": "C14",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C15",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C16",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C17",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C18",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C19",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "C20",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C15849",
+        "expectedSupplierPart": "C15849"
+      },
+      {
+        "ref": "C21",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C15849",
+        "expectedSupplierPart": "C15849"
+      },
+      {
+        "ref": "C22",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C14663",
+        "expectedSupplierPart": "C14663"
+      },
+      {
+        "ref": "U10",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C46506",
+        "expectedSupplierPart": "C46506"
+      },
+      {
+        "ref": "SW1",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C255514",
+        "expectedSupplierPart": "C255514"
+      },
+      {
+        "ref": "D11",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C134405",
+        "expectedSupplierPart": "C134405"
+      },
+      {
+        "ref": "D12",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C124205",
+        "expectedSupplierPart": "C124205"
+      },
+      {
+        "ref": "D13",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C124205",
+        "expectedSupplierPart": "C124205"
+      },
+      {
+        "ref": "D15",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C124205",
+        "expectedSupplierPart": "C124205"
+      },
+      {
+        "ref": "D14",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C134401",
+        "expectedSupplierPart": "C134401"
+      },
+      {
+        "ref": "R32",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25819",
+        "expectedSupplierPart": "C25819"
+      },
+      {
+        "ref": "R33",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25819",
+        "expectedSupplierPart": "C25819"
+      },
+      {
+        "ref": "R34",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25819",
+        "expectedSupplierPart": "C25819"
+      },
+      {
+        "ref": "R35",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C25819",
+        "expectedSupplierPart": "C25819"
+      },
+      {
+        "ref": "R36",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23198",
+        "expectedSupplierPart": "C23198"
+      },
+      {
+        "ref": "R37",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C23198",
+        "expectedSupplierPart": "C23198"
+      },
+      {
+        "ref": "D16",
+        "found": true,
+        "devicePresent": true,
+        "footprintPresent": true,
+        "supplierPart": "C124205",
+        "expectedSupplierPart": "C124205"
+      }
+    ],
+    "drc": [
+      {
+        "type": "warn",
+        "rule": "SHOWDANDLING",
+        "primitives": [
+          {
+            "primitiveId": "fc8b4885d7aec730",
+            "sheet": "35c8fed936c1c8a9",
+            "name": "$2N147"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "SHOWDANDLING",
+        "primitives": [
+          {
+            "primitiveId": "84967908cef7dd7d",
+            "sheet": "35c8fed936c1c8a9",
+            "name": "$2N146"
+          }
+        ]
+      }
+    ]
+  }
+}

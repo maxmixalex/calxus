@@ -1,0 +1,150 @@
+{
+  "jobId": "job-mcp-ae204909-6cec-496a-8883-ed8829061d8e",
+  "completedAt": "2026-11-21T12:48:17.137Z",
+  "drcFile": {
+    "file": "D:/Works/Calc/Calxus/engineering/native-final-drc-and-ratlines.json",
+    "bytes": 189389
+  },
+  "sourceFile": {
+    "file": "D:/Works/Calc/Calxus/engineering/pcb-final-native.epcb2",
+    "bytes": 805971
+  },
+  "manifestFile": {
+    "file": "D:/Works/Calc/Calxus/engineering/native-final-route-via-manifest.json",
+    "bytes": 92836
+  },
+  "allViasFile": {
+    "file": "D:/Works/Calc/Calxus/engineering/native-final-all-vias.json",
+    "bytes": 76988
+  },
+  "nativeSaved": true,
+  "state": "failed",
+  "totalCount": 4,
+  "failedItems": 0,
+  "violations": [
+    {
+      "ruleName": "differentialPair",
+      "errorType": "Differential Pair Error",
+      "layerIds": [],
+      "position": {
+        "x": 447.81397499999997,
+        "y": 717.93255
+      },
+      "obj1": "",
+      "obj1Type": "",
+      "explanation": "differentialPair",
+      "globalIndex": "err3"
+    },
+    {
+      "ruleName": "differentialPair",
+      "errorType": "Differential Pair Error",
+      "layerIds": [],
+      "position": {
+        "x": 1215.2534999999998,
+        "y": 718.032625
+      },
+      "obj1": "",
+      "obj1Type": "",
+      "explanation": "differentialPair",
+      "globalIndex": "err4"
+    },
+    {
+      "ruleName": "differentialPair",
+      "errorType": "Differential Pair Error",
+      "layerIds": [],
+      "position": {
+        "x": 1542.401525,
+        "y": 593.455675
+      },
+      "obj1": "",
+      "obj1Type": "",
+      "explanation": "differentialPair",
+      "globalIndex": "err5"
+    },
+    {
+      "ruleName": "",
+      "errorType": "Netlist Error",
+      "layerIds": [],
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "obj1": "",
+      "obj1Type": "",
+      "explanation": "",
+      "globalIndex": "err6"
+    }
+  ],
+  "groups": [
+    {
+      "name": "Clearance Error",
+      "count": 0
+    },
+    {
+      "name": "Clearance Error in the same footprint",
+      "count": 0
+    },
+    {
+      "name": "Physical Error",
+      "count": 0
+    },
+    {
+      "name": "Differential Pair Error",
+      "count": 1
+    },
+    {
+      "name": "Connection Error",
+      "count": 0
+    },
+    {
+      "name": "Netlist Error",
+      "count": 1
+    },
+    {
+      "name": "Creepage Error",
+      "count": 0
+    }
+  ],
+  "ratlines": {
+    "items": [],
+    "hasMore": false,
+    "total": 0
+  },
+  "nativeNetLengths": [
+    {
+      "base": "USB_UP",
+      "positive": 680.207735,
+      "negative": 718.351675,
+      "difference": -38.14394000000004,
+      "units": "mil"
+    },
+    {
+      "base": "USB_A",
+      "positive": 1404.491901,
+      "negative": 1395.42594,
+      "difference": 9.065961000000016,
+      "units": "mil"
+    },
+    {
+      "base": "USB_NATIVE",
+      "positive": 2544.849813,
+      "negative": 2544.868033,
+      "difference": -0.018220000000383152,
+      "units": "mil"
+    },
+    {
+      "base": "USB_SIL",
+      "positive": 1059.311349,
+      "negative": 1036.553234,
+      "difference": 22.75811500000009,
+      "units": "mil"
+    },
+    {
+      "base": "USB_UART",
+      "positive": 1980.12582,
+      "negative": 1994.572481,
+      "difference": -14.44666099999995,
+      "units": "mil"
+    }
+  ]
+}

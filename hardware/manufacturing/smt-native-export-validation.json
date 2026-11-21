@@ -1,0 +1,1000 @@
+{
+  "pass": true,
+  "scope": "Native BOM/CPL subset and identity/rotation/side comparison; no assembly-machine orientation approval or hardware testing",
+  "smt_count": 87,
+  "bom_rows": 34,
+  "cpl_rows": 87,
+  "class_counts": {
+    "Basic Part": 52,
+    "Extended Part": 35
+  },
+  "excluded_refs": [
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "J6",
+    "J7",
+    "J8",
+    "J9",
+    "J10",
+    "SW1"
+  ],
+  "component_checks": [
+    {
+      "ref": "C1",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        10.5,
+        15
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C2",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        8.5,
+        17
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C3",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        29,
+        6.8
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C4",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        64,
+        39
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C5",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        17.5,
+        5.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C6",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        29,
+        17
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C7",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        28.75,
+        23.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C8",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        43.5,
+        26.3
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C9",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        52.75,
+        28.3
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C10",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        43.5,
+        22.75
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C11",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        37.5,
+        22.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C12",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        45.5,
+        31.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C13",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        52.5,
+        31.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C15",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        58,
+        14
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C16",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        57,
+        10.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C17",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        61.5,
+        14
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C18",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        54,
+        14.25
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C19",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        54,
+        24.85
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C20",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        68,
+        37
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C21",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        36.4,
+        9.2
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C22",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        27.5,
+        15
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D1",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        10.5,
+        21
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D2",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        65.75,
+        32
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D4",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        70,
+        26
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D5",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        70,
+        18
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D6",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        65,
+        8
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D7",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        9.5,
+        27
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D8",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        66.25,
+        27
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D9",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        69.3,
+        28.8
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D10",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        37.5,
+        28
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D11",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        13.75,
+        27.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D12",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        17.75,
+        27.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D13",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        21.5,
+        27.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D14",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        25.25,
+        27.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D15",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        28.25,
+        27.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D16",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        54,
+        12
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "J1",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 270,
+      "mid_mm": [
+        4.22,
+        21
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "Q1",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        62,
+        27.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "Q2",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        61.75,
+        31.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R1",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        5.5,
+        29
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R2",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        5.5,
+        32.25
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R3",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        13,
+        10
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R4",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        16.25,
+        10
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R5",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        28,
+        10
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R6",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        25,
+        5.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R7",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        43,
+        20
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R8",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        43,
+        18
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R9",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        39.75,
+        19.4
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R10",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        37.5,
+        24.8
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R11",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        37.5,
+        31
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R12",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        42,
+        29
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R13",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        42,
+        30.85
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R14",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        45.5,
+        18.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R15",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        47.5,
+        18.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R16",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        51,
+        16.75
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R17",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        56.5,
+        27
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R18",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        56.5,
+        32.2
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R19",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        56.5,
+        29.6
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R20",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        56.5,
+        34.8
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R21",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        30.25,
+        14.25
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R22",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        38.5,
+        15.75
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R23",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        33,
+        20
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R25",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        33,
+        10.25
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R27",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        36.25,
+        20
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R28",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        58,
+        16.75
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R29",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        58,
+        20
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R30",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        58,
+        23.25
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R31",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        59,
+        27.25
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R32",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        9,
+        10
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R33",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        22,
+        10
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R34",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        24.75,
+        11.75
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R35",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        19,
+        10
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R36",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        60,
+        36.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "R37",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 90,
+      "mid_mm": [
+        25,
+        2.25
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U1",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 180,
+      "mid_mm": [
+        20,
+        18
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U2",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 270,
+      "mid_mm": [
+        48,
+        25
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U3",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 180,
+      "mid_mm": [
+        60,
+        10.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U4",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        34,
+        15
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U5",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        29,
+        20
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U6",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        21,
+        5.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U7",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        54,
+        17
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U8",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        54,
+        22
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U9",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        64,
+        36
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "U10",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        29,
+        3.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "Y2",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        49,
+        31.5
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "D3",
+      "class": "Extended Part",
+      "side": "Top",
+      "rotation": 180,
+      "mid_mm": [
+        40,
+        10
+      ],
+      "native_reference_origin_checked": true
+    },
+    {
+      "ref": "C14",
+      "class": "Basic Part",
+      "side": "Top",
+      "rotation": 0,
+      "mid_mm": [
+        38.5,
+        13.1
+      ],
+      "native_reference_origin_checked": true
+    }
+  ],
+  "source_sha256": {
+    "bom": "46912ad1eb42d465093542c900bc8bde77a533767b1ed8650b0d717756dfdb4a",
+    "cpl": "ff840f64f2bac5c2a4db303cc8c716953bff370108ac58dcad72826577b5ee2e",
+    "pcb": "da9d14f958f43746d9f70491825962401937b291bbfd6b3c5a129b491a7596f7",
+    "design": "0877a26f484a80654b146c332041a5291ad61c37b861dc38caf7ec7c4f77a43d",
+    "native_metadata": "36ade1d050b0625e87dc6ebff99b28831e57133041cb0860fc85a2a79c836301"
+  },
+  "native_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "centroid_rule": "Native Mid X/Y retained; converted only from declared unit to mm. Ref X/Y never substituted.",
+  "archive_role": "Fresh final native project export; fresh native BOM/CPL exported in the same saved PCB session",
+  "native_bom_cpl_regenerated": true,
+  "source_refresh_method": "Fresh native BOM with filter[] and CPL in mm; independently select87 SMT and compare saved final source poses/device/footprint metadata; preserve native Mid coordinates and Rotation",
+  "source_preservation_report": "../../validation/native-final-smt-source-preservation.json",
+  "source_preservation_report_sha256": "c30286dd8f257cd65f2ddb6d282c6b42a8dd85be83659730d7451b09840caee5",
+  "native_export_file_names": [
+    "Calxus_RevA_final_BOM_native.tsv",
+    "Calxus_RevA_final_CPL_native.tsv"
+  ]
+}

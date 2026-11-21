@@ -1,0 +1,370 @@
+{
+  "revision": "R1.2-ADJUSTABLE-PROTOTYPE",
+  "generator": "CadQuery 2.7.0",
+  "scope": "Geometric validation only. No physical print, cable pull, thermal, EMI, or electrical test performed.",
+  "solids": {
+    "calxus_base": {
+      "brep_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 11987.2763,
+      "bounds_mm": [
+        -3.0,
+        -3.0,
+        -4.5,
+        83.0,
+        45.0,
+        6.5
+      ],
+      "step_roundtrip_valid": true,
+      "step_roundtrip_volume_delta_mm3": 0.0,
+      "stl_artifact": "calxus_base_print.stl",
+      "stl_coordinate_system": "print orientation, minimum Z=0",
+      "stl": {
+        "triangles": 10468,
+        "vertices_welded": 5236,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 11987.1574,
+        "watertight_two_manifold": true
+      }
+    },
+    "calxus_lid": {
+      "brep_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12045.9737,
+      "bounds_mm": [
+        -3.0,
+        -3.0,
+        1.75,
+        83.0,
+        45.0,
+        14.5
+      ],
+      "step_roundtrip_valid": true,
+      "step_roundtrip_volume_delta_mm3": 0.0,
+      "stl_artifact": "calxus_lid_print.stl",
+      "stl_coordinate_system": "print orientation, minimum Z=0",
+      "stl": {
+        "triangles": 34946,
+        "vertices_welded": 17465,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 12045.6669,
+        "watertight_two_manifold": true
+      }
+    },
+    "calxus_comb_lower_tpu": {
+      "brep_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 914.2356,
+      "bounds_mm": [
+        79.2,
+        4.8,
+        1.7,
+        96.5,
+        39.2,
+        5.2
+      ],
+      "step_roundtrip_valid": true,
+      "step_roundtrip_volume_delta_mm3": 0.0,
+      "stl_artifact": "calxus_comb_lower_tpu_print.stl",
+      "stl_coordinate_system": "print orientation, minimum Z=0",
+      "stl": {
+        "triangles": 6848,
+        "vertices_welded": 3426,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 913.6879,
+        "watertight_two_manifold": true
+      }
+    },
+    "calxus_comb_upper_tpu": {
+      "brep_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 914.2356,
+      "bounds_mm": [
+        79.2,
+        4.8,
+        5.2,
+        96.5,
+        39.2,
+        8.7
+      ],
+      "step_roundtrip_valid": true,
+      "step_roundtrip_volume_delta_mm3": 0.0,
+      "stl_artifact": "calxus_comb_upper_tpu_print.stl",
+      "stl_coordinate_system": "print orientation, minimum Z=0",
+      "stl": {
+        "triangles": 6848,
+        "vertices_welded": 3426,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 913.6879,
+        "watertight_two_manifold": true
+      }
+    },
+    "calxus_slider_fork": {
+      "brep_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 230.572,
+      "bounds_mm": [
+        15.5,
+        26.9,
+        3.1,
+        24.5,
+        34.9,
+        12.2
+      ],
+      "step_roundtrip_valid": true,
+      "step_roundtrip_volume_delta_mm3": 0.0,
+      "stl_artifact": "calxus_slider_fork_print.stl",
+      "stl_coordinate_system": "print orientation, minimum Z=0",
+      "stl": {
+        "triangles": 1372,
+        "vertices_welded": 688,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 230.5775,
+        "watertight_two_manifold": true
+      }
+    },
+    "calxus_slider_thumb": {
+      "brep_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 85.3931,
+      "bounds_mm": [
+        16.5,
+        27.9,
+        12.2,
+        23.5,
+        33.9,
+        17.4
+      ],
+      "step_roundtrip_valid": true,
+      "step_roundtrip_volume_delta_mm3": 0.0,
+      "stl_artifact": "calxus_slider_thumb_print.stl",
+      "stl_coordinate_system": "print orientation, minimum Z=0",
+      "stl": {
+        "triangles": 1968,
+        "vertices_welded": 984,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 85.3996,
+        "watertight_two_manifold": true
+      }
+    },
+    "calxus_fit_coupon": {
+      "brep_valid": true,
+      "solid_count": 1,
+      "volume_mm3": 2781.8627,
+      "bounds_mm": [
+        -0.0,
+        -0.0,
+        -0.0004,
+        48.0,
+        16.0,
+        3.8305
+      ],
+      "step_roundtrip_valid": true,
+      "step_roundtrip_volume_delta_mm3": 0.0,
+      "stl_artifact": "calxus_fit_coupon.stl",
+      "stl_coordinate_system": "print orientation, minimum Z=0",
+      "stl": {
+        "triangles": 33226,
+        "vertices_welded": 16611,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "signed_volume_mm3": 2781.8941,
+        "watertight_two_manifold": true
+      }
+    }
+  },
+  "pair_intersections_mm3": {
+    "calxus_base__calxus_lid": 0.0,
+    "calxus_base__calxus_comb_lower_tpu": 0.0,
+    "calxus_base__calxus_comb_upper_tpu": 0.0,
+    "calxus_lid__calxus_comb_lower_tpu": 0.0,
+    "calxus_lid__calxus_comb_upper_tpu": 0.0,
+    "calxus_comb_lower_tpu__calxus_comb_upper_tpu": 0.0,
+    "calxus_base__pcb": 0.0,
+    "calxus_lid__pcb": 0.0,
+    "calxus_comb_lower_tpu__pcb": 0.0,
+    "calxus_comb_upper_tpu__pcb": 0.0,
+    "calxus_slider_fork__pcb": 0.0,
+    "calxus_slider_thumb__pcb": 0.0,
+    "calxus_base__USB_C_UPSTREAM": 0.0,
+    "calxus_lid__USB_C_UPSTREAM": 0.0,
+    "calxus_base__USB_A_DOWNSTREAM_4": 0.0,
+    "calxus_lid__USB_A_DOWNSTREAM_4": 0.0
+  },
+  "clearances_mm": {
+    "pcb_underside_to_floor": 0.7,
+    "top_components_to_roof": 2.3000000000000007,
+    "pcb_capture_vertical": 0.15,
+    "tongue_socket_lateral": 0.25,
+    "tongue_socket_vertical": 0.25,
+    "screw_tip_to_pocket_bottom": 0.2
+  },
+  "intentional_fits": [
+    "M2 brass insert OD3.2 vs polymer pilot3.0 is a heat-set interference fit.",
+    "TPU cable bores are 0.20 mm below nominal jacket diameter; actual grip requires testing.",
+    "Smooth screw reference cylinders omit threads."
+  ],
+  "selector_positions": {
+    "-3.0": {
+      "0_lid": 0.0,
+      "0_base": 0.0,
+      "0_pcb": 0.0,
+      "0_switch_body": 0.0,
+      "0_actuator": 0.0,
+      "1_lid": 0.0,
+      "1_base": 0.0,
+      "1_pcb": 0.0,
+      "1_switch_body": 0.0,
+      "1_actuator": 0.0,
+      "fork_thumb": 0.0
+    },
+    "-1.0": {
+      "0_lid": 0.0,
+      "0_base": 0.0,
+      "0_pcb": 0.0,
+      "0_switch_body": 0.0,
+      "0_actuator": 0.0,
+      "1_lid": 0.0,
+      "1_base": 0.0,
+      "1_pcb": 0.0,
+      "1_switch_body": 0.0,
+      "1_actuator": 0.0,
+      "fork_thumb": 0.0
+    },
+    "1.0": {
+      "0_lid": 0.0,
+      "0_base": 0.0,
+      "0_pcb": 0.0,
+      "0_switch_body": 0.0,
+      "0_actuator": 0.0,
+      "1_lid": 0.0,
+      "1_base": 0.0,
+      "1_pcb": 0.0,
+      "1_switch_body": 0.0,
+      "1_actuator": 0.0,
+      "fork_thumb": 0.0
+    },
+    "3.0": {
+      "0_lid": 0.0,
+      "0_base": 0.0,
+      "0_pcb": 0.0,
+      "0_switch_body": 0.0,
+      "0_actuator": 0.0,
+      "1_lid": 0.0,
+      "1_base": 0.0,
+      "1_pcb": 0.0,
+      "1_switch_body": 0.0,
+      "1_actuator": 0.0,
+      "fork_thumb": 0.0
+    }
+  },
+  "cable_grip_geometry": {
+    "channels": {
+      "AUX_KEYED_3WIRE": {
+        "nominal_jacket_od_mm": 3.0,
+        "specified_bore_mm": 2.8,
+        "measured_brep_bores_mm": {
+          "lower": [
+            2.8
+          ],
+          "upper": [
+            2.8
+          ]
+        },
+        "bore_matches": true,
+        "nominal_diametral_compression_mm": 0.2,
+        "nominal_neck_ligament_above_below_bore_mm": 1.7,
+        "boot_root_od_mm": 6.2,
+        "boot_tip_od_mm": 4.4,
+        "nominal_boot_tip_wall_mm": 0.8
+      },
+      "CASIO_2P5": {
+        "nominal_jacket_od_mm": 3.8,
+        "specified_bore_mm": 3.6,
+        "measured_brep_bores_mm": {
+          "lower": [
+            3.6
+          ],
+          "upper": [
+            3.6
+          ]
+        },
+        "bore_matches": true,
+        "nominal_diametral_compression_mm": 0.2,
+        "nominal_neck_ligament_above_below_bore_mm": 1.3,
+        "boot_root_od_mm": 7.0,
+        "boot_tip_od_mm": 5.2,
+        "nominal_boot_tip_wall_mm": 0.8
+      },
+      "TI_2P5": {
+        "nominal_jacket_od_mm": 3.8,
+        "specified_bore_mm": 3.6,
+        "measured_brep_bores_mm": {
+          "lower": [
+            3.6
+          ],
+          "upper": [
+            3.6
+          ]
+        },
+        "bore_matches": true,
+        "nominal_diametral_compression_mm": 0.2,
+        "nominal_neck_ligament_above_below_bore_mm": 1.3,
+        "boot_root_od_mm": 7.0,
+        "boot_tip_od_mm": 5.2,
+        "nominal_boot_tip_wall_mm": 0.8
+      },
+      "USB_MINI_B": {
+        "nominal_jacket_od_mm": 3.8,
+        "specified_bore_mm": 3.6,
+        "measured_brep_bores_mm": {
+          "lower": [
+            3.6
+          ],
+          "upper": [
+            3.6
+          ]
+        },
+        "bore_matches": true,
+        "nominal_diametral_compression_mm": 0.2,
+        "nominal_neck_ligament_above_below_bore_mm": 1.3,
+        "boot_root_od_mm": 7.0,
+        "boot_tip_od_mm": 5.2,
+        "nominal_boot_tip_wall_mm": 0.8
+      }
+    },
+    "adjacent_boot_clearances_mm": [
+      {
+        "between": [
+          "AUX_KEYED_3WIRE",
+          "CASIO_2P5"
+        ],
+        "root_gap": 1.4,
+        "gap_with_reference_heatshrink_at_x86": 1.025
+      },
+      {
+        "between": [
+          "CASIO_2P5",
+          "TI_2P5"
+        ],
+        "root_gap": 1.0,
+        "gap_with_reference_heatshrink_at_x86": 0.625
+      },
+      {
+        "between": [
+          "TI_2P5",
+          "USB_MINI_B"
+        ],
+        "root_gap": 1.0,
+        "gap_with_reference_heatshrink_at_x86": 0.625
+      }
+    ]
+  },
+  "all_required_checks_pass": true
+}

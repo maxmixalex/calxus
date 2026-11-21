@@ -1,0 +1,49 @@
+{
+  "schema": "calxus.cad-release-portability.v1",
+  "scope": "Release-input and clean-copy loading audit only; no repeated mechanical simulation or regeneration.",
+  "required_file_count": 108,
+  "mechanical_release_file_count": 95,
+  "cross_directory_inputs": [
+    "hardware/native/Calxus_RevA_candidate.epro2",
+    "hardware/native/Calxus_RevA_final.epro2",
+    "hardware/electrical/calxus_design_input.json",
+    "tools/check_native_project_archive.py",
+    "validation/native-candidate-tht-drill-expectations.json",
+    "validation/native-candidate-nonpad-hole-expectations.json",
+    "validation/native-candidate-via-drill-expectations.json",
+    "validation/native-final-tht-drill-expectations.json",
+    "validation/native-final-nonpad-hole-expectations.json",
+    "validation/native-final-via-drill-expectations.json",
+    "hardware/manufacturing/Calxus_RevA_Gerber.zip",
+    "validation/native-final-gerber/gerber-validation.json",
+    "validation/native-final-gerber/outline-corners.json"
+  ],
+  "missing_inputs": [],
+  "ignored_inputs": [],
+  "absolute_workspace_dependencies": [],
+  "checkout_eol_normalization_disabled_for_all_required_inputs": true,
+  "isolated_copy_check": {
+    "relative_root_resolved": true,
+    "candidate_components": 97,
+    "drill_features": 247,
+    "frozen_files": 14,
+    "native_model_crc_verified": true,
+    "native_final_source_equivalence_rechecked": true,
+    "mechanical_acceptance_evidence_rechecked": true,
+    "runtime_cache_used": false
+  },
+  "runtime_dependencies": {
+    "python": "3.12.14",
+    "cadquery": "2.7.0",
+    "blender_on_path": true,
+    "freecadcmd_on_path": true,
+    "dejavu_sans_font_present": true,
+    "platform_note": "Linux reference environment documented in README; system executables/fonts are explicit dependencies, not project workspace paths."
+  },
+  "commit_scope_note": "Root has not created the final Git tree/commit yet. This proves release-manifest coverage and unignored exact-byte inputs, not that pending blobs are already present on remote main.",
+  "rebuild_entry_points": [
+    "generate_mechanical.py: rebuild mechanical geometry in a separate working copy.",
+    "assemble_source_pcba.py: regenerate source-derived assembly using the clean checkout frozen STEP/STL inputs."
+  ],
+  "pass": true
+}

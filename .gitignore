@@ -6,3 +6,10 @@ __pycache__/
 firmware/local-build/
 firmware/upstream/
 tmp/
+/exports/Calxus_private_firmware.zip
+
+# Local editor working copies and transient exports; released files live under
+# hardware/, mechanical/, firmware/validation/ and automation/.
+/engineering/
+/native/
+/exports/

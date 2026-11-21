@@ -1,0 +1,184 @@
+{
+  "schema": "calxus.native-cam-outline-corners.v1",
+  "pass": true,
+  "gerber_archive_sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+  "outline_member": "Gerber_BoardOutlineLayer.GKO",
+  "outline_member_sha256": "45b5c6302c34f79f809b8ea0ce9168a0545f920c0190d6d1f393f4f6b93b35aa",
+  "format": "FSLAX45Y45;MOMM;G75;absolute endpoint coordinates,relative I/J center offsets",
+  "profile_centerline_extent_mm": [
+    80,
+    42
+  ],
+  "profile_four_quadrant_arcs_radius_mm": 1,
+  "segments": [
+    {
+      "command": "G01X0Y4100000D01*",
+      "start_mm": [
+        0.0,
+        1.0
+      ],
+      "end_mm": [
+        0.0,
+        41.0
+      ],
+      "kind": "line"
+    },
+    {
+      "command": "G02X100000Y4200000I100000J0D01*",
+      "start_mm": [
+        0.0,
+        41.0
+      ],
+      "end_mm": [
+        1.0,
+        42.0
+      ],
+      "kind": "arc",
+      "center_mm": [
+        1.0,
+        41.0
+      ],
+      "radius_mm": 1.0,
+      "clockwise": true,
+      "sweep_degrees": 90.0
+    },
+    {
+      "command": "G01X7900000Y4200000D01*",
+      "start_mm": [
+        1.0,
+        42.0
+      ],
+      "end_mm": [
+        79.0,
+        42.0
+      ],
+      "kind": "line"
+    },
+    {
+      "command": "G02X8000000Y4100000I0J-100000D01*",
+      "start_mm": [
+        79.0,
+        42.0
+      ],
+      "end_mm": [
+        80.0,
+        41.0
+      ],
+      "kind": "arc",
+      "center_mm": [
+        79.0,
+        41.0
+      ],
+      "radius_mm": 1.0,
+      "clockwise": true,
+      "sweep_degrees": 90.0
+    },
+    {
+      "command": "G01X8000000Y100000D01*",
+      "start_mm": [
+        80.0,
+        41.0
+      ],
+      "end_mm": [
+        80.0,
+        1.0
+      ],
+      "kind": "line"
+    },
+    {
+      "command": "G02X7900000Y0I-100000J0D01*",
+      "start_mm": [
+        80.0,
+        1.0
+      ],
+      "end_mm": [
+        79.0,
+        0.0
+      ],
+      "kind": "arc",
+      "center_mm": [
+        79.0,
+        1.0
+      ],
+      "radius_mm": 1.0,
+      "clockwise": true,
+      "sweep_degrees": 90.0
+    },
+    {
+      "command": "G01X100000Y0D01*",
+      "start_mm": [
+        79.0,
+        0.0
+      ],
+      "end_mm": [
+        1.0,
+        0.0
+      ],
+      "kind": "line"
+    },
+    {
+      "command": "G02X0Y100000I0J100000D01*",
+      "start_mm": [
+        1.0,
+        0.0
+      ],
+      "end_mm": [
+        0.0,
+        1.0
+      ],
+      "kind": "arc",
+      "center_mm": [
+        1.0,
+        1.0
+      ],
+      "radius_mm": 1.0,
+      "clockwise": true,
+      "sweep_degrees": 90.0
+    }
+  ],
+  "lower_left_arc": {
+    "command": "G02X0Y100000I0J100000D01*",
+    "start_mm": [
+      1.0,
+      0.0
+    ],
+    "end_mm": [
+      0.0,
+      1.0
+    ],
+    "kind": "arc",
+    "center_mm": [
+      1.0,
+      1.0
+    ],
+    "radius_mm": 1.0,
+    "clockwise": true,
+    "sweep_degrees": 90.0
+  },
+  "preview_scope": "The actual GKO has a clockwise90-degree lower-left arc from(1,0)to(0,1),center(1,1),radius1mm. The Gerbonara pretty board-fill PNG closes this final arc with a visible chord; it is a preview boundary rendering limitation, not a straight fabrication segment. The original Gerber is unmodified.",
+  "native_STEP_scope": "The separately measured native Board BREP has rounded corners after its0.0127mm profile inset; do not change manufacturing outline geometry based on a rendered closing chord.",
+  "preview_repair": {
+    "scope": "Derived SVG board-fill boundary only. All four actual GKO arcs preserved, no Gerber/native file modification. Original Gerbonara contour had the first arc repeated after closure and a diagonal return.",
+    "changes": [
+      {
+        "svg": "gerber-top.svg",
+        "original_outline_path": "M 0.0 1.0 A 1.0 1.0 0 0 1 1.0 0.0 L 79.0 0.0 A 1.0 1.0 0 0 1 80.0 1.0 L 80.0 41.0 A 1.0 1.0 0 0 1 79.0 42.0 L 1.0 42.0 A 1.0 1.0 0 0 1 0.0 41.0 L 0.0 1.0 A 1.0 1.0 0 0 1 1.0 0.0 L 0.0 1.0 Z",
+        "corrected_outline_path": "M 0.0 1.0 A 1.0 1.0 0 0 1 1.0 0.0 L 79.0 0.0 A 1.0 1.0 0 0 1 80.0 1.0 L 80.0 41.0 A 1.0 1.0 0 0 1 79.0 42.0 L 1.0 42.0 A 1.0 1.0 0 0 1 0.0 41.0 L 0.0 1.0 Z",
+        "original_svg_sha256": "341f03c464218147fe77cdd31d04222140d2792f72a7d85390394ce34346c9ca",
+        "corrected_svg_sha256": "59625ccf698352778219e9128c1c0c594442311b89848ee7eeebdcd9b6db83be",
+        "changes_only_redundant_preview_closing_loop": true,
+        "original_svg_diagnostic_path": "validation/native-final-gerber/diagnostics/gerber-top.original.svg"
+      },
+      {
+        "svg": "gerber-bottom.svg",
+        "original_outline_path": "M 0.0 1.0 A 1.0 1.0 0 0 1 1.0 0.0 L 79.0 0.0 A 1.0 1.0 0 0 1 80.0 1.0 L 80.0 41.0 A 1.0 1.0 0 0 1 79.0 42.0 L 1.0 42.0 A 1.0 1.0 0 0 1 0.0 41.0 L 0.0 1.0 A 1.0 1.0 0 0 1 1.0 0.0 L 0.0 1.0 Z",
+        "corrected_outline_path": "M 0.0 1.0 A 1.0 1.0 0 0 1 1.0 0.0 L 79.0 0.0 A 1.0 1.0 0 0 1 80.0 1.0 L 80.0 41.0 A 1.0 1.0 0 0 1 79.0 42.0 L 1.0 42.0 A 1.0 1.0 0 0 1 0.0 41.0 L 0.0 1.0 Z",
+        "original_svg_sha256": "b42e89147767d6d58aece9824f460e64d86a676bd07098ed165c849452eccb3f",
+        "corrected_svg_sha256": "4bbde9455168e5d2b010136748d42c186dfb2f20949ea0fb4eba5ac1de3d2a0a",
+        "changes_only_redundant_preview_closing_loop": true,
+        "original_svg_diagnostic_path": "validation/native-final-gerber/diagnostics/gerber-bottom.original.svg"
+      }
+    ],
+    "pass": true
+  }
+}

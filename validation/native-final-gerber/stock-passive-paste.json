@@ -1,0 +1,222 @@
+{
+  "schema": "calxus.stock-passive-paste-native-cam.v1",
+  "pass": true,
+  "native_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "gerber_archive_sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+  "scope": "Actual native stock-footprint paste geometry versus exported Top Paste. Does not qualify stencil thickness, solder volume or reflow profile. No footprint geometry was modified.",
+  "checks": [
+    {
+      "ref": "R1",
+      "footprint_uuid": "6457585b9757dfff",
+      "component_pose_mil": [
+        216.5354,
+        1141.7323,
+        90
+      ],
+      "stock_explicit_paste_fill_count": 2,
+      "pads": [
+        {
+          "pin": "2",
+          "stock_pad_paste_expansion_mil": -3937.0080000000003,
+          "explicit_stock_paste_fill": "e5",
+          "land_area_mm2": 0.6967999070425593,
+          "expected_paste_area_mm2": 0.6828973700089823,
+          "actual_paste_area_mm2": 0.682899500000001,
+          "actual_area_to_copper_land_percent": 98.00510779320335,
+          "actual_paste_shape_bounds_mm": [
+            5.05001,
+            29.34501,
+            5.95001,
+            30.24501
+          ],
+          "hausdorff_distance_mm": 4.256552356203121e-06,
+          "symmetric_difference_area_mm2": 7.83820015434646e-06,
+          "matches_stock_shape_within_3um": true,
+          "shape": "stock inner-notch polygon",
+          "pass": true
+        },
+        {
+          "pin": "1",
+          "stock_pad_paste_expansion_mil": -3937.0080000000003,
+          "explicit_stock_paste_fill": "e6",
+          "land_area_mm2": 0.6967999070425593,
+          "expected_paste_area_mm2": 0.6828973700089823,
+          "actual_paste_area_mm2": 0.6829000000000011,
+          "actual_area_to_copper_land_percent": 98.00517954981454,
+          "actual_paste_shape_bounds_mm": [
+            5.04999,
+            27.75499,
+            5.94999,
+            28.65499
+          ],
+          "hausdorff_distance_mm": 6.066976177738592e-06,
+          "symmetric_difference_area_mm2": 1.1785794506778872e-05,
+          "matches_stock_shape_within_3um": true,
+          "shape": "stock inner-notch polygon",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "footprint_uuid": "6457585b9757dfff",
+      "component_pose_mil": [
+        216.5354,
+        1269.685,
+        90
+      ],
+      "stock_explicit_paste_fill_count": 2,
+      "pads": [
+        {
+          "pin": "2",
+          "stock_pad_paste_expansion_mil": -3937.0080000000003,
+          "explicit_stock_paste_fill": "e5",
+          "land_area_mm2": 0.6967999070425563,
+          "expected_paste_area_mm2": 0.6828973700089807,
+          "actual_paste_area_mm2": 0.682899499999999,
+          "actual_area_to_copper_land_percent": 98.00510779320348,
+          "actual_paste_shape_bounds_mm": [
+            5.05001,
+            32.59501,
+            5.95001,
+            33.49501
+          ],
+          "hausdorff_distance_mm": 5.260744359786487e-06,
+          "symmetric_difference_area_mm2": 9.988846121865753e-06,
+          "matches_stock_shape_within_3um": true,
+          "shape": "stock inner-notch polygon",
+          "pass": true
+        },
+        {
+          "pin": "1",
+          "stock_pad_paste_expansion_mil": -3937.0080000000003,
+          "explicit_stock_paste_fill": "e6",
+          "land_area_mm2": 0.6967999070425593,
+          "expected_paste_area_mm2": 0.6828973700089823,
+          "actual_paste_area_mm2": 0.6829000000000011,
+          "actual_area_to_copper_land_percent": 98.00517954981454,
+          "actual_paste_shape_bounds_mm": [
+            5.04999,
+            31.00499,
+            5.94999,
+            31.90499
+          ],
+          "hausdorff_distance_mm": 5.062884549531737e-06,
+          "symmetric_difference_area_mm2": 1.0094095911283844e-05,
+          "matches_stock_shape_within_3um": true,
+          "shape": "stock inner-notch polygon",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "component_pose_mil": [
+        688.9764,
+        216.5354,
+        90
+      ],
+      "stock_explicit_paste_fill_count": 0,
+      "pads": [
+        {
+          "pin": "2",
+          "stock_pad_paste_expansion_mil": null,
+          "explicit_stock_paste_fill": null,
+          "land_area_mm2": 0.7199971200028789,
+          "expected_paste_area_mm2": 0.7199971200028789,
+          "actual_paste_area_mm2": 0.7199999999999995,
+          "actual_area_to_copper_land_percent": 100.00040000120009,
+          "actual_paste_shape_bounds_mm": [
+            17.05,
+            5.80002,
+            17.95,
+            6.600020000000001
+          ],
+          "hausdorff_distance_mm": 0.00012464855073466115,
+          "symmetric_difference_area_mm2": 0.00022435155417678993,
+          "matches_stock_shape_within_3um": true,
+          "shape": "rectangle from default PAD paste",
+          "pass": true
+        },
+        {
+          "pin": "1",
+          "stock_pad_paste_expansion_mil": null,
+          "explicit_stock_paste_fill": null,
+          "land_area_mm2": 0.7199971200028789,
+          "expected_paste_area_mm2": 0.7199971200028789,
+          "actual_paste_area_mm2": 0.7199999999999995,
+          "actual_area_to_copper_land_percent": 100.00040000120009,
+          "actual_paste_shape_bounds_mm": [
+            17.05,
+            4.399979999999999,
+            17.95,
+            5.19998
+          ],
+          "hausdorff_distance_mm": 0.00012296866755453538,
+          "symmetric_difference_area_mm2": 0.0002213275602239868,
+          "matches_stock_shape_within_3um": true,
+          "shape": "rectangle from default PAD paste",
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "ref": "C1",
+      "footprint_uuid": "a4e80cc9a4acb257",
+      "component_pose_mil": [
+        413.3858,
+        590.5512,
+        90
+      ],
+      "stock_explicit_paste_fill_count": 0,
+      "pads": [
+        {
+          "pin": "2",
+          "stock_pad_paste_expansion_mil": null,
+          "explicit_stock_paste_fill": null,
+          "land_area_mm2": 0.7199971200028805,
+          "expected_paste_area_mm2": 0.7199971200028805,
+          "actual_paste_area_mm2": 0.7199999999999995,
+          "actual_area_to_copper_land_percent": 100.00040000119988,
+          "actual_paste_shape_bounds_mm": [
+            10.05,
+            15.30002,
+            10.95,
+            16.10002
+          ],
+          "hausdorff_distance_mm": 0.00012333012121957247,
+          "symmetric_difference_area_mm2": 0.00022197555892879435,
+          "matches_stock_shape_within_3um": true,
+          "shape": "rectangle from default PAD paste",
+          "pass": true
+        },
+        {
+          "pin": "1",
+          "stock_pad_paste_expansion_mil": null,
+          "explicit_stock_paste_fill": null,
+          "land_area_mm2": 0.7199971200028789,
+          "expected_paste_area_mm2": 0.7199971200028789,
+          "actual_paste_area_mm2": 0.7199999999999995,
+          "actual_area_to_copper_land_percent": 100.00040000120009,
+          "actual_paste_shape_bounds_mm": [
+            10.05,
+            13.89998,
+            10.95,
+            14.69998
+          ],
+          "hausdorff_distance_mm": 0.0001242900430441197,
+          "symmetric_difference_area_mm2": 0.000223703555470326,
+          "matches_stock_shape_within_3um": true,
+          "shape": "rectangle from default PAD paste",
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "conclusion": "R1/R2 stock 0603 resistor footprint uses explicit notched paste fills and suppresses automatic rectangular paste. C5/C1 use a different capacitor footprint with ordinary rectangular paste; actual CAM is checked separately at each source coordinate."
+}

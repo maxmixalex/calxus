@@ -1,0 +1,232 @@
+{
+  "checkedAt": "2026-11-21T12:51:38.295Z",
+  "gate": false,
+  "raw": [
+    {
+      "name": "Differential Pair Error",
+      "list": [
+        {
+          "name": "Track to Track",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Differential Pair Error",
+              "errorObjType": "Track to Track",
+              "ruleName": "differentialPair",
+              "ruleTypeName": "Differential Pair",
+              "obj1": {
+                "suffix": "(USB_UP_DP)",
+                "typeName": "Track"
+              },
+              "obj2": {
+                "suffix": "(USB_UP_DM)",
+                "typeName": "Track"
+              },
+              "explanation": {
+                "str": "{obj1} to {obj2} length tolerance is {width}, should be {shouldBe}",
+                "param": {
+                  "width": "38.1mil",
+                  "shouldBe": "<=10mil",
+                  "obj1": "Object 1",
+                  "obj2": "object 2",
+                  "type": "DifferentPairLengthError"
+                },
+                "errData": {
+                  "globalIndex": "err7",
+                  "position": {
+                    "x": 44.7813975,
+                    "y": 71.793255
+                  },
+                  "name": "differentialPair",
+                  "net_P": "USB_UP_DP",
+                  "net_N": "USB_UP_DM",
+                  "toleranceScope": 1,
+                  "toleranceUnit": "mm",
+                  "value_P": 68.02077799506998,
+                  "value_N": 71.8351733084851,
+                  "unableComputeDelay": false,
+                  "errorType": "Differential Pair Error"
+                }
+              },
+              "objs": [
+                "USB_UP_DP",
+                "USB_UP_DM"
+              ],
+              "globalIndex": "err7",
+              "globalIndexIsNet": true,
+              "pos": {
+                "x": 44.7813975,
+                "y": 71.793255
+              },
+              "parentId": "DRCTab|_|Errors|_|Differential Pair Error|_|Track to Track"
+            },
+            {
+              "visible": true,
+              "errorType": "Differential Pair Error",
+              "errorObjType": "Track to Track",
+              "ruleName": "differentialPair",
+              "ruleTypeName": "Differential Pair",
+              "obj1": {
+                "suffix": "(USB_SIL_DP)",
+                "typeName": "Track"
+              },
+              "obj2": {
+                "suffix": "(USB_SIL_DM)",
+                "typeName": "Track"
+              },
+              "explanation": {
+                "str": "{obj1} to {obj2} length tolerance is {width}, should be {shouldBe}",
+                "param": {
+                  "width": "22.8mil",
+                  "shouldBe": "<=10mil",
+                  "obj1": "Object 1",
+                  "obj2": "object 2",
+                  "type": "DifferentPairLengthError"
+                },
+                "errData": {
+                  "globalIndex": "err8",
+                  "position": {
+                    "x": 121.52534999999997,
+                    "y": 71.8032625
+                  },
+                  "name": "differentialPair",
+                  "net_P": "USB_SIL_DP",
+                  "net_N": "USB_SIL_DM",
+                  "toleranceScope": 1,
+                  "toleranceUnit": "mm",
+                  "value_P": 105.93113491487391,
+                  "value_N": 103.65532337495279,
+                  "unableComputeDelay": false,
+                  "errorType": "Differential Pair Error"
+                }
+              },
+              "objs": [
+                "USB_SIL_DP",
+                "USB_SIL_DM"
+              ],
+              "globalIndex": "err8",
+              "globalIndexIsNet": true,
+              "pos": {
+                "x": 121.52534999999997,
+                "y": 71.8032625
+              },
+              "parentId": "DRCTab|_|Errors|_|Differential Pair Error|_|Track to Track"
+            },
+            {
+              "visible": true,
+              "errorType": "Differential Pair Error",
+              "errorObjType": "Track to Track",
+              "ruleName": "differentialPair",
+              "ruleTypeName": "Differential Pair",
+              "obj1": {
+                "suffix": "(USB_UART_DP)",
+                "typeName": "Track"
+              },
+              "obj2": {
+                "suffix": "(USB_UART_DM)",
+                "typeName": "Track"
+              },
+              "explanation": {
+                "str": "{obj1} to {obj2} length tolerance is {width}, should be {shouldBe}",
+                "param": {
+                  "width": "14.4mil",
+                  "shouldBe": "<=10mil",
+                  "obj1": "Object 1",
+                  "obj2": "object 2",
+                  "type": "DifferentPairLengthError"
+                },
+                "errData": {
+                  "globalIndex": "err9",
+                  "position": {
+                    "x": 154.2401525,
+                    "y": 59.34556750000001
+                  },
+                  "name": "differentialPair",
+                  "net_P": "USB_UART_DP",
+                  "net_N": "USB_UART_DM",
+                  "toleranceScope": 1,
+                  "toleranceUnit": "mm",
+                  "value_P": 198.01258200019777,
+                  "value_N": 199.4572480655048,
+                  "unableComputeDelay": false,
+                  "errorType": "Differential Pair Error"
+                }
+              },
+              "objs": [
+                "USB_UART_DP",
+                "USB_UART_DM"
+              ],
+              "globalIndex": "err9",
+              "globalIndexIsNet": true,
+              "pos": {
+                "x": 154.2401525,
+                "y": 59.34556750000001
+              },
+              "parentId": "DRCTab|_|Errors|_|Differential Pair Error|_|Track to Track"
+            }
+          ],
+          "count": 3,
+          "title": [
+            "Track",
+            "to",
+            "Track",
+            "(3)"
+          ],
+          "visible": true
+        }
+      ],
+      "visible": true,
+      "count": 3,
+      "title": [
+        "Differential Pair Error",
+        "(3)"
+      ]
+    },
+    {
+      "name": "Netlist Error",
+      "list": [
+        {
+          "name": "Netlist Error",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Netlist Error",
+              "errorObjType": "Netlist Error",
+              "ruleName": "Import Changes",
+              "ruleTypeName": "Import Changes",
+              "obj1": {
+                "typeName": "Schematic Netlist",
+                "suffix": ""
+              },
+              "obj2": {
+                "typeName": "PCB Netlist",
+                "suffix": ""
+              },
+              "objs": [
+                "err10"
+              ],
+              "explanation": {
+                "str": "PCB and schematic netlist does not match. You can click on the rule name \"Import Changes\" to view the difference.",
+                "param": {}
+              },
+              "globalIndex": "err10",
+              "parentId": "DRCTab|_|Errors|_|Netlist Error|_|Netlist Error"
+            }
+          ],
+          "count": 1,
+          "title": [
+            "Netlist Error",
+            "(1)"
+          ],
+          "visible": true
+        }
+      ],
+      "visible": true,
+      "count": 1,
+      "title": [
+        "Netlist Error",
+        "(1)"
+      ]
+    }
+  ]
+}

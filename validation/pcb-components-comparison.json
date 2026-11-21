@@ -1,0 +1,50 @@
+{
+  "pass": true,
+  "design_sha256": "994d27cecacbf06824c64d86912e64e5657ac8876b3270f9a241cc3110145d1d",
+  "actual_sha256": "9d6b434a2ca8f082b7f377a7b6add29e1d0055c9ef2c2d681a10d8e7ac2127b6",
+  "expected_components": 97,
+  "actual_components": 97,
+  "expected_pins": 344,
+  "actual_pins": 344,
+  "actual_raw_pin_entries": 345,
+  "duplicate_physical_pin_entries": [
+    {
+      "ref": "J2",
+      "pin": "5",
+      "count": 2
+    }
+  ],
+  "comparison_scope": "pcb-components",
+  "excluded_pcb_only_refs": [
+    "TP1",
+    "TP2",
+    "TP3",
+    "TP4",
+    "TP5",
+    "TP6",
+    "TP7",
+    "TP8",
+    "TP9",
+    "TP10",
+    "TP11",
+    "TP12",
+    "TP13",
+    "TP14",
+    "TP15",
+    "TP16",
+    "TP17",
+    "TP18",
+    "TP19",
+    "TP20",
+    "TP21",
+    "TP22",
+    "TP23"
+  ],
+  "alias_basis": "Verified project library: TUSB EP33, CH343 EP17, grouped USB-C pins, USB-A shield5",
+  "errors": [],
+  "notes": [
+    "Singleton logical net TP_GPIO30: [('U2', '32')]; verify intentional test point/NC treatment",
+    "Singleton logical net TP_GPIO31: [('U2', '31')]; verify intentional test point/NC treatment"
+  ],
+  "scope": "Pin-net export equivalence only for the stated schematic/PCB scope; does not verify routed copper, firmware, power timing or hardware behavior"
+}

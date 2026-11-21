@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "size": 1599,
+  "sha256": "3d01b96ef1946ac357bd665d17a9c517c5cb3534812b8ee9e15d0d977cfabe86",
+  "engine": "portable-js",
+  "writes": 0,
+  "crypto_subtle_available": false,
+  "independent_container_sha256_match": true,
+  "scope": "Read-only URL retrieval capability test; no release synchronization performed"
+}

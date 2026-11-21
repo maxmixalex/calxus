@@ -1,0 +1,109 @@
+{
+  "scope": "Private binary handoff only; not a device programming test",
+  "path": "D:/Works/Calc/Calxus/exports/Calxus_private_firmware.zip",
+  "bytes": 17322,
+  "sha256": "8d61a1aed2ccdb86dcc5ef4bb2c38de83cd1a96e7aad1ccfc137055e764aeb7a",
+  "native_byte_readback_pass": true,
+  "files": [
+    {
+      "path": "firmware/local-build/BUILD_RECORD.json",
+      "bytes": 1735,
+      "sha256": "2a84b8620c850a60dc41be1cacd94e9c6e01182604d2fa56ff99d95d31e0668b",
+      "native_readback_matches_build": true
+    },
+    {
+      "path": "firmware/local-build/build.log",
+      "bytes": 644,
+      "sha256": "9ba8b446fe81c9c299359f86f523658d75946dec8bdd479fd5cbe4ed7df7458f",
+      "native_readback_matches_build": true
+    },
+    {
+      "path": "firmware/local-build/calxus_silverlink_24lc64.bin",
+      "bytes": 8192,
+      "sha256": "a56dc1ebb386ab03d0d60da3deb4c1583530f4063fd934c7f042a9fc6ba20af5",
+      "native_readback_matches_build": true
+    },
+    {
+      "path": "firmware/local-build/calxus_silverlink_usb_ram.bin",
+      "bytes": 5123,
+      "sha256": "58abf2ad4484ebc14b9596ff9364e20ee878f6917566f35a66535ac66f66b5ed",
+      "native_readback_matches_build": true
+    },
+    {
+      "path": "firmware/local-build/ti_graph_link_silver.bin",
+      "bytes": 5120,
+      "sha256": "3227e2eb733c93737c05fbf556e52afab8048e9719be72286c2d50bc0539916f",
+      "native_readback_matches_build": true
+    },
+    {
+      "path": "firmware/local-build/ti_graph_link_silver.eep",
+      "bytes": 5126,
+      "sha256": "3e2bd172145b4b5fe8cc0f9a90e6a3eba94a1a3c5b1ed18ee2c2e02768b2d6d7",
+      "native_readback_matches_build": true
+    },
+    {
+      "path": "firmware/local-build/ti_graph_link_silver.hex",
+      "bytes": 12430,
+      "sha256": "5b7f46c4902caa3d40e922a1fcfbc86db836945efe20dbc5c899842d2b5ac19a",
+      "native_readback_matches_build": true
+    }
+  ],
+  "gitignore": {
+    "path": "D:/Works/Calc/Calxus/.gitignore",
+    "updated": true,
+    "originalBytes": 120,
+    "newBytes": 158,
+    "originalBytesPreserved": true,
+    "entry": "/exports/Calxus_private_firmware.zip"
+  },
+  "public_git_upload": false,
+  "native_directory": {
+    "path": "D:/Works/Calc/Calxus/firmware/local-build/",
+    "created_by": "SYS_FileSystem.createDirectoryInFileSystem, documented since EDA v3.2.166",
+    "created": true,
+    "files": [
+      {
+        "path": "D:/Works/Calc/Calxus/firmware/local-build/BUILD_RECORD.json",
+        "bytes": 1735,
+        "sha256": "2a84b8620c850a60dc41be1cacd94e9c6e01182604d2fa56ff99d95d31e0668b",
+        "native_byte_readback_pass": true
+      },
+      {
+        "path": "D:/Works/Calc/Calxus/firmware/local-build/build.log",
+        "bytes": 644,
+        "sha256": "9ba8b446fe81c9c299359f86f523658d75946dec8bdd479fd5cbe4ed7df7458f",
+        "native_byte_readback_pass": true
+      },
+      {
+        "path": "D:/Works/Calc/Calxus/firmware/local-build/calxus_silverlink_24lc64.bin",
+        "bytes": 8192,
+        "sha256": "a56dc1ebb386ab03d0d60da3deb4c1583530f4063fd934c7f042a9fc6ba20af5",
+        "native_byte_readback_pass": true
+      },
+      {
+        "path": "D:/Works/Calc/Calxus/firmware/local-build/calxus_silverlink_usb_ram.bin",
+        "bytes": 5123,
+        "sha256": "58abf2ad4484ebc14b9596ff9364e20ee878f6917566f35a66535ac66f66b5ed",
+        "native_byte_readback_pass": true
+      },
+      {
+        "path": "D:/Works/Calc/Calxus/firmware/local-build/ti_graph_link_silver.bin",
+        "bytes": 5120,
+        "sha256": "3227e2eb733c93737c05fbf556e52afab8048e9719be72286c2d50bc0539916f",
+        "native_byte_readback_pass": true
+      },
+      {
+        "path": "D:/Works/Calc/Calxus/firmware/local-build/ti_graph_link_silver.eep",
+        "bytes": 5126,
+        "sha256": "3e2bd172145b4b5fe8cc0f9a90e6a3eba94a1a3c5b1ed18ee2c2e02768b2d6d7",
+        "native_byte_readback_pass": true
+      },
+      {
+        "path": "D:/Works/Calc/Calxus/firmware/local-build/ti_graph_link_silver.hex",
+        "bytes": 12430,
+        "sha256": "5b7f46c4902caa3d40e922a1fcfbc86db836945efe20dbc5c899842d2b5ac19a",
+        "native_byte_readback_pass": true
+      }
+    ]
+  }
+}

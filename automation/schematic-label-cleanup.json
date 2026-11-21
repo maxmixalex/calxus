@@ -1,0 +1,2420 @@
+{
+  "schema": 1,
+  "source_archive_sha256": "14633dadaf8768727c33a8bd6bf476226d26ff51e3585ab4ac5253297da68137",
+  "policy": "Only horizontal NET text whose actual anchor lies on a reviewed left-facing pin stub receives RIGHT_BOTTOM alignment. Preserve x/y/rotation, net values, lines, components and NC. Correct only the two stale A4 title attributes per actual A2 sheet.",
+  "pages": {
+    "0b9f8a9f53fb8264": {
+      "page_name": "01_USB_Power",
+      "actions": [
+        {
+          "id": "099be6f53549d165",
+          "reason": "A2-size frame has stale A4 title metadata.",
+          "before": {
+            "key": "Page Size",
+            "value": "A4",
+            "parentId": "571bd1365482d227"
+          },
+          "after": {
+            "key": "Page Size",
+            "value": "A2",
+            "parentId": "571bd1365482d227"
+          },
+          "changes": {
+            "value": "A2"
+          }
+        },
+        {
+          "id": "01438a40279eeab2",
+          "reason": "A2-size frame has stale A4 title metadata.",
+          "before": {
+            "key": "Size",
+            "value": "A4",
+            "parentId": "571bd1365482d227"
+          },
+          "after": {
+            "key": "Size",
+            "value": "A2",
+            "parentId": "571bd1365482d227"
+          },
+          "changes": {
+            "value": "A2"
+          }
+        },
+        {
+          "id": "35c51c7b4f530b69",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.A1B12"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "7a7232ff40c24b19",
+            "x": 240,
+            "y": -1325,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "7a7232ff40c24b19",
+            "x": 240,
+            "y": -1325,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "050a5aa53d7c6932",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.A4B9"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "e97be4f8e7203f79",
+            "x": 240,
+            "y": -1315,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "e97be4f8e7203f79",
+            "x": 240,
+            "y": -1315,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "a430eea461881117",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.A5"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "CC1",
+            "parentId": "030099f3c3bb35ca",
+            "x": 240,
+            "y": -1295,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "CC1",
+            "parentId": "030099f3c3bb35ca",
+            "x": 240,
+            "y": -1295,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "144aca37b6379b0c",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.B7"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_UP_DM",
+            "parentId": "71d5a44d52677e83",
+            "x": 240,
+            "y": -1285,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_UP_DM",
+            "parentId": "71d5a44d52677e83",
+            "x": 240,
+            "y": -1285,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "2b08415593392979",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.A6"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_UP_DP",
+            "parentId": "a358030429777544",
+            "x": 240,
+            "y": -1275,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_UP_DP",
+            "parentId": "a358030429777544",
+            "x": 240,
+            "y": -1275,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "d4d315f7b61332ab",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.B6"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_UP_DP",
+            "parentId": "ce018554d124799f",
+            "x": 240,
+            "y": -1255,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_UP_DP",
+            "parentId": "ce018554d124799f",
+            "x": 240,
+            "y": -1255,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "8608c148f3d6594e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.B5"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "CC2",
+            "parentId": "34674dfc616a2cd1",
+            "x": 240,
+            "y": -1235,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "CC2",
+            "parentId": "34674dfc616a2cd1",
+            "x": 240,
+            "y": -1235,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "d35d72713842ce48",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.B4A9"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "13d6f0d521641dbf",
+            "x": 240,
+            "y": -1225,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "13d6f0d521641dbf",
+            "x": 240,
+            "y": -1225,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "20ec88a5ed9203e5",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J1.B1A12"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "4f6661368c013ede",
+            "x": 240,
+            "y": -1215,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "4f6661368c013ede",
+            "x": 240,
+            "y": -1215,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "922befa1dc4bd23f",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "D1.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_UP_DP",
+            "parentId": "96995147358554ce",
+            "x": 460,
+            "y": -1300,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_UP_DP",
+            "parentId": "96995147358554ce",
+            "x": 460,
+            "y": -1300,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "a0b90fb2faa01a8e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "D1.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "3a1b713d65dcb992",
+            "x": 460,
+            "y": -1270,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "3a1b713d65dcb992",
+            "x": 460,
+            "y": -1270,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "feea7a533ad00ce1",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "C1.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "cbd8e0b444056a51",
+            "x": 525,
+            "y": -1100,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "cbd8e0b444056a51",
+            "x": 525,
+            "y": -1100,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "afeff2c47eb88d69",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U1.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "MUX_EN_N",
+            "parentId": "5d25e1c54a77f7b1",
+            "x": 1065,
+            "y": -1255,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "MUX_EN_N",
+            "parentId": "5d25e1c54a77f7b1",
+            "x": 1065,
+            "y": -1255,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "8db2d4681825e322",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U1.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SEL1",
+            "parentId": "917ae5f320e97323",
+            "x": 1065,
+            "y": -1245,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SEL1",
+            "parentId": "917ae5f320e97323",
+            "x": 1065,
+            "y": -1245,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "9a187d039c8293db",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U1.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_UART_DP",
+            "parentId": "761cfd398dff39a4",
+            "x": 1065,
+            "y": -1235,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_UART_DP",
+            "parentId": "761cfd398dff39a4",
+            "x": 1065,
+            "y": -1235,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "4b5893a4f775db2e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U1.5"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_A_DP",
+            "parentId": "c90e2bd98fcd5a66",
+            "x": 1065,
+            "y": -1215,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_A_DP",
+            "parentId": "c90e2bd98fcd5a66",
+            "x": 1065,
+            "y": -1215,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "33de42125b712749",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U1.6"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_NATIVE_DP",
+            "parentId": "1e73b51e12e78a9e",
+            "x": 1065,
+            "y": -1205,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_NATIVE_DP",
+            "parentId": "1e73b51e12e78a9e",
+            "x": 1065,
+            "y": -1205,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "3586fbb2e3f6e367",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U1.7"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_UP_DP",
+            "parentId": "7009c459c941822c",
+            "x": 1065,
+            "y": -1195,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_UP_DP",
+            "parentId": "7009c459c941822c",
+            "x": 1065,
+            "y": -1195,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "62234e1ed7d88161",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U1.8"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "153c8b4e84fb7f46",
+            "x": 1065,
+            "y": -1185,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "153c8b4e84fb7f46",
+            "x": 1065,
+            "y": -1185,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "23f99c40c43ac2ca",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J3.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "VBUS_NATIVE",
+            "parentId": "7c1b64e94be3a9ad",
+            "x": 1645,
+            "y": -1350,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "VBUS_NATIVE",
+            "parentId": "7c1b64e94be3a9ad",
+            "x": 1645,
+            "y": -1350,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "3042a9f64ed18e08",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J3.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_NATIVE_DP",
+            "parentId": "50a7b96363cba1b3",
+            "x": 1645,
+            "y": -1340,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_NATIVE_DP",
+            "parentId": "50a7b96363cba1b3",
+            "x": 1645,
+            "y": -1340,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "810494f61b9a8843",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J3.5"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "10a24acfefb42433",
+            "x": 1645,
+            "y": -1330,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "10a24acfefb42433",
+            "x": 1645,
+            "y": -1330,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "83051e08dda7e07c",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "D3.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "95363d7ee28b8a98",
+            "x": 1820,
+            "y": -1080,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "95363d7ee28b8a98",
+            "x": 1820,
+            "y": -1080,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "bf5b148462605a53",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "D12.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "MODE_USBA_N",
+            "parentId": "abb523d71e248cfc",
+            "x": 515,
+            "y": -630,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "MODE_USBA_N",
+            "parentId": "abb523d71e248cfc",
+            "x": 515,
+            "y": -630,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "befc01cbd255f376",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "D14.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "MUX_EN_N",
+            "parentId": "1df53e5722e746c1",
+            "x": 805,
+            "y": -660,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "MUX_EN_N",
+            "parentId": "1df53e5722e746c1",
+            "x": 805,
+            "y": -660,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "97a82f0636d19f3d",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "D15.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SERIAL_EN_N",
+            "parentId": "104726d8f986f3d1",
+            "x": 815,
+            "y": -510,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SERIAL_EN_N",
+            "parentId": "104726d8f986f3d1",
+            "x": 815,
+            "y": -510,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "4e4ac6c76a429ce6",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U9.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "420105a98462b736",
+            "x": 1315,
+            "y": -720,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "420105a98462b736",
+            "x": 1315,
+            "y": -720,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "693b1861c4d91bfb",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U9.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "NATIVE_EN_N",
+            "parentId": "7e8df2af48220883",
+            "x": 1315,
+            "y": -680,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "NATIVE_EN_N",
+            "parentId": "7e8df2af48220883",
+            "x": 1315,
+            "y": -680,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "90050e38af465bfc",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U9.4"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "PWR_FAULT_N",
+            "parentId": "c9035b19f9feb07b",
+            "x": 1315,
+            "y": -700,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "PWR_FAULT_N",
+            "parentId": "c9035b19f9feb07b",
+            "x": 1315,
+            "y": -700,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "9a9824a377a8a8d7",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U10.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USBA_EN_N",
+            "parentId": "ac3eaf9463fe2b30",
+            "x": 1795,
+            "y": -680,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USBA_EN_N",
+            "parentId": "ac3eaf9463fe2b30",
+            "x": 1795,
+            "y": -680,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "5ba269419ef26076",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U10.4"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "PWR_FAULT_N",
+            "parentId": "013a132bf7d23cb8",
+            "x": 1795,
+            "y": -700,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "PWR_FAULT_N",
+            "parentId": "013a132bf7d23cb8",
+            "x": 1795,
+            "y": -700,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "7469d789bb8ee21e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U6.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SERIAL_EN_N",
+            "parentId": "6bd251875bdadae5",
+            "x": 1315,
+            "y": -480,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SERIAL_EN_N",
+            "parentId": "6bd251875bdadae5",
+            "x": 1315,
+            "y": -480,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "576c5e99fdceed9a",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "C22.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "805073eb7c2adb33",
+            "x": 1735,
+            "y": -390,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "VBUS_IN",
+            "parentId": "805073eb7c2adb33",
+            "x": 1735,
+            "y": -390,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "10e3077f12eece17",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U1.4"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_SIL_DP",
+            "parentId": "e890db0853440c92",
+            "x": 1065,
+            "y": -1225,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_SIL_DP",
+            "parentId": "e890db0853440c92",
+            "x": 1065,
+            "y": -1225,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        }
+      ]
+    },
+    "35c8fed936c1c8a9": {
+      "page_name": "02_TI_SilverLink",
+      "actions": [
+        {
+          "id": "2bf11672d0432ee7",
+          "reason": "A2-size frame has stale A4 title metadata.",
+          "before": {
+            "key": "Page Size",
+            "value": "A4",
+            "parentId": "a1562375acc29d12"
+          },
+          "after": {
+            "key": "Page Size",
+            "value": "A2",
+            "parentId": "a1562375acc29d12"
+          },
+          "changes": {
+            "value": "A2"
+          }
+        },
+        {
+          "id": "319018f0b096350b",
+          "reason": "A2-size frame has stale A4 title metadata.",
+          "before": {
+            "key": "Size",
+            "value": "A4",
+            "parentId": "a1562375acc29d12"
+          },
+          "after": {
+            "key": "Size",
+            "value": "A2",
+            "parentId": "a1562375acc29d12"
+          },
+          "changes": {
+            "value": "A2"
+          }
+        },
+        {
+          "id": "9684e7822454a4b1",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_VREGEN",
+            "parentId": "7b3e541988bff5ec",
+            "x": 605,
+            "y": -1275,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_VREGEN",
+            "parentId": "7b3e541988bff5ec",
+            "x": 605,
+            "y": -1275,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "5f232d8ab4bc1c62",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_SUSPEND",
+            "parentId": "8997df6dff94e2b8",
+            "x": 605,
+            "y": -1265,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_SUSPEND",
+            "parentId": "8997df6dff94e2b8",
+            "x": 605,
+            "y": -1265,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "51fbc0746c629b85",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "747ae71b873bb71b",
+            "x": 605,
+            "y": -1255,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "747ae71b873bb71b",
+            "x": 605,
+            "y": -1255,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "e2f994056e3eeca3",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.4"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_1V8",
+            "parentId": "176bb9c218ee9935",
+            "x": 605,
+            "y": -1245,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_1V8",
+            "parentId": "176bb9c218ee9935",
+            "x": 605,
+            "y": -1245,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "967ece243e2c7222",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.5"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_PUR",
+            "parentId": "1aecd990a0627811",
+            "x": 605,
+            "y": -1235,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_PUR",
+            "parentId": "1aecd990a0627811",
+            "x": 605,
+            "y": -1235,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "ce70615245c3da81",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.6"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_DP",
+            "parentId": "6840706a690c135d",
+            "x": 605,
+            "y": -1225,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_DP",
+            "parentId": "6840706a690c135d",
+            "x": 605,
+            "y": -1225,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "d0a9ec0dcff77af7",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.7"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_DM",
+            "parentId": "af27ed1d10286061",
+            "x": 605,
+            "y": -1215,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_DM",
+            "parentId": "af27ed1d10286061",
+            "x": 605,
+            "y": -1215,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "7a41c51cdd918353",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.8"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "dfdbd1cfc71f4db5",
+            "x": 605,
+            "y": -1205,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "dfdbd1cfc71f4db5",
+            "x": 605,
+            "y": -1205,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "09cb77ef7df6dda7",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.9"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_RESET",
+            "parentId": "b6f0a2becccf4c1e",
+            "x": 605,
+            "y": -1195,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_RESET",
+            "parentId": "b6f0a2becccf4c1e",
+            "x": 605,
+            "y": -1195,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "15340a56ac0a43b1",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.10"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_SDA",
+            "parentId": "91e3f579516a3b3a",
+            "x": 605,
+            "y": -1185,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_SDA",
+            "parentId": "91e3f579516a3b3a",
+            "x": 605,
+            "y": -1185,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "f44391509abe94ab",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.11"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_SCL",
+            "parentId": "7db1d447095e3a07",
+            "x": 605,
+            "y": -1175,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_SCL",
+            "parentId": "7db1d447095e3a07",
+            "x": 605,
+            "y": -1175,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "dba6d50ec3a48165",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U2.13"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "29ac58357155ac28",
+            "x": 605,
+            "y": -1155,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "29ac58357155ac28",
+            "x": 605,
+            "y": -1155,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "f197d5cbb5eed751",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R7.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_SIL_DP",
+            "parentId": "77b2169eaf4c4832",
+            "x": 405,
+            "y": -1260,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_SIL_DP",
+            "parentId": "77b2169eaf4c4832",
+            "x": 405,
+            "y": -1260,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "47d7cc380df28099",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R8.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_SIL_DM",
+            "parentId": "ff63908e02bc5e10",
+            "x": 405,
+            "y": -1190,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_SIL_DM",
+            "parentId": "ff63908e02bc5e10",
+            "x": 405,
+            "y": -1190,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "7e5caf9a99b1a34e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R9.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_PUR",
+            "parentId": "21d9cc854b70d629",
+            "x": 405,
+            "y": -1360,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_PUR",
+            "parentId": "21d9cc854b70d629",
+            "x": 405,
+            "y": -1360,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "338002f39089836e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R12.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "b2aaf3b09f45a9ea",
+            "x": 215,
+            "y": -1040,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "b2aaf3b09f45a9ea",
+            "x": 215,
+            "y": -1040,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "5f14681ea74b1617",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U4.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "6ac18aa8bb5473d8",
+            "x": 1560,
+            "y": -1215,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "6ac18aa8bb5473d8",
+            "x": 1560,
+            "y": -1215,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "16288868791d3a4e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J8.5"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "EE_WP",
+            "parentId": "629c2b229d7ffb79",
+            "x": 2005,
+            "y": -1230,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "EE_WP",
+            "parentId": "629c2b229d7ffb79",
+            "x": 2005,
+            "y": -1230,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "eb7d6452c738745a",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J9.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_SCL",
+            "parentId": "061f3a872e6bad1d",
+            "x": 1275,
+            "y": -1145,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_SCL",
+            "parentId": "061f3a872e6bad1d",
+            "x": 1275,
+            "y": -1145,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "9ca88e90b93b8d27",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R23.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_SDA",
+            "parentId": "2ec7a221195cf69c",
+            "x": 1285,
+            "y": -1260,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_SDA",
+            "parentId": "2ec7a221195cf69c",
+            "x": 1285,
+            "y": -1260,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "6b01fc7b5d85a7ea",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R25.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "4ba686fab60bfdf4",
+            "x": 1285,
+            "y": -1380,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "4ba686fab60bfdf4",
+            "x": 1285,
+            "y": -1380,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "3af7df5259c252a3",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "D10.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_SUSPEND",
+            "parentId": "4d93152cce05b9e7",
+            "x": 445,
+            "y": -640,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_SUSPEND",
+            "parentId": "4d93152cce05b9e7",
+            "x": 445,
+            "y": -640,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "e2d4f206aef70581",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R10.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "e015105588a5096b",
+            "x": 185,
+            "y": -730,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "e015105588a5096b",
+            "x": 185,
+            "y": -730,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "00ac6635f6c1cb08",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "Y2.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "SIL_X1",
+            "parentId": "154a877f242c0ce7",
+            "x": 1045,
+            "y": -640,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "SIL_X1",
+            "parentId": "154a877f242c0ce7",
+            "x": 1045,
+            "y": -640,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "50402714ce49fa2c",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "Y2.4"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "83398fd55fa0c776",
+            "x": 1045,
+            "y": -660,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "83398fd55fa0c776",
+            "x": 1045,
+            "y": -660,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "686dd0dac484f537",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "Q1.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "TI_BASE_TIP",
+            "parentId": "0b10274f66b5b0db",
+            "x": 1705,
+            "y": -700,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "TI_BASE_TIP",
+            "parentId": "0b10274f66b5b0db",
+            "x": 1705,
+            "y": -700,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "2f01361f2b3d889a",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "Q2.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "TI_BASE_RING",
+            "parentId": "9a4276a9f42c0c62",
+            "x": 1705,
+            "y": -500,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "TI_BASE_RING",
+            "parentId": "9a4276a9f42c0c62",
+            "x": 1705,
+            "y": -500,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "3c3afe1466a299d9",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R17.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "c934c55fd141459f",
+            "x": 1515,
+            "y": -640,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "c934c55fd141459f",
+            "x": 1515,
+            "y": -640,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "6c056b577a1bc622",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J4.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "d28d809d9f337b02",
+            "x": 2115,
+            "y": -610,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "d28d809d9f337b02",
+            "x": 2115,
+            "y": -610,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        }
+      ]
+    },
+    "a7339d4f40ceaf34": {
+      "page_name": "03_UART_Adapters",
+      "actions": [
+        {
+          "id": "3e0985136457375f",
+          "reason": "A2-size frame has stale A4 title metadata.",
+          "before": {
+            "key": "Page Size",
+            "value": "A4",
+            "parentId": "29c096a95bef8507"
+          },
+          "after": {
+            "key": "Page Size",
+            "value": "A2",
+            "parentId": "29c096a95bef8507"
+          },
+          "changes": {
+            "value": "A2"
+          }
+        },
+        {
+          "id": "d6495dd1e05332ed",
+          "reason": "A2-size frame has stale A4 title metadata.",
+          "before": {
+            "key": "Size",
+            "value": "A4",
+            "parentId": "29c096a95bef8507"
+          },
+          "after": {
+            "key": "Size",
+            "value": "A2",
+            "parentId": "29c096a95bef8507"
+          },
+          "changes": {
+            "value": "A2"
+          }
+        },
+        {
+          "id": "83bc101e4d99fd4f",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U3.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "428d0808ed16e008",
+            "x": 390,
+            "y": -1265,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "3V3",
+            "parentId": "428d0808ed16e008",
+            "x": 390,
+            "y": -1265,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "d5634b624a2e5cbf",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U3.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "f6a3acef03f1f360",
+            "x": 390,
+            "y": -1255,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "f6a3acef03f1f360",
+            "x": 390,
+            "y": -1255,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "c446043eb9d858b9",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U3.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "5V_SERIAL",
+            "parentId": "0215893087d1e939",
+            "x": 390,
+            "y": -1245,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "5V_SERIAL",
+            "parentId": "0215893087d1e939",
+            "x": 390,
+            "y": -1245,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "40dc241495ec295a",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U3.4"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "UART_TX",
+            "parentId": "ce8b6f5274af03b7",
+            "x": 390,
+            "y": -1235,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "UART_TX",
+            "parentId": "ce8b6f5274af03b7",
+            "x": 390,
+            "y": -1235,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "6dbd737abb4242c9",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U3.5"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "UART_RX",
+            "parentId": "379d6ae04d0248de",
+            "x": 390,
+            "y": -1225,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "UART_RX",
+            "parentId": "379d6ae04d0248de",
+            "x": 390,
+            "y": -1225,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "30184684993cc500",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U3.6"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "UART_V3",
+            "parentId": "b75298370d11d35e",
+            "x": 390,
+            "y": -1215,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "UART_V3",
+            "parentId": "b75298370d11d35e",
+            "x": 390,
+            "y": -1215,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "05d514181a6ee797",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U3.7"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_UART_DP",
+            "parentId": "87e4cef3f1fa6e10",
+            "x": 390,
+            "y": -1205,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_UART_DP",
+            "parentId": "87e4cef3f1fa6e10",
+            "x": 390,
+            "y": -1205,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "55ba4eb3306701c3",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U3.8"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "USB_UART_DM",
+            "parentId": "e653c6576e4a503a",
+            "x": 390,
+            "y": -1195,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "USB_UART_DM",
+            "parentId": "e653c6576e4a503a",
+            "x": 390,
+            "y": -1195,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "959f3a28b097d664",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U7.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "UART_TX",
+            "parentId": "4a1df4c06a724635",
+            "x": 1165,
+            "y": -1320,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "UART_TX",
+            "parentId": "4a1df4c06a724635",
+            "x": 1165,
+            "y": -1320,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "216002f0f7020524",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U7.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "8cffd63a5c3fe2e4",
+            "x": 1165,
+            "y": -1300,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "8cffd63a5c3fe2e4",
+            "x": 1165,
+            "y": -1300,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "92e9f6c7fc2d13ee",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U8.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "UART_RX_FILTER",
+            "parentId": "0b7cb8368acc6ac7",
+            "x": 1195,
+            "y": -1060,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "UART_RX_FILTER",
+            "parentId": "0b7cb8368acc6ac7",
+            "x": 1195,
+            "y": -1060,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "8de846a7c7e7cde4",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "U8.4"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "UART_RX",
+            "parentId": "47ff6978b4e3d754",
+            "x": 1195,
+            "y": -1040,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "UART_RX",
+            "parentId": "47ff6978b4e3d754",
+            "x": 1195,
+            "y": -1040,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "ce036c0598dfcf9d",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "R30.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "UART_RX_EXT",
+            "parentId": "7bfd6537a6f5fbf4",
+            "x": 1475,
+            "y": -1060,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "UART_RX_EXT",
+            "parentId": "7bfd6537a6f5fbf4",
+            "x": 1475,
+            "y": -1060,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "57b9cd1aa19ea77e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J5.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "CASIO_RX",
+            "parentId": "3cba12d9f500d866",
+            "x": 555,
+            "y": -610,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "CASIO_RX",
+            "parentId": "3cba12d9f500d866",
+            "x": 555,
+            "y": -610,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "e0a92e3b86b2edec",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J5.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "CASIO_TX",
+            "parentId": "5e75be5dfb4fd3b3",
+            "x": 555,
+            "y": -600,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "CASIO_TX",
+            "parentId": "5e75be5dfb4fd3b3",
+            "x": 555,
+            "y": -600,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "58be928a1739a8ee",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J5.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "4ce67721660848d2",
+            "x": 555,
+            "y": -590,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "4ce67721660848d2",
+            "x": 555,
+            "y": -590,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "061d1870f126b41c",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J7.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "CASIO_RX",
+            "parentId": "e23a9ed27e6ee09d",
+            "x": 1015,
+            "y": -640,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "CASIO_RX",
+            "parentId": "e23a9ed27e6ee09d",
+            "x": 1015,
+            "y": -640,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "abe8a693d298445e",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J7.3"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "UART_RX_EXT",
+            "parentId": "ebd11a91248bd2fa",
+            "x": 1015,
+            "y": -630,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "UART_RX_EXT",
+            "parentId": "ebd11a91248bd2fa",
+            "x": 1015,
+            "y": -630,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "50ce3a08e5b71c47",
+          "reason": "Actual horizontal NET anchor is on a left-facing pin stub; default centered text overlaps pin numbers/names.",
+          "pin_basis": [
+            "J7.5"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "AUX_RX",
+            "parentId": "27313f81cf6e4977",
+            "x": 1015,
+            "y": -620,
+            "rotation": null,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "AUX_RX",
+            "parentId": "27313f81cf6e4977",
+            "x": 1015,
+            "y": -620,
+            "rotation": null,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        }
+      ]
+    }
+  }
+}

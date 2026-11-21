@@ -1,0 +1,81 @@
+{
+  "jobId": "job-mcp-5c1118cc-7c0e-40ff-8ef7-df5f9482609a",
+  "checkedAt": "2026-11-21T12:35:36.992Z",
+  "activeAfter": {
+    "documentType": 3,
+    "uuid": "2a0c39c6c6694f40",
+    "tabId": "2a0c39c6c6694f40@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+  },
+  "boards": [
+    {
+      "uuid": "0585a3d4c9a466a0",
+      "name": "Calxus_RevA",
+      "schematic": {
+        "itemType": "Schematic",
+        "uuid": "992d265f851ac884",
+        "page": [
+          {
+            "itemType": "Schematic Page",
+            "uuid": "0b9f8a9f53fb8264",
+            "name": "01_USB_Power",
+            "parentSchematicUuid": "992d265f851ac884",
+            "showTitleBlock": true,
+            "titleBlockData": {}
+          },
+          {
+            "itemType": "Schematic Page",
+            "uuid": "35c8fed936c1c8a9",
+            "name": "02_TI_SilverLink",
+            "parentSchematicUuid": "992d265f851ac884",
+            "showTitleBlock": true,
+            "titleBlockData": {}
+          },
+          {
+            "itemType": "Schematic Page",
+            "uuid": "a7339d4f40ceaf34",
+            "name": "03_UART_Adapters",
+            "parentSchematicUuid": "992d265f851ac884",
+            "showTitleBlock": true,
+            "titleBlockData": {}
+          }
+        ],
+        "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+        "parentBoardName": "Calxus_RevA",
+        "name": "Schematic1"
+      },
+      "pcb": {
+        "itemType": "PCB",
+        "uuid": "2a0c39c6c6694f40",
+        "name": "pcb-before-stackup",
+        "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+        "parentBoardName": "Calxus_RevA"
+      }
+    }
+  ],
+  "pcbCounts": {
+    "components": 97,
+    "pins": 345,
+    "emptyNets": 21
+  },
+  "schematicCounts": {
+    "components": 97,
+    "pins": 345,
+    "emptyNets": 21
+  },
+  "pinDifferences": [],
+  "bindingDifferences": [],
+  "fileComparison": {
+    "error": "Error: TypeError: Cannot read properties of undefined (reading 'components')"
+  },
+  "files": [
+    {
+      "name": "native-pcb-final.enet",
+      "bytes": 230951
+    },
+    {
+      "name": "native-schematic-final.enet",
+      "bytes": 324715
+    }
+  ]
+}

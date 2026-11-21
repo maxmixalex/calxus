@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-21 11:12:53 UTC",
+  "jobId": "job-mcp-d0481362-d2b6-4d82-b1c6-3b484661b558",
+  "deliveryState": "claimed",
+  "jobState": "completed",
+  "acceptedAt": "2026-11-21T11:11:31.917Z",
+  "startedAt": "2026-11-21T11:11:31.932Z",
+  "completedAt": "2026-11-21T11:11:32.256Z",
+  "taskId": "inspect890",
+  "taskState": "success",
+  "next": 920,
+  "savedThrough": 880,
+  "recoveryActions": "Control-plane status reads only. No cancellation, no new diagnostic job, no browser interaction, no native canvas access, no save/reload, and no mutation replay.",
+  "interpretation": "Original read-only job completed successfully. delivery=claimed is not evidence of an unfinished job when job.state=completed and task.state=success. Root/routing independently confirmed a second new read-only job also completed."
+}

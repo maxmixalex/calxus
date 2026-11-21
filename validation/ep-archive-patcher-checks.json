@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    [
+      "two fills + six records; protected bytes",
+      true
+    ],
+    [
+      "double patch refused",
+      true
+    ],
+    [
+      "UUID remap resolved through strict U2 component",
+      true
+    ],
+    [
+      "wrong component MPN refused",
+      true
+    ],
+    [
+      "changed aperture geometry refused",
+      true
+    ]
+  ],
+  "fixture": "Old preserved archive only; not proof of final native import."
+}

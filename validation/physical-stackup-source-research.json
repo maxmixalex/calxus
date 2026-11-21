@@ -1,0 +1,271 @@
+{
+  "scope": "Read-only native documentation, archive and runtime getter investigation; no canvas mutation or active document change.",
+  "native_editor_version": "4.1.105",
+  "new_physical_configuration_api": {
+    "introduced": "4.2",
+    "official_url": "https://prodocs.lceda.cn/cn/api/reference/pro-api.pcb_layer.overwritecurrentphysicalstackingconfiguration.html",
+    "native_class": {
+      "title": "PCB & 封装 / 图层操作类",
+      "visibility": "public",
+      "methods": [
+        {
+          "name": "selectLayer",
+          "comment": "选中图层",
+          "visibility": "public"
+        },
+        {
+          "name": "setLayerVisible",
+          "comment": "将层设置为可见",
+          "visibility": "beta"
+        },
+        {
+          "name": "setLayerInvisible",
+          "comment": "将层设置为不可见",
+          "visibility": "beta"
+        },
+        {
+          "name": "lockLayer",
+          "comment": "锁定层",
+          "visibility": "beta"
+        },
+        {
+          "name": "unlockLayer",
+          "comment": "取消锁定层",
+          "visibility": "beta"
+        },
+        {
+          "name": "setTheNumberOfCopperLayers",
+          "comment": "设置铜箔层数",
+          "visibility": "beta"
+        },
+        {
+          "name": "setLayerColorConfiguration",
+          "comment": "设置层颜色配置",
+          "visibility": "beta"
+        },
+        {
+          "name": "setInactiveLayerTransparency",
+          "comment": "设置非激活层透明度",
+          "visibility": "beta"
+        },
+        {
+          "name": "setPcbType",
+          "comment": "设置 PCB 类型",
+          "visibility": "beta"
+        },
+        {
+          "name": "addCustomLayer",
+          "comment": "新增自定义层",
+          "visibility": "beta"
+        },
+        {
+          "name": "removeLayer",
+          "comment": "移除层",
+          "visibility": "beta"
+        },
+        {
+          "name": "modifyLayer",
+          "comment": "修改图层属性",
+          "visibility": "beta"
+        },
+        {
+          "name": "getAllLayers",
+          "comment": "获取所有图层的详细属性",
+          "visibility": "beta"
+        },
+        {
+          "name": "setInactiveLayerDisplayMode",
+          "comment": "设置非激活层展示模式",
+          "visibility": "beta"
+        },
+        {
+          "name": "getStackup",
+          "comment": "读取当前 PCB 的物理叠层与铜厚",
+          "visibility": "beta"
+        }
+      ],
+      "callPath": "pcb_Layer"
+    },
+    "runtime_probe": {
+      "methods": {
+        "getCurrentPhysicalStackingConfigurationName": "function",
+        "getCurrentPhysicalStackingConfiguration": "function",
+        "getPhysicalStackingConfiguration": "function",
+        "getAllPhysicalStackingConfigurations": "function",
+        "savePhysicalStackingConfiguration": "function",
+        "overwriteCurrentPhysicalStackingConfiguration": "function",
+        "setAsDefaultPhysicalStackingConfiguration": "function"
+      }
+    },
+    "interpretation": "typeof returns function but current configuration getter returns undefined; search index lists future methods while installed method documentation omits them. Do not apply a guessed configuration."
+  },
+  "format_definitions": {
+    "type0": {
+      "name": "TLayerPhys",
+      "comment": "层物理特性配置\n\n一行一条（`type:\"LAYER_PHYS\"`），**按层**描述它在**物理上**是什么：层材质、\n芯板 / 介质层厚度、介电常数、损耗切线（阻抗与叠层计算要用），以及 `zIndex`。\n\n⚠️ **`zIndex` 才是层的物理堆叠顺序** —— 3.0 把物理堆叠从层号与行序里拆了出来，\n单放在本类型表达，别再从层号或 `LAYER` 行的先后顺序推断谁在谁上面（详见 `TLayerWire`）。\n\n【外层数据id构造】id 是**数组串** `[\"LAYER_PHYS\", 层号]`，层号沿用 `TLayerWire` 那一套层编号。\n⚠️ **层号只存在于 id 里** —— 本类型的载荷**没有** `layerId` 字段，要拿层号必须解析 id。\n（数组串是**键式 id**，见 `TKeyedElementId`。）",
+      "fields": [
+        {
+          "name": "material",
+          "type": "string",
+          "comment": "层材质",
+          "required": true
+        },
+        {
+          "name": "thickness",
+          "type": "number",
+          "comment": "芯板/介质层厚度：**盘值 = 内部厚度（mm）× 10，即盘上以 0.1 mm 为单位**\n（编码端 `toFix(thickness * 10, 3)`、解码端 `thickness / 10`）。\n\n例：`1.4` = 0.14 mm（铜箔）、`12.6` = 1.26 mm（FR-4 芯板）。\n\n⚠️ 注意与文件其余长度字段的区别——那些是 mil，本字段是 mm 系。",
+          "required": true
+        },
+        {
+          "name": "permittivity",
+          "type": "number",
+          "comment": "介电常数",
+          "required": true
+        },
+        {
+          "name": "lossTangent",
+          "type": "number",
+          "comment": "损耗切线",
+          "required": true
+        },
+        {
+          "name": "isKeepIsland",
+          "type": "boolean",
+          "comment": "内电层是否保留孤岛",
+          "required": true
+        },
+        {
+          "name": "zIndex",
+          "type": "number",
+          "comment": "顺序大小",
+          "required": true
+        }
+      ]
+    },
+    "type1": {
+      "name": "TLayerWire",
+      "comment": "层配置\n\n⚠️ **不要从层号、也不要从 `LAYER` 行的先后顺序推断层在物理上的堆叠位置**：\n3.0 把物理堆叠拆到了 **`LAYER_PHYS`** 里单独表达（其 `zIndex` 才是堆叠顺序），\n本类型只描述每一层自身的类型 / 别名 / 颜色等属性。\n（2.0 的位置化格式里确实是「`SIGNAL` / `PLANE` / `SUBSTRATE` 的出现顺序隐含物理堆叠顺序」，\n那条口径在 3.0 已不适用，**别照它解析**。）\n层的数量不受限制。\n\n## 封装（FOOTPRINT）的层\n\n封装文档与 PCB **共用同一套层机制**，只是常用的层不同；`layerType` 的取值集合是同一套\n（见下方 `layerType` 字段）。除此之外封装还有 **5 个专用层**——\n这 5 个层在 **PCB 文档里同样存在**，那边的含义是「封装内部的层」，用于**覆盖封装内图元**：\n\n| 层号 | `layerType` | 含义 |\n| ---- | ----------- | ---- |\n| 48 | `COMPONENT_SHAPE` | 元件轮廓（元件外形显示） |\n| 49 | `COMPONENT_MARKING` | 元件标记（元件标识信息） |\n| 50 | `PIN_SOLDERING` | 引脚焊接层 |\n| 51 | `PIN_FLOATING` | 浮动引脚层 |\n| 52 | `COMPONENT_MODEL` | 元件模型层 |\n\n⚠️ 实现把 **48 / 49 / 50 / 51** 这四个层归为「**只能有 `REGION` / `LINE`**」的层\n（属性面板据此过滤可选层）——往这几层放别的图元，在编辑器里选不中。\n\n旧 2.0 文档另有一条口径可参考：封装「能采用的图元有限」，且**绝不应出现\n`DEVICE` / `FOOTPRINT` / `COMPONENT` 图元**（封装不得再调用封装、以免递归定义）。\n\n【外层数据id构造】id 是**数组串** `[\"LAYER\", 层号]` —— 层号就是本类型的字段 `layerId`\n（两边各有一份，**冗余**）。⚠️ 3D 层的 id 前缀是 `LAYER_3D` 而非 `LAYER`\n—— 3D 与否**不在载荷里**，解码后由 `TLayerWire` 的 `is3D` 字段体现。\n这种**数组串**是**键式 id**（见 `TKeyedElementId`）；\n同族的数组串 id 还有 `TLayerPhys` 的 `[\"LAYER_PHYS\", 层号]`、`TLayerFill` 的\n`[\"LAYER_FILL\", 层号]`、`TSilkOpts` 的 `[\"SILK_OPTS\", 层号]`。",
+      "fields": [
+        {
+          "name": "layerId",
+          "type": "number | ELayerCode",
+          "comment": "层号。\n\n与外壳 id `[\"LAYER\", 层号]` 里的层号同值（**冗余**），但写盘体里确实会带该键。\n**第几号是哪一层见 `ELayerCode`** —— 那是层编号的枚举（`1` = 顶层、`47` = 孔层 …）。\n\n⚠️ 标为**可选**是为了不破坏既有构造点：本包的 `2.0To3.0/PcbTransform` 与\n`FootprintTransform` 走的是 `encodeLayer(layerId, {…})`——层号走**独立形参**、\n不在载荷对象里；解码端也靠交叉类型 `{ layerId: number } & TLayer` 补它。\n标成必填会让这些点全部编译不过。",
+          "required": false
+        },
+        {
+          "name": "layerType",
+          "type": "string | ELayerType",
+          "comment": "层类型, 是固定枚举值。\n\n**PCB 与封装文档共用同一套取值**（见类型说明里的「封装的层」一节）。\n**取值表见 `ELayerType`** —— 那里把每一层的**字符串名与中文含义**列全了（该枚举不在本仓\n定义，来自 pro-pcb）。字段类型写成 **`string | ELayerType`** 而不是单用枚举：实际数据里\n它就是普通字符串，收紧成枚举会让消费方的构造点编译不过。同一层的**数字编号**见 `ELayerCode`。\n\n⚠️ 几条最容易看错的：\n- **底层信号层是 `BOTTOM`**（**不带前缀**）；而底层丝印 / 阻焊 / 助焊 / 装配是 **`BOT_` 前缀**：\n `BOT_SILK` / `BOT_SOLDER_MASK` / `BOT_PASTE_MASK` / `BOT_ASSEMBLY`；\n- **没有 `DRILL`** —— 钻孔相关的是 `DRILL_DRAWING`（钻孔图层）与 `HOLE`（孔层）；\n- 3D 外壳相关的三个取值**以数字开头**（`3D_SHELL_OUTLINE` / `3D_SHELL_TOP` / `3D_SHELL_BOTTOM`）。\n\n⚠️ 旧版本注释里列的 `GROUND` / `POWER` / `MIXED` / `JUMPER` / `DRC` /\n`BOARD_OUTLINE` / `MULTI_LAYER` **都不是合法取值**，已删除——它们是把别处的\n同名概念误抄进来的。",
+          "required": true
+        },
+        {
+          "name": "layerName",
+          "type": "string",
+          "comment": "层别名，需要唯一",
+          "required": true
+        },
+        {
+          "name": "use",
+          "type": "boolean",
+          "comment": "是否使用",
+          "required": true
+        },
+        {
+          "name": "show",
+          "type": "boolean",
+          "comment": "是否显示",
+          "required": true
+        },
+        {
+          "name": "locked",
+          "type": "boolean",
+          "comment": "是否锁定",
+          "required": true
+        },
+        {
+          "name": "activeColor",
+          "type": "string",
+          "comment": "激活颜色",
+          "required": true
+        },
+        {
+          "name": "activateTransparency",
+          "type": "number",
+          "comment": "激活透明度",
+          "required": true
+        },
+        {
+          "name": "inactiveColor",
+          "type": "string",
+          "comment": "非激活颜色",
+          "required": true
+        },
+        {
+          "name": "inactiveTransparency",
+          "type": "number",
+          "comment": "非激活透明度",
+          "required": true
+        }
+      ]
+    },
+    "type2": {
+      "name": "TD3Attribute",
+      "comment": "3d 右侧面板属性\n\n一份文档里**只有一条**（`type:\"D3_ATTRIBUTE\"`），对应 **3D 视图右侧属性面板**上的那组\n外观设置：基板材质与丝印工艺，板子 / 焊盘喷镀 / 背景三种颜色，层发散，\n以及基板相对外壳底面的高度。\n\n⚠️ 它**不是图元**：没有层、没有坐标，也**不改变任何 2D 图元数据**，只影响 3D 侧的呈现。\n别与描述立体外壳几何的 `TPcbShell` 混为一谈 —— 一个是外观参数，一个是外壳轮廓。\n\nid 是**固定单例名** `\"D3_ATTRIBUTE\"`（这类**固定单例 id** 见 `TSingletonElementId`）。",
+      "fields": [
+        {
+          "name": "materials",
+          "type": "string",
+          "comment": "基板材质",
+          "required": true
+        },
+        {
+          "name": "silkTechnology",
+          "type": "string",
+          "comment": "丝印工艺",
+          "required": true
+        },
+        {
+          "name": "backgroundColor",
+          "type": "string",
+          "comment": "背景颜色",
+          "required": true
+        },
+        {
+          "name": "boardColor",
+          "type": "string",
+          "comment": "板子颜色",
+          "required": true
+        },
+        {
+          "name": "sprayColor",
+          "type": "string",
+          "comment": "焊盘喷镀",
+          "required": true
+        },
+        {
+          "name": "layerExpose",
+          "type": "number",
+          "comment": "层发散",
+          "required": true
+        },
+        {
+          "name": "substrateHeight",
+          "type": "number",
+          "comment": "PCB 距外壳底面的高度：**单位为 mm**。\n\n⚠️ 读写两端都**不做 ×10 / ÷10 换算**（编码 `D3AttributeEncode` 原样返回、\n解码 `D3AttributeDecode` 直接取用），盘上的值就是 mm 值（例 `1.6` = 1.6 mm）。",
+          "required": true
+        }
+      ]
+    }
+  },
+  "unit_conflict": {
+    "documented_mm_per_unit": 0.1,
+    "observed_epro2_mm_per_unit": 0.0254,
+    "measured_step_mm_per_source_unit": 0.025400050800101596,
+    "original_top_copper_raw": 1.379,
+    "original_substrate_raw": 59.449,
+    "decision": "Preserve the measured current epro2 scale. Native importer may transform persisted EPRJ3 fields; verify getStackup and actual Board BREP after import."
+  },
+  "verified_patch_script": "../tools/patch_native_stackup.py",
+  "dryrun_report": "physical-stackup-offline-patch-dryrun.json",
+  "independent_schematic_audit": "physical-stackup-offline-schematic-audit.json"
+}

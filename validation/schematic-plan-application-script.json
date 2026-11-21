@@ -1,0 +1,19 @@
+{
+  "scope": "Offline script/parser check only; not native EDA execution",
+  "script": "automation/lceda_schematic_plan.js",
+  "javascript_parse": true,
+  "reset_fixture": "Observed native DOCHEAD/WIRE/LINE/ATTR records from schematic-record-samples.json",
+  "checks": {
+    "backup_exact_before_mutation": true,
+    "delete_target_page_WIRE_and_own_LINE_ATTR_only": true,
+    "other_page_byte_preserved": true,
+    "components_library_NC_preserved": true,
+    "every_mocked_canvas_call_has_explicit_activate": true
+  },
+  "requires_native_after_apply": [
+    "pin geometry readback",
+    "full exported netlist comparison",
+    "ERC",
+    "visual layout inspection"
+  ]
+}

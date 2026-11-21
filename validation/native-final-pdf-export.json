@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "kind": "pdf",
+  "checkedAt": "2026-11-21T12:47:18.751Z",
+  "requested": {
+    "projectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "pcbId": "2a0c39c6c6694f40",
+    "schematicPageId": "0b9f8a9f53fb8264"
+  },
+  "files": [
+    {
+      "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_schematic.zip",
+      "nativeName": "Calxus_RevA_schematic.zip",
+      "size": 283576,
+      "type": "",
+      "saved": true,
+      "format": "zip",
+      "readbackBytes": 283576,
+      "readbackByteIdentical": true
+    },
+    {
+      "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_schematic.pdf",
+      "nativeName": null,
+      "size": 283420,
+      "type": "application/pdf",
+      "saved": true,
+      "format": "pdf",
+      "zipEntry": "SCH_Schematic1_2026-11-21.pdf",
+      "crc32": "4b3eca78",
+      "readbackBytes": 283420,
+      "readbackByteIdentical": true
+    }
+  ],
+  "failures": [],
+  "activeDocument": {
+    "documentType": 1,
+    "uuid": "0b9f8a9f53fb8264",
+    "tabId": "0b9f8a9f53fb8264@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+  },
+  "activationMode": "previous_completed_invocation",
+  "finishedAt": "2026-11-21T12:47:25.120Z",
+  "manifestPath": "D:/Works/Calc/Calxus/exports/Calxus_RevA_pdf_export-report.json",
+  "manifestSaved": true
+}

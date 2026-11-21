@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-21",
+  "four_layer_support_source": "https://jlcpcb.com/news/free-via-in-pad-6-20-layer-pcbs-pofv",
+  "process_source": "https://jlcpcb.com/help/article/via-in-pad-pofv-guide",
+  "via_covering_source": "https://jlcpcb.com/help/article/pcb-via-covering",
+  "selected_process": "Epoxy Filled & Capped; cure/planarize/copper cap; not soldermask tenting or ink plugging",
+  "selected_hole_mm": 0.2,
+  "selected_pad_mm": 0.5,
+  "required_vias": [
+    {
+      "net": "GND",
+      "x": 1833.74502,
+      "y": 928.24502,
+      "diameter": 19.68503937007874,
+      "holeDiameter": 7.874015748031497,
+      "fromLayer": 1,
+      "toLayer": 2,
+      "tag": "U2_EP_GND_1",
+      "process_group": "VIPPO_EP"
+    },
+    {
+      "net": "GND",
+      "x": 1943.74502,
+      "y": 1038.24502,
+      "diameter": 19.68503937007874,
+      "holeDiameter": 7.874015748031497,
+      "fromLayer": 1,
+      "toLayer": 2,
+      "tag": "U2_EP_GND_2",
+      "process_group": "VIPPO_EP"
+    },
+    {
+      "net": "GND",
+      "x": 2341.57802,
+      "y": 392.77802,
+      "diameter": 19.68503937007874,
+      "holeDiameter": 7.874015748031497,
+      "fromLayer": 1,
+      "toLayer": 2,
+      "tag": "U3_EP_GND_1",
+      "process_group": "VIPPO_EP"
+    },
+    {
+      "net": "GND",
+      "x": 2381.57802,
+      "y": 432.77802,
+      "diameter": 19.68503937007874,
+      "holeDiameter": 7.874015748031497,
+      "fromLayer": 1,
+      "toLayer": 2,
+      "tag": "U3_EP_GND_2",
+      "process_group": "VIPPO_EP"
+    }
+  ],
+  "supports_4_layer": true,
+  "official_pofv_hole_range_mm": [
+    0.2,
+    0.5
+  ],
+  "order_status": "No order placed; ensure these specific holes selected in production file review."
+}

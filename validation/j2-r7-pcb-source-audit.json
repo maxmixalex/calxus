@@ -1,0 +1,297 @@
+{
+  "checkedAt": "2026-11-21T10:40:55.302Z",
+  "kind": "pcb",
+  "project": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+  "document": "2a0c39c6c6694f40",
+  "oldId": "bf0558871cf48b60",
+  "newId": "b5596e790541d216",
+  "protectedRecords": 1275,
+  "differences": [],
+  "pass": true,
+  "excludedNonGeometryCounters": [],
+  "counts": {
+    "COMPONENT": 97,
+    "LINE": 139,
+    "VIA": 61,
+    "POUR": 2,
+    "REGION": 8,
+    "LAYER_PHYS": 13,
+    "PAD": 27,
+    "POLY": 1
+  },
+  "stackup": {
+    "layers": [
+      {
+        "layerId": 3,
+        "layerName": "Top Silkscreen Layer",
+        "layerType": "TOP_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1
+      },
+      {
+        "layerId": 7,
+        "layerName": "Top Paste Mask Layer",
+        "layerType": "TOP_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 2
+      },
+      {
+        "layerId": 5,
+        "layerName": "Top Solder Mask Layer",
+        "layerType": "TOP_SOLDER_MASK",
+        "kind": "other",
+        "material": "Solder mask",
+        "thickness": 0.39370078740157477,
+        "permittivity": 3.8,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 3
+      },
+      {
+        "layerId": 1,
+        "layerName": "Top Layer",
+        "layerType": "TOP",
+        "kind": "copper",
+        "material": "Copper 1oz",
+        "thickness": 1.377952755905512,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1000
+      },
+      {
+        "layerId": 361,
+        "layerName": "PP7628 top",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "7628 prepreg",
+        "thickness": 8.283464566929135,
+        "permittivity": 4.4,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      },
+      {
+        "layerId": 15,
+        "layerName": "Inner1",
+        "layerType": "SIGNAL",
+        "kind": "copper",
+        "material": "Copper 0.5oz",
+        "thickness": 0.5984251968503937,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 2000
+      },
+      {
+        "layerId": 362,
+        "layerName": "FR4 core",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "FR-4 core",
+        "thickness": 41.92913385826772,
+        "permittivity": 4.38,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 2001
+      },
+      {
+        "layerId": 16,
+        "layerName": "Inner2",
+        "layerType": "SIGNAL",
+        "kind": "copper",
+        "material": "Copper 0.5oz",
+        "thickness": 0.5984251968503937,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 3000
+      },
+      {
+        "layerId": 363,
+        "layerName": "PP7628 bottom",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "7628 prepreg",
+        "thickness": 8.283464566929135,
+        "permittivity": 4.4,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 3001
+      },
+      {
+        "layerId": 2,
+        "layerName": "Bottom Layer",
+        "layerType": "BOTTOM",
+        "kind": "copper",
+        "material": "Copper 1oz",
+        "thickness": 1.377952755905512,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 9000
+      },
+      {
+        "layerId": 6,
+        "layerName": "Bottom Solder Mask Layer",
+        "layerType": "BOT_SOLDER_MASK",
+        "kind": "other",
+        "material": "Solder mask",
+        "thickness": 0.39370078740157477,
+        "permittivity": 3.8,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 10000
+      },
+      {
+        "layerId": 8,
+        "layerName": "Bottom Paste Mask Layer",
+        "layerType": "BOT_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10001
+      },
+      {
+        "layerId": 4,
+        "layerName": "Bottom Silkscreen Layer",
+        "layerType": "BOT_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10002
+      }
+    ],
+    "totalThickness": 63.23622047244095,
+    "unit": "mil"
+  },
+  "J2": {
+    "async": true,
+    "primitiveType": "Component",
+    "layer": 1,
+    "x": 1574.8031496062993,
+    "y": 160.43228346456692,
+    "rotation": 0,
+    "primitiveLock": true,
+    "addIntoBom": true,
+    "component": {
+      "libraryUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+      "uuid": {
+        "name": "AF 10.0 HC6.3",
+        "source": "",
+        "uuid": "f88be022b0b8e1ec"
+      }
+    },
+    "primitiveId": "b5596e790541d216",
+    "footprint": {
+      "libraryUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+      "uuid": "27a835ea6dfc1a7f",
+      "name": "USB-A-TH_AF-10.0-HC6.3"
+    },
+    "model3D": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "f9f717efafec4f23bf23d6e98e617557|0819f05c4eef4c71ace90d822a990e87",
+      "name": "USB-A-TH_AF-10.0-HC6.3"
+    },
+    "designator": "J2",
+    "pads": [
+      {
+        "primitiveId": "e24",
+        "net": "GND",
+        "padNumber": "6"
+      },
+      {
+        "primitiveId": "e25",
+        "net": "GND",
+        "padNumber": "5"
+      },
+      {
+        "primitiveId": "e26",
+        "net": "GND",
+        "padNumber": "4"
+      },
+      {
+        "primitiveId": "e27",
+        "net": "USB_A_DP",
+        "padNumber": "3"
+      },
+      {
+        "primitiveId": "e28",
+        "net": "USB_A_DM",
+        "padNumber": "2"
+      },
+      {
+        "primitiveId": "e29",
+        "net": "VBUS_USBA",
+        "padNumber": "1"
+      }
+    ],
+    "name": "={Manufacturer Part}",
+    "uniqueId": "gge4",
+    "manufacturer": "SHOU HAN(首韩)",
+    "manufacturerId": "AF 10.0 HC6.3",
+    "supplier": "LCSC",
+    "supplierId": "C456017",
+    "otherProperty": {
+      "Footprint": "USB-A-TH_AF-10.0-HC6.3",
+      "LCSC Part Name": "壳长10.0mm",
+      "Supplier Footprint": "弯插",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/AF%252010.0%2520HC6.3/458824.html",
+      "3D Model": "f9f717efafec4f23bf23d6e98e617557|0819f05c4eef4c71ace90d822a990e87",
+      "3D Model Title": "USB-A-TH_AF-10.0-HC6.3",
+      "3D Model Transform": "562.991,393.7,0,0,0,0,-0.001,-157.48,-98.425",
+      "Connector Type": "Type-A",
+      "Protocol Standard": "USB 2.0",
+      "Gender": "母",
+      "Mounting Type": "弯插",
+      "Number of Contacts": "4P",
+      "Number of Ports": "1",
+      "Current Rating-Power": "1.5A",
+      "Voltage Rating": "30V",
+      "Connect-Disconnect Life": "5千次",
+      "Supplementary Features": "-",
+      "Center Height": "-",
+      "Length": "10mm",
+      "Detection color": "黑色",
+      "Operating Temperature": "-25℃~+85℃",
+      "Description": "连接器类型:Type-A;协议标准:USB 2.0;公母:母;安装方式:弯插;触点数量:4P;端口数量:1;额定电流 - 电源:1.5A;工作温度:-25℃~+85℃;",
+      "Reuse Block": "",
+      "Group ID": "",
+      "Channel ID": "$1I3",
+      "Calxus Function": "Selected downstream USB-A; C456017 rear shields5/6 grounded; right-angle10mm body6.3mm high."
+    }
+  },
+  "footprintPadSource": [
+    "{\"type\":\"PAD\",\"ticket\":51,\"id\":\"e24\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"6\",\"centerX\":253.935,\"centerY\":-29.53,\"padAngle\":180,\"hole\":{\"holeType\":\"SLOT\",\"width\":82.677,\"height\":31.496},\"defaultPad\":{\"padType\":\"OVAL\",\"width\":51.181,\"height\":110.236},\"specialPad\":[],\"padOffsetX\":0,\"padOffsetY\":0,\"relativeAngle\":90,\"plated\":true,\"padType\":\"NORMAL\",\"topSolderExpansion\":1.9689999999999999,\"bottomSolderExpansion\":1.9689999999999999,\"topPasteExpansion\":0,\"bottomPasteExpansion\":0,\"locked\":false,\"zIndex\":24,\"connectMode\":null,\"spokeSpace\":null,\"spokeWidth\":null,\"spokeAngle\":null,\"padLen\":0}|",
+    "{\"type\":\"PAD\",\"ticket\":52,\"id\":\"e25\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"5\",\"centerX\":-253.935,\"centerY\":-29.53,\"padAngle\":180,\"hole\":{\"holeType\":\"SLOT\",\"width\":82.677,\"height\":31.496},\"defaultPad\":{\"padType\":\"OVAL\",\"width\":51.181,\"height\":110.236},\"specialPad\":[],\"padOffsetX\":0,\"padOffsetY\":0,\"relativeAngle\":90,\"plated\":true,\"padType\":\"NORMAL\",\"topSolderExpansion\":1.9689999999999999,\"bottomSolderExpansion\":1.9689999999999999,\"topPasteExpansion\":0,\"bottomPasteExpansion\":0,\"locked\":false,\"zIndex\":25,\"connectMode\":null,\"spokeSpace\":null,\"spokeWidth\":null,\"spokeAngle\":null,\"padLen\":0}|",
+    "{\"type\":\"PAD\",\"ticket\":53,\"id\":\"e26\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"4\",\"centerX\":137.795,\"centerY\":29.53,\"padAngle\":180,\"hole\":{\"holeType\":\"ROUND\",\"width\":39.37,\"height\":39.37},\"defaultPad\":{\"padType\":\"ELLIPSE\",\"width\":62.992,\"height\":62.992},\"specialPad\":[],\"padOffsetX\":0,\"padOffsetY\":0,\"relativeAngle\":0,\"plated\":true,\"padType\":\"NORMAL\",\"topSolderExpansion\":1.9689999999999999,\"bottomSolderExpansion\":1.9689999999999999,\"topPasteExpansion\":0,\"bottomPasteExpansion\":0,\"locked\":false,\"zIndex\":26,\"connectMode\":null,\"spokeSpace\":null,\"spokeWidth\":null,\"spokeAngle\":null,\"padLen\":0}|",
+    "{\"type\":\"PAD\",\"ticket\":54,\"id\":\"e27\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"3\",\"centerX\":39.375,\"centerY\":29.53,\"padAngle\":180,\"hole\":{\"holeType\":\"ROUND\",\"width\":39.37,\"height\":39.37},\"defaultPad\":{\"padType\":\"ELLIPSE\",\"width\":62.992,\"height\":62.992},\"specialPad\":[],\"padOffsetX\":0.005,\"padOffsetY\":0,\"relativeAngle\":0,\"plated\":true,\"padType\":\"NORMAL\",\"topSolderExpansion\":1.9689999999999999,\"bottomSolderExpansion\":1.9689999999999999,\"topPasteExpansion\":0,\"bottomPasteExpansion\":0,\"locked\":false,\"zIndex\":27,\"connectMode\":null,\"spokeSpace\":null,\"spokeWidth\":null,\"spokeAngle\":null,\"padLen\":0}|",
+    "{\"type\":\"PAD\",\"ticket\":55,\"id\":\"e28\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"2\",\"centerX\":-39.365,\"centerY\":29.53,\"padAngle\":180,\"hole\":{\"holeType\":\"ROUND\",\"width\":39.37,\"height\":39.37},\"defaultPad\":{\"padType\":\"ELLIPSE\",\"width\":62.992,\"height\":62.992},\"specialPad\":[],\"padOffsetX\":0.005,\"padOffsetY\":0,\"relativeAngle\":0,\"plated\":true,\"padType\":\"NORMAL\",\"topSolderExpansion\":1.9689999999999999,\"bottomSolderExpansion\":1.9689999999999999,\"topPasteExpansion\":0,\"bottomPasteExpansion\":0,\"locked\":false,\"zIndex\":28,\"connectMode\":null,\"spokeSpace\":null,\"spokeWidth\":null,\"spokeAngle\":null,\"padLen\":0}|",
+    "{\"type\":\"PAD\",\"ticket\":56,\"id\":\"e29\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"1\",\"centerX\":-137.795,\"centerY\":29.53,\"padAngle\":180,\"hole\":{\"holeType\":\"ROUND\",\"width\":39.37,\"height\":39.37},\"defaultPad\":{\"padType\":\"RECT\",\"width\":62.992,\"height\":62.992,\"radius\":0},\"specialPad\":[],\"padOffsetX\":0.001,\"padOffsetY\":0,\"relativeAngle\":0,\"plated\":true,\"padType\":\"NORMAL\",\"topSolderExpansion\":1.9689999999999999,\"bottomSolderExpansion\":1.9689999999999999,\"topPasteExpansion\":0,\"bottomPasteExpansion\":0,\"locked\":false,\"zIndex\":29,\"connectMode\":null,\"spokeSpace\":null,\"spokeWidth\":null,\"spokeAngle\":null,\"padLen\":0}|"
+  ],
+  "drillSourceNote": "Source records are authoritative: ROUND39.37mil, SLOT82.677x31.496mil relativeAngle90. Pad getter hole numbers have inconsistent unit scaling; do not use them as manufacturing drill dimensions. Final Excellon must independently confirm all six holes.",
+  "approvedPcbModelOverride": {
+    "reference": "SW1",
+    "field": "COMPONENT.attrs.3D Model Transform",
+    "value": "590.55,218.5035,0,0,0,0,0,-38.031,-98.42496063",
+    "deltaZmm": 0.5,
+    "sourceEvidence": "../mechanical/validation/sw1-instance-model-r7.json"
+  }
+}

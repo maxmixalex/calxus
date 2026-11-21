@@ -1,0 +1,24 @@
+[
+  {
+    "type": "warn",
+    "rule": "SHOWDANDLING",
+    "primitives": [
+      {
+        "primitiveId": "fc8b4885d7aec730",
+        "sheet": "35c8fed936c1c8a9",
+        "name": "$2N147"
+      }
+    ]
+  },
+  {
+    "type": "warn",
+    "rule": "SHOWDANDLING",
+    "primitives": [
+      {
+        "primitiveId": "84967908cef7dd7d",
+        "sheet": "35c8fed936c1c8a9",
+        "name": "$2N146"
+      }
+    ]
+  }
+]

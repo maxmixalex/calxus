@@ -1,0 +1,1406 @@
+{
+  "pass": true,
+  "schema": "calxus.offline-candidate-smt-preservation.v1",
+  "scope": "Source-based equivalence preserves existing native BOM/CPL applicability for the unchanged 87-SMT subset; no fresh native export, soldering or assembly-machine orientation approval",
+  "candidate_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "native_export_archive_sha256": "14633dadaf8768727c33a8bd6bf476226d26ff51e3585ab4ac5253297da68137",
+  "native_pads_sha256": "15438345c89c8f98bf584433aa29695262523130430c949230fde5a1fc4629b9",
+  "design_sha256": "0877a26f484a80654b146c332041a5291ad61c37b861dc38caf7ec7c4f77a43d",
+  "checked_smt_count": 87,
+  "preserved_smt_count": 87,
+  "checks": [
+    {
+      "ref": "C1",
+      "pose_mil": {
+        "x": 413.3858,
+        "y": 590.5512,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C10",
+      "pose_mil": {
+        "x": 1712.5984,
+        "y": 895.6693,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C11",
+      "pose_mil": {
+        "x": 1476.378,
+        "y": 885.8268,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C12",
+      "pose_mil": {
+        "x": 1791.3386,
+        "y": 1240.1575,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C13",
+      "pose_mil": {
+        "x": 2066.9291,
+        "y": 1240.1575,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C14",
+      "pose_mil": {
+        "x": 1515.748,
+        "y": 515.748,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C15",
+      "pose_mil": {
+        "x": 2283.4646,
+        "y": 551.1811,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C16",
+      "pose_mil": {
+        "x": 2244.0945,
+        "y": 413.3858,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C17",
+      "pose_mil": {
+        "x": 2421.2598,
+        "y": 551.1811,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "pose_mil": {
+        "x": 2125.9843,
+        "y": 561.0236,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C19",
+      "pose_mil": {
+        "x": 2125.9843,
+        "y": 978.3465,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C2",
+      "pose_mil": {
+        "x": 334.6457,
+        "y": 669.2913,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C20",
+      "pose_mil": {
+        "x": 2677.1654,
+        "y": 1456.6929,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C21",
+      "pose_mil": {
+        "x": 1433.0709,
+        "y": 362.2047,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C22",
+      "pose_mil": {
+        "x": 1082.6772,
+        "y": 590.5512,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C3",
+      "pose_mil": {
+        "x": 1141.7323,
+        "y": 267.7165,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C4",
+      "pose_mil": {
+        "x": 2519.685,
+        "y": 1535.4331,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "pose_mil": {
+        "x": 688.9764,
+        "y": 216.5354,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C6",
+      "pose_mil": {
+        "x": 1141.7323,
+        "y": 669.2913,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C7",
+      "pose_mil": {
+        "x": 1131.8898,
+        "y": 925.1969,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C8",
+      "pose_mil": {
+        "x": 1712.5984,
+        "y": 1035.4331,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "C9",
+      "pose_mil": {
+        "x": 2076.7717,
+        "y": 1114.1732,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pose_mil": {
+        "x": 413.3858,
+        "y": 826.7717,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D10",
+      "pose_mil": {
+        "x": 1476.378,
+        "y": 1102.3622,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D11",
+      "pose_mil": {
+        "x": 541.3386,
+        "y": 1082.6772,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D12",
+      "pose_mil": {
+        "x": 698.8189,
+        "y": 1082.6772,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D13",
+      "pose_mil": {
+        "x": 846.4567,
+        "y": 1082.6772,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D14",
+      "pose_mil": {
+        "x": 994.0945,
+        "y": 1082.6772,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D15",
+      "pose_mil": {
+        "x": 1112.2047,
+        "y": 1082.6772,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D16",
+      "pose_mil": {
+        "x": 2125.9843,
+        "y": 472.4409,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pose_mil": {
+        "x": 2588.5827,
+        "y": 1259.8425,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pose_mil": {
+        "x": 1574.8031,
+        "y": 393.7008,
+        "angle": 180,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 180,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "pose_mil": {
+        "x": 2755.9055,
+        "y": 1023.622,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "pose_mil": {
+        "x": 2755.9055,
+        "y": 708.6614,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D6",
+      "pose_mil": {
+        "x": 2559.0551,
+        "y": 314.9606,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D7",
+      "pose_mil": {
+        "x": 374.0157,
+        "y": 1062.9921,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D8",
+      "pose_mil": {
+        "x": 2608.2677,
+        "y": 1062.9921,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "D9",
+      "pose_mil": {
+        "x": 2728.3465,
+        "y": 1133.8583,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pose_mil": {
+        "x": 166.1417,
+        "y": 826.7717,
+        "angle": 270,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": -90.00000000000001,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "pose_mil": {
+        "x": 2440.9449,
+        "y": 1082.6772,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "Q2",
+      "pose_mil": {
+        "x": 2431.1024,
+        "y": 1240.1575,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R1",
+      "pose_mil": {
+        "x": 216.5354,
+        "y": 1141.7323,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R10",
+      "pose_mil": {
+        "x": 1476.378,
+        "y": 976.378,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R11",
+      "pose_mil": {
+        "x": 1476.378,
+        "y": 1220.4724,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R12",
+      "pose_mil": {
+        "x": 1653.5433,
+        "y": 1141.7323,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R13",
+      "pose_mil": {
+        "x": 1653.5433,
+        "y": 1214.5669,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R14",
+      "pose_mil": {
+        "x": 1791.3386,
+        "y": 728.3465,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R15",
+      "pose_mil": {
+        "x": 1870.0787,
+        "y": 728.3465,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R16",
+      "pose_mil": {
+        "x": 2007.874,
+        "y": 659.4488,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R17",
+      "pose_mil": {
+        "x": 2224.4094,
+        "y": 1062.9921,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R18",
+      "pose_mil": {
+        "x": 2224.4094,
+        "y": 1267.7165,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R19",
+      "pose_mil": {
+        "x": 2224.4094,
+        "y": 1165.3543,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "pose_mil": {
+        "x": 216.5354,
+        "y": 1269.685,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R20",
+      "pose_mil": {
+        "x": 2224.4094,
+        "y": 1370.0787,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R21",
+      "pose_mil": {
+        "x": 1190.9449,
+        "y": 561.0236,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R22",
+      "pose_mil": {
+        "x": 1515.748,
+        "y": 620.0787,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R23",
+      "pose_mil": {
+        "x": 1299.2126,
+        "y": 787.4016,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R25",
+      "pose_mil": {
+        "x": 1299.2126,
+        "y": 403.5433,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R27",
+      "pose_mil": {
+        "x": 1427.1654,
+        "y": 787.4016,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R28",
+      "pose_mil": {
+        "x": 2283.4646,
+        "y": 659.4488,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R29",
+      "pose_mil": {
+        "x": 2283.4646,
+        "y": 787.4016,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R3",
+      "pose_mil": {
+        "x": 511.811,
+        "y": 393.7008,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R30",
+      "pose_mil": {
+        "x": 2283.4646,
+        "y": 915.3543,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R31",
+      "pose_mil": {
+        "x": 2322.8346,
+        "y": 1072.8346,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R32",
+      "pose_mil": {
+        "x": 354.3307,
+        "y": 393.7008,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R33",
+      "pose_mil": {
+        "x": 866.1417,
+        "y": 393.7008,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R34",
+      "pose_mil": {
+        "x": 974.4094,
+        "y": 462.5984,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R35",
+      "pose_mil": {
+        "x": 748.0315,
+        "y": 393.7008,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R36",
+      "pose_mil": {
+        "x": 2362.2047,
+        "y": 1437.0079,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R37",
+      "pose_mil": {
+        "x": 984.252,
+        "y": 88.5827,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R4",
+      "pose_mil": {
+        "x": 639.7638,
+        "y": 393.7008,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R5",
+      "pose_mil": {
+        "x": 1102.3622,
+        "y": 393.7008,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R6",
+      "pose_mil": {
+        "x": 984.252,
+        "y": 216.5354,
+        "angle": 90,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 90,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R7",
+      "pose_mil": {
+        "x": 1692.9134,
+        "y": 787.4016,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R8",
+      "pose_mil": {
+        "x": 1692.9134,
+        "y": 708.6614,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "R9",
+      "pose_mil": {
+        "x": 1564.9606,
+        "y": 763.7795,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pose_mil": {
+        "x": 787.4016,
+        "y": 708.6614,
+        "angle": 180,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 180,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "pose_mil": {
+        "x": 1141.7323,
+        "y": 137.7953,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pose_mil": {
+        "x": 1889.7638,
+        "y": 984.252,
+        "angle": 270,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": -90.00000000000001,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pose_mil": {
+        "x": 2362.2047,
+        "y": 413.3858,
+        "angle": 180,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 180,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pose_mil": {
+        "x": 1338.5827,
+        "y": 590.5512,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "pose_mil": {
+        "x": 1141.7323,
+        "y": 787.4016,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "pose_mil": {
+        "x": 826.7717,
+        "y": 216.5354,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "pose_mil": {
+        "x": 2125.9843,
+        "y": 669.2913,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "pose_mil": {
+        "x": 2125.9843,
+        "y": 866.1417,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "pose_mil": {
+        "x": 2519.685,
+        "y": 1417.3228,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    },
+    {
+      "ref": "Y2",
+      "pose_mil": {
+        "x": 1929.1339,
+        "y": 1240.1575,
+        "angle": 0,
+        "layerId": 1
+      },
+      "pose_matches_native_source_archive": true,
+      "pose_matches_saved_native_api": true,
+      "footprint_identity_preserved": true,
+      "saved_native_api_rotation_degrees": 0,
+      "all_footprint_records_preserved": true,
+      "device_records_preserved": true,
+      "pass": true
+    }
+  ],
+  "errors": []
+}

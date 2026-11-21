@@ -1,0 +1,9 @@
+{
+  "source_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "svg_uncompressed_sha256": "b4c39cb3f4463d68eda1124d823c2320999b12a8c764170c3f62c31cbfdec50f",
+  "svg_bytes": 17560535,
+  "svg_gzip_sha256": "6becc2eb775984895a5a0e41313ac4fc8c73d1cf16a7da9f029211d256860c03",
+  "svg_gzip_bytes": 4667267,
+  "decompressed_byte_identical": true,
+  "png_sha256": "da250e89ad3df68118124cf99afab6a3b0d9eb28b839e603a0160523132e1ea1"
+}

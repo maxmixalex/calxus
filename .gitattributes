@@ -1,0 +1,3 @@
+# Release reports verify exact bytes across native CAD, CSV, JSON and source files.
+# Preserve authored line endings on Windows as well as Linux (including CSV CRLF).
+* -text

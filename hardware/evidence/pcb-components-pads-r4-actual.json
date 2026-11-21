@@ -1,0 +1,4105 @@
+{
+  "units": "mil",
+  "components": [
+    {
+      "ref": "C1",
+      "id": "796fd2b6c597b5ba",
+      "x": 413.3858,
+      "y": 590.5512,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "796fd2b6c597b5bae14",
+          "number": "2",
+          "net": "GND",
+          "x": 413.4,
+          "y": 618.1,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "796fd2b6c597b5bae15",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 413.4,
+          "y": 563,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C2",
+      "id": "4c6aeae29581dcd6",
+      "x": 334.6456999999999,
+      "y": 669.2913,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "4c6aeae29581dcd6e14",
+          "number": "2",
+          "net": "GND",
+          "x": 334.6,
+          "y": 696.9,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "4c6aeae29581dcd6e15",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 334.6,
+          "y": 641.7,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C3",
+      "id": "dbeece3349976426",
+      "x": 1141.7323,
+      "y": 267.7165,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "dbeece3349976426e14",
+          "number": "2",
+          "net": "GND",
+          "x": 1169.3,
+          "y": 267.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "dbeece3349976426e15",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 1114.2,
+          "y": 267.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C4",
+      "id": "e5aa2ca7acea3210",
+      "x": 2519.685,
+      "y": 1535.4331,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "e5aa2ca7acea3210e14",
+          "number": "2",
+          "net": "GND",
+          "x": 2547.2,
+          "y": 1535.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "e5aa2ca7acea3210e15",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 2492.1,
+          "y": 1535.4,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C5",
+      "id": "687da77a6cd4a678",
+      "x": 688.9764,
+      "y": 216.53539999999998,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "687da77a6cd4a678e14",
+          "number": "2",
+          "net": "GND",
+          "x": 689,
+          "y": 244.1,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "687da77a6cd4a678e15",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 689,
+          "y": 189,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C6",
+      "id": "b0905855c95a7c49",
+      "x": 1141.7323,
+      "y": 669.2913,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "b0905855c95a7c49e14",
+          "number": "2",
+          "net": "GND",
+          "x": 1169.3,
+          "y": 669.3,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "b0905855c95a7c49e15",
+          "number": "1",
+          "net": "5V_SERIAL",
+          "x": 1114.2,
+          "y": 669.3,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C7",
+      "id": "fddfff4a311d62e9",
+      "x": 1131.8898,
+      "y": 925.1968999999999,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "fddfff4a311d62e9e14",
+          "number": "2",
+          "net": "GND",
+          "x": 1159.4,
+          "y": 925.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "fddfff4a311d62e9e15",
+          "number": "1",
+          "net": "3V3",
+          "x": 1104.3,
+          "y": 925.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C8",
+      "id": "b6e4657be878d19e",
+      "x": 1712.5983999999999,
+      "y": 1035.4331,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "b6e4657be878d19ee14",
+          "number": "2",
+          "net": "GND",
+          "x": 1712.6,
+          "y": 1063,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "b6e4657be878d19ee15",
+          "number": "1",
+          "net": "3V3",
+          "x": 1712.6,
+          "y": 1007.9,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C9",
+      "id": "43902dc030d82a80",
+      "x": 2076.7717,
+      "y": 1114.1732,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "43902dc030d82a80e14",
+          "number": "2",
+          "net": "GND",
+          "x": 2104.3,
+          "y": 1114.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "43902dc030d82a80e15",
+          "number": "1",
+          "net": "3V3",
+          "x": 2049.2,
+          "y": 1114.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C10",
+      "id": "5acb8991a2bc0976",
+      "x": 1712.5983999999999,
+      "y": 895.6693,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "5acb8991a2bc0976e14",
+          "number": "2",
+          "net": "GND",
+          "x": 1712.6,
+          "y": 923.2,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "5acb8991a2bc0976e15",
+          "number": "1",
+          "net": "SIL_1V8",
+          "x": 1712.6,
+          "y": 868.1,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C11",
+      "id": "c57fb27031ea43af",
+      "x": 1476.378,
+      "y": 885.8268,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "c57fb27031ea43afe14",
+          "number": "2",
+          "net": "GND",
+          "x": 1503.9,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "c57fb27031ea43afe15",
+          "number": "1",
+          "net": "SIL_RESET",
+          "x": 1448.8,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C12",
+      "id": "af0dd8a39e37a531",
+      "x": 1791.3386,
+      "y": 1240.1575,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "af0dd8a39e37a531e14",
+          "number": "2",
+          "net": "GND",
+          "x": 1791.3,
+          "y": 1267.7,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "af0dd8a39e37a531e15",
+          "number": "1",
+          "net": "SIL_X1",
+          "x": 1791.3,
+          "y": 1212.6,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C13",
+      "id": "fd19f3e1f327e9de",
+      "x": 2066.9291,
+      "y": 1240.1575,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "fd19f3e1f327e9dee14",
+          "number": "2",
+          "net": "GND",
+          "x": 2066.9,
+          "y": 1267.7,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "fd19f3e1f327e9dee15",
+          "number": "1",
+          "net": "SIL_X2",
+          "x": 2066.9,
+          "y": 1212.6,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C14",
+      "id": "5737c3d802781e24",
+      "x": 1515.748,
+      "y": 511.81100000000004,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "5737c3d802781e24e14",
+          "number": "2",
+          "net": "GND",
+          "x": 1543.3,
+          "y": 511.8,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "5737c3d802781e24e15",
+          "number": "1",
+          "net": "EE_VCC",
+          "x": 1488.2,
+          "y": 511.8,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C15",
+      "id": "032c29eacb8784b6",
+      "x": 2283.4646,
+      "y": 551.1811,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "032c29eacb8784b6e14",
+          "number": "2",
+          "net": "GND",
+          "x": 2311,
+          "y": 551.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "032c29eacb8784b6e15",
+          "number": "1",
+          "net": "5V_SERIAL",
+          "x": 2255.9,
+          "y": 551.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C16",
+      "id": "54e9d6877ca6a9f8",
+      "x": 2244.0945,
+      "y": 413.3858,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "54e9d6877ca6a9f8e14",
+          "number": "2",
+          "net": "GND",
+          "x": 2244.1,
+          "y": 440.9,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "54e9d6877ca6a9f8e15",
+          "number": "1",
+          "net": "UART_V3",
+          "x": 2244.1,
+          "y": 385.8,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C17",
+      "id": "e258cef16d8d006f",
+      "x": 2421.2598,
+      "y": 551.1811,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "e258cef16d8d006fe14",
+          "number": "2",
+          "net": "GND",
+          "x": 2448.8,
+          "y": 551.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "e258cef16d8d006fe15",
+          "number": "1",
+          "net": "3V3",
+          "x": 2393.7,
+          "y": 551.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C18",
+      "id": "775a4dd64ff43f7b",
+      "x": 2125.9843,
+      "y": 561.0236,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "775a4dd64ff43f7be14",
+          "number": "2",
+          "net": "GND",
+          "x": 2153.5,
+          "y": 561,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "775a4dd64ff43f7be15",
+          "number": "1",
+          "net": "3V3",
+          "x": 2098.4,
+          "y": 561,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C19",
+      "id": "ee795a552a30eae1",
+      "x": 2125.9843,
+      "y": 978.3465,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "ee795a552a30eae1e14",
+          "number": "2",
+          "net": "GND",
+          "x": 2153.5,
+          "y": 978.3,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "ee795a552a30eae1e15",
+          "number": "1",
+          "net": "3V3",
+          "x": 2098.4,
+          "y": 978.3,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C20",
+      "id": "e0ecee93a6c7eafe",
+      "x": 2677.1654,
+      "y": 1456.6929,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "e0ecee93a6c7eafee14",
+          "number": "2",
+          "net": "GND",
+          "x": 2677.2,
+          "y": 1484.3,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "e0ecee93a6c7eafee15",
+          "number": "1",
+          "net": "VBUS_NATIVE",
+          "x": 2677.2,
+          "y": 1429.1,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "C21",
+      "id": "96419d24a2ab705b",
+      "x": 1433.0709,
+      "y": 362.2047,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "96419d24a2ab705be14",
+          "number": "2",
+          "net": "GND",
+          "x": 1460.6,
+          "y": 362.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "96419d24a2ab705be15",
+          "number": "1",
+          "net": "VBUS_USBA",
+          "x": 1405.5,
+          "y": 362.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "C22",
+      "id": "29a6c0b1a4f0e7f2",
+      "x": 1082.6772,
+      "y": 590.5512,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "29a6c0b1a4f0e7f2e14",
+          "number": "2",
+          "net": "GND",
+          "x": 1110.2,
+          "y": 590.6,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "29a6c0b1a4f0e7f2e15",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 1055.1,
+          "y": 590.6,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "D1",
+      "id": "8b63389dcbeedc59",
+      "x": 413.3858,
+      "y": 826.7717,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "8b63389dcbeedc59e7",
+          "number": "1",
+          "net": "USB_UP_DP",
+          "x": 458.6,
+          "y": 789.4,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "8b63389dcbeedc59e8",
+          "number": "2",
+          "net": "GND",
+          "x": 458.6,
+          "y": 826.8,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "8b63389dcbeedc59e9",
+          "number": "3",
+          "net": "USB_UP_DM",
+          "x": 458.6,
+          "y": 864.2,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "8b63389dcbeedc59e10",
+          "number": "4",
+          "net": "USB_UP_DM",
+          "x": 368.1,
+          "y": 864.2,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "8b63389dcbeedc59e11",
+          "number": "5",
+          "net": "VBUS_IN",
+          "x": 368.1,
+          "y": 826.8,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "8b63389dcbeedc59e12",
+          "number": "6",
+          "net": "USB_UP_DP",
+          "x": 368.1,
+          "y": 789.4,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "D2",
+      "id": "0289a261105bb83a",
+      "x": 2588.5827,
+      "y": 1259.8425,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "0289a261105bb83ae7",
+          "number": "1",
+          "net": "USB_NATIVE_DP",
+          "x": 2633.8,
+          "y": 1222.4,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "0289a261105bb83ae8",
+          "number": "2",
+          "net": "GND",
+          "x": 2633.8,
+          "y": 1259.8,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "0289a261105bb83ae9",
+          "number": "3",
+          "net": "USB_NATIVE_DM",
+          "x": 2633.8,
+          "y": 1297.2,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "0289a261105bb83ae10",
+          "number": "4",
+          "net": "USB_NATIVE_DM",
+          "x": 2543.3,
+          "y": 1297.2,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "0289a261105bb83ae11",
+          "number": "5",
+          "net": "VBUS_NATIVE",
+          "x": 2543.3,
+          "y": 1259.8,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "0289a261105bb83ae12",
+          "number": "6",
+          "net": "USB_NATIVE_DP",
+          "x": 2543.3,
+          "y": 1222.4,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "D3",
+      "id": "ec2ddbcc5cb015f4",
+      "x": 1574.8031,
+      "y": 393.7008,
+      "rotation": 180,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "ec2ddbcc5cb015f4e7",
+          "number": "1",
+          "net": "USB_A_DP",
+          "x": 1612.2,
+          "y": 438.9,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "ec2ddbcc5cb015f4e8",
+          "number": "2",
+          "net": "GND",
+          "x": 1574.8,
+          "y": 438.9,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "ec2ddbcc5cb015f4e9",
+          "number": "3",
+          "net": "USB_A_DM",
+          "x": 1537.4,
+          "y": 438.9,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "ec2ddbcc5cb015f4e10",
+          "number": "4",
+          "net": "USB_A_DM",
+          "x": 1537.4,
+          "y": 348.5,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "ec2ddbcc5cb015f4e11",
+          "number": "5",
+          "net": "VBUS_USBA",
+          "x": 1574.8,
+          "y": 348.5,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "ec2ddbcc5cb015f4e12",
+          "number": "6",
+          "net": "USB_A_DP",
+          "x": 1612.2,
+          "y": 348.5,
+          "layer": 1,
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "ref": "D4",
+      "id": "dbdd9d3526413697",
+      "x": 2755.9055,
+      "y": 1023.6220000000001,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "dbdd9d3526413697e11",
+          "number": "2",
+          "net": "TI_RING",
+          "x": 2801.2,
+          "y": 1061,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "dbdd9d3526413697e12",
+          "number": "3",
+          "net": "GND",
+          "x": 2710.6,
+          "y": 1023.6,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "dbdd9d3526413697e13",
+          "number": "1",
+          "net": "TI_TIP",
+          "x": 2801.2,
+          "y": 986.2,
+          "layer": 1,
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "ref": "D5",
+      "id": "19b7671e281200b0",
+      "x": 2755.9055,
+      "y": 708.6614,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "19b7671e281200b0e11",
+          "number": "2",
+          "net": "CASIO_TX",
+          "x": 2801.2,
+          "y": 746.1,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "19b7671e281200b0e12",
+          "number": "3",
+          "net": "GND",
+          "x": 2710.6,
+          "y": 708.7,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "19b7671e281200b0e13",
+          "number": "1",
+          "net": "CASIO_RX",
+          "x": 2801.2,
+          "y": 671.3,
+          "layer": 1,
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "ref": "D6",
+      "id": "2da067ef823de2b2",
+      "x": 2559.0551,
+      "y": 314.9606,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "2da067ef823de2b2e11",
+          "number": "2",
+          "net": "AUX_TX",
+          "x": 2604.3,
+          "y": 352.4,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "2da067ef823de2b2e12",
+          "number": "3",
+          "net": "GND",
+          "x": 2513.8,
+          "y": 315,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "2da067ef823de2b2e13",
+          "number": "1",
+          "net": "AUX_RX",
+          "x": 2604.3,
+          "y": 277.6,
+          "layer": 1,
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "ref": "D7",
+      "id": "3251487f2d17c5c4",
+      "x": 374.0157,
+      "y": 1062.9921,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "3251487f2d17c5c4e11",
+          "number": "2",
+          "net": "CC2",
+          "x": 419.3,
+          "y": 1100.4,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "3251487f2d17c5c4e12",
+          "number": "3",
+          "net": "GND",
+          "x": 328.7,
+          "y": 1063,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "3251487f2d17c5c4e13",
+          "number": "1",
+          "net": "CC1",
+          "x": 419.3,
+          "y": 1025.6,
+          "layer": 1,
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "ref": "D8",
+      "id": "586007ef61af9b0e",
+      "x": 2608.2677000000003,
+      "y": 1062.9921,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "586007ef61af9b0ee13",
+          "number": "1",
+          "net": "TI_TIP",
+          "x": 2608.3,
+          "y": 1016.8,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "586007ef61af9b0ee14",
+          "number": "2",
+          "net": "TI_GPIO_TIP",
+          "x": 2608.3,
+          "y": 1109.2,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "D9",
+      "id": "fab79282d9b2a563",
+      "x": 2728.3465,
+      "y": 1133.8583,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "fab79282d9b2a563e13",
+          "number": "1",
+          "net": "TI_RING",
+          "x": 2682.2,
+          "y": 1133.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "fab79282d9b2a563e14",
+          "number": "2",
+          "net": "TI_GPIO_RING",
+          "x": 2774.5,
+          "y": 1133.9,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "D10",
+      "id": "bf99366022752c87",
+      "x": 1476.378,
+      "y": 1102.3622,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "bf99366022752c87e13",
+          "number": "1",
+          "net": "SIL_SUSPEND",
+          "x": 1430.2,
+          "y": 1102.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "bf99366022752c87e14",
+          "number": "2",
+          "net": "SIL_VREGEN",
+          "x": 1522.5,
+          "y": 1102.4,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "D11",
+      "id": "fd60e2071cd88b47",
+      "x": 541.3386,
+      "y": 1082.6772,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "fd60e2071cd88b47e9",
+          "number": "1",
+          "net": "SEL1",
+          "x": 590,
+          "y": 1045.3,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "fd60e2071cd88b47e10",
+          "number": "2",
+          "net": "SEL0",
+          "x": 590,
+          "y": 1120.1,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "fd60e2071cd88b47e11",
+          "number": "3",
+          "net": "MODE_NATIVE_N",
+          "x": 492.7,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "D12",
+      "id": "7ecb28b9ad366e97",
+      "x": 698.8189,
+      "y": 1082.6772,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "7ecb28b9ad366e97e13",
+          "number": "1",
+          "net": "MODE_USBA_N",
+          "x": 652.7,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "7ecb28b9ad366e97e14",
+          "number": "2",
+          "net": "SEL1",
+          "x": 745,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "D13",
+      "id": "12ed67f2f39fe65c",
+      "x": 846.4567,
+      "y": 1082.6772,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "12ed67f2f39fe65ce13",
+          "number": "1",
+          "net": "MODE_SILVER_N",
+          "x": 800.3,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "12ed67f2f39fe65ce14",
+          "number": "2",
+          "net": "SEL0",
+          "x": 892.6,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "D14",
+      "id": "4d939424ad38bdd7",
+      "x": 994.0945,
+      "y": 1082.6772,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "4d939424ad38bdd7e9",
+          "number": "1",
+          "net": "NATIVE_EN_N",
+          "x": 1042.7,
+          "y": 1045.3,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "4d939424ad38bdd7e10",
+          "number": "2",
+          "net": "USBA_EN_N",
+          "x": 1042.7,
+          "y": 1120.1,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "4d939424ad38bdd7e11",
+          "number": "3",
+          "net": "MUX_EN_N",
+          "x": 945.5,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "D15",
+      "id": "7aa440d7df763370",
+      "x": 1112.2047,
+      "y": 1082.6772,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "7aa440d7df763370e13",
+          "number": "1",
+          "net": "SERIAL_EN_N",
+          "x": 1112.2,
+          "y": 1036.5,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "7aa440d7df763370e14",
+          "number": "2",
+          "net": "MUX_EN_N",
+          "x": 1112.2,
+          "y": 1128.8,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "D16",
+      "id": "b4fe0e8a440b10fb",
+      "x": 2125.9843,
+      "y": 472.4409,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "b4fe0e8a440b10fbe13",
+          "number": "1",
+          "net": "UART_PULLUP",
+          "x": 2079.8,
+          "y": 472.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "b4fe0e8a440b10fbe14",
+          "number": "2",
+          "net": "3V3",
+          "x": 2172.1,
+          "y": 472.4,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "J1",
+      "id": "1664932fadcbdc19",
+      "x": 166.1417,
+      "y": 826.7717,
+      "rotation": 270,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "1664932fadcbdc19e27",
+          "number": "B8",
+          "net": "",
+          "x": 263.5,
+          "y": 895.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e28",
+          "number": "A5",
+          "net": "CC1",
+          "x": 263.5,
+          "y": 876,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e29",
+          "number": "B7",
+          "net": "USB_UP_DM",
+          "x": 263.5,
+          "y": 856.3,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e30",
+          "number": "A6",
+          "net": "USB_UP_DP",
+          "x": 263.5,
+          "y": 836.6,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e31",
+          "number": "A7",
+          "net": "USB_UP_DM",
+          "x": 263.5,
+          "y": 816.9,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e32",
+          "number": "B6",
+          "net": "USB_UP_DP",
+          "x": 263.5,
+          "y": 797.2,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e33",
+          "number": "A8",
+          "net": "",
+          "x": 263.5,
+          "y": 777.6,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e34",
+          "number": "B5",
+          "net": "CC2",
+          "x": 263.5,
+          "y": 757.9,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e35",
+          "number": "A1B12",
+          "net": "GND",
+          "x": 263.5,
+          "y": 952.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e36",
+          "number": "B1A12",
+          "net": "GND",
+          "x": 263.5,
+          "y": 700.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e37",
+          "number": "B4A9",
+          "net": "VBUS_IN",
+          "x": 263.5,
+          "y": 732.3,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e38",
+          "number": "A4B9",
+          "net": "VBUS_IN",
+          "x": 263.5,
+          "y": 921.3,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e57",
+          "number": "2",
+          "net": "GND",
+          "x": 68.7,
+          "y": 656.5,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e58",
+          "number": "1",
+          "net": "GND",
+          "x": 233.3,
+          "y": 656.5,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e59",
+          "number": "4",
+          "net": "GND",
+          "x": 233.3,
+          "y": 997.1,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "1664932fadcbdc19e60",
+          "number": "3",
+          "net": "GND",
+          "x": 68.7,
+          "y": 997.1,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        }
+      ]
+    },
+    {
+      "ref": "J2",
+      "id": "bf0558871cf48b60",
+      "x": 1574.8031,
+      "y": 141.7323,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "bf0558871cf48b60e32",
+          "number": "1",
+          "net": "VBUS_USBA",
+          "x": 1437,
+          "y": 190,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "bf0558871cf48b60e33",
+          "number": "2",
+          "net": "USB_A_DM",
+          "x": 1535.4,
+          "y": 190,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "bf0558871cf48b60e34",
+          "number": "3",
+          "net": "USB_A_DP",
+          "x": 1614.2,
+          "y": 190,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "bf0558871cf48b60e35",
+          "number": "4",
+          "net": "GND",
+          "x": 1712.6,
+          "y": 190,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "bf0558871cf48b60e36",
+          "number": "5",
+          "net": "GND",
+          "x": 1833.5,
+          "y": 93.5,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "bf0558871cf48b60e37",
+          "number": "5",
+          "net": "GND",
+          "x": 1316.1,
+          "y": 93.5,
+          "layer": 12,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "J3",
+      "id": "c7ec60838bb943a0",
+      "x": 2814.9606,
+      "y": 1299.2126000000003,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "c7ec60838bb943a0e16",
+          "number": "6",
+          "net": "GND",
+          "x": 2915,
+          "y": 1349.2,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "c7ec60838bb943a0e17",
+          "number": "5",
+          "net": "GND",
+          "x": 2915,
+          "y": 1249.2,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "c7ec60838bb943a0e18",
+          "number": "4",
+          "net": "",
+          "x": 2815,
+          "y": 1349.2,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "c7ec60838bb943a0e19",
+          "number": "3",
+          "net": "USB_NATIVE_DP",
+          "x": 2815,
+          "y": 1249.2,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "c7ec60838bb943a0e20",
+          "number": "2",
+          "net": "USB_NATIVE_DM",
+          "x": 2715,
+          "y": 1349.2,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "c7ec60838bb943a0e21",
+          "number": "1",
+          "net": "VBUS_NATIVE",
+          "x": 2715,
+          "y": 1249.2,
+          "layer": 12,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "J4",
+      "id": "e1f62d3d73ed5d88",
+      "x": 2952.7559,
+      "y": 1023.6220000000001,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "e1f62d3d73ed5d88e8",
+          "number": "2",
+          "net": "TI_RING",
+          "x": 2952.8,
+          "y": 1023.6,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "e1f62d3d73ed5d88e9",
+          "number": "1",
+          "net": "TI_TIP",
+          "x": 2952.8,
+          "y": 1102.4,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "e1f62d3d73ed5d88e10",
+          "number": "3",
+          "net": "GND",
+          "x": 2952.8,
+          "y": 944.9,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        }
+      ]
+    },
+    {
+      "ref": "J5",
+      "id": "f1ab66557675e99e",
+      "x": 2952.7559,
+      "y": 708.6614,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "f1ab66557675e99ee8",
+          "number": "2",
+          "net": "CASIO_TX",
+          "x": 2952.8,
+          "y": 708.7,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "f1ab66557675e99ee9",
+          "number": "1",
+          "net": "CASIO_RX",
+          "x": 2952.8,
+          "y": 787.4,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "f1ab66557675e99ee10",
+          "number": "3",
+          "net": "GND",
+          "x": 2952.8,
+          "y": 629.9,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        }
+      ]
+    },
+    {
+      "ref": "J6",
+      "id": "561801f7a460b1bc",
+      "x": 2775.5906,
+      "y": 393.7008,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "561801f7a460b1bce1",
+          "number": "2",
+          "net": "AUX_RX",
+          "x": 2775.6,
+          "y": 433.1,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "561801f7a460b1bce2",
+          "number": "1",
+          "net": "GND",
+          "x": 2775.6,
+          "y": 511.8,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "561801f7a460b1bce3",
+          "number": "3",
+          "net": "AUX_TX",
+          "x": 2775.6,
+          "y": 354.3,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "561801f7a460b1bce4",
+          "number": "4",
+          "net": "",
+          "x": 2775.6,
+          "y": 275.6,
+          "layer": 12,
+          "rotation": -90.00000000000001
+        }
+      ]
+    },
+    {
+      "ref": "J7",
+      "id": "8258b83d03526f54",
+      "x": 2460.6299,
+      "y": 846.4567,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "8258b83d03526f54e16",
+          "number": "6",
+          "net": "AUX_TX",
+          "x": 2410.6,
+          "y": 946.5,
+          "layer": 12,
+          "rotation": 90
+        },
+        {
+          "id": "8258b83d03526f54e17",
+          "number": "5",
+          "net": "AUX_RX",
+          "x": 2510.6,
+          "y": 946.5,
+          "layer": 12,
+          "rotation": 90
+        },
+        {
+          "id": "8258b83d03526f54e18",
+          "number": "4",
+          "net": "UART_TX_EXT",
+          "x": 2410.6,
+          "y": 846.5,
+          "layer": 12,
+          "rotation": 90
+        },
+        {
+          "id": "8258b83d03526f54e19",
+          "number": "3",
+          "net": "UART_RX_EXT",
+          "x": 2510.6,
+          "y": 846.5,
+          "layer": 12,
+          "rotation": 90
+        },
+        {
+          "id": "8258b83d03526f54e20",
+          "number": "2",
+          "net": "CASIO_TX",
+          "x": 2410.6,
+          "y": 746.5,
+          "layer": 12,
+          "rotation": 90
+        },
+        {
+          "id": "8258b83d03526f54e21",
+          "number": "1",
+          "net": "CASIO_RX",
+          "x": 2510.6,
+          "y": 746.5,
+          "layer": 12,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "J8",
+      "id": "467634ecc469b1f1",
+      "x": 1456.6929,
+      "y": 1456.6929,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "467634ecc469b1f1e16",
+          "number": "6",
+          "net": "SIL_RESET",
+          "x": 1556.7,
+          "y": 1506.7,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "467634ecc469b1f1e17",
+          "number": "5",
+          "net": "EE_WP",
+          "x": 1556.7,
+          "y": 1406.7,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "467634ecc469b1f1e18",
+          "number": "4",
+          "net": "EE_SDA",
+          "x": 1456.7,
+          "y": 1506.7,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "467634ecc469b1f1e19",
+          "number": "3",
+          "net": "EE_SCL",
+          "x": 1456.7,
+          "y": 1406.7,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "467634ecc469b1f1e20",
+          "number": "2",
+          "net": "GND",
+          "x": 1356.7,
+          "y": 1506.7,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "467634ecc469b1f1e21",
+          "number": "1",
+          "net": "EE_VCC",
+          "x": 1356.7,
+          "y": 1406.7,
+          "layer": 12,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "J9",
+      "id": "a73dc0656f828ff9",
+      "x": 1259.8425,
+      "y": 984.252,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "a73dc0656f828ff9e10",
+          "number": "1",
+          "net": "SIL_SCL",
+          "x": 1259.8,
+          "y": 934.3,
+          "layer": 12,
+          "rotation": 90
+        },
+        {
+          "id": "a73dc0656f828ff9e11",
+          "number": "2",
+          "net": "EE_SCL",
+          "x": 1259.8,
+          "y": 1034.3,
+          "layer": 12,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "J10",
+      "id": "02c8655c44cd7012",
+      "x": 1259.8425,
+      "y": 1210.6299,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "02c8655c44cd7012e10",
+          "number": "1",
+          "net": "EE_WP",
+          "x": 1259.8,
+          "y": 1160.6,
+          "layer": 12,
+          "rotation": 90
+        },
+        {
+          "id": "02c8655c44cd7012e11",
+          "number": "2",
+          "net": "GND",
+          "x": 1259.8,
+          "y": 1260.6,
+          "layer": 12,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "Q1",
+      "id": "c9fc55267029d694",
+      "x": 2440.9449,
+      "y": 1082.6772,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "c9fc55267029d694e9",
+          "number": "1",
+          "net": "TI_BASE_TIP",
+          "x": 2489.6,
+          "y": 1045.3,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "c9fc55267029d694e10",
+          "number": "2",
+          "net": "TI_GPIO_TIP",
+          "x": 2489.6,
+          "y": 1120.1,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "c9fc55267029d694e11",
+          "number": "3",
+          "net": "TI_TIP",
+          "x": 2392.3,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "Q2",
+      "id": "0aed2f50261314d5",
+      "x": 2431.1024,
+      "y": 1240.1575,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "0aed2f50261314d5e9",
+          "number": "1",
+          "net": "TI_BASE_RING",
+          "x": 2479.7,
+          "y": 1202.8,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "0aed2f50261314d5e10",
+          "number": "2",
+          "net": "TI_GPIO_RING",
+          "x": 2479.7,
+          "y": 1277.6,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "0aed2f50261314d5e11",
+          "number": "3",
+          "net": "TI_RING",
+          "x": 2382.5,
+          "y": 1240.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R1",
+      "id": "2f21cc491e71f6ae",
+      "x": 216.53539999999998,
+      "y": 1141.7323,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "2f21cc491e71f6aee7",
+          "number": "2",
+          "net": "GND",
+          "x": 216.5,
+          "y": 1171.4,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "2f21cc491e71f6aee8",
+          "number": "1",
+          "net": "CC1",
+          "x": 216.5,
+          "y": 1112.1,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R2",
+      "id": "81a8eb6d5863e20b",
+      "x": 216.53539999999998,
+      "y": 1269.685,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "81a8eb6d5863e20be7",
+          "number": "2",
+          "net": "GND",
+          "x": 216.5,
+          "y": 1299.3,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "81a8eb6d5863e20be8",
+          "number": "1",
+          "net": "CC2",
+          "x": 216.5,
+          "y": 1240,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R3",
+      "id": "1a41c6a8bb8733d4",
+      "x": 511.81100000000004,
+      "y": 393.7008,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "1a41c6a8bb8733d4e7",
+          "number": "2",
+          "net": "VBUS_IN",
+          "x": 541.5,
+          "y": 393.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "1a41c6a8bb8733d4e8",
+          "number": "1",
+          "net": "SEL1",
+          "x": 482.2,
+          "y": 393.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R4",
+      "id": "05f65f455d5bd469",
+      "x": 639.7638,
+      "y": 393.7008,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "05f65f455d5bd469e7",
+          "number": "2",
+          "net": "VBUS_IN",
+          "x": 669.4,
+          "y": 393.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "05f65f455d5bd469e8",
+          "number": "1",
+          "net": "SEL0",
+          "x": 610.1,
+          "y": 393.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R5",
+      "id": "1ec19e815c96a9d8",
+      "x": 1102.3622,
+      "y": 393.7008,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "1ec19e815c96a9d8e7",
+          "number": "2",
+          "net": "VBUS_IN",
+          "x": 1132,
+          "y": 393.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "1ec19e815c96a9d8e8",
+          "number": "1",
+          "net": "PWR_FAULT_N",
+          "x": 1072.7,
+          "y": 393.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R6",
+      "id": "f453a4c5592e67dd",
+      "x": 984.252,
+      "y": 216.53539999999998,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "f453a4c5592e67dde7",
+          "number": "2",
+          "net": "GND",
+          "x": 984.3,
+          "y": 246.2,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "f453a4c5592e67dde8",
+          "number": "1",
+          "net": "ILIM_SERIAL",
+          "x": 984.3,
+          "y": 186.9,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R7",
+      "id": "c5701a369870c42a",
+      "x": 1692.9134,
+      "y": 787.4016,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "c5701a369870c42ae7",
+          "number": "2",
+          "net": "SIL_DP",
+          "x": 1722.6,
+          "y": 787.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "c5701a369870c42ae8",
+          "number": "1",
+          "net": "USB_SIL_DP",
+          "x": 1663.3,
+          "y": 787.4,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R8",
+      "id": "f81f6535e6d46dfb",
+      "x": 1692.9134,
+      "y": 708.6614,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "f81f6535e6d46dfbe7",
+          "number": "2",
+          "net": "SIL_DM",
+          "x": 1722.6,
+          "y": 708.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "f81f6535e6d46dfbe8",
+          "number": "1",
+          "net": "USB_SIL_DM",
+          "x": 1663.3,
+          "y": 708.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R9",
+      "id": "bcede431e174bfcf",
+      "x": 1564.9605999999999,
+      "y": 763.7795,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "bcede431e174bfcfe7",
+          "number": "2",
+          "net": "USB_SIL_DP",
+          "x": 1594.6,
+          "y": 763.8,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "bcede431e174bfcfe8",
+          "number": "1",
+          "net": "SIL_PUR",
+          "x": 1535.3,
+          "y": 763.8,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R10",
+      "id": "375454803d73e220",
+      "x": 1476.378,
+      "y": 976.3779999999999,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "375454803d73e220e7",
+          "number": "2",
+          "net": "SIL_RESET",
+          "x": 1506,
+          "y": 976.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "375454803d73e220e8",
+          "number": "1",
+          "net": "3V3",
+          "x": 1446.7,
+          "y": 976.4,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R11",
+      "id": "606bb6888edf4e51",
+      "x": 1476.378,
+      "y": 1220.4724,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "606bb6888edf4e51e7",
+          "number": "2",
+          "net": "SIL_VREGEN",
+          "x": 1506,
+          "y": 1220.5,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "606bb6888edf4e51e8",
+          "number": "1",
+          "net": "SIL_RESET",
+          "x": 1446.7,
+          "y": 1220.5,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R12",
+      "id": "25c90508c3413acf",
+      "x": 1653.5433,
+      "y": 1141.7323,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "25c90508c3413acfe7",
+          "number": "2",
+          "net": "SIL_1V8",
+          "x": 1683.2,
+          "y": 1141.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "25c90508c3413acfe8",
+          "number": "1",
+          "net": "3V3",
+          "x": 1623.9,
+          "y": 1141.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R13",
+      "id": "6621ad067bbe053f",
+      "x": 1653.5433,
+      "y": 1214.5669,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "6621ad067bbe053fe7",
+          "number": "2",
+          "net": "GND",
+          "x": 1683.2,
+          "y": 1214.6,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "6621ad067bbe053fe8",
+          "number": "1",
+          "net": "SIL_1V8",
+          "x": 1623.9,
+          "y": 1214.6,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R14",
+      "id": "29c21b60fcfba0f3",
+      "x": 1791.3386,
+      "y": 728.3465,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "29c21b60fcfba0f3e7",
+          "number": "2",
+          "net": "3V3",
+          "x": 1791.3,
+          "y": 758,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "29c21b60fcfba0f3e8",
+          "number": "1",
+          "net": "SIL_TEST0",
+          "x": 1791.3,
+          "y": 698.7,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R15",
+      "id": "fb3bea76d8a0c8e4",
+      "x": 1870.0787,
+      "y": 728.3465,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "fb3bea76d8a0c8e4e7",
+          "number": "2",
+          "net": "3V3",
+          "x": 1870.1,
+          "y": 758,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "fb3bea76d8a0c8e4e8",
+          "number": "1",
+          "net": "SIL_TEST1",
+          "x": 1870.1,
+          "y": 698.7,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R16",
+      "id": "603061cf779c29a2",
+      "x": 2007.8739999999998,
+      "y": 659.4488,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "603061cf779c29a2e7",
+          "number": "2",
+          "net": "3V3",
+          "x": 2007.9,
+          "y": 689.1,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "603061cf779c29a2e8",
+          "number": "1",
+          "net": "SIL_SIN",
+          "x": 2007.9,
+          "y": 629.8,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R17",
+      "id": "f739f350a774c1b6",
+      "x": 2224.4094,
+      "y": 1062.9921,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "f739f350a774c1b6e7",
+          "number": "2",
+          "net": "TI_GPIO_TIP",
+          "x": 2254.1,
+          "y": 1063,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "f739f350a774c1b6e8",
+          "number": "1",
+          "net": "3V3",
+          "x": 2194.7,
+          "y": 1063,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R18",
+      "id": "2698083f3a5433cf",
+      "x": 2224.4094,
+      "y": 1267.7165,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "2698083f3a5433cfe7",
+          "number": "2",
+          "net": "TI_GPIO_RING",
+          "x": 2254.1,
+          "y": 1267.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "2698083f3a5433cfe8",
+          "number": "1",
+          "net": "3V3",
+          "x": 2194.7,
+          "y": 1267.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R19",
+      "id": "67e6653799f2f216",
+      "x": 2224.4094,
+      "y": 1165.3543,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "67e6653799f2f216e7",
+          "number": "2",
+          "net": "TI_BASE_TIP",
+          "x": 2254.1,
+          "y": 1165.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "67e6653799f2f216e8",
+          "number": "1",
+          "net": "3V3",
+          "x": 2194.7,
+          "y": 1165.4,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R20",
+      "id": "fb0bd4323db010af",
+      "x": 2224.4094,
+      "y": 1370.0787,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "fb0bd4323db010afe7",
+          "number": "2",
+          "net": "TI_BASE_RING",
+          "x": 2254.1,
+          "y": 1370.1,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "fb0bd4323db010afe8",
+          "number": "1",
+          "net": "3V3",
+          "x": 2194.7,
+          "y": 1370.1,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R21",
+      "id": "c2a72d9a07ba9cfc",
+      "x": 1190.9449,
+      "y": 561.0236,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "c2a72d9a07ba9cfce7",
+          "number": "2",
+          "net": "EE_VCC",
+          "x": 1190.9,
+          "y": 590.7,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "c2a72d9a07ba9cfce8",
+          "number": "1",
+          "net": "EE_SDA",
+          "x": 1190.9,
+          "y": 531.4,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R22",
+      "id": "f73eb6031f9dd74d",
+      "x": 1515.748,
+      "y": 620.0787,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "f73eb6031f9dd74de7",
+          "number": "2",
+          "net": "EE_VCC",
+          "x": 1515.7,
+          "y": 649.7,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "f73eb6031f9dd74de8",
+          "number": "1",
+          "net": "EE_SCL",
+          "x": 1515.7,
+          "y": 590.4,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R23",
+      "id": "78c1850fcfa6536f",
+      "x": 1299.2126000000003,
+      "y": 787.4016,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "78c1850fcfa6536fe7",
+          "number": "2",
+          "net": "EE_SDA",
+          "x": 1328.9,
+          "y": 787.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "78c1850fcfa6536fe8",
+          "number": "1",
+          "net": "SIL_SDA",
+          "x": 1269.6,
+          "y": 787.4,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R25",
+      "id": "7888cfd50bd5c292",
+      "x": 1299.2126000000003,
+      "y": 403.5433,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "7888cfd50bd5c292e7",
+          "number": "2",
+          "net": "EE_VCC",
+          "x": 1328.9,
+          "y": 403.5,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "7888cfd50bd5c292e8",
+          "number": "1",
+          "net": "3V3",
+          "x": 1269.6,
+          "y": 403.5,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R27",
+      "id": "ba1990b740825c02",
+      "x": 1427.1654,
+      "y": 787.4016,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "ba1990b740825c02e7",
+          "number": "2",
+          "net": "EE_VCC",
+          "x": 1456.8,
+          "y": 787.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "ba1990b740825c02e8",
+          "number": "1",
+          "net": "EE_WP",
+          "x": 1397.5,
+          "y": 787.4,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R28",
+      "id": "4385a51d3057eb2c",
+      "x": 2283.4646,
+      "y": 659.4488,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "4385a51d3057eb2ce7",
+          "number": "2",
+          "net": "UART_PULLUP",
+          "x": 2283.5,
+          "y": 689.1,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "4385a51d3057eb2ce8",
+          "number": "1",
+          "net": "UART_TX_OD",
+          "x": 2283.5,
+          "y": 629.8,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R29",
+      "id": "ea9faf7c41b3566e",
+      "x": 2283.4646,
+      "y": 787.4016,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "ea9faf7c41b3566ee7",
+          "number": "2",
+          "net": "UART_TX_EXT",
+          "x": 2283.5,
+          "y": 817.1,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "ea9faf7c41b3566ee8",
+          "number": "1",
+          "net": "UART_TX_OD",
+          "x": 2283.5,
+          "y": 757.7,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R30",
+      "id": "9b5f3eae16cba2ca",
+      "x": 2283.4646,
+      "y": 915.3543,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "9b5f3eae16cba2cae7",
+          "number": "2",
+          "net": "UART_RX_FILTER",
+          "x": 2283.5,
+          "y": 945,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "9b5f3eae16cba2cae8",
+          "number": "1",
+          "net": "UART_RX_EXT",
+          "x": 2283.5,
+          "y": 885.7,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R31",
+      "id": "08366868c6dc3113",
+      "x": 2322.8346,
+      "y": 1072.8346,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "08366868c6dc3113e7",
+          "number": "2",
+          "net": "UART_PULLUP",
+          "x": 2322.8,
+          "y": 1102.5,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "08366868c6dc3113e8",
+          "number": "1",
+          "net": "UART_RX_FILTER",
+          "x": 2322.8,
+          "y": 1043.2,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R32",
+      "id": "17fc420aa52e04ee",
+      "x": 354.3307,
+      "y": 393.7008,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "17fc420aa52e04eee7",
+          "number": "2",
+          "net": "VBUS_IN",
+          "x": 354.3,
+          "y": 423.4,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "17fc420aa52e04eee8",
+          "number": "1",
+          "net": "NATIVE_EN_N",
+          "x": 354.3,
+          "y": 364,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R33",
+      "id": "3bd155723e9db4bc",
+      "x": 866.1417,
+      "y": 393.7008,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "3bd155723e9db4bce7",
+          "number": "2",
+          "net": "VBUS_IN",
+          "x": 866.1,
+          "y": 423.4,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "3bd155723e9db4bce8",
+          "number": "1",
+          "net": "USBA_EN_N",
+          "x": 866.1,
+          "y": 364,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R34",
+      "id": "37ac8faaac9d625e",
+      "x": 974.4094,
+      "y": 462.5984,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "37ac8faaac9d625ee7",
+          "number": "2",
+          "net": "VBUS_IN",
+          "x": 1004.1,
+          "y": 462.6,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "37ac8faaac9d625ee8",
+          "number": "1",
+          "net": "SERIAL_EN_N",
+          "x": 944.7,
+          "y": 462.6,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "R35",
+      "id": "d680baafba26fd09",
+      "x": 748.0315,
+      "y": 393.7008,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "d680baafba26fd09e7",
+          "number": "2",
+          "net": "VBUS_IN",
+          "x": 748,
+          "y": 423.4,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "d680baafba26fd09e8",
+          "number": "1",
+          "net": "MUX_EN_N",
+          "x": 748,
+          "y": 364,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R36",
+      "id": "e06832ba274dc3db",
+      "x": 2362.2047,
+      "y": 1437.0079,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "e06832ba274dc3dbe7",
+          "number": "2",
+          "net": "GND",
+          "x": 2362.2,
+          "y": 1466.7,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "e06832ba274dc3dbe8",
+          "number": "1",
+          "net": "ILIM_NATIVE",
+          "x": 2362.2,
+          "y": 1407.3,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "R37",
+      "id": "2c1d94b2c89691cb",
+      "x": 984.252,
+      "y": 88.58270000000002,
+      "rotation": 90,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "2c1d94b2c89691cbe7",
+          "number": "2",
+          "net": "GND",
+          "x": 984.3,
+          "y": 118.2,
+          "layer": 1,
+          "rotation": 90
+        },
+        {
+          "id": "2c1d94b2c89691cbe8",
+          "number": "1",
+          "net": "ILIM_USBA",
+          "x": 984.3,
+          "y": 58.9,
+          "layer": 1,
+          "rotation": 90
+        }
+      ]
+    },
+    {
+      "ref": "SW1",
+      "id": "4acc6f736faef614",
+      "x": 787.4016,
+      "y": 1338.5827,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "4acc6f736faef614e18",
+          "number": "1",
+          "net": "NATIVE_EN_N",
+          "x": 590.6,
+          "y": 1403.5,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e19",
+          "number": "2",
+          "net": "USBA_EN_N",
+          "x": 669.3,
+          "y": 1403.5,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e20",
+          "number": "3",
+          "net": "GND",
+          "x": 826.8,
+          "y": 1403.5,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e21",
+          "number": "4",
+          "net": "SERIAL_EN_N",
+          "x": 905.5,
+          "y": 1403.5,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e22",
+          "number": "6",
+          "net": "MODE_NATIVE_N",
+          "x": 590.6,
+          "y": 1273.6,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e23",
+          "number": "7",
+          "net": "MODE_USBA_N",
+          "x": 669.3,
+          "y": 1273.6,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e24",
+          "number": "8",
+          "net": "GND",
+          "x": 826.8,
+          "y": 1273.6,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e25",
+          "number": "9",
+          "net": "MODE_SILVER_N",
+          "x": 905.5,
+          "y": 1273.6,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e26",
+          "number": "5",
+          "net": "SERIAL_EN_N",
+          "x": 984.3,
+          "y": 1403.5,
+          "layer": 12,
+          "rotation": 0
+        },
+        {
+          "id": "4acc6f736faef614e27",
+          "number": "10",
+          "net": "",
+          "x": 984.3,
+          "y": 1273.6,
+          "layer": 12,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "U1",
+      "id": "54992dff2800f3fd",
+      "x": 787.4016,
+      "y": 708.6614,
+      "rotation": 180,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "54992dff2800f3fde36",
+          "number": "1",
+          "net": "MUX_EN_N",
+          "x": 962.4,
+          "y": 821.8,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde37",
+          "number": "2",
+          "net": "SEL1",
+          "x": 912.4,
+          "y": 821.8,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde38",
+          "number": "3",
+          "net": "USB_UART_DP",
+          "x": 862.4,
+          "y": 821.8,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde39",
+          "number": "4",
+          "net": "USB_SIL_DP",
+          "x": 812.4,
+          "y": 821.8,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde40",
+          "number": "5",
+          "net": "USB_A_DP",
+          "x": 762.4,
+          "y": 821.8,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde41",
+          "number": "6",
+          "net": "USB_NATIVE_DP",
+          "x": 712.4,
+          "y": 821.8,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde42",
+          "number": "7",
+          "net": "USB_UP_DP",
+          "x": 662.4,
+          "y": 821.8,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde43",
+          "number": "8",
+          "net": "GND",
+          "x": 612.4,
+          "y": 821.8,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde44",
+          "number": "16",
+          "net": "VBUS_IN",
+          "x": 962.4,
+          "y": 595.6,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde45",
+          "number": "15",
+          "net": "",
+          "x": 912.4,
+          "y": 595.6,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde46",
+          "number": "14",
+          "net": "SEL0",
+          "x": 862.4,
+          "y": 595.6,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde47",
+          "number": "13",
+          "net": "USB_UART_DM",
+          "x": 812.4,
+          "y": 595.6,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde48",
+          "number": "12",
+          "net": "USB_SIL_DM",
+          "x": 762.4,
+          "y": 595.6,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde49",
+          "number": "11",
+          "net": "USB_A_DM",
+          "x": 712.4,
+          "y": 595.6,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde50",
+          "number": "10",
+          "net": "USB_NATIVE_DM",
+          "x": 662.4,
+          "y": 595.6,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "54992dff2800f3fde51",
+          "number": "9",
+          "net": "USB_UP_DM",
+          "x": 612.4,
+          "y": 595.6,
+          "layer": 1,
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "ref": "U2",
+      "id": "690e6b24eed3fefa",
+      "x": 1889.7638000000002,
+      "y": 984.252,
+      "rotation": 270,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "690e6b24eed3fefae48",
+          "number": "33",
+          "net": "GND",
+          "x": 1889.8,
+          "y": 984.3,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae49",
+          "number": "32",
+          "net": "TP_GPIO30",
+          "x": 1820.9,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae50",
+          "number": "31",
+          "net": "TP_GPIO31",
+          "x": 1840.6,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae51",
+          "number": "30",
+          "net": "TI_GPIO_TIP",
+          "x": 1860.2,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae52",
+          "number": "29",
+          "net": "TI_GPIO_RING",
+          "x": 1879.9,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae53",
+          "number": "28",
+          "net": "GND",
+          "x": 1899.6,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae54",
+          "number": "27",
+          "net": "SIL_X1",
+          "x": 1919.3,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae55",
+          "number": "26",
+          "net": "SIL_X2",
+          "x": 1939,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae56",
+          "number": "25",
+          "net": "3V3",
+          "x": 1958.7,
+          "y": 1082.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae57",
+          "number": "24",
+          "net": "SIL_TEST1",
+          "x": 1988.2,
+          "y": 1053.2,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae58",
+          "number": "23",
+          "net": "SIL_TEST0",
+          "x": 1988.2,
+          "y": 1033.5,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae59",
+          "number": "22",
+          "net": "",
+          "x": 1988.2,
+          "y": 1013.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae60",
+          "number": "21",
+          "net": "",
+          "x": 1988.2,
+          "y": 994.1,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae61",
+          "number": "20",
+          "net": "",
+          "x": 1988.2,
+          "y": 974.4,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae62",
+          "number": "19",
+          "net": "",
+          "x": 1988.2,
+          "y": 954.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae63",
+          "number": "18",
+          "net": "GND",
+          "x": 1988.2,
+          "y": 935,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae64",
+          "number": "17",
+          "net": "SIL_SIN",
+          "x": 1988.2,
+          "y": 915.4,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae65",
+          "number": "16",
+          "net": "3V3",
+          "x": 1958.7,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae66",
+          "number": "15",
+          "net": "3V3",
+          "x": 1939,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae67",
+          "number": "14",
+          "net": "3V3",
+          "x": 1919.3,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae68",
+          "number": "13",
+          "net": "3V3",
+          "x": 1899.6,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae69",
+          "number": "12",
+          "net": "",
+          "x": 1879.9,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae70",
+          "number": "11",
+          "net": "SIL_SCL",
+          "x": 1860.2,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae71",
+          "number": "10",
+          "net": "SIL_SDA",
+          "x": 1840.6,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae72",
+          "number": "9",
+          "net": "SIL_RESET",
+          "x": 1820.9,
+          "y": 885.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae73",
+          "number": "8",
+          "net": "GND",
+          "x": 1791.3,
+          "y": 915.4,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae74",
+          "number": "7",
+          "net": "SIL_DM",
+          "x": 1791.3,
+          "y": 935,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae75",
+          "number": "6",
+          "net": "SIL_DP",
+          "x": 1791.3,
+          "y": 954.7,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae76",
+          "number": "5",
+          "net": "SIL_PUR",
+          "x": 1791.3,
+          "y": 974.4,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae77",
+          "number": "4",
+          "net": "SIL_1V8",
+          "x": 1791.3,
+          "y": 994.1,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae78",
+          "number": "3",
+          "net": "3V3",
+          "x": 1791.3,
+          "y": 1013.8,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae79",
+          "number": "2",
+          "net": "SIL_SUSPEND",
+          "x": 1791.3,
+          "y": 1033.5,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        },
+        {
+          "id": "690e6b24eed3fefae80",
+          "number": "1",
+          "net": "SIL_VREGEN",
+          "x": 1791.3,
+          "y": 1053.2,
+          "layer": 1,
+          "rotation": -90.00000000000001
+        }
+      ]
+    },
+    {
+      "ref": "U3",
+      "id": "07ff7399f57d3c70",
+      "x": 2362.2047,
+      "y": 413.3858,
+      "rotation": 180,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "07ff7399f57d3c70e30",
+          "number": "1",
+          "net": "3V3",
+          "x": 2391.7,
+          "y": 470.5,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e31",
+          "number": "2",
+          "net": "GND",
+          "x": 2372,
+          "y": 470.5,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e32",
+          "number": "3",
+          "net": "5V_SERIAL",
+          "x": 2352.3,
+          "y": 470.5,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e33",
+          "number": "4",
+          "net": "UART_TX",
+          "x": 2332.6,
+          "y": 470.5,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e34",
+          "number": "5",
+          "net": "UART_RX",
+          "x": 2305.1,
+          "y": 442.9,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e35",
+          "number": "6",
+          "net": "UART_V3",
+          "x": 2305.1,
+          "y": 423.2,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e36",
+          "number": "7",
+          "net": "USB_UART_DP",
+          "x": 2305.1,
+          "y": 403.5,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e37",
+          "number": "8",
+          "net": "USB_UART_DM",
+          "x": 2305.1,
+          "y": 383.9,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e38",
+          "number": "9",
+          "net": "5V_SERIAL",
+          "x": 2332.7,
+          "y": 356.3,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e39",
+          "number": "10",
+          "net": "",
+          "x": 2352.4,
+          "y": 356.3,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e40",
+          "number": "11",
+          "net": "",
+          "x": 2372,
+          "y": 356.3,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e41",
+          "number": "12",
+          "net": "",
+          "x": 2391.7,
+          "y": 356.3,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e42",
+          "number": "13",
+          "net": "",
+          "x": 2419.3,
+          "y": 383.9,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e43",
+          "number": "14",
+          "net": "",
+          "x": 2419.3,
+          "y": 403.5,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e44",
+          "number": "15",
+          "net": "",
+          "x": 2419.3,
+          "y": 423.2,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e45",
+          "number": "16",
+          "net": "",
+          "x": 2419.3,
+          "y": 442.9,
+          "layer": 1,
+          "rotation": 180
+        },
+        {
+          "id": "07ff7399f57d3c70e46",
+          "number": "17",
+          "net": "GND",
+          "x": 2362.2,
+          "y": 413.4,
+          "layer": 1,
+          "rotation": 180
+        }
+      ]
+    },
+    {
+      "ref": "U4",
+      "id": "eed7f392c5b23c6a",
+      "x": 1338.5827,
+      "y": 590.5512,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "eed7f392c5b23c6ae23",
+          "number": "5",
+          "net": "EE_SDA",
+          "x": 1413.6,
+          "y": 692.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "eed7f392c5b23c6ae24",
+          "number": "6",
+          "net": "EE_SCL",
+          "x": 1363.6,
+          "y": 692.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "eed7f392c5b23c6ae25",
+          "number": "7",
+          "net": "EE_WP",
+          "x": 1313.6,
+          "y": 692.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "eed7f392c5b23c6ae26",
+          "number": "8",
+          "net": "EE_VCC",
+          "x": 1263.6,
+          "y": 692.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "eed7f392c5b23c6ae27",
+          "number": "4",
+          "net": "GND",
+          "x": 1413.6,
+          "y": 488.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "eed7f392c5b23c6ae28",
+          "number": "3",
+          "net": "GND",
+          "x": 1363.6,
+          "y": 488.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "eed7f392c5b23c6ae29",
+          "number": "2",
+          "net": "GND",
+          "x": 1313.6,
+          "y": 488.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "eed7f392c5b23c6ae30",
+          "number": "1",
+          "net": "GND",
+          "x": 1263.6,
+          "y": 488.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "U5",
+      "id": "3f1d56d80d17890c",
+      "x": 1141.7323,
+      "y": 787.4016,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "3f1d56d80d17890ce13",
+          "number": "4",
+          "net": "",
+          "x": 1179.1,
+          "y": 838.6,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "3f1d56d80d17890ce14",
+          "number": "5",
+          "net": "3V3",
+          "x": 1104.3,
+          "y": 838.6,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "3f1d56d80d17890ce15",
+          "number": "1",
+          "net": "5V_SERIAL",
+          "x": 1104.3,
+          "y": 736.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "3f1d56d80d17890ce16",
+          "number": "2",
+          "net": "GND",
+          "x": 1141.7,
+          "y": 736.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "3f1d56d80d17890ce17",
+          "number": "3",
+          "net": "5V_SERIAL",
+          "x": 1179.1,
+          "y": 736.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "U6",
+      "id": "662036d47b9119cb",
+      "x": 826.7717,
+      "y": 216.53539999999998,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "662036d47b9119cbe7",
+          "number": "3",
+          "net": "SERIAL_EN_N",
+          "x": 879.9,
+          "y": 253.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "662036d47b9119cbe8",
+          "number": "2",
+          "net": "GND",
+          "x": 879.9,
+          "y": 216.5,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "662036d47b9119cbe9",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 879.9,
+          "y": 179.1,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "662036d47b9119cbe10",
+          "number": "6",
+          "net": "5V_SERIAL",
+          "x": 773.6,
+          "y": 179.1,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "662036d47b9119cbe11",
+          "number": "5",
+          "net": "ILIM_SERIAL",
+          "x": 773.6,
+          "y": 216.5,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "662036d47b9119cbe12",
+          "number": "4",
+          "net": "PWR_FAULT_N",
+          "x": 773.6,
+          "y": 253.9,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "U7",
+      "id": "f5d1794089fd4fbd",
+      "x": 2125.9843,
+      "y": 669.2913,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "f5d1794089fd4fbde14",
+          "number": "5",
+          "net": "3V3",
+          "x": 2074.8,
+          "y": 631.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "f5d1794089fd4fbde15",
+          "number": "4",
+          "net": "UART_TX_OD",
+          "x": 2074.8,
+          "y": 706.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "f5d1794089fd4fbde16",
+          "number": "3",
+          "net": "GND",
+          "x": 2177.2,
+          "y": 706.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "f5d1794089fd4fbde17",
+          "number": "2",
+          "net": "UART_TX",
+          "x": 2177.2,
+          "y": 669.3,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "f5d1794089fd4fbde18",
+          "number": "1",
+          "net": "",
+          "x": 2177.2,
+          "y": 631.9,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "U8",
+      "id": "96a3099e2e76fc2e",
+      "x": 2125.9843,
+      "y": 866.1417,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "96a3099e2e76fc2ee14",
+          "number": "5",
+          "net": "3V3",
+          "x": 2074.8,
+          "y": 828.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "96a3099e2e76fc2ee15",
+          "number": "4",
+          "net": "UART_RX",
+          "x": 2074.8,
+          "y": 903.5,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "96a3099e2e76fc2ee16",
+          "number": "3",
+          "net": "GND",
+          "x": 2177.2,
+          "y": 903.5,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "96a3099e2e76fc2ee17",
+          "number": "2",
+          "net": "UART_RX_FILTER",
+          "x": 2177.2,
+          "y": 866.1,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "96a3099e2e76fc2ee18",
+          "number": "1",
+          "net": "",
+          "x": 2177.2,
+          "y": 828.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "U9",
+      "id": "33e6b4766de3eabb",
+      "x": 2519.685,
+      "y": 1417.3228,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "33e6b4766de3eabbe7",
+          "number": "3",
+          "net": "NATIVE_EN_N",
+          "x": 2572.8,
+          "y": 1454.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "33e6b4766de3eabbe8",
+          "number": "2",
+          "net": "GND",
+          "x": 2572.8,
+          "y": 1417.3,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "33e6b4766de3eabbe9",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 2572.8,
+          "y": 1379.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "33e6b4766de3eabbe10",
+          "number": "6",
+          "net": "VBUS_NATIVE",
+          "x": 2466.5,
+          "y": 1379.9,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "33e6b4766de3eabbe11",
+          "number": "5",
+          "net": "ILIM_NATIVE",
+          "x": 2466.5,
+          "y": 1417.3,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "33e6b4766de3eabbe12",
+          "number": "4",
+          "net": "PWR_FAULT_N",
+          "x": 2466.5,
+          "y": 1454.7,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "U10",
+      "id": "36cb5fc14d126936",
+      "x": 1141.7323,
+      "y": 137.7953,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "36cb5fc14d126936e7",
+          "number": "3",
+          "net": "USBA_EN_N",
+          "x": 1194.9,
+          "y": 175.2,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "36cb5fc14d126936e8",
+          "number": "2",
+          "net": "GND",
+          "x": 1194.9,
+          "y": 137.8,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "36cb5fc14d126936e9",
+          "number": "1",
+          "net": "VBUS_IN",
+          "x": 1194.9,
+          "y": 100.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "36cb5fc14d126936e10",
+          "number": "6",
+          "net": "VBUS_USBA",
+          "x": 1088.6,
+          "y": 100.4,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "36cb5fc14d126936e11",
+          "number": "5",
+          "net": "ILIM_USBA",
+          "x": 1088.6,
+          "y": 137.8,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "36cb5fc14d126936e12",
+          "number": "4",
+          "net": "PWR_FAULT_N",
+          "x": 1088.6,
+          "y": 175.2,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    },
+    {
+      "ref": "Y2",
+      "id": "abc3fe6f9d5c5d45",
+      "x": 1929.1338999999998,
+      "y": 1240.1575,
+      "rotation": 0,
+      "layer": 1,
+      "pads": [
+        {
+          "id": "abc3fe6f9d5c5d45e13",
+          "number": "1",
+          "net": "SIL_X1",
+          "x": 1885.8,
+          "y": 1206.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "abc3fe6f9d5c5d45e14",
+          "number": "2",
+          "net": "GND",
+          "x": 1972.4,
+          "y": 1206.7,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "abc3fe6f9d5c5d45e15",
+          "number": "3",
+          "net": "SIL_X2",
+          "x": 1972.4,
+          "y": 1273.6,
+          "layer": 1,
+          "rotation": 0
+        },
+        {
+          "id": "abc3fe6f9d5c5d45e16",
+          "number": "4",
+          "net": "GND",
+          "x": 1885.8,
+          "y": 1273.6,
+          "layer": 1,
+          "rotation": 0
+        }
+      ]
+    }
+  ],
+  "testpads": {
+    "TP1": "5d7b442481657965",
+    "TP2": "a53f37697c4cd50b",
+    "TP3": "1e628ec07e5650ed",
+    "TP4": "1d0d5ce191ff21c2",
+    "TP5": "b3f40bb7e17746f0",
+    "TP6": "d560ba6b42d0aec4",
+    "TP7": "a8d220cb2ca71221",
+    "TP8": "6b8717dffa88d4e5",
+    "TP9": "f05975be88b05628",
+    "TP10": "23adef9d00dc0b8d",
+    "TP11": "d3a8065c189391ac",
+    "TP12": "949216b16ea44c77",
+    "TP13": "f93e5a0e922a7a5e",
+    "TP14": "206a9560a84e2dc4",
+    "TP15": "d655ace6337a085f",
+    "TP16": "f01b2d1435a43130",
+    "TP17": "96c7b9894d493f7a",
+    "TP18": "7722fa9e03782fcf",
+    "TP19": "b31985b1c037cf81",
+    "TP20": "b023dfe74b68c33a",
+    "TP21": "34282d8e95a5a51d",
+    "TP22": "0342b57612ca6026",
+    "TP23": "adc13bff8ffb4850"
+  }
+}

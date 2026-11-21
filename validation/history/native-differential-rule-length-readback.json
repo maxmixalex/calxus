@@ -1,0 +1,96 @@
+{
+  "checkedAt": "2026-11-21T12:20:28.248Z",
+  "jobId": "job-mcp-a911c8f5-c164-4dd5-a926-5d4de6e066ef",
+  "source": "Live native PCB_Net.getNetLength",
+  "units": "mil, independently verified against native LINE centerline sum",
+  "lengths": [
+    {
+      "base": "USB_UP",
+      "positive": 682.56994,
+      "negative": 688.567531,
+      "difference": -5.997591000000057
+    },
+    {
+      "base": "USB_A",
+      "positive": 1404.491901,
+      "negative": 1395.42594,
+      "difference": 9.065961000000016
+    },
+    {
+      "base": "USB_NATIVE",
+      "positive": 2544.849813,
+      "negative": 2544.868033,
+      "difference": -0.018220000000383152
+    },
+    {
+      "base": "USB_SIL",
+      "positive": 1059.311349,
+      "negative": 1036.553234,
+      "difference": 22.75811500000009
+    },
+    {
+      "base": "USB_UART",
+      "positive": 1980.12582,
+      "negative": 1994.572481,
+      "difference": -14.44666099999995
+    }
+  ],
+  "pairs": [
+    {
+      "name": "USB_UP",
+      "positiveNet": "USB_UP_DP",
+      "negativeNet": "USB_UP_DM"
+    },
+    {
+      "name": "USB_NATIVE",
+      "positiveNet": "USB_NATIVE_DP",
+      "negativeNet": "USB_NATIVE_DM"
+    },
+    {
+      "name": "USB_A",
+      "positiveNet": "USB_A_DP",
+      "negativeNet": "USB_A_DM"
+    },
+    {
+      "name": "USB_SIL",
+      "positiveNet": "USB_SIL_DP",
+      "negativeNet": "USB_SIL_DM"
+    },
+    {
+      "name": "USB_UART",
+      "positiveNet": "USB_UART_DP",
+      "negativeNet": "USB_UART_DM"
+    }
+  ],
+  "differentialRules": {
+    "differentialPair": {
+      "editName": "differentialPair",
+      "unit": "mm",
+      "isSetDefault": true,
+      "form": {
+        "strokeWidthTables": {
+          "status": 1,
+          "data": {
+            "1": {
+              "minValue": 0.127,
+              "defaultValue": 0.24209502,
+              "maxValue": 0.29999939999999997
+            }
+          }
+        },
+        "diffPairSpacingTables": {
+          "status": 1,
+          "data": {
+            "1": {
+              "minValue": 0.15239999999999998,
+              "defaultValue": 0.15239999999999998,
+              "maxValue": null
+            }
+          }
+        },
+        "toleranceUnit": "mm",
+        "differentailPairLenTolerMax": 0.254
+      }
+    }
+  }
+}

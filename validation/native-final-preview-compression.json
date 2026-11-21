@@ -1,0 +1,9 @@
+{
+  "source_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "svg_bytes": 17579061,
+  "svg_sha256": "5dd6e4d1552d1fd851184d71979ea7ffcfb14fff18e004c5eead3a1b0e2b3c47",
+  "gzip_bytes": 4719717,
+  "gzip_sha256": "87be064402c759ebd3d7746b17d6cb8e375c77d64578a710a77174c5e3e4c749",
+  "png_sha256": "93daf0eb258abb1f33b218801b5960e3efcfb43b3c0c901f0fc462b31313f32f",
+  "lossless_verified": true
+}

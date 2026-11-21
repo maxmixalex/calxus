@@ -1,0 +1,86 @@
+{
+  "revision": "R1.2-ADJUSTABLE-PROTOTYPE",
+  "changed_printed_parts": [
+    "calxus_lid",
+    "calxus_slider_thumb"
+  ],
+  "intentional_geometry_change": "Thumb: 7x6 top, X calibration slots, continuous0.8 bearing floor, two0.8x2.7 guide posts with3.0 center opening. Lid: guide aperture X10.4 to11.2; Y3.3 and all case external dimensions/marks/rails unchanged. Fork9x8 platform unchanged after measured contact validation.",
+  "comparisons": [
+    {
+      "part": "base",
+      "old_minus_new_mm3": 0.0,
+      "new_minus_old_mm3": 0.0,
+      "unchanged": true,
+      "prior_step_sha256": "410517a322b05355cd70d48fcbd806df708b64954459edad9091a28ec0a1b5d3",
+      "new_step_sha256": "410517a322b05355cd70d48fcbd806df708b64954459edad9091a28ec0a1b5d3"
+    },
+    {
+      "part": "lid",
+      "old_minus_new_mm3": 5.280000000000007,
+      "new_minus_old_mm3": 0.0,
+      "unchanged": false,
+      "prior_step_sha256": "1787403c23759b0ffe9435ccc9be3aefd96cfac9d89c5d8268486155e4be9c9c",
+      "new_step_sha256": "1e5648177d9dabcec44d0110b14c967c6f8db665e4a4de2f803672e7dfc6efde"
+    },
+    {
+      "part": "comb_lower_tpu",
+      "old_minus_new_mm3": 0.0,
+      "new_minus_old_mm3": 0.0,
+      "unchanged": true,
+      "prior_step_sha256": "db40141f7526e7a732550f7906d26ed47473e139d0be37259c1d29bed44708e0",
+      "new_step_sha256": "db40141f7526e7a732550f7906d26ed47473e139d0be37259c1d29bed44708e0"
+    },
+    {
+      "part": "comb_upper_tpu",
+      "old_minus_new_mm3": 0.0,
+      "new_minus_old_mm3": 0.0,
+      "unchanged": true,
+      "prior_step_sha256": "90e05df4b6deea3afa9496a030bd74dd9c25123f7cffa9085638d6584abdddf8",
+      "new_step_sha256": "90e05df4b6deea3afa9496a030bd74dd9c25123f7cffa9085638d6584abdddf8"
+    },
+    {
+      "part": "slider_fork",
+      "old_minus_new_mm3": 0.0,
+      "new_minus_old_mm3": 0.0,
+      "unchanged": true,
+      "prior_step_sha256": "80c00a4304d318343d00030b0711a614a050318cc888102812f599b20f98290e",
+      "new_step_sha256": "80c00a4304d318343d00030b0711a614a050318cc888102812f599b20f98290e"
+    },
+    {
+      "part": "slider_thumb",
+      "old_minus_new_mm3": 14.783109289069277,
+      "new_minus_old_mm3": 49.111467018167346,
+      "unchanged": false,
+      "prior_step_sha256": "b65078a35253caed9c12d5e2ee5be10e02ed3af4bfb01be9bb5ed98f8737f419",
+      "new_step_sha256": "094ee145ba4442f99beb7fcdbf329288fa01ab91706a3a2d384ab261b6983b8b"
+    },
+    {
+      "part": "fit_coupon",
+      "old_minus_new_mm3": 0.0,
+      "new_minus_old_mm3": 0.0,
+      "unchanged": true,
+      "prior_step_sha256": "47fd75facfad4dff0adf64f3e072a9586f61244e057fb2bfac28ea9fa4aa963e",
+      "new_step_sha256": "47fd75facfad4dff0adf64f3e072a9586f61244e057fb2bfac28ea9fa4aa963e"
+    },
+    {
+      "part": "pcb_reference",
+      "old_minus_new_mm3": 0.0,
+      "new_minus_old_mm3": 0.0,
+      "unchanged": true,
+      "prior_step_sha256": "955cedc1950a893a43e114f468086f1dd5a8928c898d1e4ca114b22aca3c3dc8",
+      "new_step_sha256": "955cedc1950a893a43e114f468086f1dd5a8928c898d1e4ca114b22aca3c3dc8"
+    }
+  ],
+  "selector_final_validation": "native-r7-selector-motion.json",
+  "published_dimensions_mm": {
+    "case": [
+      86,
+      48,
+      19
+    ],
+    "with_thumb_height": 21.9,
+    "with_usb_a_y_span": 49.925231
+  },
+  "coupon_scope": "Unchanged insert pilot,1.9x2.0 fork socket and TPU cable bores only. Does not qualify new guide posts, screw calibration slots or full stroke.",
+  "unchanged_parts_byte_preserved_after_exact_comparison": true
+}

@@ -1,0 +1,97 @@
+{
+  "schema": "calxus.native-complete-route-checkpoint.v1",
+  "checked_at_utc": "2026-11-21T12:27:38.308792+00:00",
+  "status": "native_route_complete_remaining_drc_and_reconciliation_in_progress",
+  "archive_sha256": "8f8416623a3c52a0051e1417ac6f820136af75a020f0bde0d2919c453c9ef288",
+  "archive_role": "Actual full-route native backup before final UP/via reconciliation and J2 model-height correction",
+  "executed_operations": 1484,
+  "saved_through": 1484,
+  "close_reopen_reported_by_canvas_owner": true,
+  "native_pour_rebuild_count": 2,
+  "native_save": true,
+  "source_comparison_report": "history/native-netlist-error-source-diagnosis.json",
+  "source_components": 97,
+  "source_pins": 345,
+  "source_explicit_nc": 21,
+  "native_drc": {
+    "state": "failed",
+    "totalCount": 3,
+    "failedItems": 0,
+    "violations": [
+      {
+        "ruleName": "differentialPair",
+        "errorType": "Differential Pair Error",
+        "layerIds": [],
+        "position": {
+          "x": 1215.2534999999998,
+          "y": 718.032625
+        },
+        "obj1": "",
+        "obj1Type": "",
+        "explanation": "differentialPair",
+        "globalIndex": "err0"
+      },
+      {
+        "ruleName": "differentialPair",
+        "errorType": "Differential Pair Error",
+        "layerIds": [],
+        "position": {
+          "x": 1542.401525,
+          "y": 593.455675
+        },
+        "obj1": "",
+        "obj1Type": "",
+        "explanation": "differentialPair",
+        "globalIndex": "err1"
+      },
+      {
+        "ruleName": "",
+        "errorType": "Netlist Error",
+        "layerIds": [],
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "obj1": "",
+        "obj1Type": "",
+        "explanation": "",
+        "globalIndex": "err2"
+      }
+    ],
+    "checkedAt": 1795262531385,
+    "groups": [
+      {
+        "name": "Clearance Error",
+        "count": 0
+      },
+      {
+        "name": "Clearance Error in the same footprint",
+        "count": 0
+      },
+      {
+        "name": "Physical Error",
+        "count": 0
+      },
+      {
+        "name": "Differential Pair Error",
+        "count": 1
+      },
+      {
+        "name": "Connection Error",
+        "count": 0
+      },
+      {
+        "name": "Netlist Error",
+        "count": 1
+      },
+      {
+        "name": "Creepage Error",
+        "count": 0
+      }
+    ]
+  },
+  "native_cam_sample_report": "history/native-hole-adoption-cam-sample/gerber-validation.json",
+  "native_cam_sample_sha256": "d61a95b0708735b9fa8671ec10bba1e166be8521ac6f365a3a70496f9ec3e3eb",
+  "manufacturing_release_accepted": false,
+  "remaining": "Reconcile final UP repair and moved vias; resolve native netlist association and reviewed differential diagnostics; re-export and independently accept final CAM/SMT/PDF/project."
+}

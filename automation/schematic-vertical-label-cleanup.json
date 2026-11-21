@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "source_archive_sha256": "14633dadaf8768727c33a8bd6bf476226d26ff51e3585ab4ac5253297da68137",
+  "basis_pdf_sha256": "82dc9a7c904c404a59bfb2e73161351b4fb4964ec7b0b4aeb650ec760111c9f1",
+  "policy": "Only actual 90-degree NET text anchored on a reviewed bottom-facing pin stub receives RIGHT_BOTTOM alignment. Native PDF inspection showed the default text extended upward across SW1 and Q1/Q2. No position, rotation, value, wire, component or NC changes.",
+  "pages": {
+    "0b9f8a9f53fb8264": {
+      "page_name": "01_USB_Power",
+      "actions": [
+        {
+          "id": "d39cb151677498f5",
+          "reason": "Rotate-90 bottom-facing label must extend away from the symbol.",
+          "pin_basis": [
+            "SW1.7"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "MODE_USBA_N",
+            "parentId": "9369c33849b545c4",
+            "x": 280,
+            "y": -615,
+            "rotation": 90,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "MODE_USBA_N",
+            "parentId": "9369c33849b545c4",
+            "x": 280,
+            "y": -615,
+            "rotation": 90,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "dec40724f47ced36",
+          "reason": "Rotate-90 bottom-facing label must extend away from the symbol.",
+          "pin_basis": [
+            "SW1.9"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "MODE_SILVER_N",
+            "parentId": "4676e81a3aa2ad32",
+            "x": 310,
+            "y": -615,
+            "rotation": 90,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "MODE_SILVER_N",
+            "parentId": "4676e81a3aa2ad32",
+            "x": 310,
+            "y": -615,
+            "rotation": 90,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "b9576aebe2d71f3e",
+          "reason": "Rotate-90 bottom-facing label must extend away from the symbol.",
+          "pin_basis": [
+            "SW1.8"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "c78f2ae01e4b3bdb",
+            "x": 300,
+            "y": -615,
+            "rotation": 90,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "GND",
+            "parentId": "c78f2ae01e4b3bdb",
+            "x": 300,
+            "y": -615,
+            "rotation": 90,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "cf38df3cd416209a",
+          "reason": "Rotate-90 bottom-facing label must extend away from the symbol.",
+          "pin_basis": [
+            "SW1.6"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "MODE_NATIVE_N",
+            "parentId": "5b9db4bf8ead3179",
+            "x": 270,
+            "y": -615,
+            "rotation": 90,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "MODE_NATIVE_N",
+            "parentId": "5b9db4bf8ead3179",
+            "x": 270,
+            "y": -615,
+            "rotation": 90,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        }
+      ]
+    },
+    "35c8fed936c1c8a9": {
+      "page_name": "02_TI_SilverLink",
+      "actions": [
+        {
+          "id": "e678d2b3db458c65",
+          "reason": "Rotate-90 bottom-facing label must extend away from the symbol.",
+          "pin_basis": [
+            "Q1.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "TI_GPIO_TIP",
+            "parentId": "9d31bacd0926d449",
+            "x": 1740,
+            "y": -665,
+            "rotation": 90,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "TI_GPIO_TIP",
+            "parentId": "9d31bacd0926d449",
+            "x": 1740,
+            "y": -665,
+            "rotation": 90,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "9e27fc34991ccf3f",
+          "reason": "Rotate-90 bottom-facing label must extend away from the symbol.",
+          "pin_basis": [
+            "Q2.2"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "TI_GPIO_RING",
+            "parentId": "74368948a4b08ffe",
+            "x": 1740,
+            "y": -465,
+            "rotation": 90,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "TI_GPIO_RING",
+            "parentId": "74368948a4b08ffe",
+            "x": 1740,
+            "y": -465,
+            "rotation": 90,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        },
+        {
+          "id": "7be65ea5f230f225",
+          "reason": "Rotate-90 bottom-facing label must extend away from the symbol.",
+          "pin_basis": [
+            "D4.1"
+          ],
+          "before": {
+            "key": "NET",
+            "value": "TI_TIP",
+            "parentId": "fedef732dfc6ca66",
+            "x": 1990,
+            "y": -375,
+            "rotation": 90,
+            "align": null
+          },
+          "after": {
+            "key": "NET",
+            "value": "TI_TIP",
+            "parentId": "fedef732dfc6ca66",
+            "x": 1990,
+            "y": -375,
+            "rotation": 90,
+            "align": "RIGHT_BOTTOM"
+          },
+          "changes": {
+            "align": "RIGHT_BOTTOM"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4375 @@
+{
+  "schema": "calxus.native-netlist-error-source-diagnosis.v1",
+  "scope": "Independent saved native archive comparison. The native global Netlist Error remains unresolved; source agreement is not native DRC acceptance.",
+  "archive": "evidence/Calxus_r7_complete_route_before_reload.epro2",
+  "archive_sha256": "8f8416623a3c52a0051e1417ac6f820136af75a020f0bde0d2919c453c9ef288",
+  "drc_evidence": "evidence/native-full-route-drc-before-reconcile.json",
+  "native_drc_result": {
+    "state": "failed",
+    "totalCount": 3,
+    "failedItems": 0,
+    "violations": [
+      {
+        "ruleName": "differentialPair",
+        "errorType": "Differential Pair Error",
+        "layerIds": [],
+        "position": {
+          "x": 1215.2534999999998,
+          "y": 718.032625
+        },
+        "obj1": "",
+        "obj1Type": "",
+        "explanation": "differentialPair",
+        "globalIndex": "err0"
+      },
+      {
+        "ruleName": "differentialPair",
+        "errorType": "Differential Pair Error",
+        "layerIds": [],
+        "position": {
+          "x": 1542.401525,
+          "y": 593.455675
+        },
+        "obj1": "",
+        "obj1Type": "",
+        "explanation": "differentialPair",
+        "globalIndex": "err1"
+      },
+      {
+        "ruleName": "",
+        "errorType": "Netlist Error",
+        "layerIds": [],
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "obj1": "",
+        "obj1Type": "",
+        "explanation": "",
+        "globalIndex": "err2"
+      }
+    ],
+    "checkedAt": 1795262531385,
+    "groups": [
+      {
+        "name": "Clearance Error",
+        "count": 0
+      },
+      {
+        "name": "Clearance Error in the same footprint",
+        "count": 0
+      },
+      {
+        "name": "Physical Error",
+        "count": 0
+      },
+      {
+        "name": "Differential Pair Error",
+        "count": 1
+      },
+      {
+        "name": "Connection Error",
+        "count": 0
+      },
+      {
+        "name": "Netlist Error",
+        "count": 1
+      },
+      {
+        "name": "Creepage Error",
+        "count": 0
+      }
+    ]
+  },
+  "schematic_geometry_and_contract_pass": true,
+  "components": 97,
+  "pins": 345,
+  "explicit_nc": 21,
+  "pcb_empty_pin_count": 21,
+  "nc_empty_pin_sets_equal": true,
+  "orphan_pad_net_records": [],
+  "unique_id_duplicates": {
+    "schematic": [],
+    "pcb": []
+  },
+  "checks": [
+    {
+      "ref": "C1",
+      "schematic_component_id": "6e86872ac41149aa",
+      "pcb_component_id": "796fd2b6c597b5ba",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C2",
+      "schematic_component_id": "a7bf8a1a151d838d",
+      "pcb_component_id": "4c6aeae29581dcd6",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C3",
+      "schematic_component_id": "c0b699824ab99ee6",
+      "pcb_component_id": "dbeece3349976426",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C4",
+      "schematic_component_id": "805b91940649b2ee",
+      "pcb_component_id": "e5aa2ca7acea3210",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C5",
+      "schematic_component_id": "edbd8a051b045762",
+      "pcb_component_id": "687da77a6cd4a678",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C6",
+      "schematic_component_id": "8f1853313241c447",
+      "pcb_component_id": "b0905855c95a7c49",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C7",
+      "schematic_component_id": "3d0b053396053a6a",
+      "pcb_component_id": "fddfff4a311d62e9",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C8",
+      "schematic_component_id": "ddef142660c574ec",
+      "pcb_component_id": "b6e4657be878d19e",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C9",
+      "schematic_component_id": "c2969bb3266389eb",
+      "pcb_component_id": "43902dc030d82a80",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C10",
+      "schematic_component_id": "415d50cb6a0956e5",
+      "pcb_component_id": "5acb8991a2bc0976",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C11",
+      "schematic_component_id": "c835c1f11e102022",
+      "pcb_component_id": "c57fb27031ea43af",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C12",
+      "schematic_component_id": "4225a217011620c4",
+      "pcb_component_id": "af0dd8a39e37a531",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C13",
+      "schematic_component_id": "041f5ec7bcf6d649",
+      "pcb_component_id": "fd19f3e1f327e9de",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C15",
+      "schematic_component_id": "f4748c4f293d0837",
+      "pcb_component_id": "032c29eacb8784b6",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C16",
+      "schematic_component_id": "6d85e26d39ffa608",
+      "pcb_component_id": "54e9d6877ca6a9f8",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C17",
+      "schematic_component_id": "515c8a46ea7f8249",
+      "pcb_component_id": "e258cef16d8d006f",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C18",
+      "schematic_component_id": "3785faea33d67740",
+      "pcb_component_id": "775a4dd64ff43f7b",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C19",
+      "schematic_component_id": "18d8071349ee0c44",
+      "pcb_component_id": "ee795a552a30eae1",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C20",
+      "schematic_component_id": "fb558706804d3e68",
+      "pcb_component_id": "e0ecee93a6c7eafe",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C21",
+      "schematic_component_id": "9e2c0231d392dc63",
+      "pcb_component_id": "96419d24a2ab705b",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C22",
+      "schematic_component_id": "c73f9ddeaac4cce4",
+      "pcb_component_id": "29a6c0b1a4f0e7f2",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D1",
+      "schematic_component_id": "f5d78981fa124c26",
+      "pcb_component_id": "8b63389dcbeedc59",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D2",
+      "schematic_component_id": "f4714202c682dbe4",
+      "pcb_component_id": "0289a261105bb83a",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D4",
+      "schematic_component_id": "51427484fc1d4f2f",
+      "pcb_component_id": "dbdd9d3526413697",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D5",
+      "schematic_component_id": "217c324a3288e090",
+      "pcb_component_id": "19b7671e281200b0",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D6",
+      "schematic_component_id": "46266bb8d543d280",
+      "pcb_component_id": "2da067ef823de2b2",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D7",
+      "schematic_component_id": "ab8b1916d7331e2a",
+      "pcb_component_id": "3251487f2d17c5c4",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D8",
+      "schematic_component_id": "43721daddef7981a",
+      "pcb_component_id": "586007ef61af9b0e",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D9",
+      "schematic_component_id": "95d28b355bd4688d",
+      "pcb_component_id": "fab79282d9b2a563",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D10",
+      "schematic_component_id": "a7653578c0d003cd",
+      "pcb_component_id": "bf99366022752c87",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D11",
+      "schematic_component_id": "08055bc72ee9c9d8",
+      "pcb_component_id": "fd60e2071cd88b47",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D12",
+      "schematic_component_id": "26a99a4e4468a8b0",
+      "pcb_component_id": "7ecb28b9ad366e97",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D13",
+      "schematic_component_id": "b5014d9a53bace09",
+      "pcb_component_id": "12ed67f2f39fe65c",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D14",
+      "schematic_component_id": "394bb70f7fc33885",
+      "pcb_component_id": "4d939424ad38bdd7",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D15",
+      "schematic_component_id": "6bb9b13cf549cb8f",
+      "pcb_component_id": "7aa440d7df763370",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D16",
+      "schematic_component_id": "b86c6af49e33e123",
+      "pcb_component_id": "b4fe0e8a440b10fb",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J1",
+      "schematic_component_id": "0c145850f86cb25b",
+      "pcb_component_id": "1664932fadcbdc19",
+      "pin_count": 16,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "B8",
+        "A8"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J3",
+      "schematic_component_id": "65107b1e5df903a6",
+      "pcb_component_id": "c7ec60838bb943a0",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "4"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J4",
+      "schematic_component_id": "1fadbfec09785af4",
+      "pcb_component_id": "e1f62d3d73ed5d88",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J5",
+      "schematic_component_id": "db485dc60e4f3835",
+      "pcb_component_id": "f1ab66557675e99e",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J6",
+      "schematic_component_id": "718c1a84e6d62a60",
+      "pcb_component_id": "561801f7a460b1bc",
+      "pin_count": 4,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "4"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J7",
+      "schematic_component_id": "c42e9b24d8c3a98d",
+      "pcb_component_id": "8258b83d03526f54",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J8",
+      "schematic_component_id": "657c12414592c7b4",
+      "pcb_component_id": "467634ecc469b1f1",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J10",
+      "schematic_component_id": "bd8d8fc04150ef75",
+      "pcb_component_id": "02c8655c44cd7012",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "Q1",
+      "schematic_component_id": "9493818f0b75f8f2",
+      "pcb_component_id": "c9fc55267029d694",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "Q2",
+      "schematic_component_id": "2d0bbc637f87b9ec",
+      "pcb_component_id": "0aed2f50261314d5",
+      "pin_count": 3,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R1",
+      "schematic_component_id": "5676cdf828a987ab",
+      "pcb_component_id": "2f21cc491e71f6ae",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R2",
+      "schematic_component_id": "0c43f4a411b371cf",
+      "pcb_component_id": "81a8eb6d5863e20b",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R3",
+      "schematic_component_id": "8648d5830117b09c",
+      "pcb_component_id": "1a41c6a8bb8733d4",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R4",
+      "schematic_component_id": "c0d13c4c9ad7ce8f",
+      "pcb_component_id": "05f65f455d5bd469",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R5",
+      "schematic_component_id": "255573a18108e930",
+      "pcb_component_id": "1ec19e815c96a9d8",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R6",
+      "schematic_component_id": "529b5f4fc8fd94c8",
+      "pcb_component_id": "f453a4c5592e67dd",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R7",
+      "schematic_component_id": "19c2e056235a30df",
+      "pcb_component_id": "c5701a369870c42a",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R8",
+      "schematic_component_id": "1f2cd23bac464d5f",
+      "pcb_component_id": "f81f6535e6d46dfb",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R9",
+      "schematic_component_id": "21a4a91f1cf14184",
+      "pcb_component_id": "bcede431e174bfcf",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R10",
+      "schematic_component_id": "7c70d88e74f07058",
+      "pcb_component_id": "375454803d73e220",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R11",
+      "schematic_component_id": "212b135acd25b5a4",
+      "pcb_component_id": "606bb6888edf4e51",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R12",
+      "schematic_component_id": "5cfb339fdcb61f4c",
+      "pcb_component_id": "25c90508c3413acf",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R13",
+      "schematic_component_id": "bc6f355154fe998b",
+      "pcb_component_id": "6621ad067bbe053f",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R14",
+      "schematic_component_id": "5754bf81fa958769",
+      "pcb_component_id": "29c21b60fcfba0f3",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R15",
+      "schematic_component_id": "1b553306675513d0",
+      "pcb_component_id": "fb3bea76d8a0c8e4",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R16",
+      "schematic_component_id": "47686c82d2aa7703",
+      "pcb_component_id": "603061cf779c29a2",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R17",
+      "schematic_component_id": "2d6f589f298b6ff2",
+      "pcb_component_id": "f739f350a774c1b6",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R18",
+      "schematic_component_id": "501fd1e1dfe0f536",
+      "pcb_component_id": "2698083f3a5433cf",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R19",
+      "schematic_component_id": "a51672bfe2cbdefa",
+      "pcb_component_id": "67e6653799f2f216",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R20",
+      "schematic_component_id": "14c21b7b5db41197",
+      "pcb_component_id": "fb0bd4323db010af",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R21",
+      "schematic_component_id": "57f7a99891298d39",
+      "pcb_component_id": "c2a72d9a07ba9cfc",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R22",
+      "schematic_component_id": "c0d7f90144836ced",
+      "pcb_component_id": "f73eb6031f9dd74d",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R23",
+      "schematic_component_id": "0eecce80a21afc62",
+      "pcb_component_id": "78c1850fcfa6536f",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R25",
+      "schematic_component_id": "885e0f405da832ea",
+      "pcb_component_id": "7888cfd50bd5c292",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R27",
+      "schematic_component_id": "348952e0b8606522",
+      "pcb_component_id": "ba1990b740825c02",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R28",
+      "schematic_component_id": "49d523b340715b2e",
+      "pcb_component_id": "4385a51d3057eb2c",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R29",
+      "schematic_component_id": "ea743a516a63cbda",
+      "pcb_component_id": "ea9faf7c41b3566e",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R30",
+      "schematic_component_id": "defa5b445197cf09",
+      "pcb_component_id": "9b5f3eae16cba2ca",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R31",
+      "schematic_component_id": "cc009f22e689d77b",
+      "pcb_component_id": "08366868c6dc3113",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R32",
+      "schematic_component_id": "e61b8b4b0c8aadd1",
+      "pcb_component_id": "17fc420aa52e04ee",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R33",
+      "schematic_component_id": "5bdd9d3c45f932f6",
+      "pcb_component_id": "3bd155723e9db4bc",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R34",
+      "schematic_component_id": "a7481433260b67ab",
+      "pcb_component_id": "37ac8faaac9d625e",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R35",
+      "schematic_component_id": "c52e8ed0058f5af6",
+      "pcb_component_id": "d680baafba26fd09",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R36",
+      "schematic_component_id": "997c7183f4da359f",
+      "pcb_component_id": "e06832ba274dc3db",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "R37",
+      "schematic_component_id": "2c94601c44424d1e",
+      "pcb_component_id": "2c1d94b2c89691cb",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "SW1",
+      "schematic_component_id": "33fbceeca2d73086",
+      "pcb_component_id": "4acc6f736faef614",
+      "pin_count": 10,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "10"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U1",
+      "schematic_component_id": "1b3b0832235186d7",
+      "pcb_component_id": "54992dff2800f3fd",
+      "pin_count": 16,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "15"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U2",
+      "schematic_component_id": "7c83643c1fec2352",
+      "pcb_component_id": "690e6b24eed3fefa",
+      "pin_count": 33,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "22",
+        "21",
+        "20",
+        "19",
+        "12"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U3",
+      "schematic_component_id": "c0af1726e5c3b756",
+      "pcb_component_id": "07ff7399f57d3c70",
+      "pin_count": 17,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U4",
+      "schematic_component_id": "027c752cb7d5676d",
+      "pcb_component_id": "eed7f392c5b23c6a",
+      "pin_count": 8,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U5",
+      "schematic_component_id": "ce102efe70ccaa65",
+      "pcb_component_id": "3f1d56d80d17890c",
+      "pin_count": 5,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "4"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U6",
+      "schematic_component_id": "0a99278f88bc2fb9",
+      "pcb_component_id": "662036d47b9119cb",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U7",
+      "schematic_component_id": "d1742f8240b5f502",
+      "pcb_component_id": "f5d1794089fd4fbd",
+      "pin_count": 5,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "1"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U8",
+      "schematic_component_id": "104e5792a6ba5d70",
+      "pcb_component_id": "96a3099e2e76fc2e",
+      "pin_count": 5,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [
+        "1"
+      ],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U9",
+      "schematic_component_id": "329914c16c0e1b36",
+      "pcb_component_id": "33e6b4766de3eabb",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "U10",
+      "schematic_component_id": "814e8bd78151fbe9",
+      "pcb_component_id": "36cb5fc14d126936",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "Y2",
+      "schematic_component_id": "666de069fbde7a49",
+      "pcb_component_id": "abc3fe6f9d5c5d45",
+      "pin_count": 4,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J9",
+      "schematic_component_id": "e7270382037968fd",
+      "pcb_component_id": "a73dc0656f828ff9",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "D3",
+      "schematic_component_id": "33cc416e182ffe8a",
+      "pcb_component_id": "ec2ddbcc5cb015f4",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "C14",
+      "schematic_component_id": "1a4cc1a574e09b43",
+      "pcb_component_id": "5737c3d802781e24",
+      "pin_count": 2,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    },
+    {
+      "ref": "J2",
+      "schematic_component_id": "1488a7a605462dd5",
+      "pcb_component_id": "b5596e790541d216",
+      "pin_count": 6,
+      "pin_nets_match": true,
+      "pcb_empty_pins": [],
+      "binding_fields_equal": {
+        "Unique ID": true,
+        "Device": true,
+        "Footprint": true,
+        "Add into BOM": true,
+        "Convert to PCB": true
+      },
+      "pinSwapInfoIdsExactlyMatchFootprintPads": true
+    }
+  ],
+  "pad_net_key_checks": [
+    {
+      "ref": "C1",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C1",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C2",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C2",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C3",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C3",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C4",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C4",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C5",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C5",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C6",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C6",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C7",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C7",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C8",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C8",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C9",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C9",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C10",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C10",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C11",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C11",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C12",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C12",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C13",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C13",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C15",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C15",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C16",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C16",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C17",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C17",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C18",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C18",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C19",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C19",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C20",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C20",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C21",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C21",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C22",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C22",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D1",
+      "pad": "1",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D1",
+      "pad": "2",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D1",
+      "pad": "3",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D1",
+      "pad": "4",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D1",
+      "pad": "5",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D1",
+      "pad": "6",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D2",
+      "pad": "1",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D2",
+      "pad": "2",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D2",
+      "pad": "3",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D2",
+      "pad": "4",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D2",
+      "pad": "5",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D2",
+      "pad": "6",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D4",
+      "pad": "2",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D4",
+      "pad": "3",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D4",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D5",
+      "pad": "2",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D5",
+      "pad": "3",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D5",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D6",
+      "pad": "2",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D6",
+      "pad": "3",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D6",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D7",
+      "pad": "2",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D7",
+      "pad": "3",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D7",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D8",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D8",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D9",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D9",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D10",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D10",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D11",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D11",
+      "pad": "2",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D11",
+      "pad": "3",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D12",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D12",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D13",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D13",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D14",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D14",
+      "pad": "2",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D14",
+      "pad": "3",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D15",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D15",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D16",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D16",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "B8",
+      "padPrimitiveId": "e27",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "A5",
+      "padPrimitiveId": "e28",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "B7",
+      "padPrimitiveId": "e29",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "A6",
+      "padPrimitiveId": "e30",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "A7",
+      "padPrimitiveId": "e31",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "B6",
+      "padPrimitiveId": "e32",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "A8",
+      "padPrimitiveId": "e33",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "B5",
+      "padPrimitiveId": "e34",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "A1B12",
+      "padPrimitiveId": "e35",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "B1A12",
+      "padPrimitiveId": "e36",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "B4A9",
+      "padPrimitiveId": "e37",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "A4B9",
+      "padPrimitiveId": "e38",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "padPrimitiveId": "e57",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "1",
+      "padPrimitiveId": "e58",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "4",
+      "padPrimitiveId": "e59",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J1",
+      "pad": "3",
+      "padPrimitiveId": "e60",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J3",
+      "pad": "6",
+      "padPrimitiveId": "e16",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J3",
+      "pad": "5",
+      "padPrimitiveId": "e17",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J3",
+      "pad": "4",
+      "padPrimitiveId": "e18",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J3",
+      "pad": "3",
+      "padPrimitiveId": "e19",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J3",
+      "pad": "2",
+      "padPrimitiveId": "e20",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J3",
+      "pad": "1",
+      "padPrimitiveId": "e21",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J4",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J4",
+      "pad": "3",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J5",
+      "pad": "2",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J5",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J5",
+      "pad": "3",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J6",
+      "pad": "2",
+      "padPrimitiveId": "e1",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J6",
+      "pad": "1",
+      "padPrimitiveId": "e2",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J6",
+      "pad": "3",
+      "padPrimitiveId": "e3",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J6",
+      "pad": "4",
+      "padPrimitiveId": "e4",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J7",
+      "pad": "6",
+      "padPrimitiveId": "e16",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J7",
+      "pad": "5",
+      "padPrimitiveId": "e17",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J7",
+      "pad": "4",
+      "padPrimitiveId": "e18",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J7",
+      "pad": "3",
+      "padPrimitiveId": "e19",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J7",
+      "pad": "2",
+      "padPrimitiveId": "e20",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J7",
+      "pad": "1",
+      "padPrimitiveId": "e21",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J8",
+      "pad": "6",
+      "padPrimitiveId": "e16",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J8",
+      "pad": "5",
+      "padPrimitiveId": "e17",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J8",
+      "pad": "4",
+      "padPrimitiveId": "e18",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J8",
+      "pad": "3",
+      "padPrimitiveId": "e19",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J8",
+      "pad": "2",
+      "padPrimitiveId": "e20",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J8",
+      "pad": "1",
+      "padPrimitiveId": "e21",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J10",
+      "pad": "1",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J10",
+      "pad": "2",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Q1",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Q1",
+      "pad": "2",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Q1",
+      "pad": "3",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Q2",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Q2",
+      "pad": "2",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Q2",
+      "pad": "3",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R1",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R1",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R2",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R2",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R3",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R3",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R4",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R4",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R5",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R5",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R6",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R6",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R7",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R7",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R8",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R8",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R9",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R9",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R10",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R10",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R11",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R11",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R12",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R12",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R13",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R13",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R14",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R14",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R15",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R15",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R16",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R16",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R17",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R17",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R18",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R18",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R19",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R19",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R20",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R20",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R21",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R21",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R22",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R22",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R23",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R23",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R25",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R25",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R27",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R27",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R28",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R28",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R29",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R29",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R30",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R30",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R31",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R31",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R32",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R32",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R33",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R33",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R34",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R34",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R35",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R35",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R36",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R36",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R37",
+      "pad": "2",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "R37",
+      "pad": "1",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "1",
+      "padPrimitiveId": "e18",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "2",
+      "padPrimitiveId": "e19",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "3",
+      "padPrimitiveId": "e20",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "4",
+      "padPrimitiveId": "e21",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "6",
+      "padPrimitiveId": "e22",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "7",
+      "padPrimitiveId": "e23",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "8",
+      "padPrimitiveId": "e24",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "9",
+      "padPrimitiveId": "e25",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "5",
+      "padPrimitiveId": "e26",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "SW1",
+      "pad": "10",
+      "padPrimitiveId": "e27",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "1",
+      "padPrimitiveId": "e36",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "2",
+      "padPrimitiveId": "e37",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "3",
+      "padPrimitiveId": "e38",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "4",
+      "padPrimitiveId": "e39",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "5",
+      "padPrimitiveId": "e40",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "6",
+      "padPrimitiveId": "e41",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "7",
+      "padPrimitiveId": "e42",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "8",
+      "padPrimitiveId": "e43",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "16",
+      "padPrimitiveId": "e44",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "15",
+      "padPrimitiveId": "e45",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "14",
+      "padPrimitiveId": "e46",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "13",
+      "padPrimitiveId": "e47",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "12",
+      "padPrimitiveId": "e48",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "11",
+      "padPrimitiveId": "e49",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "10",
+      "padPrimitiveId": "e50",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U1",
+      "pad": "9",
+      "padPrimitiveId": "e51",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "33",
+      "padPrimitiveId": "e48",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "32",
+      "padPrimitiveId": "e49",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "31",
+      "padPrimitiveId": "e50",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "30",
+      "padPrimitiveId": "e51",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "29",
+      "padPrimitiveId": "e52",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "28",
+      "padPrimitiveId": "e53",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "27",
+      "padPrimitiveId": "e54",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "26",
+      "padPrimitiveId": "e55",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "25",
+      "padPrimitiveId": "e56",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "24",
+      "padPrimitiveId": "e57",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "23",
+      "padPrimitiveId": "e58",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "22",
+      "padPrimitiveId": "e59",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "21",
+      "padPrimitiveId": "e60",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "20",
+      "padPrimitiveId": "e61",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "19",
+      "padPrimitiveId": "e62",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "18",
+      "padPrimitiveId": "e63",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "17",
+      "padPrimitiveId": "e64",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "16",
+      "padPrimitiveId": "e65",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "15",
+      "padPrimitiveId": "e66",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "14",
+      "padPrimitiveId": "e67",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "13",
+      "padPrimitiveId": "e68",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "12",
+      "padPrimitiveId": "e69",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "11",
+      "padPrimitiveId": "e70",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "10",
+      "padPrimitiveId": "e71",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "9",
+      "padPrimitiveId": "e72",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "8",
+      "padPrimitiveId": "e73",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "7",
+      "padPrimitiveId": "e74",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "6",
+      "padPrimitiveId": "e75",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "5",
+      "padPrimitiveId": "e76",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "4",
+      "padPrimitiveId": "e77",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "3",
+      "padPrimitiveId": "e78",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "2",
+      "padPrimitiveId": "e79",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U2",
+      "pad": "1",
+      "padPrimitiveId": "e80",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "1",
+      "padPrimitiveId": "e30",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "2",
+      "padPrimitiveId": "e31",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "3",
+      "padPrimitiveId": "e32",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "4",
+      "padPrimitiveId": "e33",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "5",
+      "padPrimitiveId": "e34",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "6",
+      "padPrimitiveId": "e35",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "7",
+      "padPrimitiveId": "e36",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "8",
+      "padPrimitiveId": "e37",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "9",
+      "padPrimitiveId": "e38",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "10",
+      "padPrimitiveId": "e39",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "11",
+      "padPrimitiveId": "e40",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "12",
+      "padPrimitiveId": "e41",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "13",
+      "padPrimitiveId": "e42",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "14",
+      "padPrimitiveId": "e43",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "15",
+      "padPrimitiveId": "e44",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "16",
+      "padPrimitiveId": "e45",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U3",
+      "pad": "17",
+      "padPrimitiveId": "e46",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U4",
+      "pad": "5",
+      "padPrimitiveId": "e23",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U4",
+      "pad": "6",
+      "padPrimitiveId": "e24",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U4",
+      "pad": "7",
+      "padPrimitiveId": "e25",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U4",
+      "pad": "8",
+      "padPrimitiveId": "e26",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U4",
+      "pad": "4",
+      "padPrimitiveId": "e27",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U4",
+      "pad": "3",
+      "padPrimitiveId": "e28",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U4",
+      "pad": "2",
+      "padPrimitiveId": "e29",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U4",
+      "pad": "1",
+      "padPrimitiveId": "e30",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U5",
+      "pad": "4",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U5",
+      "pad": "5",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U5",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U5",
+      "pad": "2",
+      "padPrimitiveId": "e16",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U5",
+      "pad": "3",
+      "padPrimitiveId": "e17",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U6",
+      "pad": "3",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U6",
+      "pad": "2",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U6",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U6",
+      "pad": "6",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U6",
+      "pad": "5",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U6",
+      "pad": "4",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U7",
+      "pad": "5",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U7",
+      "pad": "4",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U7",
+      "pad": "3",
+      "padPrimitiveId": "e16",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U7",
+      "pad": "2",
+      "padPrimitiveId": "e17",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U7",
+      "pad": "1",
+      "padPrimitiveId": "e18",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U8",
+      "pad": "5",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U8",
+      "pad": "4",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U8",
+      "pad": "3",
+      "padPrimitiveId": "e16",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U8",
+      "pad": "2",
+      "padPrimitiveId": "e17",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U8",
+      "pad": "1",
+      "padPrimitiveId": "e18",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U9",
+      "pad": "3",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U9",
+      "pad": "2",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U9",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U9",
+      "pad": "6",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U9",
+      "pad": "5",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U9",
+      "pad": "4",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U10",
+      "pad": "3",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U10",
+      "pad": "2",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U10",
+      "pad": "1",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U10",
+      "pad": "6",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U10",
+      "pad": "5",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "U10",
+      "pad": "4",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Y2",
+      "pad": "1",
+      "padPrimitiveId": "e13",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Y2",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Y2",
+      "pad": "3",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "Y2",
+      "pad": "4",
+      "padPrimitiveId": "e16",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J9",
+      "pad": "1",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J9",
+      "pad": "2",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D3",
+      "pad": "1",
+      "padPrimitiveId": "e7",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D3",
+      "pad": "2",
+      "padPrimitiveId": "e8",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D3",
+      "pad": "3",
+      "padPrimitiveId": "e9",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D3",
+      "pad": "4",
+      "padPrimitiveId": "e10",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D3",
+      "pad": "5",
+      "padPrimitiveId": "e11",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "D3",
+      "pad": "6",
+      "padPrimitiveId": "e12",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C14",
+      "pad": "2",
+      "padPrimitiveId": "e14",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "C14",
+      "pad": "1",
+      "padPrimitiveId": "e15",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J2",
+      "pad": "6",
+      "padPrimitiveId": "e24",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J2",
+      "pad": "5",
+      "padPrimitiveId": "e25",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J2",
+      "pad": "4",
+      "padPrimitiveId": "e26",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J2",
+      "pad": "3",
+      "padPrimitiveId": "e27",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J2",
+      "pad": "2",
+      "padPrimitiveId": "e28",
+      "padNetRecordPresentAndNumberCorrect": true
+    },
+    {
+      "ref": "J2",
+      "pad": "1",
+      "padPrimitiveId": "e29",
+      "padNetRecordPresentAndNumberCorrect": true
+    }
+  ],
+  "non_identity_property_differences": [
+    {
+      "ref": "C1",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C2",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C3",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C4",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C5",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C6",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C7",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C8",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C9",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C10",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C11",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C12",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C13",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C15",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C16",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C17",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C18",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C19",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C20",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C21",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C22",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D1",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D2",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D4",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D5",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D6",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D7",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D8",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D9",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D10",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D11",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D12",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D13",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D14",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D15",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D16",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J1",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J3",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J4",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J5",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J6",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J7",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J8",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J10",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "Q1",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "Q2",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R1",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R2",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R3",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R4",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R5",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R6",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R7",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R8",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R9",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R10",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R11",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R12",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R13",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R14",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R15",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R16",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R17",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R18",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R19",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R20",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R21",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R22",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R23",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R25",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R27",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R28",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R29",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R30",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R31",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R32",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R33",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R34",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R35",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R36",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "R37",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "SW1",
+      "key": "3D Model Transform",
+      "schematic": "590.55,218.5035,0,0,0,0,0,-38.031,-118.11",
+      "pcb": "590.55,218.5035,0,0,0,0,0,-38.031,-98.42496063"
+    },
+    {
+      "ref": "SW1",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U1",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U2",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U3",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U4",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U5",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U6",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U7",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U8",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U9",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "U10",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "Y2",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J9",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "D3",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "C14",
+      "key": "isSwitchClose",
+      "schematic": false,
+      "pcb": null
+    },
+    {
+      "ref": "J2",
+      "key": "Calxus Function",
+      "schematic": "Selected downstream USB-A; rear separate shield pins 5/6 grounded; C456017 right-angle body10mm,height6.3mm.",
+      "pcb": "Selected downstream USB-A; C456017 rear shields5/6 grounded; right-angle10mm body6.3mm high."
+    },
+    {
+      "ref": "J2",
+      "key": "PCB Layer",
+      "schematic": "Default",
+      "pcb": null
+    }
+  ],
+  "all_raw_schematic_bindings_inherit_from_DeviceName": true,
+  "board_bindings": {
+    "BOARD": {
+      "title": "Calxus_RevA",
+      "zIndex": 1
+    },
+    "SCH": {
+      "title": "Schematic1",
+      "source": "",
+      "board": "0585a3d4c9a466a0",
+      "zIndex": null
+    },
+    "PCB": {
+      "title": "pcb-before-stackup",
+      "parent": "",
+      "source": "",
+      "board": "0585a3d4c9a466a0",
+      "zIndex": null
+    }
+  },
+  "source_comparison_pass": true,
+  "issues": [],
+  "unproven_hypotheses": [
+    "Live DRC SCH-netlist library-binding completion/cache may differ from saved-source resolved metadata. All 97 raw schematic instances inherit Device/Footprint from DeviceName, so empty direct ATTR fields are not uniquely a J2 defect.",
+    "Native ECO comparison may treat non-net component properties differently; J2 descriptive text and SW1 approved model transform differ. No metadata change has been applied to test this."
+  ],
+  "next_safe_diagnostic": "Canvas owner can capture the native schematic-to-PCB ECO change list without applying it, or provide freshly generated live SCH/PCB netlists. Do not blindly import changes: preserve approved PCB-only model transforms and routing."
+}

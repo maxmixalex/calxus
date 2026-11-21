@@ -1,0 +1,30 @@
+{
+  "visual_pass": false,
+  "native_export_success": true,
+  "pdf_bytes": 282941,
+  "pdf_sha256": "e9cc285b74a17e711ee7e5009cf5098c13759a0f411df7684bf5563d65d3a4fe",
+  "native_zip_sha256": "15ee8f677442fa290f8c2136f759d14a8f94d4f897a928f819b468fdf3751818",
+  "pages": 3,
+  "page_dimensions_mm": [
+    [
+      596.1379879421658,
+      422.3314565022786
+    ],
+    [
+      596.1379879421658,
+      422.3314565022786
+    ],
+    [
+      596.1379879421658,
+      422.3314565022786
+    ]
+  ],
+  "issues": [
+    "Default horizontal NET alignment makes left-facing labels overlap symbol pin numbers/names, particularly U1/U2/U3.",
+    "Title block says A4 although physical page/frame is A2 size with export margin."
+  ],
+  "repair_plan": "../../automation/schematic-label-cleanup.json",
+  "repair_script": "../../automation/lceda_cleanup_schematic_labels.js",
+  "repair_scope": "82 actual left-facing horizontal label anchors: alignment only; 6 stale title attributes; 74 other NET labels unchanged. No line, net value, component position or NC changes.",
+  "status": "Historical review PDF only. Re-export and rerender after native guarded correction. Reopened 97/344 comparison passes separately; NC source/API post-import audit remains to run."
+}

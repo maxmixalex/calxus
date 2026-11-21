@@ -1,0 +1,64 @@
+{
+  "pass": true,
+  "scope": "Synthetic Excellon/Gerber parser checks only; no final Calxus CAM acceptance",
+  "expectations_sha256": "a15faacb4abba5b59b3e2045bde653b6c53cc758bfe2714f778afa05dee16f25",
+  "parser": "gerbonara 1.6.3",
+  "cases": [
+    {
+      "name": "two_NPTH_drills",
+      "expected_pass": true,
+      "observed_pass": true,
+      "passed_holes": 2,
+      "allowed_extra_NPTH_drills": 2
+    },
+    {
+      "name": "two_closed_inner_contours",
+      "expected_pass": true,
+      "observed_pass": true,
+      "passed_holes": 2,
+      "allowed_extra_NPTH_drills": 0
+    },
+    {
+      "name": "drill_and_contour_duplicate_machining",
+      "expected_pass": false,
+      "observed_pass": false,
+      "passed_holes": 0,
+      "allowed_extra_NPTH_drills": 0
+    },
+    {
+      "name": "missing_one_locating_hole",
+      "expected_pass": false,
+      "observed_pass": false,
+      "passed_holes": 1,
+      "allowed_extra_NPTH_drills": 1
+    },
+    {
+      "name": "cached_diameter_ten_times_too_small",
+      "expected_pass": false,
+      "observed_pass": false,
+      "passed_holes": 0,
+      "allowed_extra_NPTH_drills": 0
+    },
+    {
+      "name": "wrong_plated_locating_hole",
+      "expected_pass": false,
+      "observed_pass": false,
+      "passed_holes": 1,
+      "allowed_extra_NPTH_drills": 1
+    },
+    {
+      "name": "open_180_degree_contours",
+      "expected_pass": false,
+      "observed_pass": false,
+      "passed_holes": 0,
+      "allowed_extra_NPTH_drills": 0
+    },
+    {
+      "name": "backtracked_half_circle_not_a_round_hole",
+      "expected_pass": false,
+      "observed_pass": false,
+      "passed_holes": 0,
+      "allowed_extra_NPTH_drills": 0
+    }
+  ]
+}

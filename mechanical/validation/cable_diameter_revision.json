@@ -1,0 +1,85 @@
+{
+  "revision": "R1.1-CABLE-PROTOTYPE",
+  "reason": "C430897 actual nominal jacket OD3.8 for Mini-B, TI and Casio; AUX 26AWG PH bundle must be sleeved to OD2.9..3.1.",
+  "unchanged_contract_sections": [
+    "board",
+    "enclosure",
+    "ports",
+    "fasteners",
+    "selector"
+  ],
+  "unchanged_solid_checks": {
+    "calxus_base": {
+      "symmetric_difference_mm3": 0.0,
+      "old_volume_mm3": 11987.276269546468,
+      "new_volume_mm3": 11987.276269546468,
+      "unchanged_geometry": true
+    },
+    "calxus_lid": {
+      "symmetric_difference_mm3": 0.0,
+      "old_volume_mm3": 12051.25370357676,
+      "new_volume_mm3": 12051.25370357676,
+      "unchanged_geometry": true
+    },
+    "calxus_slider_fork": {
+      "symmetric_difference_mm3": 0.0,
+      "old_volume_mm3": 230.57198351211528,
+      "new_volume_mm3": 230.57198351211528,
+      "unchanged_geometry": true
+    },
+    "calxus_slider_thumb": {
+      "symmetric_difference_mm3": 0.0,
+      "old_volume_mm3": 51.06472624161414,
+      "new_volume_mm3": 51.06472624161414,
+      "unchanged_geometry": true
+    },
+    "calxus_pcb_reference": {
+      "symmetric_difference_mm3": 0.0,
+      "old_volume_mm3": 5350.298054736349,
+      "new_volume_mm3": 5350.298054736349,
+      "unchanged_geometry": true
+    }
+  },
+  "changed_printable_geometry": [
+    "calxus_comb_lower_tpu",
+    "calxus_comb_upper_tpu",
+    "calxus_fit_coupon"
+  ],
+  "assembly_derived_changes": [
+    "comb geometry",
+    "heatshrink collar reference geometry",
+    "preview cable stub diameters"
+  ],
+  "cable_source": {
+    "manufacturer": "Ckmtw",
+    "mpn": "S002020047",
+    "lcsc": "C430897",
+    "drawing_revision": "A",
+    "drawing_date": "2012-11-01",
+    "nominal_length_mm": 1500,
+    "nominal_jacket_od_mm": 3.8,
+    "construction": "UL2725 #28x1PR + #28x2C + AL + 64 braid, black",
+    "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/4be3348a50351aa811fbe41e427c005c.pdf?productCode=C430897",
+    "datasheet_sha256": "17fbb55f829f1ddadb230e9551f4c5ae0201c9e2ff5932ec97752c584b5178f7",
+    "inspection": "Manufacturer drawing visually checked; source supplied by electrical procurement. Stock status is maintained by the procurement BOM, not this mechanical contract."
+  },
+  "limits": [
+    "No physical printing, retention or flex testing performed.",
+    "Actual populated-PCBA fit remains pending a corrected thickness STEP export.",
+    "SP-2533A outlet4+/-0.5mm is not a full-tolerance clearance guarantee for OD3.8 cable."
+  ],
+  "assembly_step_validation": {
+    "valid": true,
+    "solid_count": 25,
+    "volume_mm3": 33314.47543340595
+  },
+  "freecad_file_crc_valid": true,
+  "preview_visual_qa": "Both assembled and exploded CAD renders inspected; three large cable channels and the smaller AUX channel are visible.",
+  "pdf_visual_qa": {
+    "pages": 4,
+    "inspected_all_pages": true,
+    "text_outside_page_bounds": 0,
+    "updated_cable_sizes_visible": true
+  },
+  "geometry_validation_pass": true
+}

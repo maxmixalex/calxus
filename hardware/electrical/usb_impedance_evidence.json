@@ -1,0 +1,199 @@
+{
+  "source_urls": [
+    "https://jlcpcb.com/impedance",
+    "https://jlcpcb.com/pcb-impedance-calculator",
+    "https://jlcpcb.com/help/article/user-guide-to-the-jlcpcb-impedance-calculator"
+  ],
+  "retrieved_utc": "2026-11-21T07:36:04Z",
+  "stackup": "JLC04161H-7628",
+  "stackup_id": "d299f4844d734833a89bdf80a65e3427",
+  "nominal_board_thickness_mm": 1.6,
+  "outer_copper_oz": 1,
+  "inner_copper_oz": 0.5,
+  "layer_table": [
+    {
+      "layer": "L1",
+      "material": "1oz",
+      "dielectric_thickness_mm": 0.0,
+      "dielectric_constant": 4.2,
+      "top_copper_mm": 0.035,
+      "bottom_copper_mm": 0.0
+    },
+    {
+      "layer": null,
+      "material": "7628 RC49% 8.6mil",
+      "dielectric_thickness_mm": 0.2104,
+      "dielectric_constant": 4.4,
+      "top_copper_mm": 0.0,
+      "bottom_copper_mm": 0.0
+    },
+    {
+      "layer": "L2/L3",
+      "material": "1.1mm H/HOZ 含铜",
+      "dielectric_thickness_mm": 1.065,
+      "dielectric_constant": 4.38,
+      "top_copper_mm": 0.0152,
+      "bottom_copper_mm": 0.0152
+    },
+    {
+      "layer": null,
+      "material": "7628 RC49% 8.6mil",
+      "dielectric_thickness_mm": 0.2104,
+      "dielectric_constant": 4.4,
+      "top_copper_mm": 0.0,
+      "bottom_copper_mm": 0.0
+    },
+    {
+      "layer": "L4",
+      "material": "1oz",
+      "dielectric_thickness_mm": 0.0,
+      "dielectric_constant": 4.2,
+      "top_copper_mm": 0.035,
+      "bottom_copper_mm": 0.0
+    }
+  ],
+  "outer_trace_configuration": {
+    "impedanceConfigCopperTraceWidthId": 560411994507636743,
+    "baseCopperThickness": 0.5,
+    "systemCopperThickness": 1.0,
+    "traceCopperThickness": 1.6,
+    "traceWidthDelta": 0.5,
+    "layerType": 1
+  },
+  "soldermask_configuration": {
+    "impedanceConfigCoverlayId": 560413206669881349,
+    "systemCopperThickness": 1.0,
+    "coatingAboveSubstrate": 1.0,
+    "coatingAboveTrace": 0.6,
+    "coatingBetweenTraces": 1.0,
+    "layerType": 1,
+    "baseCopperThickness": 0.5
+  },
+  "calculator_result": {
+    "retrieved_utc": "2026-11-21T07:36:04Z",
+    "source": "https://jlcpcb.com/pcb-impedance-calculator",
+    "stackup": "JLC04161H-7628",
+    "request": {
+      "accessId": "7bb47663-4835-4632-95c3-e5cee89a3311",
+      "impedance_calc_mark": "W2_DiffEdgeCoupledCoatedMicrostrip1B",
+      "paramMd5": "d41d8cd98f00b204e9800998ecf8427e",
+      "impedance_calc_arg": {
+        "H1": 8.283464566929135,
+        "Er1": 4.4,
+        "W1": 10,
+        "W2": 9.5,
+        "S1": 6,
+        "T1": 1.6,
+        "C1": 1,
+        "C2": 0.6,
+        "C3": 1,
+        "CEr": 3.8,
+        "Zo": 90,
+        "dCalculateMode": 3,
+        "isLinkComputingMode": false,
+        "W2LinkW1Incr": 0.5,
+        "ZoTol": 0.5,
+        "MinW2": 2,
+        "MaxW2": 150
+      },
+      "uuid": "a28e66ed-c2bd-4934-9ac0-65ea24c7f7b5"
+    },
+    "ack": {
+      "message": null,
+      "result": "success",
+      "body": null,
+      "success": true
+    },
+    "response": {
+      "accessId": "7bb47663-4835-4632-95c3-e5cee89a3311",
+      "impedance_calc_error_msg": "",
+      "impedance_calc_mark": "W2_DiffEdgeCoupledCoatedMicrostrip1B",
+      "impedance_calc_result": {
+        "dCer": 0,
+        "dDelay": 5745.31404761,
+        "dErEff": 2.96666886187,
+        "dImpedance": 90.1289293148,
+        "dInductance": 0,
+        "dResultValid": 1,
+        "jBackCalc": {
+          "S1": 6,
+          "W1": 9.53125,
+          "W2": 9.03125
+        }
+      },
+      "impedance_calc_status": 0,
+      "impedance_calc_time": 265,
+      "paramMd5": "ac136592ac6de1d22d1848a907818ce5",
+      "uuid": "a28e66ed-c2bd-4934-9ac0-65ea24c7f7b5"
+    }
+  },
+  "pcb_rule": {
+    "layer": "L1",
+    "reference": "L2 solid GND",
+    "differential_target_ohm": 90,
+    "trace_width_mm": 0.242,
+    "edge_spacing_mm": 0.1524,
+    "coplanar_ground_minimum_clearance_mm": 0.65,
+    "pair_mismatch_design_limit_mm": 0.5,
+    "vias_preference": "zero; if unavoidable pair transitions symmetrically and add nearby GND return vias"
+  },
+  "qualification": "Public JLC calculator output and manufacturer stackup evidence; no fabricated coupon, eye diagram, USB compliance, or board routing verification yet.",
+  "source_conflicts": [
+    "Static public guide lists soldermaskC1/C3=1.2mil and base-to-top etch delta0.7mil. Current official calculator configuration API returns1.0mil and0.5mil respectively; this result uses the current API settings as the live calculator code does.",
+    "Old order-page note gives7.1mil outer prepreg modelling height; current calculator code uses template dielectricThick0.2104mm=8.28346mil. This result uses the current template, not the obsolete7.1mil number.",
+    "Static stackup page coreEr=4.6, current NP-155F template coreEr=4.38; selected L1-to-L2 outer-line calculation uses prepregEr4.4, so coreEr is not an input to this calculation."
+  ],
+  "rounded_width_forward_check": {
+    "retrieved_utc": "2026-11-21T07:39:10Z",
+    "source": "https://jlcpcb.com/pcb-impedance-calculator",
+    "stackup": "JLC04161H-7628",
+    "request": {
+      "accessId": "1d1882b0-781c-41fb-bab8-f52bb7ed0767",
+      "impedance_calc_mark": "DiffEdgeCoupledCoatedMicrostrip1B",
+      "paramMd5": "d41d8cd98f00b204e9800998ecf8427e",
+      "impedance_calc_arg": {
+        "H1": 8.283464566929135,
+        "Er1": 4.4,
+        "W1": 9.527559055118111,
+        "W2": 9.027559055118111,
+        "S1": 6,
+        "T1": 1.6,
+        "C1": 1,
+        "C2": 0.6,
+        "C3": 1,
+        "CEr": 3.8,
+        "Zo": 90,
+        "dCalculateMode": 3,
+        "isLinkComputingMode": false,
+        "W2LinkW1Incr": 0.5,
+        "ZoTol": 0.5,
+        "MinW2": 2,
+        "MaxW2": 150
+      },
+      "uuid": "e6caf2ef-26cf-4bf7-865a-4044c5bc9f37"
+    },
+    "ack": {
+      "message": null,
+      "result": "success",
+      "body": null,
+      "success": true
+    },
+    "response": {
+      "accessId": "1d1882b0-781c-41fb-bab8-f52bb7ed0767",
+      "impedance_calc_error_msg": "",
+      "impedance_calc_mark": "DiffEdgeCoupledCoatedMicrostrip1B",
+      "impedance_calc_result": {
+        "dCer": 0,
+        "dDelay": 5745.26716999,
+        "dErEff": 2.96662045031,
+        "dImpedance": 90.1420843426,
+        "dInductance": 0,
+        "dResultValid": 1
+      },
+      "impedance_calc_status": 0,
+      "impedance_calc_time": 78,
+      "paramMd5": "50d70c7bd779201a4b94e9d6be77f40b",
+      "uuid": "e6caf2ef-26cf-4bf7-865a-4044c5bc9f37"
+    }
+  }
+}

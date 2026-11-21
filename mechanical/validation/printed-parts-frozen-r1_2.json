@@ -1,0 +1,77 @@
+{
+  "schema": "calxus.frozen-printable-designs.v1",
+  "revision": "R1.2-ADJUSTABLE-PROTOTYPE",
+  "scope": "Seven printed designs including the fit coupon. Frozen before source-derived PCBA assembly; none may be changed by source assembly generation.",
+  "files": [
+    {
+      "path": "output/calxus_base.step",
+      "bytes": 362856,
+      "sha256": "410517a322b05355cd70d48fcbd806df708b64954459edad9091a28ec0a1b5d3"
+    },
+    {
+      "path": "output/calxus_base_print.stl",
+      "bytes": 523484,
+      "sha256": "3cbf66892173816af7b393b3166a160899b10ece5bfc0289ab3ec9311d16bfde"
+    },
+    {
+      "path": "output/calxus_comb_lower_tpu.step",
+      "bytes": 137397,
+      "sha256": "db40141f7526e7a732550f7906d26ed47473e139d0be37259c1d29bed44708e0"
+    },
+    {
+      "path": "output/calxus_comb_lower_tpu_print.stl",
+      "bytes": 342484,
+      "sha256": "44940ef055f7f6e0f92a9a71752cf2e058cc37caaa1ae6898a46f042ca94951e"
+    },
+    {
+      "path": "output/calxus_comb_upper_tpu.step",
+      "bytes": 137831,
+      "sha256": "90e05df4b6deea3afa9496a030bd74dd9c25123f7cffa9085638d6584abdddf8"
+    },
+    {
+      "path": "output/calxus_comb_upper_tpu_print.stl",
+      "bytes": 342484,
+      "sha256": "7ddb2e1f245793e807592deb868297118600580dd43b57861aacd0d9167036ea"
+    },
+    {
+      "path": "output/calxus_fit_coupon.step",
+      "bytes": 1630268,
+      "sha256": "47fd75facfad4dff0adf64f3e072a9586f61244e057fb2bfac28ea9fa4aa963e"
+    },
+    {
+      "path": "output/calxus_fit_coupon.stl",
+      "bytes": 1661384,
+      "sha256": "9efd99d18c8505ca22f412f5f42cf70bf97b4a782e0c0a31b9e412c639675844"
+    },
+    {
+      "path": "output/calxus_lid.step",
+      "bytes": 2272124,
+      "sha256": "1e5648177d9dabcec44d0110b14c967c6f8db665e4a4de2f803672e7dfc6efde"
+    },
+    {
+      "path": "output/calxus_lid_print.stl",
+      "bytes": 1747384,
+      "sha256": "591d1d3c130b8fc0adfff6924508a0e8e8f524cae6bd2af1bfd92cb99b699f8d"
+    },
+    {
+      "path": "output/calxus_slider_fork.step",
+      "bytes": 77627,
+      "sha256": "80c00a4304d318343d00030b0711a614a050318cc888102812f599b20f98290e"
+    },
+    {
+      "path": "output/calxus_slider_fork_print.stl",
+      "bytes": 68684,
+      "sha256": "f58dde5e33eed99bec159fe1a87d3cdea07b479c18946cb7f8892846fafdc5db"
+    },
+    {
+      "path": "output/calxus_slider_thumb.step",
+      "bytes": 104708,
+      "sha256": "094ee145ba4442f99beb7fcdbf329288fa01ab91706a3a2d384ab261b6983b8b"
+    },
+    {
+      "path": "output/calxus_slider_thumb_print.stl",
+      "bytes": 98484,
+      "sha256": "84d5a86da7b63e3c3202e23192b077789c9aa7806e0a3f3e770f680b7111db53"
+    }
+  ]
+}

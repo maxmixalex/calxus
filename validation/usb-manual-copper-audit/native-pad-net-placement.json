@@ -1,0 +1,44 @@
+{
+  "schema": "calxus.native-pad-net-placement-audit.v1",
+  "status": "PRE_AUTOROUTE_ACTUAL_SNAPSHOT",
+  "passed": true,
+  "source_pads_sha256": "7ab7e510a156da9ed2dcd957aa71cf5990cf1bf89a70bcd091ad8aaab721fd84",
+  "design_sha256": "5a4ba66e98194b4555e690dd24638bc03edf62d8f54feb6612df27e5cf0a6039",
+  "components": 97,
+  "physical_component_pads": 345,
+  "intentional_unnetted_pads": [
+    "J1.B8",
+    "J1.A8",
+    "J3.4",
+    "J6.4",
+    "SW1.10",
+    "U1.15",
+    "U2.22",
+    "U2.21",
+    "U2.20",
+    "U2.19",
+    "U2.12",
+    "U3.10",
+    "U3.11",
+    "U3.12",
+    "U3.13",
+    "U3.14",
+    "U3.15",
+    "U3.16",
+    "U5.4",
+    "U7.1",
+    "U8.1"
+  ],
+  "testpads_verified": 23,
+  "maximum_component_center_error_mm": 1.6970562720703476e-06,
+  "errors": [],
+  "schematic_pin_numbers_matched": 344,
+  "netted_physical_pads": 324,
+  "duplicate_physical_pin_numbers": [
+    {
+      "ref": "J2",
+      "number": "5",
+      "count": 2
+    }
+  ]
+}

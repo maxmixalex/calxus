@@ -1,0 +1,8 @@
+{
+  "missing_geometry": [],
+  "collisions": [],
+  "boundary_violations": [],
+  "mount_keepout_violations": [],
+  "clearance_margin_mm": 0.15,
+  "scope": "Conservative component fullBBox/pad-only envelopes. Not copper DRC or SI verification."
+}

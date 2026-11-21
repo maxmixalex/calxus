@@ -1,0 +1,9 @@
+Use,MPN,LCSC,Qty_per_converter_or_AUX,Observed_stock_2026-11-21,MOQ,Supplier_URL,Notes
+HARNESS_USB_MINIB,S002020047,C430897,1,136,1,https://www.lcsc.com/product-detail/C430897.html,"1.5m USB-A to Mini-B data cable. Retain Mini-B 0.25–0.30m plus internal allowance; reuse remaining 3.8mm shielded 28AWG cable for TI/CASIO. Observed stock136/MOQ1,2026-11-21."
+HARNESS_TI_TRS,SP-2533A,C4992833,1,0,1,https://item.szlcsc.com/5567705.html,2.5mm TRS solder male with cover; TI. Raw cable reused from C430897. STOCK GAP: observed stock0; do not substitute3.5mm/TRRS/TS/jack.
+HARNESS_CASIO_TRS,SP-2533A,C4992833,1,0,1,https://item.szlcsc.com/5567705.html,2.5mm TRS solder male with cover; CASIO. Raw cable reused from C430897. STOCK GAP: observed stock0. Tip calculatorTX;Ring calculatorRX.
+HARNESS_AUX_HOUSING,PHR-4,C111514,1,45300,50,https://www.lcsc.com/product-detail/C111514.html,Optional per AUX harness. Original JST. Observed stock45300/MOQ50. Pin4 empty.
+HARNESS_AUX_CONTACTS,SPH-002T-P0.5S,C111515,4,2770700,100,https://www.lcsc.com/product-detail/C111515.html,"Three fitted plus one spare per AUX harness.30–24AWG,insulationOD0.8–1.5mm.Observed stock2770700/MOQ100."
+HARNESS_AUX_WIRE,PH4P-26AWG-200-A1T,C53413426,1,100,5,https://www.lcsc.com/product-detail/C53413426.html,"26AWG7x0.16mm tinned stranded,individualOD1.3mm,200mm. Remove third-party contacts/housing;recrimp3 wires into original JST. Sleeve clamp section to OD2.9–3.1mm.Observed stock100/MOQ5."
+HARNESS_UPSTREAM,S100920007,C430908,1,84,1,https://www.lcsc.com/product-detail/C430908.html,"Optional if existing qualified USB-A to C data cable.1m,power22AWG,data28AWG,56k CC.Observed stock84/MOQ1.480Mbps final qualification pending."
+HARNESS_STRAIN_RELIEF,Fitted cable clamps;soft sleeving;insulation;labels,,1,,,,Case fixed-tail clamps3.6mm for3.8mm cable;AUX2.8mm clamp for2.9–3.1mm finished sleeve.Consumable MPN not locked;no bare-wire clamping.

@@ -8,6 +8,7 @@
 | TI 原生 USB 机型 | `00` Mini-B 或 `01` 原装 USB 线 | 对应 TI Connect / TI Connect CE / Nspire 软件，或支持该型号的 WebTILP | 使用计算器自己的 USB 协议和驱动 | 待测 |
 | CASIO ALGEBRA FX / CFX / fx-7400G 等串口场景 | `11` + CASIO | FA-124 COM 模式及现有兼容工具 | COM1..COM9 等限制随软件；CH343 不仿真 SB-88 的 USB VID/PID | 待测 |
 | CASIO fx-9860G 原生 USB 场景 | `00` 或 `01` | FA-124 USB 模式 | 厂商手册要求原生 USB，不能用通用串口代替；本版无 USB Hub | 待测 |
+| HP 39gs 原生 USB | `00` Mini-B 或 `01` 接原装 USB 线 | HP PC Connectivity Kit | 原厂手册区分五针 USB 口与四针串口；优先使用原生 USB 路径 | 待测 |
 | HP 50g / 已核对的 HP 串口机型 | `11` + AUX 专用尾线 | 支持该机型和协议的 HP 连接软件、Kermit/串口工具 | 电平、针序、串口开启/关闭行为按机型验证 | 待测 |
 | TI-Nspire 开机/运行日志 | `11` + AUX 专用尾线 | 现有串口终端 | TTL UART、常用 115200 8N1；仅日志路径，不等同文件管理 USB | 待测 |
 | 通用 USB 外设 | `01` | 上行主机现有驱动和应用 | 依赖主机供电与驱动；Calxus 不新增 USB Host | 待测 |
@@ -31,5 +32,7 @@
 **CASIO COM 与原生 USB。** CASIO FA-124 2.04 手册 E-19、E-38 指定部分机型使用 COM；E-3 明确限制 fx-9860G 系列的普通串口替代连接。E-4 的系统要求还明确排除 USB Hub。最终硬件采用 CH444G USB 数据切换而非 Hub；该拓扑仍需实物信号和枚举验证，不能把“没有 Hub”写成原厂认证。
 
 **HP/Nspire UART 与文件协议。** AUX 提供串口电气通道。文件传输须由已有软件实现目标协议；Nspire 系统日志也不会自动变成 TI-Nspire USB 文件管理接口。不同计算器的专用插头、电平或电池触点不能通用短接。
+
+HP 39gs 的原厂使用指南第 19-4 至 19-6 页明确提供 USB 与 PC Connectivity Kit 连接路径。其串口针序、电平仍需独立资料与实测核对，当前不把 HP 39gs AUX 尾线列为已经验证的配件。
 
 来源见[技术来源索引](sources.md)。

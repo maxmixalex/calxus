@@ -1,0 +1,48 @@
+{
+  "schema": "calxus.tp6-r6-geometric-check.v1",
+  "design_revision": "A0-switch-engineering-r6",
+  "source_sha256": {
+    "/workspace/scratch/71a70b0d2513/calxus_work/evidence/native-copper-audit.json": "e3142bac9aeb4f7cfb6debc41f372b2b90d3fad70ff13bb84236df0512766952",
+    "/workspace/scratch/71a70b0d2513/calxus_work/evidence/native-pads-audit.json": "7ab7e510a156da9ed2dcd957aa71cf5990cf1bf89a70bcd091ad8aaab721fd84",
+    "/workspace/scratch/71a70b0d2513/calxus_work/routing_review/autoroute-job-log.json": "a844348da6c9b76d3eede8c18b1dcacd0e427a55a6ffe75f472c2344f1687433",
+    "/workspace/scratch/71a70b0d2513/calxus_work/project/hardware/electrical/usb_copper_corridors.json": "ae18dfbc3100b5a0c6901df548ed4e0fef4b64f7234e61e48380c55183227c4d",
+    "/workspace/scratch/71a70b0d2513/calxus_work/project/hardware/electrical/calxus_design_input.json": "3c7e6c40590f2901548ba7431da6858bf8616aa0e2634682991b8a3dad560b54"
+  },
+  "old_xy_mm": [
+    29,
+    23
+  ],
+  "new_xy_mm": [
+    28.0,
+    23.5
+  ],
+  "net": "3V3",
+  "layer": 2,
+  "testpad_diameter_mm": 1,
+  "pad_to_no_wires_mm": {
+    "old": 0.020164878681456222,
+    "new": 0.6770007649670495
+  },
+  "native_track_to_prohibited_region_rule_mm": 0.3,
+  "new_pad_clearance_exceeds_rule": true,
+  "nearest_bottom_foreign_copper": {
+    "id": "ae198b22bb82b6b7",
+    "net": "USB_NATIVE_DM",
+    "kind": "native_line",
+    "copper_gap_mm": 1.327000764967051
+  },
+  "same_xy_top_foreign_copper_center_distance": {
+    "id": "C7.2",
+    "net": "GND",
+    "kind": "pad",
+    "copper_gap_mm": 1.0487099999999998
+  },
+  "top_same_net_pads_containing_new_testpad_center": [
+    "C7.1"
+  ],
+  "candidate_traces": 499,
+  "candidate_vias": 65,
+  "passed": true,
+  "via_process_note": "TP6 itself is a bottom copper test pad. Its new center is under C7.1 top SMD copper. Do not place an ordinary through via at this center: that would add an unapproved via-in-pad site. Route a short bottom stub to an external via that clears SMD copper/paste, or separately review any additional filled/capped via process.",
+  "limits": "Saved candidate plus previously audited native outer copper/pads only; not a new native commit, full DRC, or proof of final route completion. Moving TP6 does not modify the frozen USB/GND route plans. All final clearances require fresh committed native data."
+}

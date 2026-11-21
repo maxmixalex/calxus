@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-11-21",
-  "schematic_netlist_sha256": "e6d58ba176c7d3b843c184bf627a4be0540f0e4156bfabd702182b28c6d4b9e6",
-  "erc_export_sha256": "073f47f7808f90ad3a8714c670836c77a8edeb4c54bceaee5efc8be5ff2c9c0e",
+  "checked_at": "2026-11-21T08:25:41.833Z",
+  "schematic_netlist_sha256": "77cd43598a9a44177869eefea8c6aad8f8d0688e1aa4f2979a8bd137084683b5",
+  "erc_export_sha256": "21cce79468167d2e8bd0ebd784f5201651e6cec6e4713dbdd988a50d1b5ad31b",
   "erc_counts": {
     "warn": 2
   },
@@ -13,9 +13,9 @@
       "rule": "SHOWDANDLING",
       "primitives": [
         {
-          "primitiveId": "f7774e7608753545",
+          "primitiveId": "fc8b4885d7aec730",
           "sheet": "35c8fed936c1c8a9",
-          "name": "$2N40"
+          "name": "$2N147"
         }
       ]
     },
@@ -24,23 +24,37 @@
       "rule": "SHOWDANDLING",
       "primitives": [
         {
-          "primitiveId": "252e156da25f36da",
+          "primitiveId": "84967908cef7dd7d",
           "sheet": "35c8fed936c1c8a9",
-          "name": "$2N39"
+          "name": "$2N146"
         }
       ]
     }
   ],
-  "warning_mapping": "Native engineering inspection maps the two SHOWDANDLING primitives to TP_GPIO30/31, U2 pins32/31; PCB-only TP20/21 are absent by design in schematic scope.",
+  "warning_mapping": "The two expected SHOWDANDLING nodes are TUSB GPIO30/31, U2 pins32/31; PCB-only TP20/21 are absent in the 97-component schematic scope.",
+  "source_component_placement": {
+    "checked": 97,
+    "all_match": true,
+    "method": "Independent native invoke read raw COMPONENT x/y/rotation after layout, rather than relying on the update response or same-call geometry."
+  },
   "library_metadata_check": {
     "components": 97,
     "Device_Footprint_SupplierPart_all_present": true,
-    "SupplierPart_matches_design": true,
-    "scope": "Compared actual final export properties against reviewed design input."
+    "SupplierPart_matches_design": true
   },
   "NC_marker_check": {
-    "result": "All intentional NC flags read back true",
-    "evidence": "Native EDA operation and readback reported by primary engineering task; netlist comparator itself only checks NC connectivity."
+    "checked": 21,
+    "api_all_true": true,
+    "source_all_yes": true,
+    "method": "Actual native pin getter and raw NO_CONNECT attribute; full pin IDs were matched exactly."
   },
-  "scope": "Schematic ERC and component metadata only; not PCB DRC, routing clearance or hardware verification."
+  "scope": "Schematic placement, ERC, pin-net and component metadata only; not PCB routed copper, DRC or hardware behavior.",
+  "persistence_check": {
+    "status": "Independent native epro2 archive verified; reopened-editor regression still required",
+    "save_return_values_checked_during_layout": false,
+    "native_archive_sha256": "dbcba206e916bfdf074684be270d54cc42647da1c92c3495416e428b080a916d",
+    "archive_validation": "preserved-native-project.json",
+    "archive_97_positions_344_pins_21_nc_pass": true,
+    "note": "The separately saved native archive independently contains the final schematic. This does not reinterpret earlier save=false returns or replace a reopened native ERC check."
+  }
 }

@@ -1,0 +1,1267 @@
+{
+  "schema": "calxus.offline-native-source-geometry.v1",
+  "archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "source_sha256": "b7b1c01f27f85edd1728b8cf364ac21b6cfe60c9610622dd8e6f6957dd4e95d6",
+  "geometry_source": "Independently parsed saved ZIP archive records; not live editor; no rounded API geometry",
+  "counts": {
+    "lines": 1504,
+    "vias": 189,
+    "components": 97,
+    "copper_pads": 368,
+    "nc_copper_pads": 21,
+    "new_copper": 1502
+  },
+  "new_copper_clearance_requirement_mm": 0.1524,
+  "new_copper_clearance_failures": [],
+  "minimum_new_copper_gap": {
+    "a": "1a623f3b89437634",
+    "aTag": null,
+    "net": "GND",
+    "b": "650c0f86738c7dfb",
+    "bTag": "iteration4_trace52_segment1",
+    "foreign": "VBUS_IN",
+    "gap_mm": 0.15280572468289788
+  },
+  "all_copper_clearance_failures_including_preserved_baseline": [
+    {
+      "a": "c5273f909387de15",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "67533f87b85d2527",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.152397459999996
+    },
+    {
+      "a": "c5273f909387de15",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "780a3890e8492fe4",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.15239746031096502
+    },
+    {
+      "a": "c9bfa96ec49cf926",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "67533f87b85d2527",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.1523967030173486
+    },
+    {
+      "a": "c9bfa96ec49cf926",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "780a3890e8492fe4",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.15239670269679345
+    },
+    {
+      "a": "c9bfa96ec49cf926",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "d83ea519f01c3d8c",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.15239804274786295
+    },
+    {
+      "a": "47153918e694d776",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "780a3890e8492fe4",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.15239746031096502
+    },
+    {
+      "a": "47153918e694d776",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "d83ea519f01c3d8c",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.152397459999996
+    },
+    {
+      "a": "13d35c083a9b614f",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "c159f5beed0d6b04",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523975628218608
+    },
+    {
+      "a": "13d35c083a9b614f",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "4a7188ee2207f8a7",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.152397459999996
+    },
+    {
+      "a": "e0fa0a9c8f642adf",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "837156aba6fad1cb",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523975628218608
+    },
+    {
+      "a": "e0fa0a9c8f642adf",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "c159f5beed0d6b04",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523974389729086
+    },
+    {
+      "a": "e0fa0a9c8f642adf",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "4a7188ee2207f8a7",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.15239754179477166
+    },
+    {
+      "a": "1379c02ee3eb0ef0",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "837156aba6fad1cb",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523974600000031
+    },
+    {
+      "a": "1379c02ee3eb0ef0",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "c159f5beed0d6b04",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523975417947717
+    },
+    {
+      "a": "9f2aae793e3e61e3",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "d912a8ad1221871c",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.152397459999996
+    },
+    {
+      "a": "9f2aae793e3e61e3",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "37234db5e2880b8f",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.15239748829838007
+    },
+    {
+      "a": "ae198b22bb82b6b7",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "37234db5e2880b8f",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.15239676628700977
+    },
+    {
+      "a": "5eceb4e293bec901",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "df711b46bd6fe632",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.1523977305908466
+    },
+    {
+      "a": "6553a314856ad507",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "df711b46bd6fe632",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.15237988928203128
+    },
+    {
+      "a": "6553a314856ad507",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "6ee9091c1662c22f",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.15237502919658927
+    }
+  ],
+  "preserved_baseline_rounding_exceptions": [
+    {
+      "a": "c5273f909387de15",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "67533f87b85d2527",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.152397459999996
+    },
+    {
+      "a": "c5273f909387de15",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "780a3890e8492fe4",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.15239746031096502
+    },
+    {
+      "a": "c9bfa96ec49cf926",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "67533f87b85d2527",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.1523967030173486
+    },
+    {
+      "a": "c9bfa96ec49cf926",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "780a3890e8492fe4",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.15239670269679345
+    },
+    {
+      "a": "c9bfa96ec49cf926",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "d83ea519f01c3d8c",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.15239804274786295
+    },
+    {
+      "a": "47153918e694d776",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "780a3890e8492fe4",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.15239746031096502
+    },
+    {
+      "a": "47153918e694d776",
+      "aTag": null,
+      "net": "USB_UP_DM",
+      "b": "d83ea519f01c3d8c",
+      "bTag": null,
+      "foreign": "USB_UP_DP",
+      "gap_mm": 0.152397459999996
+    },
+    {
+      "a": "13d35c083a9b614f",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "c159f5beed0d6b04",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523975628218608
+    },
+    {
+      "a": "13d35c083a9b614f",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "4a7188ee2207f8a7",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.152397459999996
+    },
+    {
+      "a": "e0fa0a9c8f642adf",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "837156aba6fad1cb",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523975628218608
+    },
+    {
+      "a": "e0fa0a9c8f642adf",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "c159f5beed0d6b04",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523974389729086
+    },
+    {
+      "a": "e0fa0a9c8f642adf",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "4a7188ee2207f8a7",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.15239754179477166
+    },
+    {
+      "a": "1379c02ee3eb0ef0",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "837156aba6fad1cb",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523974600000031
+    },
+    {
+      "a": "1379c02ee3eb0ef0",
+      "aTag": null,
+      "net": "USB_A_DM",
+      "b": "c159f5beed0d6b04",
+      "bTag": null,
+      "foreign": "USB_A_DP",
+      "gap_mm": 0.1523975417947717
+    },
+    {
+      "a": "9f2aae793e3e61e3",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "d912a8ad1221871c",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.152397459999996
+    },
+    {
+      "a": "9f2aae793e3e61e3",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "37234db5e2880b8f",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.15239748829838007
+    },
+    {
+      "a": "ae198b22bb82b6b7",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "37234db5e2880b8f",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.15239676628700977
+    },
+    {
+      "a": "5eceb4e293bec901",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "df711b46bd6fe632",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.1523977305908466
+    },
+    {
+      "a": "6553a314856ad507",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "df711b46bd6fe632",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.15237988928203128
+    },
+    {
+      "a": "6553a314856ad507",
+      "aTag": null,
+      "net": "USB_NATIVE_DM",
+      "b": "6ee9091c1662c22f",
+      "bTag": null,
+      "foreign": "USB_NATIVE_DP",
+      "gap_mm": 0.15237502919658927
+    }
+  ],
+  "preserved_baseline_rounding_exception_note": "Unmodified historical HS source nominal6mil pair gaps have source/segment approximation deficits up to0.000025mm. Approved USB_UP edits are included in strict new-copper checks. New copper has a strict1e-6mm numerical tolerance only.",
+  "region_failures": [],
+  "via_hole_smd_overlaps": [],
+  "minimum_new_via_hole_smd_gap": {
+    "via": "7940995d4d32a07c",
+    "tag": "iteration4_via35",
+    "net": "NATIVE_EN_N",
+    "pad": "R32.1",
+    "padNet": "NATIVE_EN_N",
+    "holeToCopper_mm": 0.15452284543605793
+  },
+  "conservative_new_via_mask_margin_minimum": {
+    "via": "848dcf342057426d",
+    "tag": "iteration4_via37",
+    "net": "PWR_FAULT_N",
+    "pad": "U6.4",
+    "padNet": "PWR_FAULT_N",
+    "holeToCopper_mm": 0.1546213115131534,
+    "maskAllowance_mm": 0.0510032,
+    "holeToOpening_mm": 0.10361811151315314
+  },
+  "conservative_new_via_mask_margin_failures": [],
+  "unconnected_non_gnd": {},
+  "outer_pad_groups": {
+    "3V3": [
+      [
+        "C7.1",
+        "C8.1",
+        "C9.1",
+        "C17.1",
+        "C18.1",
+        "C19.1",
+        "D16.2",
+        "R10.1",
+        "R12.1",
+        "R14.2",
+        "R15.2",
+        "R16.2",
+        "R17.1",
+        "R18.1",
+        "R19.1",
+        "R20.1",
+        "R25.1",
+        "U2.25",
+        "U2.16",
+        "U2.15",
+        "U2.14",
+        "U2.13",
+        "U2.3",
+        "U3.1",
+        "U5.5",
+        "U7.5",
+        "U8.5",
+        "TP6"
+      ]
+    ],
+    "5V_SERIAL": [
+      [
+        "C6.1",
+        "C15.1",
+        "U3.3",
+        "U3.9",
+        "U5.1",
+        "U5.3",
+        "U6.6",
+        "TP3"
+      ]
+    ],
+    "AUX_RX": [
+      [
+        "D6.1",
+        "J6.2",
+        "J7.5"
+      ]
+    ],
+    "AUX_TX": [
+      [
+        "D6.2",
+        "J6.3",
+        "J7.6"
+      ]
+    ],
+    "CASIO_RX": [
+      [
+        "D5.1",
+        "J5.1",
+        "J7.1"
+      ]
+    ],
+    "CASIO_TX": [
+      [
+        "D5.2",
+        "J5.2",
+        "J7.2"
+      ]
+    ],
+    "CC1": [
+      [
+        "D7.1",
+        "J1.A5",
+        "R1.1"
+      ]
+    ],
+    "CC2": [
+      [
+        "D7.2",
+        "J1.B5",
+        "R2.1"
+      ]
+    ],
+    "EE_SCL": [
+      [
+        "J8.3",
+        "R22.1",
+        "U4.6",
+        "J9.2"
+      ]
+    ],
+    "EE_SDA": [
+      [
+        "J8.4",
+        "R21.1",
+        "R23.2",
+        "U4.5"
+      ]
+    ],
+    "EE_VCC": [
+      [
+        "J8.1",
+        "R21.2",
+        "R22.2",
+        "R25.2",
+        "R27.2",
+        "U4.8",
+        "C14.1"
+      ]
+    ],
+    "EE_WP": [
+      [
+        "J8.5",
+        "J10.1",
+        "R27.1",
+        "U4.7"
+      ]
+    ],
+    "GND": [
+      [
+        "C1.2",
+        "C2.2",
+        "C4.2",
+        "C8.2",
+        "C9.2",
+        "C10.2",
+        "C11.2",
+        "C12.2",
+        "C13.2",
+        "C15.2",
+        "C16.2",
+        "C17.2",
+        "C18.2",
+        "C19.2",
+        "C20.2",
+        "C21.2",
+        "D1.2",
+        "D2.2",
+        "D4.3",
+        "D5.3",
+        "D7.3",
+        "J1.A1B12",
+        "J1.B1A12",
+        "J1.2",
+        "J1.1",
+        "J1.4",
+        "J1.3",
+        "J3.6",
+        "J3.5",
+        "J4.3",
+        "J5.3",
+        "J6.1",
+        "J8.2",
+        "J10.2",
+        "R1.2",
+        "R2.2",
+        "R13.2",
+        "R36.2",
+        "SW1.3",
+        "SW1.8",
+        "U1.8",
+        "U2.33",
+        "U2.28",
+        "U2.18",
+        "U2.8",
+        "U7.3",
+        "U8.3",
+        "U9.2",
+        "Y2.2",
+        "Y2.4",
+        "D3.2",
+        "J2.6",
+        "J2.4",
+        "TP1"
+      ],
+      [
+        "C3.2",
+        "C5.2",
+        "C6.2",
+        "C7.2",
+        "C22.2",
+        "R6.2",
+        "R37.2",
+        "U4.4",
+        "U4.3",
+        "U4.2",
+        "U4.1",
+        "U5.2",
+        "U6.2",
+        "U10.2",
+        "C14.2",
+        "J2.5"
+      ],
+      [
+        "D6.3",
+        "U3.2",
+        "U3.17"
+      ]
+    ],
+    "ILIM_NATIVE": [
+      [
+        "R36.1",
+        "U9.5"
+      ]
+    ],
+    "ILIM_SERIAL": [
+      [
+        "R6.1",
+        "U6.5"
+      ]
+    ],
+    "ILIM_USBA": [
+      [
+        "R37.1",
+        "U10.5"
+      ]
+    ],
+    "MODE_NATIVE_N": [
+      [
+        "D11.3",
+        "SW1.6"
+      ]
+    ],
+    "MODE_SILVER_N": [
+      [
+        "D13.1",
+        "SW1.9"
+      ]
+    ],
+    "MODE_USBA_N": [
+      [
+        "D12.1",
+        "SW1.7"
+      ]
+    ],
+    "MUX_EN_N": [
+      [
+        "D14.3",
+        "D15.2",
+        "R35.1",
+        "U1.1",
+        "TP14"
+      ]
+    ],
+    "NATIVE_EN_N": [
+      [
+        "D14.1",
+        "R32.1",
+        "SW1.1",
+        "U9.3",
+        "TP8"
+      ]
+    ],
+    "PWR_FAULT_N": [
+      [
+        "R5.1",
+        "U6.4",
+        "U9.4",
+        "U10.4",
+        "TP11"
+      ]
+    ],
+    "SEL0": [
+      [
+        "D11.2",
+        "D13.2",
+        "R4.1",
+        "U1.14",
+        "TP13"
+      ]
+    ],
+    "SEL1": [
+      [
+        "D11.1",
+        "D12.2",
+        "R3.1",
+        "U1.2",
+        "TP12"
+      ]
+    ],
+    "SERIAL_EN_N": [
+      [
+        "D15.1",
+        "R34.1",
+        "SW1.4",
+        "SW1.5",
+        "U6.3",
+        "TP10"
+      ]
+    ],
+    "SIL_1V8": [
+      [
+        "C10.1",
+        "R12.2",
+        "R13.1",
+        "U2.4",
+        "TP7"
+      ]
+    ],
+    "SIL_DM": [
+      [
+        "R8.2",
+        "U2.7"
+      ]
+    ],
+    "SIL_DP": [
+      [
+        "R7.2",
+        "U2.6"
+      ]
+    ],
+    "SIL_PUR": [
+      [
+        "R9.1",
+        "U2.5"
+      ]
+    ],
+    "SIL_RESET": [
+      [
+        "C11.1",
+        "J8.6",
+        "R10.2",
+        "R11.1",
+        "U2.9",
+        "TP15"
+      ]
+    ],
+    "SIL_SCL": [
+      [
+        "U2.11",
+        "J9.1"
+      ]
+    ],
+    "SIL_SDA": [
+      [
+        "R23.1",
+        "U2.10"
+      ]
+    ],
+    "SIL_SIN": [
+      [
+        "R16.1",
+        "U2.17"
+      ]
+    ],
+    "SIL_SUSPEND": [
+      [
+        "D10.1",
+        "U2.2",
+        "TP17"
+      ]
+    ],
+    "SIL_TEST0": [
+      [
+        "R14.1",
+        "U2.23"
+      ]
+    ],
+    "SIL_TEST1": [
+      [
+        "R15.1",
+        "U2.24"
+      ]
+    ],
+    "SIL_VREGEN": [
+      [
+        "D10.2",
+        "R11.2",
+        "U2.1",
+        "TP16"
+      ]
+    ],
+    "SIL_X1": [
+      [
+        "C12.1",
+        "U2.27",
+        "Y2.1"
+      ]
+    ],
+    "SIL_X2": [
+      [
+        "C13.1",
+        "U2.26",
+        "Y2.3"
+      ]
+    ],
+    "TI_BASE_RING": [
+      [
+        "Q2.1",
+        "R20.2"
+      ]
+    ],
+    "TI_BASE_TIP": [
+      [
+        "Q1.1",
+        "R19.2"
+      ]
+    ],
+    "TI_GPIO_RING": [
+      [
+        "D9.2",
+        "Q2.2",
+        "R18.2",
+        "U2.29",
+        "TP19"
+      ]
+    ],
+    "TI_GPIO_TIP": [
+      [
+        "D8.2",
+        "Q1.2",
+        "R17.2",
+        "U2.30",
+        "TP18"
+      ]
+    ],
+    "TI_RING": [
+      [
+        "D4.2",
+        "D9.1",
+        "J4.2",
+        "Q2.3"
+      ]
+    ],
+    "TI_TIP": [
+      [
+        "D4.1",
+        "D8.1",
+        "J4.1",
+        "Q1.3"
+      ]
+    ],
+    "TP_GPIO30": [
+      [
+        "U2.32",
+        "TP20"
+      ]
+    ],
+    "TP_GPIO31": [
+      [
+        "U2.31",
+        "TP21"
+      ]
+    ],
+    "UART_PULLUP": [
+      [
+        "D16.1",
+        "R28.2",
+        "R31.2"
+      ]
+    ],
+    "UART_RX": [
+      [
+        "U3.5",
+        "U8.4",
+        "TP23"
+      ]
+    ],
+    "UART_RX_EXT": [
+      [
+        "J7.3",
+        "R30.1"
+      ]
+    ],
+    "UART_RX_FILTER": [
+      [
+        "R30.2",
+        "R31.1",
+        "U8.2"
+      ]
+    ],
+    "UART_TX": [
+      [
+        "U3.4",
+        "U7.2",
+        "TP22"
+      ]
+    ],
+    "UART_TX_EXT": [
+      [
+        "J7.4",
+        "R29.2"
+      ]
+    ],
+    "UART_TX_OD": [
+      [
+        "R28.1",
+        "R29.1",
+        "U7.4"
+      ]
+    ],
+    "UART_V3": [
+      [
+        "C16.1",
+        "U3.6"
+      ]
+    ],
+    "USBA_EN_N": [
+      [
+        "D14.2",
+        "R33.1",
+        "SW1.2",
+        "U10.3",
+        "TP9"
+      ]
+    ],
+    "USB_A_DM": [
+      [
+        "U1.11",
+        "D3.3",
+        "D3.4",
+        "J2.2"
+      ]
+    ],
+    "USB_A_DP": [
+      [
+        "U1.5",
+        "D3.1",
+        "D3.6",
+        "J2.3"
+      ]
+    ],
+    "USB_NATIVE_DM": [
+      [
+        "D2.3",
+        "D2.4",
+        "J3.2",
+        "U1.10"
+      ]
+    ],
+    "USB_NATIVE_DP": [
+      [
+        "D2.1",
+        "D2.6",
+        "J3.3",
+        "U1.6"
+      ]
+    ],
+    "USB_SIL_DM": [
+      [
+        "R8.1",
+        "U1.12"
+      ]
+    ],
+    "USB_SIL_DP": [
+      [
+        "R7.1",
+        "R9.2",
+        "U1.4"
+      ]
+    ],
+    "USB_UART_DM": [
+      [
+        "U1.13",
+        "U3.8"
+      ]
+    ],
+    "USB_UART_DP": [
+      [
+        "U1.3",
+        "U3.7"
+      ]
+    ],
+    "USB_UP_DM": [
+      [
+        "D1.3",
+        "D1.4",
+        "J1.B7",
+        "J1.A7",
+        "U1.9"
+      ]
+    ],
+    "USB_UP_DP": [
+      [
+        "D1.1",
+        "D1.6",
+        "J1.A6",
+        "J1.B6",
+        "U1.7"
+      ]
+    ],
+    "VBUS_IN": [
+      [
+        "C1.1",
+        "C2.1",
+        "C3.1",
+        "C4.1",
+        "C5.1",
+        "C22.1",
+        "D1.5",
+        "J1.B4A9",
+        "J1.A4B9",
+        "R3.2",
+        "R4.2",
+        "R5.2",
+        "R32.2",
+        "R33.2",
+        "R34.2",
+        "R35.2",
+        "U1.16",
+        "U6.1",
+        "U9.1",
+        "U10.1",
+        "TP2"
+      ]
+    ],
+    "VBUS_NATIVE": [
+      [
+        "C20.1",
+        "D2.5",
+        "J3.1",
+        "U9.6",
+        "TP4"
+      ]
+    ],
+    "VBUS_USBA": [
+      [
+        "C21.1",
+        "U10.6",
+        "D3.5",
+        "J2.1",
+        "TP5"
+      ]
+    ]
+  },
+  "ground_groups": [
+    {
+      "pads": [
+        "C1.2",
+        "C2.2",
+        "C4.2",
+        "C8.2",
+        "C9.2",
+        "C10.2",
+        "C11.2",
+        "C12.2",
+        "C13.2",
+        "C15.2",
+        "C16.2",
+        "C17.2",
+        "C18.2",
+        "C19.2",
+        "C20.2",
+        "C21.2",
+        "D1.2",
+        "D2.2",
+        "D4.3",
+        "D5.3",
+        "D7.3",
+        "J1.A1B12",
+        "J1.B1A12",
+        "J1.2",
+        "J1.1",
+        "J1.4",
+        "J1.3",
+        "J3.6",
+        "J3.5",
+        "J4.3",
+        "J5.3",
+        "J6.1",
+        "J8.2",
+        "J10.2",
+        "R1.2",
+        "R2.2",
+        "R13.2",
+        "R36.2",
+        "SW1.3",
+        "SW1.8",
+        "U1.8",
+        "U2.33",
+        "U2.28",
+        "U2.18",
+        "U2.8",
+        "U7.3",
+        "U8.3",
+        "U9.2",
+        "Y2.2",
+        "Y2.4",
+        "D3.2",
+        "J2.6",
+        "J2.4",
+        "TP1"
+      ],
+      "through": [
+        "J1.2",
+        "J1.1",
+        "J1.4",
+        "J1.3",
+        "J3.6",
+        "J3.5",
+        "J4.3",
+        "J5.3",
+        "J6.1",
+        "J8.2",
+        "J10.2",
+        "SW1.3",
+        "SW1.8",
+        "J2.6",
+        "J2.4",
+        "ab043084eee6de7b",
+        "170646d820b6c217",
+        "7751afa9b96652c1",
+        "17077d66f911113b",
+        "89573436f3d877d6",
+        "1cc57f974266a22e",
+        "141421b490d729de",
+        "3953a112aa8dcee2",
+        "3fa5e92405750492",
+        "4af9e08bb8177d5d",
+        "388bdf9aef67bc85",
+        "6bab802e69dac2f1",
+        "fb71dc2bf35364ca",
+        "1719997b98183089",
+        "45969eaf5354faa9",
+        "66a603977e80079f",
+        "a2dd82c561c981bb",
+        "ea36aeaa3830d394",
+        "78c1a7bc7bfe97e6",
+        "82c43892b0f26668",
+        "0947a7c39d3f1b83",
+        "61186ceb1543d949",
+        "398c8c91d2ea0248",
+        "83036479de6ae290",
+        "ffedf1ba0f96e03a",
+        "1a623f3b89437634",
+        "737c14bb695d6380",
+        "f655dc3308036550",
+        "bba81a5d2986be1b",
+        "6d0d4e689cff83e2",
+        "06f3599058edeb9b",
+        "eecf3cc1cc2e904c",
+        "9bdd2b234bc97def"
+      ]
+    },
+    {
+      "pads": [
+        "C3.2",
+        "C5.2",
+        "C6.2",
+        "C7.2",
+        "C22.2",
+        "R6.2",
+        "R37.2",
+        "U4.4",
+        "U4.3",
+        "U4.2",
+        "U4.1",
+        "U5.2",
+        "U6.2",
+        "U10.2",
+        "C14.2",
+        "J2.5"
+      ],
+      "through": [
+        "J2.5",
+        "0b9d31afbfecae89",
+        "b26173de43a06ff4",
+        "ec4b3219c934ecfb",
+        "f841e7d59955d378",
+        "7a0dcf2f99e781ea",
+        "26077c13d5d64ec0",
+        "38e281607052b539",
+        "c711430856cff109",
+        "7cea14b531f220bc",
+        "356a05be288aded9",
+        "eba18f0444094293",
+        "187daca51f930045",
+        "88fbf59872a66112"
+      ]
+    },
+    {
+      "pads": [
+        "D6.3",
+        "U3.2",
+        "U3.17"
+      ],
+      "through": [
+        "400bbe0a7d6d643b",
+        "42761d9427b0bc87",
+        "619a924c36594da5"
+      ]
+    }
+  ],
+  "analytical_ground_planes": [
+    {
+      "id": "d9a3cd5f8787cbde",
+      "layer": 15,
+      "area_mm2": 3000.0698172898833,
+      "connected_components": 1,
+      "ground_group_misses": [],
+      "method": "Analytical GND boundary minus exact foreign through-copper antipads and NPTH holes; native pour cache intentionally absent."
+    },
+    {
+      "id": "2a14c411fc1ebfd5",
+      "layer": 16,
+      "area_mm2": 3000.0698172898833,
+      "connected_components": 1,
+      "ground_group_misses": [],
+      "method": "Analytical GND boundary minus exact foreign through-copper antipads and NPTH holes; native pour cache intentionally absent."
+    }
+  ],
+  "native_import_verified": false,
+  "native_drc_verified": false,
+  "native_pour_rebuild_required": true,
+  "cam_verified": false,
+  "pad_offset_sensitivity": {
+    "method": "For each pad, expand clearance obstacles and shrink connection copper by2*hypot(padOffsetX,padOffsetY), covering zero/rotated/reversed offset conventions. Nominal source centers remain unchanged. Native CAM must resolve actual transform semantics.",
+    "official_format_reference": "https://prodocs.lceda.cn/en/format/pcb/pad_via/",
+    "max_envelope_mm": 0.0005400114072869202,
+    "minimum_new_copper_clearance": {
+      "a": "1a623f3b89437634",
+      "aTag": null,
+      "net": "GND",
+      "b": "650c0f86738c7dfb",
+      "bTag": "iteration4_trace52_segment1",
+      "foreign": "VBUS_IN",
+      "gap_mm": 0.15280572468289788,
+      "lower_bound_gap_mm": 0.15280572468289788
+    },
+    "clearance_failures": [],
+    "minimum_new_drill_to_mask": {
+      "via": "848dcf342057426d",
+      "tag": "iteration4_via37",
+      "net": "PWR_FAULT_N",
+      "pad": "U6.4",
+      "padNet": "PWR_FAULT_N",
+      "holeToCopper_mm": 0.1546213115131534,
+      "maskAllowance_mm": 0.0510032,
+      "holeToOpening_mm": 0.10361811151315314,
+      "lower_bound_hole_to_opening_mm": 0.10335908132186263,
+      "offset_envelope_mm": 0.0002590301912905135
+    },
+    "mask_failures": [],
+    "connectivity_uses_eroded_pad_copper": true
+  },
+  "minimum_new_via_to_any_drill_gap": {
+    "a": "16baba3b72dd8ade",
+    "b": "ea36aeaa3830d394",
+    "a_net": "SIL_1V8",
+    "b_net": "GND",
+    "lower_bound_edge_gap_mm": 0.46048876769634295
+  },
+  "new_drill_overlaps": [],
+  "minimum_new_via_to_original_via_mask_gap": {
+    "via": "16baba3b72dd8ade",
+    "original_via": "ea36aeaa3830d394",
+    "layer": "top",
+    "hole_to_opening_mm": 0.25968846088687636
+  },
+  "new_via_to_original_mask_failures": [],
+  "passed": true
+}

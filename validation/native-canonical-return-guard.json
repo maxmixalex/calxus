@@ -1,0 +1,110 @@
+{
+  "schema": "calxus.canonical-return-source-guard.v1",
+  "source_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "jobId": "job-mcp-2bc627b9-f9c3-419f-abe4-73415be8aedb",
+  "completedAt": "2026-11-21T13:08:07.023Z",
+  "active": {
+    "documentType": 3,
+    "uuid": "2a0c39c6c6694f40",
+    "tabId": "2a0c39c6c6694f40@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+  },
+  "componentValuesUnchanged": true,
+  "allNonPouredRecordsUnchanged": true,
+  "pourFillChanges": [
+    {
+      "key": "POURED|[\"POURED\",\"d9a3cd5f8787cbde\"]",
+      "field": "pourFill",
+      "numericChanges": 40,
+      "maxAbsDifference": 1.1368683772161603e-12,
+      "shapeChanges": [],
+      "otherChanges": [],
+      "examples": [
+        {
+          "path": "/0/path/0/26",
+          "before": 3.937010000000015,
+          "after": 3.937010000000014,
+          "abs": 8.881784197001252e-16
+        },
+        {
+          "path": "/0/path/0/28",
+          "before": -90.00000000000102,
+          "after": -90.00000000000097,
+          "abs": 5.684341886080802e-14
+        },
+        {
+          "path": "/0/path/0/32",
+          "before": 3.937,
+          "after": 3.9370000000000003,
+          "abs": 4.440892098500626e-16
+        },
+        {
+          "path": "/0/path/0/56",
+          "before": 61.78769568878735,
+          "after": 61.78769568878734,
+          "abs": 1.4210854715202004e-14
+        },
+        {
+          "path": "/0/path/0/60",
+          "before": 2.3685,
+          "after": 2.368499999999999,
+          "abs": 8.881784197001252e-16
+        },
+        {
+          "path": "/0/path/4/14",
+          "before": 23.186214787179974,
+          "after": 23.186214787179978,
+          "abs": 3.552713678800501e-15
+        }
+      ]
+    },
+    {
+      "key": "POURED|[\"POURED\",\"2a14c411fc1ebfd5\"]",
+      "field": "pourFill",
+      "numericChanges": 40,
+      "maxAbsDifference": 1.1368683772161603e-12,
+      "shapeChanges": [],
+      "otherChanges": [],
+      "examples": [
+        {
+          "path": "/0/path/0/26",
+          "before": 3.937010000000015,
+          "after": 3.937010000000014,
+          "abs": 8.881784197001252e-16
+        },
+        {
+          "path": "/0/path/0/28",
+          "before": -90.00000000000102,
+          "after": -90.00000000000097,
+          "abs": 5.684341886080802e-14
+        },
+        {
+          "path": "/0/path/0/32",
+          "before": 3.937,
+          "after": 3.9370000000000003,
+          "abs": 4.440892098500626e-16
+        },
+        {
+          "path": "/0/path/0/56",
+          "before": 61.78769568878735,
+          "after": 61.78769568878734,
+          "abs": 1.4210854715202004e-14
+        },
+        {
+          "path": "/0/path/0/60",
+          "before": 2.3685,
+          "after": 2.368499999999999,
+          "abs": 8.881784197001252e-16
+        },
+        {
+          "path": "/0/path/4/14",
+          "before": 23.186214787179974,
+          "after": 23.186214787179978,
+          "abs": 3.552713678800501e-15
+        }
+      ]
+    }
+  ],
+  "interpretation": "Parsed record values were recursively compared independent of object field order. All non-DOCHEAD/non-POURED records are exactly equal, including all97component poses,footprint/model attributes,1493liveLINE,189VIA,pads,pad nets,rules andPOUR boundaries. Only two derivedPOURED fill caches have40floating-point changes each,max1.1369e-12in existing native numeric units,with identical array structure and allnon-numeric entries. This is roundoff,not a design change.",
+  "manufacturing_release_accepted": false
+}

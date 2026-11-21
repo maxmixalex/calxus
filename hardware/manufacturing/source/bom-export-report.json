@@ -1,0 +1,14 @@
+{
+  "schema": "calxus.final-native-table-export-provenance.v1",
+  "source": "Actual native saved PCB export downloaded and independently parsed",
+  "native_original_filename": "Calxus_RevA_final_BOM_native.tsv",
+  "windows_path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_final_BOM_native.tsv",
+  "canonical_source_path": "hardware/manufacturing/source/Calxus_RevA_BOM_native.tsv",
+  "bytes": 5864,
+  "sha256": "46912ad1eb42d465093542c900bc8bde77a533767b1ed8650b0d717756dfdb4a",
+  "native_project_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "native_settings": {
+    "filter": []
+  },
+  "subset_validation": "hardware/manufacturing/smt-native-export-validation.json"
+}

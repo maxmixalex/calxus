@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "kind": "step-board",
+  "checkedAt": "2026-11-21T09:48:33.667Z",
+  "requested": {
+    "projectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "pcbId": "2a0c39c6c6694f40",
+    "schematicPageId": "0b9f8a9f53fb8264"
+  },
+  "files": [
+    {
+      "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_fixed_board_board.step",
+      "nativeName": "Calxus_RevA_fixed_board_board",
+      "size": 278100,
+      "type": "text/plain",
+      "saved": true,
+      "format": "step",
+      "readbackBytes": 278100,
+      "readbackByteIdentical": true
+    },
+    {
+      "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_fixed_board_board.step.gz",
+      "nativeName": null,
+      "size": 48566,
+      "type": "application/gzip",
+      "saved": true,
+      "format": "gzip",
+      "originalBytes": 278100,
+      "readbackBytes": 48566,
+      "readbackByteIdentical": true
+    }
+  ],
+  "failures": [],
+  "activeDocument": {
+    "documentType": 3,
+    "uuid": "2a0c39c6c6694f40",
+    "tabId": "2a0c39c6c6694f40@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+  },
+  "stepElements": [],
+  "finishedAt": "2026-11-21T09:48:34.687Z",
+  "manifestPath": "D:/Works/Calc/Calxus/exports/Calxus_RevA_fixed_board_step-board_export-report.json",
+  "manifestSaved": true,
+  "stepGeometryScopeVerified": true,
+  "verifiedGeometryScope": "One valid nonempty Board BREP; six named copper/silkscreen/stiffener groups are empty.",
+  "independentBrepReport": "../mechanical/validation/native-fixed-board-brep.json",
+  "boardGeometryPass": true,
+  "boardThicknessMm": 1.606203212406
+}

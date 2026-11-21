@@ -1,11 +1,13 @@
 {
   "pass": true,
-  "design_sha256": "994d27cecacbf06824c64d86912e64e5657ac8876b3270f9a241cc3110145d1d",
-  "actual_sha256": "e6d58ba176c7d3b843c184bf627a4be0540f0e4156bfabd702182b28c6d4b9e6",
+  "design_sha256": "5a4ba66e98194b4555e690dd24638bc03edf62d8f54feb6612df27e5cf0a6039",
+  "actual_sha256": "77cd43598a9a44177869eefea8c6aad8f8d0688e1aa4f2979a8bd137084683b5",
   "expected_components": 97,
   "actual_components": 97,
   "expected_pins": 344,
   "actual_pins": 344,
+  "actual_raw_pin_entries": 344,
+  "duplicate_physical_pin_entries": [],
   "comparison_scope": "schematic",
   "excluded_pcb_only_refs": [
     "TP1",
@@ -32,7 +34,7 @@
     "TP22",
     "TP23"
   ],
-  "alias_basis": "Verified project library: TUSB EP33, CH343 EP17, grouped USB-C pins, USB-A shield5",
+  "alias_basis": "Verified project library: TUSB EP33, CH343 EP17, grouped USB-C pins, USB-A shield5; observed single-terminal native free pad TPn maps to logical TPn pin1",
   "errors": [],
   "notes": [
     "Singleton logical net TP_GPIO30: [('U2', '32')]; verify intentional test point/NC treatment (PCB-only test pads are explicitly excluded in this scope.)",

@@ -1,0 +1,74 @@
+{
+  "schema": "calxus.final-source-revision.v1",
+  "prior_candidate_archive_sha256": "54827104aa16ea58bcd6dfbdf21af6e03cba56d9551dff99abbe2dfb1335edaa",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "changed_drill_features": [
+    {
+      "key": "VIA:aef77ed306de1b93",
+      "before": {
+        "key": "VIA:aef77ed306de1b93",
+        "source_kind": "VIA",
+        "shape": "ROUND",
+        "center_mm": [
+          8.456417433534586,
+          20.972514674842078
+        ],
+        "diameter_mm": 0.29997383801412747
+      },
+      "after": {
+        "key": "VIA:aef77ed306de1b93",
+        "source_kind": "VIA",
+        "shape": "ROUND",
+        "center_mm": [
+          8.55,
+          20.64
+        ],
+        "diameter_mm": 0.2
+      }
+    }
+  ],
+  "unchanged_drill_features": 246,
+  "total_drill_features": 247,
+  "non_via_mechanical_source_records_identical": true,
+  "native_model_bytes_identical": true,
+  "seven_printed_designs_fourteen_step_stl_files_unchanged": true,
+  "current_mechanical_input_signature": {
+    "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+    "canonical_geometry_records_sha256": "58b6df78d6d3072bdb1ac3eeedff4cd26ffad6528bad759d146b6b0717d1ce1f",
+    "canonical_geometry_without_pcb_vias_sha256": "1f511b8c6ecf7db239fcdeae871242094978e4500a10599dd360574bf16acce3",
+    "record_counts": {
+      "DEVICE:META": 42,
+      "FOOTPRINT:ACTIVE_LAYER": 22,
+      "FOOTPRINT:ATTR": 44,
+      "FOOTPRINT:CANVAS": 22,
+      "FOOTPRINT:ELE_PLACEHOLDER": 127,
+      "FOOTPRINT:FILL": 335,
+      "FOOTPRINT:LAYER": 702,
+      "FOOTPRINT:LAYER_PHYS": 32,
+      "FOOTPRINT:META": 22,
+      "FOOTPRINT:PAD": 165,
+      "FOOTPRINT:POLY": 196,
+      "FOOTPRINT:PREFERENCE": 4,
+      "PCB:ATTR": 301,
+      "PCB:COMPONENT": 97,
+      "PCB:LAYER": 62,
+      "PCB:LAYER_PHYS": 13,
+      "PCB:PAD": 27,
+      "PCB:POLY": 1,
+      "PCB:REGION": 8,
+      "PCB:VIA": 189
+    },
+    "scope": "All FOOTPRINT and DEVICE effective records; PCB COMPONENT, ATTR, PAD, VIA, LAYER_PHYS, LAYER, REGION and layer11 outline. Record tickets and source timestamps excluded. Copper LINE/POURED/POLY15/16 changes are outside this mechanical equivalence scope."
+  },
+  "current_drill_geometry_sha256": "a0ecf4dab12375337a88ef621e7969615150a85b63595805083ee0c2e1aba326",
+  "fresh_geometry_recomputation": {
+    "board": true,
+    "static_93_component_fit": true,
+    "selector_16_poses": true,
+    "shared_114_object_assembly_and_independent_readback": true
+  },
+  "assembly_gzip_sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+  "native_final_step_or_cam_acceptance": false,
+  "pass": true,
+  "scope": "Final design-source geometry only. Changed PCB copper routing is outside this mechanical comparison. The one changed via was recut from the complete final247-feature set, not patched into a previously drilled board."
+}

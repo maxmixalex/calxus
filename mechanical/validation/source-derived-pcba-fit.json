@@ -1,0 +1,2039 @@
+{
+  "schema": "calxus.source-derived-pcba-fit.v1",
+  "geometry_origin": "SOURCE_DERIVED_NOT_FRESH_NATIVE_STEP",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "native_cam_or_drc_acceptance": false,
+  "components": {
+    "BOARD": {
+      "bbox_mm": [
+        0.012700025400000148,
+        0.012700025400000148,
+        0.0,
+        79.98745999492,
+        41.98738379476801,
+        1.6062032124060002
+      ],
+      "volume_mm3": 5278.60557211963,
+      "solid_count": 1,
+      "valid": true,
+      "population": "BOARD"
+    },
+    "C1": {
+      "bbox_mm": [
+        10.100020220041,
+        14.200030480060999,
+        1.606203112407,
+        10.900020420040999,
+        15.800030480061,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295417,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C10": {
+      "bbox_mm": [
+        43.100086260173,
+        21.950045720090998,
+        1.606203112407,
+        43.900086460173,
+        23.550045720091,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295402,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C11": {
+      "bbox_mm": [
+        36.700076200152,
+        22.100045620091,
+        1.606203112407,
+        38.300076200152006,
+        22.900045820090998,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295394,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "C12": {
+      "bbox_mm": [
+        45.100091340183,
+        30.700063500126998,
+        1.606203112407,
+        45.900091540183,
+        32.300063500127,
+        2.406203312406
+      ],
+      "volume_mm3": 0.99068149972954,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483972e-07
+    },
+    "C13": {
+      "bbox_mm": [
+        52.100104040208,
+        30.700063500126998,
+        1.606203112407,
+        52.900104240208,
+        32.300063500127,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295397,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483972e-07
+    },
+    "C14": {
+      "bbox_mm": [
+        37.700076200152,
+        12.700025300051001,
+        1.606203112407,
+        39.300076200152006,
+        13.500025500051,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295399,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "C15": {
+      "bbox_mm": [
+        57.200116840233996,
+        13.600027840056,
+        1.606203112407,
+        58.800116840234004,
+        14.400028040056,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295408,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "C16": {
+      "bbox_mm": [
+        56.600114200229,
+        9.700020320040998,
+        1.606203112407,
+        57.400114400229,
+        11.300020320041,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295403,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C17": {
+      "bbox_mm": [
+        60.700121920243994,
+        13.600027840056,
+        1.606203112407,
+        62.300121920244,
+        14.400028040056,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295403,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "C18": {
+      "bbox_mm": [
+        53.200109220217996,
+        13.850027840056,
+        1.606203112407,
+        54.800109220218005,
+        14.650028040056,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295399,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "C19": {
+      "bbox_mm": [
+        53.200109220217996,
+        24.450050700102,
+        1.606203112407,
+        54.800109220218005,
+        25.250050900102,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295387,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "C2": {
+      "bbox_mm": [
+        8.100017680036,
+        16.200033020065998,
+        1.606203112407,
+        8.900017880036,
+        17.800033020066,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295414,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C20": {
+      "bbox_mm": [
+        67.600137060274,
+        36.200073660147,
+        1.606203112407,
+        68.400137260274,
+        37.80007366014701,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295414,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "C21": {
+      "bbox_mm": [
+        35.600073660147,
+        8.800017680036,
+        1.606203112407,
+        37.200073660147005,
+        9.600017880035999,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295401,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "C22": {
+      "bbox_mm": [
+        26.700055880112,
+        14.600030380061,
+        1.606203112407,
+        28.300055880112,
+        15.400030580061,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295412,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C3": {
+      "bbox_mm": [
+        28.200058420117,
+        6.400012600025,
+        1.606203112407,
+        29.800058420117,
+        7.200012800025001,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295407,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483972e-07
+    },
+    "C4": {
+      "bbox_mm": [
+        63.20012700025399,
+        38.600078640157,
+        1.606203112407,
+        64.800127000254,
+        39.400078840157,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295376,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C5": {
+      "bbox_mm": [
+        17.100035460071002,
+        4.700010160020001,
+        1.606203112407,
+        17.900035660071,
+        6.30001016002,
+        2.406203312406
+      ],
+      "volume_mm3": 0.99068149972954,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.279987522448393e-07
+    },
+    "C6": {
+      "bbox_mm": [
+        28.200058420117,
+        16.600032920066,
+        1.606203112407,
+        29.800058420117,
+        17.400033120066,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295403,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C7": {
+      "bbox_mm": [
+        27.950058420117,
+        23.100048160097,
+        1.606203112407,
+        29.550058420117,
+        23.900048360097,
+        2.406203312406
+      ],
+      "volume_mm3": 0.990681499729541,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C8": {
+      "bbox_mm": [
+        43.100086260173,
+        25.500053340106998,
+        1.606203112407,
+        43.900086460173,
+        27.100053340107,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906814997295401,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224483943e-07
+    },
+    "C9": {
+      "bbox_mm": [
+        51.950106680213,
+        27.900055780112,
+        1.606203112407,
+        53.550106680213005,
+        28.700055980112,
+        2.406203312406
+      ],
+      "volume_mm3": 0.990681499729539,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.2799875224484002e-07
+    },
+    "D1": {
+      "bbox_mm": [
+        9.103595324949998,
+        19.560336280113,
+        1.6062038190010002,
+        11.896419915080001,
+        22.439775480112,
+        3.2444444526700003
+      ],
+      "volume_mm3": 6.962792780038593,
+      "solid_count": 20,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "D10": {
+      "bbox_mm": [
+        36.175076200153,
+        27.349954179909002,
+        1.606203212405,
+        38.825076200151,
+        28.649954379909,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518919,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.4453067925506834e-12
+    },
+    "D11": {
+      "bbox_mm": [
+        12.350027940057,
+        26.050055780112,
+        1.6062032124049999,
+        15.150027940055,
+        28.950055980111003,
+        2.7062032124060003
+      ],
+      "volume_mm3": 4.557640822581426,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 8.122525435086136e-12
+    },
+    "D12": {
+      "bbox_mm": [
+        16.425035560072,
+        26.849954179909002,
+        1.606203212405,
+        19.075035560070003,
+        28.149954379909,
+        2.556203212406
+      ],
+      "volume_mm3": 1.773562775351892,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.4453067925506834e-12
+    },
+    "D13": {
+      "bbox_mm": [
+        20.175043180087,
+        26.849954179909002,
+        1.606203212405,
+        22.825043180085,
+        28.149954379909,
+        2.556203212406
+      ],
+      "volume_mm3": 1.773562775351892,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.4453067925506834e-12
+    },
+    "D14": {
+      "bbox_mm": [
+        23.850050800103,
+        26.050055780112,
+        1.6062032124049999,
+        26.650050800101,
+        28.950055980111003,
+        2.7062032124060003
+      ],
+      "volume_mm3": 4.55764082258143,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 8.122525435086136e-12
+    },
+    "D15": {
+      "bbox_mm": [
+        27.600157380315,
+        26.175055880113,
+        1.606203212405,
+        28.900157580315,
+        28.825055880111,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518914,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.4453067925506834e-12
+    },
+    "D16": {
+      "bbox_mm": [
+        52.675109220219,
+        11.349921159843,
+        1.606203212405,
+        55.325109220217,
+        12.649921359842999,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518917,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.4453067925506834e-12
+    },
+    "D2": {
+      "bbox_mm": [
+        64.35370708517401,
+        30.560356600153,
+        1.6062038190010002,
+        67.14653167530399,
+        33.439795800152005,
+        3.2444444526700003
+      ],
+      "volume_mm3": 6.962792780038581,
+      "solid_count": 20,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "D3": {
+      "bbox_mm": [
+        38.560346440131994,
+        8.603595324949998,
+        1.6062038190010002,
+        41.439785640131,
+        11.396419915080001,
+        3.2444444526700003
+      ],
+      "volume_mm3": 6.96279278003859,
+      "solid_count": 20,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "D4": {
+      "bbox_mm": [
+        68.74735048188299,
+        24.549999900000998,
+        1.606203216757,
+        71.252979718777,
+        27.4500001,
+        2.6564083140289996
+      ],
+      "volume_mm3": 3.6014716925114145,
+      "solid_count": 17,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "D5": {
+      "bbox_mm": [
+        68.74735048188299,
+        16.549984659971,
+        1.606203216757,
+        71.252979718777,
+        19.44998485997,
+        2.6564083140289996
+      ],
+      "volume_mm3": 3.6014716925114163,
+      "solid_count": 17,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "D6": {
+      "bbox_mm": [
+        63.747340321863,
+        6.54996433993,
+        1.606203216757,
+        66.252969558757,
+        9.449964539928999,
+        2.6564083140289996
+      ],
+      "volume_mm3": 3.601471692511413,
+      "solid_count": 17,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "D7": {
+      "bbox_mm": [
+        8.247228561639,
+        25.550002440005997,
+        1.606203216757,
+        10.752857798532999,
+        28.450002640005,
+        2.6564083140289996
+      ],
+      "volume_mm3": 3.601471692511414,
+      "solid_count": 17,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "D8": {
+      "bbox_mm": [
+        65.600233580467,
+        25.675053340108,
+        1.606203212405,
+        66.900233780467,
+        28.325053340106003,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518923,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.4453067925506834e-12
+    },
+    "D9": {
+      "bbox_mm": [
+        67.97513970028001,
+        28.149956719914,
+        1.606203212405,
+        70.625139700278,
+        29.449956919914,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518914,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.4453067925506644e-12
+    },
+    "J1": {
+      "bbox_mm": [
+        -0.8299925067390002,
+        16.530043080086998,
+        0.7561905259629998,
+        7.0700074932609995,
+        25.470043280084,
+        4.857190625962001
+      ],
+      "volume_mm3": 125.8577816522123,
+      "solid_count": 14,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_mm3": 3.456809505650482e-05
+    },
+    "J10": {
+      "bbox_mm": [
+        30.730063500127,
+        28.210063500127003,
+        -1.3937907425262055,
+        33.270063500127,
+        33.300063600127004,
+        10.106209257474319
+      ],
+      "volume_mm3": 36.88978322805104,
+      "solid_count": 2,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_mm3": 0.0
+    },
+    "J2": {
+      "bbox_mm": [
+        32.850054600109004,
+        -4.925011859991001,
+        -0.7937969609880007,
+        47.150054600109,
+        5.074988240008006,
+        7.907203139011
+      ],
+      "volume_mm3": 449.15668734171965,
+      "solid_count": 23,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_mm3": 0.0
+    },
+    "J6": {
+      "bbox_mm": [
+        67.500129509823,
+        5.049020070396,
+        -1.39379681803,
+        72.200129609823,
+        14.950020170394001,
+        7.6062031819709714
+      ],
+      "volume_mm3": 118.74748196499664,
+      "solid_count": 14,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_mm3": 0.0
+    },
+    "J7": {
+      "bbox_mm": [
+        59.960124460249,
+        17.690043180086,
+        -1.3937967425384277,
+        65.040124460249,
+        25.310043180086,
+        10.106203257462097
+      ],
+      "volume_mm3": 107.05471355659687,
+      "solid_count": 3,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_mm3": 0.0
+    },
+    "J9": {
+      "bbox_mm": [
+        29.460066040132002,
+        24.980053340107002,
+        -1.3937907425262055,
+        34.550066140132,
+        27.520053340107,
+        10.106209257474319
+      ],
+      "volume_mm3": 36.88978322805102,
+      "solid_count": 2,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_mm3": 0.0
+    },
+    "Q1": {
+      "bbox_mm": [
+        60.600124460249994,
+        26.050055780112,
+        1.6062032124049999,
+        63.400124460248,
+        28.950055980111003,
+        2.7062032124060003
+      ],
+      "volume_mm3": 4.557640822581424,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 8.122525435086157e-12
+    },
+    "Q2": {
+      "bbox_mm": [
+        60.350124460249994,
+        30.050063400126998,
+        1.6062032124049999,
+        63.150124460248,
+        32.950063600126,
+        2.7062032124060003
+      ],
+      "volume_mm3": 4.557640822581422,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 8.122525435086157e-12
+    },
+    "R1": {
+      "bbox_mm": [
+        5.095010164804,
+        28.190058420116998,
+        1.6062032121539997,
+        5.905010264803001,
+        29.810058420117002,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923463,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425866e-10
+    },
+    "R10": {
+      "bbox_mm": [
+        36.690076200152,
+        24.395050695319,
+        1.6062032121539997,
+        38.310076200152004,
+        25.205050795318,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392348,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R11": {
+      "bbox_mm": [
+        36.690076200152,
+        30.595060855339,
+        1.6062032121539997,
+        38.310076200152004,
+        31.405060955338,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923474,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R12": {
+      "bbox_mm": [
+        41.190083820168,
+        28.595058315333997,
+        1.6062032121539997,
+        42.810083820168,
+        29.405058415333,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923477,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R13": {
+      "bbox_mm": [
+        41.190083820168,
+        30.445060855338998,
+        1.6062032121539997,
+        42.810083820168,
+        31.255060955338,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923475,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R14": {
+      "bbox_mm": [
+        45.095091444967,
+        17.690038100076,
+        1.6062032121539997,
+        45.905091544966,
+        19.310038100076003,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923451,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R15": {
+      "bbox_mm": [
+        47.095093984971996,
+        17.690038100076,
+        1.6062032121539997,
+        47.905094084971,
+        19.310038100076003,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392345,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R16": {
+      "bbox_mm": [
+        50.59510160498699,
+        15.940033020065998,
+        1.6062032121539997,
+        51.405101704985995,
+        17.560033020066,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923454,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425866e-10
+    },
+    "R17": {
+      "bbox_mm": [
+        55.690111760224,
+        26.595053235324,
+        1.6062032121539997,
+        57.310111760224004,
+        27.405053335323,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923477,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R18": {
+      "bbox_mm": [
+        55.690111760224,
+        31.795063395344,
+        1.6062032121539997,
+        57.310111760224004,
+        32.605063495343,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392347,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442605e-10
+    },
+    "R19": {
+      "bbox_mm": [
+        55.690111760224,
+        29.195058315334,
+        1.6062032121539997,
+        57.310111760224004,
+        30.005058415333,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923476,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R2": {
+      "bbox_mm": [
+        5.095010164804,
+        31.440063500126996,
+        1.6062032121539997,
+        5.905010264803001,
+        33.060063500127,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923467,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425866e-10
+    },
+    "R20": {
+      "bbox_mm": [
+        55.690111760224,
+        34.395068475354,
+        1.6062032121539997,
+        57.310111760224004,
+        35.205068575353,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923467,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R21": {
+      "bbox_mm": [
+        29.845060964906,
+        13.440027940056,
+        1.6062032121539997,
+        30.655061064905002,
+        15.060027940056,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392347,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425835e-10
+    },
+    "R22": {
+      "bbox_mm": [
+        38.095076204936,
+        14.940030480060999,
+        1.6062032121539997,
+        38.905076304935,
+        16.560030480061002,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923456,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425866e-10
+    },
+    "R23": {
+      "bbox_mm": [
+        32.190066040131995,
+        19.595040535297997,
+        1.6062032121539997,
+        33.810066040132,
+        20.405040635297,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923483,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R25": {
+      "bbox_mm": [
+        32.190066040131995,
+        9.845020215258,
+        1.6062032121539997,
+        33.810066040132,
+        10.655020315257,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392349,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425835e-10
+    },
+    "R27": {
+      "bbox_mm": [
+        35.440073660147,
+        19.595040535297997,
+        1.6062032121539997,
+        37.060073660147005,
+        20.405040635297,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923475,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R28": {
+      "bbox_mm": [
+        57.595116845018,
+        15.940033020065998,
+        1.6062032121539997,
+        58.405116945017,
+        17.560033020066,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923454,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425866e-10
+    },
+    "R29": {
+      "bbox_mm": [
+        57.595116845018,
+        19.190040640080998,
+        1.6062032121539997,
+        58.405116945017,
+        20.810040640081002,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923452,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R3": {
+      "bbox_mm": [
+        12.190025400050999,
+        9.595020215258,
+        1.6062032121539997,
+        13.810025400051,
+        10.405020315257,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923469,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425763e-10
+    },
+    "R30": {
+      "bbox_mm": [
+        57.595116845018,
+        22.440045720090996,
+        1.6062032121539997,
+        58.405116945017,
+        24.060045720091,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923453,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R31": {
+      "bbox_mm": [
+        58.595116845018,
+        26.440053340107,
+        1.6062032121539997,
+        59.405116945017,
+        28.060053340107004,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923453,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R32": {
+      "bbox_mm": [
+        8.59501778482,
+        9.190020320040999,
+        1.6062032121539997,
+        9.405017884819,
+        10.810020320041,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923472,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425763e-10
+    },
+    "R33": {
+      "bbox_mm": [
+        21.59504318487,
+        9.190020320040999,
+        1.6062032121539997,
+        22.405043284869002,
+        10.810020320041,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923467,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425835e-10
+    },
+    "R34": {
+      "bbox_mm": [
+        23.940048260096997,
+        11.345022755263,
+        1.6062032121539997,
+        25.560048260097002,
+        12.155022855262,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923462,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425835e-10
+    },
+    "R35": {
+      "bbox_mm": [
+        18.59503810486,
+        9.190020320040999,
+        1.6062032121539997,
+        19.405038204859,
+        10.810020320041,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392347,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425835e-10
+    },
+    "R36": {
+      "bbox_mm": [
+        59.595119385023,
+        35.690073660147,
+        1.6062032121539997,
+        60.405119485022,
+        37.310073660147005,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923467,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R37": {
+      "bbox_mm": [
+        24.595050804886,
+        1.44000508001,
+        1.6062032121539997,
+        25.405050904885,
+        3.0600050800100003,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923463,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425814e-10
+    },
+    "R4": {
+      "bbox_mm": [
+        15.440033020065998,
+        9.595020215258,
+        1.6062032121539997,
+        17.060033020066,
+        10.405020315257,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923469,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425794e-10
+    },
+    "R5": {
+      "bbox_mm": [
+        27.190055880112,
+        9.595020215258,
+        1.6062032121539997,
+        28.810055880112003,
+        10.405020315257,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923465,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425835e-10
+    },
+    "R6": {
+      "bbox_mm": [
+        24.595050804886,
+        4.69001016002,
+        1.6062032121539997,
+        25.405050904885,
+        6.310010160020001,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923463,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.3067499264425835e-10
+    },
+    "R7": {
+      "bbox_mm": [
+        42.190086360173,
+        19.595040535297997,
+        1.6062032121539997,
+        43.810086360173,
+        20.405040635297,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923474,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R8": {
+      "bbox_mm": [
+        42.190086360173,
+        17.595035455288,
+        1.6062032121539997,
+        43.810086360173,
+        18.405035555287,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923473,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "R9": {
+      "bbox_mm": [
+        38.940078740157,
+        18.995037995293,
+        1.6062032121539997,
+        40.560078740157,
+        19.805038095292,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923475,
+      "solid_count": 4,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 3.306749926442591e-10
+    },
+    "SW1": {
+      "bbox_mm": [
+        12.500040640080053,
+        30.259079272,
+        -0.8937957875939997,
+        27.50004064008445,
+        35.809079272,
+        5.107204312406001
+      ],
+      "volume_mm3": 163.284592538126,
+      "solid_count": 28,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_mm3": 0.0
+    },
+    "U1": {
+      "bbox_mm": [
+        15.000040540081,
+        14.947059965258001,
+        1.6062034845759998,
+        25.000040740081,
+        21.053011154884,
+        3.306628312423
+      ],
+      "volume_mm3": 61.40230179907193,
+      "solid_count": 30,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "U10": {
+      "bbox_mm": [
+        27.593700265702,
+        2.049931319864,
+        1.60620361328,
+        30.406467374634,
+        4.949931519863,
+        3.2561423116109998
+      ],
+      "volume_mm3": 7.113016502663281,
+      "solid_count": 20,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "U2": {
+      "bbox_mm": [
+        45.490096520193,
+        22.490050800101997,
+        1.606203212035,
+        50.510096520192995,
+        27.510050800102,
+        2.3572033120349998
+      ],
+      "volume_mm3": 18.449179011162453,
+      "solid_count": 14,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 9.349351411813699e-09
+    },
+    "U3": {
+      "bbox_mm": [
+        58.490119380239,
+        8.990020320041,
+        1.606203212246,
+        61.510119380239,
+        12.010020320040999,
+        2.417203312246
+      ],
+      "volume_mm3": 7.253153315976909,
+      "solid_count": 14,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 1.4592661458756573e-09
+    },
+    "U4": {
+      "bbox_mm": [
+        31.550068480136996,
+        12.000030480061,
+        1.606203212406,
+        36.450068680137,
+        18.000030480061,
+        3.306203212406
+      ],
+      "volume_mm3": 29.69936216717504,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 6.528111651249452e-15
+    },
+    "U5": {
+      "bbox_mm": [
+        27.550058420117,
+        18.600040640080998,
+        1.606203213435,
+        30.450058420117056,
+        21.400040640081002,
+        2.8572033134329997
+      ],
+      "volume_mm3": 5.165197078117581,
+      "solid_count": 14,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "U6": {
+      "bbox_mm": [
+        19.593685025671,
+        4.049933859868999,
+        1.60620361328,
+        22.406452134603,
+        6.949934059868,
+        3.2561423116109998
+      ],
+      "volume_mm3": 7.113016502663269,
+      "solid_count": 20,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "U7": {
+      "bbox_mm": [
+        52.553667237134,
+        15.607655920067,
+        1.606203118304,
+        55.446551203302,
+        18.392410120066,
+        2.8066081117299997
+      ],
+      "volume_mm3": 4.52886749498264,
+      "solid_count": 19,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 7.580829634068968e-07
+    },
+    "U8": {
+      "bbox_mm": [
+        52.553667237134,
+        20.607666080086997,
+        1.606203118304,
+        55.446551203302,
+        23.392420280086,
+        2.8066081117299997
+      ],
+      "volume_mm3": 4.528867494982641,
+      "solid_count": 19,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 7.580829634068978e-07
+    },
+    "U9": {
+      "bbox_mm": [
+        62.593768845839,
+        34.549994819991,
+        1.60620361328,
+        65.406535954771,
+        37.449995019990006,
+        3.2561423116109998
+      ],
+      "volume_mm3": 7.113016502663272,
+      "solid_count": 20,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 0.0
+    },
+    "Y2": {
+      "bbox_mm": [
+        47.400098960198,
+        30.250063400126997,
+        1.6062031124059999,
+        50.600099160198006,
+        32.750063600127,
+        2.3072033124059996
+      ],
+      "volume_mm3": 5.086422861275993,
+      "solid_count": 1,
+      "valid": true,
+      "population": "FITTED",
+      "board_intersection_volume_upper_bound_mm3": 8.000001162434569e-07
+    }
+  },
+  "enclosure_collisions": [],
+  "component_board_collisions": [],
+  "component_pair_collisions": [],
+  "boolean_errors": [],
+  "slider_offset_mm": -1,
+  "fork_calibration_x_mm": -0.25,
+  "enclosure_collision_threshold_mm3": 1e-05,
+  "component_mount_collision_threshold_mm3": 0.0001,
+  "component_pair_collision_threshold_mm3": 0.0001,
+  "conservative_bbox_volume_exclusions": [
+    {
+      "pair": [
+        "C1",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C10",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C11",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C12",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483972e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C13",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483972e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C14",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C15",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C16",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C17",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C18",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C19",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C2",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C20",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C21",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C22",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C3",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483972e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C4",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C5",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.279987522448393e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C6",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C7",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C8",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224483943e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "C9",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.2799875224484002e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D10",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.4453067925506834e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D11",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 8.122525435086136e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D12",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.4453067925506834e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D13",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.4453067925506834e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D14",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 8.122525435086136e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D15",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.4453067925506834e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D16",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.4453067925506834e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D8",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.4453067925506834e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "D9",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.4453067925506644e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "Q1",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 8.122525435086157e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "Q2",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 8.122525435086157e-12,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R1",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425866e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R10",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R11",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R12",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R13",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R14",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R15",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R16",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425866e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R17",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R18",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442605e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R19",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R2",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425866e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R20",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R21",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425835e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R22",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425866e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R23",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R25",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425835e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R27",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R28",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425866e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R29",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R3",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425763e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R30",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R31",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R32",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425763e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R33",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425835e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R34",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425835e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R35",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425835e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R36",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R37",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425814e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R4",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425794e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R5",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425835e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R6",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.3067499264425835e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R7",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R8",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "R9",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 3.306749926442591e-10,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "U2",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 9.349351411813699e-09,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "U3",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 1.4592661458756573e-09,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "U4",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 6.528111651249452e-15,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "U7",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 7.580829634068968e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "U8",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 7.580829634068978e-07,
+      "threshold_mm3": 0.0001
+    },
+    {
+      "pair": [
+        "Y2",
+        "BOARD"
+      ],
+      "upper_bound_mm3": 8.000001162434569e-07,
+      "threshold_mm3": 0.0001
+    }
+  ],
+  "exact_boolean_tests": {
+    "enclosure": 192,
+    "board_mount": 7
+  },
+  "broad_phase_pair_counts": {
+    "enclosure_and_hardware": 1880,
+    "component_to_board": 93,
+    "between_fitted_components": 4278
+  },
+  "bbox_proof": "A solid intersection is contained in the intersection of its two axis-aligned bounding boxes. Pairs with zero or sub-threshold box-intersection volume cannot exceed the stated collision threshold. Bounds are computed once per immutable rigid shape.",
+  "fitted_component_count": 93,
+  "all_models_valid": true,
+  "source_geometry_fit_pass": true,
+  "limitations": [
+    "Source-derived geometry validation is not a native editor DRC, fresh native export or CAM acceptance.",
+    "Vendor/native automatic models are not independently measured samples.",
+    "No physical print, insertion, load, thermal, electrical or USB compliance test is implied.",
+    "Rigid models omit free flexible cable routes, solder fillets, threads, plating/fill and surface artwork."
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "stackup": {
+    "layers": [
+      {
+        "layerId": 3,
+        "layerName": "Top Silkscreen Layer",
+        "layerType": "TOP_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1
+      },
+      {
+        "layerId": 7,
+        "layerName": "Top Paste Mask Layer",
+        "layerType": "TOP_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 2
+      },
+      {
+        "layerId": 5,
+        "layerName": "Top Solder Mask Layer",
+        "layerType": "TOP_SOLDER_MASK",
+        "kind": "other",
+        "material": "Solder mask",
+        "thickness": 0.39370078740157477,
+        "permittivity": 3.8,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 3
+      },
+      {
+        "layerId": 1,
+        "layerName": "Top Layer",
+        "layerType": "TOP",
+        "kind": "copper",
+        "material": "Copper 1oz",
+        "thickness": 1.377952755905512,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1000
+      },
+      {
+        "layerId": 361,
+        "layerName": "PP7628 top",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "7628 prepreg",
+        "thickness": 8.283464566929135,
+        "permittivity": 4.4,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      },
+      {
+        "layerId": 15,
+        "layerName": "Inner1",
+        "layerType": "SIGNAL",
+        "kind": "copper",
+        "material": "Copper 0.5oz",
+        "thickness": 0.5984251968503937,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 2000
+      },
+      {
+        "layerId": 362,
+        "layerName": "FR4 core",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "FR-4 core",
+        "thickness": 41.92913385826772,
+        "permittivity": 4.38,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 2001
+      },
+      {
+        "layerId": 16,
+        "layerName": "Inner2",
+        "layerType": "SIGNAL",
+        "kind": "copper",
+        "material": "Copper 0.5oz",
+        "thickness": 0.5984251968503937,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 3000
+      },
+      {
+        "layerId": 363,
+        "layerName": "PP7628 bottom",
+        "layerType": "SUBSTRATE",
+        "kind": "dielectric",
+        "material": "7628 prepreg",
+        "thickness": 8.283464566929135,
+        "permittivity": 4.4,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 3001
+      },
+      {
+        "layerId": 2,
+        "layerName": "Bottom Layer",
+        "layerType": "BOTTOM",
+        "kind": "copper",
+        "material": "Copper 1oz",
+        "thickness": 1.377952755905512,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 9000
+      },
+      {
+        "layerId": 6,
+        "layerName": "Bottom Solder Mask Layer",
+        "layerType": "BOT_SOLDER_MASK",
+        "kind": "other",
+        "material": "Solder mask",
+        "thickness": 0.39370078740157477,
+        "permittivity": 3.8,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 10000
+      },
+      {
+        "layerId": 8,
+        "layerName": "Bottom Paste Mask Layer",
+        "layerType": "BOT_PASTE_MASK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10001
+      },
+      {
+        "layerId": 4,
+        "layerName": "Bottom Silkscreen Layer",
+        "layerType": "BOT_SILK",
+        "kind": "other",
+        "material": null,
+        "thickness": 0,
+        "permittivity": 0,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 10002
+      }
+    ],
+    "totalThickness": 63.23622047244095,
+    "unit": "mil"
+  },
+  "thicknessMm": 1.6062,
+  "components": 97,
+  "lines": 139,
+  "vias": 61,
+  "planes": [
+    {
+      "id": "d9a3cd5f8787cbde",
+      "net": "GND",
+      "layer": 15
+    },
+    {
+      "id": "2a14c411fc1ebfd5",
+      "net": "GND",
+      "layer": 16
+    }
+  ],
+  "regions": [
+    {
+      "id": "cfa2ddce6263ecb9",
+      "layer": 1,
+      "source": [
+        "CIRCLE",
+        137.7953,
+        137.7953,
+        118.1102
+      ]
+    },
+    {
+      "id": "3e7c0be364c5117f",
+      "layer": 2,
+      "source": [
+        "CIRCLE",
+        137.7953,
+        137.7953,
+        118.1102
+      ]
+    },
+    {
+      "id": "775fefcc2e73d3c9",
+      "layer": 1,
+      "source": [
+        "CIRCLE",
+        3011.811,
+        137.7953,
+        118.1102
+      ]
+    },
+    {
+      "id": "549a3476f20b8b2a",
+      "layer": 2,
+      "source": [
+        "CIRCLE",
+        3011.811,
+        137.7953,
+        118.1102
+      ]
+    },
+    {
+      "id": "789522b596c87666",
+      "layer": 1,
+      "source": [
+        "CIRCLE",
+        137.7953,
+        1515.748,
+        118.1102
+      ]
+    },
+    {
+      "id": "bd935da888d8f73c",
+      "layer": 2,
+      "source": [
+        "CIRCLE",
+        137.7953,
+        1515.748,
+        118.1102
+      ]
+    },
+    {
+      "id": "c32ec748fc2228cc",
+      "layer": 1,
+      "source": [
+        "CIRCLE",
+        3011.811,
+        1515.748,
+        118.1102
+      ]
+    },
+    {
+      "id": "1426c5488603f63d",
+      "layer": 2,
+      "source": [
+        "CIRCLE",
+        3011.811,
+        1515.748,
+        118.1102
+      ]
+    }
+  ],
+  "componentIds": [
+    {
+      "ref": "U2",
+      "id": "690e6b24eed3fefa",
+      "x": 1889.7638000000002,
+      "y": 984.252,
+      "rotation": -90.00000000000001
+    },
+    {
+      "ref": "U3",
+      "id": "07ff7399f57d3c70",
+      "x": 2362.2047,
+      "y": 413.3858,
+      "rotation": 180
+    },
+    {
+      "ref": "D3",
+      "id": "ec2ddbcc5cb015f4",
+      "x": 1574.8031,
+      "y": 393.7008,
+      "rotation": 180
+    },
+    {
+      "ref": "C14",
+      "id": "5737c3d802781e24",
+      "x": 1515.748,
+      "y": 515.748,
+      "rotation": 0
+    }
+  ]
+}

@@ -1,0 +1,2062 @@
+{
+  "method": "Native bottom-face OUTER wire only, extruded through unchanged native thickness; all inner wires discarded before all247 cuts.",
+  "native_board": {
+    "bbox_mm": [
+      0.012700025400000148,
+      0.012700025400000148,
+      0.0,
+      79.98745999492,
+      41.98738379476801,
+      1.606203212406
+    ],
+    "volume_mm3": 5303.593187365809,
+    "solid_count": 1,
+    "valid": true
+  },
+  "undrilled_outer_blank": {
+    "bbox_mm": [
+      0.012700025400000148,
+      0.012700025400000148,
+      0.0,
+      79.98745999492,
+      41.98738379476801,
+      1.606203212406
+    ],
+    "volume_mm3": 5390.544088245064,
+    "solid_count": 1,
+    "valid": true
+  },
+  "source_derived_board": {
+    "bbox_mm": [
+      0.012700025400000148,
+      0.012700025400000148,
+      0.0,
+      79.98745999492,
+      41.98738379476801,
+      1.6062032124060002
+    ],
+    "volume_mm3": 5278.60557211963,
+    "solid_count": 1,
+    "valid": true
+  },
+  "native_outer_bbox_preserved": true,
+  "drilling_feature_count": 247,
+  "drilling_counts": {
+    "PAD": 56,
+    "J1_NONPAD": 2,
+    "VIA": 189
+  },
+  "nominal_removed_volume_mm3": 111.93851612541587,
+  "measured_removed_volume_mm3": 111.93851612543403,
+  "removed_volume_error_mm3": 1.816147232602816e-11,
+  "per_feature_boundary_checks": [
+    {
+      "key": "PAD:H1.H1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:H2.H2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:H3.H3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:H4.H4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J1.1",
+      "shape": "SLOT",
+      "cylinder_probe_errors_mm": [
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J1.2",
+      "shape": "SLOT",
+      "cylinder_probe_errors_mm": [
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J1.3",
+      "shape": "SLOT",
+      "cylinder_probe_errors_mm": [
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J1.4",
+      "shape": "SLOT",
+      "cylinder_probe_errors_mm": [
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J10.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J10.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J2.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J2.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J2.3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J2.4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J2.5",
+      "shape": "SLOT",
+      "cylinder_probe_errors_mm": [
+        1.1102230246251565e-16,
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J2.6",
+      "shape": "SLOT",
+      "cylinder_probe_errors_mm": [
+        1.1102230246251565e-16,
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J3.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J3.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J3.3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J3.4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J3.5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J3.6",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J4.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J4.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J4.3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J5.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J5.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J5.3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J6.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J6.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J6.3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J6.4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J7.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J7.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J7.3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J7.4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J7.5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J7.6",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J8.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J8.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J8.3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J8.4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J8.5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J8.6",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J9.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:J9.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.10",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.6",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.7",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.8",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "PAD:SW1.9",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "J1_NONPAD:J1.e55",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "J1_NONPAD:J1.e56",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:84ec733ff0c71398",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:4146bad3dedc458a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:136dac46c24376e8",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a172eb50d6cba057",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:cec7b08cf99ddd80",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:4bf0913127979c6e",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:5538e16fa0aad347",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:82756998d55da9de",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1a2a5c8de0cd25f9",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:2ca8c37d4d45e084",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:58bc2252284b2c6a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a1b1bac9c63b6d6b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ab043084eee6de7b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:170646d820b6c217",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a93ffe22921c60a0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:7751afa9b96652c1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:2550afeb2875ad29",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:0b9d31afbfecae89",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:17077d66f911113b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:89573436f3d877d6",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:400bbe0a7d6d643b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:42761d9427b0bc87",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1cc57f974266a22e",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:141421b490d729de",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:3953a112aa8dcee2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:3fa5e92405750492",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:4af9e08bb8177d5d",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:619a924c36594da5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:388bdf9aef67bc85",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:6bab802e69dac2f1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:b26173de43a06ff4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:fb71dc2bf35364ca",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ec4b3219c934ecfb",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:f841e7d59955d378",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:7a0dcf2f99e781ea",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:26077c13d5d64ec0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:38e281607052b539",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1719997b98183089",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:45969eaf5354faa9",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:66a603977e80079f",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a2dd82c561c981bb",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ea36aeaa3830d394",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:78c1a7bc7bfe97e6",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:82c43892b0f26668",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:0947a7c39d3f1b83",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:c711430856cff109",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:61186ceb1543d949",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:398c8c91d2ea0248",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:83036479de6ae290",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ffedf1ba0f96e03a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1a623f3b89437634",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:737c14bb695d6380",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:f655dc3308036550",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:7cea14b531f220bc",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:356a05be288aded9",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:bba81a5d2986be1b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:eba18f0444094293",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:187daca51f930045",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:88fbf59872a66112",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:6d0d4e689cff83e2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:06f3599058edeb9b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:c40663139fdde172",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1f8ed1115f47c419",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:f653efaf47fa6612",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:bebc785fb7384c7b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:e15fb6271549bf69",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:fcd3525f6b56d94a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:7b6fcb2030e049e7",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:0fb218db02c11ee0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:d7dd18a52e044c7f",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:4a64035cb17ecd43",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:b6aa759bb18b0e3e",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:e2da7af5b15500b6",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ce95b68f9233a6e6",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:828ae27876abb289",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:44d76d063c273253",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:96076b49bc5185bf",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:64085bd28365a1a1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a8f4d71eeacae733",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:8b571941af4111ed",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:9fed075f0a90863e",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ffc82086482ee2c9",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:92f5e5e21596f220",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:b13757b68da2872c",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:eecf3cc1cc2e904c",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:d8abae84860aade0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:0377d1ba5c66959a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a4e64e24560cdd08",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:0a01603e0e7ef817",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:aef77ed306de1b93",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:c8a7b043c2a0bd52",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:45f2b43f211f0a77",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a729347720923331",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:577d5234bdb69a99",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:bd2501e99cf81997",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1274fc3508ce2d23",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:7940995d4d32a07c",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:9bdd2b234bc97def",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:848dcf342057426d",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:847c240f01a715a1",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:e2e96a5122a2beeb",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ab4158041fc9a35d",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:694cdaa6232a0c0c",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:d7bc14c88923e25f",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:5f2c7586d7fd94c4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:39e2012eb5e62ef3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:200e9a4a3c800364",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:b40f5f99be65eca2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a27ecc92080c3fa5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:cc90ec368aaf9f21",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:341222a7e6b42ba4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:7115309b5385fd06",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:6ef1b1f3bdd20e48",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1fb5ac61511334a9",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:d70b01696010385f",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:9ca06f953588abc0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ee3c4faef18b320f",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:8801e14456231fb8",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:c105c90e382380a4",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:fe5f5afbcbd6b7ff",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a7dec221d574f575",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:d5f6ad02afe16790",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:21adacf3219aead0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:367fad24310b0980",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:f5e12cfcc4514b07",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:b85181c5667cd1e8",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:bfd4bb3cc3100f4c",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:91ed6b2d77ba616e",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:db5f8c5f590c23f0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:cfdc559d3cf940ff",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ce58c1a21aa99739",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:16baba3b72dd8ade",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ff109fbeee74a19d",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:e9a8e12f5dedc5c3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:badcef0769e806ca",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:0d39a1148f87c7a3",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:bf0d8263884754fc",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:e636b78971a8d70c",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:70e3fba024c2b351",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:0003eecb19777d5e",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:f5624e8a141acaa0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:df6a51880c471ada",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:674e92f834a90d40",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:444c630c776594b9",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:3d62702f6aa57564",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:680651af3a9bd07b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:72f543982d23d12c",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:98bd40e6eee4f654",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:68df587b979f74a0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ea108c43547d519a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1c23c636cecf0a78",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:050623813d5c2062",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:7a73ae3227bdb30a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:44bd2193f3c63ad8",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:117d75dc3eca8781",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:888279396f2637f5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:133a7d9b2575c199",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1548968fbb27db26",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:a888e238e1fc922a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:2aa2e7571016651b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ed343e54265ea765",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:4bbf3113d9208af2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:db5ce1555866060f",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:92c6ba71550fc6b2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:26387c4cef1a2fbb",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:ea3b3a73ae735162",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:fb51b9b6c466a9a2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:71b2f524430fc866",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:45d4e1e2598fc31e",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:56b2e39585cd5fd8",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:b9f604aec838868b",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:85601d61dbbf8b01",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:1f93b4af10901ae0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:8dc9205744cb8698",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:0137e59a75641bfa",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:71c790ec64549cc5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:aa3492827b6817fb",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:9deed5e1e21ecb28",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:c8b8b8842343b0d2",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:51cd80058a184d0a",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:bc8c888a0399b2f0",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:11e8d856b8ffaa39",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:4c0e963372835e94",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:3e4b57e360d3c3c9",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:8052860e3ef865dd",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:52c41fdf1a9827d5",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:492a8cd298b4d8be",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:fd0dcbce74bffe13",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "key": "VIA:d383fef5fb2df488",
+      "shape": "ROUND",
+      "cylinder_probe_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    }
+  ],
+  "nominal_drill_geometry_note": "All189 nominal via drills are modeled. Four EP VIPPO vias require fabrication fill/cap; resin/copper fill and mask/copper surface films are not separately represented.",
+  "pass": true,
+  "geometry_origin": "SOURCE_DERIVED_NOT_FRESH_NATIVE_STEP",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "native_model_source_sha256": "f748813e98b0f77fead3a735b3de9cb38881a4b7807eb5af440bfa01ddc7a7e3",
+  "drill_sources": [
+    {
+      "kind": "PAD",
+      "path": "validation/native-candidate-tht-drill-expectations.json",
+      "sha256": "885a0e98f468b00081b7f268a5784a1713b560b318463a3e0e23ca7a1f8ae4dd",
+      "count": 56
+    },
+    {
+      "kind": "J1_NONPAD",
+      "path": "validation/native-candidate-nonpad-hole-expectations.json",
+      "sha256": "25f2bd9c9e54611d0740f7d43c55b4ad9f0255bc83f3424ae994ecfed2a15624",
+      "count": 2
+    },
+    {
+      "kind": "VIA",
+      "path": "validation/native-candidate-via-drill-expectations.json",
+      "sha256": "2fd974a5b85042d507c25fa14b05c8437bbdb985a5ad389b0a5b57dffb706adf",
+      "count": 189
+    }
+  ],
+  "output_sha256": "e3bdc9a6e4a051d83e645ff7f497fb5659b16604f3c6d2edf2ab2872f6b485fd"
+}

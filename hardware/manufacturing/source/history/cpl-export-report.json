@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "kind": "cpl",
+  "checkedAt": "2026-11-21T10:01:02.891Z",
+  "requested": {
+    "projectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "pcbId": "2a0c39c6c6694f40",
+    "schematicPageId": "0b9f8a9f53fb8264"
+  },
+  "files": [
+    {
+      "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_CPL_native.tsv",
+      "nativeName": "Calxus_RevA_CPL_native",
+      "size": 38968,
+      "type": "text/csv",
+      "saved": true,
+      "format": "tsv",
+      "encoding": "utf-16le",
+      "bom": true,
+      "readbackBytes": 38968,
+      "readbackByteIdentical": true
+    }
+  ],
+  "failures": [],
+  "activeDocument": {
+    "documentType": 3,
+    "uuid": "2a0c39c6c6694f40",
+    "tabId": "2a0c39c6c6694f40@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+  },
+  "finishedAt": "2026-11-21T10:01:03.166Z",
+  "manifestPath": "D:/Works/Calc/Calxus/exports/Calxus_RevA_cpl_export-report.json",
+  "manifestSaved": true
+}

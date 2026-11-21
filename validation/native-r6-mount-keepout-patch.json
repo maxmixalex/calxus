@@ -1,0 +1,204 @@
+{
+  "pcb_uuid": "2a0c39c6c6694f40",
+  "changed_region_records": 8,
+  "changes": [
+    {
+      "id": "cfa2ddce6263ecb9",
+      "layer": 1,
+      "mount_hole": 1,
+      "before_path": [
+        [
+          "CIRCLE",
+          137.7953,
+          -137.7953,
+          118.1102
+        ]
+      ],
+      "after_path": [
+        [
+          "CIRCLE",
+          137.7953,
+          137.7953,
+          118.1102
+        ]
+      ],
+      "only_center_y_changed": true,
+      "source_header_unchanged": true
+    },
+    {
+      "id": "3e7c0be364c5117f",
+      "layer": 2,
+      "mount_hole": 1,
+      "before_path": [
+        [
+          "CIRCLE",
+          137.7953,
+          -137.7953,
+          118.1102
+        ]
+      ],
+      "after_path": [
+        [
+          "CIRCLE",
+          137.7953,
+          137.7953,
+          118.1102
+        ]
+      ],
+      "only_center_y_changed": true,
+      "source_header_unchanged": true
+    },
+    {
+      "id": "775fefcc2e73d3c9",
+      "layer": 1,
+      "mount_hole": 2,
+      "before_path": [
+        [
+          "CIRCLE",
+          3011.811,
+          -137.7953,
+          118.1102
+        ]
+      ],
+      "after_path": [
+        [
+          "CIRCLE",
+          3011.811,
+          137.7953,
+          118.1102
+        ]
+      ],
+      "only_center_y_changed": true,
+      "source_header_unchanged": true
+    },
+    {
+      "id": "549a3476f20b8b2a",
+      "layer": 2,
+      "mount_hole": 2,
+      "before_path": [
+        [
+          "CIRCLE",
+          3011.811,
+          -137.7953,
+          118.1102
+        ]
+      ],
+      "after_path": [
+        [
+          "CIRCLE",
+          3011.811,
+          137.7953,
+          118.1102
+        ]
+      ],
+      "only_center_y_changed": true,
+      "source_header_unchanged": true
+    },
+    {
+      "id": "789522b596c87666",
+      "layer": 1,
+      "mount_hole": 3,
+      "before_path": [
+        [
+          "CIRCLE",
+          137.7953,
+          -1515.748,
+          118.1102
+        ]
+      ],
+      "after_path": [
+        [
+          "CIRCLE",
+          137.7953,
+          1515.748,
+          118.1102
+        ]
+      ],
+      "only_center_y_changed": true,
+      "source_header_unchanged": true
+    },
+    {
+      "id": "bd935da888d8f73c",
+      "layer": 2,
+      "mount_hole": 3,
+      "before_path": [
+        [
+          "CIRCLE",
+          137.7953,
+          -1515.748,
+          118.1102
+        ]
+      ],
+      "after_path": [
+        [
+          "CIRCLE",
+          137.7953,
+          1515.748,
+          118.1102
+        ]
+      ],
+      "only_center_y_changed": true,
+      "source_header_unchanged": true
+    },
+    {
+      "id": "c32ec748fc2228cc",
+      "layer": 1,
+      "mount_hole": 4,
+      "before_path": [
+        [
+          "CIRCLE",
+          3011.811,
+          -1515.748,
+          118.1102
+        ]
+      ],
+      "after_path": [
+        [
+          "CIRCLE",
+          3011.811,
+          1515.748,
+          118.1102
+        ]
+      ],
+      "only_center_y_changed": true,
+      "source_header_unchanged": true
+    },
+    {
+      "id": "1426c5488603f63d",
+      "layer": 2,
+      "mount_hole": 4,
+      "before_path": [
+        [
+          "CIRCLE",
+          3011.811,
+          -1515.748,
+          118.1102
+        ]
+      ],
+      "after_path": [
+        [
+          "CIRCLE",
+          3011.811,
+          1515.748,
+          118.1102
+        ]
+      ],
+      "only_center_y_changed": true,
+      "source_header_unchanged": true
+    }
+  ],
+  "all_nontarget_source_bytes_unchanged": true,
+  "protected_bytes_sha256": "cd4879d888a82b9e9003c03033d360f2db8f3a51bf4b6edb570dc93e15399ca7",
+  "source_sha256_before": "2007385d40bf05a1d6afa37bfaeff972f000a53f74f69f09ada9d9729e5e63dd",
+  "source_sha256_after": "fab4da1b0bf6c6939a96592f1586bb92ba27c14b0ecffdecde7bf147761c948e",
+  "native_region_readback_verified": false,
+  "native_jrouter_obstacles_verified": false,
+  "input_archive": "calxus_work/evidence/Calxus_RevA_r6_layers_paste_fixed.epro2",
+  "input_sha256": "06ea8b1c301e09a9be681fe6d204ac27f62f21218ceba8204df0bd053edf87ef",
+  "output_archive": "calxus_work/evidence/Calxus_RevA_native_fixed.epro2",
+  "output_sha256": "14633dadaf8768727c33a8bd6bf476226d26ff51e3585ab4ac5253297da68137",
+  "epru_entry": "Calxus.epru",
+  "input_archive_unchanged": true,
+  "other_zip_entries_unchanged": true,
+  "status": "Offline repair candidate only; verify native Region refetch and JRouter obstacle export after official import."
+}

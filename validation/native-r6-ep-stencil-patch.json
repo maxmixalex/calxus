@@ -1,0 +1,308 @@
+{
+  "pcb_uuid": "2a0c39c6c6694f40",
+  "changes": [
+    {
+      "reference": "U2",
+      "component_id": "690e6b24eed3fefa",
+      "footprint_uuid": "6d6747048cb070d5",
+      "known_uuid": "6d6747048cb070d5",
+      "uuid_remapped": false,
+      "provenance_uuid": "dc96823453a64dbcb382e28438ab8b56",
+      "old_fill_id": "e15",
+      "new_fill_ids": [
+        "e15",
+        "e116",
+        "e117",
+        "e118"
+      ],
+      "old_fill_data": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 7,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            -55.118,
+            55.118,
+            "L",
+            55.118,
+            55.118,
+            55.118,
+            -55.118,
+            -55.118,
+            -55.118,
+            -55.118,
+            55.118
+          ]
+        ],
+        "locked": false,
+        "zIndex": 15,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": []
+      },
+      "new_fill_data": [
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 7,
+          "width": 0,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              "R",
+              -62.598425197,
+              -3.937007874,
+              58.661417323,
+              58.661417323,
+              0,
+              1.968503937
+            ]
+          ],
+          "locked": false,
+          "zIndex": 15,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        },
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 7,
+          "width": 0,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              "R",
+              3.937007874,
+              -3.937007874,
+              58.661417323,
+              58.661417323,
+              0,
+              1.968503937
+            ]
+          ],
+          "locked": false,
+          "zIndex": 116,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        },
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 7,
+          "width": 0,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              "R",
+              -62.598425197,
+              62.598425197,
+              58.661417323,
+              58.661417323,
+              0,
+              1.968503937
+            ]
+          ],
+          "locked": false,
+          "zIndex": 117,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        },
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 7,
+          "width": 0,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              "R",
+              3.937007874,
+              62.598425197,
+              58.661417323,
+              58.661417323,
+              0,
+              1.968503937
+            ]
+          ],
+          "locked": false,
+          "zIndex": 118,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        }
+      ],
+      "ep_copper_unchanged": true,
+      "ep_mask_unchanged": true,
+      "peripheral_paste_fills_preserved": 32,
+      "aperture_size_mm": 1.49,
+      "corner_radius_mm": 0.05,
+      "web_mm": 0.19999999999999996,
+      "coverage_percent": 72.42327684821281
+    },
+    {
+      "reference": "U3",
+      "component_id": "07ff7399f57d3c70",
+      "footprint_uuid": "c020f55e3a184cd3",
+      "known_uuid": "c020f55e3a184cd3",
+      "uuid_remapped": false,
+      "provenance_uuid": "c75e883c09144668b0613740ff1e4391",
+      "old_fill_id": "e47",
+      "new_fill_ids": [
+        "e47",
+        "e66",
+        "e67",
+        "e68"
+      ],
+      "old_fill_data": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 7,
+        "width": 0.2,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            -26.761,
+            26.776,
+            "L",
+            26.783,
+            26.776,
+            26.783,
+            -26.768,
+            -26.761,
+            -26.768,
+            -26.761,
+            26.776
+          ]
+        ],
+        "locked": false,
+        "zIndex": 47,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": []
+      },
+      "new_fill_data": [
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 7,
+          "width": 0,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              "R",
+              -29.521559055,
+              -3.936007874,
+              25.590551181,
+              25.590551181,
+              0,
+              1.968503937
+            ]
+          ],
+          "locked": false,
+          "zIndex": 47,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        },
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 7,
+          "width": 0,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              "R",
+              3.943007874,
+              -3.936007874,
+              25.590551181,
+              25.590551181,
+              0,
+              1.968503937
+            ]
+          ],
+          "locked": false,
+          "zIndex": 66,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        },
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 7,
+          "width": 0,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              "R",
+              -29.521559055,
+              29.528559055,
+              25.590551181,
+              25.590551181,
+              0,
+              1.968503937
+            ]
+          ],
+          "locked": false,
+          "zIndex": 67,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        },
+        {
+          "groupId": 0,
+          "netName": "",
+          "layerId": 7,
+          "width": 0,
+          "fillStyle": "SOLID",
+          "path": [
+            [
+              "R",
+              3.943007874,
+              29.528559055,
+              25.590551181,
+              25.590551181,
+              0,
+              1.968503937
+            ]
+          ],
+          "locked": false,
+          "zIndex": 68,
+          "isBridgingCopper": false,
+          "networkList": [],
+          "refs": []
+        }
+      ],
+      "ep_copper_unchanged": true,
+      "ep_mask_unchanged": true,
+      "peripheral_paste_fills_preserved": 16,
+      "aperture_size_mm": 0.65,
+      "corner_radius_mm": 0.05,
+      "web_mm": 0.19999999999999996,
+      "coverage_percent": 58.18071460968102
+    }
+  ],
+  "changed_existing_fill_records": 2,
+  "added_fill_records": 6,
+  "all_nontarget_source_bytes_unchanged": true,
+  "protected_bytes_sha256": "9f74c2997574c2cacf581d6a8816dabc51e0c22d146e762db73d01c0d7013339",
+  "source_sha256_before": "b92f8858957ce8642d2120fd2682fe8392322379e6f2b74ef544f82022a961ca",
+  "source_sha256_after": "2007385d40bf05a1d6afa37bfaeff972f000a53f74f69f09ada9d9729e5e63dd",
+  "editor_import_verified": false,
+  "native_reopen_verified": false,
+  "paste_gerber_verified": false,
+  "input_archive": "calxus_work/evidence/Calxus_RevA_r6_stackup_fixed.epro2",
+  "output_archive": "calxus_work/evidence/Calxus_RevA_r6_layers_paste_fixed.epro2",
+  "input_sha256": "f7ab013b1c1b6cddbcc436fe9bb0e57811cf82679b3c4b5ade62df52ede80236",
+  "output_sha256": "06ea8b1c301e09a9be681fe6d204ac27f62f21218ceba8204df0bd053edf87ef",
+  "epru_entry": "Calxus.epru",
+  "input_archive_unchanged": true,
+  "other_zip_entries_unchanged": true,
+  "status": "Offline candidate only. Import into a new project, verify actual footprint paste, save/reopen, and render Top Paste Gerber before fabrication."
+}

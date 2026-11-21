@@ -1,0 +1,1368 @@
+{
+  "source": "D:/Works/Calc/Calxus/pcb/PCB1.epcb2",
+  "source_bytes": 1282616,
+  "uuid": "2a0c39c6c6694f40",
+  "records": [
+    {
+      "line": 3181,
+      "h": {
+        "type": "DOCHEAD",
+        "ticket": 4165
+      },
+      "d": {
+        "docType": "PCB",
+        "client": "8bac2b361ca84c1b",
+        "uuid": "2a0c39c6c6694f40",
+        "updateTime": 1795246914439,
+        "version": "1795246914439",
+        "editVersion": "4.1.105"
+      }
+    },
+    {
+      "line": 3220,
+      "h": {
+        "type": "LAYER",
+        "ticket": 510,
+        "id": "[\"LAYER\",1]"
+      },
+      "d": {
+        "layerId": 1,
+        "layerType": "TOP",
+        "layerName": "Top Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#ff0000",
+        "activateTransparency": 1,
+        "inactiveColor": "#7f0000",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3221,
+      "h": {
+        "type": "LAYER",
+        "ticket": 511,
+        "id": "[\"LAYER\",2]"
+      },
+      "d": {
+        "layerId": 2,
+        "layerType": "BOTTOM",
+        "layerName": "Bottom Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#0000ff",
+        "activateTransparency": 1,
+        "inactiveColor": "#00007f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3222,
+      "h": {
+        "type": "LAYER",
+        "ticket": 512,
+        "id": "[\"LAYER\",3]"
+      },
+      "d": {
+        "layerId": 3,
+        "layerType": "TOP_SILK",
+        "layerName": "Top Silkscreen Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#ffcc00",
+        "activateTransparency": 1,
+        "inactiveColor": "#7f6600",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3223,
+      "h": {
+        "type": "LAYER",
+        "ticket": 513,
+        "id": "[\"LAYER\",4]"
+      },
+      "d": {
+        "layerId": 4,
+        "layerType": "BOT_SILK",
+        "layerName": "Bottom Silkscreen Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#66cc33",
+        "activateTransparency": 1,
+        "inactiveColor": "#336619",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3224,
+      "h": {
+        "type": "LAYER",
+        "ticket": 514,
+        "id": "[\"LAYER\",5]"
+      },
+      "d": {
+        "layerId": 5,
+        "layerType": "TOP_SOLDER_MASK",
+        "layerName": "Top Solder Mask Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#800080",
+        "activateTransparency": 0.7,
+        "inactiveColor": "#400040",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3225,
+      "h": {
+        "type": "LAYER",
+        "ticket": 515,
+        "id": "[\"LAYER\",6]"
+      },
+      "d": {
+        "layerId": 6,
+        "layerType": "BOT_SOLDER_MASK",
+        "layerName": "Bottom Solder Mask Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#aa00ff",
+        "activateTransparency": 0.7,
+        "inactiveColor": "#55007f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3226,
+      "h": {
+        "type": "LAYER",
+        "ticket": 516,
+        "id": "[\"LAYER\",7]"
+      },
+      "d": {
+        "layerId": 7,
+        "layerType": "TOP_PASTE_MASK",
+        "layerName": "Top Paste Mask Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#808080",
+        "activateTransparency": 1,
+        "inactiveColor": "#404040",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3227,
+      "h": {
+        "type": "LAYER",
+        "ticket": 517,
+        "id": "[\"LAYER\",8]"
+      },
+      "d": {
+        "layerId": 8,
+        "layerType": "BOT_PASTE_MASK",
+        "layerName": "Bottom Paste Mask Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#800000",
+        "activateTransparency": 1,
+        "inactiveColor": "#400000",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3228,
+      "h": {
+        "type": "LAYER",
+        "ticket": 518,
+        "id": "[\"LAYER\",9]"
+      },
+      "d": {
+        "layerId": 9,
+        "layerType": "TOP_ASSEMBLY",
+        "layerName": "Top Assembly Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#33cc99",
+        "activateTransparency": 1,
+        "inactiveColor": "#19664c",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3229,
+      "h": {
+        "type": "LAYER",
+        "ticket": 519,
+        "id": "[\"LAYER\",10]"
+      },
+      "d": {
+        "layerId": 10,
+        "layerType": "BOT_ASSEMBLY",
+        "layerName": "Bottom Assembly Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#5555ff",
+        "activateTransparency": 1,
+        "inactiveColor": "#2a2a7f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3230,
+      "h": {
+        "type": "LAYER",
+        "ticket": 520,
+        "id": "[\"LAYER\",11]"
+      },
+      "d": {
+        "layerId": 11,
+        "layerType": "OUTLINE",
+        "layerName": "Board Outline Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#ff00ff",
+        "activateTransparency": 1,
+        "inactiveColor": "#7f007f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3231,
+      "h": {
+        "type": "LAYER",
+        "ticket": 521,
+        "id": "[\"LAYER\",12]"
+      },
+      "d": {
+        "layerId": 12,
+        "layerType": "MULTI",
+        "layerName": "Multi-Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#c0c0c0",
+        "activateTransparency": 1,
+        "inactiveColor": "#606060",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3232,
+      "h": {
+        "type": "LAYER",
+        "ticket": 522,
+        "id": "[\"LAYER\",13]"
+      },
+      "d": {
+        "layerId": 13,
+        "layerType": "DOCUMENT",
+        "layerName": "Document Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#ffffff",
+        "activateTransparency": 1,
+        "inactiveColor": "#7f7f7f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3233,
+      "h": {
+        "type": "LAYER",
+        "ticket": 523,
+        "id": "[\"LAYER\",14]"
+      },
+      "d": {
+        "layerId": 14,
+        "layerType": "MECHANICAL",
+        "layerName": "Mechanical Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#f022f0",
+        "activateTransparency": 1,
+        "inactiveColor": "#781178",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3234,
+      "h": {
+        "type": "LAYER",
+        "ticket": 524,
+        "id": "[\"LAYER\",15]"
+      },
+      "d": {
+        "layerId": 15,
+        "layerType": "SIGNAL",
+        "layerName": "Inner1",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#999966",
+        "activateTransparency": 1,
+        "inactiveColor": "#4c4c33",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3235,
+      "h": {
+        "type": "LAYER",
+        "ticket": 525,
+        "id": "[\"LAYER\",16]"
+      },
+      "d": {
+        "layerId": 16,
+        "layerType": "SIGNAL",
+        "layerName": "Inner2",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#008000",
+        "activateTransparency": 1,
+        "inactiveColor": "#004000",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3236,
+      "h": {
+        "type": "LAYER",
+        "ticket": 526,
+        "id": "[\"LAYER\",17]"
+      },
+      "d": {
+        "layerId": 17,
+        "layerType": "SIGNAL",
+        "layerName": "Inner3",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#00ff00",
+        "activateTransparency": 1,
+        "inactiveColor": "#007f00",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3237,
+      "h": {
+        "type": "LAYER",
+        "ticket": 527,
+        "id": "[\"LAYER\",18]"
+      },
+      "d": {
+        "layerId": 18,
+        "layerType": "SIGNAL",
+        "layerName": "Inner4",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#bc8e00",
+        "activateTransparency": 1,
+        "inactiveColor": "#5e4700",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3238,
+      "h": {
+        "type": "LAYER",
+        "ticket": 528,
+        "id": "[\"LAYER\",19]"
+      },
+      "d": {
+        "layerId": 19,
+        "layerType": "SIGNAL",
+        "layerName": "Inner5",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#70dbfa",
+        "activateTransparency": 1,
+        "inactiveColor": "#386d7d",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3239,
+      "h": {
+        "type": "LAYER",
+        "ticket": 529,
+        "id": "[\"LAYER\",20]"
+      },
+      "d": {
+        "layerId": 20,
+        "layerType": "SIGNAL",
+        "layerName": "Inner6",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#00cc66",
+        "activateTransparency": 1,
+        "inactiveColor": "#006633",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3240,
+      "h": {
+        "type": "LAYER",
+        "ticket": 530,
+        "id": "[\"LAYER\",21]"
+      },
+      "d": {
+        "layerId": 21,
+        "layerType": "SIGNAL",
+        "layerName": "Inner7",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#9966ff",
+        "activateTransparency": 1,
+        "inactiveColor": "#4c337f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3241,
+      "h": {
+        "type": "LAYER",
+        "ticket": 531,
+        "id": "[\"LAYER\",22]"
+      },
+      "d": {
+        "layerId": 22,
+        "layerType": "SIGNAL",
+        "layerName": "Inner8",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#800080",
+        "activateTransparency": 1,
+        "inactiveColor": "#400040",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3242,
+      "h": {
+        "type": "LAYER",
+        "ticket": 532,
+        "id": "[\"LAYER\",23]"
+      },
+      "d": {
+        "layerId": 23,
+        "layerType": "SIGNAL",
+        "layerName": "Inner9",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#008080",
+        "activateTransparency": 1,
+        "inactiveColor": "#004040",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3243,
+      "h": {
+        "type": "LAYER",
+        "ticket": 533,
+        "id": "[\"LAYER\",24]"
+      },
+      "d": {
+        "layerId": 24,
+        "layerType": "SIGNAL",
+        "layerName": "Inner10",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#15935f",
+        "activateTransparency": 1,
+        "inactiveColor": "#a.492f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3244,
+      "h": {
+        "type": "LAYER",
+        "ticket": 534,
+        "id": "[\"LAYER\",25]"
+      },
+      "d": {
+        "layerId": 25,
+        "layerType": "SIGNAL",
+        "layerName": "Inner11",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#000080",
+        "activateTransparency": 1,
+        "inactiveColor": "#000040",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3245,
+      "h": {
+        "type": "LAYER",
+        "ticket": 535,
+        "id": "[\"LAYER\",26]"
+      },
+      "d": {
+        "layerId": 26,
+        "layerType": "SIGNAL",
+        "layerName": "Inner12",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#00b400",
+        "activateTransparency": 1,
+        "inactiveColor": "#005a00",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3246,
+      "h": {
+        "type": "LAYER",
+        "ticket": 536,
+        "id": "[\"LAYER\",27]"
+      },
+      "d": {
+        "layerId": 27,
+        "layerType": "SIGNAL",
+        "layerName": "Inner13",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#2e4756",
+        "activateTransparency": 1,
+        "inactiveColor": "#17232b",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3247,
+      "h": {
+        "type": "LAYER",
+        "ticket": 537,
+        "id": "[\"LAYER\",28]"
+      },
+      "d": {
+        "layerId": 28,
+        "layerType": "SIGNAL",
+        "layerName": "Inner14",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#99842f",
+        "activateTransparency": 1,
+        "inactiveColor": "#4c4217",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3248,
+      "h": {
+        "type": "LAYER",
+        "ticket": 538,
+        "id": "[\"LAYER\",29]"
+      },
+      "d": {
+        "layerId": 29,
+        "layerType": "SIGNAL",
+        "layerName": "Inner15",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#ffffaa",
+        "activateTransparency": 1,
+        "inactiveColor": "#7f7f55",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3249,
+      "h": {
+        "type": "LAYER",
+        "ticket": 539,
+        "id": "[\"LAYER\",30]"
+      },
+      "d": {
+        "layerId": 30,
+        "layerType": "SIGNAL",
+        "layerName": "Inner16",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#99842f",
+        "activateTransparency": 1,
+        "inactiveColor": "#4c4217",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3250,
+      "h": {
+        "type": "LAYER",
+        "ticket": 540,
+        "id": "[\"LAYER\",31]"
+      },
+      "d": {
+        "layerId": 31,
+        "layerType": "SIGNAL",
+        "layerName": "Inner17",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#2e4756",
+        "activateTransparency": 1,
+        "inactiveColor": "#17232b",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3251,
+      "h": {
+        "type": "LAYER",
+        "ticket": 541,
+        "id": "[\"LAYER\",32]"
+      },
+      "d": {
+        "layerId": 32,
+        "layerType": "SIGNAL",
+        "layerName": "Inner18",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#3535ff",
+        "activateTransparency": 1,
+        "inactiveColor": "#1a1a7f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3252,
+      "h": {
+        "type": "LAYER",
+        "ticket": 542,
+        "id": "[\"LAYER\",33]"
+      },
+      "d": {
+        "layerId": 33,
+        "layerType": "SIGNAL",
+        "layerName": "Inner19",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#8000bc",
+        "activateTransparency": 1,
+        "inactiveColor": "#40005e",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3253,
+      "h": {
+        "type": "LAYER",
+        "ticket": 543,
+        "id": "[\"LAYER\",34]"
+      },
+      "d": {
+        "layerId": 34,
+        "layerType": "SIGNAL",
+        "layerName": "Inner20",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#43ae5f",
+        "activateTransparency": 1,
+        "inactiveColor": "#21572f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3254,
+      "h": {
+        "type": "LAYER",
+        "ticket": 544,
+        "id": "[\"LAYER\",35]"
+      },
+      "d": {
+        "layerId": 35,
+        "layerType": "SIGNAL",
+        "layerName": "Inner21",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#c3ecce",
+        "activateTransparency": 1,
+        "inactiveColor": "#617667",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3255,
+      "h": {
+        "type": "LAYER",
+        "ticket": 545,
+        "id": "[\"LAYER\",36]"
+      },
+      "d": {
+        "layerId": 36,
+        "layerType": "SIGNAL",
+        "layerName": "Inner22",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#728978",
+        "activateTransparency": 1,
+        "inactiveColor": "#39443c",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3256,
+      "h": {
+        "type": "LAYER",
+        "ticket": 546,
+        "id": "[\"LAYER\",37]"
+      },
+      "d": {
+        "layerId": 37,
+        "layerType": "SIGNAL",
+        "layerName": "Inner23",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#39503f",
+        "activateTransparency": 1,
+        "inactiveColor": "#1c281f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3257,
+      "h": {
+        "type": "LAYER",
+        "ticket": 547,
+        "id": "[\"LAYER\",38]"
+      },
+      "d": {
+        "layerId": 38,
+        "layerType": "SIGNAL",
+        "layerName": "Inner24",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#0c715d",
+        "activateTransparency": 1,
+        "inactiveColor": "#06382e",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3258,
+      "h": {
+        "type": "LAYER",
+        "ticket": 548,
+        "id": "[\"LAYER\",39]"
+      },
+      "d": {
+        "layerId": 39,
+        "layerType": "SIGNAL",
+        "layerName": "Inner25",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#5a8a80",
+        "activateTransparency": 1,
+        "inactiveColor": "#2d4540",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3259,
+      "h": {
+        "type": "LAYER",
+        "ticket": 549,
+        "id": "[\"LAYER\",40]"
+      },
+      "d": {
+        "layerId": 40,
+        "layerType": "SIGNAL",
+        "layerName": "Inner26",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#2b937e",
+        "activateTransparency": 1,
+        "inactiveColor": "#15493f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3260,
+      "h": {
+        "type": "LAYER",
+        "ticket": 550,
+        "id": "[\"LAYER\",41]"
+      },
+      "d": {
+        "layerId": 41,
+        "layerType": "SIGNAL",
+        "layerName": "Inner27",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#23999d",
+        "activateTransparency": 1,
+        "inactiveColor": "#114c4e",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3261,
+      "h": {
+        "type": "LAYER",
+        "ticket": 551,
+        "id": "[\"LAYER\",42]"
+      },
+      "d": {
+        "layerId": 42,
+        "layerType": "SIGNAL",
+        "layerName": "Inner28",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#45b4e3",
+        "activateTransparency": 1,
+        "inactiveColor": "#225a71",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3262,
+      "h": {
+        "type": "LAYER",
+        "ticket": 552,
+        "id": "[\"LAYER\",43]"
+      },
+      "d": {
+        "layerId": 43,
+        "layerType": "SIGNAL",
+        "layerName": "Inner29",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#215da1",
+        "activateTransparency": 1,
+        "inactiveColor": "#102e50",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3263,
+      "h": {
+        "type": "LAYER",
+        "ticket": 553,
+        "id": "[\"LAYER\",44]"
+      },
+      "d": {
+        "layerId": 44,
+        "layerType": "SIGNAL",
+        "layerName": "Inner30",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#4564d7",
+        "activateTransparency": 1,
+        "inactiveColor": "#22326b",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3264,
+      "h": {
+        "type": "LAYER",
+        "ticket": 554,
+        "id": "[\"LAYER\",45]"
+      },
+      "d": {
+        "layerId": 45,
+        "layerType": "SIGNAL",
+        "layerName": "Inner31",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#6969e9",
+        "activateTransparency": 1,
+        "inactiveColor": "#343474",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3265,
+      "h": {
+        "type": "LAYER",
+        "ticket": 555,
+        "id": "[\"LAYER\",46]"
+      },
+      "d": {
+        "layerId": 46,
+        "layerType": "SIGNAL",
+        "layerName": "Inner32",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#9069e9",
+        "activateTransparency": 1,
+        "inactiveColor": "#483474",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3266,
+      "h": {
+        "type": "LAYER",
+        "ticket": 556,
+        "id": "[\"LAYER\",47]"
+      },
+      "d": {
+        "layerId": 47,
+        "layerType": "HOLE",
+        "layerName": "Hole Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#222222",
+        "activateTransparency": 1,
+        "inactiveColor": "#111111",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3267,
+      "h": {
+        "type": "LAYER",
+        "ticket": 557,
+        "id": "[\"LAYER\",48]"
+      },
+      "d": {
+        "layerId": 48,
+        "layerType": "COMPONENT_SHAPE",
+        "layerName": "Component Shape Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#00cccc",
+        "activateTransparency": 1,
+        "inactiveColor": "#006666",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3268,
+      "h": {
+        "type": "LAYER",
+        "ticket": 558,
+        "id": "[\"LAYER\",49]"
+      },
+      "d": {
+        "layerId": 49,
+        "layerType": "COMPONENT_MARKING",
+        "layerName": "Component Marking Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#66ffcc",
+        "activateTransparency": 1,
+        "inactiveColor": "#337f66",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3269,
+      "h": {
+        "type": "LAYER",
+        "ticket": 559,
+        "id": "[\"LAYER\",50]"
+      },
+      "d": {
+        "layerId": 50,
+        "layerType": "PIN_SOLDERING",
+        "layerName": "Pin Soldering Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#cc9999",
+        "activateTransparency": 1,
+        "inactiveColor": "#664c4c",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3270,
+      "h": {
+        "type": "LAYER",
+        "ticket": 560,
+        "id": "[\"LAYER\",51]"
+      },
+      "d": {
+        "layerId": 51,
+        "layerType": "PIN_FLOATING",
+        "layerName": "Pin Floating Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#ff99ff",
+        "activateTransparency": 1,
+        "inactiveColor": "#7f4c7f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3271,
+      "h": {
+        "type": "LAYER",
+        "ticket": 561,
+        "id": "[\"LAYER\",52]"
+      },
+      "d": {
+        "layerId": 52,
+        "layerType": "COMPONENT_MODEL",
+        "layerName": "Component Model Layer",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#ffffff",
+        "activateTransparency": 1,
+        "inactiveColor": "#7f7f7f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3272,
+      "h": {
+        "type": "LAYER",
+        "ticket": 562,
+        "id": "[\"LAYER\",53]"
+      },
+      "d": {
+        "layerId": 53,
+        "layerType": "3D_SHELL_OUTLINE",
+        "layerName": "3D Shell Outline Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#66ff99",
+        "activateTransparency": 1,
+        "inactiveColor": "#337f4c",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3273,
+      "h": {
+        "type": "LAYER",
+        "ticket": 563,
+        "id": "[\"LAYER\",54]"
+      },
+      "d": {
+        "layerId": 54,
+        "layerType": "3D_SHELL_TOP",
+        "layerName": "3D Top Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#ffccff",
+        "activateTransparency": 1,
+        "inactiveColor": "#7f667f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3274,
+      "h": {
+        "type": "LAYER",
+        "ticket": 564,
+        "id": "[\"LAYER\",55]"
+      },
+      "d": {
+        "layerId": 55,
+        "layerType": "3D_SHELL_BOTTOM",
+        "layerName": "3D Bottom Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#0066cc",
+        "activateTransparency": 1,
+        "inactiveColor": "#003366",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3275,
+      "h": {
+        "type": "LAYER",
+        "ticket": 565,
+        "id": "[\"LAYER\",56]"
+      },
+      "d": {
+        "layerId": 56,
+        "layerType": "DRILL_DRAWING",
+        "layerName": "Drill Drawing Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#008080",
+        "activateTransparency": 1,
+        "inactiveColor": "#004040",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3276,
+      "h": {
+        "type": "LAYER",
+        "ticket": 566,
+        "id": "[\"LAYER\",57]"
+      },
+      "d": {
+        "layerId": 57,
+        "layerType": "OTHER",
+        "layerName": "Ratline Layer",
+        "use": true,
+        "show": true,
+        "locked": true,
+        "activeColor": "#6464ff",
+        "activateTransparency": 1,
+        "inactiveColor": "#32327f",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3277,
+      "h": {
+        "type": "LAYER",
+        "ticket": 567,
+        "id": "[\"LAYER\",58]"
+      },
+      "d": {
+        "layerId": 58,
+        "layerType": "TOP_STIFFENER",
+        "layerName": "Top Stiffener Layer",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#eee666",
+        "activateTransparency": 1,
+        "inactiveColor": "#777333",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3278,
+      "h": {
+        "type": "LAYER",
+        "ticket": 568,
+        "id": "[\"LAYER\",59]"
+      },
+      "d": {
+        "layerId": 59,
+        "layerType": "BOTTOM_STIFFENER",
+        "layerName": "Bottom Stiffener Layer",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#ccff00",
+        "activateTransparency": 1,
+        "inactiveColor": "#667f00",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3279,
+      "h": {
+        "type": "LAYER",
+        "ticket": 569,
+        "id": "[\"LAYER\",361]"
+      },
+      "d": {
+        "layerId": 361,
+        "layerType": "SUBSTRATE",
+        "layerName": "Dielectric1",
+        "use": false,
+        "show": false,
+        "locked": false,
+        "activeColor": "#000000",
+        "activateTransparency": 1,
+        "inactiveColor": "#000000",
+        "inactiveTransparency": 0.5
+      }
+    },
+    {
+      "line": 3280,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 570,
+        "id": "[\"LAYER_PHYS\",3]"
+      },
+      "d": {
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 1
+      }
+    },
+    {
+      "line": 3281,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 571,
+        "id": "[\"LAYER_PHYS\",7]"
+      },
+      "d": {
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 2
+      }
+    },
+    {
+      "line": 3282,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 572,
+        "id": "[\"LAYER_PHYS\",5]"
+      },
+      "d": {
+        "material": "",
+        "thickness": 0.394,
+        "permittivity": 3.3,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 3
+      }
+    },
+    {
+      "line": 3283,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 573,
+        "id": "[\"LAYER_PHYS\",1]"
+      },
+      "d": {
+        "material": null,
+        "thickness": 1.379,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 1000
+      }
+    },
+    {
+      "line": 3284,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 574,
+        "id": "[\"LAYER_PHYS\",361]"
+      },
+      "d": {
+        "material": "FR4",
+        "thickness": 59.449,
+        "permittivity": 4.5,
+        "lossTangent": 0,
+        "isKeepIsland": true,
+        "zIndex": 1001
+      }
+    },
+    {
+      "line": 3285,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 575,
+        "id": "[\"LAYER_PHYS\",2]"
+      },
+      "d": {
+        "material": null,
+        "thickness": 1.378,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 9000
+      }
+    },
+    {
+      "line": 3286,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 576,
+        "id": "[\"LAYER_PHYS\",6]"
+      },
+      "d": {
+        "material": "",
+        "thickness": 0.394,
+        "permittivity": 3.3,
+        "lossTangent": 0.02,
+        "isKeepIsland": true,
+        "zIndex": 10000
+      }
+    },
+    {
+      "line": 3287,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 577,
+        "id": "[\"LAYER_PHYS\",8]"
+      },
+      "d": {
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 10001
+      }
+    },
+    {
+      "line": 3288,
+      "h": {
+        "type": "LAYER_PHYS",
+        "ticket": 578,
+        "id": "[\"LAYER_PHYS\",4]"
+      },
+      "d": {
+        "material": null,
+        "thickness": 0,
+        "permittivity": null,
+        "lossTangent": null,
+        "isKeepIsland": true,
+        "zIndex": 10002
+      }
+    }
+  ],
+  "parse_errors": [],
+  "note": "Read-only disk snapshot; layer records are stale versus current getStackup. DOCHEAD user profile omitted because it is unrelated to geometry."
+}

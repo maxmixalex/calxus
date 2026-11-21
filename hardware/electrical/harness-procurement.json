@@ -1,0 +1,262 @@
+{
+  "schema": "calxus.harness-procurement.v1",
+  "design_revision": "A0-switch-engineering-r5",
+  "checked_date_utc": "2026-11-21",
+  "retrieval_window_utc": "08:17–08:25",
+  "stock_evidence_method": "Public product HTML NEXT_DATA product fields read through Bridge network.request; source URL and observed stock/MOQ preserved. No purchase placed.",
+  "all_required_items_in_stock": false,
+  "confirmed_primary_stock_gap": [
+    "Two 2.5mm TRS male solder plugs; C4992833 selected and C4992470 alternate both stock 0."
+  ],
+  "unassigned_commodity_consumables": [
+    "Heat-shrink / soft sleeving sized to final wire bundle",
+    "Insulation and labels"
+  ],
+  "special_calculator_plugs": "Not included in generic AUX materials; model-specific HP/Nspire mating interfaces remain subject to docs/aux-adapters.zh-CN.md.",
+  "items": [
+    {
+      "lcsc": "C430897",
+      "mpn": "S002020047",
+      "brand": "Ckmtw",
+      "stock_quantity_observed": 136,
+      "minimum_order_quantity": 1,
+      "order_multiple": 1,
+      "stock_source_url": "https://www.lcsc.com/product-detail/C430897.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/4be3348a50351aa811fbe41e427c005c.pdf?productCode=C430897",
+      "stock_is_time_sensitive": true,
+      "selected": true,
+      "quantity_per_converter": 1,
+      "use": [
+        "Mini-B pigtail",
+        "TI raw cable",
+        "CASIO raw cable"
+      ],
+      "verified_drawing": {
+        "number": "S002020047",
+        "revision": "A",
+        "date": "2012-11-01",
+        "assembly_length_mm": 1500,
+        "jacket_outer_diameter_mm": 3.8,
+        "wire": "UL2725 28AWG 1PR + 28AWG 2C + aluminium foil + 64 braid",
+        "connector_a": "USB-A male 4-pin",
+        "connector_b": "Mini-B male 5-pin",
+        "a_to_b_pin_map": {
+          "1": "1",
+          "2": "2",
+          "3": "3",
+          "4": "5",
+          "shell": "shell"
+        },
+        "mini_b_id": "unconnected"
+      },
+      "qualification_open": "Shortened final assembly voltage drop and USB 480Mbps transfer/signal-quality qualification pending.",
+      "reviewed_datasheet_sha256": "17fbb55f829f1ddadb230e9551f4c5ae0201c9e2ff5932ec97752c584b5178f7"
+    },
+    {
+      "lcsc": "C4992833",
+      "mpn": "SP-2533A",
+      "brand": "CUI / Same Sky",
+      "stock_quantity_observed": 0,
+      "minimum_order_quantity": 1,
+      "order_multiple": null,
+      "stock_source_url": "https://item.szlcsc.com/5567705.html",
+      "datasheet_url": "https://atta.szlcsc.com/upload/public/pdf/source/20240126/33F9219FFB7CC6459161E3ED74553172.pdf",
+      "stock_is_time_sensitive": true,
+      "selected": true,
+      "quantity_per_converter": 2,
+      "procurement_blocker": "No LCSC stock observed; listed/orderable catalog does not establish delivery date.",
+      "verified_drawing": {
+        "contacts": 3,
+        "type": "TRS solder-wire male with removable cover",
+        "mating_diameter_mm": 2.5,
+        "cable_opening_mm": 4,
+        "cable_opening_tolerance_mm": 0.5,
+        "body_length_mm": 27.7,
+        "cover_diameter_mm": 8
+      },
+      "mechanical_qualification_open": "Verify actual 3.8mm cable fit in cover, strain relief and calculator recess.",
+      "reviewed_datasheet_sha256": "3b3beff52fa7a2db4d1e7169e743e74330fac9d03b0c5e6f62176f6702f90f45"
+    },
+    {
+      "lcsc": "C4992470",
+      "mpn": "SP-2501",
+      "brand": "CUI / Same Sky",
+      "stock_quantity_observed": 0,
+      "minimum_order_quantity": 1,
+      "order_multiple": null,
+      "stock_source_url": "https://item.szlcsc.com/5567342.html",
+      "datasheet_url": null,
+      "stock_is_time_sensitive": true,
+      "selected": false,
+      "use": "Alternate listed 2.5mm TRS solder plug with cover/strain relief; also out of stock.",
+      "manufacturer_url": "https://www.sameskydevices.com/product/interconnect/connectors/audio-connectors/audio-plugs/sp-2501"
+    },
+    {
+      "lcsc": "C111514",
+      "mpn": "PHR-4",
+      "brand": "JST",
+      "stock_quantity_observed": 45300,
+      "minimum_order_quantity": 50,
+      "order_multiple": 50,
+      "stock_source_url": "https://www.lcsc.com/product-detail/C111514.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/6c6fce4367275d84ec6a99bf09f1250f.pdf?productCode=C111514",
+      "stock_is_time_sensitive": true,
+      "selected": true,
+      "quantity_per_aux_harness": 1,
+      "manufacturer_url": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+    },
+    {
+      "lcsc": "C111515",
+      "mpn": "SPH-002T-P0.5S",
+      "brand": "JST",
+      "stock_quantity_observed": 2770700,
+      "minimum_order_quantity": 100,
+      "order_multiple": 100,
+      "stock_source_url": "https://www.lcsc.com/product-detail/C111515.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/91225f8a61c6f7b7821281d8757bf5b1.pdf?productCode=C111515",
+      "stock_is_time_sensitive": true,
+      "selected": true,
+      "quantity_per_aux_harness": 4,
+      "contacts_fitted": 3,
+      "spares": 1,
+      "wire_awg_range": [
+        30,
+        24
+      ],
+      "insulation_od_mm_range": [
+        0.8,
+        1.5
+      ],
+      "manufacturer_url": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+    },
+    {
+      "lcsc": "C53413426",
+      "mpn": "PH4P-26AWG-200-A1T",
+      "brand": "BXCONN",
+      "stock_quantity_observed": 100,
+      "minimum_order_quantity": 5,
+      "order_multiple": 5,
+      "stock_source_url": "https://www.lcsc.com/product-detail/C53413426.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/f0b3581107d676cb7669dbba4685bc34.pdf?productCode=C53413426",
+      "stock_is_time_sensitive": true,
+      "selected": true,
+      "quantity_per_aux_harness": 1,
+      "use": "Verified stranded wire donor; remove third-party housing and terminals, crimp three wires with JST C111515 into C111514; fourth contact omitted.",
+      "verified_drawing": {
+        "mpn": "PH4P-26AWG-200-A1T",
+        "wire": "UL1007 26AWG, 7 x 0.16mm tinned strands",
+        "individual_insulation_od_mm": 1.3,
+        "length_mm": 200,
+        "colour_set": [
+          "red",
+          "black",
+          "yellow",
+          "white"
+        ]
+      },
+      "final_clamp_jacket_od_mm": [
+        2.9,
+        3.1
+      ],
+      "reviewed_datasheet_sha256": "0e6fc167bd3aff471faf6577818712340de5467d7559d5e9c69cdf5f52b43cab"
+    },
+    {
+      "lcsc": "C430908",
+      "mpn": "S100920007",
+      "brand": "Ckmtw",
+      "stock_quantity_observed": 84,
+      "minimum_order_quantity": 1,
+      "order_multiple": 1,
+      "stock_source_url": "https://www.lcsc.com/product-detail/C430908.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/87deec2addefe4b7731637ed71cc524c.pdf?productCode=C430908",
+      "stock_is_time_sensitive": true,
+      "selected": true,
+      "quantity_per_converter": 1,
+      "optional_if_existing_qualified_cable": true,
+      "verified_drawing": {
+        "number": "S100920007",
+        "revision": "A",
+        "date": "2017-12-07",
+        "connector_a": "USB-A male",
+        "connector_b": "USB-C male",
+        "assembly_length_mm": 1000,
+        "power_awg": 22,
+        "data_awg": 28,
+        "cc_resistor_ohm": 56000
+      },
+      "qualification_open": "Drawing does not state controlled impedance, shield construction or USB 480Mbps certification. Candidate data cable requires validation in final native mode.",
+      "reviewed_datasheet_sha256": "532266f1a4d2dfb876badf92ca4290aa517ee2372c9774cf5508580d68dfe2c1"
+    },
+    {
+      "lcsc": "C19856694",
+      "mpn": "50-00400",
+      "brand": "Tensility International",
+      "stock_quantity_observed": 0,
+      "minimum_order_quantity": 1,
+      "order_multiple": 1,
+      "stock_source_url": "https://www.lcsc.com/product-detail/C19856694.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/1c331c618bd8202193938c7997b42ded.pdf?productCode=C19856694",
+      "stock_is_time_sensitive": true,
+      "selected": false,
+      "reason_not_selected": "No stock observed; not needed for selected harness approach."
+    },
+    {
+      "lcsc": "C42392122",
+      "mpn": "UL2854#28AWG 4C shield",
+      "brand": "TRIUMPH CABLE",
+      "stock_quantity_observed": 0,
+      "minimum_order_quantity": 1,
+      "order_multiple": 1,
+      "stock_source_url": "https://www.lcsc.com/product-detail/C42392122.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/29a5d3584297b53ff38e16052b01ba5d.pdf?productCode=C42392122",
+      "stock_is_time_sensitive": true,
+      "selected": false,
+      "reason_not_selected": "No stock observed; not needed for selected harness approach."
+    },
+    {
+      "lcsc": "C41407240",
+      "mpn": "UL1007#28AWG Black",
+      "brand": "TRIUMPH CABLE",
+      "stock_quantity_observed": 0,
+      "minimum_order_quantity": 1,
+      "order_multiple": 1,
+      "stock_source_url": "https://www.lcsc.com/product-detail/C41407240.html",
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/56e31a2de0097e6c245e667bffcf7221.pdf?productCode=C41407240",
+      "stock_is_time_sensitive": true,
+      "selected": false,
+      "reason_not_selected": "No stock observed; not needed for selected harness approach."
+    }
+  ],
+  "assembly_dimensions": {
+    "fixed_tail_cable_od_mm": 3.8,
+    "fixed_tail_clamp_hole_mm": 3.6,
+    "aux_finished_jacket_od_mm": [
+      2.9,
+      3.1
+    ],
+    "aux_clamp_hole_mm": 2.8,
+    "native_usb_bare_pair_target_max_mm": 5,
+    "usb_tail_target_external_mm": [
+      250,
+      300
+    ],
+    "slow_tail_target_external_mm": [
+      200,
+      300
+    ]
+  },
+  "scope_of_verification": "Identity, dimensions/pinout/material in linked original manufacturer drawings and point-in-time catalog inventory. No physical samples, crimp pull test, cable fit, voltage drop, eye diagram, EMI or calculator interoperability result is claimed.",
+  "bounded_2p5_trs_stock_recheck": {
+    "report": "2p5-trs-stock-check-20261121.json",
+    "retrieval_window_utc": "2026-11-21 09:12–09:16",
+    "valid_candidates": 5,
+    "stocked_candidates": 0,
+    "procurement_gap_unchanged": true
+  },
+  "finished_trs_cable_followup": {
+    "report": "2p5-trs-cable-check-20261121.json",
+    "accepted_candidates": [],
+    "changes_to_procurement_rows": false,
+    "result": "No verified in-stock LCSC finished 2.5 mm three-pole male-ended cable established in this bounded follow-up; retain the two male-plug gaps."
+  }
+}

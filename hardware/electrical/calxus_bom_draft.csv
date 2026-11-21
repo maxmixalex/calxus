@@ -1,0 +1,98 @@
+Reference,Value,MPN,Package,LCSC,Assembly,Sheet,Verification,Notes
+J1,USB-C upstream,TYPE-C-31-M-12,HRO TYPE-C-31-M-12,C165948,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,Single upstream USB2 Type-C receptacle. Both CC pins have independent 5.1k Rd. No PD or source role. Pin numbers match actual C165948 library.
+J2,USB-A selected downstream,AF 10.0 HC6.3,USB-A-TH_AF-10.0-HC6.3,C456017,manual TH,01_USB_Power,"SHOU HAN original drawing, LCSC identity and actual native footprint verified; 1-4 drill centers retained; separate shields 5/6 both GND","Downstream device connection only. The upstream computer supplies the host controller and power. Not an autonomous USB host. Right-angle 10mm body, 6.3mm height. Separate rear shield pins5/6=GND; front projects about1.925mm beyond case outer face."
+J3,Native USB Mini-B tail,2.54-2*3P针,2x3 2.54mm TH pads only,C65114,pad-only,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Mini-B cable: 1 VBUS,2 D-,3 D+,4 ID NC,5 GND; pad6 shield GND. Use USB2 controlled impedance cable."
+J4,TI 2.5mm TRS tail,B3B-PH-K-S(LF)(SN),JST PH1x3 TH pads only,C131339,pad-only,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,Tip red=P3.3 path; ring white=P3.4 path; sleeve ground; do not interchange with Casio.
+J5,CASIO 2.5mm TRS tail,B3B-PH-K-S(LF)(SN),JST PH1x3 TH pads only,C131339,pad-only,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,From converter viewpoint: tip calculator TX -> converter RX; ring converter TX -> calculator RX; sleeve ground.
+J6,AUX keyed 3.3V UART,B4B-PH-K-S(LF)(SN),JST PH 2.0mm 1x4 TH,C131334,manual TH,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,Pin4 deliberately unconnected; never connect calculator Vbat. Exact HP39gs/Nspire mating pin mapping requires measurement.
+J7,CASIO / OFF / AUX select,2.54-2*3P针,2x3 2.54mm TH,C65114,manual TH,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,"Paired shunts:1-3 and2-4 CASIO;3-5 and4-6 AUX; none OFF. Never mixed positions. Columns are RX/TX, rows CASIO/common/AUX."
+J8,Silver EEPROM program,2.54-2*3P针,2x3 2.54mm TH DNP header/pads,C65114,pad-only,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"DNP header footprint used as six programming pads. Pin1 EE_VCC3.3V,2GND,3EE_SCL,4EE_SDA,5WP,6RESET#. External programmer: unplug USB, remove R23 and R25 and open J9, then program at 3.3V with WP low. Verify read-back, restore links with power removed."
+J9,EEPROM SCL RUN/ROM jumper,M20-9990245,1x2 2.54mm TH,C3338413,manual TH,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,Removable shunt fitted for normal EEPROM boot. Open before USB connection to enter TUSB ROM loader. For TI Aploader recovery reconnect only after burner firmware has loaded; no live soldering.
+J10,EEPROM WP ENABLE WRITE,M20-9990245,1x2 2.54mm TH,C3338413,manual TH,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,Open default WP high means write protected. Shunt pins1-2 grounds WP to enable EEPROM writing.
+U1,CH444G,CH444G,SOP16,C86413,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"5V full-swing control. IN1:IN0 00 native,01 USB-A,10 SilverLink,11 UART. Pin15 must remain NC. This is a USB2 analog mux, not a hub or host controller."
+U2,TUSB3410RHBR,TUSB3410RHBR,VQFN32-EP5x5,C2679332,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"All3V3-only input/output. EP pad number may be33 in actual footprint; map EP by verified footprint.15mA operating maximum at stated test conditions; includes8052 codeRAM16KiB, no userflash."
+U3,CH343P,CH343P,QFN16-EP3x3,C2846043,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,"VIO=3V3. V3 is decoupling only. No external USB series resistors. Modem signals unused. Both serial ICs share selected serial power, so disconnected-chip suspend behavior must be measured."
+U4,24LC64-I/SN,24LC64-I/SN,SOIC8,C511260,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,A0/A1/A2 all grounded: address0x50. 8KiB EEPROM. Isolate SCL using removable J9 for ROM recovery. TUSB code RAM is volatile; resident Silver firmware does not itself provide a general EEPROM flasher.
+U5,AP2112K-3.3TRG1,AP2112K-3.3TRG1,SOT25,C51118,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,Shared 3.3V regulator for serial circuits only. Use effective output capacitance >=1uF; selected nominal2.2uF16V parts reduce DC-bias loss.
+U6,TPS2552DBVR,TPS2552DBVR,SOT23-6,C46506,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Serial branch. R6 226k1% gives101.3/120.0/142.1mA min/typ/max current limit. This is fault limiting, not USB enumeration. Whole SilverLink mode must draw <=100mA because reference descriptor declares100mA."
+U7,SN74LVC1G07DBVR,SN74LVC1G07DBVR,SOT23-5,C7829,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,Noninverting open-drain TX; partialpowerdownIoff.10k pullup;1kseries limits opposed output current.
+U8,SN74LVC1G17DBVR,SN74LVC1G17DBVR,SOT23-5,C7836,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,Noninverting Schmitt RX;5.5V tolerant input andIoff. Not RS232 voltage interface.
+U9,TPS2552DBVR,TPS2552DBVR,SOT23-6,C46506,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,Native tail branch. 52.3k1% gives448.3/501.6/562.4mA min/typ/max current limit per TI table9-2. Hardware limit does not grant 500mA before enumeration.
+D1,USBLC6-2SC6,USBLC6-2SC6,SOT23-6,C7519,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Flow-through routing; pads1/6samechannel,3/4samechannel. No high-speed branch stubs."
+D2,USBLC6-2SC6,USBLC6-2SC6,SOT23-6,C7519,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Flow-through routing; pads1/6samechannel,3/4samechannel. No high-speed branch stubs."
+D3,USBLC6-2SC6,USBLC6-2SC6,SOT23-6,C7519,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Flow-through routing; pads1/6samechannel,3/4samechannel. No high-speed branch stubs."
+D4,"PESD5V0S2BT,215","PESD5V0S2BT,215",SOT23,C49338,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"PESD5V0S2BT is bidirectional: pin1 I/O1,2 I/O2,3 common ground. Ground-only protection, no powered-rail clamp.45pF maximum: slow lines/CC only."
+D5,"PESD5V0S2BT,215","PESD5V0S2BT,215",SOT23,C49338,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,"PESD5V0S2BT is bidirectional: pin1 I/O1,2 I/O2,3 common ground. Ground-only protection, no powered-rail clamp.45pF maximum: slow lines/CC only."
+D6,"PESD5V0S2BT,215","PESD5V0S2BT,215",SOT23,C49338,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,"PESD5V0S2BT is bidirectional: pin1 I/O1,2 I/O2,3 common ground. Ground-only protection, no powered-rail clamp.45pF maximum: slow lines/CC only."
+D7,"PESD5V0S2BT,215","PESD5V0S2BT,215",SOT23,C49338,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"PESD5V0S2BT is bidirectional: pin1 I/O1,2 I/O2,3 common ground. Ground-only protection, no powered-rail clamp.45pF maximum: slow lines/CC only."
+Q1,MMBT3904-7-F,MMBT3904-7-F,SOT23,C94514,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"Critical emitter=GPIO, collector=calculator, base via10kto3V3; recreatesSilverLinkBbidirectional topology."
+Q2,MMBT3904-7-F,MMBT3904-7-F,SOT23,C94514,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"Critical emitter=GPIO, collector=calculator, base via10kto3V3; recreatesSilverLinkBbidirectional topology."
+D8,BAT54WS-7-F,BAT54WS-7-F,SOD323,C124205,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"Pin1 cathode/marked end,2anode. VerifyCADsymbolmatchesmanufacturer."
+D9,BAT54WS-7-F,BAT54WS-7-F,SOD323,C124205,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"Pin1 cathode/marked end,2anode. VerifyCADsymbolmatchesmanufacturer."
+D10,BAT54WS-7-F,BAT54WS-7-F,SOD323,C124205,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"Pin1 cathode/marked end,2anode. VerifyCADsymbolmatchesmanufacturer."
+Y2,12MHz CL18pF,3225 12M 18PF 20PPM,3225 4pad,C6071564,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,"SOSET 12MHz18pF20ppm, pads1/3 resonator,2/4 grounded case.33pF to ground on each oscillator node per TI reference."
+R1,5.1k 1%,0603WAF5101T5E,0603,C23186,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R2,5.1k 1%,0603WAF5101T5E,0603,C23186,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R3,47k 1%,0603WAF4702T5E,0603,C25819,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R4,47k 1%,0603WAF4702T5E,0603,C25819,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R5,47k 1%,0603WAF4702T5E,0603,C25819,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R6,226k 1%,0603WAF2263T5E,0603,C33619,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R7,22R 1%,0603WAF220JT5E,0603,C23345,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R8,22R 1%,0603WAF220JT5E,0603,C23345,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R9,1.5k 1%,0603WAF1501T5E,0603,C22843,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R10,15k 1%,0603WAF1502T5E,0603,C22809,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R11,32.4k 1%,0603WAF3242T5E,0603,C13187,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R12,90.9k 1%,0603WAF9092T5E,0603,C23129,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R13,100k 1%,0603WAF1003T5E,0603,C25803,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R14,10k 1%,0603WAF1002T5E,0603,C25804,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R15,10k 1%,0603WAF1002T5E,0603,C25804,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R16,10k 1%,0603WAF1002T5E,0603,C25804,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R17,10k 1%,0603WAF1002T5E,0603,C25804,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R18,10k 1%,0603WAF1002T5E,0603,C25804,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R19,10k 1%,0603WAF1002T5E,0603,C25804,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R20,10k 1%,0603WAF1002T5E,0603,C25804,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R21,4.7k 1%,0603WAF4701T5E,0603,C23162,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R22,4.7k 1%,0603WAF4701T5E,0603,C23162,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R23,0R 1%,0603WAF0000T5E,0603,C21189,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R25,0R 1%,0603WAF0000T5E,0603,C21189,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R27,10k 1%,0603WAF1002T5E,0603,C25804,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+R28,10k 1%,0603WAF1002T5E,0603,C25804,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+R29,1k 1%,0603WAF1001T5E,0603,C21190,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+R30,1k 1%,0603WAF1001T5E,0603,C21190,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+R31,47k 1%,0603WAF4702T5E,0603,C25819,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+C1,1uF 50V X5R,CL10A105KB8NNNC,0603,C15849,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C2,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C3,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C4,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C5,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C6,2.2uF 16V X5R,CL10A225KO8NNNC,0603,C23630,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C7,2.2uF 16V X5R,CL10A225KO8NNNC,0603,C23630,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C8,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+C9,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+C10,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+C11,1uF 50V X5R,CL10A105KB8NNNC,0603,C15849,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+C12,33pF 50V C0G,CL10C330JB8NNNC,0603,C1663,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+C13,33pF 50V C0G,CL10C330JB8NNNC,0603,C1663,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+C14,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,02_TI_SilverLink,electrical contract verified; local EDA supplier identity and pin-map checked,
+C15,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+C16,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+C17,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+C18,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+C19,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,
+C20,1uF 50V X5R,CL10A105KB8NNNC,0603,C15849,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C21,1uF 50V X5R,CL10A105KB8NNNC,0603,C15849,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+C22,100nF 50V X7R,CC0603KRX7R9BB104,0603,C14663,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+U10,TPS2552DBVR,TPS2552DBVR,SOT23-6,C46506,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"USB-A branch, same current limit as U9. Disabled branches are isolated by TPS2552; reverse blocking has finite threshold and response time, not ideal zero-delay isolation."
+SW1,4-mode nonshorting selector,SSSS224100,ALPS SSSS224100 TH,C255514,manual TH,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Official Alps circuit commons3,8; left-to-right pairs1-3/6-8,2-3/7-8,3-4/8-9,3-5/8-10. Only logic current, no VBUS load through contacts. UART uses first-pole SERIAL_EN_N for MUX_EN_N blanking despite second-pole throw10 NC. Change mode with upstream unplugged; contact skew/bounce not characterized."
+D11,BAT54C-7-F,BAT54C-7-F,SOT23,C134405,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,Common cathode pin3. Native selection pulls both select bits low.
+D12,BAT54WS-7-F,BAT54WS-7-F,SOD323,C124205,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Pin1 cathode,2 anode. Selector diode; verify polarity in CAD."
+D13,BAT54WS-7-F,BAT54WS-7-F,SOD323,C124205,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Pin1 cathode,2 anode. Selector diode; verify polarity in CAD."
+D15,BAT54WS-7-F,BAT54WS-7-F,SOD323,C124205,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,"Pin1 cathode,2 anode. Selector diode; verify polarity in CAD."
+D14,BAT54A-7-F,BAT54A-7-F,SOT23,C134401,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,Common anode pin3. Any selected first-pole branch pulls mux EN# low through one Schottky. D15 supplies the corresponding serial-mode path.
+R32,47k 1%,0603WAF4702T5E,0603,C25819,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R33,47k 1%,0603WAF4702T5E,0603,C25819,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R34,47k 1%,0603WAF4702T5E,0603,C25819,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R35,47k 1%,0603WAF4702T5E,0603,C25819,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R36,52.3k 1%,0603WAF5232T5E,0603,C23198,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+R37,52.3k 1%,0603WAF5232T5E,0603,C23198,SMT,01_USB_Power,electrical contract verified; local EDA supplier identity and pin-map checked,
+D16,BAT54WS-7-F,BAT54WS-7-F,SOD323,C124205,SMT,03_UART_Adapters,electrical contract verified; local EDA supplier identity and pin-map checked,"Anode3V3, cathode UART_PULLUP. Blocks weak reverse feed into3V3 through R28/R31 when calculator remains powered with serial mode off. TX high is approx3.0–3.2V, load dependent."

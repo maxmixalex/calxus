@@ -1,0 +1,104 @@
+{
+  "schema": "calxus.harness-bounded-stock-check.v1",
+  "checked_at_utc": "2026-11-21T09:16:00Z",
+  "retrieval_window_utc": "2026-11-21 09:12–09:16",
+  "scope": "At most five valid 2.5mm TRS male candidates; includes baseline SP-2533A recheck. No PCB, EP stencil, netlist, or routing changes.",
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "productCode": "C4992833",
+      "manufacturer": "CUI / Same Sky",
+      "mpn": "SP-2533A",
+      "lcsc_url": "https://item.szlcsc.com/5567705.html",
+      "verified_type": "2.5mm 3-conductor male solder plug with body/strain relief",
+      "manufacturer_url": "https://www.sameskydevices.com/product/interconnect/connectors/audio-connectors/audio-plugs/sp-2533a",
+      "stock_evidence": {
+        "stockNumber": 0,
+        "validStockNumber": 0,
+        "totalStockNumber": 0,
+        "hasStockNow": "no",
+        "productStockStatus": "no",
+        "minBuyNumber": 1
+      },
+      "page_generated_at_utc": "2026-11-21T09:12:04.533Z"
+    },
+    {
+      "productCode": "C4992735",
+      "manufacturer": "SCHURTER",
+      "mpn": "4831.1310",
+      "lcsc_url": "https://www.lcsc.com/product-detail/C4992735.html",
+      "verified_type": "2.5mm 3-pole male solder plug with insulated body",
+      "manufacturer_url": "https://www.schurter.com/en/datasheet/4831.1310",
+      "stock_evidence": {
+        "stockNumber": 0,
+        "stockSz": 0,
+        "hasThirdPartyStock": false,
+        "minBuyNumber": 1
+      },
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/d9a3f047afbb5eecc6ef142f43198466.pdf?productCode=C4992735"
+    },
+    {
+      "productCode": "C19856694",
+      "manufacturer": "Tensility International",
+      "mpn": "50-00400",
+      "lcsc_url": "https://www.lcsc.com/product-detail/C19856694.html",
+      "verified_type": "2.5mm stereo male plug, designed for overmolding; not a complete strain-relieved plug",
+      "manufacturer_url": "https://www.tensility.com/products/50-00400",
+      "stock_evidence": {
+        "stockNumber": 0,
+        "stockSz": 0,
+        "hasThirdPartyStock": false,
+        "minBuyNumber": 1
+      },
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/1c331c618bd8202193938c7997b42ded.pdf?productCode=C19856694"
+    },
+    {
+      "productCode": "C4991788",
+      "manufacturer": "SCHURTER",
+      "mpn": "4831.1300",
+      "lcsc_url": "https://www.lcsc.com/product-detail/C4991788.html",
+      "verified_type": "2.5mm 3-pole male solder plug with screened body",
+      "manufacturer_url": "https://www.schurter.com/en/datasheet/4831.1300",
+      "stock_evidence": {
+        "stockNumber": 0,
+        "stockSz": 0,
+        "hasThirdPartyStock": false,
+        "minBuyNumber": 1
+      },
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/714fdf85c0b320e804ade47bc825159c.pdf?productCode=C4991788"
+    },
+    {
+      "productCode": "C4992651",
+      "manufacturer": "CUI Inc.",
+      "mpn": "SP-2533-01",
+      "lcsc_url": "https://www.lcsc.com/product-detail/C4992651.html",
+      "verified_type": "2.5mm 3-conductor male plug designed for overmolding",
+      "manufacturer_url": "https://www.sameskydevices.com/product/interconnect/connectors/audio-connectors/audio-plugs/sp-2533-01",
+      "stock_evidence": {
+        "stockNumber": 0,
+        "stockSz": 0,
+        "hasThirdPartyStock": false,
+        "minBuyNumber": 1
+      },
+      "datasheet_url": "https://datasheet.lcsc.com/datasheet/pdf/9324a98acc1fd3a6199ce7f96b55bffc.pdf?productCode=C4992651"
+    }
+  ],
+  "conclusion": "All five directly read LCSC product pages show zero stock. No stocked replacement or cuttable complete 2.5mm TRS cable was confirmed within this bounded search. Retain the two 2.5mm TRS male plugs as an explicit procurement gap; this is not an exhaustive claim that LCSC never sells a suitable item.",
+  "excluded_examples": [
+    {
+      "mpn": "SP-3533-02",
+      "reason": "3.5mm, despite nonzero LCSC stock; wrong mating diameter"
+    },
+    {
+      "mpn": "883X",
+      "reason": "Switchcraft manufacturer identifies two conductors; not TRS",
+      "manufacturer_url": "https://www.switchcraft.com/101-micro-plug-solder-lug-terminal-natural-handle-locking-wide-insulator/883x/"
+    },
+    {
+      "type": "2.5mm female, 2-pole TS/DC and 4-pole TRRS",
+      "reason": "Wrong sex or contact count"
+    }
+  ],
+  "stock_evidence_method": "Direct product-page HTML __NEXT_DATA__ fields returned by LCSC through Bridge network.request. Manufacturer pages verify diameter/sex/conductor count; third-party distributor stock is not used.",
+  "no_order_placed": true
+}

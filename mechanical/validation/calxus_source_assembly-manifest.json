@@ -1,0 +1,663 @@
+{
+  "schema": "calxus.source-derived-assembly.v1",
+  "revision": "R1.2-ADJUSTABLE-PROTOTYPE",
+  "status": "SOURCE_DERIVED_DESIGN_GEOMETRY_NOT_NATIVE_DRC_OR_CAM_ACCEPTANCE",
+  "candidate_archive": "hardware/native/Calxus_RevA_candidate.epro2",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "native_r7_model_source": "validation/Calxus_RevA_r7_PCBA.step.gz",
+  "native_r7_model_source_sha256": "f748813e98b0f77fead3a735b3de9cb38881a4b7807eb5af440bfa01ddc7a7e3",
+  "source_binding_snapshot": "validation/native-r7-model-source-bindings.json",
+  "source_binding_snapshot_sha256": "eb0007b14e74195b5dc9e970ea0e91c47ae47e4c0049848487afdb648dd84271",
+  "source_preservation_audit": {
+    "archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+    "epru_sha256": "b7b1c01f27f85edd1728b8cf364ac21b6cfe60c9610622dd8e6f6957dd4e95d6",
+    "pcb_uuid": "2a0c39c6c6694f40",
+    "component_checks": [
+      {
+        "ref": "C1",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C2",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C3",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C4",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C5",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C6",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C7",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C8",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C9",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C10",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C11",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C12",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C13",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C15",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C16",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C17",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C18",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C19",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C20",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C21",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C22",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D1",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D2",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D4",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D5",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D6",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D7",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D8",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D9",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D10",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D11",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D12",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D13",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D14",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D15",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D16",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J1",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J3",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J4",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J5",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J6",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J7",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J8",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J10",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "Q1",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "Q2",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R1",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R2",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R3",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R4",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R5",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R6",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R7",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R8",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R9",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R10",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R11",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R12",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R13",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R14",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R15",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R16",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R17",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R18",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R19",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R20",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R21",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R22",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R23",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R25",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R27",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R28",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R29",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R30",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R31",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R32",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R33",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R34",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R35",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R36",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "R37",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "SW1",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U1",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U2",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U3",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U4",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U5",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U6",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U7",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U8",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U9",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "U10",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "Y2",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J9",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "D3",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "C14",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": false
+      },
+      {
+        "ref": "J2",
+        "pose_footprint_device_model_preserved": true,
+        "approved_override_only": true
+      }
+    ],
+    "explicit_component_model_changes": [
+      {
+        "ref": "J2",
+        "old_transform": "562.991,393.7,0,0,0,0,-0.001,-157.48,-98.425",
+        "new_transform": "562.991,393.7,0,0,0,0,-0.001,-157.48,-94.487992126",
+        "explicit_model_translation_mm": [
+          0,
+          0,
+          0.1
+        ]
+      }
+    ],
+    "outline_source": [
+      {
+        "header": {
+          "type": "POLY",
+          "ticket": 14393,
+          "id": "57f33fa8865991a7"
+        },
+        "data": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "",
+          "layerId": 11,
+          "width": 1.9685,
+          "path": [
+            "R",
+            0,
+            1653.5433,
+            3149.6063,
+            1653.5433,
+            0,
+            39.3701
+          ],
+          "locked": true,
+          "zIndex": -1,
+          "polyType": "NORMAL"
+        }
+      }
+    ],
+    "source_via_count": 189,
+    "source_line_count": 1504
+  },
+  "drill_sources": [
+    {
+      "kind": "PAD",
+      "path": "validation/native-candidate-tht-drill-expectations.json",
+      "sha256": "885a0e98f468b00081b7f268a5784a1713b560b318463a3e0e23ca7a1f8ae4dd",
+      "count": 56
+    },
+    {
+      "kind": "J1_NONPAD",
+      "path": "validation/native-candidate-nonpad-hole-expectations.json",
+      "sha256": "25f2bd9c9e54611d0740f7d43c55b4ad9f0255bc83f3424ae994ecfed2a15624",
+      "count": 2
+    },
+    {
+      "kind": "VIA",
+      "path": "validation/native-candidate-via-drill-expectations.json",
+      "sha256": "2fd974a5b85042d507c25fa14b05c8437bbdb985a5ad389b0a5b57dffb706adf",
+      "count": 189
+    }
+  ],
+  "actual_fitted_components": 93,
+  "omitted_dnp_connector_models": [
+    "J3",
+    "J4",
+    "J5",
+    "J8"
+  ],
+  "explicit_transforms": [
+    {
+      "ref": "J2",
+      "translation_mm": [
+        0,
+        0,
+        0.1
+      ],
+      "reason": "Approved instance model seating correction; exact candidate source binding delta verified."
+    }
+  ],
+  "other_component_transforms": "identity; no X/Y, rotation, footprint or component shape changes",
+  "board_method": "Native bottom-face OUTER wire only, extruded through unchanged native thickness; all inner wires discarded before all247 cuts.",
+  "thumb_position_offset_mm": -1,
+  "fork_calibration_relative_thumb_mm": -0.25,
+  "case_part_sources": [
+    {
+      "path": "calxus_base.step",
+      "sha256": "410517a322b05355cd70d48fcbd806df708b64954459edad9091a28ec0a1b5d3"
+    },
+    {
+      "path": "calxus_lid.step",
+      "sha256": "1e5648177d9dabcec44d0110b14c967c6f8db665e4a4de2f803672e7dfc6efde"
+    },
+    {
+      "path": "calxus_comb_lower_tpu.step",
+      "sha256": "db40141f7526e7a732550f7906d26ed47473e139d0be37259c1d29bed44708e0"
+    },
+    {
+      "path": "calxus_comb_upper_tpu.step",
+      "sha256": "90e05df4b6deea3afa9496a030bd74dd9c25123f7cffa9085638d6584abdddf8"
+    },
+    {
+      "path": "calxus_slider_fork.step",
+      "sha256": "80c00a4304d318343d00030b0711a614a050318cc888102812f599b20f98290e"
+    },
+    {
+      "path": "calxus_slider_thumb.step",
+      "sha256": "094ee145ba4442f99beb7fcdbf329288fa01ab91706a3a2d384ab261b6983b8b"
+    }
+  ],
+  "hardware_reference_names": [
+    "Heat_shrink_collar_1_REFERENCE",
+    "Heat_shrink_collar_2_REFERENCE",
+    "Heat_shrink_collar_3_REFERENCE",
+    "Heat_shrink_collar_4_REFERENCE",
+    "M2x16_screw_1_REFERENCE",
+    "M2_insert_1_REFERENCE",
+    "M2x16_screw_2_REFERENCE",
+    "M2_insert_2_REFERENCE",
+    "M2x16_screw_3_REFERENCE",
+    "M2_insert_3_REFERENCE",
+    "M2x16_screw_4_REFERENCE",
+    "M2_insert_4_REFERENCE",
+    "M2x6_slider_screw_REFERENCE",
+    "M2_slider_insert_REFERENCE"
+  ],
+  "printed_design_freeze": "validation/printed-parts-frozen-r1_2.json",
+  "printed_design_freeze_sha256": "c1a1110d7fbf704db493ead0f8d8d9a9e919a19d6448a148c5c17ed2f237b067",
+  "fit_report": "source-derived-pcba-fit.json",
+  "fit_report_sha256": "d34f1c756d2137af3c9a546db98a7a791aa42322b3a0499adbc498985881b514",
+  "board_validation": "source-derived-board-geometry.json",
+  "selector_validation": "source-derived-selector-motion.json",
+  "output_step_gz": "calxus_source_assembly.step.gz",
+  "output_step_gz_sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+  "render": "calxus_source_assembly_exploded.png",
+  "populated_board_render": "calxus_source_pcba.png",
+  "materials": {
+    "rigid_printed_parts": "PETG or ASA; see mechanical BOM",
+    "combs": "TPU95A",
+    "fasteners": "M2 steel screw reference solids, brass insert reference solids",
+    "collars": "polyolefin heat-shrink reference solids",
+    "board": "Homogeneous native laminate envelope; source drill voids. Individual FR4/copper/mask/fill layers are not modeled as separate solids.",
+    "components": "Imported r7 native vendor/automatic model geometry. Colors distinguish part classes and do not certify their material composition."
+  },
+  "render_note": "Exploded view translates PCBA+5Z/lid+28Z and other parts for visibility. Exchange STEP stays assembled. No envelope blocks substitute for the93 component models.",
+  "limits": [
+    "Source-derived geometry validation is not a native editor DRC, fresh native export or CAM acceptance.",
+    "Vendor/native automatic models are not independently measured samples.",
+    "No physical print, insertion, load, thermal, electrical or USB compliance test is implied.",
+    "Rigid models omit free flexible cable routes, solder fillets, threads, plating/fill and surface artwork.",
+    "After connection recovery, compare native final export and CAM against this source-derived design; this file does not establish those checks."
+  ],
+  "exchange_representation": "XCAF shared native BREP leaf definitions plus original occurrence locations; exact3D geometry and2D trimming pcurves retained. No tessellation, decimation or shape deletion.",
+  "instancing_evidence": "source-derived-step-instancing.json",
+  "gzip_compression": {
+    "method": "libdeflate level12, standard gzip format",
+    "uncompressed_bytes": 56290122,
+    "uncompressed_sha256": "bb2874077b616729d86586f61bea703b3d02c517dd0c921d9bad6cf99238e2eb",
+    "decompressed_byte_identical": true
+  }
+}

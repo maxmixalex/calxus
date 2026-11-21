@@ -1,0 +1,159 @@
+{
+  "source": "Installed client doc.api, read-only query, 2026-11-21",
+  "geometry_property": "complexPolygon",
+  "polygon_property_documented": false,
+  "must_refetch_after_modify": true,
+  "native_mutations_performed": false,
+  "docs": {
+    "modify": {
+      "title": "修改区域",
+      "visibility": "beta",
+      "params": [
+        {
+          "name": "primitiveId",
+          "type": "string | IPCB_PrimitiveRegion",
+          "description": "图元 ID",
+          "required": true
+        },
+        {
+          "name": "property",
+          "type": "{ layer?: TPCB_LayersOfRegion; complexPolygon?: IPCB_Polygon; ruleType?: Array<EPCB_PrimitiveRegionRuleType>; regionName?: string; lineWidth?: number; primitiveLock?: boolean }",
+          "description": "修改参数",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "IPCB_PrimitiveRegion",
+        "description": "区域图元对象，`undefined` 表示修改失败"
+      },
+      "example": "```javascript\n// 1. 创建待修改的测试区域：顶层，规则 [2] 即禁止元件（随机坐标避免重合）\nconst x = 2000 + Math.floor(Math.random() * 100000);\nconst y = 2000 + Math.floor(Math.random() * 100000);\nconst polygon = eda.pcb_MathPolygon.createPolygon(['R', x, y, 500, 300, 0, 0]);\nconst region = await eda.pcb_PrimitiveRegion.create(1, polygon, [2], '嘉立创示例_待修改');\nconst regionId = region.getState_PrimitiveId();\n\n// 2. 读取修改前的层与规则类型\nconst beforeLayer = region.getState_Layer();\nconst beforeRuleType = region.getState_RuleType();\n\n// 3. 批量修改：层从顶层（1）换到底层（2），规则 [2] 禁止元件扩展为 [2, 5] 禁止元件 + 禁止布线\nawait eda.pcb_PrimitiveRegion.modify(regionId, { layer: 2, ruleType: [2, 5] });\n\n// 4. modify 返回后需要重新 get() 才能读到画布上的最新值\nconst refreshed = await eda.pcb_PrimitiveRegion.get(regionId);\n\n// 5. 修改类保留现场，供观察修改结果\nconsole.log('primitiveId:', regionId);\nconsole.log('layer:', beforeLayer, '→', refreshed.getState_Layer());\nconsole.log('ruleType:', JSON.stringify(beforeRuleType), '→', JSON.stringify(refreshed.getState_RuleType()));\n```",
+      "isAsync": true
+    },
+    "type": {
+      "title": "区域图元",
+      "visibility": "public",
+      "methods": [
+        {
+          "name": "create",
+          "comment": "在 PCB 画布中创建图元"
+        },
+        {
+          "name": "getState_PrimitiveType",
+          "comment": "获取属性状态：图元类型",
+          "visibility": "public"
+        },
+        {
+          "name": "getState_PrimitiveId",
+          "comment": "获取属性状态：图元 ID",
+          "visibility": "public"
+        },
+        {
+          "name": "getState_Layer",
+          "comment": "获取属性状态：层",
+          "visibility": "public"
+        },
+        {
+          "name": "getState_ComplexPolygon",
+          "comment": "获取属性状态：复杂多边形",
+          "visibility": "public"
+        },
+        {
+          "name": "getState_RuleType",
+          "comment": "获取属性状态：区域规则类型",
+          "visibility": "public"
+        },
+        {
+          "name": "getState_RegionName",
+          "comment": "获取属性状态：区域名称",
+          "visibility": "public"
+        },
+        {
+          "name": "getState_LineWidth",
+          "comment": "获取属性状态：线宽",
+          "visibility": "public"
+        },
+        {
+          "name": "getState_PrimitiveLock",
+          "comment": "获取属性状态：是否锁定",
+          "visibility": "public"
+        },
+        {
+          "name": "setState_Layer",
+          "comment": "设置属性状态：层",
+          "visibility": "beta"
+        },
+        {
+          "name": "setState_ComplexPolygon",
+          "comment": "设置属性状态：复杂多边形",
+          "visibility": "beta"
+        },
+        {
+          "name": "setState_RuleType",
+          "comment": "设置属性状态：区域规则类型",
+          "visibility": "beta"
+        },
+        {
+          "name": "setState_RegionName",
+          "comment": "设置属性状态：区域名称",
+          "visibility": "beta"
+        },
+        {
+          "name": "setState_LineWidth",
+          "comment": "设置属性状态：线宽",
+          "visibility": "beta"
+        },
+        {
+          "name": "setState_PrimitiveLock",
+          "comment": "设置属性状态：是否锁定",
+          "visibility": "beta"
+        },
+        {
+          "name": "toAsync",
+          "comment": "将图元转换为异步图元",
+          "visibility": "public"
+        },
+        {
+          "name": "toSync",
+          "comment": "将图元转换为同步图元",
+          "visibility": "public"
+        },
+        {
+          "name": "isAsync",
+          "comment": "查询图元是否为异步图元",
+          "visibility": "public"
+        },
+        {
+          "name": "reset",
+          "comment": "将异步图元重置为当前画布状态",
+          "visibility": "beta"
+        },
+        {
+          "name": "done",
+          "comment": "将对图元的更改应用到画布",
+          "visibility": "beta"
+        },
+        {
+          "name": "convertToFill",
+          "comment": "转换到：填充图元",
+          "visibility": "beta"
+        },
+        {
+          "name": "convertToPolyline",
+          "comment": "转换到：折线图元",
+          "visibility": "beta"
+        },
+        {
+          "name": "convertToPour",
+          "comment": "转换到：覆铜边框图元",
+          "visibility": "beta"
+        }
+      ]
+    }
+  },
+  "automation_scan": {
+    "Region_modify_calls": 1,
+    "Pour_modify_calls": 1,
+    "all_use_documented_complexPolygon": true,
+    "native_execution_claimed": false
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schema": "calxus.usb-native-deviation-approval.v1",
+  "status": "APPROVED_MANUAL_COPPER_SNAPSHOT_ONLY_BEFORE_AUTOROUTE",
+  "scope": "Specific two native-engine merged USB_A connector/ESD line centerlines. This is not a relaxation of the planned-route equivalence test or authorization for further routing deviations.",
+  "source_copper_sha256": "e3142bac9aeb4f7cfb6debc41f372b2b90d3fad70ff13bb84236df0512766952",
+  "source_pads_sha256": "7ab7e510a156da9ed2dcd957aa71cf5990cf1bf89a70bcd091ad8aaab721fd84",
+  "approved_changed_native_primitives": [
+    {
+      "id": "224c60932363c2f4",
+      "net": "USB_A_DP",
+      "layer": 1,
+      "coordinates_mil": [
+        1614.2,
+        190,
+        1612,
+        500
+      ],
+      "maximum_centerline_deviation_mil": 0.875139252754332,
+      "change_in_centerline_length_mm": -0.000130524817327
+    },
+    {
+      "id": "4e73de28556c5ed0",
+      "net": "USB_A_DM",
+      "layer": 1,
+      "coordinates_mil": [
+        1535.4,
+        190,
+        1537.4,
+        473
+      ],
+      "maximum_centerline_deviation_mil": 0.8798366860443283,
+      "change_in_centerline_length_mm": -0.000140988915987
+    }
+  ],
+  "usb_all_pad_connectivity_passed": true,
+  "usb_pad_count": 26,
+  "planned_vias_all_present": true,
+  "planned_ground_stubs_all_present": true,
+  "usb_foreign_copper_violations": [],
+  "minimum_measured_usb_foreign_copper_clearance": {
+    "usb": "6553a314856ad507",
+    "usb_net": "USB_NATIVE_DM",
+    "other": "6ee9091c1662c22f",
+    "other_net": "USB_NATIVE_DP",
+    "distance_mil": 5.999106948780838,
+    "distance_mm": 0.15237731649903327
+  },
+  "actual_centerline_paths_mm": {
+    "UP_A_orientation": {
+      "DP_mm": 20.537275186949998,
+      "DM_mm": 20.689615912748,
+      "signed_skew_mm": -0.15234072579800184,
+      "absolute_skew_mm": 0.15234072579800184,
+      "ideal_via_barrel_mm": 3.2
+    },
+    "UP_B_orientation": {
+      "DP_mm": 17.58071518695,
+      "DM_mm": 17.733055912747997,
+      "signed_skew_mm": -0.1523407257979983,
+      "absolute_skew_mm": 0.1523407257979983,
+      "ideal_via_barrel_mm": 3.2
+    },
+    "NATIVE": {
+      "DP_mm": 67.839184828052,
+      "DM_mm": 67.839647810616,
+      "signed_skew_mm": -0.0004629825640023455,
+      "absolute_skew_mm": 0.0004629825640023455,
+      "ideal_via_barrel_mm": 3.2
+    },
+    "USB_A": {
+      "DP_mm": 38.874093957739994,
+      "DM_mm": 38.64381853944999,
+      "signed_skew_mm": 0.23027541829000597,
+      "absolute_skew_mm": 0.23027541829000597,
+      "ideal_via_barrel_mm": 3.2
+    },
+    "USB_C_A_to_NATIVE": {
+      "DP_mm": 88.376460015002,
+      "DM_mm": 88.529263723364,
+      "signed_skew_mm": -0.15280370836200063,
+      "absolute_skew_mm": 0.15280370836200063,
+      "ideal_via_barrel_mm": 6.4
+    },
+    "USB_C_A_to_USB_A": {
+      "DP_mm": 59.41136914468999,
+      "DM_mm": 59.33343445219799,
+      "signed_skew_mm": 0.07793469249200058,
+      "absolute_skew_mm": 0.07793469249200058,
+      "ideal_via_barrel_mm": 6.4
+    },
+    "USB_C_B_to_NATIVE": {
+      "DP_mm": 85.419900015002,
+      "DM_mm": 85.572703723364,
+      "signed_skew_mm": -0.15280370836200063,
+      "absolute_skew_mm": 0.15280370836200063,
+      "ideal_via_barrel_mm": 6.4
+    },
+    "USB_C_B_to_USB_A": {
+      "DP_mm": 56.45480914468999,
+      "DM_mm": 56.37687445219798,
+      "signed_skew_mm": 0.07793469249200768,
+      "absolute_skew_mm": 0.07793469249200768,
+      "ideal_via_barrel_mm": 6.4
+    }
+  },
+  "actual_pair_copper_gaps": [
+    {
+      "base": "USB_UP",
+      "layer": 1,
+      "minimum_DP_DM_line_via_copper_gap_mil": 6.400000000000091,
+      "minimum_gap_mm": 0.1625600000000023,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_UP",
+      "layer": 2,
+      "minimum_DP_DM_line_via_copper_gap_mil": 5.999988829193007,
+      "minimum_gap_mm": 0.15239971626150237,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_NATIVE",
+      "layer": 1,
+      "minimum_DP_DM_line_via_copper_gap_mil": 6.400000000000091,
+      "minimum_gap_mm": 0.1625600000000023,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_NATIVE",
+      "layer": 2,
+      "minimum_DP_DM_line_via_copper_gap_mil": 5.9991069487808995,
+      "minimum_gap_mm": 0.15237731649903483,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_A",
+      "layer": 1,
+      "minimum_DP_DM_line_via_copper_gap_mil": 6.400000000000091,
+      "minimum_gap_mm": 0.1625600000000023,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_A",
+      "layer": 2,
+      "minimum_DP_DM_line_via_copper_gap_mil": 5.9999899999995705,
+      "minimum_gap_mm": 0.1523997459999891,
+      "passes_6mil": true
+    }
+  ],
+  "all_path_skews_at_most_0254mm": true,
+  "corridor_copper_pass": true,
+  "corridor_actual_pads_pass": true,
+  "corridor_pads_checked": 71,
+  "numeric_note": "6mil target; native API rounded coordinates yield minimum5.99910695mil (22.7nm below nominal). Strict equivalence retained0.11mil tolerance and remains false for these two reviewed changes; actual geometry has been separately assessed.",
+  "conditions": [
+    "Repeat full native audit after autorouting and after final archive reimport.",
+    "Verify final GND pours and inner plane continuity separately; this captured plane snapshot predates their restoration.",
+    "Verify final Gerber/Excellon drill nominal0.20mm, since getter truncates7.874mil to7.8mil.",
+    "No USB compliance, SI, hardware or mass-production approval implied."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "calxus.native-r7-pcba-export.v1",
+  "source_path_windows": "D:/Works/Calc/Calxus/exports/Calxus_RevA_r7_PCBA.step.gz",
+  "bytes": 6775777,
+  "sha256": "f748813e98b0f77fead3a735b3de9cb38881a4b7807eb5af440bfa01ddc7a7e3",
+  "raw_step_bytes": 34649827,
+  "raw_step_sha256": "f2e0bb7d1d2bf3a264f5dfff948826b87dbfbed4c2d75118ecc786e809d0def3",
+  "download_chunks": 138,
+  "gzip_crc_verified": true,
+  "step_header_and_footer_verified": true,
+  "requested_elements": [
+    "Component Model"
+  ],
+  "automatic_models": true,
+  "source_context": "Native r7 after J2 C456017 substitution and SW1 instance Z+0.5 correction; exported before restoration of final ordinary copper. Component positions and board interfaces are fixed; copper routes do not change the modeled component solids.",
+  "native_component_instances": 97,
+  "expected_fitted_components": 93,
+  "pad_only_dnp_model_refs": [
+    "J3",
+    "J4",
+    "J5",
+    "J8"
+  ],
+  "sw1_source_readback": "sw1-instance-model-r7.json",
+  "source_preserved_without_alignment_or_geometry_changes": true
+}

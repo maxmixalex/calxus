@@ -1,0 +1,251 @@
+{
+  "schema": "calxus.reference-netlist-bounded-diagnostic.v1",
+  "source_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "original_project_uuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+  "diagnostic_project_uuid": "f4164eed1d531b75438df32f8fdbd7fef0b9cabbcc8488f73581ff7dd5c05855",
+  "diagnostic_local_path": "D:/Works/Calc/Calxus/native/Calxus_RevA_final_check",
+  "official_setter_documentation": "https://prodocs.lceda.cn/en/api/reference/pro-api.pcb_net.setnetlist.html",
+  "original_untouched": true,
+  "tests": [
+    {
+      "jobId": "job-mcp-3d913d80-183c-4ee3-af20-9ebc74d6c31d",
+      "completedAt": "2026-11-21T12:58:45.137Z",
+      "setResult": true,
+      "saved": true,
+      "protectedDifferenceCount": 0,
+      "allDifferenceTypes": [
+        "DOCHEAD"
+      ],
+      "protectedDifferences": [],
+      "groups": [
+        {
+          "name": "Differential Pair Error",
+          "count": 3
+        },
+        {
+          "name": "Netlist Error",
+          "count": 1
+        }
+      ],
+      "comparisonCount": 69,
+      "comparisonSample": [
+        {
+          "type": "NET",
+          "object": "3V3",
+          "net1": [
+            "C7.1",
+            "C8.1",
+            "C9.1",
+            "C17.1",
+            "C18.1",
+            "C19.1",
+            "D16.2",
+            "R10.1",
+            "R12.1",
+            "R14.2",
+            "R15.2",
+            "R16.2",
+            "R17.1",
+            "R18.1",
+            "R19.1",
+            "R20.1",
+            "R25.1",
+            "U2.3",
+            "U2.13",
+            "U2.14",
+            "U2.15",
+            "U2.16",
+            "U2.25",
+            "U3.1",
+            "U5.5",
+            "U7.5",
+            "U8.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'5V_SERIAL'",
+          "net1": [
+            "C6.1",
+            "C15.1",
+            "U3.3",
+            "U3.9",
+            "U5.1",
+            "U5.3",
+            "U6.6"
+          ],
+          "net2": []
+        }
+      ]
+    },
+    {
+      "jobId": "job-mcp-7b12243e-c68a-4fb0-93f9-6f265239efb1",
+      "completedAt": "2026-11-21T13:00:20.207Z",
+      "setResult": true,
+      "saved": true,
+      "protectedDifferenceCount": 0,
+      "allDifferenceTypes": [
+        "DOCHEAD"
+      ],
+      "protectedDifferences": [],
+      "groups": [
+        {
+          "name": "Differential Pair Error",
+          "count": 3
+        },
+        {
+          "name": "Netlist Error",
+          "count": 1
+        }
+      ],
+      "comparisonCount": 69,
+      "comparisonSample": [
+        {
+          "type": "NET",
+          "object": "3V3",
+          "net1": [
+            "C7.1",
+            "C8.1",
+            "C9.1",
+            "C17.1",
+            "C18.1",
+            "C19.1",
+            "D16.2",
+            "R10.1",
+            "R12.1",
+            "R14.2",
+            "R15.2",
+            "R16.2",
+            "R17.1",
+            "R18.1",
+            "R19.1",
+            "R20.1",
+            "R25.1",
+            "U2.3",
+            "U2.13",
+            "U2.14",
+            "U2.15",
+            "U2.16",
+            "U2.25",
+            "U3.1",
+            "U5.5",
+            "U7.5",
+            "U8.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'5V_SERIAL'",
+          "net1": [
+            "C6.1",
+            "C15.1",
+            "U3.3",
+            "U3.9",
+            "U5.1",
+            "U5.3",
+            "U6.6"
+          ],
+          "net2": []
+        }
+      ]
+    },
+    {
+      "operation": "pcb_Document.importChanges",
+      "schematic_uuid": "992d265f851ac884",
+      "jobId": "job-mcp-dd44c208-70dd-4d53-ba3c-bdccb54a798f",
+      "completedAt": "2026-11-21T13:02:37.841Z",
+      "setResult": true,
+      "saved": true,
+      "protectedDifferenceCount": 0,
+      "allDifferenceTypes": [
+        "DOCHEAD"
+      ],
+      "protectedDifferences": [],
+      "groups": [
+        {
+          "name": "Differential Pair Error",
+          "count": 3
+        },
+        {
+          "name": "Netlist Error",
+          "count": 1
+        }
+      ],
+      "comparisonCount": 69,
+      "comparisonSample": [
+        {
+          "type": "NET",
+          "object": "3V3",
+          "net1": [
+            "C7.1",
+            "C8.1",
+            "C9.1",
+            "C17.1",
+            "C18.1",
+            "C19.1",
+            "D16.2",
+            "R10.1",
+            "R12.1",
+            "R14.2",
+            "R15.2",
+            "R16.2",
+            "R17.1",
+            "R18.1",
+            "R19.1",
+            "R20.1",
+            "R25.1",
+            "U2.3",
+            "U2.13",
+            "U2.14",
+            "U2.15",
+            "U2.16",
+            "U2.25",
+            "U3.1",
+            "U5.5",
+            "U7.5",
+            "U8.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'5V_SERIAL'",
+          "net1": [
+            "C6.1",
+            "C15.1",
+            "U3.3",
+            "U3.9",
+            "U5.1",
+            "U5.3",
+            "U6.6"
+          ],
+          "net2": []
+        }
+      ]
+    }
+  ],
+  "source_record_inspection": {
+    "PCB_META": {
+      "title": "pcb-before-stackup",
+      "parent": "",
+      "source": "",
+      "board": "0585a3d4c9a466a0",
+      "zIndex": null
+    },
+    "explicit_NETLIST_record_found": false,
+    "interpretation": "No unsupported raw metadata fields were inserted. Absence is an observation, not proof of causation."
+  },
+  "fresh_copy_reload": {
+    "pcb_closed_saved_and_reopened": true,
+    "after_reload_netlist_error_remained": true
+  },
+  "final_disposition": "Controlled diagnostic-copy operations completed without protected source changes but did not remove the Import Changes DRC leaf. Original project retained as canonical. Root stopped further SDK experiments; actual GUI comparison remains uninspected.",
+  "manufacturing_release_accepted": false,
+  "native_drc_passed": false,
+  "rules_changed": false,
+  "violations_suppressed": false,
+  "canonical_ready_report": "validation/native-canonical-ready-for-review.json",
+  "canonical_return_guard": "validation/native-canonical-return-guard.json"
+}

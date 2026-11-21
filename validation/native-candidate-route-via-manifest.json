@@ -1,0 +1,2755 @@
+{
+  "schema": "calxus.offline-candidate-route-via-manifest.v1",
+  "source": "Independently reopened candidate archive VIA records, not a live EDA readback",
+  "source_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+  "pcbId": "2a0c39c6c6694f40",
+  "expected_count": 128,
+  "actualTotalVias": 189,
+  "records": [
+    {
+      "kind": "VIA",
+      "primitiveId": "c40663139fdde172",
+      "tag": "iteration4_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_SUSPEND",
+      "center_mm": [
+        37.50003174998286,
+        27.867594951498727
+      ],
+      "x_mm": 37.50003174998286,
+      "y_mm": 27.867594951498727,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "1f8ed1115f47c419",
+      "tag": "iteration4_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL0",
+      "center_mm": [
+        21.50007238996091,
+        27.61740508660126
+      ],
+      "x_mm": 21.50007238996091,
+      "y_mm": 27.61740508660126,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "f653efaf47fa6612",
+      "tag": "iteration4_via2",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_1V8",
+      "center_mm": [
+        42.77510090144552,
+        27.792410992098066
+      ],
+      "x_mm": 42.77510090144552,
+      "y_mm": 27.792410992098066,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "bebc785fb7384c7b",
+      "tag": "iteration4_via3",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_IN",
+      "center_mm": [
+        9.50010286994445,
+        16.192999255780403
+      ],
+      "x_mm": 9.50010286994445,
+      "y_mm": 16.192999255780403,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "e15fb6271549bf69",
+      "tag": "iteration4_via4",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL1",
+      "center_mm": [
+        14.942811930881557,
+        25.75050609472671
+      ],
+      "x_mm": 14.942811930881557,
+      "y_mm": 25.75050609472671,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "fcd3525f6b56d94a",
+      "tag": "iteration4_via5",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        56.079105717282914,
+        12.655797165869531
+      ],
+      "x_mm": 56.079105717282914,
+      "y_mm": 12.655797165869531,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "7b6fcb2030e049e7",
+      "tag": "iteration4_via6",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_VCC",
+      "center_mm": [
+        36.13478248721746,
+        18.971757755250813
+      ],
+      "x_mm": 36.13478248721746,
+      "y_mm": 18.971757755250813,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "0fb218db02c11ee0",
+      "tag": "iteration4_via7",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        29.08171429587428,
+        26.349437771303606
+      ],
+      "x_mm": 29.08171429587428,
+      "y_mm": 26.349437771303606,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "d7dd18a52e044c7f",
+      "tag": "iteration4_via8",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "UART_TX",
+      "center_mm": [
+        56.15479767640926,
+        16.993606823452318
+      ],
+      "x_mm": 56.15479767640926,
+      "y_mm": 16.993606823452318,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "4a64035cb17ecd43",
+      "tag": "iteration4_via9",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_TEST1",
+      "center_mm": [
+        52.54901562353156,
+        26.22142184043221
+      ],
+      "x_mm": 52.54901562353156,
+      "y_mm": 26.22142184043221,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "b6aa759bb18b0e3e",
+      "tag": "iteration4_via10",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        63.1999918720044,
+        34.25137350425831
+      ],
+      "x_mm": 63.1999918720044,
+      "y_mm": 34.25137350425831,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "e2da7af5b15500b6",
+      "tag": "iteration4_via11",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        68.75471487245397,
+        36.06518652479928
+      ],
+      "x_mm": 68.75471487245397,
+      "y_mm": 36.06518652479928,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ce95b68f9233a6e6",
+      "tag": "iteration4_via12",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_RESET",
+      "center_mm": [
+        38.15052539871629,
+        26.815781519477977
+      ],
+      "x_mm": 38.15052539871629,
+      "y_mm": 26.815781519477977,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "828ae27876abb289",
+      "tag": "iteration4_via13",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "UART_RX",
+      "center_mm": [
+        58.80096824747715,
+        12.647923170121489
+      ],
+      "x_mm": 58.80096824747715,
+      "y_mm": 12.647923170121489,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "44d76d063c273253",
+      "tag": "iteration4_via14",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "NATIVE_EN_N",
+      "center_mm": [
+        25.250126364931763,
+        26.337499777750125
+      ],
+      "x_mm": 25.250126364931763,
+      "y_mm": 26.337499777750125,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "96076b49bc5185bf",
+      "tag": "iteration4_via15",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "PWR_FAULT_N",
+      "center_mm": [
+        27.073591380260655,
+        10.804392165628231
+      ],
+      "x_mm": 27.073591380260655,
+      "y_mm": 10.804392165628231,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "64085bd28365a1a1",
+      "tag": "iteration4_via16",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_USBA",
+      "center_mm": [
+        40.13578832667431,
+        6.661146402980942
+      ],
+      "x_mm": 40.13578832667431,
+      "y_mm": 6.661146402980942,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "a8f4d71eeacae733",
+      "tag": "iteration4_via17",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL0",
+      "center_mm": [
+        15.297141739543461,
+        27.334195239534573
+      ],
+      "x_mm": 15.297141739543461,
+      "y_mm": 27.334195239534573,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "8b571941af4111ed",
+      "tag": "iteration4_via18",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        56.11060170027509,
+        27.888676940114454
+      ],
+      "x_mm": 56.11060170027509,
+      "y_mm": 27.888676940114454,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "9fed075f0a90863e",
+      "tag": "iteration4_via19",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        28.119816815298925,
+        17.79878638865535
+      ],
+      "x_mm": 28.119816815298925,
+      "y_mm": 17.79878638865535,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ffc82086482ee2c9",
+      "tag": "iteration4_via20",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_VREGEN",
+      "center_mm": [
+        37.94224551118742,
+        28.631880538784515
+      ],
+      "x_mm": 37.94224551118742,
+      "y_mm": 28.631880538784515,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "92f5e5e21596f220",
+      "tag": "iteration4_via21",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "CC2",
+      "center_mm": [
+        8.750295274840552,
+        26.243773828362137
+      ],
+      "x_mm": 8.750295274840552,
+      "y_mm": 26.243773828362137,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "b13757b68da2872c",
+      "tag": "iteration4_via22",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "CC2",
+      "center_mm": [
+        5.7393809007343135,
+        19.241505609586973
+      ],
+      "x_mm": 5.7393809007343135,
+      "y_mm": 19.241505609586973,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "eecf3cc1cc2e904c",
+      "tag": "iteration4_via23",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "GND",
+      "center_mm": [
+        62.08213847564524,
+        34.258485500417834
+      ],
+      "x_mm": 62.08213847564524,
+      "y_mm": 34.258485500417834,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "d8abae84860aade0",
+      "tag": "iteration4_via24",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_VCC",
+      "center_mm": [
+        31.290497103131564,
+        24.260034899581157
+      ],
+      "x_mm": 31.290497103131564,
+      "y_mm": 24.260034899581157,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "0377d1ba5c66959a",
+      "tag": "iteration4_via25",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "UART_RX",
+      "center_mm": [
+        51.84543600346456,
+        22.87319564847435
+      ],
+      "x_mm": 51.84543600346456,
+      "y_mm": 22.87319564847435,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "a4e64e24560cdd08",
+      "tag": "iteration4_via26",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        28.932362376524317,
+        13.732248584585765
+      ],
+      "x_mm": 28.932362376524317,
+      "y_mm": 13.732248584585765,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "0a01603e0e7ef817",
+      "tag": "iteration4_via27",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_SIN",
+      "center_mm": [
+        50.679576633028624,
+        18.744935877734626
+      ],
+      "x_mm": 50.679576633028624,
+      "y_mm": 18.744935877734626,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "aef77ed306de1b93",
+      "tag": "iteration4_via28",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_IN",
+      "center_mm": [
+        8.55,
+        20.64
+      ],
+      "x_mm": 8.55,
+      "y_mm": 20.64,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "c8a7b043c2a0bd52",
+      "tag": "iteration4_via29",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        17.76322640785774,
+        9.246611006830056
+      ],
+      "x_mm": 17.76322640785774,
+      "y_mm": 9.246611006830056,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "45f2b43f211f0a77",
+      "tag": "iteration4_via30",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "UART_TX",
+      "center_mm": [
+        59.57998582680765,
+        13.19173687646209
+      ],
+      "x_mm": 59.57998582680765,
+      "y_mm": 13.19173687646209,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "a729347720923331",
+      "tag": "iteration4_via31",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        20.738580801166368,
+        7.433051986151928
+      ],
+      "x_mm": 20.738580801166368,
+      "y_mm": 7.433051986151928,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "577d5234bdb69a99",
+      "tag": "iteration4_via32",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_USBA",
+      "center_mm": [
+        28.881562403956302,
+        2.4150306958834244
+      ],
+      "x_mm": 28.881562403956302,
+      "y_mm": 2.4150306958834244,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "bd2501e99cf81997",
+      "tag": "iteration4_via33",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USBA_EN_N",
+      "center_mm": [
+        21.866086192313457,
+        8.53871338909477
+      ],
+      "x_mm": 21.866086192313457,
+      "y_mm": 8.53871338909477,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "1274fc3508ce2d23",
+      "tag": "iteration4_via34",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_SIN",
+      "center_mm": [
+        50.679576633028624,
+        19.51023746447177
+      ],
+      "x_mm": 50.679576633028624,
+      "y_mm": 19.51023746447177,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "7940995d4d32a07c",
+      "tag": "iteration4_via35",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "NATIVE_EN_N",
+      "center_mm": [
+        9.73651274444312,
+        9.409170919047705
+      ],
+      "x_mm": 9.73651274444312,
+      "y_mm": 9.409170919047705,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "9bdd2b234bc97def",
+      "tag": "iteration4_via36",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "GND",
+      "center_mm": [
+        40.93969789256314,
+        25.801052067431886
+      ],
+      "x_mm": 40.93969789256314,
+      "y_mm": 25.801052067431886,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "848dcf342057426d",
+      "tag": "iteration4_via37",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "PWR_FAULT_N",
+      "center_mm": [
+        19.515063461865733,
+        7.054592190520218
+      ],
+      "x_mm": 19.515063461865733,
+      "y_mm": 7.054592190520218,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "847c240f01a715a1",
+      "tag": "iteration4_via38",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_VCC",
+      "center_mm": [
+        32.17289262663798,
+        18.808943843170326
+      ],
+      "x_mm": 32.17289262663798,
+      "y_mm": 18.808943843170326,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "e2e96a5122a2beeb",
+      "tag": "iteration4_via39",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USBA_EN_N",
+      "center_mm": [
+        28.783772456762872,
+        4.450077596958098
+      ],
+      "x_mm": 28.783772456762872,
+      "y_mm": 4.450077596958098,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ab4158041fc9a35d",
+      "tag": "iteration4_via40",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        21.943048150754,
+        13.22526485835698
+      ],
+      "x_mm": 21.943048150754,
+      "y_mm": 13.22526485835698,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "694cdaa6232a0c0c",
+      "tag": "iteration4_via41",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_TEST1",
+      "center_mm": [
+        49.23330141401724,
+        20.64409285218986
+      ],
+      "x_mm": 49.23330141401724,
+      "y_mm": 20.64409285218986,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "d7bc14c88923e25f",
+      "tag": "iteration4_via42",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "NATIVE_EN_N",
+      "center_mm": [
+        42.98084079034597,
+        41.127911790927634
+      ],
+      "x_mm": 42.98084079034597,
+      "y_mm": 41.127911790927634,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "5f2c7586d7fd94c4",
+      "tag": "iteration4_via43",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        27.123375353377316,
+        25.43884826302194
+      ],
+      "x_mm": 27.123375353377316,
+      "y_mm": 25.43884826302194,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "39e2012eb5e62ef3",
+      "tag": "iteration4_via44",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        23.837887127540952,
+        26.649157609454893
+      ],
+      "x_mm": 23.837887127540952,
+      "y_mm": 26.649157609454893,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "200e9a4a3c800364",
+      "tag": "iteration4_via45",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SCL",
+      "center_mm": [
+        35.287946944508654,
+        26.345373773498164
+      ],
+      "x_mm": 35.287946944508654,
+      "y_mm": 26.345373773498164,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "b40f5f99be65eca2",
+      "tag": "iteration4_via46",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        23.58668126319212,
+        12.731235125133033
+      ],
+      "x_mm": 23.58668126319212,
+      "y_mm": 12.731235125133033,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "a27ecc92080c3fa5",
+      "tag": "iteration4_via47",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        25.355282308147554,
+        18.406608060431648
+      ],
+      "x_mm": 25.355282308147554,
+      "y_mm": 18.406608060431648,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "cc90ec368aaf9f21",
+      "tag": "iteration4_via48",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_SCL",
+      "center_mm": [
+        27.989006885936284,
+        24.500826769553544
+      ],
+      "x_mm": 27.989006885936284,
+      "y_mm": 24.500826769553544,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "341222a7e6b42ba4",
+      "tag": "iteration4_via49",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_SCL",
+      "center_mm": [
+        26.11829789611914,
+        18.733251884043984
+      ],
+      "x_mm": 26.11829789611914,
+      "y_mm": 18.733251884043984,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "7115309b5385fd06",
+      "tag": "iteration4_via50",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_SCL",
+      "center_mm": [
+        47.43879238305212,
+        21.466290408203182
+      ],
+      "x_mm": 47.43879238305212,
+      "y_mm": 21.466290408203182,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "6ef1b1f3bdd20e48",
+      "tag": "iteration4_via51",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        59.06665210400787,
+        30.27246565286855
+      ],
+      "x_mm": 59.06665210400787,
+      "y_mm": 30.27246565286855,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "1fb5ac61511334a9",
+      "tag": "iteration4_via52",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_VREGEN",
+      "center_mm": [
+        43.95721626310322,
+        29.056314309590274
+      ],
+      "x_mm": 43.95721626310322,
+      "y_mm": 29.056314309590274,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "d70b01696010385f",
+      "tag": "iteration4_via53",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_TEST0",
+      "center_mm": [
+        46.14745708037318,
+        18.365460082651555
+      ],
+      "x_mm": 46.14745708037318,
+      "y_mm": 18.365460082651555,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "9ca06f953588abc0",
+      "tag": "iteration4_via54",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_TEST0",
+      "center_mm": [
+        51.35648626749742,
+        25.640270154254118
+      ],
+      "x_mm": 51.35648626749742,
+      "y_mm": 25.640270154254118,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ee3c4faef18b320f",
+      "tag": "iteration4_via55",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SDA",
+      "center_mm": [
+        33.78020375868997,
+        19.188673638116235
+      ],
+      "x_mm": 33.78020375868997,
+      "y_mm": 19.188673638116235,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "8801e14456231fb8",
+      "tag": "iteration4_via56",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "PWR_FAULT_N",
+      "center_mm": [
+        3.4274741491639595,
+        18.16708618977346
+      ],
+      "x_mm": 3.4274741491639595,
+      "y_mm": 18.16708618977346,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "c105c90e382380a4",
+      "tag": "iteration4_via57",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SDA",
+      "center_mm": [
+        31.113967198457715,
+        19.19629363400144
+      ],
+      "x_mm": 31.113967198457715,
+      "y_mm": 19.19629363400144,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "fe5f5afbcbd6b7ff",
+      "tag": "iteration4_via58",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USBA_EN_N",
+      "center_mm": [
+        13.956276463610708,
+        23.858461116431
+      ],
+      "x_mm": 13.956276463610708,
+      "y_mm": 23.858461116431,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "a7dec221d574f575",
+      "tag": "iteration4_via59",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TP_GPIO30",
+      "center_mm": [
+        45.62015336511718,
+        28.185602779774506
+      ],
+      "x_mm": 45.62015336511718,
+      "y_mm": 28.185602779774506,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "d5f6ad02afe16790",
+      "tag": "iteration4_via60",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_RESET",
+      "center_mm": [
+        44.40654202046731,
+        21.816556219059642
+      ],
+      "x_mm": 44.40654202046731,
+      "y_mm": 21.816556219059642,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "21adacf3219aead0",
+      "tag": "iteration4_via61",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_RESET",
+      "center_mm": [
+        40.445160159613515,
+        20.354533008552178
+      ],
+      "x_mm": 40.445160159613515,
+      "y_mm": 20.354533008552178,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "367fad24310b0980",
+      "tag": "iteration4_via62",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "PWR_FAULT_N",
+      "center_mm": [
+        10.088112552419222,
+        23.73400118363936
+      ],
+      "x_mm": 10.088112552419222,
+      "y_mm": 23.73400118363936,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "f5e12cfcc4514b07",
+      "tag": "iteration4_via63",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TP_GPIO31",
+      "center_mm": [
+        53.95846086243113,
+        30.28414964655919
+      ],
+      "x_mm": 53.95846086243113,
+      "y_mm": 30.28414964655919,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "b85181c5667cd1e8",
+      "tag": "iteration4_via64",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL1",
+      "center_mm": [
+        13.952212465805268,
+        13.015968971376756
+      ],
+      "x_mm": 13.952212465805268,
+      "y_mm": 13.015968971376756,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "bfd4bb3cc3100f4c",
+      "tag": "iteration4_via65",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL1",
+      "center_mm": [
+        16.858478896421396,
+        22.958539602388615
+      ],
+      "x_mm": 16.858478896421396,
+      "y_mm": 22.958539602388615,
+      "hole_diameter_mm": 0.29997383801412747,
+      "outer_diameter_mm": 0.5999476760282549,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.809993622603445,
+        "bottomSolderMask": -11.809993622603445
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "91ed6b2d77ba616e",
+      "tag": "sil1v8_fanout_via",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_1V8",
+      "center_mm": [
+        41.8,
+        25.1
+      ],
+      "x_mm": 41.8,
+      "y_mm": 25.1,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "db5f8c5f590c23f0",
+      "tag": "additional_0_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        63.79500000000001,
+        31.75
+      ],
+      "x_mm": 63.79500000000001,
+      "y_mm": 31.75,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "cfdc559d3cf940ff",
+      "tag": "additional_0_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        67.05,
+        28.050000000000004
+      ],
+      "x_mm": 67.05,
+      "y_mm": 28.050000000000004,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ce58c1a21aa99739",
+      "tag": "additional_0_via2",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        68.875,
+        27.700000000000003
+      ],
+      "x_mm": 68.875,
+      "y_mm": 27.700000000000003,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "16baba3b72dd8ade",
+      "tag": "additional_2_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_1V8",
+      "center_mm": [
+        44.14999999999999,
+        22.615
+      ],
+      "x_mm": 44.14999999999999,
+      "y_mm": 22.615,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ff109fbeee74a19d",
+      "tag": "additional_2_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_1V8",
+      "center_mm": [
+        38.5,
+        20.975
+      ],
+      "x_mm": 38.5,
+      "y_mm": 20.975,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "e9a8e12f5dedc5c3",
+      "tag": "additional_3_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SIL_SUSPEND",
+      "center_mm": [
+        41.35,
+        28.050000000000004
+      ],
+      "x_mm": 41.35,
+      "y_mm": 28.050000000000004,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "badcef0769e806ca",
+      "tag": "additional_5_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "3V3",
+      "center_mm": [
+        28.000000000000004,
+        22.690000000000005
+      ],
+      "x_mm": 28.000000000000004,
+      "y_mm": 22.690000000000005,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "0d39a1148f87c7a3",
+      "tag": "additional_7_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        63.099999999999994,
+        31.875
+      ],
+      "x_mm": 63.099999999999994,
+      "y_mm": 31.875,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "bf0d8263884754fc",
+      "tag": "additional_7_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        63.099999999999994,
+        29.450000000000003
+      ],
+      "x_mm": 63.099999999999994,
+      "y_mm": 29.450000000000003,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "e636b78971a8d70c",
+      "tag": "additional_8_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        47.425,
+        29.625000000000004
+      ],
+      "x_mm": 47.425,
+      "y_mm": 29.625000000000004,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "70e3fba024c2b351",
+      "tag": "additional_8_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        56.39999999999999,
+        33.075
+      ],
+      "x_mm": 56.39999999999999,
+      "y_mm": 33.075,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "0003eecb19777d5e",
+      "tag": "additional_9_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        46.925,
+        29.150000000000002
+      ],
+      "x_mm": 46.925,
+      "y_mm": 29.150000000000002,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "f5624e8a141acaa0",
+      "tag": "additional_9_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        56.24999999999999,
+        33.95
+      ],
+      "x_mm": 56.24999999999999,
+      "y_mm": 33.95,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "df6a51880c471ada",
+      "tag": "additional_9_via2",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        49.875,
+        35.5
+      ],
+      "x_mm": 49.875,
+      "y_mm": 35.5,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "674e92f834a90d40",
+      "tag": "additional_9_via3",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        48.675,
+        34.3
+      ],
+      "x_mm": 48.675,
+      "y_mm": 34.3,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "444c630c776594b9",
+      "tag": "additional_9_via4",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        55.050000000000004,
+        28.575
+      ],
+      "x_mm": 55.050000000000004,
+      "y_mm": 28.575,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "3d62702f6aa57564",
+      "tag": "additional_10_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "3V3",
+      "center_mm": [
+        61.14,
+        11.879999999999999
+      ],
+      "x_mm": 61.14,
+      "y_mm": 11.879999999999999,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "680651af3a9bd07b",
+      "tag": "additional_10_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "3V3",
+      "center_mm": [
+        61.05,
+        13.285
+      ],
+      "x_mm": 61.05,
+      "y_mm": 13.285,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "72f543982d23d12c",
+      "tag": "additional_12_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_SIL_DM",
+      "center_mm": [
+        41.975,
+        17.305
+      ],
+      "x_mm": 41.975,
+      "y_mm": 17.305,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "98bd40e6eee4f654",
+      "tag": "sil_pair_core_DP_via20",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_SIL_DP",
+      "center_mm": [
+        26.499999999999996,
+        17.9
+      ],
+      "x_mm": 26.499999999999996,
+      "y_mm": 17.9,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "68df587b979f74a0",
+      "tag": "sil_pair_core_DP_via21",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_SIL_DP",
+      "center_mm": [
+        39.4,
+        17.95
+      ],
+      "x_mm": 39.4,
+      "y_mm": 17.95,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ea108c43547d519a",
+      "tag": "sil_pair_core_DM_via22",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_SIL_DM",
+      "center_mm": [
+        26.499999999999996,
+        17.2
+      ],
+      "x_mm": 26.499999999999996,
+      "y_mm": 17.2,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "1c23c636cecf0a78",
+      "tag": "uart_pair_core_DP_via24",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_UART_DP",
+      "center_mm": [
+        28.299999999999997,
+        12.35
+      ],
+      "x_mm": 28.299999999999997,
+      "y_mm": 12.35,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "050623813d5c2062",
+      "tag": "uart_pair_core_DP_via25",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_UART_DP",
+      "center_mm": [
+        53.599999999999994,
+        10.9
+      ],
+      "x_mm": 53.599999999999994,
+      "y_mm": 10.9,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "7a73ae3227bdb30a",
+      "tag": "uart_pair_core_DM_via26",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_UART_DM",
+      "center_mm": [
+        28.299999999999997,
+        11.65
+      ],
+      "x_mm": 28.299999999999997,
+      "y_mm": 11.65,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "44bd2193f3c63ad8",
+      "tag": "uart_pair_core_DM_via27",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_UART_DM",
+      "center_mm": [
+        53.599999999999994,
+        10.2
+      ],
+      "x_mm": 53.599999999999994,
+      "y_mm": 10.2,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "117d75dc3eca8781",
+      "tag": "additional_17_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL0",
+      "center_mm": [
+        14.779999999999998,
+        9.98
+      ],
+      "x_mm": 14.779999999999998,
+      "y_mm": 9.98,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "888279396f2637f5",
+      "tag": "additional_17_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL0",
+      "center_mm": [
+        7.450000000000001,
+        29.675000000000004
+      ],
+      "x_mm": 7.450000000000001,
+      "y_mm": 29.675000000000004,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "133a7d9b2575c199",
+      "tag": "additional_17_via2",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL0",
+      "center_mm": [
+        8.675,
+        29.675000000000004
+      ],
+      "x_mm": 8.675,
+      "y_mm": 29.675000000000004,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "1548968fbb27db26",
+      "tag": "additional_17_via3",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SEL0",
+      "center_mm": [
+        15.125,
+        29.065
+      ],
+      "x_mm": 15.125,
+      "y_mm": 29.065,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "a888e238e1fc922a",
+      "tag": "additional_18_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        16.8,
+        8.5
+      ],
+      "x_mm": 16.8,
+      "y_mm": 8.5,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "2aa2e7571016651b",
+      "tag": "additional_18_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        7.575,
+        8.5
+      ],
+      "x_mm": 7.575,
+      "y_mm": 8.5,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ed343e54265ea765",
+      "tag": "additional_18_via2",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        9.4,
+        39.4
+      ],
+      "x_mm": 9.4,
+      "y_mm": 39.4,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "4bbf3113d9208af2",
+      "tag": "additional_18_via3",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        19.975,
+        37.475
+      ],
+      "x_mm": 19.975,
+      "y_mm": 37.475,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "db5ce1555866060f",
+      "tag": "additional_19_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SCL",
+      "center_mm": [
+        40.275,
+        16.75
+      ],
+      "x_mm": 40.275,
+      "y_mm": 16.75,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "92c6ba71550fc6b2",
+      "tag": "additional_19_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SCL",
+      "center_mm": [
+        53.70000000000001,
+        18.95
+      ],
+      "x_mm": 53.70000000000001,
+      "y_mm": 18.95,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "26387c4cef1a2fbb",
+      "tag": "additional_19_via2",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SCL",
+      "center_mm": [
+        57.25,
+        21.725
+      ],
+      "x_mm": 57.25,
+      "y_mm": 21.725,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "ea3b3a73ae735162",
+      "tag": "additional_19_via3",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SCL",
+      "center_mm": [
+        67.875,
+        25.6
+      ],
+      "x_mm": 67.875,
+      "y_mm": 25.6,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "fb51b9b6c466a9a2",
+      "tag": "additional_19_via4",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SCL",
+      "center_mm": [
+        70.3,
+        26.324999999999996
+      ],
+      "x_mm": 70.3,
+      "y_mm": 26.324999999999996,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "71b2f524430fc866",
+      "tag": "additional_19_via5",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "EE_SCL",
+      "center_mm": [
+        38.725,
+        36.9
+      ],
+      "x_mm": 38.725,
+      "y_mm": 36.9,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "45d4e1e2598fc31e",
+      "tag": "additional_20_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        49.525,
+        16.2
+      ],
+      "x_mm": 49.525,
+      "y_mm": 16.2,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "56b2e39585cd5fd8",
+      "tag": "additional_20_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        48.425,
+        17.3
+      ],
+      "x_mm": 48.425,
+      "y_mm": 17.3,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "b9f604aec838868b",
+      "tag": "additional_22_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_IN",
+      "center_mm": [
+        24.525,
+        13.5
+      ],
+      "x_mm": 24.525,
+      "y_mm": 13.5,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "85601d61dbbf8b01",
+      "tag": "additional_22_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_IN",
+      "center_mm": [
+        22.65,
+        12.0
+      ],
+      "x_mm": 22.65,
+      "y_mm": 12.0,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "1f93b4af10901ae0",
+      "tag": "additional_24_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_IN",
+      "center_mm": [
+        27.425,
+        6.35
+      ],
+      "x_mm": 27.425,
+      "y_mm": 6.35,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "8dc9205744cb8698",
+      "tag": "additional_24_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "VBUS_IN",
+      "center_mm": [
+        21.325,
+        6.35
+      ],
+      "x_mm": 21.325,
+      "y_mm": 6.35,
+      "hole_diameter_mm": 0.3,
+      "outer_diameter_mm": 0.6,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -11.811023622047244,
+        "bottomSolderMask": -11.811023622047244
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "0137e59a75641bfa",
+      "tag": "additional_26_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_UART_DP",
+      "center_mm": [
+        22.725,
+        19.05
+      ],
+      "x_mm": 22.725,
+      "y_mm": 19.05,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "71c790ec64549cc5",
+      "tag": "additional_26_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_UART_DP",
+      "center_mm": [
+        26.075000000000003,
+        13.325
+      ],
+      "x_mm": 26.075000000000003,
+      "y_mm": 13.325,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "aa3492827b6817fb",
+      "tag": "additional_27_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        18.9,
+        12.675
+      ],
+      "x_mm": 18.9,
+      "y_mm": 12.675,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "9deed5e1e21ecb28",
+      "tag": "additional_27_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        15.1,
+        12.675
+      ],
+      "x_mm": 15.1,
+      "y_mm": 12.675,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "c8b8b8842343b0d2",
+      "tag": "additional_27_via2",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        11.275,
+        13.6
+      ],
+      "x_mm": 11.275,
+      "y_mm": 13.6,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "51cd80058a184d0a",
+      "tag": "additional_27_via3",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        7.775,
+        19.3
+      ],
+      "x_mm": 7.775,
+      "y_mm": 19.3,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "bc8c888a0399b2f0",
+      "tag": "additional_27_via4",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        9.925,
+        19.35
+      ],
+      "x_mm": 9.925,
+      "y_mm": 19.35,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "11e8d856b8ffaa39",
+      "tag": "additional_27_via5",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        11.65,
+        22.65
+      ],
+      "x_mm": 11.65,
+      "y_mm": 22.65,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "4c0e963372835e94",
+      "tag": "additional_27_via6",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        20.975,
+        22.4
+      ],
+      "x_mm": 20.975,
+      "y_mm": 22.4,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "3e4b57e360d3c3c9",
+      "tag": "uart_v3_c16_via",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "UART_V3",
+      "center_mm": [
+        57.71,
+        9.82
+      ],
+      "x_mm": 57.71,
+      "y_mm": 9.82,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "8052860e3ef865dd",
+      "tag": "uart_target_balance_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_UART_DM",
+      "center_mm": [
+        56.49999999999999,
+        8.75
+      ],
+      "x_mm": 56.49999999999999,
+      "y_mm": 8.75,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "52c41fdf1a9827d5",
+      "tag": "uart_target_balance_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "USB_UART_DM",
+      "center_mm": [
+        57.5,
+        8.75
+      ],
+      "x_mm": 57.5,
+      "y_mm": 8.75,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "492a8cd298b4d8be",
+      "tag": "additional_28_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "UART_V3",
+      "center_mm": [
+        57.975,
+        11.75
+      ],
+      "x_mm": 57.975,
+      "y_mm": 11.75,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "fd0dcbce74bffe13",
+      "tag": "additional_30_via0",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        58.275,
+        8.975
+      ],
+      "x_mm": 58.275,
+      "y_mm": 8.975,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    },
+    {
+      "kind": "VIA",
+      "primitiveId": "d383fef5fb2df488",
+      "tag": "additional_30_via1",
+      "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        56.12500000000001,
+        11.2
+      ],
+      "x_mm": 56.12500000000001,
+      "y_mm": 11.2,
+      "hole_diameter_mm": 0.2,
+      "outer_diameter_mm": 0.5,
+      "classification": "ordinary-through-via",
+      "VIPPO": false,
+      "solderMaskExpansion_mil": {
+        "topSolderMask": -9.84251968503937,
+        "bottomSolderMask": -9.84251968503937
+      }
+    }
+  ],
+  "originalVIPPO": [
+    {
+      "primitiveId": "17077d66f911113b",
+      "footprintPad": "U2.33",
+      "net": "GND",
+      "center_mm": [
+        46.57712299999999,
+        23.577423
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "classification": "approved-original-EP-VIPPO",
+      "VIPPO": true
+    },
+    {
+      "primitiveId": "89573436f3d877d6",
+      "footprintPad": "U2.33",
+      "net": "GND",
+      "center_mm": [
+        49.371123,
+        26.371422999999997
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "classification": "approved-original-EP-VIPPO",
+      "VIPPO": true
+    },
+    {
+      "primitiveId": "400bbe0a7d6d643b",
+      "footprintPad": "U3.17",
+      "net": "GND",
+      "center_mm": [
+        59.476081199999996,
+        9.9765612
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "classification": "approved-original-EP-VIPPO",
+      "VIPPO": true
+    },
+    {
+      "primitiveId": "42761d9427b0bc87",
+      "footprintPad": "U3.17",
+      "net": "GND",
+      "center_mm": [
+        60.492081199999994,
+        10.9925612
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "classification": "approved-original-EP-VIPPO",
+      "VIPPO": true
+    }
+  ],
+  "native_import_verified": false,
+  "cam_verified": false
+}

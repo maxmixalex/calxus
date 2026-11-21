@@ -1,0 +1,16 @@
+{
+  "schema": "calxus.final-delivery-document-audit.v1",
+  "checked_at": "2026-11-21T13:11:51.659921+00:00",
+  "pass": true,
+  "summary_sha256": "b0c3c5a36d159e294210ff064546b7bf9b3a33ea6302fedf0b1a58364863093a",
+  "summary_file_hash_entries_checked": 74,
+  "unique_summary_paths_checked": 56,
+  "relative_markdown_links_checked": 95,
+  "manufacturing_release_accepted": false,
+  "hardware_tested": false,
+  "raw_drc_items": 4,
+  "unexplained_netlist_error_items": 1,
+  "actual_cam247_holes_passed": true,
+  "original_and_corrected_svg_hashes_verified": true,
+  "errors": []
+}

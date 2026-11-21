@@ -1,0 +1,36 @@
+{
+  "schema": "calxus.frozen-hs-upstream-copper-contact.v1",
+  "source_archive_sha256": "54827104aa16ea58bcd6dfbdf21af6e03cba56d9551dff99abbe2dfb1335edaa",
+  "source_line_ids": [
+    "517d0ae7cba763ef",
+    "b6e1148e2fb122cf"
+  ],
+  "source_lines_mil": [
+    {
+      "id": "517d0ae7cba763ef",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 302,
+      "y1": 816.9,
+      "x2": 302,
+      "y2": 856.3,
+      "width": 9.5313,
+      "locked": true
+    },
+    {
+      "id": "b6e1148e2fb122cf",
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "x1": 263.5,
+      "y1": 856.3,
+      "x2": 368.1,
+      "y2": 864.2,
+      "width": 9.5313,
+      "locked": true
+    }
+  ],
+  "overlapping_copper_area_mm2": 0.03452318883937119,
+  "unchanged_from_r7_baseline": true,
+  "requires_review": true,
+  "source_mutated": false
+}

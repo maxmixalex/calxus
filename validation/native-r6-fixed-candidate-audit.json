@@ -1,0 +1,166 @@
+{
+  "schema": "calxus.native-repair-candidate.v1",
+  "status": "139-line/61-via recovery baseline; ordinary routing is incomplete. Not the saved 1058-line/66-via routing candidate. Import and STEP verification pending.",
+  "input_archive": "calxus_work/evidence/Calxus_RevA_r6_baseline.epro2",
+  "input_bytes": 276950,
+  "input_sha256": "89a5900eadeafcf96c7f488b5a86ed0c1d5a850b1fee566fb0b3807436e7f6a9",
+  "output_archive": "calxus_work/evidence/Calxus_RevA_native_fixed.epro2",
+  "output_bytes": 264836,
+  "output_sha256": "14633dadaf8768727c33a8bd6bf476226d26ff51e3585ab4ac5253297da68137",
+  "patch_scope": [
+    "PCB physical layer records + 3 dielectric layer definitions",
+    "U2/U3 EP TopPaste single apertures replaced by 4 each",
+    "Eight mounting REGION CIRCLE center-Y fields only"
+  ],
+  "protected_source_bytes_unchanged": true,
+  "protected_source_sha256": "82a8718f4784066e959e7d7388758b197368316cdd94b3bfad6438ef1fb9670f",
+  "pcb_counts": {
+    "DOCHEAD": 1,
+    "META": 1,
+    "PRIMITIVE": 58,
+    "CANVAS": 1,
+    "LAYER": 62,
+    "LAYER_PHYS": 13,
+    "ACTIVE_LAYER": 1,
+    "RULE_TEMPLATE": 1,
+    "RULE": 18,
+    "SILK_OPTS": 2,
+    "D3_ATTRIBUTE": 1,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "NET": 70,
+    "PAD_NET": 345,
+    "COMPONENT": 97,
+    "ATTR": 301,
+    "POLY": 1,
+    "PAD": 27,
+    "REGION": 8,
+    "STRING": 7,
+    "RULE_SELECTOR": 75,
+    "VIA": 61,
+    "LINE": 139,
+    "ELE_PLACEHOLDER": 4,
+    "POUR": 2,
+    "POURED": 2
+  },
+  "pcb_copper_and_placement_raw_records_unchanged": true,
+  "tp6_mm": [
+    27.99999988,
+    23.50000126
+  ],
+  "board_outline_positive_y": true,
+  "physical_total_including_masks_mm": 1.6062,
+  "ep_windows_per_package": 4,
+  "schematic_audit_pass": true,
+  "mount_keepout_records": [
+    {
+      "id": "cfa2ddce6263ecb9",
+      "layer": 1,
+      "path": [
+        [
+          "CIRCLE",
+          137.7953,
+          137.7953,
+          118.1102
+        ]
+      ]
+    },
+    {
+      "id": "3e7c0be364c5117f",
+      "layer": 2,
+      "path": [
+        [
+          "CIRCLE",
+          137.7953,
+          137.7953,
+          118.1102
+        ]
+      ]
+    },
+    {
+      "id": "775fefcc2e73d3c9",
+      "layer": 1,
+      "path": [
+        [
+          "CIRCLE",
+          3011.811,
+          137.7953,
+          118.1102
+        ]
+      ]
+    },
+    {
+      "id": "549a3476f20b8b2a",
+      "layer": 2,
+      "path": [
+        [
+          "CIRCLE",
+          3011.811,
+          137.7953,
+          118.1102
+        ]
+      ]
+    },
+    {
+      "id": "789522b596c87666",
+      "layer": 1,
+      "path": [
+        [
+          "CIRCLE",
+          137.7953,
+          1515.748,
+          118.1102
+        ]
+      ]
+    },
+    {
+      "id": "bd935da888d8f73c",
+      "layer": 2,
+      "path": [
+        [
+          "CIRCLE",
+          137.7953,
+          1515.748,
+          118.1102
+        ]
+      ]
+    },
+    {
+      "id": "c32ec748fc2228cc",
+      "layer": 1,
+      "path": [
+        [
+          "CIRCLE",
+          3011.811,
+          1515.748,
+          118.1102
+        ]
+      ]
+    },
+    {
+      "id": "1426c5488603f63d",
+      "layer": 2,
+      "path": [
+        [
+          "CIRCLE",
+          3011.811,
+          1515.748,
+          118.1102
+        ]
+      ]
+    }
+  ],
+  "mount_keepout_negative_y_detected": false,
+  "native_import_verified": false,
+  "native_reopen_verified": false,
+  "actual_pcba_step_fit_verified": false,
+  "windows_write_readback_verified": true,
+  "mount_keepout_centers_positive_y_verified": true,
+  "mount_keepout_other_fields_and_headers_unchanged": true,
+  "all_requested_offline_checks_pass": true,
+  "windows_path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_native_fixed.epro2",
+  "windows_session_used": "87a08620-1b89-48fb-9b11-50945f72c55c",
+  "windows_readback_bytes": 264836,
+  "windows_readback_sha256": "14633dadaf8768727c33a8bd6bf476226d26ff51e3585ab4ac5253297da68137",
+  "byte_for_byte_roundtrip_equal": true
+}

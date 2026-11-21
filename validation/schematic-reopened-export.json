@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-11-21T09:53:48.082Z",
+  "projectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+  "export": {
+    "checkedAt": "2026-11-21T09:53:48.082Z",
+    "request": {
+      "fileName": "Calxus_RevA_schematic",
+      "fileType": "PDF",
+      "scope": "All Schematic",
+      "outputMethod": "Merged sheet"
+    },
+    "separateActivationInvoke": true,
+    "ok": true,
+    "name": "Calxus_RevA_schematic.zip",
+    "size": 283097,
+    "type": "",
+    "magic": [
+      80,
+      75,
+      3,
+      4,
+      10,
+      0,
+      0,
+      0
+    ],
+    "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_schematic.zip",
+    "saved": true,
+    "readbackByteIdentical": true
+  },
+  "netlist": {
+    "components": 97,
+    "pins": 344,
+    "comparison": "schematic-netlist-reopened-comparison.json"
+  },
+  "erc": {
+    "error": 0,
+    "fatal": 0,
+    "warning": 2,
+    "results": [
+      {
+        "type": "warn",
+        "rule": "SHOWDANDLING",
+        "primitives": [
+          {
+            "primitiveId": "fc8b4885d7aec730",
+            "sheet": "35c8fed936c1c8a9",
+            "name": "$2N147"
+          }
+        ]
+      },
+      {
+        "type": "warn",
+        "rule": "SHOWDANDLING",
+        "primitives": [
+          {
+            "primitiveId": "84967908cef7dd7d",
+            "sheet": "35c8fed936c1c8a9",
+            "name": "$2N146"
+          }
+        ]
+      }
+    ]
+  },
+  "nc": {
+    "sourceArchiveCheck": 21,
+    "nativeAfterReopen": "Pending rerun of adapted component-pin-ID auditor; previous failure was due to page-only EPRJ3 source without embedded library"
+  },
+  "visualReview": "schematic-pdf-review/review.json",
+  "visualPass": false
+}

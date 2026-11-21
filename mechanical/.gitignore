@@ -1,0 +1,6 @@
+tmp/
+__pycache__/
+output/*.blend*
+output/*.FCBak
+output/*.FCStd1
+output/*.zip

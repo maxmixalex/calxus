@@ -1,0 +1,52 @@
+{
+  "schema": "calxus.actual-final-gerber-visual-review.v1",
+  "checked_at": "2026-11-21T12:58:48.095645+00:00",
+  "pass": true,
+  "gerber_archive_sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+  "source_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "method": "Actual viewing of final top,bottom and top-paste images rendered from parsed native Gerber SVGs with Sharp/librsvg at2400px; numerical checks linked separately.",
+  "images": [
+    {
+      "path": "validation/native-final-gerber/gerber-top.png",
+      "sha256": "b9fe116ec88d235c48da3ec021a91b6860bbe1a7a14afc8b3087ebff54bf34d0",
+      "bytes": 437535
+    },
+    {
+      "path": "validation/native-final-gerber/gerber-bottom.png",
+      "sha256": "49dc8e79fe3e8e524b5945f51b792c0e2e5337798cd5f992f039cd9d186f9bd5",
+      "bytes": 238229
+    },
+    {
+      "path": "validation/native-final-gerber/gerber-top-paste.png",
+      "sha256": "54f21071d0d4f9e6b3522720bd2cb332dbd9d122442575ab0323281c9423d980",
+      "bytes": 55307
+    }
+  ],
+  "checks": {
+    "outer_board_outline": true,
+    "four_mounting_holes": true,
+    "J2_two_Y_axis_plated_slots": true,
+    "both_QFN_four_window_stencils": true,
+    "functional_MINI_TI_CASIO_AUX_brand_power_labels_legible": true,
+    "four_mode_legend_legible": true,
+    "IC_pin1_and_diode_polarity_marks_identifiable": true,
+    "seven_functional_ink_to_mask_and_edge_clearance_pass": true,
+    "observed_stock_resistor_notched_paste_matches_native_footprint": true
+  },
+  "reports": [
+    "validation/native-final-gerber/gerber-validation.json",
+    "validation/native-final-gerber/functional-silk.json",
+    "validation/native-final-gerber/stock-passive-paste.json",
+    "validation/native-final-gerber/outline-corners.json"
+  ],
+  "cosmetic_note": "Some dense general reference-designator text is clipped by pad openings or crowded. This review accepts the specifically requested functional/interface/mode/polarity marks and does not assert that every reference label has ideal spacing. No further general label rerouting was applied.",
+  "scope": "Prototype fabrication-file visual review, not electrical SI, solder-process qualification or built-hardware testing.",
+  "independent_root_review": "Parent/root actually viewed final top,bottom and paste and accepted functional labels and measured stock-passive paste on2026-11-21; no additional cosmetic/footprint edits requested.",
+  "preview_outline_correction": "Only redundant Gerbonara SVG closing-loop was removed after independently proving the actual GKO four R1mm arcs; original SVGs and exact before/after path hashes are retained in outline-corners.json. Native Gerber bytes unchanged.",
+  "preview_correction_reinspection": {
+    "checked_at": "2026-11-21T13:08:49.145559+00:00",
+    "top_and_bottom_actually_viewed": true,
+    "four_round_corners_visible": true,
+    "native_gerber_unchanged": true
+  }
+}

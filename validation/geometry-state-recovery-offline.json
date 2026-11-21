@@ -1,0 +1,20 @@
+{
+  "scope": "Offline mock API behavior only; no native editor/canvas execution",
+  "pass": true,
+  "scenarios": [
+    "stale cached IDs + existing primitives reused",
+    "negative-Y outline/keepouts/planes corrected",
+    "one missing keepout/testpad/plane recreated",
+    "repeat run creates no duplicates"
+  ],
+  "final_counts": {
+    "component": 97,
+    "poly": 1,
+    "pad": 27,
+    "region": 8,
+    "string": 7,
+    "pour": 2
+  },
+  "new_primitives_after_three_runs": 3,
+  "actual_native_run_performed": false
+}

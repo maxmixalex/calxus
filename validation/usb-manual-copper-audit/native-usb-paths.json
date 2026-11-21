@@ -1,0 +1,352 @@
+{
+  "schema": "calxus.native-usb-paths.v1",
+  "source_copper_sha256": "e3142bac9aeb4f7cfb6debc41f372b2b90d3fad70ff13bb84236df0512766952",
+  "source_pads_sha256": "7ab7e510a156da9ed2dcd957aa71cf5990cf1bf89a70bcd091ad8aaab721fd84",
+  "paths": {
+    "UP_A_orientation": {
+      "DP_mm": 20.537275186949998,
+      "DM_mm": 20.689615912748,
+      "signed_skew_mm": -0.15234072579800184,
+      "absolute_skew_mm": 0.15234072579800184,
+      "ideal_via_barrel_mm": 3.2
+    },
+    "UP_B_orientation": {
+      "DP_mm": 17.58071518695,
+      "DM_mm": 17.733055912747997,
+      "signed_skew_mm": -0.1523407257979983,
+      "absolute_skew_mm": 0.1523407257979983,
+      "ideal_via_barrel_mm": 3.2
+    },
+    "NATIVE": {
+      "DP_mm": 67.839184828052,
+      "DM_mm": 67.839647810616,
+      "signed_skew_mm": -0.0004629825640023455,
+      "absolute_skew_mm": 0.0004629825640023455,
+      "ideal_via_barrel_mm": 3.2
+    },
+    "USB_A": {
+      "DP_mm": 38.874093957739994,
+      "DM_mm": 38.64381853944999,
+      "signed_skew_mm": 0.23027541829000597,
+      "absolute_skew_mm": 0.23027541829000597,
+      "ideal_via_barrel_mm": 3.2
+    },
+    "USB_C_A_to_NATIVE": {
+      "DP_mm": 88.376460015002,
+      "DM_mm": 88.529263723364,
+      "signed_skew_mm": -0.15280370836200063,
+      "absolute_skew_mm": 0.15280370836200063,
+      "ideal_via_barrel_mm": 6.4
+    },
+    "USB_C_A_to_USB_A": {
+      "DP_mm": 59.41136914468999,
+      "DM_mm": 59.33343445219799,
+      "signed_skew_mm": 0.07793469249200058,
+      "absolute_skew_mm": 0.07793469249200058,
+      "ideal_via_barrel_mm": 6.4
+    },
+    "USB_C_B_to_NATIVE": {
+      "DP_mm": 85.419900015002,
+      "DM_mm": 85.572703723364,
+      "signed_skew_mm": -0.15280370836200063,
+      "absolute_skew_mm": 0.15280370836200063,
+      "ideal_via_barrel_mm": 6.4
+    },
+    "USB_C_B_to_USB_A": {
+      "DP_mm": 56.45480914468999,
+      "DM_mm": 56.37687445219798,
+      "signed_skew_mm": 0.07793469249200768,
+      "absolute_skew_mm": 0.07793469249200768,
+      "ideal_via_barrel_mm": 6.4
+    }
+  },
+  "pair_clearance": [
+    {
+      "base": "USB_UP",
+      "layer": 1,
+      "minimum_DP_DM_line_via_copper_gap_mil": 6.400000000000091,
+      "minimum_gap_mm": 0.1625600000000023,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_UP",
+      "layer": 2,
+      "minimum_DP_DM_line_via_copper_gap_mil": 5.999988829193007,
+      "minimum_gap_mm": 0.15239971626150237,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_NATIVE",
+      "layer": 1,
+      "minimum_DP_DM_line_via_copper_gap_mil": 6.400000000000091,
+      "minimum_gap_mm": 0.1625600000000023,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_NATIVE",
+      "layer": 2,
+      "minimum_DP_DM_line_via_copper_gap_mil": 5.9991069487808995,
+      "minimum_gap_mm": 0.15237731649903483,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_A",
+      "layer": 1,
+      "minimum_DP_DM_line_via_copper_gap_mil": 6.400000000000091,
+      "minimum_gap_mm": 0.1625600000000023,
+      "passes_6mil": true
+    },
+    {
+      "base": "USB_A",
+      "layer": 2,
+      "minimum_DP_DM_line_via_copper_gap_mil": 5.9999899999995705,
+      "minimum_gap_mm": 0.1523997459999891,
+      "passes_6mil": true
+    }
+  ],
+  "centerline_attachments": [
+    {
+      "net": "USB_A_DM",
+      "layer": 1,
+      "name": "via:2ca8c37d4d45e084",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DM",
+      "layer": 1,
+      "name": "via:a1b1bac9c63b6d6b",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DM",
+      "layer": 1,
+      "name": "U1.11",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DM",
+      "layer": 1,
+      "name": "J2.2",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DM",
+      "layer": 2,
+      "name": "via:2ca8c37d4d45e084",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DM",
+      "layer": 2,
+      "name": "via:a1b1bac9c63b6d6b",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DP",
+      "layer": 1,
+      "name": "via:1a2a5c8de0cd25f9",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DP",
+      "layer": 1,
+      "name": "via:58bc2252284b2c6a",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DP",
+      "layer": 1,
+      "name": "U1.5",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DP",
+      "layer": 1,
+      "name": "J2.3",
+      "offset_mil": 2.2736794991242058e-13
+    },
+    {
+      "net": "USB_A_DP",
+      "layer": 2,
+      "name": "via:1a2a5c8de0cd25f9",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_A_DP",
+      "layer": 2,
+      "name": "via:58bc2252284b2c6a",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DM",
+      "layer": 1,
+      "name": "via:4bf0913127979c6e",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DM",
+      "layer": 1,
+      "name": "via:82756998d55da9de",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DM",
+      "layer": 1,
+      "name": "U1.10",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DM",
+      "layer": 1,
+      "name": "J3.2",
+      "offset_mil": 2.2737367544323206e-13
+    },
+    {
+      "net": "USB_NATIVE_DM",
+      "layer": 2,
+      "name": "via:4bf0913127979c6e",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DM",
+      "layer": 2,
+      "name": "via:82756998d55da9de",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DP",
+      "layer": 1,
+      "name": "via:cec7b08cf99ddd80",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DP",
+      "layer": 1,
+      "name": "via:5538e16fa0aad347",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DP",
+      "layer": 1,
+      "name": "U1.6",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DP",
+      "layer": 1,
+      "name": "J3.3",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DP",
+      "layer": 2,
+      "name": "via:cec7b08cf99ddd80",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_NATIVE_DP",
+      "layer": 2,
+      "name": "via:5538e16fa0aad347",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "name": "via:4146bad3dedc458a",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "name": "via:a172eb50d6cba057",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "name": "J1.A7",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "name": "U1.9",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "name": "J1.B7",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 1,
+      "name": "U1.9",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 2,
+      "name": "via:4146bad3dedc458a",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DM",
+      "layer": 2,
+      "name": "via:a172eb50d6cba057",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 1,
+      "name": "via:84ec733ff0c71398",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 1,
+      "name": "via:136dac46c24376e8",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 1,
+      "name": "J1.A6",
+      "offset_mil": 1.1368683772161603e-13
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 1,
+      "name": "U1.7",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 1,
+      "name": "J1.B6",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 1,
+      "name": "U1.7",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 2,
+      "name": "via:84ec733ff0c71398",
+      "offset_mil": 0.0
+    },
+    {
+      "net": "USB_UP_DP",
+      "layer": 2,
+      "name": "via:136dac46c24376e8",
+      "offset_mil": 0.0
+    }
+  ],
+  "skew_limit_mm": 0.254,
+  "passed": true,
+  "limits": "Actual native line centers and vias, with explicit T-junction splitting and ideal 1.6mm through-via barrel lengths. Numeric attachment offsets <=0.11mil accommodate API coordinate quantization and are included. Does not include package/mux/cable propagation or field-solved pad/annulus delay."
+}

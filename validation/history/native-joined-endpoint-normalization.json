@@ -1,0 +1,206 @@
+{
+  "jobId": "job-mcp-d6236fc4-c076-46d7-9522-2ffbe8b09c53",
+  "state": {
+    "schema": "calxus.native-final-copper-reconcile.v2",
+    "candidateSHA256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+    "planSHA256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+    "next": 11,
+    "completed": [
+      {
+        "index": 0,
+        "type": "via",
+        "tag": "additional_2_via0",
+        "id": "3842ea1b1dfeb433",
+        "candidateId": "16baba3b72dd8ade",
+        "savedAt": "2026-11-21T12:28:13.028Z",
+        "recoveryNote": "All effective source records compared. Only intended VIA centerY and DOCHEAD client/updateTime/version changed; document identity unchanged."
+      },
+      {
+        "index": 1,
+        "type": "via",
+        "tag": "iteration4_via35",
+        "id": "b0cb8e6c1b5771e4",
+        "candidateId": "7940995d4d32a07c",
+        "savedAt": "2026-11-21T12:28:26.079Z"
+      },
+      {
+        "index": 2,
+        "type": "via",
+        "tag": "additional_5_via0",
+        "id": "06b5348e2272b6ea",
+        "candidateId": "badcef0769e806ca",
+        "savedAt": "2026-11-21T12:28:26.613Z"
+      },
+      {
+        "index": 3,
+        "type": "via",
+        "tag": "iteration4_via28",
+        "id": "75e3a8ad74d3bd2d",
+        "candidateId": "aef77ed306de1b93",
+        "savedAt": "2026-11-21T12:28:27.197Z"
+      },
+      {
+        "index": 4,
+        "type": "delete",
+        "tag": null,
+        "id": "1a6f28a2d6cd9325",
+        "candidateId": "1a6f28a2d6cd9325",
+        "savedAt": "2026-11-21T12:28:27.731Z"
+      },
+      {
+        "index": 5,
+        "type": "delete",
+        "tag": null,
+        "id": "517d0ae7cba763ef",
+        "candidateId": "517d0ae7cba763ef",
+        "savedAt": "2026-11-21T12:28:28.307Z"
+      },
+      {
+        "index": 6,
+        "type": "delete",
+        "tag": "iteration4_trace218_segment0",
+        "id": "64dd1cabb7159c67",
+        "candidateId": "2b1a9952812c796e",
+        "savedAt": "2026-11-21T12:28:29.207Z"
+      },
+      {
+        "index": 7,
+        "type": "delete",
+        "tag": null,
+        "id": "02e07c79d1fc1f12",
+        "candidateId": "02e07c79d1fc1f12",
+        "savedAt": "2026-11-21T12:28:29.792Z"
+      },
+      {
+        "index": 8,
+        "type": "delete",
+        "tag": "iteration4_trace218_segment1",
+        "id": "fb3e9f288fcb3fc6",
+        "candidateId": "d321584e04cfa2b5",
+        "savedAt": "2026-11-21T12:28:30.415Z"
+      },
+      {
+        "index": 9,
+        "type": "delete",
+        "tag": null,
+        "id": "b6e1148e2fb122cf",
+        "candidateId": "b6e1148e2fb122cf",
+        "savedAt": "2026-11-21T12:28:31.090Z"
+      },
+      {
+        "index": 10,
+        "type": "line",
+        "tag": null,
+        "id": "ed40be3f38c7c27b",
+        "candidateId": "ed40be3f38c7c27b",
+        "savedAt": "2026-11-21T12:28:31.641Z"
+      }
+    ],
+    "startedAt": "2026-11-21T12:26:55.763Z",
+    "sourceBackup": "pcb-before-final-copper-reconcile.epcb2",
+    "pending": {
+      "index": 11,
+      "type": "line",
+      "tag": null,
+      "id": "fe1f780ca39d4696",
+      "candidateId": "fe1f780ca39d4696",
+      "at": "2026-11-21T12:29:10.310Z"
+    }
+  },
+  "diffs": [
+    {
+      "key": "DOCHEAD|undefined",
+      "before": {
+        "docType": "PCB",
+        "client": "a6e23c96b76d5abd",
+        "uuid": "2a0c39c6c6694f40",
+        "updateTime": 1795264111716,
+        "version": "1795264111716"
+      },
+      "after": {
+        "docType": "PCB",
+        "client": "f68bc9b373103471",
+        "uuid": "2a0c39c6c6694f40",
+        "updateTime": 1795264186909,
+        "version": "1795264186909"
+      }
+    },
+    {
+      "key": "LINE|fe1f780ca39d4696",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_UP_DP",
+        "layerId": 1,
+        "startX": 225,
+        "startY": 797.2,
+        "endX": 225,
+        "endY": 836.6,
+        "width": 9.5313,
+        "locked": true,
+        "zIndex": -1
+      },
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_UP_DP",
+        "layerId": 1,
+        "startX": 226.9685,
+        "startY": 797.2,
+        "endX": 226.9685,
+        "endY": 836.6,
+        "width": 9.5313,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "key": "LINE|a4b12270ece21cb2",
+      "before": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_UP_DP",
+        "layerId": 1,
+        "startX": 225,
+        "startY": 836.6,
+        "endX": 263.5,
+        "endY": 836.6,
+        "width": 9.5313,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "key": "LINE|64529ae4e441455b",
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_UP_DP",
+        "layerId": 1,
+        "startX": 225,
+        "startY": 836.6,
+        "endX": 226.9685,
+        "endY": 836.6,
+        "width": 9.5313,
+        "locked": true,
+        "zIndex": -1
+      }
+    },
+    {
+      "key": "LINE|cc1249146b6d7259",
+      "after": {
+        "partitionId": "",
+        "groupId": 0,
+        "netName": "USB_UP_DP",
+        "layerId": 1,
+        "startX": 226.9685,
+        "startY": 836.6,
+        "endX": 263.5,
+        "endY": 836.6,
+        "width": 9.5313,
+        "locked": true,
+        "zIndex": -1
+      }
+    }
+  ]
+}

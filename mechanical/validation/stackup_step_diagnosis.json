@@ -1,0 +1,70 @@
+{
+  "status": "Exact thickness mismatch explained; current live source/reload verification pending",
+  "source_step": "Calxus_PCBA_corrected.step.gz (partially transferred; complete Board BREP extracted)",
+  "source_step_generated": "2026-11-21T16:07:34",
+  "source_disk_metadata": "pcb1_disk_stackup_metadata.json",
+  "source_api": "../../validation/pcb-stackup-verified.json",
+  "board_bbox_mm": [
+    0.0127000254,
+    0.0127000254,
+    0,
+    79.98745997492,
+    41.987383974768,
+    2.905898439303
+  ],
+  "board_valid": true,
+  "board_solids": 1,
+  "mount_holes_mm": [
+    {
+      "x": 3.5000076,
+      "y": 3.5000076,
+      "diameter": 2.200005
+    },
+    {
+      "x": 3.5000076,
+      "y": 38.5000762,
+      "diameter": 2.200005
+    },
+    {
+      "x": 76.5001524,
+      "y": 3.5000076,
+      "diameter": 2.200005
+    },
+    {
+      "x": 76.5001524,
+      "y": 38.5000762,
+      "diameter": 2.200005
+    }
+  ],
+  "api_thickness_mm": 1.6062553861084914,
+  "old_disk_physical_sum_mil": 62.994,
+  "newly_added_layer_ids": [
+    15,
+    16,
+    362,
+    363
+  ],
+  "newly_added_layer_sum_mil": 51.411221555362445,
+  "step_millimetres_per_source_mil": 0.025400050800101596,
+  "predicted_thickness_old_plus_new_mm": 2.9058984393030842,
+  "measured_step_thickness_mm": 2.905898439303,
+  "residual_mm": -8.43769498715119e-14,
+  "interpretation": "STEP retains old physical properties for existing layer ids, while newly added physical layer ids are included. This fits a stale export/renderer model; current live source is required to distinguish cache from persisted duplicate records.",
+  "suggested_verification": [
+    "Read current full document source for the target PCB UUID and check one current LAYER_PHYS per id.",
+    "Save and reload the PCB/project to rebuild export state, then export only board or first Board BREP.",
+    "Confirm BREP thickness approximately 1.6063 mm before full PCBA transfer; do not remove the required 362 core or 363 prepreg."
+  ],
+  "source_mutated": false,
+  "actual_component_placement_evidence": {
+    "reference": "U4",
+    "step_entity": "#13346",
+    "source_translation_mm": [
+      34.000068580137,
+      15.000030480061,
+      2.905898439303
+    ],
+    "meaning": "The component placement uses the incorrect board top height; this is not merely a cosmetic board solid issue."
+  },
+  "disk_snapshot_caveat": "The active Calxus session has origin=user and path=null. PCB1.epcb2 is an earlier export, not a two-way folder binding; its old parameters are not evidence that save() failed."
+}

@@ -1,0 +1,184 @@
+{
+  "schema": "calxus.functional-silk-placement-plan.v1",
+  "source_candidate_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "actual_cam_sample_sha256": "d61a95b0708735b9fa8671ec10bba1e166be8521ac6f365a3a70496f9ec3e3eb",
+  "scope": "Approved six functional STRING positions/rotations only. No component,reference-label,copper,pad,net or font changes. Envelope clearance is conservative precheck; final native text geometry and Gerber clipping must be verified.",
+  "required_final_pad_mask_clearance_mm": 0.15,
+  "required_final_board_edge_clearance_mm": 0.15,
+  "items": [
+    {
+      "primitiveId": "c1e6ffdbafe85812",
+      "text": "CALXUS Rev A",
+      "old": {
+        "x": 314.9606,
+        "y": 137.7953,
+        "angle": 0
+      },
+      "new": {
+        "x": 1968.5039370078741,
+        "y": 59.05511811023622,
+        "angle": 0
+      },
+      "new_mm": {
+        "x": 50,
+        "y": 1.5,
+        "angle": 0
+      },
+      "conservative_text_envelope_mm": [
+        49.9,
+        1.4,
+        64,
+        3.0
+      ],
+      "envelope_to_actual_top_mask_opening_mm": 2.7500399999999985,
+      "envelope_to_outer_rect_edge_mm": 1.4,
+      "font_size_mil_preserved": 49.2126,
+      "stroke_width_mil_preserved": 5.9055
+    },
+    {
+      "primitiveId": "9ffc232f3db9fdad",
+      "text": "USB BUS POWER ONLY",
+      "old": {
+        "x": 314.9606,
+        "y": 236.2205,
+        "angle": 0
+      },
+      "new": {
+        "x": 1968.5039370078741,
+        "y": 133.85826771653544,
+        "angle": 0
+      },
+      "new_mm": {
+        "x": 50,
+        "y": 3.4,
+        "angle": 0
+      },
+      "conservative_text_envelope_mm": [
+        49.9,
+        3.3,
+        64,
+        4.5
+      ],
+      "envelope_to_actual_top_mask_opening_mm": 2.739384008052491,
+      "envelope_to_outer_rect_edge_mm": 3.3,
+      "font_size_mil_preserved": 31.4961,
+      "stroke_width_mil_preserved": 5.9055
+    },
+    {
+      "primitiveId": "aef25877a727193e",
+      "text": "MINI",
+      "old": {
+        "x": 2598.4252,
+        "y": 1409.4488,
+        "angle": 0
+      },
+      "new": {
+        "x": 3102.3622047244094,
+        "y": 1299.2125984251968,
+        "angle": 90
+      },
+      "new_mm": {
+        "x": 78.8,
+        "y": 33,
+        "angle": 90
+      },
+      "conservative_text_envelope_mm": [
+        77.8,
+        32.9,
+        78.9,
+        36.3
+      ],
+      "envelope_to_actual_top_mask_opening_mm": 1.4045866249622623,
+      "envelope_to_outer_rect_edge_mm": 1.0999999999999943,
+      "font_size_mil_preserved": 31.4961,
+      "stroke_width_mil_preserved": 5.9055
+    },
+    {
+      "primitiveId": "052d6ff9eda05a91",
+      "text": "TI",
+      "old": {
+        "x": 2637.7953,
+        "y": 1023.622,
+        "angle": 0
+      },
+      "new": {
+        "x": 3102.3622047244094,
+        "y": 984.2519685039371,
+        "angle": 90
+      },
+      "new_mm": {
+        "x": 78.8,
+        "y": 25,
+        "angle": 90
+      },
+      "conservative_text_envelope_mm": [
+        77.8,
+        24.9,
+        78.9,
+        26.8
+      ],
+      "envelope_to_actual_top_mask_opening_mm": 1.9491999999999903,
+      "envelope_to_outer_rect_edge_mm": 1.0999999999999943,
+      "font_size_mil_preserved": 31.4961,
+      "stroke_width_mil_preserved": 5.9055
+    },
+    {
+      "primitiveId": "b5fa4e1fc1df13dd",
+      "text": "CASIO",
+      "old": {
+        "x": 2637.7953,
+        "y": 708.6614,
+        "angle": 0
+      },
+      "new": {
+        "x": 3102.3622047244094,
+        "y": 669.2913385826772,
+        "angle": 90
+      },
+      "new_mm": {
+        "x": 78.8,
+        "y": 17,
+        "angle": 90
+      },
+      "conservative_text_envelope_mm": [
+        77.8,
+        16.9,
+        78.9,
+        21.1
+      ],
+      "envelope_to_actual_top_mask_opening_mm": 1.9491999999999903,
+      "envelope_to_outer_rect_edge_mm": 1.0999999999999943,
+      "font_size_mil_preserved": 31.4961,
+      "stroke_width_mil_preserved": 5.9055
+    },
+    {
+      "primitiveId": "7c90211293a2e9cf",
+      "text": "AUX 3V3",
+      "old": {
+        "x": 2559.0551,
+        "y": 393.7008,
+        "angle": 0
+      },
+      "new": {
+        "x": 3102.3622047244094,
+        "y": 275.5905511811024,
+        "angle": 90
+      },
+      "new_mm": {
+        "x": 78.8,
+        "y": 7,
+        "angle": 90
+      },
+      "conservative_text_envelope_mm": [
+        77.8,
+        6.9,
+        78.9,
+        12.8
+      ],
+      "envelope_to_actual_top_mask_opening_mm": 2.4892567270839323,
+      "envelope_to_outer_rect_edge_mm": 1.0999999999999943,
+      "font_size_mil_preserved": 31.4961,
+      "stroke_width_mil_preserved": 5.9055
+    }
+  ]
+}

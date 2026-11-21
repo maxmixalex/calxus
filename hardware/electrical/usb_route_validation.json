@@ -1,0 +1,146 @@
+{
+  "route_plan_sha256": "14ff0672ea8573d223c20243de83a3e44c3f416dc04031cb7f9b5f248638bbdb",
+  "all_usb_pads_connected": true,
+  "net_checks": {
+    "USB_A_DM": {
+      "connected_pad_groups": [
+        [
+          "D3.3",
+          "D3.4",
+          "J2.2",
+          "U1.11"
+        ]
+      ],
+      "all_pads_connected": true,
+      "pad_count": 4,
+      "net_copper_length_mil": 1395.4314774959864
+    },
+    "USB_A_DP": {
+      "connected_pad_groups": [
+        [
+          "D3.1",
+          "D3.6",
+          "J2.3",
+          "U1.5"
+        ]
+      ],
+      "all_pads_connected": true,
+      "pad_count": 4,
+      "net_copper_length_mil": 1404.4970268807542
+    },
+    "USB_NATIVE_DM": {
+      "connected_pad_groups": [
+        [
+          "D2.3",
+          "D2.4",
+          "J3.2",
+          "U1.10"
+        ]
+      ],
+      "all_pads_connected": true,
+      "pad_count": 4,
+      "net_copper_length_mil": 2544.868094891127
+    },
+    "USB_NATIVE_DP": {
+      "connected_pad_groups": [
+        [
+          "D2.1",
+          "D2.6",
+          "J3.3",
+          "U1.6"
+        ]
+      ],
+      "all_pads_connected": true,
+      "pad_count": 4,
+      "net_copper_length_mil": 2544.849867094839
+    },
+    "USB_UP_DM": {
+      "connected_pad_groups": [
+        [
+          "D1.3",
+          "D1.4",
+          "J1.B7",
+          "J1.A7",
+          "U1.9"
+        ]
+      ],
+      "all_pads_connected": true,
+      "pad_count": 5,
+      "net_copper_length_mil": 688.5675556288647
+    },
+    "USB_UP_DP": {
+      "connected_pad_groups": [
+        [
+          "D1.1",
+          "D1.6",
+          "J1.A6",
+          "J1.B6",
+          "U1.7"
+        ]
+      ],
+      "all_pads_connected": true,
+      "pad_count": 5,
+      "net_copper_length_mil": 682.569889257295
+    }
+  },
+  "active_path_lengths": {
+    "UP_A_orientation": {
+      "DP_mm": 20.53727647974381,
+      "DM_mm": 20.689615289858153,
+      "signed_skew_mm": -0.15233881011434391,
+      "absolute_skew_mm": 0.15233881011434391,
+      "includes_via_barrel_mm": 3.2
+    },
+    "UP_B_orientation": {
+      "DP_mm": 17.580716479743813,
+      "DM_mm": 17.733055289858154,
+      "signed_skew_mm": -0.15233881011434036,
+      "absolute_skew_mm": 0.15233881011434036,
+      "includes_via_barrel_mm": 3.2
+    },
+    "NATIVE": {
+      "DP_mm": 67.8391870574011,
+      "DM_mm": 67.8396498465356,
+      "signed_skew_mm": -0.00046278913448816184,
+      "absolute_skew_mm": 0.00046278913448816184,
+      "includes_via_barrel_mm": 3.2
+    },
+    "USB_A": {
+      "DP_mm": 38.874224817517714,
+      "DM_mm": 38.64395986314461,
+      "signed_skew_mm": 0.230264954373105,
+      "absolute_skew_mm": 0.230264954373105,
+      "includes_via_barrel_mm": 3.2
+    },
+    "USB_C_A_to_NATIVE": {
+      "DP_mm": 88.37646353714491,
+      "DM_mm": 88.52926513639375,
+      "signed_skew_mm": -0.15280159924883208,
+      "absolute_skew_mm": 0.15280159924883208,
+      "includes_via_barrel_mm": 6.4
+    },
+    "USB_C_A_to_USB_A": {
+      "DP_mm": 59.41150129726152,
+      "DM_mm": 59.33357515300276,
+      "signed_skew_mm": 0.0779261442587611,
+      "absolute_skew_mm": 0.0779261442587611,
+      "includes_via_barrel_mm": 6.4
+    },
+    "USB_C_B_to_NATIVE": {
+      "DP_mm": 85.41990353714492,
+      "DM_mm": 85.57270513639375,
+      "signed_skew_mm": -0.15280159924883208,
+      "absolute_skew_mm": 0.15280159924883208,
+      "includes_via_barrel_mm": 6.4
+    },
+    "USB_C_B_to_USB_A": {
+      "DP_mm": 56.45494129726153,
+      "DM_mm": 56.37701515300276,
+      "signed_skew_mm": 0.0779261442587682,
+      "absolute_skew_mm": 0.0779261442587682,
+      "includes_via_barrel_mm": 6.4
+    }
+  },
+  "route_geometry_violation_count": 0,
+  "limits": "Lengths use ideal trace centerlines plus four1.6mm via barrels per complete selected path. Connector/package internal lengths, mux silicon, actual dielectric/return-via delay and external cable skew not included. Pad-size shortcuts inside annuli are not a field-solver delay model. Native EDA DRC and hardware eye testing remain required."
+}

@@ -1,0 +1,3298 @@
+{
+  "schema": "calxus.native-all-via-drill-expectations.v1",
+  "units": "mm",
+  "pcbId": "2a0c39c6c6694f40",
+  "source_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "source_epru_sha256": "86799f5b67183774b8cf995fa7984f9b5763ce94552712e23fc79faa63abbb47",
+  "expected_count": 189,
+  "vias": [
+    {
+      "primitiveId": "84ec733ff0c71398",
+      "net": "USB_UP_DP",
+      "center_mm": [
+        15.24,
+        18.541999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "4146bad3dedc458a",
+      "net": "USB_UP_DM",
+      "center_mm": [
+        15.9004,
+        18.541999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "136dac46c24376e8",
+      "net": "USB_UP_DP",
+      "center_mm": [
+        13.208,
+        20.32
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "a172eb50d6cba057",
+      "net": "USB_UP_DM",
+      "center_mm": [
+        13.208,
+        20.9804
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "cec7b08cf99ddd80",
+      "net": "USB_NATIVE_DP",
+      "center_mm": [
+        19.2024,
+        18.541999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "4bf0913127979c6e",
+      "net": "USB_NATIVE_DM",
+      "center_mm": [
+        18.541999999999998,
+        18.541999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "5538e16fa0aad347",
+      "net": "USB_NATIVE_DP",
+      "center_mm": [
+        61.976,
+        31.496
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "82756998d55da9de",
+      "net": "USB_NATIVE_DM",
+      "center_mm": [
+        61.976,
+        32.1564
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "1a2a5c8de0cd25f9",
+      "net": "USB_A_DP",
+      "center_mm": [
+        21.843999999999998,
+        17.779999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "2ca8c37d4d45e084",
+      "net": "USB_A_DM",
+      "center_mm": [
+        21.1836,
+        17.779999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "58bc2252284b2c6a",
+      "net": "USB_A_DP",
+      "center_mm": [
+        40.9448,
+        12.7
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "a1b1bac9c63b6d6b",
+      "net": "USB_A_DM",
+      "center_mm": [
+        40.2844,
+        12.7
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "ab043084eee6de7b",
+      "net": "GND",
+      "center_mm": [
+        16.764,
+        18.541999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "170646d820b6c217",
+      "net": "GND",
+      "center_mm": [
+        13.208,
+        21.843999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "a93ffe22921c60a0",
+      "net": "GND",
+      "center_mm": [
+        20.066,
+        18.541999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "7751afa9b96652c1",
+      "net": "GND",
+      "center_mm": [
+        60.96,
+        32.9692
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "2550afeb2875ad29",
+      "net": "GND",
+      "center_mm": [
+        22.7076,
+        17.779999999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "0b9d31afbfecae89",
+      "net": "GND",
+      "center_mm": [
+        41.8084,
+        12.7
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "17077d66f911113b",
+      "net": "GND",
+      "center_mm": [
+        46.57712299999999,
+        23.577423
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "89573436f3d877d6",
+      "net": "GND",
+      "center_mm": [
+        49.371123,
+        26.371422999999997
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "400bbe0a7d6d643b",
+      "net": "GND",
+      "center_mm": [
+        59.476081199999996,
+        9.9765612
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "42761d9427b0bc87",
+      "net": "GND",
+      "center_mm": [
+        60.492081199999994,
+        10.9925612
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "1cc57f974266a22e",
+      "net": "GND",
+      "center_mm": [
+        10.63244,
+        21.000719999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "141421b490d729de",
+      "net": "GND",
+      "center_mm": [
+        65.88252,
+        31.99892
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "3953a112aa8dcee2",
+      "net": "GND",
+      "center_mm": [
+        39.999919999999996,
+        10.13206
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "3fa5e92405750492",
+      "net": "GND",
+      "center_mm": [
+        69.05960788,
+        26.78454384
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "4af9e08bb8177d5d",
+      "net": "GND",
+      "center_mm": [
+        69.05960788,
+        18.78608384
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "619a924c36594da5",
+      "net": "GND",
+      "center_mm": [
+        64.06088788,
+        8.786103839999999
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "388bdf9aef67bc85",
+      "net": "GND",
+      "center_mm": [
+        8.559347879999999,
+        27.785303839999997
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "6bab802e69dac2f1",
+      "net": "GND",
+      "center_mm": [
+        14.894559999999998,
+        22.017565819999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "b26173de43a06ff4",
+      "net": "GND",
+      "center_mm": [
+        29.33446,
+        3.5001200000000003
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "fb71dc2bf35364ca",
+      "net": "GND",
+      "center_mm": [
+        51.41468,
+        23.749
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "ec4b3219c934ecfb",
+      "net": "GND",
+      "center_mm": [
+        31.31033616,
+        12.610647879999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "f841e7d59955d378",
+      "net": "GND",
+      "center_mm": [
+        34.635439999999996,
+        10.977879999999999
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "7a0dcf2f99e781ea",
+      "net": "GND",
+      "center_mm": [
+        36.718239999999994,
+        12.400279999999999
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "26077c13d5d64ec0",
+      "net": "GND",
+      "center_mm": [
+        28.99918,
+        19.71548
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "38e281607052b539",
+      "net": "GND",
+      "center_mm": [
+        23.36546,
+        5.499099999999999
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "1719997b98183089",
+      "net": "GND",
+      "center_mm": [
+        55.51124788,
+        18.73528384
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "45969eaf5354faa9",
+      "net": "GND",
+      "center_mm": [
+        55.51124788,
+        23.734003839999996
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "66a603977e80079f",
+      "net": "GND",
+      "center_mm": [
+        66.36512,
+        35.99942
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "a2dd82c561c981bb",
+      "net": "GND",
+      "center_mm": [
+        11.41476,
+        15.69974
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "ea36aeaa3830d394",
+      "net": "GND",
+      "center_mm": [
+        44.4814198,
+        23.18631888
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "78c1a7bc7bfe97e6",
+      "net": "GND",
+      "center_mm": [
+        38.19906,
+        21.584919999999997
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "82c43892b0f26668",
+      "net": "GND",
+      "center_mm": [
+        46.413419999999995,
+        32.19958
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "0947a7c39d3f1b83",
+      "net": "GND",
+      "center_mm": [
+        52.7359245,
+        33.08282182
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "c711430856cff109",
+      "net": "GND",
+      "center_mm": [
+        38.2658747,
+        12.1657745
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "61186ceb1543d949",
+      "net": "GND",
+      "center_mm": [
+        59.6138,
+        14.000480000000001
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "398c8c91d2ea0248",
+      "net": "GND",
+      "center_mm": [
+        57.2368045,
+        12.082101819999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "83036479de6ae290",
+      "net": "GND",
+      "center_mm": [
+        63.11392,
+        14.000480000000001
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "ffedf1ba0f96e03a",
+      "net": "GND",
+      "center_mm": [
+        55.613299999999995,
+        14.2494
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "1a623f3b89437634",
+      "net": "GND",
+      "center_mm": [
+        9.41324,
+        17.701259999999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "737c14bb695d6380",
+      "net": "GND",
+      "center_mm": [
+        68.91528,
+        37.70122
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "f655dc3308036550",
+      "net": "GND",
+      "center_mm": [
+        38.013639999999995,
+        9.199879999999999
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "7cea14b531f220bc",
+      "net": "GND",
+      "center_mm": [
+        28.19908,
+        14.08684
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "356a05be288aded9",
+      "net": "GND",
+      "center_mm": [
+        30.61462,
+        6.79958
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "bba81a5d2986be1b",
+      "net": "GND",
+      "center_mm": [
+        65.61327999999999,
+        38.99916
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "eba18f0444094293",
+      "net": "GND",
+      "center_mm": [
+        18.415,
+        6.200139999999999
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "187daca51f930045",
+      "net": "GND",
+      "center_mm": [
+        30.61462,
+        17.00022
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "88fbf59872a66112",
+      "net": "GND",
+      "center_mm": [
+        30.36316,
+        23.50008
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "6d0d4e689cff83e2",
+      "net": "GND",
+      "center_mm": [
+        44.41444,
+        27.0002
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "06f3599058edeb9b",
+      "net": "GND",
+      "center_mm": [
+        54.363620000000004,
+        28.30068
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      }
+    },
+    {
+      "primitiveId": "3133eb8b0172eadd",
+      "net": "SIL_SUSPEND",
+      "center_mm": [
+        37.50003168,
+        27.86759476
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "92daada21f5d85f3",
+      "net": "SEL0",
+      "center_mm": [
+        21.500071300000002,
+        27.617404760000003
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "5a5bbf7e0e3775e1",
+      "net": "SIL_1V8",
+      "center_mm": [
+        42.77510114,
+        27.79241076
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "0f05ead806811b8e",
+      "net": "VBUS_IN",
+      "center_mm": [
+        9.50010292,
+        16.193000379999997
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "354ab255954529ba",
+      "net": "SEL1",
+      "center_mm": [
+        14.94281238,
+        25.7505073
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "38432b0f90847c4f",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        56.07910552,
+        12.65579638
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "3065f80bfb7d7f7a",
+      "net": "EE_VCC",
+      "center_mm": [
+        36.13478168,
+        18.97175784
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "d787190acf4b0231",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        29.081714759999997,
+        26.34943676
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "8c07b6c53062ae81",
+      "net": "UART_TX",
+      "center_mm": [
+        56.154797519999995,
+        16.993605839999997
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "931967d3166860e4",
+      "net": "SIL_TEST1",
+      "center_mm": [
+        52.54901606,
+        26.22142076
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "31f1514f76cf9774",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        63.199992980000005,
+        34.251374219999995
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "a2d0c667265ac673",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        68.7547139,
+        36.06518568
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "8461c3ec8a7e4eec",
+      "net": "SIL_RESET",
+      "center_mm": [
+        38.15052568,
+        26.815780759999996
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "210b23aa488afe12",
+      "net": "UART_RX",
+      "center_mm": [
+        58.80096698,
+        12.647922379999999
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "79d822c4d3f86883",
+      "net": "NATIVE_EN_N",
+      "center_mm": [
+        25.2501273,
+        26.33749876
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "3872f74cdb4c1f1c",
+      "net": "PWR_FAULT_N",
+      "center_mm": [
+        27.07359076,
+        10.80439292
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "586f75590a056374",
+      "net": "VBUS_USBA",
+      "center_mm": [
+        40.13578714,
+        6.6611474600000005
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "9289abb9f029f5a3",
+      "net": "SEL0",
+      "center_mm": [
+        15.297142379999999,
+        27.33419476
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "7ab84cd11191d37b",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        56.11060151999999,
+        27.888676759999996
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "2dc101e148fb30ac",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        28.11981676,
+        17.79878584
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "97668f95dde1783b",
+      "net": "SIL_VREGEN",
+      "center_mm": [
+        37.94224568,
+        28.631880759999998
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "35b8ac6265e0b6c2",
+      "net": "CC2",
+      "center_mm": [
+        8.75029492,
+        26.24377276
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "1b59b5ab3f4e4cba",
+      "net": "CC2",
+      "center_mm": [
+        5.73938146,
+        19.24150584
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "8e4b4a3b6db4a6d2",
+      "net": "GND",
+      "center_mm": [
+        62.082138979999996,
+        34.258486219999995
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "2089c9c783bbce16",
+      "net": "EE_VCC",
+      "center_mm": [
+        31.290496219999998,
+        24.2600353
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "4b672616b47815ff",
+      "net": "UART_RX",
+      "center_mm": [
+        51.84543606,
+        22.8731953
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "1d2dc1c59778d360",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        28.93236276,
+        13.732248379999998
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "1c2a889636771238",
+      "net": "SIL_SIN",
+      "center_mm": [
+        50.67957606,
+        18.74493584
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "75e3a8ad74d3bd2d",
+      "net": "VBUS_IN",
+      "center_mm": [
+        8.550000679999998,
+        20.639999359999997
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "4f17ba38de576db9",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        17.76322584,
+        9.24661092
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "f7252d683eb0e2cd",
+      "net": "UART_TX",
+      "center_mm": [
+        59.57998498,
+        13.191736379999998
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "b51b05a83cc89faa",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        20.73858184,
+        7.4330509199999995
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "b549bc2a142e6b28",
+      "net": "VBUS_USBA",
+      "center_mm": [
+        28.88156276,
+        2.41502946
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "07cdbdd110b02a34",
+      "net": "USBA_EN_N",
+      "center_mm": [
+        21.866085299999998,
+        8.53871292
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "ac9f2e56d815ceae",
+      "net": "SIL_SIN",
+      "center_mm": [
+        50.67957606,
+        19.51023784
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "b0cb8e6c1b5771e4",
+      "net": "NATIVE_EN_N",
+      "center_mm": [
+        9.73651342,
+        9.40917092
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "bbd586f631c4ab47",
+      "net": "GND",
+      "center_mm": [
+        40.93969714,
+        25.8010533
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "5c72ccca2a746328",
+      "net": "PWR_FAULT_N",
+      "center_mm": [
+        19.51506384,
+        7.0545934599999995
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "c136436eb6aec9c1",
+      "net": "EE_VCC",
+      "center_mm": [
+        32.17289222,
+        18.808943839999998
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "5ffd7f61aa2ce46a",
+      "net": "USBA_EN_N",
+      "center_mm": [
+        28.783772759999998,
+        4.45007746
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "1b1ee537de13e829",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        21.9430473,
+        13.22526438
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "5c9f70000c739c44",
+      "net": "SIL_TEST1",
+      "center_mm": [
+        49.233302599999995,
+        20.64409384
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "f0fc8584abc2a617",
+      "net": "NATIVE_EN_N",
+      "center_mm": [
+        42.98084114,
+        41.12791114
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "10e25f9753e31040",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        27.12337476,
+        25.438849299999998
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "bc3f1d42adc9e607",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        23.8378873,
+        26.64915676
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "dfe6e17828b27d99",
+      "net": "EE_SCL",
+      "center_mm": [
+        35.28794568,
+        26.345372759999997
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "d99ea61ed4398d28",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        23.5866813,
+        12.731234379999998
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "c43cb147fd37f616",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        25.3552833,
+        18.40660784
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "b2f349e87ca5656d",
+      "net": "SIL_SCL",
+      "center_mm": [
+        27.98900676,
+        24.5008273
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "a52165ca5ee9bd26",
+      "net": "SIL_SCL",
+      "center_mm": [
+        26.118296759999996,
+        18.733251839999998
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "d2278d4c74e3c263",
+      "net": "SIL_SCL",
+      "center_mm": [
+        47.4387926,
+        21.4662893
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "a7e64525ce4fc965",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        59.06665098,
+        30.27246676
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "8567680b6bccc9a3",
+      "net": "SIL_VREGEN",
+      "center_mm": [
+        43.95721714,
+        29.05631476
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "ec7d1cd8e7e35e78",
+      "net": "SIL_TEST0",
+      "center_mm": [
+        46.1474566,
+        18.36545984
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "e8455e6c3306789f",
+      "net": "SIL_TEST0",
+      "center_mm": [
+        51.356486059999995,
+        25.6402713
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "8c33a7e619ebe7ff",
+      "net": "EE_SDA",
+      "center_mm": [
+        33.78020422,
+        19.18867384
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "cb932e617949f406",
+      "net": "PWR_FAULT_N",
+      "center_mm": [
+        3.42747346,
+        18.16708584
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "24bfaa3b4d4a1f83",
+      "net": "EE_SDA",
+      "center_mm": [
+        31.11396622,
+        19.19629384
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "9812c43bd62cf5d5",
+      "net": "USBA_EN_N",
+      "center_mm": [
+        13.95627638,
+        23.8584613
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "9b588cd681eb437f",
+      "net": "TP_GPIO30",
+      "center_mm": [
+        45.6201526,
+        28.18560276
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "295d25099b5c4e2c",
+      "net": "SIL_RESET",
+      "center_mm": [
+        44.40654314,
+        21.816555299999997
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "9668c69a07a41c6b",
+      "net": "SIL_RESET",
+      "center_mm": [
+        40.445159139999994,
+        20.35453384
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "479eec32478779f4",
+      "net": "PWR_FAULT_N",
+      "center_mm": [
+        10.08811292,
+        23.7340013
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "77fd24a9acc4667d",
+      "net": "TP_GPIO31",
+      "center_mm": [
+        53.958462059999995,
+        30.284150759999996
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "c817d7de6afefb33",
+      "net": "SEL1",
+      "center_mm": [
+        13.95221238,
+        13.01596838
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "a8a7db254622c793",
+      "net": "SEL1",
+      "center_mm": [
+        16.85847784,
+        22.958539299999998
+      ],
+      "hole_diameter_mm": 0.299974,
+      "outer_diameter_mm": 0.599948,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.81,
+        "bottom": -11.81
+      }
+    },
+    {
+      "primitiveId": "27b7de00e8f5e021",
+      "net": "SIL_1V8",
+      "center_mm": [
+        41.80000022,
+        25.100000599999998
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "bc3cda57be18e3e1",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        63.795000679999994,
+        31.75
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "72691acbe84438e6",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        67.05000052,
+        28.049999779999997
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "ce9673f4ee240181",
+      "net": "VBUS_NATIVE",
+      "center_mm": [
+        68.87500068,
+        27.70000048
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "3842ea1b1dfeb433",
+      "net": "SIL_1V8",
+      "center_mm": [
+        44.1500006,
+        22.614999219999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "4cc6a8ad631a9379",
+      "net": "SIL_1V8",
+      "center_mm": [
+        38.4999992,
+        20.97499996
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "2e51e954b7988688",
+      "net": "SIL_SUSPEND",
+      "center_mm": [
+        41.35000112,
+        28.049999779999997
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "06b5348e2272b6ea",
+      "net": "3V3",
+      "center_mm": [
+        27.99999988,
+        22.690000339999997
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "e0a09ae2c780970c",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        63.1000008,
+        31.87500102
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "c7497bb2558d0e94",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        63.1000008,
+        29.449999519999995
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "0639c3a62430a85d",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        47.425000399999995,
+        29.62500044
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "80ef03dbb414751a",
+      "net": "TI_GPIO_RING",
+      "center_mm": [
+        56.39999896,
+        33.07500116
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "b334899e79993de2",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        46.92499886,
+        29.150000119999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "91da993e3890b734",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        56.249999259999996,
+        33.950000679999995
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "13a90be946f3b6b1",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        49.87500058,
+        35.500000119999996
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "45b9bdb7c077b714",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        48.67500044,
+        34.29999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "dc9ee2933a359799",
+      "net": "TI_GPIO_TIP",
+      "center_mm": [
+        55.049999119999995,
+        28.575
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "0ddb1b784f60c376",
+      "net": "3V3",
+      "center_mm": [
+        61.13999964,
+        11.8799991
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "1658d98e90ab9dd9",
+      "net": "3V3",
+      "center_mm": [
+        61.04999981999999,
+        13.285000100000001
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "4303ecc0ebd83709",
+      "net": "USB_SIL_DM",
+      "center_mm": [
+        41.975001139999996,
+        17.30499968
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "afc82906cd8e4d47",
+      "net": "USB_SIL_DP",
+      "center_mm": [
+        26.50000034,
+        17.899999759999996
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "517246b11e7deba7",
+      "net": "USB_SIL_DP",
+      "center_mm": [
+        39.39999994,
+        17.94999966
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "36ec3eb3eec93cb7",
+      "net": "USB_SIL_DM",
+      "center_mm": [
+        26.50000034,
+        17.20000116
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "b1aa42659a10cef9",
+      "net": "USB_UART_DP",
+      "center_mm": [
+        28.299999279999998,
+        12.3500007
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "1ab52edf68b4c5d8",
+      "net": "USB_UART_DP",
+      "center_mm": [
+        53.599999479999994,
+        10.90000106
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "9fefe12f254b9486",
+      "net": "USB_UART_DM",
+      "center_mm": [
+        28.299999279999998,
+        11.64999956
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "9809d7f16ec15e90",
+      "net": "USB_UART_DM",
+      "center_mm": [
+        53.599999479999994,
+        10.19999992
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "ba456229a91240a8",
+      "net": "SEL0",
+      "center_mm": [
+        14.78000092,
+        9.98000036
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "cd6b3f5b4de15021",
+      "net": "SEL0",
+      "center_mm": [
+        7.45000034,
+        29.675000339999997
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "ee735f5c3a84b171",
+      "net": "SEL0",
+      "center_mm": [
+        8.674999159999999,
+        29.675000339999997
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "e68c36a2533b90ef",
+      "net": "SEL0",
+      "center_mm": [
+        15.12499896,
+        29.064999020000002
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "8db170456e71bbd1",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        16.79999942,
+        8.500000779999999
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "984fa409d65eb61d",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        7.574998819999999,
+        8.500000779999999
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "b73ea4e09edd18ee",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        9.39999898,
+        39.39999994
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "e18842b78af6b191",
+      "net": "MUX_EN_N",
+      "center_mm": [
+        19.97499942,
+        37.47499998
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "8e0b9f5136b01e2c",
+      "net": "EE_SCL",
+      "center_mm": [
+        40.27499946,
+        16.74999952
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "7c369c98ed617ed4",
+      "net": "EE_SCL",
+      "center_mm": [
+        53.69999928,
+        18.950000199999998
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "222f0ee9c660361b",
+      "net": "EE_SCL",
+      "center_mm": [
+        57.2499998,
+        21.725001
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "0a645617b119a073",
+      "net": "EE_SCL",
+      "center_mm": [
+        67.87500014,
+        25.5999996
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "8dac9cc433701ca9",
+      "net": "EE_SCL",
+      "center_mm": [
+        70.2999991,
+        26.32499942
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "fd2c8b76a02083ca",
+      "net": "EE_SCL",
+      "center_mm": [
+        38.725000019999996,
+        36.89999986
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "41563ead6eaab464",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        49.52499874,
+        16.20000062
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "9d82560925f60619",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        48.42500094,
+        17.30000096
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "26b480a59f6e4a69",
+      "net": "VBUS_IN",
+      "center_mm": [
+        24.52500048,
+        13.500000939999998
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "07638b2836ac739c",
+      "net": "VBUS_IN",
+      "center_mm": [
+        22.650000419999998,
+        11.99999886
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "6e5c76b6a7dcc7f7",
+      "net": "VBUS_IN",
+      "center_mm": [
+        27.424999760000002,
+        6.35
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "6d8d6f615271393e",
+      "net": "VBUS_IN",
+      "center_mm": [
+        21.32499926,
+        6.35
+      ],
+      "hole_diameter_mm": 0.29999939999999997,
+      "outer_diameter_mm": 0.5999987999999999,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -11.811,
+        "bottom": -11.811
+      }
+    },
+    {
+      "primitiveId": "63f62316479b5628",
+      "net": "USB_UART_DP",
+      "center_mm": [
+        22.724998999999997,
+        19.05
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "c5d2b6670adf7837",
+      "net": "USB_UART_DP",
+      "center_mm": [
+        26.07499992,
+        13.325000020000001
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "afd3e13eb54a369d",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        18.9000003,
+        12.67499878
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "61d49e54c1d28981",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        15.10000028,
+        12.67499878
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "1fb204fde762476d",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        11.274999039999999,
+        13.600000739999999
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "4f503707b5c9681e",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        7.775000959999999,
+        19.2999995
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "50e1df4e117c9b5b",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        9.924999199999998,
+        19.3499994
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "fb00d9459b0ce890",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        11.64999956,
+        22.650000419999998
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "8ba4c694536cb36b",
+      "net": "SERIAL_EN_N",
+      "center_mm": [
+        20.97499996,
+        22.40000092
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "ddc1ee2174702ec0",
+      "net": "UART_V3",
+      "center_mm": [
+        57.70999888,
+        9.82000068
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "14d760f665ba38cc",
+      "net": "USB_UART_DM",
+      "center_mm": [
+        56.49999876,
+        8.75000028
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "100a17a300e55650",
+      "net": "USB_UART_DM",
+      "center_mm": [
+        57.4999993,
+        8.75000028
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "0b41a834a08c8478",
+      "net": "UART_V3",
+      "center_mm": [
+        57.974999620000006,
+        11.74999936
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "03d5903a12581fa1",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        58.274999019999996,
+        8.9750011
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    },
+    {
+      "primitiveId": "4fd6780039d352f0",
+      "net": "5V_SERIAL",
+      "center_mm": [
+        56.12500078,
+        11.20000046
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": -9.8425,
+        "bottom": -9.8425
+      }
+    }
+  ],
+  "scope": "Every VIA record in the saved native PCB; nominal drilling geometry only, not fabrication-file acceptance",
+  "separate_ep_vippo": [
+    {
+      "primitiveId": "17077d66f911113b",
+      "net": "GND",
+      "center_mm": [
+        46.57712299999999,
+        23.577423
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      },
+      "footprint_pad": "U2.33"
+    },
+    {
+      "primitiveId": "89573436f3d877d6",
+      "net": "GND",
+      "center_mm": [
+        49.371123,
+        26.371422999999997
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      },
+      "footprint_pad": "U2.33"
+    },
+    {
+      "primitiveId": "400bbe0a7d6d643b",
+      "net": "GND",
+      "center_mm": [
+        59.476081199999996,
+        9.9765612
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      },
+      "footprint_pad": "U3.17"
+    },
+    {
+      "primitiveId": "42761d9427b0bc87",
+      "net": "GND",
+      "center_mm": [
+        60.492081199999994,
+        10.9925612
+      ],
+      "hole_diameter_mm": 0.19999959999999997,
+      "outer_diameter_mm": 0.49999899999999997,
+      "plated": true,
+      "shape": "ROUND",
+      "source_via_type": "NORMAL",
+      "source_mask_expansion_mil": {
+        "top": null,
+        "bottom": null
+      },
+      "footprint_pad": "U3.17"
+    }
+  ]
+}

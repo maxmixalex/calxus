@@ -1,0 +1,2651 @@
+{
+  "checkedAt": "2026-11-21T12:46:42.318Z",
+  "scope": "Live document readback. Filesystem persistence and post-reload equivalence must be verified independently.",
+  "saveRequested": false,
+  "components": 97,
+  "pins": 345,
+  "sourcePositions": [
+    {
+      "ref": "J1",
+      "primitiveId": "0c145850f86cb25b",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 290,
+        "y": 1270,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 290,
+        "y": 1270,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "primitiveId": "f5d78981fa124c26",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 540,
+        "y": 1270,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 540,
+        "y": 1270,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D7",
+      "primitiveId": "ab8b1916d7331e2a",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 300,
+        "y": 1060,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 300,
+        "y": 1060,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R1",
+      "primitiveId": "5676cdf828a987ab",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 220,
+        "y": 980,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 220,
+        "y": 980,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "primitiveId": "0c43f4a411b371cf",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 450,
+        "y": 980,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 450,
+        "y": 980,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C1",
+      "primitiveId": "6e86872ac41149aa",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 560,
+        "y": 1100,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 560,
+        "y": 1100,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "primitiveId": "1b3b0832235186d7",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1120,
+        "y": 1220,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1120,
+        "y": 1220,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R3",
+      "primitiveId": "8648d5830117b09c",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 930,
+        "y": 1390,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 930,
+        "y": 1390,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R4",
+      "primitiveId": "c0d13c4c9ad7ce8f",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1310,
+        "y": 1390,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1310,
+        "y": 1390,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C2",
+      "primitiveId": "a7bf8a1a151d838d",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1120,
+        "y": 1470,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1120,
+        "y": 1470,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "primitiveId": "65107b1e5df903a6",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1690,
+        "y": 1340,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1690,
+        "y": 1340,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "primitiveId": "f4714202c682dbe4",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1900,
+        "y": 1340,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1900,
+        "y": 1340,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C20",
+      "primitiveId": "fb558706804d3e68",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 2150,
+        "y": 1340,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 2150,
+        "y": 1340,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "primitiveId": "1488a7a605462dd5",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1690,
+        "y": 1080,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1690,
+        "y": 1080,
+        "rotation": 0,
+        "mirror": true
+      },
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "primitiveId": "33cc416e182ffe8a",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1900,
+        "y": 1080,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1900,
+        "y": 1080,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C21",
+      "primitiveId": "9e2c0231d392dc63",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 2150,
+        "y": 1080,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 2150,
+        "y": 1080,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "primitiveId": "33fbceeca2d73086",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 290,
+        "y": 660,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 290,
+        "y": 660,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D11",
+      "primitiveId": "08055bc72ee9c9d8",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 550,
+        "y": 760,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 550,
+        "y": 760,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D12",
+      "primitiveId": "26a99a4e4468a8b0",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 550,
+        "y": 630,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 550,
+        "y": 630,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D13",
+      "primitiveId": "b5014d9a53bace09",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 550,
+        "y": 510,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 550,
+        "y": 510,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D14",
+      "primitiveId": "394bb70f7fc33885",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 850,
+        "y": 660,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 850,
+        "y": 660,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D15",
+      "primitiveId": "6bb9b13cf549cb8f",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 850,
+        "y": 510,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 850,
+        "y": 510,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R32",
+      "primitiveId": "e61b8b4b0c8aadd1",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 180,
+        "y": 430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 180,
+        "y": 430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R33",
+      "primitiveId": "5bdd9d3c45f932f6",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 380,
+        "y": 430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 380,
+        "y": 430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R34",
+      "primitiveId": "a7481433260b67ab",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 600,
+        "y": 410,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 600,
+        "y": 410,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R35",
+      "primitiveId": "c52e8ed0058f5af6",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1000,
+        "y": 430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1000,
+        "y": 430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "primitiveId": "329914c16c0e1b36",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1390,
+        "y": 700,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1390,
+        "y": 700,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R36",
+      "primitiveId": "997c7183f4da359f",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1580,
+        "y": 670,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1580,
+        "y": 670,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C3",
+      "primitiveId": "c0b699824ab99ee6",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1250,
+        "y": 770,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1250,
+        "y": 770,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "primitiveId": "814e8bd78151fbe9",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1870,
+        "y": 700,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1870,
+        "y": 700,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R37",
+      "primitiveId": "2c94601c44424d1e",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 2070,
+        "y": 670,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 2070,
+        "y": 670,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C4",
+      "primitiveId": "805b91940649b2ee",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1730,
+        "y": 770,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1730,
+        "y": 770,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "primitiveId": "0a99278f88bc2fb9",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1390,
+        "y": 500,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1390,
+        "y": 500,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R6",
+      "primitiveId": "529b5f4fc8fd94c8",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1580,
+        "y": 470,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1580,
+        "y": 470,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "primitiveId": "edbd8a051b045762",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1250,
+        "y": 570,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1250,
+        "y": 570,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C6",
+      "primitiveId": "8f1853313241c447",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1660,
+        "y": 550,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1660,
+        "y": 550,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "primitiveId": "ce102efe70ccaa65",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1960,
+        "y": 500,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1960,
+        "y": 500,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C7",
+      "primitiveId": "3d0b053396053a6a",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 2160,
+        "y": 550,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 2160,
+        "y": 550,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R5",
+      "primitiveId": "255573a18108e930",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1360,
+        "y": 390,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1360,
+        "y": 390,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C22",
+      "primitiveId": "c73f9ddeaac4cce4",
+      "page": "01_USB_Power",
+      "expected": {
+        "x": 1770,
+        "y": 390,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1770,
+        "y": 390,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "primitiveId": "7c83643c1fec2352",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 700,
+        "y": 1200,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 700,
+        "y": 1200,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R7",
+      "primitiveId": "19c2e056235a30df",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 440,
+        "y": 1260,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 440,
+        "y": 1260,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R8",
+      "primitiveId": "1f2cd23bac464d5f",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 440,
+        "y": 1190,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 440,
+        "y": 1190,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R9",
+      "primitiveId": "21a4a91f1cf14184",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 440,
+        "y": 1360,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 440,
+        "y": 1360,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C8",
+      "primitiveId": "ddef142660c574ec",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 940,
+        "y": 1370,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 940,
+        "y": 1370,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C9",
+      "primitiveId": "c2969bb3266389eb",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 940,
+        "y": 1300,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 940,
+        "y": 1300,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C10",
+      "primitiveId": "415d50cb6a0956e5",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 440,
+        "y": 1100,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 440,
+        "y": 1100,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R14",
+      "primitiveId": "5754bf81fa958769",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 940,
+        "y": 1100,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 940,
+        "y": 1100,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R15",
+      "primitiveId": "1b553306675513d0",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 940,
+        "y": 1030,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 940,
+        "y": 1030,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R16",
+      "primitiveId": "47686c82d2aa7703",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 940,
+        "y": 1170,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 940,
+        "y": 1170,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R12",
+      "primitiveId": "5cfb339fdcb61f4c",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 250,
+        "y": 1040,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 250,
+        "y": 1040,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R13",
+      "primitiveId": "bc6f355154fe998b",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 250,
+        "y": 970,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 250,
+        "y": 970,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "primitiveId": "027c752cb7d5676d",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1610,
+        "y": 1200,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1610,
+        "y": 1200,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "primitiveId": "657c12414592c7b4",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 2050,
+        "y": 1240,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 2050,
+        "y": 1240,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J9",
+      "primitiveId": "e7270382037968fd",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1310,
+        "y": 1140,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1310,
+        "y": 1140,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J10",
+      "primitiveId": "bd8d8fc04150ef75",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1940,
+        "y": 1040,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1940,
+        "y": 1040,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R23",
+      "primitiveId": "0eecce80a21afc62",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1320,
+        "y": 1260,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1320,
+        "y": 1260,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R25",
+      "primitiveId": "885e0f405da832ea",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1320,
+        "y": 1380,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1320,
+        "y": 1380,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R21",
+      "primitiveId": "57f7a99891298d39",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1800,
+        "y": 1390,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1800,
+        "y": 1390,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R22",
+      "primitiveId": "c0d7f90144836ced",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1800,
+        "y": 1300,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1800,
+        "y": 1300,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R27",
+      "primitiveId": "348952e0b8606522",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1800,
+        "y": 1130,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1800,
+        "y": 1130,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C14",
+      "primitiveId": "1a4cc1a574e09b43",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 2050,
+        "y": 1430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 2050,
+        "y": 1430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D10",
+      "primitiveId": "a7653578c0d003cd",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 480,
+        "y": 640,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 480,
+        "y": 640,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R10",
+      "primitiveId": "7c70d88e74f07058",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 220,
+        "y": 730,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 220,
+        "y": 730,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R11",
+      "primitiveId": "212b135acd25b5a4",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 450,
+        "y": 730,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 450,
+        "y": 730,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C11",
+      "primitiveId": "c835c1f11e102022",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 220,
+        "y": 560,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 220,
+        "y": 560,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "Y2",
+      "primitiveId": "666de069fbde7a49",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1090,
+        "y": 650,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1090,
+        "y": 650,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C12",
+      "primitiveId": "4225a217011620c4",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 930,
+        "y": 530,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 930,
+        "y": 530,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C13",
+      "primitiveId": "041f5ec7bcf6d649",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1250,
+        "y": 530,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1250,
+        "y": 530,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "primitiveId": "9493818f0b75f8f2",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1730,
+        "y": 700,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1730,
+        "y": 700,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D8",
+      "primitiveId": "43721daddef7981a",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1870,
+        "y": 710,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1870,
+        "y": 710,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "Q2",
+      "primitiveId": "2d0bbc637f87b9ec",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1730,
+        "y": 500,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1730,
+        "y": 500,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D9",
+      "primitiveId": "95d28b355bd4688d",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1870,
+        "y": 510,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1870,
+        "y": 510,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R17",
+      "primitiveId": "2d6f589f298b6ff2",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1550,
+        "y": 640,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1550,
+        "y": 640,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R18",
+      "primitiveId": "501fd1e1dfe0f536",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1550,
+        "y": 430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1550,
+        "y": 430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R19",
+      "primitiveId": "a51672bfe2cbdefa",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1580,
+        "y": 770,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1580,
+        "y": 770,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R20",
+      "primitiveId": "14c21b7b5db41197",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 1580,
+        "y": 560,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1580,
+        "y": 560,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J4",
+      "primitiveId": "1fadbfec09785af4",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 2150,
+        "y": 620,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 2150,
+        "y": 620,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "primitiveId": "51427484fc1d4f2f",
+      "page": "02_TI_SilverLink",
+      "expected": {
+        "x": 2010,
+        "y": 430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 2010,
+        "y": 430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "primitiveId": "c0af1726e5c3b756",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 460,
+        "y": 1230,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 460,
+        "y": 1230,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C15",
+      "primitiveId": "f4748c4f293d0837",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 240,
+        "y": 1390,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 240,
+        "y": 1390,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C16",
+      "primitiveId": "6d85e26d39ffa608",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 240,
+        "y": 1100,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 240,
+        "y": 1100,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C17",
+      "primitiveId": "515c8a46ea7f8249",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 240,
+        "y": 1470,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 240,
+        "y": 1470,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "primitiveId": "d1742f8240b5f502",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1230,
+        "y": 1320,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1230,
+        "y": 1320,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R29",
+      "primitiveId": "ea743a516a63cbda",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1520,
+        "y": 1320,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1520,
+        "y": 1320,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R28",
+      "primitiveId": "49d523b340715b2e",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1450,
+        "y": 1430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1450,
+        "y": 1430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "primitiveId": "104e5792a6ba5d70",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1230,
+        "y": 1050,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1230,
+        "y": 1050,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R30",
+      "primitiveId": "defa5b445197cf09",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1510,
+        "y": 1060,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1510,
+        "y": 1060,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "R31",
+      "primitiveId": "cc009f22e689d77b",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1700,
+        "y": 1160,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1700,
+        "y": 1160,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D16",
+      "primitiveId": "b86c6af49e33e123",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1840,
+        "y": 1430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1840,
+        "y": 1430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "primitiveId": "3785faea33d67740",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1070,
+        "y": 1430,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1070,
+        "y": 1430,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "C19",
+      "primitiveId": "18d8071349ee0c44",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1070,
+        "y": 1180,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1070,
+        "y": 1180,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J5",
+      "primitiveId": "db485dc60e4f3835",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 590,
+        "y": 600,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 590,
+        "y": 600,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "primitiveId": "217c324a3288e090",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 330,
+        "y": 600,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 330,
+        "y": 600,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "primitiveId": "c42e9b24d8c3a98d",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1060,
+        "y": 630,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1060,
+        "y": 630,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "J6",
+      "primitiveId": "718c1a84e6d62a60",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1680,
+        "y": 600,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1680,
+        "y": 600,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    },
+    {
+      "ref": "D6",
+      "primitiveId": "46266bb8d543d280",
+      "page": "03_UART_Adapters",
+      "expected": {
+        "x": 1960,
+        "y": 600,
+        "rotation": 0
+      },
+      "actual": {
+        "x": 1960,
+        "y": 600,
+        "rotation": 0,
+        "mirror": false
+      },
+      "pass": true
+    }
+  ],
+  "nc": [
+    {
+      "ref": "J1",
+      "pin": "B8",
+      "page": "01_USB_Power",
+      "componentId": "0c145850f86cb25b",
+      "pinId": "0c145850f86cb25b-e12",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "J1",
+      "pin": "A8",
+      "page": "01_USB_Power",
+      "componentId": "0c145850f86cb25b",
+      "pinId": "0c145850f86cb25b-e36",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "J3",
+      "pin": "4",
+      "page": "01_USB_Power",
+      "componentId": "65107b1e5df903a6",
+      "pinId": "65107b1e5df903a6-e16",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "page": "01_USB_Power",
+      "componentId": "1b3b0832235186d7",
+      "pinId": "1b3b0832235186d7-e62",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U5",
+      "pin": "4",
+      "page": "01_USB_Power",
+      "componentId": "ce102efe70ccaa65",
+      "pinId": "ce102efe70ccaa65-e17",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "SW1",
+      "pin": "10",
+      "page": "01_USB_Power",
+      "componentId": "33fbceeca2d73086",
+      "pinId": "33fbceeca2d73086-e75",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U2",
+      "pin": "12",
+      "page": "02_TI_SilverLink",
+      "componentId": "7c83643c1fec2352",
+      "pinId": "7c83643c1fec2352-e49",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U2",
+      "pin": "19",
+      "page": "02_TI_SilverLink",
+      "componentId": "7c83643c1fec2352",
+      "pinId": "7c83643c1fec2352-e77",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U2",
+      "pin": "20",
+      "page": "02_TI_SilverLink",
+      "componentId": "7c83643c1fec2352",
+      "pinId": "7c83643c1fec2352-e81",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U2",
+      "pin": "21",
+      "page": "02_TI_SilverLink",
+      "componentId": "7c83643c1fec2352",
+      "pinId": "7c83643c1fec2352-e85",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U2",
+      "pin": "22",
+      "page": "02_TI_SilverLink",
+      "componentId": "7c83643c1fec2352",
+      "pinId": "7c83643c1fec2352-e89",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "page": "03_UART_Adapters",
+      "componentId": "718c1a84e6d62a60",
+      "pinId": "718c1a84e6d62a60-e16",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U3",
+      "pin": "10",
+      "page": "03_UART_Adapters",
+      "componentId": "c0af1726e5c3b756",
+      "pinId": "c0af1726e5c3b756-e41",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U3",
+      "pin": "11",
+      "page": "03_UART_Adapters",
+      "componentId": "c0af1726e5c3b756",
+      "pinId": "c0af1726e5c3b756-e45",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U3",
+      "pin": "12",
+      "page": "03_UART_Adapters",
+      "componentId": "c0af1726e5c3b756",
+      "pinId": "c0af1726e5c3b756-e49",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U3",
+      "pin": "13",
+      "page": "03_UART_Adapters",
+      "componentId": "c0af1726e5c3b756",
+      "pinId": "c0af1726e5c3b756-e53",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U3",
+      "pin": "14",
+      "page": "03_UART_Adapters",
+      "componentId": "c0af1726e5c3b756",
+      "pinId": "c0af1726e5c3b756-e57",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U3",
+      "pin": "15",
+      "page": "03_UART_Adapters",
+      "componentId": "c0af1726e5c3b756",
+      "pinId": "c0af1726e5c3b756-e61",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U3",
+      "pin": "16",
+      "page": "03_UART_Adapters",
+      "componentId": "c0af1726e5c3b756",
+      "pinId": "c0af1726e5c3b756-e65",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U7",
+      "pin": "1",
+      "page": "03_UART_Adapters",
+      "componentId": "d1742f8240b5f502",
+      "pinId": "d1742f8240b5f502-e28",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    },
+    {
+      "ref": "U8",
+      "pin": "1",
+      "page": "03_UART_Adapters",
+      "componentId": "104e5792a6ba5d70",
+      "pinId": "104e5792a6ba5d70-e5",
+      "apiNoConnected": true,
+      "sourceValue": "yes"
+    }
+  ],
+  "metadata": [
+    {
+      "ref": "J1",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C165948",
+      "expectedSupplierPart": "C165948"
+    },
+    {
+      "ref": "J2",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C456017",
+      "expectedSupplierPart": "C456017"
+    },
+    {
+      "ref": "J3",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C65114",
+      "expectedSupplierPart": "C65114"
+    },
+    {
+      "ref": "J4",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C131339",
+      "expectedSupplierPart": "C131339"
+    },
+    {
+      "ref": "J5",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C131339",
+      "expectedSupplierPart": "C131339"
+    },
+    {
+      "ref": "J6",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C131334",
+      "expectedSupplierPart": "C131334"
+    },
+    {
+      "ref": "J7",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C65114",
+      "expectedSupplierPart": "C65114"
+    },
+    {
+      "ref": "J8",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C65114",
+      "expectedSupplierPart": "C65114"
+    },
+    {
+      "ref": "J9",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C3338413",
+      "expectedSupplierPart": "C3338413"
+    },
+    {
+      "ref": "J10",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C3338413",
+      "expectedSupplierPart": "C3338413"
+    },
+    {
+      "ref": "U1",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C86413",
+      "expectedSupplierPart": "C86413"
+    },
+    {
+      "ref": "U2",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C2679332",
+      "expectedSupplierPart": "C2679332"
+    },
+    {
+      "ref": "U3",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C2846043",
+      "expectedSupplierPart": "C2846043"
+    },
+    {
+      "ref": "U4",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C511260",
+      "expectedSupplierPart": "C511260"
+    },
+    {
+      "ref": "U5",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C51118",
+      "expectedSupplierPart": "C51118"
+    },
+    {
+      "ref": "U6",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C46506",
+      "expectedSupplierPart": "C46506"
+    },
+    {
+      "ref": "U7",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C7829",
+      "expectedSupplierPart": "C7829"
+    },
+    {
+      "ref": "U8",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C7836",
+      "expectedSupplierPart": "C7836"
+    },
+    {
+      "ref": "U9",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C46506",
+      "expectedSupplierPart": "C46506"
+    },
+    {
+      "ref": "D1",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C7519",
+      "expectedSupplierPart": "C7519"
+    },
+    {
+      "ref": "D2",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C7519",
+      "expectedSupplierPart": "C7519"
+    },
+    {
+      "ref": "D3",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C7519",
+      "expectedSupplierPart": "C7519"
+    },
+    {
+      "ref": "D4",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C49338",
+      "expectedSupplierPart": "C49338"
+    },
+    {
+      "ref": "D5",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C49338",
+      "expectedSupplierPart": "C49338"
+    },
+    {
+      "ref": "D6",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C49338",
+      "expectedSupplierPart": "C49338"
+    },
+    {
+      "ref": "D7",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C49338",
+      "expectedSupplierPart": "C49338"
+    },
+    {
+      "ref": "Q1",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C94514",
+      "expectedSupplierPart": "C94514"
+    },
+    {
+      "ref": "Q2",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C94514",
+      "expectedSupplierPart": "C94514"
+    },
+    {
+      "ref": "D8",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C124205",
+      "expectedSupplierPart": "C124205"
+    },
+    {
+      "ref": "D9",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C124205",
+      "expectedSupplierPart": "C124205"
+    },
+    {
+      "ref": "D10",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C124205",
+      "expectedSupplierPart": "C124205"
+    },
+    {
+      "ref": "Y2",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C6071564",
+      "expectedSupplierPart": "C6071564"
+    },
+    {
+      "ref": "R1",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23186",
+      "expectedSupplierPart": "C23186"
+    },
+    {
+      "ref": "R2",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23186",
+      "expectedSupplierPart": "C23186"
+    },
+    {
+      "ref": "R3",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25819",
+      "expectedSupplierPart": "C25819"
+    },
+    {
+      "ref": "R4",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25819",
+      "expectedSupplierPart": "C25819"
+    },
+    {
+      "ref": "R5",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25819",
+      "expectedSupplierPart": "C25819"
+    },
+    {
+      "ref": "R6",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C33619",
+      "expectedSupplierPart": "C33619"
+    },
+    {
+      "ref": "R7",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23345",
+      "expectedSupplierPart": "C23345"
+    },
+    {
+      "ref": "R8",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23345",
+      "expectedSupplierPart": "C23345"
+    },
+    {
+      "ref": "R9",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C22843",
+      "expectedSupplierPart": "C22843"
+    },
+    {
+      "ref": "R10",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C22809",
+      "expectedSupplierPart": "C22809"
+    },
+    {
+      "ref": "R11",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C13187",
+      "expectedSupplierPart": "C13187"
+    },
+    {
+      "ref": "R12",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23129",
+      "expectedSupplierPart": "C23129"
+    },
+    {
+      "ref": "R13",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25803",
+      "expectedSupplierPart": "C25803"
+    },
+    {
+      "ref": "R14",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R15",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R16",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R17",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R18",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R19",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R20",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R21",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23162",
+      "expectedSupplierPart": "C23162"
+    },
+    {
+      "ref": "R22",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23162",
+      "expectedSupplierPart": "C23162"
+    },
+    {
+      "ref": "R23",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C21189",
+      "expectedSupplierPart": "C21189"
+    },
+    {
+      "ref": "R25",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C21189",
+      "expectedSupplierPart": "C21189"
+    },
+    {
+      "ref": "R27",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R28",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25804",
+      "expectedSupplierPart": "C25804"
+    },
+    {
+      "ref": "R29",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C21190",
+      "expectedSupplierPart": "C21190"
+    },
+    {
+      "ref": "R30",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C21190",
+      "expectedSupplierPart": "C21190"
+    },
+    {
+      "ref": "R31",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25819",
+      "expectedSupplierPart": "C25819"
+    },
+    {
+      "ref": "C1",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C15849",
+      "expectedSupplierPart": "C15849"
+    },
+    {
+      "ref": "C2",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C3",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C4",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C5",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C6",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23630",
+      "expectedSupplierPart": "C23630"
+    },
+    {
+      "ref": "C7",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23630",
+      "expectedSupplierPart": "C23630"
+    },
+    {
+      "ref": "C8",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C9",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C10",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C11",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C15849",
+      "expectedSupplierPart": "C15849"
+    },
+    {
+      "ref": "C12",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C1663",
+      "expectedSupplierPart": "C1663"
+    },
+    {
+      "ref": "C13",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C1663",
+      "expectedSupplierPart": "C1663"
+    },
+    {
+      "ref": "C14",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C15",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C16",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C17",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C18",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C19",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "C20",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C15849",
+      "expectedSupplierPart": "C15849"
+    },
+    {
+      "ref": "C21",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C15849",
+      "expectedSupplierPart": "C15849"
+    },
+    {
+      "ref": "C22",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C14663",
+      "expectedSupplierPart": "C14663"
+    },
+    {
+      "ref": "U10",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C46506",
+      "expectedSupplierPart": "C46506"
+    },
+    {
+      "ref": "SW1",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C255514",
+      "expectedSupplierPart": "C255514"
+    },
+    {
+      "ref": "D11",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C134405",
+      "expectedSupplierPart": "C134405"
+    },
+    {
+      "ref": "D12",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C124205",
+      "expectedSupplierPart": "C124205"
+    },
+    {
+      "ref": "D13",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C124205",
+      "expectedSupplierPart": "C124205"
+    },
+    {
+      "ref": "D15",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C124205",
+      "expectedSupplierPart": "C124205"
+    },
+    {
+      "ref": "D14",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C134401",
+      "expectedSupplierPart": "C134401"
+    },
+    {
+      "ref": "R32",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25819",
+      "expectedSupplierPart": "C25819"
+    },
+    {
+      "ref": "R33",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25819",
+      "expectedSupplierPart": "C25819"
+    },
+    {
+      "ref": "R34",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25819",
+      "expectedSupplierPart": "C25819"
+    },
+    {
+      "ref": "R35",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C25819",
+      "expectedSupplierPart": "C25819"
+    },
+    {
+      "ref": "R36",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23198",
+      "expectedSupplierPart": "C23198"
+    },
+    {
+      "ref": "R37",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C23198",
+      "expectedSupplierPart": "C23198"
+    },
+    {
+      "ref": "D16",
+      "found": true,
+      "devicePresent": true,
+      "footprintPresent": true,
+      "supplierPart": "C124205",
+      "expectedSupplierPart": "C124205"
+    }
+  ],
+  "drc": [
+    {
+      "type": "warn",
+      "rule": "SHOWDANDLING",
+      "primitives": [
+        {
+          "primitiveId": "fc8b4885d7aec730",
+          "sheet": "35c8fed936c1c8a9",
+          "name": "$2N147"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "SHOWDANDLING",
+      "primitives": [
+        {
+          "primitiveId": "84967908cef7dd7d",
+          "sheet": "35c8fed936c1c8a9",
+          "name": "$2N146"
+        }
+      ]
+    }
+  ]
+}

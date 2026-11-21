@@ -1,0 +1,36 @@
+{
+  "scope": "After exact 82 net-label alignment and 6 title-field edits, before the proposed J2 connector replacement",
+  "checkedAt": "2026-11-21T10:10:59.544Z",
+  "components": 97,
+  "pins": 344,
+  "positionCount": 97,
+  "positionFailures": [],
+  "ncCount": 21,
+  "ncFailures": [],
+  "metadataFailures": [],
+  "erc": [
+    {
+      "type": "warn",
+      "rule": "SHOWDANDLING",
+      "primitives": [
+        {
+          "primitiveId": "fc8b4885d7aec730",
+          "sheet": "35c8fed936c1c8a9",
+          "name": "$2N147"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "SHOWDANDLING",
+      "primitives": [
+        {
+          "primitiveId": "84967908cef7dd7d",
+          "sheet": "35c8fed936c1c8a9",
+          "name": "$2N146"
+        }
+      ]
+    }
+  ],
+  "pass": true
+}

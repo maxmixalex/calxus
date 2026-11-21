@@ -1,0 +1,52 @@
+{
+  "schema": "calxus.native-final-schematic-visual-review.v1",
+  "checkedAt": "2026-11-21T12:51:57.103921+00:00",
+  "pass": true,
+  "native_export": true,
+  "pdf": {
+    "path": "hardware/schematic/Calxus_RevA_schematic.pdf",
+    "sha256": "77b6e4918fc024a38e6ae59e9ba34164da7999fc66308e35dbaae1b2b98c003f",
+    "bytes": 283420,
+    "pages": 3,
+    "media_box_mm": [
+      [
+        596.1379879421658,
+        422.3314565022786
+      ],
+      [
+        596.1379879421658,
+        422.3314565022786
+      ],
+      [
+        596.1379879421658,
+        422.3314565022786
+      ]
+    ]
+  },
+  "source_export_report": "validation/native-final-pdf-export.json",
+  "electrical_audit": "validation/native-final-schematic-audit.json",
+  "pin_net_comparison": "validation/native-final-schematic-netlist-comparison.json",
+  "erc": "validation/native-final-erc.json",
+  "visualReview": {
+    "method": "Actual viewing of all three native PDF pages rendered by Poppler at90dpi and four critical crops rendered by PyMuPDF at3x",
+    "status": "passed",
+    "full_pages": [
+      "validation/native-final-schematic-review/page-1.png",
+      "validation/native-final-schematic-review/page-2.png",
+      "validation/native-final-schematic-review/page-3.png"
+    ],
+    "critical_crops": [
+      "validation/native-final-schematic-review/J2.png",
+      "validation/native-final-schematic-review/SW1.png",
+      "validation/native-final-schematic-review/Q1_Q2.png",
+      "validation/native-final-schematic-review/D4.png"
+    ],
+    "no_page_clipping": true,
+    "new_J2_independent_shield_pins_5_6_GND_visible": true,
+    "horizontal_mirror_of_J2_correct": true,
+    "SW1_bottom_four_vertical_labels_clear_of_symbol": true,
+    "Q1_Q2_D4_bottom_labels_clear_of_symbols": true,
+    "all_three_titles_marked_A2": true
+  },
+  "page_size_note": "The native file includes export margins: actual MediaBox596.137988x422.331457mm. The unchanged drawing frame and title specify A2; the original native PDF is preserved byte-for-byte, not silently cropped or relabeled as exact594x420mm."
+}

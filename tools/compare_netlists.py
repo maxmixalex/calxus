@@ -28,7 +28,7 @@ def empty_net(value):
     return value is None or str(value).strip() in ("", "None", "null")
 
 
-def read_actual(path: Path) -> list[tuple[str, str, str | None]]:
+def read_actual(path: Path, include_testpads: bool = True) -> list[tuple[str, str, str | None]]:
     raw = path.read_text(encoding="utf-8-sig")
     if path.suffix.lower() == ".csv":
         rows = list(csv.DictReader(raw.splitlines()))
@@ -88,16 +88,37 @@ def read_actual(path: Path) -> list[tuple[str, str, str | None]]:
                 answer.append((str(ref), str(pin["number"]), None if empty_net(pin["net"]) else str(pin["net"])))
         return answer
     if isinstance(components, list):
-        answer = []
+        answer, seen = [], set()
         for part in components:
             ref = field(part, "ref", "reference", "designator")
+            if ref is not None:
+                if ref in seen:
+                    raise ValueError(f"Duplicate component reference {ref}")
+                seen.add(ref)
             pins = part.get("pins")
+            if isinstance(part.get("pads"), list):
+                # Observed native PCB export: repeated physical pad numbers are
+                # retained here; canonical() rejects any conflicting net names.
+                if not ref or not part["pads"]:
+                    raise ValueError("Native PCB component needs ref and nonempty pads")
+                for pad in part["pads"]:
+                    if "number" not in pad or "net" not in pad:
+                        raise ValueError(f"Native PCB {ref} pad needs number and net")
+                    answer.append((str(ref), str(pad["number"]), None if empty_net(pad["net"]) else str(pad["net"])))
+                continue
             if ref is None or not isinstance(pins, dict):
                 raise ValueError("JSON component needs ref and pins object")
             for pin, net in pins.items():
                 if isinstance(net, dict):
                     net = field(net, "net", "netName")
                 answer.append((str(ref), str(pin), None if empty_net(net) else str(net)))
+        if include_testpads and data.get("testpads"):
+            if not isinstance(data["testpads"], dict):
+                raise ValueError("Native testpads must map ref to explicit number/net")
+            for ref, pad in data["testpads"].items():
+                if not isinstance(pad, dict) or "number" not in pad or "net" not in pad:
+                    raise ValueError(f"Native PCB testpad {ref} lacks observed number/net")
+                answer.append((str(ref),str(pad["number"]),None if empty_net(pad["net"]) else str(pad["net"])))
         return answer
     raise ValueError("Unrecognized actual netlist format; export/normalize actual ref,pinNumber,netName explicitly")
 
@@ -119,6 +140,10 @@ def make_aliases(parts: list[dict], extra: dict | None = None) -> dict[tuple[str
                        "S1": "1", "S2": "2", "S3": "3", "S4": "4"}
         if ref == "J2":
             mapping["SH"] = "5"
+        if part.get("pcb_only") and ref.startswith("TP") and set(part.get("pins", {})) == {"1"}:
+            # Native free pads are named TP1/TP2/etc. Each is the one terminal
+            # of the corresponding logical test point, whose design pin is 1.
+            mapping[ref] = "1"
         aliases.update({(ref, str(old)): str(new) for old, new in mapping.items()})
     for ref, mapping in (extra or {}).items():
         aliases.update({(ref, str(old)): str(new) for old, new in mapping.items()})
@@ -186,21 +211,25 @@ def main() -> int:
     parser.add_argument("--design", type=Path, required=True)
     parser.add_argument("--actual", type=Path, required=True)
     parser.add_argument("--aliases", type=Path, help="Extra explicit {ref:{oldPin:newPin}} mapping, if actual geometry proves it")
-    parser.add_argument("--scope", choices=("schematic", "pcb"), default="schematic", help="schematic excludes explicitly pcb_only pads; pcb includes all design pins")
+    parser.add_argument("--scope", choices=("schematic", "pcb-components", "pcb"), default="schematic", help="schematic and pcb-components exclude explicitly pcb_only pads; pcb includes all design pins")
     parser.add_argument("--topology-only", action="store_true", help="Ignore net labels but still compare complete pin groups")
     parser.add_argument("--output", type=Path)
     args = parser.parse_args()
     try:
         design = json.loads(args.design.read_text())
         all_parts = design["parts"]
-        excluded = [p["ref"] for p in all_parts if args.scope == "schematic" and p.get("pcb_only")]
+        excluded = [p["ref"] for p in all_parts if args.scope != "pcb" and p.get("pcb_only")]
         parts = [p for p in all_parts if p["ref"] not in excluded]
         if len({p["ref"] for p in parts}) != len(parts):
             raise ValueError("Duplicate reference designators in design input")
         extra = json.loads(args.aliases.read_text()) if args.aliases else None
         aliases = make_aliases(parts, extra)
         expected = canonical([(p["ref"], pin, net) for p in parts for pin, net in p["pins"].items()], aliases)
-        actual = canonical(read_actual(args.actual), aliases)
+        actual_rows = read_actual(args.actual, include_testpads=args.scope == "pcb")
+        actual = canonical(actual_rows, aliases)
+        raw_counts = defaultdict(int)
+        for ref,pin,net in actual_rows:
+            raw_counts[(ref,pin)] += 1
         errors, notes = compare(expected, actual, args.topology_only)
         if args.scope == "schematic":
             notes = [n + " (PCB-only test pads are explicitly excluded in this scope.)" for n in notes]
@@ -208,8 +237,10 @@ def main() -> int:
                   "actual_sha256": hashlib.sha256(args.actual.read_bytes()).hexdigest(),
                   "expected_components": len(parts), "actual_components": len({ref for ref,pin in actual}),
                   "expected_pins": len(expected), "actual_pins": len(actual),
+                  "actual_raw_pin_entries": len(actual_rows),
+                  "duplicate_physical_pin_entries": [{"ref":r,"pin":p,"count":c} for (r,p),c in raw_counts.items() if c>1],
                   "comparison_scope": args.scope, "excluded_pcb_only_refs": excluded,
-                  "alias_basis": "Verified project library: TUSB EP33, CH343 EP17, grouped USB-C pins, USB-A shield5",
+                  "alias_basis": "Verified project library: TUSB EP33, CH343 EP17, grouped USB-C pins, r7 USB-A independent shields5/6; observed single-terminal native free pad TPn maps to logical TPn pin1",
                   "errors": errors, "notes": notes,
                   "scope": "Pin-net export equivalence only for the stated schematic/PCB scope; does not verify routed copper, firmware, power timing or hardware behavior"}
         if args.output:

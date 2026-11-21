@@ -1,0 +1,4185 @@
+{
+  "schema": "calxus.source-derived-assembly-independent-roundtrip.v1",
+  "geometry_origin": "SOURCE_DERIVED_NOT_FRESH_NATIVE_STEP",
+  "native_final_export_validated": false,
+  "native_cam_or_drc_acceptance": false,
+  "assembly": "calxus_source_assembly.step.gz",
+  "assembly_sha256": "28a41abfb2c17b64b64f33db95581940e872935f44fc2fb57e42c8b210141bb7",
+  "assembly_manifest_sha256": "31331d8697806df3ff4f0de6adaf206ebce1e3b36b7f4971cecbebb87081ec13",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "gzip_crc_verified": true,
+  "fitted_components": 93,
+  "dnp_models_omitted": [
+    "J3",
+    "J4",
+    "J5",
+    "J8"
+  ],
+  "expected_named_objects": 114,
+  "actual_named_objects": 114,
+  "unknown_solids": [],
+  "per_object_checks": [
+    {
+      "name": "SOURCE_DERIVED_BOARD",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        0.012700025400000148,
+        0.012700025400000148,
+        0.0,
+        79.98745999492,
+        41.98738379476801,
+        1.6062032124060002
+      ],
+      "volume_mm3": 5278.605572119778,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.482476363889873e-10,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C1",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        10.100020220041,
+        14.200030480060999,
+        1.606203112407,
+        10.900020420040999,
+        15.800030480061,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514702,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.112192848928828e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C10",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        43.100086260173,
+        21.950045720090998,
+        1.606203112407,
+        43.900086460173,
+        23.550045720091,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514687,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.112192848928828e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C11",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        36.700076200152,
+        22.100045620091,
+        1.606203112407,
+        38.300076200152006,
+        22.900045820090998,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514683,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928822355187e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C12",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        45.100091340183,
+        30.700063500126998,
+        1.606203112407,
+        45.900091540183,
+        32.300063500127,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514679,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121927934176767e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C13",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        52.100104040208,
+        30.700063500126998,
+        1.606203112407,
+        52.900104240208,
+        32.300063500127,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514684,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928711332885e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C14",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        37.700076200152,
+        12.700025300051001,
+        1.606203112407,
+        39.300076200152006,
+        13.500025500051,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514684,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.112192848928828e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C15",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        57.200116840233996,
+        13.600027840056,
+        1.606203112407,
+        58.800116840234004,
+        14.400028040056,
+        2.406203312406
+      ],
+      "volume_mm3": 0.990681510851469,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928267243675e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C16",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        56.600114200229,
+        9.700020320040998,
+        1.606203112407,
+        57.400114400229,
+        11.300020320041,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514694,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121929044399792e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C17",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        60.700121920243994,
+        13.600027840056,
+        1.606203112407,
+        62.300121920244,
+        14.400028040056,
+        2.406203312406
+      ],
+      "volume_mm3": 0.990681510851469,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928711332885e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C18",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        53.200109220217996,
+        13.850027840056,
+        1.606203112407,
+        54.800109220218005,
+        14.650028040056,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514683,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928378265977e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C19",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        53.200109220217996,
+        24.450050700102,
+        1.606203112407,
+        54.800109220218005,
+        25.250050900102,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514674,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928711332885e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C2",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        8.100017680036,
+        16.200033020065998,
+        1.606203112407,
+        8.900017880036,
+        17.800033020066,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514702,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928711332885e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C20",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        67.600137060274,
+        36.200073660147,
+        1.606203112407,
+        68.400137260274,
+        37.80007366014701,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514702,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928711332885e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C21",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        35.600073660147,
+        8.800017680036,
+        1.606203112407,
+        37.200073660147005,
+        9.600017880035999,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514685,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928378265977e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C22",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        26.700055880112,
+        14.600030380061,
+        1.606203112407,
+        28.300055880112,
+        15.400030580061,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514698,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928600310582e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C3",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        28.200058420117,
+        6.400012600025,
+        1.606203112407,
+        29.800058420117,
+        7.200012800025001,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514693,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928600310582e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C4",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        63.20012700025399,
+        38.600078640157,
+        1.606203112407,
+        64.800127000254,
+        39.400078840157,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514663,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928711332885e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C5",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        17.100035460071002,
+        4.700010160020001,
+        1.606203112407,
+        17.900035660071,
+        6.30001016002,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514692,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121929155422094e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C6",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        28.200058420117,
+        16.600032920066,
+        1.606203112407,
+        29.800058420117,
+        17.400033120066,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514695,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121929155422094e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C7",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        27.950058420117,
+        23.100048160097,
+        1.606203112407,
+        29.550058420117,
+        23.900048360097,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514698,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928822355187e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C8",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        43.100086260173,
+        25.500053340106998,
+        1.606203112407,
+        43.900086460173,
+        27.100053340107,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514689,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928822355187e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_C9",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        51.950106680213,
+        27.900055780112,
+        1.606203112407,
+        53.550106680213005,
+        28.700055980112,
+        2.406203312406
+      ],
+      "volume_mm3": 0.9906815108514676,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.1121928600310582e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D1",
+      "present": true,
+      "valid": true,
+      "solid_count": 20,
+      "source_solid_count": 20,
+      "bbox_mm": [
+        9.103595324949998,
+        19.560336280113,
+        1.6062038190010002,
+        11.896419915080001,
+        22.439775480112,
+        3.2444444526700003
+      ],
+      "volume_mm3": 6.962792780038405,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.8829382497642655e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D10",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        36.175076200153,
+        27.349954179909002,
+        1.606203212405,
+        38.825076200151,
+        28.649954379909,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518337,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.81756864903582e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D11",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        12.350027940057,
+        26.050055780112,
+        1.6062032124049999,
+        15.150027940055,
+        28.950055980111003,
+        2.7062032124060003
+      ],
+      "volume_mm3": 4.557640790118098,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 3.24633280257558e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D12",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        16.425035560072,
+        26.849954179909002,
+        1.606203212405,
+        19.075035560070003,
+        28.149954379909,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518337,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.839773109528323e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D13",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        20.175043180087,
+        26.849954179909002,
+        1.606203212405,
+        22.825043180085,
+        28.149954379909,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518333,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.88418203051333e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D14",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        23.850050800103,
+        26.050055780112,
+        1.6062032124049999,
+        26.650050800101,
+        28.950055980111003,
+        2.7062032124060003
+      ],
+      "volume_mm3": 4.557640790118099,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 3.246333069029106e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D15",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        27.600157380315,
+        26.175055880113,
+        1.606203212405,
+        28.900157580315,
+        28.825055880111,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518337,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.773159728050814e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D16",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        52.675109220219,
+        11.349921159843,
+        1.606203212405,
+        55.325109220217,
+        12.649921359842999,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518333,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.839773109528323e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D2",
+      "present": true,
+      "valid": true,
+      "solid_count": 20,
+      "source_solid_count": 20,
+      "bbox_mm": [
+        64.35370708517401,
+        30.560356600153,
+        1.6062038190010002,
+        67.14653167530399,
+        33.439795800152005,
+        3.2444444526700003
+      ],
+      "volume_mm3": 6.962792780038398,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.829647544582258e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D3",
+      "present": true,
+      "valid": true,
+      "solid_count": 20,
+      "source_solid_count": 20,
+      "bbox_mm": [
+        38.560346440131994,
+        8.603595324949998,
+        1.6062038190010002,
+        41.439785640131,
+        11.396419915080001,
+        3.2444444526700003
+      ],
+      "volume_mm3": 6.962792780038409,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.8030021919912542e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D4",
+      "present": true,
+      "valid": true,
+      "solid_count": 17,
+      "source_solid_count": 17,
+      "bbox_mm": [
+        68.74735048188299,
+        24.549999900000998,
+        1.606203216757,
+        71.252979718777,
+        27.4500001,
+        2.6564083140289996
+      ],
+      "volume_mm3": 3.6014716925113643,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.0182080713057076e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D5",
+      "present": true,
+      "valid": true,
+      "solid_count": 17,
+      "source_solid_count": 17,
+      "bbox_mm": [
+        68.74735048188299,
+        16.549984659971,
+        1.606203216757,
+        71.252979718777,
+        19.44998485997,
+        2.6564083140289996
+      ],
+      "volume_mm3": 3.601471692511366,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.0182080713057076e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D6",
+      "present": true,
+      "valid": true,
+      "solid_count": 17,
+      "source_solid_count": 17,
+      "bbox_mm": [
+        63.747340321863,
+        6.54996433993,
+        1.606203216757,
+        66.252969558757,
+        9.449964539928999,
+        2.6564083140289996
+      ],
+      "volume_mm3": 3.601471692511361,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.240252676230739e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D7",
+      "present": true,
+      "valid": true,
+      "solid_count": 17,
+      "source_solid_count": 17,
+      "bbox_mm": [
+        8.247228561639,
+        25.550002440005997,
+        1.606203216757,
+        10.752857798532999,
+        28.450002640005,
+        2.6564083140289996
+      ],
+      "volume_mm3": 3.601471692511366,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 4.796163466380676e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D8",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        65.600233580467,
+        25.675053340108,
+        1.606203212405,
+        66.900233780467,
+        28.325053340106003,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518335,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.88418203051333e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_D9",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        67.97513970028001,
+        28.149956719914,
+        1.606203212405,
+        70.625139700278,
+        29.449956919914,
+        2.556203212406
+      ],
+      "volume_mm3": 1.7735627753518337,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.773159728050814e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_J1",
+      "present": true,
+      "valid": true,
+      "solid_count": 14,
+      "source_solid_count": 14,
+      "bbox_mm": [
+        -0.8299925067390002,
+        16.530043080086998,
+        0.7561905259629998,
+        7.0700074932609995,
+        25.470043280084,
+        4.857190625962001
+      ],
+      "volume_mm3": 125.85778177677278,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.2456048636977357e-07,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_J10",
+      "present": true,
+      "valid": true,
+      "solid_count": 2,
+      "source_solid_count": 2,
+      "bbox_mm": [
+        30.730063500127,
+        28.210063500127003,
+        -1.3937907425262055,
+        33.270063500127,
+        33.300063600127004,
+        10.106209257474319
+      ],
+      "volume_mm3": 36.88978322805097,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.394884621840902e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_J2",
+      "present": true,
+      "valid": true,
+      "solid_count": 23,
+      "source_solid_count": 23,
+      "bbox_mm": [
+        32.850054600109004,
+        -4.925011859991001,
+        -0.7937969609880007,
+        47.150054600109,
+        5.074988240008006,
+        7.907203139011
+      ],
+      "volume_mm3": 449.1566873416696,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.002220859751105e-11,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_J6",
+      "present": true,
+      "valid": true,
+      "solid_count": 14,
+      "source_solid_count": 14,
+      "bbox_mm": [
+        67.500129509823,
+        5.049020070396,
+        -1.39379681803,
+        72.200129609823,
+        14.950020170394001,
+        7.606203181970505
+      ],
+      "volume_mm3": 118.74748196499759,
+      "bbox_delta_mm": 4.662936703425657e-13,
+      "volume_delta_mm3": 9.521272659185342e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_J7",
+      "present": true,
+      "valid": true,
+      "solid_count": 3,
+      "source_solid_count": 3,
+      "bbox_mm": [
+        59.960124460249,
+        17.690043180086,
+        -1.3937967425384277,
+        65.040124460249,
+        25.310043180086,
+        10.106203257462097
+      ],
+      "volume_mm3": 107.05471355659685,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.4210854715202004e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_J9",
+      "present": true,
+      "valid": true,
+      "solid_count": 2,
+      "source_solid_count": 2,
+      "bbox_mm": [
+        29.460066040132002,
+        24.980053340107002,
+        -1.3937907425262055,
+        34.550066140132,
+        27.520053340107,
+        10.106209257474319
+      ],
+      "volume_mm3": 36.88978322805096,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.394884621840902e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_Q1",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        60.600124460249994,
+        26.050055780112,
+        1.6062032124049999,
+        63.400124460248,
+        28.950055980111003,
+        2.7062032124060003
+      ],
+      "volume_mm3": 4.557640790118101,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 3.246332269668528e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_Q2",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        60.350124460249994,
+        30.050063400126998,
+        1.6062032124049999,
+        63.150124460248,
+        32.950063600126,
+        2.7062032124060003
+      ],
+      "volume_mm3": 4.5576407901181,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 3.246332180850686e-08,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R1",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        5.095010164804,
+        28.190058420116998,
+        1.6062032121539997,
+        5.905010264803001,
+        29.810058420117002,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923455,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R10",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        36.690076200152,
+        24.395050695319,
+        1.6062032121539997,
+        38.310076200152004,
+        25.205050795318,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923471,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R11",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        36.690076200152,
+        30.595060855339,
+        1.6062032121539997,
+        38.310076200152004,
+        31.405060955338,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923466,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R12",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        41.190083820168,
+        28.595058315333997,
+        1.6062032121539997,
+        42.810083820168,
+        29.405058415333,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392347,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R13",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        41.190083820168,
+        30.445060855338998,
+        1.6062032121539997,
+        42.810083820168,
+        31.255060955338,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923465,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 9.992007221626409e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R14",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        45.095091444967,
+        17.690038100076,
+        1.6062032121539997,
+        45.905091544966,
+        19.310038100076003,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923443,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R15",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        47.095093984971996,
+        17.690038100076,
+        1.6062032121539997,
+        47.905094084971,
+        19.310038100076003,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923443,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R16",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        50.59510160498699,
+        15.940033020065998,
+        1.6062032121539997,
+        51.405101704985995,
+        17.560033020066,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923447,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R17",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        55.690111760224,
+        26.595053235324,
+        1.6062032121539997,
+        57.310111760224004,
+        27.405053335323,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392347,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R18",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        55.690111760224,
+        31.795063395344,
+        1.6062032121539997,
+        57.310111760224004,
+        32.605063495343,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392346,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 9.992007221626409e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R19",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        55.690111760224,
+        29.195058315334,
+        1.6062032121539997,
+        57.310111760224004,
+        30.005058415333,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923467,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R2",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        5.095010164804,
+        31.440063500126996,
+        1.6062032121539997,
+        5.905010264803001,
+        33.060063500127,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923459,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R20",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        55.690111760224,
+        34.395068475354,
+        1.6062032121539997,
+        57.310111760224004,
+        35.205068575353,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923459,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R21",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        29.845060964906,
+        13.440027940056,
+        1.6062032121539997,
+        30.655061064905002,
+        15.060027940056,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923461,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R22",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        38.095076204936,
+        14.940030480060999,
+        1.6062032121539997,
+        38.905076304935,
+        16.560030480061002,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923449,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R23",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        32.190066040131995,
+        19.595040535297997,
+        1.6062032121539997,
+        33.810066040132,
+        20.405040635297,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923476,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R25",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        32.190066040131995,
+        9.845020215258,
+        1.6062032121539997,
+        33.810066040132,
+        10.655020315257,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923481,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R27",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        35.440073660147,
+        19.595040535297997,
+        1.6062032121539997,
+        37.060073660147005,
+        20.405040635297,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392347,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.551115123125783e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R28",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        57.595116845018,
+        15.940033020065998,
+        1.6062032121539997,
+        58.405116945017,
+        17.560033020066,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923449,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.551115123125783e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R29",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        57.595116845018,
+        19.190040640080998,
+        1.6062032121539997,
+        58.405116945017,
+        20.810040640081002,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923444,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R3",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        12.190025400050999,
+        9.595020215258,
+        1.6062032121539997,
+        13.810025400051,
+        10.405020315257,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392346,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R30",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        57.595116845018,
+        22.440045720090996,
+        1.6062032121539997,
+        58.405116945017,
+        24.060045720091,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923446,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R31",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        58.595116845018,
+        26.440053340107,
+        1.6062032121539997,
+        59.405116945017,
+        28.060053340107004,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923445,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R32",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        8.59501778482,
+        9.190020320040999,
+        1.6062032121539997,
+        9.405017884819,
+        10.810020320041,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923465,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R33",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        21.59504318487,
+        9.190020320040999,
+        1.6062032121539997,
+        22.405043284869002,
+        10.810020320041,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392346,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R34",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        23.940048260096997,
+        11.345022755263,
+        1.6062032121539997,
+        25.560048260097002,
+        12.155022855262,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923454,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R35",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        18.59503810486,
+        9.190020320040999,
+        1.6062032121539997,
+        19.405038204859,
+        10.810020320041,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923463,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R36",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        59.595119385023,
+        35.690073660147,
+        1.6062032121539997,
+        60.405119485022,
+        37.310073660147005,
+        2.056203212153
+      ],
+      "volume_mm3": 0.573235142392346,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R37",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        24.595050804886,
+        1.44000508001,
+        1.6062032121539997,
+        25.405050904885,
+        3.0600050800100003,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923457,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.551115123125783e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R4",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        15.440033020065998,
+        9.595020215258,
+        1.6062032121539997,
+        17.060033020066,
+        10.405020315257,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923461,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R5",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        27.190055880112,
+        9.595020215258,
+        1.6062032121539997,
+        28.810055880112003,
+        10.405020315257,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923457,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.771561172376096e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R6",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        24.595050804886,
+        4.69001016002,
+        1.6062032121539997,
+        25.405050904885,
+        6.310010160020001,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923459,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 4.440892098500626e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R7",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        42.190086360173,
+        19.595040535297997,
+        1.6062032121539997,
+        43.810086360173,
+        20.405040635297,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923469,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 5.551115123125783e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R8",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        42.190086360173,
+        17.595035455288,
+        1.6062032121539997,
+        43.810086360173,
+        18.405035555287,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923466,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.661338147750939e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_R9",
+      "present": true,
+      "valid": true,
+      "solid_count": 4,
+      "source_solid_count": 4,
+      "bbox_mm": [
+        38.940078740157,
+        18.995037995293,
+        1.6062032121539997,
+        40.560078740157,
+        19.805038095292,
+        2.056203212153
+      ],
+      "volume_mm3": 0.5732351423923466,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_SW1",
+      "present": true,
+      "valid": true,
+      "solid_count": 28,
+      "source_solid_count": 28,
+      "bbox_mm": [
+        12.500040640079003,
+        30.259079272,
+        -0.8937957875939997,
+        27.50004064008732,
+        35.809079272,
+        5.107204312406001
+      ],
+      "volume_mm3": 163.28459253812807,
+      "bbox_delta_mm": 2.8705926524708048e-12,
+      "volume_delta_mm3": 2.0747847884194925e-12,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U1",
+      "present": true,
+      "valid": true,
+      "solid_count": 30,
+      "source_solid_count": 30,
+      "bbox_mm": [
+        15.000040540081,
+        14.947059965258001,
+        1.6062034845759998,
+        25.000040740081,
+        21.053011154884,
+        3.306628312423
+      ],
+      "volume_mm3": 61.40230179907211,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.8474111129762605e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U10",
+      "present": true,
+      "valid": true,
+      "solid_count": 20,
+      "source_solid_count": 20,
+      "bbox_mm": [
+        27.593700265702,
+        2.049931319864,
+        1.60620361328,
+        30.406467374634,
+        4.949931519863,
+        3.2561423116109998
+      ],
+      "volume_mm3": 7.113016502662956,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 3.2507330161024584e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U2",
+      "present": true,
+      "valid": true,
+      "solid_count": 14,
+      "source_solid_count": 14,
+      "bbox_mm": [
+        45.490096520193,
+        22.490050800101997,
+        1.606203212035,
+        50.510096520192995,
+        27.510050800102,
+        2.3572033120349998
+      ],
+      "volume_mm3": 18.44917901116245,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 3.552713678800501e-15,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U3",
+      "present": true,
+      "valid": true,
+      "solid_count": 14,
+      "source_solid_count": 14,
+      "bbox_mm": [
+        58.490119380239,
+        8.990020320041,
+        1.606203212246,
+        61.510119380239,
+        12.010020320040999,
+        2.417203312246
+      ],
+      "volume_mm3": 7.253153315976908,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.881784197001252e-16,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U4",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        31.550068480136996,
+        12.000030480061,
+        1.606203212406,
+        36.450068680137,
+        18.000030480061,
+        3.306203212406
+      ],
+      "volume_mm3": 29.69936216717498,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 6.039613253960852e-14,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U5",
+      "present": true,
+      "valid": true,
+      "solid_count": 14,
+      "source_solid_count": 14,
+      "bbox_mm": [
+        27.550058420117,
+        18.600040640080998,
+        1.606203213435,
+        30.450058420117056,
+        21.400040640081002,
+        2.8572033134329997
+      ],
+      "volume_mm3": 5.165197078117571,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 9.769962616701378e-15,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U6",
+      "present": true,
+      "valid": true,
+      "solid_count": 20,
+      "source_solid_count": 20,
+      "bbox_mm": [
+        19.593685025671,
+        4.049933859868999,
+        1.60620361328,
+        22.406452134603,
+        6.949934059868,
+        3.2561423116109998
+      ],
+      "volume_mm3": 7.113016502662943,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 3.2596148002994596e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U7",
+      "present": true,
+      "valid": true,
+      "solid_count": 19,
+      "source_solid_count": 19,
+      "bbox_mm": [
+        52.553667237134,
+        15.607655920067,
+        1.606203118304,
+        55.446551203302,
+        18.392410120066,
+        2.8066081117299997
+      ],
+      "volume_mm3": 4.528867494982432,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.078337502098293e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U8",
+      "present": true,
+      "valid": true,
+      "solid_count": 19,
+      "source_solid_count": 19,
+      "bbox_mm": [
+        52.553667237134,
+        20.607666080086997,
+        1.606203118304,
+        55.446551203302,
+        23.392420280086,
+        2.8066081117299997
+      ],
+      "volume_mm3": 4.52886749498242,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.2026824808563106e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_U9",
+      "present": true,
+      "valid": true,
+      "solid_count": 20,
+      "source_solid_count": 20,
+      "bbox_mm": [
+        62.593768845839,
+        34.549994819991,
+        1.60620361328,
+        65.406535954771,
+        37.449995019990006,
+        3.2561423116109998
+      ],
+      "volume_mm3": 7.113016502662954,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 3.1796787425264483e-13,
+      "pass": true
+    },
+    {
+      "name": "ACTUAL_Y2",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        47.400098960198,
+        30.250063400126997,
+        1.6062031124059999,
+        50.600099160198006,
+        32.750063600127,
+        2.3072033124059996
+      ],
+      "volume_mm3": 5.086422876539663,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.5263669439491423e-08,
+      "pass": true
+    },
+    {
+      "name": "PRINTED_base",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        -3.0,
+        -3.0,
+        -4.5,
+        83.0,
+        45.0,
+        6.500000000000066
+      ],
+      "volume_mm3": 11987.276269546499,
+      "bbox_delta_mm": 6.572520305780927e-14,
+      "volume_delta_mm3": 3.045350058528129e-05,
+      "pass": true
+    },
+    {
+      "name": "PRINTED_lid",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        -3.0000001,
+        -3.0000001,
+        1.75,
+        83.0000001,
+        45.0000001,
+        14.5000001
+      ],
+      "volume_mm3": 12045.973703577181,
+      "bbox_delta_mm": 1.0000000116860974e-07,
+      "volume_delta_mm3": 3.5771809052675962e-06,
+      "pass": true
+    },
+    {
+      "name": "PRINTED_comb_lower_tpu",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        79.1999998999998,
+        4.8,
+        1.6999999000000001,
+        96.50000010000011,
+        39.200000100000004,
+        5.2000001000000005
+      ],
+      "volume_mm3": 914.2356061059809,
+      "bbox_delta_mm": 1.0000020722600311e-07,
+      "volume_delta_mm3": 6.105980901338626e-06,
+      "pass": true
+    },
+    {
+      "name": "PRINTED_comb_upper_tpu",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        79.1999998999998,
+        4.8,
+        5.1999999,
+        96.50000010000011,
+        39.200000100000004,
+        8.700000099999999
+      ],
+      "volume_mm3": 914.2356061059974,
+      "bbox_delta_mm": 1.0000020722600311e-07,
+      "volume_delta_mm3": 6.105997385930095e-06,
+      "pass": true
+    },
+    {
+      "name": "PRINTED_slider_fork",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        14.2499999,
+        26.9,
+        3.0999999000000003,
+        23.2500001,
+        34.9,
+        12.2
+      ],
+      "volume_mm3": 230.57198351211747,
+      "bbox_delta_mm": 1.0000000116860974e-07,
+      "volume_delta_mm3": 1.648788253305611e-05,
+      "pass": true
+    },
+    {
+      "name": "PRINTED_slider_thumb",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        15.5,
+        27.9,
+        12.2,
+        22.5,
+        33.9,
+        17.4
+      ],
+      "volume_mm3": 85.39308397071244,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 1.6029287564833794e-05,
+      "pass": true
+    },
+    {
+      "name": "Heat_shrink_collar_1_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        85.9999999,
+        6.7124999,
+        1.9124999,
+        94.0000001,
+        13.287500099999999,
+        8.4875001
+      ],
+      "volume_mm3": 42.78849194189421,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.2595258997171186e-12,
+      "pass": true
+    },
+    {
+      "name": "Heat_shrink_collar_2_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        85.9999999,
+        14.3124999,
+        1.5124999000000001,
+        94.0000001,
+        21.6875001,
+        8.887500099999999
+      ],
+      "volume_mm3": 48.82034983678673,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.6432189770275727e-12,
+      "pass": true
+    },
+    {
+      "name": "Heat_shrink_collar_3_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        85.9999999,
+        22.3124999,
+        1.5124999000000001,
+        94.0000001,
+        29.6875001,
+        8.887500099999999
+      ],
+      "volume_mm3": 48.82034983678673,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.6716406864579767e-12,
+      "pass": true
+    },
+    {
+      "name": "Heat_shrink_collar_4_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        85.9999999,
+        30.3124999,
+        1.5124999000000001,
+        94.0000001,
+        37.6875001,
+        8.887500099999999
+      ],
+      "volume_mm3": 48.82034983678665,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.6432189770275727e-12,
+      "pass": true
+    },
+    {
+      "name": "M2x16_screw_1_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        1.6,
+        1.6,
+        -3.6,
+        5.4,
+        5.4,
+        14.0
+      ],
+      "volume_mm3": 68.41132162457295,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.4300561562995426e-12,
+      "pass": true
+    },
+    {
+      "name": "M2_insert_1_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        1.9,
+        1.9,
+        -2.5,
+        5.1,
+        5.1,
+        0.0
+      ],
+      "volume_mm3": 12.252211348999651,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.100187187665142e-13,
+      "pass": true
+    },
+    {
+      "name": "M2x16_screw_2_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        74.6,
+        1.6,
+        -3.6,
+        78.4,
+        5.4,
+        14.0
+      ],
+      "volume_mm3": 68.41132162457299,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.4300561562995426e-12,
+      "pass": true
+    },
+    {
+      "name": "M2_insert_2_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        74.9,
+        1.9,
+        -2.5,
+        78.1,
+        5.1,
+        0.0
+      ],
+      "volume_mm3": 12.252211348999609,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.993605777301127e-13,
+      "pass": true
+    },
+    {
+      "name": "M2x16_screw_3_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        1.6,
+        36.6,
+        -3.6,
+        5.4,
+        40.4,
+        14.0
+      ],
+      "volume_mm3": 68.41132162457293,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.4158453015843406e-12,
+      "pass": true
+    },
+    {
+      "name": "M2_insert_3_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        1.9,
+        36.9,
+        -2.5,
+        5.1,
+        40.1,
+        0.0
+      ],
+      "volume_mm3": 12.25221134899966,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.975842208907125e-13,
+      "pass": true
+    },
+    {
+      "name": "M2x16_screw_4_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        74.6,
+        36.6,
+        -3.6,
+        78.4,
+        40.4,
+        14.0
+      ],
+      "volume_mm3": 68.41132162457298,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 2.4158453015843406e-12,
+      "pass": true
+    },
+    {
+      "name": "M2_insert_4_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        74.9,
+        36.9,
+        -2.5,
+        78.1,
+        40.1,
+        0.0
+      ],
+      "volume_mm3": 12.252211348999616,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 7.94031507211912e-13,
+      "pass": true
+    },
+    {
+      "name": "M2x6_slider_screw_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        16.75,
+        28.9,
+        9.5,
+        20.75,
+        32.9,
+        17.3
+      ],
+      "volume_mm3": 41.4690230273856,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 4.973799150320701e-13,
+      "pass": true
+    },
+    {
+      "name": "M2_slider_insert_REFERENCE",
+      "present": true,
+      "valid": true,
+      "solid_count": 1,
+      "source_solid_count": 1,
+      "bbox_mm": [
+        17.15,
+        29.299999999999997,
+        9.7,
+        20.35,
+        32.5,
+        12.2
+      ],
+      "volume_mm3": 12.252211348999664,
+      "bbox_delta_mm": 0.0,
+      "volume_delta_mm3": 8.08242361927114e-13,
+      "pass": true
+    }
+  ],
+  "board_bottom_face_inner_wire_count": 247,
+  "drill_feature_checks": [
+    {
+      "source_kind": "PAD",
+      "id": "H1.H1",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "H2.H2",
+      "surface_match_errors_mm": [
+        1.4210854715202004e-14
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "H3.H3",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "H4.H4",
+      "surface_match_errors_mm": [
+        1.4210854715202004e-14
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J1.1",
+      "surface_match_errors_mm": [
+        1.7798229048217483e-15,
+        8.95090418262362e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J1.2",
+      "surface_match_errors_mm": [
+        1.1157603309187458e-15,
+        1.336885555457667e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J1.3",
+      "surface_match_errors_mm": [
+        4.577566798522237e-16,
+        2.482534153247273e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J1.4",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16,
+        8.95090418262362e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J10.1",
+      "surface_match_errors_mm": [
+        5.0292000132872715e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J10.2",
+      "surface_match_errors_mm": [
+        7.94721185223203e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J2.1",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J2.2",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J2.3",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J2.4",
+      "surface_match_errors_mm": [
+        7.106294666405892e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J2.5",
+      "surface_match_errors_mm": [
+        7.120157239281594e-15,
+        7.106294666405892e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J2.6",
+      "surface_match_errors_mm": [
+        4.577566798522237e-16,
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J3.1",
+      "surface_match_errors_mm": [
+        1.4210854715202004e-14
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J3.2",
+      "surface_match_errors_mm": [
+        1.4210854715202004e-14
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J3.3",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J3.4",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J3.5",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J3.6",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J4.1",
+      "surface_match_errors_mm": [
+        3.554447978966673e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J4.2",
+      "surface_match_errors_mm": [
+        3.554447978966673e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J4.3",
+      "surface_match_errors_mm": [
+        3.554447978966673e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J5.1",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J5.2",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J5.3",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J6.1",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J6.2",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J6.3",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J6.4",
+      "surface_match_errors_mm": [
+        1.1102230246251565e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J7.1",
+      "surface_match_errors_mm": [
+        7.944109290391274e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J7.2",
+      "surface_match_errors_mm": [
+        7.944109290391274e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J7.3",
+      "surface_match_errors_mm": [
+        7.944109290391274e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J7.4",
+      "surface_match_errors_mm": [
+        7.944109290391274e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J7.5",
+      "surface_match_errors_mm": [
+        7.944109290391274e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J7.6",
+      "surface_match_errors_mm": [
+        7.944109290391274e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J8.1",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J8.2",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J8.3",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J8.4",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J8.5",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J8.6",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J9.1",
+      "surface_match_errors_mm": [
+        3.5596458096434965e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "J9.2",
+      "surface_match_errors_mm": [
+        2.220446049250313e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.1",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.10",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.2",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.3",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.4",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.5",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.6",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.7",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.8",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "PAD",
+      "id": "SW1.9",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "J1_NONPAD",
+      "id": "J1.e55",
+      "surface_match_errors_mm": [
+        3.6637359812630166e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "J1_NONPAD",
+      "id": "J1.e56",
+      "surface_match_errors_mm": [
+        3.6637359812630166e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "84ec733ff0c71398",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "4146bad3dedc458a",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "136dac46c24376e8",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a172eb50d6cba057",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "cec7b08cf99ddd80",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "4bf0913127979c6e",
+      "surface_match_errors_mm": [
+        5.024372531874018e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "5538e16fa0aad347",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "82756998d55da9de",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1a2a5c8de0cd25f9",
+      "surface_match_errors_mm": [
+        5.024372531874018e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "2ca8c37d4d45e084",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "58bc2252284b2c6a",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a1b1bac9c63b6d6b",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ab043084eee6de7b",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "170646d820b6c217",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a93ffe22921c60a0",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "7751afa9b96652c1",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "2550afeb2875ad29",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "0b9d31afbfecae89",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "17077d66f911113b",
+      "surface_match_errors_mm": [
+        7.105481567502833e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "89573436f3d877d6",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "400bbe0a7d6d643b",
+      "surface_match_errors_mm": [
+        7.105481567502833e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "42761d9427b0bc87",
+      "surface_match_errors_mm": [
+        7.105481567502833e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1cc57f974266a22e",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "141421b490d729de",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "3953a112aa8dcee2",
+      "surface_match_errors_mm": [
+        7.105481567502833e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "3fa5e92405750492",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "4af9e08bb8177d5d",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "619a924c36594da5",
+      "surface_match_errors_mm": [
+        1.776573666601473e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "388bdf9aef67bc85",
+      "surface_match_errors_mm": [
+        3.972151618002262e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "6bab802e69dac2f1",
+      "surface_match_errors_mm": [
+        3.972151618002262e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "b26173de43a06ff4",
+      "surface_match_errors_mm": [
+        4.449557262054371e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "fb71dc2bf35364ca",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ec4b3219c934ecfb",
+      "surface_match_errors_mm": [
+        1.776573666601473e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "f841e7d59955d378",
+      "surface_match_errors_mm": [
+        7.324159468977076e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "7a0dcf2f99e781ea",
+      "surface_match_errors_mm": [
+        7.324159468977076e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "26077c13d5d64ec0",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "38e281607052b539",
+      "surface_match_errors_mm": [
+        8.886119947416683e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1719997b98183089",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "45969eaf5354faa9",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "66a603977e80079f",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a2dd82c561c981bb",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ea36aeaa3830d394",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "78c1a7bc7bfe97e6",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "82c43892b0f26668",
+      "surface_match_errors_mm": [
+        7.105481567502833e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "0947a7c39d3f1b83",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "c711430856cff109",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "61186ceb1543d949",
+      "surface_match_errors_mm": [
+        1.776573666601473e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "398c8c91d2ea0248",
+      "surface_match_errors_mm": [
+        1.776573666601473e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "83036479de6ae290",
+      "surface_match_errors_mm": [
+        1.776573666601473e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ffedf1ba0f96e03a",
+      "surface_match_errors_mm": [
+        7.105481567502833e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1a623f3b89437634",
+      "surface_match_errors_mm": [
+        3.552822097363439e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "737c14bb695d6380",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "f655dc3308036550",
+      "surface_match_errors_mm": [
+        7.324159468977076e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "7cea14b531f220bc",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "356a05be288aded9",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "bba81a5d2986be1b",
+      "surface_match_errors_mm": [
+        1.4210881820230466e-14
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "eba18f0444094293",
+      "surface_match_errors_mm": [
+        8.886119947416683e-16
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "187daca51f930045",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "88fbf59872a66112",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "6d0d4e689cff83e2",
+      "surface_match_errors_mm": [
+        2.7755575615628914e-17
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "06f3599058edeb9b",
+      "surface_match_errors_mm": [
+        7.105481567502833e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "c40663139fdde172",
+      "surface_match_errors_mm": [
+        3.335772190394322e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1f8ed1115f47c419",
+      "surface_match_errors_mm": [
+        3.033779437420792e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "f653efaf47fa6612",
+      "surface_match_errors_mm": [
+        5.042352847744585e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "bebc785fb7384c7b",
+      "surface_match_errors_mm": [
+        6.195592004066511e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "e15fb6271549bf69",
+      "surface_match_errors_mm": [
+        5.44751220779969e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "fcd3525f6b56d94a",
+      "surface_match_errors_mm": [
+        4.933927053364174e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "7b6fcb2030e049e7",
+      "surface_match_errors_mm": [
+        5.084231885329852e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "0fb218db02c11ee0",
+      "surface_match_errors_mm": [
+        5.005295185490424e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "d7dd18a52e044c7f",
+      "surface_match_errors_mm": [
+        4.305093886682051e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "4a64035cb17ecd43",
+      "surface_match_errors_mm": [
+        5.042352847744585e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "b6aa759bb18b0e3e",
+      "surface_match_errors_mm": [
+        5.218380799611309e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "e2da7af5b15500b6",
+      "surface_match_errors_mm": [
+        3.0633819628038205e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ce95b68f9233a6e6",
+      "surface_match_errors_mm": [
+        3.189540712273916e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "828ae27876abb289",
+      "surface_match_errors_mm": [
+        5.264405521935514e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "44d76d063c273253",
+      "surface_match_errors_mm": [
+        2.972629145629558e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "96076b49bc5185bf",
+      "surface_match_errors_mm": [
+        4.3396969281744756e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "64085bd28365a1a1",
+      "surface_match_errors_mm": [
+        3.360476192153871e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a8f4d71eeacae733",
+      "surface_match_errors_mm": [
+        6.413313981945841e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "8b571941af4111ed",
+      "surface_match_errors_mm": [
+        4.812191742487666e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "9fed075f0a90863e",
+      "surface_match_errors_mm": [
+        3.814664274034021e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ffc82086482ee2c9",
+      "surface_match_errors_mm": [
+        6.594664956007615e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "92f5e5e21596f220",
+      "surface_match_errors_mm": [
+        4.856186072069484e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "b13757b68da2872c",
+      "surface_match_errors_mm": [
+        3.396341900945321e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "eecf3cc1cc2e904c",
+      "surface_match_errors_mm": [
+        3.1294176044910274e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "d8abae84860aade0",
+      "surface_match_errors_mm": [
+        4.812847416416632e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "0377d1ba5c66959a",
+      "surface_match_errors_mm": [
+        5.72549494892475e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a4e64e24560cdd08",
+      "surface_match_errors_mm": [
+        4.1376556926587205e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "0a01603e0e7ef817",
+      "surface_match_errors_mm": [
+        5.451767995371194e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "aef77ed306de1b93",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "c8a7b043c2a0bd52",
+      "surface_match_errors_mm": [
+        2.9451151329971294e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "45f2b43f211f0a77",
+      "surface_match_errors_mm": [
+        3.812512979225501e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a729347720923331",
+      "surface_match_errors_mm": [
+        3.9741319830702634e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "577d5234bdb69a99",
+      "surface_match_errors_mm": [
+        5.363570048835048e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "bd2501e99cf81997",
+      "surface_match_errors_mm": [
+        5.280086244098619e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1274fc3508ce2d23",
+      "surface_match_errors_mm": [
+        4.579972350976742e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "7940995d4d32a07c",
+      "surface_match_errors_mm": [
+        3.425793511097344e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "9bdd2b234bc97def",
+      "surface_match_errors_mm": [
+        2.221800108478176e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "848dcf342057426d",
+      "surface_match_errors_mm": [
+        3.6686956576052977e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "847c240f01a715a1",
+      "surface_match_errors_mm": [
+        3.514676430136848e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "e2e96a5122a2beeb",
+      "surface_match_errors_mm": [
+        2.0572261888141608e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ab4158041fc9a35d",
+      "surface_match_errors_mm": [
+        1.2922385560315355e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "694cdaa6232a0c0c",
+      "surface_match_errors_mm": [
+        3.0627638690709943e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "d7bc14c88923e25f",
+      "surface_match_errors_mm": [
+        3.918792254718424e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "5f2c7586d7fd94c4",
+      "surface_match_errors_mm": [
+        3.462213013166138e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "39e2012eb5e62ef3",
+      "surface_match_errors_mm": [
+        1.7244447772670939e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "200e9a4a3c800364",
+      "surface_match_errors_mm": [
+        4.05180969348983e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "b40f5f99be65eca2",
+      "surface_match_errors_mm": [
+        1.784868510890134e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a27ecc92080c3fa5",
+      "surface_match_errors_mm": [
+        5.806596757085242e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "cc90ec368aaf9f21",
+      "surface_match_errors_mm": [
+        5.511977238781252e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "341222a7e6b42ba4",
+      "surface_match_errors_mm": [
+        1.9171542585635536e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "7115309b5385fd06",
+      "surface_match_errors_mm": [
+        2.5231810816939567e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "6ef1b1f3bdd20e48",
+      "surface_match_errors_mm": [
+        4.826857491234031e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1fb5ac61511334a9",
+      "surface_match_errors_mm": [
+        3.736268499494336e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "d70b01696010385f",
+      "surface_match_errors_mm": [
+        4.949889730990285e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "9ca06f953588abc0",
+      "surface_match_errors_mm": [
+        4.535803361003056e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ee3c4faef18b320f",
+      "surface_match_errors_mm": [
+        2.6838901652781424e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "8801e14456231fb8",
+      "surface_match_errors_mm": [
+        4.808175839508501e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "c105c90e382380a4",
+      "surface_match_errors_mm": [
+        5.366363795267593e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "fe5f5afbcbd6b7ff",
+      "surface_match_errors_mm": [
+        3.1798306967955813e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a7dec221d574f575",
+      "surface_match_errors_mm": [
+        5.424380185564263e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "d5f6ad02afe16790",
+      "surface_match_errors_mm": [
+        4.926887091080881e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "21adacf3219aead0",
+      "surface_match_errors_mm": [
+        5.303312154039805e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "367fad24310b0980",
+      "surface_match_errors_mm": [
+        4.4369490562610827e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "f5e12cfcc4514b07",
+      "surface_match_errors_mm": [
+        2.6443303094359597e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "b85181c5667cd1e8",
+      "surface_match_errors_mm": [
+        3.839481895981373e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "bfd4bb3cc3100f4c",
+      "surface_match_errors_mm": [
+        5.647810920729844e-13
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "91ed6b2d77ba616e",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "db5f8c5f590c23f0",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "cfdc559d3cf940ff",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ce58c1a21aa99739",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "16baba3b72dd8ade",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ff109fbeee74a19d",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "e9a8e12f5dedc5c3",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "badcef0769e806ca",
+      "surface_match_errors_mm": [
+        5.0242958677880805e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "0d39a1148f87c7a3",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "bf0d8263884754fc",
+      "surface_match_errors_mm": [
+        7.944109290391274e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "e636b78971a8d70c",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "70e3fba024c2b351",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "0003eecb19777d5e",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "f5624e8a141acaa0",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "df6a51880c471ada",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "674e92f834a90d40",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "444c630c776594b9",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "3d62702f6aa57564",
+      "surface_match_errors_mm": [
+        1.7763568394002505e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "680651af3a9bd07b",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "72f543982d23d12c",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "98bd40e6eee4f654",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "68df587b979f74a0",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ea108c43547d519a",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1c23c636cecf0a78",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "050623813d5c2062",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "7a73ae3227bdb30a",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "44bd2193f3c63ad8",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "117d75dc3eca8781",
+      "surface_match_errors_mm": [
+        1.7763568394002505e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "888279396f2637f5",
+      "surface_match_errors_mm": [
+        3.66205343881779e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "133a7d9b2575c199",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1548968fbb27db26",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "a888e238e1fc922a",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "2aa2e7571016651b",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ed343e54265ea765",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "4bbf3113d9208af2",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "db5ce1555866060f",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "92c6ba71550fc6b2",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "26387c4cef1a2fbb",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "ea3b3a73ae735162",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "fb51b9b6c466a9a2",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "71b2f524430fc866",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "45d4e1e2598fc31e",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "56b2e39585cd5fd8",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "b9f604aec838868b",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "85601d61dbbf8b01",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "1f93b4af10901ae0",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "8dc9205744cb8698",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "0137e59a75641bfa",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "71c790ec64549cc5",
+      "surface_match_errors_mm": [
+        3.552713678800501e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "aa3492827b6817fb",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "9deed5e1e21ecb28",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "c8b8b8842343b0d2",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "51cd80058a184d0a",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "bc8c888a0399b2f0",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "11e8d856b8ffaa39",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "4c0e963372835e94",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "3e4b57e360d3c3c9",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "8052860e3ef865dd",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "52c41fdf1a9827d5",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "492a8cd298b4d8be",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "fd0dcbce74bffe13",
+      "surface_match_errors_mm": [
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "source_kind": "VIA",
+      "id": "d383fef5fb2df488",
+      "surface_match_errors_mm": [
+        7.105427357601002e-15
+      ],
+      "pass": true
+    }
+  ],
+  "complete_drill_readback_pass": true,
+  "source_pcba_static_fit_pass": true,
+  "selector16_pose_pass": true,
+  "seven_printed_designs_fourteen_step_stl_files_unchanged": true,
+  "geometry_roundtrip_pass": true,
+  "source_design_assembly_verification_pass": true,
+  "limits": [
+    "This validates the separately generated source-design assembly, not fresh native STEP, native DRC or manufacturing CAM.",
+    "Seven printed designs retain their existing frozen geometry. Physical first-article validation remains required."
+  ],
+  "exchange_representation": "XCAF shared native BREP leaf definitions plus original occurrence locations; exact3D geometry and2D trimming pcurves retained. No tessellation, decimation or shape deletion."
+}

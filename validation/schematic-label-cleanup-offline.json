@@ -1,0 +1,9 @@
+{
+  "scope": "Offline rehearsal only; native apply/verify/export still required",
+  "changed_ATTR_records": 88,
+  "pass": true,
+  "components": 97,
+  "pins": 344,
+  "explicit_nc": 21,
+  "issues": []
+}

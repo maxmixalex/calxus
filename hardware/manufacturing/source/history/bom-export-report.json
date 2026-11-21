@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "kind": "bom",
+  "checkedAt": "2026-11-21T10:04:30.942Z",
+  "requested": {
+    "projectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "pcbId": "2a0c39c6c6694f40",
+    "schematicPageId": "0b9f8a9f53fb8264"
+  },
+  "files": [
+    {
+      "path": "D:/Works/Calc/Calxus/exports/Calxus_RevA_BOM_native.tsv",
+      "nativeName": "Calxus_RevA_BOM_native.csv",
+      "size": 5870,
+      "type": "text/csv",
+      "saved": true,
+      "format": "tsv",
+      "encoding": "utf-16le",
+      "bom": true,
+      "readbackBytes": 5870,
+      "readbackByteIdentical": true
+    }
+  ],
+  "failures": [],
+  "activeDocument": {
+    "documentType": 3,
+    "uuid": "2a0c39c6c6694f40",
+    "tabId": "2a0c39c6c6694f40@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+  },
+  "bomFilter": [],
+  "bomRequiresSubsetValidation": true,
+  "finishedAt": "2026-11-21T10:04:31.588Z",
+  "manifestPath": "D:/Works/Calc/Calxus/exports/Calxus_RevA_bom_export-report.json",
+  "manifestSaved": true
+}

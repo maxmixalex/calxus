@@ -1,0 +1,694 @@
+{
+  "checkedAt": "2026-11-21T12:44:38.829Z",
+  "method": "exact native source ATTR patch after guarded API normalization",
+  "page": "0b9f8a9f53fb8264",
+  "changes": [
+    {
+      "id": "5f036037c7e8deb9",
+      "parentId": "1488a7a605462dd5",
+      "key": "Calxus Function",
+      "old": "Selected downstream USB-A; rear separate shield pins 5/6 grounded; C456017 right-angle body10mm,height6.3mm.",
+      "next": "Selected downstream USB-A; C456017 rear shields5/6 grounded; right-angle10mm body6.3mm high."
+    },
+    {
+      "id": "8a27863c917a9338",
+      "parentId": "1488a7a605462dd5",
+      "key": "3D Model Transform",
+      "old": null,
+      "next": "562.991,393.7,0,0,0,0,-0.001,-157.48,-94.487992126",
+      "nativeCreatedAttribute": true
+    },
+    {
+      "id": "3358c01ce55d9ea1",
+      "parentId": "33fbceeca2d73086",
+      "key": "3D Model Transform",
+      "old": null,
+      "next": "590.55,218.5035,0,0,0,0,0,-38.031,-98.42496063"
+    }
+  ],
+  "protectedRecordDifferences": [],
+  "protectedSourceUnchanged": true,
+  "modifiesPcb": false,
+  "modifiesLibraries": false,
+  "saved": true,
+  "reopen": {
+    "pages": {
+      "page0": {
+        "page": "0b9f8a9f53fb8264",
+        "name": "01_USB_Power",
+        "saved": true,
+        "closed": true,
+        "active": {
+          "documentType": 1,
+          "uuid": "0b9f8a9f53fb8264",
+          "tabId": "0b9f8a9f53fb8264@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+          "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+        },
+        "sourceRecordsEqual": false,
+        "differences": [
+          "0b9f8a9f53fb8264|COMPONENT|1488a7a605462dd5",
+          "0b9f8a9f53fb8264|ATTR|74a15d611805b682",
+          "0b9f8a9f53fb8264|ATTR|d78c36f0c2e739f1",
+          "0b9f8a9f53fb8264|ATTR|15be2c6e7dec6f71",
+          "0b9f8a9f53fb8264|ATTR|c53dbfdd84bfb321",
+          "0b9f8a9f53fb8264|ATTR|5006ed59d3917d75",
+          "0b9f8a9f53fb8264|ATTR|214b7a3010f96f78",
+          "0b9f8a9f53fb8264|ATTR|dd40fe4e2c432ec9",
+          "0b9f8a9f53fb8264|ATTR|246397a70c87ec22",
+          "0b9f8a9f53fb8264|ATTR|5b1ef8a0cdf3469b",
+          "0b9f8a9f53fb8264|ATTR|bf6fa70e0152ac8e",
+          "0b9f8a9f53fb8264|ATTR|2bdfe5bf66fe9ac3",
+          "0b9f8a9f53fb8264|ATTR|c834219d6651be5e",
+          "0b9f8a9f53fb8264|ATTR|d80f6178dcce6f20",
+          "0b9f8a9f53fb8264|ATTR|fc4b69dbcca8d534",
+          "0b9f8a9f53fb8264|ATTR|c33d415cd82ed3cb",
+          "0b9f8a9f53fb8264|ATTR|a9c0dab5650cc39b",
+          "0b9f8a9f53fb8264|ATTR|9e8249a884573d95",
+          "0b9f8a9f53fb8264|ATTR|9de916504f9b9532",
+          "0b9f8a9f53fb8264|ATTR|ccaf5607608220ef",
+          "0b9f8a9f53fb8264|ATTR|d090aaa6c0a53fde",
+          "0b9f8a9f53fb8264|ATTR|13ed8c6b4f8c49b8",
+          "0b9f8a9f53fb8264|ATTR|034c362f36b23787",
+          "0b9f8a9f53fb8264|ATTR|7777230e71daeebf",
+          "0b9f8a9f53fb8264|ATTR|e10f3ea3d98fbee1",
+          "0b9f8a9f53fb8264|ATTR|e851a44606c8428d",
+          "0b9f8a9f53fb8264|ATTR|8ce78dfd98d12cc7",
+          "0b9f8a9f53fb8264|ATTR|79641a09fbb28505",
+          "0b9f8a9f53fb8264|ATTR|6b876304680f1e94",
+          "0b9f8a9f53fb8264|ATTR|f0feb0da80ea1cfd",
+          "0b9f8a9f53fb8264|ATTR|15e5c89b80c95a21",
+          "0b9f8a9f53fb8264|ATTR|54d1026704666319",
+          "0b9f8a9f53fb8264|ATTR|39546aa9efc9ba56",
+          "0b9f8a9f53fb8264|ATTR|dc40b6fcdb1924cc",
+          "0b9f8a9f53fb8264|ATTR|1adcb45976cd657b",
+          "0b9f8a9f53fb8264|ATTR|468e2bbf72b619e2",
+          "0b9f8a9f53fb8264|ATTR|5f036037c7e8deb9",
+          "0b9f8a9f53fb8264|ATTR|8a27863c917a9338"
+        ],
+        "beforeBytes": 587166,
+        "afterBytes": 587783
+      },
+      "page1": {
+        "page": "35c8fed936c1c8a9",
+        "name": "02_TI_SilverLink",
+        "saved": true,
+        "closed": true,
+        "active": {
+          "documentType": 1,
+          "uuid": "35c8fed936c1c8a9",
+          "tabId": "35c8fed936c1c8a9@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+          "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+        },
+        "sourceRecordsEqual": true,
+        "differences": [],
+        "beforeBytes": 549518,
+        "afterBytes": 549518
+      },
+      "page2": {
+        "page": "a7339d4f40ceaf34",
+        "name": "03_UART",
+        "saved": true,
+        "closed": true,
+        "active": {
+          "documentType": 1,
+          "uuid": "a7339d4f40ceaf34",
+          "tabId": "a7339d4f40ceaf34@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+          "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+        },
+        "sourceRecordsEqual": true,
+        "differences": [],
+        "beforeBytes": 271268,
+        "afterBytes": 271268
+      }
+    },
+    "normalization": [
+      {
+        "record": "0b9f8a9f53fb8264|COMPONENT|1488a7a605462dd5",
+        "delta": [
+          {
+            "key": "attrs",
+            "before": {
+              "Footprints": "[]",
+              "Devices": "[]",
+              "DeviceName": "{\"name\":\"\",\"source\":\"\",\"uuid\":\"f88be022b0b8e1ec\"}",
+              "FootprintName": null,
+              "pinClass": {},
+              "differentialPairClass": {},
+              "Symbols": "[]"
+            },
+            "after": {
+              "Footprints": "[]",
+              "Devices": "[]",
+              "DeviceName": "{\"name\":\"\",\"source\":\"\",\"uuid\":\"f88be022b0b8e1ec\"}",
+              "FootprintName": null,
+              "isSwitchClose": false,
+              "pinClass": {},
+              "differentialPairClass": {},
+              "Symbols": "[]"
+            }
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|74a15d611805b682",
+        "attr": "Symbol",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 1,
+            "after": 13
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|d78c36f0c2e739f1",
+        "attr": "Device",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": -2,
+            "after": 10
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|15be2c6e7dec6f71",
+        "attr": "Unique ID",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": -5,
+            "after": 42
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|c53dbfdd84bfb321",
+        "attr": "Add into BOM",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": -4,
+            "after": 8
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|5006ed59d3917d75",
+        "attr": "Convert to PCB",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": -3,
+            "after": 9
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|214b7a3010f96f78",
+        "attr": "Footprint",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": -1,
+            "after": 11
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|dd40fe4e2c432ec9",
+        "attr": "Designator",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 2,
+            "after": 14
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|246397a70c87ec22",
+        "attr": "Name",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 54,
+            "after": 40
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|5b1ef8a0cdf3469b",
+        "attr": "Reuse Block",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 56,
+            "after": 43
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|bf6fa70e0152ac8e",
+        "attr": "Group ID",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 57,
+            "after": 44
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|2bdfe5bf66fe9ac3",
+        "attr": "Channel ID",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 58,
+            "after": 45
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|c834219d6651be5e",
+        "attr": "Manufacturer",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 31,
+            "after": 17
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|d80f6178dcce6f20",
+        "attr": "Manufacturer Part",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 32,
+            "after": 18
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|fc4b69dbcca8d534",
+        "attr": "Supplier",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 36,
+            "after": 22
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|c33d415cd82ed3cb",
+        "attr": "Supplier Part",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 30,
+            "after": 16
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|a9c0dab5650cc39b",
+        "attr": "PCB Layer",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 0,
+            "after": 12
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|9e8249a884573d95",
+        "attr": "LCSC Part Name",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 29,
+            "after": 15
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|9de916504f9b9532",
+        "attr": "Supplier Footprint",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 33,
+            "after": 19
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|ccaf5607608220ef",
+        "attr": "JLCPCB Part Class",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 34,
+            "after": 20
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|d090aaa6c0a53fde",
+        "attr": "Datasheet",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 35,
+            "after": 21
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|13ed8c6b4f8c49b8",
+        "attr": "Connector Type",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 40,
+            "after": 26
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|034c362f36b23787",
+        "attr": "Protocol Standard",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 41,
+            "after": 27
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|7777230e71daeebf",
+        "attr": "Gender",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 42,
+            "after": 28
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|e10f3ea3d98fbee1",
+        "attr": "Mounting Type",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 43,
+            "after": 29
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|e851a44606c8428d",
+        "attr": "Number of Contacts",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 44,
+            "after": 30
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|8ce78dfd98d12cc7",
+        "attr": "Number of Ports",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 45,
+            "after": 31
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|79641a09fbb28505",
+        "attr": "Current Rating-Power",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 46,
+            "after": 32
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|6b876304680f1e94",
+        "attr": "Voltage Rating",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 47,
+            "after": 33
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|f0feb0da80ea1cfd",
+        "attr": "Connect-Disconnect Life",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 48,
+            "after": 34
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|15e5c89b80c95a21",
+        "attr": "Supplementary Features",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 49,
+            "after": 35
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|54d1026704666319",
+        "attr": "Center Height",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 50,
+            "after": 36
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|39546aa9efc9ba56",
+        "attr": "Length",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 51,
+            "after": 37
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|dc40b6fcdb1924cc",
+        "attr": "Detection color",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 52,
+            "after": 38
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|1adcb45976cd657b",
+        "attr": "Operating Temperature",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 53,
+            "after": 39
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|468e2bbf72b619e2",
+        "attr": "Description",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 55,
+            "after": 41
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|5f036037c7e8deb9",
+        "attr": "Calxus Function",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 59,
+            "after": 46
+          }
+        ]
+      },
+      {
+        "record": "0b9f8a9f53fb8264|ATTR|8a27863c917a9338",
+        "attr": "3D Model Transform",
+        "delta": [
+          {
+            "key": "zIndex",
+            "before": 39,
+            "after": 25
+          },
+          {
+            "key": "strikeout",
+            "after": false
+          }
+        ]
+      }
+    ],
+    "scope": "J2 native reload adds isSwitchClose=false, strikeout=false and reindexes attribute zIndex only; no pose, label alignment/value, binding or network changes."
+  }
+}

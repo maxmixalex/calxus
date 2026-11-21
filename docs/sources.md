@@ -27,6 +27,7 @@
 | [WebTILP 发布说明](https://tiplanet.org/forum/viewtopic.php?p=280020) | 项目维护者的支持范围与限制 | USB 型线缆、浏览器限制及 Windows 驱动切换 |
 | [HP 50g 串口线原设计者说明](https://commerce.hpcalc.org/serialcable.php) | Eric Rechlin / HPCalc | 专用电平、RX 在关闭时可能被驱动、不能加超过 3.3 V |
 | [HP 50g 串口线设计记录](https://www.allenwan.com/hpcalcserialcable/) | Allen Wan | 计算器侧 TTL/CMOS 与外部 RS-232 转换的区别 |
+| [HP 39gs 原厂使用指南](https://h10032.www1.hp.com/ctg/Manual/c00751802.pdf) | HP，F2223AA-90001，第 19-4 至 19-6 页（PDF 第 270–272 页） | 五针 Mini-USB 原生 USB 与 PC Connectivity Kit；与四针串口区分，未给出可直接采信的 AUX 电气针序 |
 | [Hackspire Hardware / UART](https://www.hackspire.org/Hardware/#uart) | UART 与 dock 研究记录 | Nspire TTL 日志串口、115200 8N1；具体硬件版本须再核对 |
 
 ## 来源与交付边界

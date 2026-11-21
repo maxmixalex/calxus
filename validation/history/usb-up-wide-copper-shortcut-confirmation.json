@@ -1,0 +1,17 @@
+{
+  "scope": "Historical independent confirmation of two old same-net wide-copper traces forming unintended shortcut; not whole-route timing analysis",
+  "archive_sha256": "54827104aa16ea58bcd6dfbdf21af6e03cba56d9551dff99abbe2dfb1335edaa",
+  "lines": [
+    "517d0ae7cba763ef",
+    "b6e1148e2fb122cf"
+  ],
+  "net": "USB_UP_DM",
+  "centerline_distance_mm": 0.07364694429482734,
+  "trace_widths_mm": [
+    0.24209502,
+    0.24209502
+  ],
+  "actual_width_copper_overlap_mm2": 0.034523638149913334,
+  "unexpected_copper_contact": true,
+  "remediation": "Root authorized local USB_UP_DP/DM source LINE correction; old baseline is no longer a final accepted high-speed contract"
+}

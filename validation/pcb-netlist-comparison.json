@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "design_sha256": "53ec67c93a436370c28485e011033f60cc85fa3487116f57cc4a6747e334eb63",
+  "actual_sha256": "79e34f6c8130f406cb4b40b6c9753c2faa776d3203de83706c7ac9e6822bd3e7",
+  "expected_components": 120,
+  "actual_components": 120,
+  "expected_pins": 367,
+  "actual_pins": 367,
+  "actual_raw_pin_entries": 368,
+  "duplicate_physical_pin_entries": [
+    {
+      "ref": "J2",
+      "pin": "5",
+      "count": 2
+    }
+  ],
+  "comparison_scope": "pcb",
+  "excluded_pcb_only_refs": [],
+  "alias_basis": "Verified project library: TUSB EP33, CH343 EP17, grouped USB-C pins, USB-A shield5; observed single-terminal native free pad TPn maps to logical TPn pin1",
+  "errors": [],
+  "notes": [],
+  "scope": "Pin-net export equivalence only for the stated schematic/PCB scope; does not verify routed copper, firmware, power timing or hardware behavior"
+}

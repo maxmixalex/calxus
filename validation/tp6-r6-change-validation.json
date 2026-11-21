@@ -1,0 +1,36 @@
+{
+  "schema": "calxus.placement-revision-change.v1",
+  "from_revision": "A0-switch-engineering-r5",
+  "to_revision": "A0-switch-engineering-r6",
+  "changed_component": "TP6",
+  "net": "3V3",
+  "layer": "BOTTOM",
+  "diameter_mm": 1,
+  "old_xy_mm": [
+    29,
+    23
+  ],
+  "new_xy_mm": [
+    28,
+    23.5
+  ],
+  "only_semantic_change_besides_revision_metadata": true,
+  "pin_net_csv_byte_identical": true,
+  "bom_csv_byte_identical": true,
+  "frozen_usb_gnd_source_hashes": {
+    "usb_route_plan.json": "14ff0672ea8573d223c20243de83a3e44c3f416dc04031cb7f9b5f248638bbdb",
+    "ground_stitch_plan.json": "6ead02e2a59cd32f43d23e29d3560c271aafe0de6d544f593cc4fc95e1d612c4"
+  },
+  "design_r5_sha256": "5a4ba66e98194b4555e690dd24638bc03edf62d8f54feb6612df27e5cf0a6039",
+  "design_r6_sha256": "3c7e6c40590f2901548ba7431da6858bf8616aa0e2634682991b8a3dad560b54",
+  "placement_envelopes": {
+    "missing_geometry": [],
+    "collisions": [],
+    "boundary_violations": [],
+    "mount_keepout_violations": [],
+    "clearance_margin_mm": 0.15,
+    "scope": "Conservative component fullBBox/pad-only envelopes. Not copper DRC or SI verification."
+  },
+  "native_move_applied_by_this_script": false,
+  "geometric_report": "tp6-r6-geometric-check.json"
+}

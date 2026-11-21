@@ -1,0 +1,6090 @@
+{
+  "scope": "Independent offline native epro2 archive check; not a reopened-editor ERC/DRC test",
+  "archive": "evidence/Calxus_RevA_preserved.epro2",
+  "archive_bytes": 270382,
+  "archive_sha256": "dbcba206e916bfdf074684be270d54cc42647da1c92c3495416e428b080a916d",
+  "source_sha256": "7691d011bef321bb9a5cd93f8c0bf6f5a7e11b261e77182f8d1ea662625a3e6e",
+  "entries": [
+    {
+      "name": "IMAGE/",
+      "bytes": 0
+    },
+    {
+      "name": "project2.json",
+      "bytes": 141
+    },
+    {
+      "name": "Calxus.epru",
+      "bytes": 2851458
+    }
+  ],
+  "doc_types": {
+    "FOOTPRINT": 21,
+    "SYMBOL": 41,
+    "DEVICE": 41,
+    "BOARD": 1,
+    "SCH": 1,
+    "SCH_PAGE": 3,
+    "PCB": 1,
+    "CONFIG": 1,
+    "PANEL": 1,
+    "BLOB": 1
+  },
+  "pages": [
+    {
+      "name": "01_USB_Power",
+      "uuid": "0b9f8a9f53fb8264",
+      "wire_groups": 68,
+      "wire_segments": 364
+    },
+    {
+      "name": "02_TI_SilverLink",
+      "uuid": "35c8fed936c1c8a9",
+      "wire_groups": 57,
+      "wire_segments": 276
+    },
+    {
+      "name": "03_UART_Adapters",
+      "uuid": "a7339d4f40ceaf34",
+      "wire_groups": 31,
+      "wire_segments": 116
+    }
+  ],
+  "components": 97,
+  "pins": 344,
+  "explicit_nc": 21,
+  "positions": [
+    {
+      "ref": "J1",
+      "actual": {
+        "x": 290,
+        "y": 1270,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "actual": {
+        "x": 1690,
+        "y": 1080,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "actual": {
+        "x": 1690,
+        "y": 1340,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "actual": {
+        "x": 1120,
+        "y": 1220,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "actual": {
+        "x": 1960,
+        "y": 500,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "actual": {
+        "x": 1390,
+        "y": 500,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "actual": {
+        "x": 1390,
+        "y": 700,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "actual": {
+        "x": 540,
+        "y": 1270,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "actual": {
+        "x": 1900,
+        "y": 1340,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "actual": {
+        "x": 1900,
+        "y": 1080,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D7",
+      "actual": {
+        "x": 300,
+        "y": 1060,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R1",
+      "actual": {
+        "x": 220,
+        "y": 980,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "actual": {
+        "x": 450,
+        "y": 980,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R3",
+      "actual": {
+        "x": 930,
+        "y": 1390,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R4",
+      "actual": {
+        "x": 1310,
+        "y": 1390,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R5",
+      "actual": {
+        "x": 1360,
+        "y": 390,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R6",
+      "actual": {
+        "x": 1580,
+        "y": 470,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C1",
+      "actual": {
+        "x": 560,
+        "y": 1100,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C2",
+      "actual": {
+        "x": 1120,
+        "y": 1470,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C3",
+      "actual": {
+        "x": 1250,
+        "y": 770,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C4",
+      "actual": {
+        "x": 1730,
+        "y": 770,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "actual": {
+        "x": 1250,
+        "y": 570,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C6",
+      "actual": {
+        "x": 1660,
+        "y": 550,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C7",
+      "actual": {
+        "x": 2160,
+        "y": 550,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C20",
+      "actual": {
+        "x": 2150,
+        "y": 1340,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C21",
+      "actual": {
+        "x": 2150,
+        "y": 1080,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C22",
+      "actual": {
+        "x": 1770,
+        "y": 390,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "actual": {
+        "x": 1870,
+        "y": 700,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "actual": {
+        "x": 290,
+        "y": 660,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D11",
+      "actual": {
+        "x": 550,
+        "y": 760,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D12",
+      "actual": {
+        "x": 550,
+        "y": 630,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D13",
+      "actual": {
+        "x": 550,
+        "y": 510,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D15",
+      "actual": {
+        "x": 850,
+        "y": 510,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D14",
+      "actual": {
+        "x": 850,
+        "y": 660,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R32",
+      "actual": {
+        "x": 180,
+        "y": 430,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R33",
+      "actual": {
+        "x": 380,
+        "y": 430,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R34",
+      "actual": {
+        "x": 600,
+        "y": 410,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R35",
+      "actual": {
+        "x": 1000,
+        "y": 430,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R36",
+      "actual": {
+        "x": 1580,
+        "y": 670,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R37",
+      "actual": {
+        "x": 2070,
+        "y": 670,
+        "rotation": 0,
+        "sheet": "01_USB_Power"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J4",
+      "actual": {
+        "x": 2150,
+        "y": 620,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "actual": {
+        "x": 2050,
+        "y": 1240,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J9",
+      "actual": {
+        "x": 1310,
+        "y": 1140,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J10",
+      "actual": {
+        "x": 1940,
+        "y": 1040,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "actual": {
+        "x": 1610,
+        "y": 1200,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "actual": {
+        "x": 2010,
+        "y": 430,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "actual": {
+        "x": 1730,
+        "y": 700,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "Q2",
+      "actual": {
+        "x": 1730,
+        "y": 500,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D8",
+      "actual": {
+        "x": 1870,
+        "y": 710,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D9",
+      "actual": {
+        "x": 1870,
+        "y": 510,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D10",
+      "actual": {
+        "x": 480,
+        "y": 640,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "Y2",
+      "actual": {
+        "x": 1090,
+        "y": 650,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R7",
+      "actual": {
+        "x": 440,
+        "y": 1260,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R8",
+      "actual": {
+        "x": 440,
+        "y": 1190,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R9",
+      "actual": {
+        "x": 440,
+        "y": 1360,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R10",
+      "actual": {
+        "x": 220,
+        "y": 730,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R11",
+      "actual": {
+        "x": 450,
+        "y": 730,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R12",
+      "actual": {
+        "x": 250,
+        "y": 1040,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R13",
+      "actual": {
+        "x": 250,
+        "y": 970,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R14",
+      "actual": {
+        "x": 940,
+        "y": 1100,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R15",
+      "actual": {
+        "x": 940,
+        "y": 1030,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R16",
+      "actual": {
+        "x": 940,
+        "y": 1170,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R17",
+      "actual": {
+        "x": 1550,
+        "y": 640,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R18",
+      "actual": {
+        "x": 1550,
+        "y": 430,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R19",
+      "actual": {
+        "x": 1580,
+        "y": 770,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R20",
+      "actual": {
+        "x": 1580,
+        "y": 560,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R21",
+      "actual": {
+        "x": 1800,
+        "y": 1390,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R22",
+      "actual": {
+        "x": 1800,
+        "y": 1300,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R23",
+      "actual": {
+        "x": 1320,
+        "y": 1260,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R25",
+      "actual": {
+        "x": 1320,
+        "y": 1380,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R27",
+      "actual": {
+        "x": 1800,
+        "y": 1130,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C8",
+      "actual": {
+        "x": 940,
+        "y": 1370,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C9",
+      "actual": {
+        "x": 940,
+        "y": 1300,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C10",
+      "actual": {
+        "x": 440,
+        "y": 1100,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C11",
+      "actual": {
+        "x": 220,
+        "y": 560,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C12",
+      "actual": {
+        "x": 930,
+        "y": 530,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C13",
+      "actual": {
+        "x": 1250,
+        "y": 530,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C14",
+      "actual": {
+        "x": 2050,
+        "y": 1430,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "actual": {
+        "x": 700,
+        "y": 1200,
+        "rotation": 0,
+        "sheet": "02_TI_SilverLink"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J5",
+      "actual": {
+        "x": 590,
+        "y": 600,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J6",
+      "actual": {
+        "x": 1680,
+        "y": 600,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "actual": {
+        "x": 1060,
+        "y": 630,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "actual": {
+        "x": 1230,
+        "y": 1320,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "actual": {
+        "x": 1230,
+        "y": 1050,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "actual": {
+        "x": 330,
+        "y": 600,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D6",
+      "actual": {
+        "x": 1960,
+        "y": 600,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R28",
+      "actual": {
+        "x": 1450,
+        "y": 1430,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R29",
+      "actual": {
+        "x": 1520,
+        "y": 1320,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R30",
+      "actual": {
+        "x": 1510,
+        "y": 1060,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "R31",
+      "actual": {
+        "x": 1700,
+        "y": 1160,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C15",
+      "actual": {
+        "x": 240,
+        "y": 1390,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C16",
+      "actual": {
+        "x": 240,
+        "y": 1100,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C17",
+      "actual": {
+        "x": 240,
+        "y": 1470,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "actual": {
+        "x": 1070,
+        "y": 1430,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "C19",
+      "actual": {
+        "x": 1070,
+        "y": 1180,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "D16",
+      "actual": {
+        "x": 1840,
+        "y": 1430,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "actual": {
+        "x": 460,
+        "y": 1230,
+        "rotation": 0,
+        "sheet": "03_UART_Adapters"
+      },
+      "pass": true
+    }
+  ],
+  "metadata": [
+    {
+      "ref": "J1",
+      "supplier_part": "C165948",
+      "device": "f6177077576b7674",
+      "footprint": "cac28bf5b833f4e8",
+      "footprint_name": "USB-C_SMD-TYPE-C-31-M-12_1",
+      "manufacturer_part": "TYPE-C-31-M-12",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "supplier_part": "C718032",
+      "device": "85f262a430955b34",
+      "footprint": "c449c199fc618788",
+      "footprint_name": "USB-A-TH_USB-A-M3A-4PLF",
+      "manufacturer_part": "USB-A-M3A+4PLF",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "supplier_part": "C65114",
+      "device": "d1bfbbbc13dd3b1c",
+      "footprint": "6e0dd955471072ad",
+      "footprint_name": "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54-1",
+      "manufacturer_part": "2.54-2*3P针",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "supplier_part": "C86413",
+      "device": "fa6e0436bb12e948",
+      "footprint": "deb1ec2b048e80fc",
+      "footprint_name": "SOP-16_L10.0-W3.9-P1.27-LS6.0-BL",
+      "manufacturer_part": "CH444G",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "supplier_part": "C51118",
+      "device": "3a799d2df6f5cad4",
+      "footprint": "57bd2d0bb70c0d5d",
+      "footprint_name": "SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL",
+      "manufacturer_part": "AP2112K-3.3TRG1",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "supplier_part": "C46506",
+      "device": "2fa5903a95d8d604",
+      "footprint": "9563025ebeb8350d",
+      "footprint_name": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+      "manufacturer_part": "TPS2552DBVR",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "supplier_part": "C46506",
+      "device": "2fa5903a95d8d604",
+      "footprint": "9563025ebeb8350d",
+      "footprint_name": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+      "manufacturer_part": "TPS2552DBVR",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "supplier_part": "C7519",
+      "device": "32fb6a52fa272d77",
+      "footprint": "530697620d4e8cf8",
+      "footprint_name": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+      "manufacturer_part": "USBLC6-2SC6",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "supplier_part": "C7519",
+      "device": "32fb6a52fa272d77",
+      "footprint": "530697620d4e8cf8",
+      "footprint_name": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+      "manufacturer_part": "USBLC6-2SC6",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "supplier_part": "C7519",
+      "device": "32fb6a52fa272d77",
+      "footprint": "530697620d4e8cf8",
+      "footprint_name": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+      "manufacturer_part": "USBLC6-2SC6",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D7",
+      "supplier_part": "C49338",
+      "device": "6b3142ff9774213b",
+      "footprint": "45828d6b764e01de",
+      "footprint_name": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+      "manufacturer_part": "PESD5V0S2BT,215",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "R1",
+      "supplier_part": "C23186",
+      "device": "6445fecf465d41de",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF5101T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "supplier_part": "C23186",
+      "device": "6445fecf465d41de",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF5101T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R3",
+      "supplier_part": "C25819",
+      "device": "4cdfdb7bbb7cafac",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4702T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R4",
+      "supplier_part": "C25819",
+      "device": "4cdfdb7bbb7cafac",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4702T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R5",
+      "supplier_part": "C25819",
+      "device": "4cdfdb7bbb7cafac",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4702T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R6",
+      "supplier_part": "C33619",
+      "device": "769c34d60376afc7",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF2263T5E",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "C1",
+      "supplier_part": "C15849",
+      "device": "3b56b304b3382631",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C2",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C3",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C4",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C6",
+      "supplier_part": "C23630",
+      "device": "58eadc65214b97e8",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CL10A225KO8NNNC",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C7",
+      "supplier_part": "C23630",
+      "device": "58eadc65214b97e8",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CL10A225KO8NNNC",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C20",
+      "supplier_part": "C15849",
+      "device": "3b56b304b3382631",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C21",
+      "supplier_part": "C15849",
+      "device": "3b56b304b3382631",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C22",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "supplier_part": "C46506",
+      "device": "2fa5903a95d8d604",
+      "footprint": "9563025ebeb8350d",
+      "footprint_name": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+      "manufacturer_part": "TPS2552DBVR",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "supplier_part": "C255514",
+      "device": "8818a332b4db1da2",
+      "footprint": "f854460eb56e1bb5",
+      "footprint_name": "SW-TH_SSSS224100",
+      "manufacturer_part": "SSSS224100",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D11",
+      "supplier_part": "C134405",
+      "device": "170e0390df780ae4",
+      "footprint": "728c810dcc14c039",
+      "footprint_name": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+      "manufacturer_part": "BAT54C-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D12",
+      "supplier_part": "C124205",
+      "device": "19241da2dcc63f12",
+      "footprint": "4392511bef64e9bc",
+      "footprint_name": "SOD-323_L1.8-W1.3-LS2.5-RD",
+      "manufacturer_part": "BAT54WS-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D13",
+      "supplier_part": "C124205",
+      "device": "19241da2dcc63f12",
+      "footprint": "4392511bef64e9bc",
+      "footprint_name": "SOD-323_L1.8-W1.3-LS2.5-RD",
+      "manufacturer_part": "BAT54WS-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D15",
+      "supplier_part": "C124205",
+      "device": "19241da2dcc63f12",
+      "footprint": "4392511bef64e9bc",
+      "footprint_name": "SOD-323_L1.8-W1.3-LS2.5-RD",
+      "manufacturer_part": "BAT54WS-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D14",
+      "supplier_part": "C134401",
+      "device": "4f6fec69871806d5",
+      "footprint": "728c810dcc14c039",
+      "footprint_name": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+      "manufacturer_part": "BAT54A-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "R32",
+      "supplier_part": "C25819",
+      "device": "4cdfdb7bbb7cafac",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4702T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R33",
+      "supplier_part": "C25819",
+      "device": "4cdfdb7bbb7cafac",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4702T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R34",
+      "supplier_part": "C25819",
+      "device": "4cdfdb7bbb7cafac",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4702T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R35",
+      "supplier_part": "C25819",
+      "device": "4cdfdb7bbb7cafac",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4702T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R36",
+      "supplier_part": "C23198",
+      "device": "5149ef3da38f435c",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF5232T5E",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "R37",
+      "supplier_part": "C23198",
+      "device": "5149ef3da38f435c",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF5232T5E",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J4",
+      "supplier_part": "C131339",
+      "device": "37cf493ef55a4cb8",
+      "footprint": "a5ca3bdd9ed9af36",
+      "footprint_name": "CONN-TH_B3B-PH-K-S",
+      "manufacturer_part": "B3B-PH-K-S(LF)(SN)",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "supplier_part": "C65114",
+      "device": "d1bfbbbc13dd3b1c",
+      "footprint": "6e0dd955471072ad",
+      "footprint_name": "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54-1",
+      "manufacturer_part": "2.54-2*3P针",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J9",
+      "supplier_part": "C3338413",
+      "device": "b325c3c31cfcaae9",
+      "footprint": "07f3395a6ac8002a",
+      "footprint_name": "HDR-TH_2P-P2.54-V-M",
+      "manufacturer_part": "M20-9990245",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J10",
+      "supplier_part": "C3338413",
+      "device": "b325c3c31cfcaae9",
+      "footprint": "07f3395a6ac8002a",
+      "footprint_name": "HDR-TH_2P-P2.54-V-M",
+      "manufacturer_part": "M20-9990245",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "supplier_part": "C511260",
+      "device": "375b2c49defae22c",
+      "footprint": "af151a54a7427fbe",
+      "footprint_name": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+      "manufacturer_part": "24LC64-I/SN",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "supplier_part": "C49338",
+      "device": "6b3142ff9774213b",
+      "footprint": "45828d6b764e01de",
+      "footprint_name": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+      "manufacturer_part": "PESD5V0S2BT,215",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "supplier_part": "C94514",
+      "device": "f1ad00a1687d4a3b",
+      "footprint": "728c810dcc14c039",
+      "footprint_name": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+      "manufacturer_part": "MMBT3904-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "Q2",
+      "supplier_part": "C94514",
+      "device": "f1ad00a1687d4a3b",
+      "footprint": "728c810dcc14c039",
+      "footprint_name": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+      "manufacturer_part": "MMBT3904-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D8",
+      "supplier_part": "C124205",
+      "device": "19241da2dcc63f12",
+      "footprint": "4392511bef64e9bc",
+      "footprint_name": "SOD-323_L1.8-W1.3-LS2.5-RD",
+      "manufacturer_part": "BAT54WS-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D9",
+      "supplier_part": "C124205",
+      "device": "19241da2dcc63f12",
+      "footprint": "4392511bef64e9bc",
+      "footprint_name": "SOD-323_L1.8-W1.3-LS2.5-RD",
+      "manufacturer_part": "BAT54WS-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D10",
+      "supplier_part": "C124205",
+      "device": "19241da2dcc63f12",
+      "footprint": "4392511bef64e9bc",
+      "footprint_name": "SOD-323_L1.8-W1.3-LS2.5-RD",
+      "manufacturer_part": "BAT54WS-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "Y2",
+      "supplier_part": "C6071564",
+      "device": "2b13796fc32764e1",
+      "footprint": "e9acbd05bd74d2e7",
+      "footprint_name": "CRYSTAL-SMD_4P-L3.2-W2.5-BL",
+      "manufacturer_part": "3225 12M 18PF 20PPM",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "R7",
+      "supplier_part": "C23345",
+      "device": "06e5900e3efbae87",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF220JT5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R8",
+      "supplier_part": "C23345",
+      "device": "06e5900e3efbae87",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF220JT5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R9",
+      "supplier_part": "C22843",
+      "device": "9109ebb155353c9b",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1501T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R10",
+      "supplier_part": "C22809",
+      "device": "45135e59bedc54a0",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1502T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R11",
+      "supplier_part": "C13187",
+      "device": "a35e96802c6ed4cc",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF3242T5E",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "R12",
+      "supplier_part": "C23129",
+      "device": "79242eea3620bee6",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF9092T5E",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "R13",
+      "supplier_part": "C25803",
+      "device": "06d1f3406e40cbbe",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1003T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R14",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R15",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R16",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R17",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R18",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R19",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R20",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R21",
+      "supplier_part": "C23162",
+      "device": "066915c5f35e90c3",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4701T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R22",
+      "supplier_part": "C23162",
+      "device": "066915c5f35e90c3",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4701T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R23",
+      "supplier_part": "C21189",
+      "device": "c322adc3561748ab",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF0000T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R25",
+      "supplier_part": "C21189",
+      "device": "c322adc3561748ab",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF0000T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R27",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C8",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C9",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C10",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C11",
+      "supplier_part": "C15849",
+      "device": "3b56b304b3382631",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CL10A105KB8NNNC",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C12",
+      "supplier_part": "C1663",
+      "device": "f98eb804451dac63",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CL10C330JB8NNNC",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C13",
+      "supplier_part": "C1663",
+      "device": "f98eb804451dac63",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CL10C330JB8NNNC",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C14",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "supplier_part": "C2679332",
+      "device": "c5aee0da625beea2",
+      "footprint": "6d6747048cb070d5",
+      "footprint_name": "TQFN-32_L5.0-W5.0-P0.50-BL-EP3.5",
+      "manufacturer_part": "TUSB3410RHBR",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J5",
+      "supplier_part": "C131339",
+      "device": "37cf493ef55a4cb8",
+      "footprint": "a5ca3bdd9ed9af36",
+      "footprint_name": "CONN-TH_B3B-PH-K-S",
+      "manufacturer_part": "B3B-PH-K-S(LF)(SN)",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J6",
+      "supplier_part": "C131334",
+      "device": "161ed48f6ad027d9",
+      "footprint": "75d127277a0cc5ef",
+      "footprint_name": "CONN-TH_B4B-PH-K-S",
+      "manufacturer_part": "B4B-PH-K-S(LF)(SN)",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "supplier_part": "C65114",
+      "device": "d1bfbbbc13dd3b1c",
+      "footprint": "6e0dd955471072ad",
+      "footprint_name": "HDR-TH_6P-P2.54-V-M-R2-C3-S2.54-1",
+      "manufacturer_part": "2.54-2*3P针",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "supplier_part": "C7829",
+      "device": "99f7bf1b088d9128",
+      "footprint": "c0db3e517a4ef62d",
+      "footprint_name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "manufacturer_part": "SN74LVC1G07DBVR",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "supplier_part": "C7836",
+      "device": "76a6c83b7522bae8",
+      "footprint": "c0db3e517a4ef62d",
+      "footprint_name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "manufacturer_part": "SN74LVC1G17DBVR",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "supplier_part": "C49338",
+      "device": "6b3142ff9774213b",
+      "footprint": "45828d6b764e01de",
+      "footprint_name": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+      "manufacturer_part": "PESD5V0S2BT,215",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "D6",
+      "supplier_part": "C49338",
+      "device": "6b3142ff9774213b",
+      "footprint": "45828d6b764e01de",
+      "footprint_name": "SOT-23_L2.9-W1.3-P1.90-LS2.4-BR",
+      "manufacturer_part": "PESD5V0S2BT,215",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "R28",
+      "supplier_part": "C25804",
+      "device": "6f5d4f51c804c92a",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1002T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R29",
+      "supplier_part": "C21190",
+      "device": "6e3542e80dc580de",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1001T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R30",
+      "supplier_part": "C21190",
+      "device": "6e3542e80dc580de",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF1001T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "R31",
+      "supplier_part": "C25819",
+      "device": "4cdfdb7bbb7cafac",
+      "footprint": "6457585b9757dfff",
+      "footprint_name": "R0603",
+      "manufacturer_part": "0603WAF4702T5E",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C15",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C16",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C17",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "C19",
+      "supplier_part": "C14663",
+      "device": "d92bdabbafdef723",
+      "footprint": "a4e80cc9a4acb257",
+      "footprint_name": "C0603",
+      "manufacturer_part": "CC0603KRX7R9BB104",
+      "jlcpcb_part_class": "Basic Part",
+      "pass": true
+    },
+    {
+      "ref": "D16",
+      "supplier_part": "C124205",
+      "device": "19241da2dcc63f12",
+      "footprint": "4392511bef64e9bc",
+      "footprint_name": "SOD-323_L1.8-W1.3-LS2.5-RD",
+      "manufacturer_part": "BAT54WS-7-F",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "supplier_part": "C2846043",
+      "device": "9a1c3e0f4fc112b1",
+      "footprint": "c020f55e3a184cd3",
+      "footprint_name": "TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7",
+      "manufacturer_part": "CH343P",
+      "jlcpcb_part_class": "Extended Part",
+      "pass": true
+    }
+  ],
+  "pin_checks": [
+    {
+      "ref": "J1",
+      "pin": "A1B12",
+      "x": 255,
+      "y": 1325,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "A4B9",
+      "x": 255,
+      "y": 1315,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "B8",
+      "x": 255,
+      "y": 1305,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "A5",
+      "x": 255,
+      "y": 1295,
+      "expected_net": "CC1",
+      "actual_nets": [
+        "CC1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "B7",
+      "x": 255,
+      "y": 1285,
+      "expected_net": "USB_UP_DM",
+      "actual_nets": [
+        "USB_UP_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "A6",
+      "x": 255,
+      "y": 1275,
+      "expected_net": "USB_UP_DP",
+      "actual_nets": [
+        "USB_UP_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "A7",
+      "x": 255,
+      "y": 1265,
+      "expected_net": "USB_UP_DM",
+      "actual_nets": [
+        "USB_UP_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "B6",
+      "x": 255,
+      "y": 1255,
+      "expected_net": "USB_UP_DP",
+      "actual_nets": [
+        "USB_UP_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "A8",
+      "x": 255,
+      "y": 1245,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "B5",
+      "x": 255,
+      "y": 1235,
+      "expected_net": "CC2",
+      "actual_nets": [
+        "CC2"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "B4A9",
+      "x": 255,
+      "y": 1225,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "B1A12",
+      "x": 255,
+      "y": 1215,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "4",
+      "x": 325,
+      "y": 1245,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "3",
+      "x": 325,
+      "y": 1235,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "2",
+      "x": 325,
+      "y": 1225,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J1",
+      "pin": "1",
+      "x": 325,
+      "y": 1215,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "5",
+      "x": 1650,
+      "y": 1090,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "4",
+      "x": 1730,
+      "y": 1070,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "3",
+      "x": 1730,
+      "y": 1080,
+      "expected_net": "USB_A_DP",
+      "actual_nets": [
+        "USB_A_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "2",
+      "x": 1730,
+      "y": 1090,
+      "expected_net": "USB_A_DM",
+      "actual_nets": [
+        "USB_A_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J2",
+      "pin": "1",
+      "x": 1730,
+      "y": 1100,
+      "expected_net": "VBUS_USBA",
+      "actual_nets": [
+        "VBUS_USBA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "pin": "1",
+      "x": 1660,
+      "y": 1350,
+      "expected_net": "VBUS_NATIVE",
+      "actual_nets": [
+        "VBUS_NATIVE"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "pin": "2",
+      "x": 1720,
+      "y": 1350,
+      "expected_net": "USB_NATIVE_DM",
+      "actual_nets": [
+        "USB_NATIVE_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "pin": "3",
+      "x": 1660,
+      "y": 1340,
+      "expected_net": "USB_NATIVE_DP",
+      "actual_nets": [
+        "USB_NATIVE_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "pin": "4",
+      "x": 1720,
+      "y": 1340,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "pin": "5",
+      "x": 1660,
+      "y": 1330,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J3",
+      "pin": "6",
+      "x": 1720,
+      "y": 1330,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "1",
+      "x": 1080,
+      "y": 1255,
+      "expected_net": "MUX_EN_N",
+      "actual_nets": [
+        "MUX_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "2",
+      "x": 1080,
+      "y": 1245,
+      "expected_net": "SEL1",
+      "actual_nets": [
+        "SEL1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "3",
+      "x": 1080,
+      "y": 1235,
+      "expected_net": "USB_UART_DP",
+      "actual_nets": [
+        "USB_UART_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "4",
+      "x": 1080,
+      "y": 1225,
+      "expected_net": "USB_SIL_DP",
+      "actual_nets": [
+        "USB_SIL_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "5",
+      "x": 1080,
+      "y": 1215,
+      "expected_net": "USB_A_DP",
+      "actual_nets": [
+        "USB_A_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "6",
+      "x": 1080,
+      "y": 1205,
+      "expected_net": "USB_NATIVE_DP",
+      "actual_nets": [
+        "USB_NATIVE_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "7",
+      "x": 1080,
+      "y": 1195,
+      "expected_net": "USB_UP_DP",
+      "actual_nets": [
+        "USB_UP_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "8",
+      "x": 1080,
+      "y": 1185,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "9",
+      "x": 1160,
+      "y": 1185,
+      "expected_net": "USB_UP_DM",
+      "actual_nets": [
+        "USB_UP_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "10",
+      "x": 1160,
+      "y": 1195,
+      "expected_net": "USB_NATIVE_DM",
+      "actual_nets": [
+        "USB_NATIVE_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "11",
+      "x": 1160,
+      "y": 1205,
+      "expected_net": "USB_A_DM",
+      "actual_nets": [
+        "USB_A_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "12",
+      "x": 1160,
+      "y": 1215,
+      "expected_net": "USB_SIL_DM",
+      "actual_nets": [
+        "USB_SIL_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "13",
+      "x": 1160,
+      "y": 1225,
+      "expected_net": "USB_UART_DM",
+      "actual_nets": [
+        "USB_UART_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "14",
+      "x": 1160,
+      "y": 1235,
+      "expected_net": "SEL0",
+      "actual_nets": [
+        "SEL0"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "15",
+      "x": 1160,
+      "y": 1245,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "x": 1160,
+      "y": 1255,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "pin": "1",
+      "x": 1910,
+      "y": 510,
+      "expected_net": "5V_SERIAL",
+      "actual_nets": [
+        "5V_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "pin": "2",
+      "x": 1910,
+      "y": 500,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "pin": "3",
+      "x": 1910,
+      "y": 490,
+      "expected_net": "5V_SERIAL",
+      "actual_nets": [
+        "5V_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "pin": "4",
+      "x": 2010,
+      "y": 490,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U5",
+      "pin": "5",
+      "x": 2010,
+      "y": 510,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "pin": "1",
+      "x": 1330,
+      "y": 520,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "pin": "2",
+      "x": 1450,
+      "y": 480,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "pin": "3",
+      "x": 1330,
+      "y": 480,
+      "expected_net": "SERIAL_EN_N",
+      "actual_nets": [
+        "SERIAL_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "pin": "4",
+      "x": 1330,
+      "y": 500,
+      "expected_net": "PWR_FAULT_N",
+      "actual_nets": [
+        "PWR_FAULT_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "pin": "5",
+      "x": 1450,
+      "y": 500,
+      "expected_net": "ILIM_SERIAL",
+      "actual_nets": [
+        "ILIM_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U6",
+      "pin": "6",
+      "x": 1450,
+      "y": 520,
+      "expected_net": "5V_SERIAL",
+      "actual_nets": [
+        "5V_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "pin": "1",
+      "x": 1330,
+      "y": 720,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "pin": "2",
+      "x": 1450,
+      "y": 680,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "pin": "3",
+      "x": 1330,
+      "y": 680,
+      "expected_net": "NATIVE_EN_N",
+      "actual_nets": [
+        "NATIVE_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "pin": "4",
+      "x": 1330,
+      "y": 700,
+      "expected_net": "PWR_FAULT_N",
+      "actual_nets": [
+        "PWR_FAULT_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "pin": "5",
+      "x": 1450,
+      "y": 700,
+      "expected_net": "ILIM_NATIVE",
+      "actual_nets": [
+        "ILIM_NATIVE"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U9",
+      "pin": "6",
+      "x": 1450,
+      "y": 720,
+      "expected_net": "VBUS_NATIVE",
+      "actual_nets": [
+        "VBUS_NATIVE"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pin": "1",
+      "x": 475,
+      "y": 1300,
+      "expected_net": "USB_UP_DP",
+      "actual_nets": [
+        "USB_UP_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pin": "2",
+      "x": 475,
+      "y": 1270,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pin": "3",
+      "x": 475,
+      "y": 1240,
+      "expected_net": "USB_UP_DM",
+      "actual_nets": [
+        "USB_UP_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pin": "4",
+      "x": 605,
+      "y": 1240,
+      "expected_net": "USB_UP_DM",
+      "actual_nets": [
+        "USB_UP_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pin": "5",
+      "x": 605,
+      "y": 1270,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D1",
+      "pin": "6",
+      "x": 605,
+      "y": 1300,
+      "expected_net": "USB_UP_DP",
+      "actual_nets": [
+        "USB_UP_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pin": "1",
+      "x": 1835,
+      "y": 1370,
+      "expected_net": "USB_NATIVE_DP",
+      "actual_nets": [
+        "USB_NATIVE_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pin": "2",
+      "x": 1835,
+      "y": 1340,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pin": "3",
+      "x": 1835,
+      "y": 1310,
+      "expected_net": "USB_NATIVE_DM",
+      "actual_nets": [
+        "USB_NATIVE_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pin": "4",
+      "x": 1965,
+      "y": 1310,
+      "expected_net": "USB_NATIVE_DM",
+      "actual_nets": [
+        "USB_NATIVE_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pin": "5",
+      "x": 1965,
+      "y": 1340,
+      "expected_net": "VBUS_NATIVE",
+      "actual_nets": [
+        "VBUS_NATIVE"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D2",
+      "pin": "6",
+      "x": 1965,
+      "y": 1370,
+      "expected_net": "USB_NATIVE_DP",
+      "actual_nets": [
+        "USB_NATIVE_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pin": "1",
+      "x": 1835,
+      "y": 1110,
+      "expected_net": "USB_A_DP",
+      "actual_nets": [
+        "USB_A_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pin": "2",
+      "x": 1835,
+      "y": 1080,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pin": "3",
+      "x": 1835,
+      "y": 1050,
+      "expected_net": "USB_A_DM",
+      "actual_nets": [
+        "USB_A_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pin": "4",
+      "x": 1965,
+      "y": 1050,
+      "expected_net": "USB_A_DM",
+      "actual_nets": [
+        "USB_A_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pin": "5",
+      "x": 1965,
+      "y": 1080,
+      "expected_net": "VBUS_USBA",
+      "actual_nets": [
+        "VBUS_USBA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D3",
+      "pin": "6",
+      "x": 1965,
+      "y": 1110,
+      "expected_net": "USB_A_DP",
+      "actual_nets": [
+        "USB_A_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D7",
+      "pin": "1",
+      "x": 280,
+      "y": 1020,
+      "expected_net": "CC1",
+      "actual_nets": [
+        "CC1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D7",
+      "pin": "2",
+      "x": 320,
+      "y": 1020,
+      "expected_net": "CC2",
+      "actual_nets": [
+        "CC2"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D7",
+      "pin": "3",
+      "x": 300,
+      "y": 1100,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R1",
+      "pin": "2",
+      "x": 240,
+      "y": 980,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R1",
+      "pin": "1",
+      "x": 200,
+      "y": 980,
+      "expected_net": "CC1",
+      "actual_nets": [
+        "CC1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "pin": "2",
+      "x": 470,
+      "y": 980,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R2",
+      "pin": "1",
+      "x": 430,
+      "y": 980,
+      "expected_net": "CC2",
+      "actual_nets": [
+        "CC2"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R3",
+      "pin": "2",
+      "x": 950,
+      "y": 1390,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R3",
+      "pin": "1",
+      "x": 910,
+      "y": 1390,
+      "expected_net": "SEL1",
+      "actual_nets": [
+        "SEL1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R4",
+      "pin": "2",
+      "x": 1330,
+      "y": 1390,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R4",
+      "pin": "1",
+      "x": 1290,
+      "y": 1390,
+      "expected_net": "SEL0",
+      "actual_nets": [
+        "SEL0"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R5",
+      "pin": "2",
+      "x": 1380,
+      "y": 390,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R5",
+      "pin": "1",
+      "x": 1340,
+      "y": 390,
+      "expected_net": "PWR_FAULT_N",
+      "actual_nets": [
+        "PWR_FAULT_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R6",
+      "pin": "2",
+      "x": 1600,
+      "y": 470,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R6",
+      "pin": "1",
+      "x": 1560,
+      "y": 470,
+      "expected_net": "ILIM_SERIAL",
+      "actual_nets": [
+        "ILIM_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C1",
+      "pin": "2",
+      "x": 580,
+      "y": 1100,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C1",
+      "pin": "1",
+      "x": 540,
+      "y": 1100,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C2",
+      "pin": "1",
+      "x": 1100,
+      "y": 1470,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C2",
+      "pin": "2",
+      "x": 1140,
+      "y": 1470,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C3",
+      "pin": "1",
+      "x": 1230,
+      "y": 770,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C3",
+      "pin": "2",
+      "x": 1270,
+      "y": 770,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C4",
+      "pin": "1",
+      "x": 1710,
+      "y": 770,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C4",
+      "pin": "2",
+      "x": 1750,
+      "y": 770,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "pin": "1",
+      "x": 1230,
+      "y": 570,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C5",
+      "pin": "2",
+      "x": 1270,
+      "y": 570,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C6",
+      "pin": "1",
+      "x": 1645,
+      "y": 550,
+      "expected_net": "5V_SERIAL",
+      "actual_nets": [
+        "5V_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C6",
+      "pin": "2",
+      "x": 1675,
+      "y": 550,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C7",
+      "pin": "1",
+      "x": 2145,
+      "y": 550,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C7",
+      "pin": "2",
+      "x": 2175,
+      "y": 550,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C20",
+      "pin": "2",
+      "x": 2170,
+      "y": 1340,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C20",
+      "pin": "1",
+      "x": 2130,
+      "y": 1340,
+      "expected_net": "VBUS_NATIVE",
+      "actual_nets": [
+        "VBUS_NATIVE"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C21",
+      "pin": "2",
+      "x": 2170,
+      "y": 1080,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C21",
+      "pin": "1",
+      "x": 2130,
+      "y": 1080,
+      "expected_net": "VBUS_USBA",
+      "actual_nets": [
+        "VBUS_USBA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C22",
+      "pin": "1",
+      "x": 1750,
+      "y": 390,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C22",
+      "pin": "2",
+      "x": 1790,
+      "y": 390,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "pin": "1",
+      "x": 1810,
+      "y": 720,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "pin": "2",
+      "x": 1930,
+      "y": 680,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "pin": "3",
+      "x": 1810,
+      "y": 680,
+      "expected_net": "USBA_EN_N",
+      "actual_nets": [
+        "USBA_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "pin": "4",
+      "x": 1810,
+      "y": 700,
+      "expected_net": "PWR_FAULT_N",
+      "actual_nets": [
+        "PWR_FAULT_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "pin": "5",
+      "x": 1930,
+      "y": 700,
+      "expected_net": "ILIM_USBA",
+      "actual_nets": [
+        "ILIM_USBA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U10",
+      "pin": "6",
+      "x": 1930,
+      "y": 720,
+      "expected_net": "VBUS_USBA",
+      "actual_nets": [
+        "VBUS_USBA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "7",
+      "x": 280,
+      "y": 630,
+      "expected_net": "MODE_USBA_N",
+      "actual_nets": [
+        "MODE_USBA_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "9",
+      "x": 310,
+      "y": 630,
+      "expected_net": "MODE_SILVER_N",
+      "actual_nets": [
+        "MODE_SILVER_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "8",
+      "x": 300,
+      "y": 630,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "6",
+      "x": 270,
+      "y": 630,
+      "expected_net": "MODE_NATIVE_N",
+      "actual_nets": [
+        "MODE_NATIVE_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "1",
+      "x": 270,
+      "y": 690,
+      "expected_net": "NATIVE_EN_N",
+      "actual_nets": [
+        "NATIVE_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "2",
+      "x": 280,
+      "y": 690,
+      "expected_net": "USBA_EN_N",
+      "actual_nets": [
+        "USBA_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "3",
+      "x": 300,
+      "y": 690,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "4",
+      "x": 310,
+      "y": 690,
+      "expected_net": "SERIAL_EN_N",
+      "actual_nets": [
+        "SERIAL_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "5",
+      "x": 320,
+      "y": 690,
+      "expected_net": "SERIAL_EN_N",
+      "actual_nets": [
+        "SERIAL_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "SW1",
+      "pin": "10",
+      "x": 320,
+      "y": 630,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "D11",
+      "pin": "2",
+      "x": 575,
+      "y": 770,
+      "expected_net": "SEL0",
+      "actual_nets": [
+        "SEL0"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D11",
+      "pin": "3",
+      "x": 525,
+      "y": 760,
+      "expected_net": "MODE_NATIVE_N",
+      "actual_nets": [
+        "MODE_NATIVE_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D11",
+      "pin": "1",
+      "x": 575,
+      "y": 750,
+      "expected_net": "SEL1",
+      "actual_nets": [
+        "SEL1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D12",
+      "pin": "1",
+      "x": 530,
+      "y": 630,
+      "expected_net": "MODE_USBA_N",
+      "actual_nets": [
+        "MODE_USBA_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D12",
+      "pin": "2",
+      "x": 570,
+      "y": 630,
+      "expected_net": "SEL1",
+      "actual_nets": [
+        "SEL1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D13",
+      "pin": "1",
+      "x": 530,
+      "y": 510,
+      "expected_net": "MODE_SILVER_N",
+      "actual_nets": [
+        "MODE_SILVER_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D13",
+      "pin": "2",
+      "x": 570,
+      "y": 510,
+      "expected_net": "SEL0",
+      "actual_nets": [
+        "SEL0"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D15",
+      "pin": "1",
+      "x": 830,
+      "y": 510,
+      "expected_net": "SERIAL_EN_N",
+      "actual_nets": [
+        "SERIAL_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D15",
+      "pin": "2",
+      "x": 870,
+      "y": 510,
+      "expected_net": "MUX_EN_N",
+      "actual_nets": [
+        "MUX_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D14",
+      "pin": "2",
+      "x": 870,
+      "y": 670,
+      "expected_net": "USBA_EN_N",
+      "actual_nets": [
+        "USBA_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D14",
+      "pin": "3",
+      "x": 820,
+      "y": 660,
+      "expected_net": "MUX_EN_N",
+      "actual_nets": [
+        "MUX_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D14",
+      "pin": "1",
+      "x": 870,
+      "y": 650,
+      "expected_net": "NATIVE_EN_N",
+      "actual_nets": [
+        "NATIVE_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R32",
+      "pin": "2",
+      "x": 200,
+      "y": 430,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R32",
+      "pin": "1",
+      "x": 160,
+      "y": 430,
+      "expected_net": "NATIVE_EN_N",
+      "actual_nets": [
+        "NATIVE_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R33",
+      "pin": "2",
+      "x": 400,
+      "y": 430,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R33",
+      "pin": "1",
+      "x": 360,
+      "y": 430,
+      "expected_net": "USBA_EN_N",
+      "actual_nets": [
+        "USBA_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R34",
+      "pin": "2",
+      "x": 620,
+      "y": 410,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R34",
+      "pin": "1",
+      "x": 580,
+      "y": 410,
+      "expected_net": "SERIAL_EN_N",
+      "actual_nets": [
+        "SERIAL_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R35",
+      "pin": "2",
+      "x": 1020,
+      "y": 430,
+      "expected_net": "VBUS_IN",
+      "actual_nets": [
+        "VBUS_IN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R35",
+      "pin": "1",
+      "x": 980,
+      "y": 430,
+      "expected_net": "MUX_EN_N",
+      "actual_nets": [
+        "MUX_EN_N"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R36",
+      "pin": "2",
+      "x": 1600,
+      "y": 670,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R36",
+      "pin": "1",
+      "x": 1560,
+      "y": 670,
+      "expected_net": "ILIM_NATIVE",
+      "actual_nets": [
+        "ILIM_NATIVE"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R37",
+      "pin": "2",
+      "x": 2090,
+      "y": 670,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R37",
+      "pin": "1",
+      "x": 2050,
+      "y": 670,
+      "expected_net": "ILIM_USBA",
+      "actual_nets": [
+        "ILIM_USBA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J4",
+      "pin": "1",
+      "x": 2130,
+      "y": 630,
+      "expected_net": "TI_TIP",
+      "actual_nets": [
+        "TI_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J4",
+      "pin": "2",
+      "x": 2130,
+      "y": 620,
+      "expected_net": "TI_RING",
+      "actual_nets": [
+        "TI_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J4",
+      "pin": "3",
+      "x": 2130,
+      "y": 610,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "pin": "1",
+      "x": 2020,
+      "y": 1250,
+      "expected_net": "EE_VCC",
+      "actual_nets": [
+        "EE_VCC"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "pin": "2",
+      "x": 2080,
+      "y": 1250,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "pin": "3",
+      "x": 2020,
+      "y": 1240,
+      "expected_net": "EE_SCL",
+      "actual_nets": [
+        "EE_SCL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "pin": "4",
+      "x": 2080,
+      "y": 1240,
+      "expected_net": "EE_SDA",
+      "actual_nets": [
+        "EE_SDA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "pin": "5",
+      "x": 2020,
+      "y": 1230,
+      "expected_net": "EE_WP",
+      "actual_nets": [
+        "EE_WP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J8",
+      "pin": "6",
+      "x": 2080,
+      "y": 1230,
+      "expected_net": "SIL_RESET",
+      "actual_nets": [
+        "SIL_RESET"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J9",
+      "pin": "1",
+      "x": 1290,
+      "y": 1145,
+      "expected_net": "SIL_SCL",
+      "actual_nets": [
+        "SIL_SCL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J9",
+      "pin": "2",
+      "x": 1290,
+      "y": 1135,
+      "expected_net": "EE_SCL",
+      "actual_nets": [
+        "EE_SCL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J10",
+      "pin": "1",
+      "x": 1920,
+      "y": 1045,
+      "expected_net": "EE_WP",
+      "actual_nets": [
+        "EE_WP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J10",
+      "pin": "2",
+      "x": 1920,
+      "y": 1035,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pin": "1",
+      "x": 1575,
+      "y": 1215,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pin": "2",
+      "x": 1575,
+      "y": 1205,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pin": "3",
+      "x": 1575,
+      "y": 1195,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pin": "4",
+      "x": 1575,
+      "y": 1185,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pin": "5",
+      "x": 1645,
+      "y": 1185,
+      "expected_net": "EE_SDA",
+      "actual_nets": [
+        "EE_SDA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pin": "6",
+      "x": 1645,
+      "y": 1195,
+      "expected_net": "EE_SCL",
+      "actual_nets": [
+        "EE_SCL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pin": "7",
+      "x": 1645,
+      "y": 1205,
+      "expected_net": "EE_WP",
+      "actual_nets": [
+        "EE_WP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U4",
+      "pin": "8",
+      "x": 1645,
+      "y": 1215,
+      "expected_net": "EE_VCC",
+      "actual_nets": [
+        "EE_VCC"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "pin": "1",
+      "x": 1990,
+      "y": 390,
+      "expected_net": "TI_TIP",
+      "actual_nets": [
+        "TI_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "pin": "2",
+      "x": 2030,
+      "y": 390,
+      "expected_net": "TI_RING",
+      "actual_nets": [
+        "TI_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D4",
+      "pin": "3",
+      "x": 2010,
+      "y": 470,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "pin": "1",
+      "x": 1720,
+      "y": 700,
+      "expected_net": "TI_BASE_TIP",
+      "actual_nets": [
+        "TI_BASE_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "pin": "3",
+      "x": 1740,
+      "y": 720,
+      "expected_net": "TI_TIP",
+      "actual_nets": [
+        "TI_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q1",
+      "pin": "2",
+      "x": 1740,
+      "y": 680,
+      "expected_net": "TI_GPIO_TIP",
+      "actual_nets": [
+        "TI_GPIO_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q2",
+      "pin": "1",
+      "x": 1720,
+      "y": 500,
+      "expected_net": "TI_BASE_RING",
+      "actual_nets": [
+        "TI_BASE_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q2",
+      "pin": "3",
+      "x": 1740,
+      "y": 520,
+      "expected_net": "TI_RING",
+      "actual_nets": [
+        "TI_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Q2",
+      "pin": "2",
+      "x": 1740,
+      "y": 480,
+      "expected_net": "TI_GPIO_RING",
+      "actual_nets": [
+        "TI_GPIO_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D8",
+      "pin": "1",
+      "x": 1850,
+      "y": 710,
+      "expected_net": "TI_TIP",
+      "actual_nets": [
+        "TI_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D8",
+      "pin": "2",
+      "x": 1890,
+      "y": 710,
+      "expected_net": "TI_GPIO_TIP",
+      "actual_nets": [
+        "TI_GPIO_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D9",
+      "pin": "1",
+      "x": 1850,
+      "y": 510,
+      "expected_net": "TI_RING",
+      "actual_nets": [
+        "TI_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D9",
+      "pin": "2",
+      "x": 1890,
+      "y": 510,
+      "expected_net": "TI_GPIO_RING",
+      "actual_nets": [
+        "TI_GPIO_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D10",
+      "pin": "1",
+      "x": 460,
+      "y": 640,
+      "expected_net": "SIL_SUSPEND",
+      "actual_nets": [
+        "SIL_SUSPEND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D10",
+      "pin": "2",
+      "x": 500,
+      "y": 640,
+      "expected_net": "SIL_VREGEN",
+      "actual_nets": [
+        "SIL_VREGEN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Y2",
+      "pin": "1",
+      "x": 1060,
+      "y": 640,
+      "expected_net": "SIL_X1",
+      "actual_nets": [
+        "SIL_X1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Y2",
+      "pin": "3",
+      "x": 1120,
+      "y": 660,
+      "expected_net": "SIL_X2",
+      "actual_nets": [
+        "SIL_X2"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Y2",
+      "pin": "4",
+      "x": 1060,
+      "y": 660,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "Y2",
+      "pin": "2",
+      "x": 1120,
+      "y": 640,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R7",
+      "pin": "2",
+      "x": 460,
+      "y": 1260,
+      "expected_net": "SIL_DP",
+      "actual_nets": [
+        "SIL_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R7",
+      "pin": "1",
+      "x": 420,
+      "y": 1260,
+      "expected_net": "USB_SIL_DP",
+      "actual_nets": [
+        "USB_SIL_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R8",
+      "pin": "2",
+      "x": 460,
+      "y": 1190,
+      "expected_net": "SIL_DM",
+      "actual_nets": [
+        "SIL_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R8",
+      "pin": "1",
+      "x": 420,
+      "y": 1190,
+      "expected_net": "USB_SIL_DM",
+      "actual_nets": [
+        "USB_SIL_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R9",
+      "pin": "2",
+      "x": 460,
+      "y": 1360,
+      "expected_net": "USB_SIL_DP",
+      "actual_nets": [
+        "USB_SIL_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R9",
+      "pin": "1",
+      "x": 420,
+      "y": 1360,
+      "expected_net": "SIL_PUR",
+      "actual_nets": [
+        "SIL_PUR"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R10",
+      "pin": "2",
+      "x": 240,
+      "y": 730,
+      "expected_net": "SIL_RESET",
+      "actual_nets": [
+        "SIL_RESET"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R10",
+      "pin": "1",
+      "x": 200,
+      "y": 730,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R11",
+      "pin": "2",
+      "x": 470,
+      "y": 730,
+      "expected_net": "SIL_VREGEN",
+      "actual_nets": [
+        "SIL_VREGEN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R11",
+      "pin": "1",
+      "x": 430,
+      "y": 730,
+      "expected_net": "SIL_RESET",
+      "actual_nets": [
+        "SIL_RESET"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R12",
+      "pin": "2",
+      "x": 270,
+      "y": 1040,
+      "expected_net": "SIL_1V8",
+      "actual_nets": [
+        "SIL_1V8"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R12",
+      "pin": "1",
+      "x": 230,
+      "y": 1040,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R13",
+      "pin": "2",
+      "x": 270,
+      "y": 970,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R13",
+      "pin": "1",
+      "x": 230,
+      "y": 970,
+      "expected_net": "SIL_1V8",
+      "actual_nets": [
+        "SIL_1V8"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R14",
+      "pin": "2",
+      "x": 960,
+      "y": 1100,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R14",
+      "pin": "1",
+      "x": 920,
+      "y": 1100,
+      "expected_net": "SIL_TEST0",
+      "actual_nets": [
+        "SIL_TEST0"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R15",
+      "pin": "2",
+      "x": 960,
+      "y": 1030,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R15",
+      "pin": "1",
+      "x": 920,
+      "y": 1030,
+      "expected_net": "SIL_TEST1",
+      "actual_nets": [
+        "SIL_TEST1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R16",
+      "pin": "2",
+      "x": 960,
+      "y": 1170,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R16",
+      "pin": "1",
+      "x": 920,
+      "y": 1170,
+      "expected_net": "SIL_SIN",
+      "actual_nets": [
+        "SIL_SIN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R17",
+      "pin": "2",
+      "x": 1570,
+      "y": 640,
+      "expected_net": "TI_GPIO_TIP",
+      "actual_nets": [
+        "TI_GPIO_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R17",
+      "pin": "1",
+      "x": 1530,
+      "y": 640,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R18",
+      "pin": "2",
+      "x": 1570,
+      "y": 430,
+      "expected_net": "TI_GPIO_RING",
+      "actual_nets": [
+        "TI_GPIO_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R18",
+      "pin": "1",
+      "x": 1530,
+      "y": 430,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R19",
+      "pin": "2",
+      "x": 1600,
+      "y": 770,
+      "expected_net": "TI_BASE_TIP",
+      "actual_nets": [
+        "TI_BASE_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R19",
+      "pin": "1",
+      "x": 1560,
+      "y": 770,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R20",
+      "pin": "2",
+      "x": 1600,
+      "y": 560,
+      "expected_net": "TI_BASE_RING",
+      "actual_nets": [
+        "TI_BASE_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R20",
+      "pin": "1",
+      "x": 1560,
+      "y": 560,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R21",
+      "pin": "2",
+      "x": 1820,
+      "y": 1390,
+      "expected_net": "EE_VCC",
+      "actual_nets": [
+        "EE_VCC"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R21",
+      "pin": "1",
+      "x": 1780,
+      "y": 1390,
+      "expected_net": "EE_SDA",
+      "actual_nets": [
+        "EE_SDA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R22",
+      "pin": "2",
+      "x": 1820,
+      "y": 1300,
+      "expected_net": "EE_VCC",
+      "actual_nets": [
+        "EE_VCC"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R22",
+      "pin": "1",
+      "x": 1780,
+      "y": 1300,
+      "expected_net": "EE_SCL",
+      "actual_nets": [
+        "EE_SCL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R23",
+      "pin": "2",
+      "x": 1340,
+      "y": 1260,
+      "expected_net": "EE_SDA",
+      "actual_nets": [
+        "EE_SDA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R23",
+      "pin": "1",
+      "x": 1300,
+      "y": 1260,
+      "expected_net": "SIL_SDA",
+      "actual_nets": [
+        "SIL_SDA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R25",
+      "pin": "2",
+      "x": 1340,
+      "y": 1380,
+      "expected_net": "EE_VCC",
+      "actual_nets": [
+        "EE_VCC"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R25",
+      "pin": "1",
+      "x": 1300,
+      "y": 1380,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R27",
+      "pin": "2",
+      "x": 1820,
+      "y": 1130,
+      "expected_net": "EE_VCC",
+      "actual_nets": [
+        "EE_VCC"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R27",
+      "pin": "1",
+      "x": 1780,
+      "y": 1130,
+      "expected_net": "EE_WP",
+      "actual_nets": [
+        "EE_WP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C8",
+      "pin": "1",
+      "x": 920,
+      "y": 1370,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C8",
+      "pin": "2",
+      "x": 960,
+      "y": 1370,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C9",
+      "pin": "1",
+      "x": 920,
+      "y": 1300,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C9",
+      "pin": "2",
+      "x": 960,
+      "y": 1300,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C10",
+      "pin": "1",
+      "x": 420,
+      "y": 1100,
+      "expected_net": "SIL_1V8",
+      "actual_nets": [
+        "SIL_1V8"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C10",
+      "pin": "2",
+      "x": 460,
+      "y": 1100,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C11",
+      "pin": "2",
+      "x": 240,
+      "y": 560,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C11",
+      "pin": "1",
+      "x": 200,
+      "y": 560,
+      "expected_net": "SIL_RESET",
+      "actual_nets": [
+        "SIL_RESET"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C12",
+      "pin": "1",
+      "x": 915,
+      "y": 530,
+      "expected_net": "SIL_X1",
+      "actual_nets": [
+        "SIL_X1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C12",
+      "pin": "2",
+      "x": 945,
+      "y": 530,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C13",
+      "pin": "1",
+      "x": 1235,
+      "y": 530,
+      "expected_net": "SIL_X2",
+      "actual_nets": [
+        "SIL_X2"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C13",
+      "pin": "2",
+      "x": 1265,
+      "y": 530,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C14",
+      "pin": "1",
+      "x": 2030,
+      "y": 1430,
+      "expected_net": "EE_VCC",
+      "actual_nets": [
+        "EE_VCC"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C14",
+      "pin": "2",
+      "x": 2070,
+      "y": 1430,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "1",
+      "x": 620,
+      "y": 1275,
+      "expected_net": "SIL_VREGEN",
+      "actual_nets": [
+        "SIL_VREGEN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "2",
+      "x": 620,
+      "y": 1265,
+      "expected_net": "SIL_SUSPEND",
+      "actual_nets": [
+        "SIL_SUSPEND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "3",
+      "x": 620,
+      "y": 1255,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "4",
+      "x": 620,
+      "y": 1245,
+      "expected_net": "SIL_1V8",
+      "actual_nets": [
+        "SIL_1V8"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "5",
+      "x": 620,
+      "y": 1235,
+      "expected_net": "SIL_PUR",
+      "actual_nets": [
+        "SIL_PUR"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "6",
+      "x": 620,
+      "y": 1225,
+      "expected_net": "SIL_DP",
+      "actual_nets": [
+        "SIL_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "7",
+      "x": 620,
+      "y": 1215,
+      "expected_net": "SIL_DM",
+      "actual_nets": [
+        "SIL_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "8",
+      "x": 620,
+      "y": 1205,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "9",
+      "x": 620,
+      "y": 1195,
+      "expected_net": "SIL_RESET",
+      "actual_nets": [
+        "SIL_RESET"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "10",
+      "x": 620,
+      "y": 1185,
+      "expected_net": "SIL_SDA",
+      "actual_nets": [
+        "SIL_SDA"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "11",
+      "x": 620,
+      "y": 1175,
+      "expected_net": "SIL_SCL",
+      "actual_nets": [
+        "SIL_SCL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "12",
+      "x": 620,
+      "y": 1165,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "13",
+      "x": 620,
+      "y": 1155,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "14",
+      "x": 620,
+      "y": 1145,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "15",
+      "x": 620,
+      "y": 1135,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "16",
+      "x": 620,
+      "y": 1125,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "17",
+      "x": 780,
+      "y": 1125,
+      "expected_net": "SIL_SIN",
+      "actual_nets": [
+        "SIL_SIN"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "18",
+      "x": 780,
+      "y": 1135,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "19",
+      "x": 780,
+      "y": 1145,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "20",
+      "x": 780,
+      "y": 1155,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "21",
+      "x": 780,
+      "y": 1165,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "22",
+      "x": 780,
+      "y": 1175,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "23",
+      "x": 780,
+      "y": 1185,
+      "expected_net": "SIL_TEST0",
+      "actual_nets": [
+        "SIL_TEST0"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "24",
+      "x": 780,
+      "y": 1195,
+      "expected_net": "SIL_TEST1",
+      "actual_nets": [
+        "SIL_TEST1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "25",
+      "x": 780,
+      "y": 1205,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "26",
+      "x": 780,
+      "y": 1215,
+      "expected_net": "SIL_X2",
+      "actual_nets": [
+        "SIL_X2"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "27",
+      "x": 780,
+      "y": 1225,
+      "expected_net": "SIL_X1",
+      "actual_nets": [
+        "SIL_X1"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "28",
+      "x": 780,
+      "y": 1235,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "29",
+      "x": 780,
+      "y": 1245,
+      "expected_net": "TI_GPIO_RING",
+      "actual_nets": [
+        "TI_GPIO_RING"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "30",
+      "x": 780,
+      "y": 1255,
+      "expected_net": "TI_GPIO_TIP",
+      "actual_nets": [
+        "TI_GPIO_TIP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "31",
+      "x": 780,
+      "y": 1265,
+      "expected_net": "TP_GPIO31",
+      "actual_nets": [
+        "TP_GPIO31"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "32",
+      "x": 780,
+      "y": 1275,
+      "expected_net": "TP_GPIO30",
+      "actual_nets": [
+        "TP_GPIO30"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U2",
+      "pin": "33",
+      "x": 700,
+      "y": 1295,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J5",
+      "pin": "1",
+      "x": 570,
+      "y": 610,
+      "expected_net": "CASIO_RX",
+      "actual_nets": [
+        "CASIO_RX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J5",
+      "pin": "2",
+      "x": 570,
+      "y": 600,
+      "expected_net": "CASIO_TX",
+      "actual_nets": [
+        "CASIO_TX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J5",
+      "pin": "3",
+      "x": 570,
+      "y": 590,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J6",
+      "pin": "1",
+      "x": 1705,
+      "y": 630,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J6",
+      "pin": "2",
+      "x": 1705,
+      "y": 610,
+      "expected_net": "AUX_RX",
+      "actual_nets": [
+        "AUX_RX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J6",
+      "pin": "3",
+      "x": 1705,
+      "y": 590,
+      "expected_net": "AUX_TX",
+      "actual_nets": [
+        "AUX_TX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J6",
+      "pin": "4",
+      "x": 1705,
+      "y": 570,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "pin": "1",
+      "x": 1030,
+      "y": 640,
+      "expected_net": "CASIO_RX",
+      "actual_nets": [
+        "CASIO_RX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "pin": "2",
+      "x": 1090,
+      "y": 640,
+      "expected_net": "CASIO_TX",
+      "actual_nets": [
+        "CASIO_TX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "pin": "3",
+      "x": 1030,
+      "y": 630,
+      "expected_net": "UART_RX_EXT",
+      "actual_nets": [
+        "UART_RX_EXT"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "pin": "4",
+      "x": 1090,
+      "y": 630,
+      "expected_net": "UART_TX_EXT",
+      "actual_nets": [
+        "UART_TX_EXT"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "pin": "5",
+      "x": 1030,
+      "y": 620,
+      "expected_net": "AUX_RX",
+      "actual_nets": [
+        "AUX_RX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "J7",
+      "pin": "6",
+      "x": 1090,
+      "y": 620,
+      "expected_net": "AUX_TX",
+      "actual_nets": [
+        "AUX_TX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "pin": "2",
+      "x": 1180,
+      "y": 1320,
+      "expected_net": "UART_TX",
+      "actual_nets": [
+        "UART_TX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "pin": "3",
+      "x": 1180,
+      "y": 1300,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "pin": "5",
+      "x": 1280,
+      "y": 1340,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "pin": "4",
+      "x": 1280,
+      "y": 1320,
+      "expected_net": "UART_TX_OD",
+      "actual_nets": [
+        "UART_TX_OD"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U7",
+      "pin": "1",
+      "x": 1180,
+      "y": 1340,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "pin": "1",
+      "x": 1210,
+      "y": 1070,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "pin": "2",
+      "x": 1210,
+      "y": 1060,
+      "expected_net": "UART_RX_FILTER",
+      "actual_nets": [
+        "UART_RX_FILTER"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "pin": "3",
+      "x": 1210,
+      "y": 1050,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "pin": "4",
+      "x": 1210,
+      "y": 1040,
+      "expected_net": "UART_RX",
+      "actual_nets": [
+        "UART_RX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U8",
+      "pin": "5",
+      "x": 1210,
+      "y": 1030,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "pin": "1",
+      "x": 310,
+      "y": 560,
+      "expected_net": "CASIO_RX",
+      "actual_nets": [
+        "CASIO_RX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "pin": "2",
+      "x": 350,
+      "y": 560,
+      "expected_net": "CASIO_TX",
+      "actual_nets": [
+        "CASIO_TX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D5",
+      "pin": "3",
+      "x": 330,
+      "y": 640,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D6",
+      "pin": "1",
+      "x": 1940,
+      "y": 560,
+      "expected_net": "AUX_RX",
+      "actual_nets": [
+        "AUX_RX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D6",
+      "pin": "2",
+      "x": 1980,
+      "y": 560,
+      "expected_net": "AUX_TX",
+      "actual_nets": [
+        "AUX_TX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D6",
+      "pin": "3",
+      "x": 1960,
+      "y": 640,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R28",
+      "pin": "2",
+      "x": 1470,
+      "y": 1430,
+      "expected_net": "UART_PULLUP",
+      "actual_nets": [
+        "UART_PULLUP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R28",
+      "pin": "1",
+      "x": 1430,
+      "y": 1430,
+      "expected_net": "UART_TX_OD",
+      "actual_nets": [
+        "UART_TX_OD"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R29",
+      "pin": "2",
+      "x": 1540,
+      "y": 1320,
+      "expected_net": "UART_TX_EXT",
+      "actual_nets": [
+        "UART_TX_EXT"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R29",
+      "pin": "1",
+      "x": 1500,
+      "y": 1320,
+      "expected_net": "UART_TX_OD",
+      "actual_nets": [
+        "UART_TX_OD"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R30",
+      "pin": "2",
+      "x": 1530,
+      "y": 1060,
+      "expected_net": "UART_RX_FILTER",
+      "actual_nets": [
+        "UART_RX_FILTER"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R30",
+      "pin": "1",
+      "x": 1490,
+      "y": 1060,
+      "expected_net": "UART_RX_EXT",
+      "actual_nets": [
+        "UART_RX_EXT"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R31",
+      "pin": "2",
+      "x": 1720,
+      "y": 1160,
+      "expected_net": "UART_PULLUP",
+      "actual_nets": [
+        "UART_PULLUP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "R31",
+      "pin": "1",
+      "x": 1680,
+      "y": 1160,
+      "expected_net": "UART_RX_FILTER",
+      "actual_nets": [
+        "UART_RX_FILTER"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C15",
+      "pin": "1",
+      "x": 220,
+      "y": 1390,
+      "expected_net": "5V_SERIAL",
+      "actual_nets": [
+        "5V_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C15",
+      "pin": "2",
+      "x": 260,
+      "y": 1390,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C16",
+      "pin": "1",
+      "x": 220,
+      "y": 1100,
+      "expected_net": "UART_V3",
+      "actual_nets": [
+        "UART_V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C16",
+      "pin": "2",
+      "x": 260,
+      "y": 1100,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C17",
+      "pin": "1",
+      "x": 220,
+      "y": 1470,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C17",
+      "pin": "2",
+      "x": 260,
+      "y": 1470,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "pin": "1",
+      "x": 1050,
+      "y": 1430,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C18",
+      "pin": "2",
+      "x": 1090,
+      "y": 1430,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C19",
+      "pin": "1",
+      "x": 1050,
+      "y": 1180,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "C19",
+      "pin": "2",
+      "x": 1090,
+      "y": 1180,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D16",
+      "pin": "1",
+      "x": 1820,
+      "y": 1430,
+      "expected_net": "UART_PULLUP",
+      "actual_nets": [
+        "UART_PULLUP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "D16",
+      "pin": "2",
+      "x": 1860,
+      "y": 1430,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "1",
+      "x": 405,
+      "y": 1265,
+      "expected_net": "3V3",
+      "actual_nets": [
+        "3V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "2",
+      "x": 405,
+      "y": 1255,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "3",
+      "x": 405,
+      "y": 1245,
+      "expected_net": "5V_SERIAL",
+      "actual_nets": [
+        "5V_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "4",
+      "x": 405,
+      "y": 1235,
+      "expected_net": "UART_TX",
+      "actual_nets": [
+        "UART_TX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "5",
+      "x": 405,
+      "y": 1225,
+      "expected_net": "UART_RX",
+      "actual_nets": [
+        "UART_RX"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "6",
+      "x": 405,
+      "y": 1215,
+      "expected_net": "UART_V3",
+      "actual_nets": [
+        "UART_V3"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "7",
+      "x": 405,
+      "y": 1205,
+      "expected_net": "USB_UART_DP",
+      "actual_nets": [
+        "USB_UART_DP"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "8",
+      "x": 405,
+      "y": 1195,
+      "expected_net": "USB_UART_DM",
+      "actual_nets": [
+        "USB_UART_DM"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "9",
+      "x": 515,
+      "y": 1195,
+      "expected_net": "5V_SERIAL",
+      "actual_nets": [
+        "5V_SERIAL"
+      ],
+      "no_connect": false,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "10",
+      "x": 515,
+      "y": 1205,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "11",
+      "x": 515,
+      "y": 1215,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "12",
+      "x": 515,
+      "y": 1225,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "13",
+      "x": 515,
+      "y": 1235,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "14",
+      "x": 515,
+      "y": 1245,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "15",
+      "x": 515,
+      "y": 1255,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "16",
+      "x": 515,
+      "y": 1265,
+      "expected_net": null,
+      "actual_nets": [],
+      "no_connect": true,
+      "pass": true
+    },
+    {
+      "ref": "U3",
+      "pin": "17",
+      "x": 460,
+      "y": 1285,
+      "expected_net": "GND",
+      "actual_nets": [
+        "GND"
+      ],
+      "no_connect": false,
+      "pass": true
+    }
+  ],
+  "issues": [],
+  "pass": true
+}

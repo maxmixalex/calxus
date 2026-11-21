@@ -1,0 +1,711 @@
+{
+  "schema": "calxus.native-final-copper-reconcile.v2",
+  "candidate_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "immutable_live_plan_sha256": "27e055ef8128dac9e3503b30208e29fd40e5a7d9eeab500c0546b907e6416423",
+  "pcbId": "2a0c39c6c6694f40",
+  "projectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+  "last_observed_live_checkpoint": {
+    "next": 1484,
+    "savedThrough": 1484,
+    "pending": false,
+    "complete_native_backup": "Calxus_r7_complete_route_before_reload.epro2",
+    "reloaded": true
+  },
+  "units": "mil",
+  "operations": [
+    {
+      "type": "via",
+      "tag": "additional_2_via0",
+      "candidateId": "16baba3b72dd8ade",
+      "net": "SIL_1V8",
+      "old": {
+        "x": 1738.1889763779525,
+        "y": 890.7480314960629,
+        "holeDiameter": 7.874015748031497,
+        "diameter": 19.68503937007874
+      },
+      "new": {
+        "x": 1738.1889763779525,
+        "y": 890.3543307086613,
+        "holeDiameter": 7.874015748031497,
+        "diameter": 19.68503937007874
+      },
+      "index": 0
+    },
+    {
+      "type": "via",
+      "tag": "iteration4_via35",
+      "candidateId": "7940995d4d32a07c",
+      "net": "NATIVE_EN_N",
+      "old": {
+        "x": 383.1697930883118,
+        "y": 370.43979996250806,
+        "holeDiameter": 11.809993622603445,
+        "diameter": 23.61998724520689
+      },
+      "new": {
+        "x": 383.32727340327244,
+        "y": 370.43979996250806,
+        "holeDiameter": 11.809993622603445,
+        "diameter": 23.61998724520689
+      },
+      "index": 1
+    },
+    {
+      "type": "via",
+      "tag": "additional_5_via0",
+      "candidateId": "badcef0769e806ca",
+      "net": "3V3",
+      "old": {
+        "x": 1102.3622047244096,
+        "y": 895.2755905511813,
+        "holeDiameter": 11.811023622047244,
+        "diameter": 23.62204724409449
+      },
+      "new": {
+        "x": 1102.3622047244096,
+        "y": 893.3070866141734,
+        "holeDiameter": 11.811023622047244,
+        "diameter": 23.62204724409449
+      },
+      "index": 2
+    },
+    {
+      "type": "via",
+      "tag": "iteration4_via28",
+      "candidateId": "aef77ed306de1b93",
+      "net": "VBUS_IN",
+      "old": {
+        "x": 332.9298202178971,
+        "y": 825.6895541276409,
+        "holeDiameter": 11.809993622603445,
+        "diameter": 23.61998724520689
+      },
+      "new": {
+        "x": 336.6141732283465,
+        "y": 812.5984251968505,
+        "holeDiameter": 7.874015748031497,
+        "diameter": 19.68503937007874
+      },
+      "index": 3
+    },
+    {
+      "type": "delete",
+      "tag": null,
+      "baselineId": "1a6f28a2d6cd9325",
+      "candidateId": "1a6f28a2d6cd9325",
+      "old": {
+        "id": "1a6f28a2d6cd9325",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 263.5,
+        "y1": 816.9,
+        "x2": 302,
+        "y2": 816.9,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 4
+    },
+    {
+      "type": "delete",
+      "tag": null,
+      "baselineId": "517d0ae7cba763ef",
+      "candidateId": "517d0ae7cba763ef",
+      "old": {
+        "id": "517d0ae7cba763ef",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 302,
+        "y1": 816.9,
+        "x2": 302,
+        "y2": 856.3,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 5
+    },
+    {
+      "type": "delete",
+      "tag": "iteration4_trace218_segment0",
+      "baselineId": null,
+      "candidateId": "2b1a9952812c796e",
+      "old": {
+        "id": "2b1a9952812c796e",
+        "net": "VBUS_IN",
+        "layer": 1,
+        "x1": 368.14980119910734,
+        "y1": 826.7695535444411,
+        "x2": 334.00981963469746,
+        "y2": 826.7695535444411,
+        "width": 20.0,
+        "locked": false
+      },
+      "index": 6
+    },
+    {
+      "type": "delete",
+      "tag": null,
+      "baselineId": "02e07c79d1fc1f12",
+      "candidateId": "02e07c79d1fc1f12",
+      "old": {
+        "id": "02e07c79d1fc1f12",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 302,
+        "y1": 856.3,
+        "x2": 263.5,
+        "y2": 856.3,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 7
+    },
+    {
+      "type": "delete",
+      "tag": "iteration4_trace218_segment1",
+      "baselineId": null,
+      "candidateId": "d321584e04cfa2b5",
+      "old": {
+        "id": "d321584e04cfa2b5",
+        "net": "VBUS_IN",
+        "layer": 1,
+        "x1": 334.00981963469746,
+        "y1": 826.7695535444411,
+        "x2": 332.9298202178971,
+        "y2": 825.6895541276409,
+        "width": 20.0,
+        "locked": false
+      },
+      "index": 8
+    },
+    {
+      "type": "delete",
+      "tag": null,
+      "baselineId": "b6e1148e2fb122cf",
+      "candidateId": "b6e1148e2fb122cf",
+      "old": {
+        "id": "b6e1148e2fb122cf",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 263.5,
+        "y1": 856.3,
+        "x2": 368.1,
+        "y2": 864.2,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 9
+    },
+    {
+      "type": "line",
+      "tag": null,
+      "baselineId": "ed40be3f38c7c27b",
+      "candidateId": "ed40be3f38c7c27b",
+      "old": {
+        "id": "ed40be3f38c7c27b",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 263.5,
+        "y1": 797.2,
+        "x2": 225,
+        "y2": 797.2,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "ed40be3f38c7c27b",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 263.5,
+        "y1": 797.2,
+        "x2": 226.96850393700788,
+        "y2": 797.2,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 10
+    },
+    {
+      "type": "line",
+      "tag": null,
+      "baselineId": "fe1f780ca39d4696",
+      "candidateId": "fe1f780ca39d4696",
+      "old": {
+        "id": "fe1f780ca39d4696",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 225,
+        "y1": 797.2,
+        "x2": 225,
+        "y2": 836.6,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "fe1f780ca39d4696",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 226.96850393700788,
+        "y1": 797.2,
+        "x2": 226.96850393700788,
+        "y2": 836.6,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 11
+    },
+    {
+      "type": "line",
+      "tag": null,
+      "baselineId": "a4b12270ece21cb2",
+      "candidateId": "a4b12270ece21cb2",
+      "old": {
+        "id": "a4b12270ece21cb2",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 225,
+        "y1": 836.6,
+        "x2": 263.5,
+        "y2": 836.6,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "a4b12270ece21cb2",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 226.96850393700788,
+        "y1": 836.6,
+        "x2": 263.5,
+        "y2": 836.6,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 12
+    },
+    {
+      "type": "line",
+      "tag": null,
+      "baselineId": "7937cd24407e3ff6",
+      "candidateId": "7937cd24407e3ff6",
+      "old": {
+        "id": "7937cd24407e3ff6",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 600,
+        "y1": 770,
+        "x2": 584,
+        "y2": 750,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "7937cd24407e3ff6",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 600,
+        "y1": 770,
+        "x2": 582.7676280766193,
+        "y2": 750,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 13
+    },
+    {
+      "type": "line",
+      "tag": null,
+      "baselineId": "11266a3eaf608628",
+      "candidateId": "11266a3eaf608628",
+      "old": {
+        "id": "11266a3eaf608628",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 584,
+        "y1": 750,
+        "x2": 600,
+        "y2": 730,
+        "width": 9.5313,
+        "locked": true
+      },
+      "new": {
+        "id": "11266a3eaf608628",
+        "net": "USB_UP_DP",
+        "layer": 1,
+        "x1": 582.7676280766193,
+        "y1": 750,
+        "x2": 600,
+        "y2": 730,
+        "width": 9.5313,
+        "locked": true
+      },
+      "index": 14
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_0",
+      "candidateId": "091629088c383eb1",
+      "new": {
+        "id": "up_A_0",
+        "tag": "up_A_0",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 263.5,
+        "y1": 816.9,
+        "x2": 307.0866141732283,
+        "y2": 816.9,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 15
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_1",
+      "candidateId": "e1637f1f3ac80cea",
+      "new": {
+        "id": "up_A_1",
+        "tag": "up_A_1",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 307.0866141732283,
+        "y1": 816.9,
+        "x2": 309.0551181102362,
+        "y2": 818.868503937008,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 16
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_2",
+      "candidateId": "9ea7ae71faffbcf6",
+      "new": {
+        "id": "up_A_2",
+        "tag": "up_A_2",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 309.0551181102362,
+        "y1": 818.868503937008,
+        "x2": 309.0551181102362,
+        "y2": 831.4960629921261,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 17
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_3",
+      "candidateId": "ab5682b6f3024c8f",
+      "new": {
+        "id": "up_A_3",
+        "tag": "up_A_3",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 309.0551181102362,
+        "y1": 831.4960629921261,
+        "x2": 311.02362204724415,
+        "y2": 833.464566929134,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 18
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_4",
+      "candidateId": "482560f9f3bbc67e",
+      "new": {
+        "id": "up_A_4",
+        "tag": "up_A_4",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 311.02362204724415,
+        "y1": 833.464566929134,
+        "x2": 334.251968503937,
+        "y2": 833.464566929134,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 19
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_5",
+      "candidateId": "4afa4cacc0880639",
+      "new": {
+        "id": "up_A_5",
+        "tag": "up_A_5",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 334.251968503937,
+        "y1": 833.464566929134,
+        "x2": 336.2204724409449,
+        "y2": 835.4330708661417,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 20
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_6",
+      "candidateId": "5cffa99111aee3c3",
+      "new": {
+        "id": "up_A_6",
+        "tag": "up_A_6",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 336.2204724409449,
+        "y1": 835.4330708661417,
+        "x2": 336.2204724409449,
+        "y2": 847.244094488189,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 21
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_7",
+      "candidateId": "2c10ff671c2fa40e",
+      "new": {
+        "id": "up_A_7",
+        "tag": "up_A_7",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 336.2204724409449,
+        "y1": 847.244094488189,
+        "x2": 334.251968503937,
+        "y2": 849.2125984251969,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 22
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_8",
+      "candidateId": "ce6813516e44a4f4",
+      "new": {
+        "id": "up_A_8",
+        "tag": "up_A_8",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 334.251968503937,
+        "y1": 849.2125984251969,
+        "x2": 301.18110236220474,
+        "y2": 849.2125984251969,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 23
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_A_9",
+      "candidateId": "0f63f0c8bc2345e2",
+      "new": {
+        "id": "up_A_9",
+        "tag": "up_A_9",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 301.18110236220474,
+        "y1": 849.2125984251969,
+        "x2": 301.18110236220474,
+        "y2": 856.3,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 24
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_B_0",
+      "candidateId": "dec1696724852658",
+      "new": {
+        "id": "up_B_0",
+        "tag": "up_B_0",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 263.5,
+        "y1": 856.3,
+        "x2": 301.18110236220474,
+        "y2": 856.3,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 25
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_B_1",
+      "candidateId": "60f571c538c97580",
+      "new": {
+        "id": "up_B_1",
+        "tag": "up_B_1",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 301.18110236220474,
+        "y1": 856.3,
+        "x2": 310.62992125984255,
+        "y2": 865.7488188976379,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 26
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_up_B_2",
+      "candidateId": "b5e3379175a0f6d5",
+      "new": {
+        "id": "up_B_2",
+        "tag": "up_B_2",
+        "net": "USB_UP_DM",
+        "layer": 1,
+        "x1": 310.62992125984255,
+        "y1": 865.7488188976379,
+        "x2": 368.1,
+        "y2": 864.1999999999999,
+        "width": 9.53125,
+        "locked": true
+      },
+      "index": 27
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_power_top_0",
+      "candidateId": "ef385a926094b8d7",
+      "new": {
+        "id": "power_top_0",
+        "tag": "power_top_0",
+        "net": "VBUS_IN",
+        "layer": 1,
+        "x1": 368.14980119910734,
+        "y1": 826.7695535444411,
+        "x2": 336.6141732283465,
+        "y2": 812.5984251968505,
+        "width": 10,
+        "locked": false
+      },
+      "index": 28
+    },
+    {
+      "type": "create",
+      "tag": "usb_up_repair_power_bottom_0",
+      "candidateId": "52f51597c6c471cb",
+      "new": {
+        "id": "power_bottom_0",
+        "tag": "power_bottom_0",
+        "net": "VBUS_IN",
+        "layer": 2,
+        "x1": 332.9298202178971,
+        "y1": 825.6895541276409,
+        "x2": 336.6141732283465,
+        "y2": 812.5984251968505,
+        "width": 20,
+        "locked": false
+      },
+      "index": 29
+    }
+  ],
+  "approved_baseline_line_change": {
+    "contract": "hardware/electrical/native-usb-up-repair.json",
+    "contract_sha256": "b9d99163583cc287cd92e6121c48e3b9cb5d9cd4b773069d5c7f88072fcfea97",
+    "removed_baseline_line_ids": [
+      "517d0ae7cba763ef",
+      "b6e1148e2fb122cf",
+      "1a6f28a2d6cd9325",
+      "02e07c79d1fc1f12"
+    ],
+    "modified_baseline_line_ids": [
+      "ed40be3f38c7c27b",
+      "fe1f780ca39d4696",
+      "a4b12270ece21cb2",
+      "7937cd24407e3ff6",
+      "11266a3eaf608628"
+    ],
+    "removed_candidate_line_ids": [
+      "d321584e04cfa2b5",
+      "2b1a9952812c796e"
+    ],
+    "new_line_ids": [
+      "091629088c383eb1",
+      "e1637f1f3ac80cea",
+      "9ea7ae71faffbcf6",
+      "ab5682b6f3024c8f",
+      "482560f9f3bbc67e",
+      "4afa4cacc0880639",
+      "5cffa99111aee3c3",
+      "2c10ff671c2fa40e",
+      "ce6813516e44a4f4",
+      "0f63f0c8bc2345e2",
+      "dec1696724852658",
+      "60f571c538c97580",
+      "b5e3379175a0f6d5",
+      "ef385a926094b8d7",
+      "52f51597c6c471cb"
+    ],
+    "modified_via": {
+      "id": "aef77ed306de1b93",
+      "tag": "iteration4_via28",
+      "old": {
+        "id": "aef77ed306de1b93",
+        "net": "VBUS_IN",
+        "x": 332.9298202178971,
+        "y": 825.6895541276409,
+        "diameter": 23.61998724520689,
+        "holeDiameter": 11.809993622603445,
+        "locked": false,
+        "mask": {
+          "top": -11.809993622603445,
+          "bottom": -11.809993622603445
+        }
+      },
+      "new": {
+        "id": "aef77ed306de1b93",
+        "net": "VBUS_IN",
+        "x": 336.6141732283465,
+        "y": 812.5984251968505,
+        "diameter": 19.68503937007874,
+        "holeDiameter": 7.874015748031497,
+        "locked": false,
+        "mask": {
+          "top": -9.84251968503937,
+          "bottom": -9.84251968503937
+        }
+      }
+    },
+    "power_neck": {
+      "tag": "power_top_0",
+      "net": "VBUS_IN",
+      "width_mil": 10,
+      "length_mm": 0.8781631560951717,
+      "rule_min_mil": 10,
+      "default_power_width_mil": 20
+    },
+    "all_hs_vias_preserved": true,
+    "all_components_preserved": true
+  },
+  "runtime_id_policy": "Resolve added original-plan primitives by exact unique tag in complete-route-import-state.json. Baseline LINE IDs remain unchanged. New live IDs are recorded during public create. Candidate IDs must not be mistaken for live IDs.",
+  "resume_policy": "Complete and save original27e0 importer first. Apply this contract once with pending-before-mutation checkpoints. After reconciliation, never run original baseline/importer geometry guards because9baselineHS lines and4ordinaryvias intentionally changed. Rebuild pours, save, export complete native project and actual CAM, independently compare final geometry.",
+  "observed_native_reconciliation": {
+    "completed_operations": 30,
+    "nativeSaved": true,
+    "pending": null,
+    "completedAt": "2026-11-21T12:32:06.157Z",
+    "final_batch_job_id": "job-mcp-8151df6d-85d3-4ca2-b454-905035d5d6e1",
+    "line_count": 1493,
+    "via_count": 189,
+    "native_baseline_line_aliases": {
+      "a4b12270ece21cb2": "cc1249146b6d7259"
+    },
+    "normalization_evidence": "validation/history/native-joined-endpoint-normalization.json",
+    "original_plan_unchanged": true,
+    "later_six_functional_strings_saved": true
+  }
+}

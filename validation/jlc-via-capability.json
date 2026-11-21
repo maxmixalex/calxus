@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-11-21",
+  "source": "https://jlcpcb.com/capabilities/pcb-capabilities",
+  "applicable_board": {
+    "material": "FR-4",
+    "layers": 4,
+    "thickness_mm": 1.6
+  },
+  "official_capability": {
+    "multilayer_minimum_drill_mm": 0.15,
+    "preferred_minimum_via_hole_mm": 0.2,
+    "via_minimum_pad_minus_hole_mm": 0.1,
+    "preferred_pad_minus_hole_mm": 0.15,
+    "thin_board_exception": "0.1mm hole /0.2mm pad only for thickness <=1mm with ENIG/OSP; not used here"
+  },
+  "selected_hs_via": {
+    "hole_mm": 0.2,
+    "pad_mm": 0.5,
+    "radial_annular_ring_mm": 0.15,
+    "in_capability": true
+  },
+  "ordinary_autoroute_default": {
+    "hole_mm": 0.3,
+    "pad_mm": 0.6
+  },
+  "limitation": "Capability confirmation is not fab acceptance or final DFM approval; no order has been placed."
+}

@@ -1,0 +1,72 @@
+{
+  "jobId": "job-mcp-dd44c208-70dd-4d53-ba3c-bdccb54a798f",
+  "completedAt": "2026-11-21T13:02:37.841Z",
+  "setResult": true,
+  "saved": true,
+  "protectedDifferenceCount": 0,
+  "allDifferenceTypes": [
+    "DOCHEAD"
+  ],
+  "protectedDifferences": [],
+  "groups": [
+    {
+      "name": "Differential Pair Error",
+      "count": 3
+    },
+    {
+      "name": "Netlist Error",
+      "count": 1
+    }
+  ],
+  "comparisonCount": 69,
+  "comparisonSample": [
+    {
+      "type": "NET",
+      "object": "3V3",
+      "net1": [
+        "C7.1",
+        "C8.1",
+        "C9.1",
+        "C17.1",
+        "C18.1",
+        "C19.1",
+        "D16.2",
+        "R10.1",
+        "R12.1",
+        "R14.2",
+        "R15.2",
+        "R16.2",
+        "R17.1",
+        "R18.1",
+        "R19.1",
+        "R20.1",
+        "R25.1",
+        "U2.3",
+        "U2.13",
+        "U2.14",
+        "U2.15",
+        "U2.16",
+        "U2.25",
+        "U3.1",
+        "U5.5",
+        "U7.5",
+        "U8.5"
+      ],
+      "net2": []
+    },
+    {
+      "type": "NET",
+      "object": "'5V_SERIAL'",
+      "net1": [
+        "C6.1",
+        "C15.1",
+        "U3.3",
+        "U3.9",
+        "U5.1",
+        "U5.3",
+        "U6.6"
+      ],
+      "net2": []
+    }
+  ]
+}

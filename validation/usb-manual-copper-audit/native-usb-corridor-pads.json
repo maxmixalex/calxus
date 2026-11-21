@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "actual_bottom_or_through_pads_checked": 71,
+  "violations": [],
+  "scope": "Actual bottom and through-component/testpad conservative copper vs L4 0.65mm corridors, including r5 J9/TP15/TP20. No inner-plane restriction."
+}

@@ -1,0 +1,138 @@
+{
+  "source_archive": "Calxus_RevA_r7.epro2",
+  "archive_sha256": "18d8a0ccdbf3b630a9615d0ea36fb3fe75de02d21a5d2e9f1b2f07a6cd53cfa9",
+  "footprint_uuid": "cac28bf5b833f4e8",
+  "ref": "J1",
+  "part": "TYPE-C-31-M-12 / C165948",
+  "classification": "Two circular FILL features on native Multi-Layer12 (not the board-outline layer). Actual native Board BREP independently confirms two0.6mm through holes. They are not PAD holes; verify the final manufacturing representation without duplicate processing.",
+  "component_pose": {
+    "units": "mil",
+    "x": 166.1417,
+    "y": 826.7717,
+    "angle_deg": 270
+  },
+  "records": [
+    {
+      "source_header": {
+        "type": "FILL",
+        "ticket": 142,
+        "id": "e55"
+      },
+      "source_data": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 12,
+        "width": 0.1,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            "CIRCLE",
+            -114.17,
+            47.465,
+            11.811
+          ]
+        ],
+        "locked": false,
+        "zIndex": 55,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": []
+      },
+      "source_raw": "{\"type\":\"FILL\",\"ticket\":142,\"id\":\"e55\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"width\":0.1,\"fillStyle\":\"SOLID\",\"path\":[[\"CIRCLE\",-114.17,47.465,11.811]],\"locked\":false,\"zIndex\":55,\"isBridgingCopper\":false,\"networkList\":[],\"refs\":[]}|",
+      "expected_world_center_mm": [
+        5.4256101800000005,
+        23.899919179999998
+      ],
+      "diameter_mm": 0.5999987999999999
+    },
+    {
+      "source_header": {
+        "type": "FILL",
+        "ticket": 143,
+        "id": "e56"
+      },
+      "source_data": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 12,
+        "width": 0.1,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            "CIRCLE",
+            114.17,
+            47.465,
+            11.811
+          ]
+        ],
+        "locked": false,
+        "zIndex": 56,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": []
+      },
+      "source_raw": "{\"type\":\"FILL\",\"ticket\":143,\"id\":\"e56\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"width\":0.1,\"fillStyle\":\"SOLID\",\"path\":[[\"CIRCLE\",114.17,47.465,11.811]],\"locked\":false,\"zIndex\":56,\"isBridgingCopper\":false,\"networkList\":[],\"refs\":[]}|",
+      "expected_world_center_mm": [
+        5.425610179999999,
+        18.100083180000002
+      ],
+      "diameter_mm": 0.5999987999999999
+    }
+  ],
+  "native_layer12_definitions": {
+    "cac28bf5b833f4e8": {
+      "header": {
+        "type": "LAYER",
+        "ticket": 12,
+        "id": "[\"LAYER\",12]"
+      },
+      "data": {
+        "layerType": "MULTI",
+        "layerName": "Multi-Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#ffffff",
+        "activateTransparency": 0.5,
+        "inactiveColor": "#ffffff",
+        "inactiveTransparency": 0.5
+      }
+    },
+    "2a0c39c6c6694f40": {
+      "header": {
+        "type": "LAYER",
+        "ticket": 5750,
+        "id": "[\"LAYER\",12]"
+      },
+      "data": {
+        "layerId": 12,
+        "layerType": "MULTI",
+        "layerName": "Multi-Layer",
+        "use": true,
+        "show": true,
+        "locked": false,
+        "activeColor": "#c0c0c0",
+        "activateTransparency": 1,
+        "inactiveColor": "#606060",
+        "inactiveTransparency": 0.5
+      }
+    }
+  },
+  "native_step_brep": {
+    "source": "Calxus_RevA_r7_PCBA.step.gz",
+    "source_sha256": "f748813e98b0f77fead3a735b3de9cb38881a4b7807eb5af440bfa01ddc7a7e3",
+    "vertical_cylinders_x_y_diameter_mm": [
+      [
+        5.425621031242,
+        18.100119380239,
+        0.6
+      ],
+      [
+        5.425621031242,
+        23.899966979934,
+        0.6
+      ]
+    ],
+    "manufacturing_export_status": "Pending actual CAM verification by firmware_docs; no manufacturing source modified."
+  }
+}

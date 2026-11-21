@@ -1,0 +1,173 @@
+{
+  "schema": "calxus.functional-silk-native-cam.v1",
+  "pass": true,
+  "source_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "gerber_archive_sha256": "e9e19850dbff9be3e40e087c0878b19e8f24ec45935d80af64dd43de8ad33cc8",
+  "scope": "Seven functional legends only: native STRING identity/pose and actual Gerber ink clearance within conservative label envelopes. Actual glyph legibility and absence of clipping require linked visual review. General reference designator spacing is not certified.",
+  "minimum_mask_clearance_mm": 0.15,
+  "minimum_board_edge_clearance_mm": 0.15,
+  "arc_polygonisation_bound_mm": 1e-05,
+  "checks": [
+    {
+      "primitiveId": "c1e6ffdbafe85812",
+      "text": "CALXUS Rev A",
+      "source_pose_mm": [
+        49.99999905999999,
+        1.49999954,
+        0
+      ],
+      "source_pose_matches": true,
+      "source_text_matches": true,
+      "font_size_preserved": true,
+      "actual_top_silk_ink_area_mm2": 2.604922038673219,
+      "actual_ink_bounds_mm": [
+        50.0012,
+        1.73996,
+        59.30027764723559,
+        2.61132
+      ],
+      "minimum_actual_ink_to_mask_opening_mm": 2.8646974136409695,
+      "minimum_actual_ink_to_board_edge_mm": 1.7399499999999999,
+      "inside_board": true,
+      "pass": true
+    },
+    {
+      "primitiveId": "9ffc232f3db9fdad",
+      "text": "USB BUS POWER ONLY",
+      "source_pose_mm": [
+        49.99999905999999,
+        3.4000008200000003,
+        0
+      ],
+      "source_pose_matches": true,
+      "source_text_matches": true,
+      "font_size_preserved": true,
+      "actual_top_silk_ink_area_mm2": 2.721132006455919,
+      "actual_ink_bounds_mm": [
+        50.0012,
+        3.54344,
+        59.41965797087069,
+        4.1176200000000005
+      ],
+      "minimum_actual_ink_to_mask_opening_mm": 2.8512199999999965,
+      "minimum_actual_ink_to_board_edge_mm": 3.54343,
+      "inside_board": true,
+      "pass": true
+    },
+    {
+      "primitiveId": "aef25877a727193e",
+      "text": "MINI",
+      "source_pose_mm": [
+        78.79999988,
+        33.00000004,
+        90
+      ],
+      "source_pose_matches": true,
+      "source_text_matches": true,
+      "font_size_preserved": true,
+      "actual_top_silk_ink_area_mm2": 0.5889568806512482,
+      "actual_ink_bounds_mm": [
+        78.08238000290545,
+        33.0012,
+        78.65655999709455,
+        34.49994
+      ],
+      "minimum_actual_ink_to_mask_opening_mm": 3.0925757914009337,
+      "minimum_actual_ink_to_board_edge_mm": 1.343430002905453,
+      "inside_board": true,
+      "pass": true
+    },
+    {
+      "primitiveId": "052d6ff9eda05a91",
+      "text": "TI",
+      "source_pose_mm": [
+        78.79999988,
+        25.0000008,
+        90
+      ],
+      "source_pose_matches": true,
+      "source_text_matches": true,
+      "font_size_preserved": true,
+      "actual_top_silk_ink_area_mm2": 0.2024716957662954,
+      "actual_ink_bounds_mm": [
+        78.08238,
+        25.00120248401381,
+        78.65655751598618,
+        25.67952
+      ],
+      "minimum_actual_ink_to_mask_opening_mm": 2.2562330466076843,
+      "minimum_actual_ink_to_board_edge_mm": 1.3434324840138205,
+      "inside_board": true,
+      "pass": true
+    },
+    {
+      "primitiveId": "b5fa4e1fc1df13dd",
+      "text": "CASIO",
+      "source_pose_mm": [
+        78.79999988,
+        16.999999019999997,
+        90
+      ],
+      "source_pose_matches": true,
+      "source_text_matches": true,
+      "font_size_preserved": true,
+      "actual_top_silk_ink_area_mm2": 0.766266224071754,
+      "actual_ink_bounds_mm": [
+        78.08238,
+        17.0012,
+        78.65656,
+        19.37624
+      ],
+      "minimum_actual_ink_to_mask_opening_mm": 2.23870988169135,
+      "minimum_actual_ink_to_board_edge_mm": 1.343430000000001,
+      "inside_board": true,
+      "pass": true
+    },
+    {
+      "primitiveId": "7c90211293a2e9cf",
+      "text": "AUX 3V3",
+      "source_pose_mm": [
+        78.79999988,
+        7.00000124,
+        90
+      ],
+      "source_pose_matches": true,
+      "source_text_matches": true,
+      "font_size_preserved": true,
+      "actual_top_silk_ink_area_mm2": 0.9660793129290456,
+      "actual_ink_bounds_mm": [
+        78.08238,
+        7.001202317012906,
+        78.65656,
+        10.625919999999999
+      ],
+      "minimum_actual_ink_to_mask_opening_mm": 2.863830293729913,
+      "minimum_actual_ink_to_board_edge_mm": 1.343430000000001,
+      "inside_board": true,
+      "pass": true
+    },
+    {
+      "primitiveId": "a9c543a9b6e057b4",
+      "text": "0 MINI  1 A  2 TI  3 UART",
+      "source_pose_mm": [
+        11.00000086,
+        39.00000074,
+        0
+      ],
+      "source_pose_matches": true,
+      "source_text_matches": true,
+      "font_size_preserved": true,
+      "actual_top_silk_ink_area_mm2": 2.1969439267934545,
+      "actual_ink_bounds_mm": [
+        11.0012,
+        39.14344,
+        22.51769751598619,
+        39.717620000000004
+      ],
+      "minimum_actual_ink_to_mask_opening_mm": 2.680640000000003,
+      "minimum_actual_ink_to_board_edge_mm": 2.2823699999999962,
+      "inside_board": true,
+      "pass": true
+    }
+  ]
+}

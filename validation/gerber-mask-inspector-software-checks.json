@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "scope": "Synthetic parser/geometry software regressions only; no final fabrication files inspected",
+  "cases": [
+    {
+      "name": "all_128_tented_both_sides_at_0p100706mm_nominal_bridge",
+      "pass": true,
+      "conservative_min_mm": 0.10069599999999672
+    },
+    {
+      "name": "one_bottom_mask_opening_rejected",
+      "pass": true,
+      "failed_vias": 1
+    },
+    {
+      "name": "0p09999mm_bridge_rejected_without_threshold_relaxation",
+      "pass": true
+    },
+    {
+      "name": "aperture_local_hole_and_layer_clear_have_distinct_boolean_semantics",
+      "pass": true
+    },
+    {
+      "name": "negative_image_mask_refused",
+      "pass": true
+    },
+    {
+      "name": "complete_via_population_checked_with_shrunken_and_extra_drill_rejected",
+      "pass": true
+    }
+  ]
+}

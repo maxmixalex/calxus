@@ -1,0 +1,78 @@
+{
+  "schema": "calxus.native-nonpad-hole-expectations.v1",
+  "units": "mm",
+  "source_archive_sha256": "18d8a0ccdbf3b630a9615d0ea36fb3fe75de02d21a5d2e9f1b2f07a6cd53cfa9",
+  "source_epru_sha256": "0e350e62bb8487d3ab99a5ed5566ca2ef7808e0d8770583c4cd07f661eeeed48",
+  "expected_count": 2,
+  "source_layer_semantics": "Multi-Layer12 FILL, not PAD and not Board Outline11",
+  "physical_hole_confirmation": "mechanical/validation/native-r7-j1-outline-hole-evidence.json",
+  "holes": [
+    {
+      "ref": "J1",
+      "source_id": "e55",
+      "component_id": "1664932fadcbdc19",
+      "footprint_uuid": "cac28bf5b833f4e8",
+      "shape": "ROUND",
+      "plated": false,
+      "center_mm": [
+        5.4256101800000005,
+        23.899919179999998
+      ],
+      "diameter_mm": 0.5999987999999999,
+      "source_record": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 12,
+        "width": 0.1,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            "CIRCLE",
+            -114.17,
+            47.465,
+            11.811
+          ]
+        ],
+        "locked": false,
+        "zIndex": 55,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": []
+      }
+    },
+    {
+      "ref": "J1",
+      "source_id": "e56",
+      "component_id": "1664932fadcbdc19",
+      "footprint_uuid": "cac28bf5b833f4e8",
+      "shape": "ROUND",
+      "plated": false,
+      "center_mm": [
+        5.425610179999999,
+        18.100083180000002
+      ],
+      "diameter_mm": 0.5999987999999999,
+      "source_record": {
+        "groupId": 0,
+        "netName": "",
+        "layerId": 12,
+        "width": 0.1,
+        "fillStyle": "SOLID",
+        "path": [
+          [
+            "CIRCLE",
+            114.17,
+            47.465,
+            11.811
+          ]
+        ],
+        "locked": false,
+        "zIndex": 56,
+        "isBridgingCopper": false,
+        "networkList": [],
+        "refs": []
+      }
+    }
+  ],
+  "scope": "Two J1 locating holes additional to the 56 PAD-defined holes and all VIA records; require exactly one machining representation per hole"
+}

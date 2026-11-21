@@ -1,0 +1,77 @@
+{
+  "schema": "calxus.bounded-2p5-trs-cable-search.v1",
+  "checked_at_utc": "2026-11-21T11:16:03.206129+00:00",
+  "scope": "Narrow follow-up search for an LCSC stocked finished lead or male-to-male cable that can supply two real 2.5 mm three-pole TRS male ends. No purchase or supplier enquiry made. Not an exhaustive LCSC catalogue search.",
+  "requirements": {
+    "plug_diameter_mm": 2.5,
+    "contacts": [
+      "Tip",
+      "Ring",
+      "Sleeve"
+    ],
+    "male_ends_needed": 2,
+    "excluded": [
+      "3.5 mm plug",
+      "2-contact TS",
+      "4-contact TRRS",
+      "female jack",
+      "2.5 mm pitch wire connector",
+      "2.5 mm DC barrel bore"
+    ]
+  },
+  "searches": [
+    "site.lcsc.com 2.5mm stereo cable male 3 pole",
+    "site.szlcsc.com 2.5mm 三极 公对公 线",
+    "site.lcsc.com (2.5mm OR 2.5 mm) (cable OR CABLE) Tensility",
+    "site.szlcsc.com 2.5mm (音频线 OR 音频连接线)",
+    "site.lcsc.com 053-0278R",
+    "site.lcsc.com (2.5mm OR 2.5 mm) (Stereo OR TRS) (Cable OR cables)"
+  ],
+  "primary_catalog_review": {
+    "url": "https://www.lcsc.com/category/694.html",
+    "title": "Barrel Audio Cables",
+    "displayed_results": 6,
+    "observed_rows": [
+      {
+        "mpn": "PC-24-75",
+        "lcsc": "C18105297",
+        "displayed_stock": 0
+      },
+      {
+        "mpn": "PC-18-50",
+        "lcsc": "C17950369",
+        "displayed_stock": 0
+      },
+      {
+        "mpn": "PC-36-50",
+        "lcsc": "C17877115",
+        "displayed_stock": 0
+      },
+      {
+        "mpn": "PC-60-50",
+        "lcsc": "C17772575",
+        "displayed_stock": 0
+      },
+      {
+        "mpn": "PC-48-50",
+        "lcsc": "C17764444",
+        "displayed_stock": 0
+      },
+      {
+        "mpn": "PC-18-75",
+        "lcsc": "C17710417",
+        "displayed_stock": 0
+      }
+    ],
+    "decision": "No stocked row qualifies. Rows are catalogue observations only, not added procurement alternatives; this category view does not prove all LCSC categories exhausted."
+  },
+  "manufacturer_crosscheck": {
+    "url": "https://www.tensility.com/collections/connector-type_audio-video/awg_24",
+    "mpn": "053-0278R (CA-2204)",
+    "observed_description": "2.5 mm right-angle stereo plug to stripped/tinned lead, 1830 mm, 24 AWG, shielded",
+    "decision": "Correct general cable type exists, but this bounded check did not establish an LCSC C number plus current stocked product page; not approved or added to the purchasing list."
+  },
+  "accepted_candidates": [],
+  "procurement_decision": "Retain the two 2.5 mm TRS male-end stock gaps and existing verified bare-plug choices. No replacement part entered the BOM.",
+  "evidence_method": "Public web search plus opened LCSC catalogue and manufacturer pages; no native store session, order or warehouse availability guarantee."
+}

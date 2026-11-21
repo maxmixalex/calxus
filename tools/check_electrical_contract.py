@@ -59,7 +59,7 @@ def audit(design):
                 "1":"GND", "2":"GND", "3":"GND", "4":"GND"})
     two("R1", "CC1", "GND", "5.1k")
     two("R2", "CC2", "GND", "5.1k")
-    pins("J2", {"1":"VBUS_USBA", "2":"USB_A_DM", "3":"USB_A_DP", "4":"GND", "5":"GND"})
+    pins("J2", {"1":"VBUS_USBA", "2":"USB_A_DM", "3":"USB_A_DP", "4":"GND", "5":"GND", "6":"GND"})
     pins("J3", {"1":"VBUS_NATIVE", "2":"USB_NATIVE_DM", "3":"USB_NATIVE_DP", "4":None, "5":"GND", "6":"GND"})
     pins("U1", {"1":"MUX_EN_N", "2":"SEL1", "3":"USB_UART_DP", "4":"USB_SIL_DP", "5":"USB_A_DP",
                 "6":"USB_NATIVE_DP", "7":"USB_UP_DP", "8":"GND", "9":"USB_UP_DM", "10":"USB_NATIVE_DM",

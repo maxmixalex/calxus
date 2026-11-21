@@ -1,0 +1,15 @@
+{
+  "missing_geometry": [],
+  "collisions": [],
+  "boundary_violations": [],
+  "mount_keepout_violations": [],
+  "clearance_margin_mm": 0.15,
+  "scope": "Conservative component fullBBox/pad-only envelopes. Not copper DRC or SI verification.",
+  "revision": "A0-switch-engineering-r7",
+  "designSha256": "0877a26f484a80654b146c332041a5291ad61c37b861dc38caf7ec7c4f77a43d",
+  "parts": 120,
+  "schematicComponents": 97,
+  "schematicUniquePins": 345,
+  "ncPins": 21,
+  "change": "J2 C456017 replacement; fixed signal drill centers and all other placements unchanged; no native replacement asserted by this offline report."
+}

@@ -1,0 +1,32 @@
+{
+  "candidate_archive_sha256": "54827104aa16ea58bcd6dfbdf21af6e03cba56d9551dff99abbe2dfb1335edaa",
+  "canonical_geometry_records_sha256": "053b4251894bcd83f14d33cb61cce183ba158a1bd4e6e24cd0c8baddb35a3ca2",
+  "record_counts": {
+    "DEVICE:META": 42,
+    "FOOTPRINT:ACTIVE_LAYER": 22,
+    "FOOTPRINT:ATTR": 44,
+    "FOOTPRINT:CANVAS": 22,
+    "FOOTPRINT:ELE_PLACEHOLDER": 127,
+    "FOOTPRINT:FILL": 335,
+    "FOOTPRINT:LAYER": 702,
+    "FOOTPRINT:LAYER_PHYS": 32,
+    "FOOTPRINT:META": 22,
+    "FOOTPRINT:PAD": 165,
+    "FOOTPRINT:POLY": 196,
+    "FOOTPRINT:PREFERENCE": 4,
+    "PCB:ATTR": 301,
+    "PCB:COMPONENT": 97,
+    "PCB:LAYER": 62,
+    "PCB:LAYER_PHYS": 13,
+    "PCB:PAD": 27,
+    "PCB:POLY": 1,
+    "PCB:REGION": 8,
+    "PCB:VIA": 189
+  },
+  "scope": "All FOOTPRINT and DEVICE effective records; PCB COMPONENT, ATTR, PAD, VIA, LAYER_PHYS, LAYER, REGION and layer11 outline. Record tickets and source timestamps excluded. Copper LINE/POURED/POLY15/16 changes are outside this mechanical equivalence scope.",
+  "drill_geometry_sha256": "24c6d536af0df5dcf54b91584279446e3e139e1cbaa3ae11adab50281d8b47fe",
+  "drilling_features": 247,
+  "native_r7_model_source_sha256": "f748813e98b0f77fead3a735b3de9cb38881a4b7807eb5af440bfa01ddc7a7e3",
+  "frozen_printed_files_sha256": "bbf85d46a38bab10db302d81470e72aa91b7d5e6870ddd8788258e9603240958",
+  "canonical_geometry_without_pcb_vias_sha256": "1f511b8c6ecf7db239fcdeae871242094978e4500a10599dd360574bf16acce3"
+}

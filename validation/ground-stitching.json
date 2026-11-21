@@ -1,0 +1,386 @@
+{
+  "plan_sha256": "6ead02e2a59cd32f43d23e29d3560c271aafe0de6d544f593cc4fc95e1d612c4",
+  "critical_ground_pad_count": 46,
+  "every_target_reaches_through_via": true,
+  "checks": [
+    {
+      "pad": "U2.33",
+      "connected_through_vias": [
+        "U2_EP_GND_1",
+        "U2_EP_GND_2"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U3.17",
+      "connected_through_vias": [
+        "U3_EP_GND_1",
+        "U3_EP_GND_2"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "D1.2",
+      "connected_through_vias": [
+        "D1_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "D2.2",
+      "connected_through_vias": [
+        "D2_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "D3.2",
+      "connected_through_vias": [
+        "D3_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "D4.3",
+      "connected_through_vias": [
+        "D4_3_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "D5.3",
+      "connected_through_vias": [
+        "D5_3_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "D6.3",
+      "connected_through_vias": [
+        "D6_3_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "D7.3",
+      "connected_through_vias": [
+        "D7_3_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U1.8",
+      "connected_through_vias": [
+        "U1_8_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U10.2",
+      "connected_through_vias": [
+        "U10_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U2.18",
+      "connected_through_vias": [
+        "U2_18_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U2.28",
+      "connected_through_vias": [
+        "U2_EP_GND_1",
+        "U2_EP_GND_2"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U2.8",
+      "connected_through_vias": [
+        "U2_EP_GND_1",
+        "U2_EP_GND_2"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U3.2",
+      "connected_through_vias": [
+        "U3_EP_GND_1",
+        "U3_EP_GND_2"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U4.1",
+      "connected_through_vias": [
+        "U4_1_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U4.2",
+      "connected_through_vias": [
+        "U4_1_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U4.3",
+      "connected_through_vias": [
+        "U4_3_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U4.4",
+      "connected_through_vias": [
+        "U4_4_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U5.2",
+      "connected_through_vias": [
+        "U5_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U6.2",
+      "connected_through_vias": [
+        "U6_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U7.3",
+      "connected_through_vias": [
+        "U7_3_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U8.3",
+      "connected_through_vias": [
+        "U8_3_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "U9.2",
+      "connected_through_vias": [
+        "U9_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C1.2",
+      "connected_through_vias": [
+        "C1_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C10.2",
+      "connected_through_vias": [
+        "C10_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C11.2",
+      "connected_through_vias": [
+        "C11_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C12.2",
+      "connected_through_vias": [
+        "C12_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C13.2",
+      "connected_through_vias": [
+        "C13_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C14.2",
+      "connected_through_vias": [
+        "C14_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C15.2",
+      "connected_through_vias": [
+        "C15_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C16.2",
+      "connected_through_vias": [
+        "C16_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C17.2",
+      "connected_through_vias": [
+        "C17_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C18.2",
+      "connected_through_vias": [
+        "C18_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C19.2",
+      "connected_through_vias": [
+        "U8_3_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C2.2",
+      "connected_through_vias": [
+        "C2_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C20.2",
+      "connected_through_vias": [
+        "C20_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C21.2",
+      "connected_through_vias": [
+        "C21_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C22.2",
+      "connected_through_vias": [
+        "C22_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C3.2",
+      "connected_through_vias": [
+        "C3_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C4.2",
+      "connected_through_vias": [
+        "C4_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C5.2",
+      "connected_through_vias": [
+        "C5_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C6.2",
+      "connected_through_vias": [
+        "C6_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C7.2",
+      "connected_through_vias": [
+        "C7_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C8.2",
+      "connected_through_vias": [
+        "C8_2_GND_V"
+      ],
+      "connected": true
+    },
+    {
+      "pad": "C9.2",
+      "connected_through_vias": [
+        "C9_2_GND_V"
+      ],
+      "connected": true
+    }
+  ],
+  "new_vias": 43,
+  "VIPPO_vias": [
+    {
+      "net": "GND",
+      "x": 1833.74502,
+      "y": 928.24502,
+      "diameter": 19.68503937007874,
+      "holeDiameter": 7.874015748031497,
+      "fromLayer": 1,
+      "toLayer": 2,
+      "tag": "U2_EP_GND_1",
+      "process_group": "VIPPO_EP"
+    },
+    {
+      "net": "GND",
+      "x": 1943.74502,
+      "y": 1038.24502,
+      "diameter": 19.68503937007874,
+      "holeDiameter": 7.874015748031497,
+      "fromLayer": 1,
+      "toLayer": 2,
+      "tag": "U2_EP_GND_2",
+      "process_group": "VIPPO_EP"
+    },
+    {
+      "net": "GND",
+      "x": 2341.57802,
+      "y": 392.77802,
+      "diameter": 19.68503937007874,
+      "holeDiameter": 7.874015748031497,
+      "fromLayer": 1,
+      "toLayer": 2,
+      "tag": "U3_EP_GND_1",
+      "process_group": "VIPPO_EP"
+    },
+    {
+      "net": "GND",
+      "x": 2381.57802,
+      "y": 432.77802,
+      "diameter": 19.68503937007874,
+      "holeDiameter": 7.874015748031497,
+      "fromLayer": 1,
+      "toLayer": 2,
+      "tag": "U3_EP_GND_2",
+      "process_group": "VIPPO_EP"
+    }
+  ],
+  "new_top_segments": 47,
+  "reported_geometry_violations": [],
+  "via_to_existing_round_pad_hole_0p45mm_violations": [],
+  "corridor_preexisting_conflicts": [],
+  "scope": "Checks geometry and local pad-to-via paths in proposed r5 overlay. Does not assert actual inner GND copper has been poured or native DRC passed."
+}

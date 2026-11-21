@@ -1,0 +1,66 @@
+{
+  "scope": "Frozen e77 source-review artifacts only; final native manufacturing evidence will be separate",
+  "source_archive_sha256": "e77aa740ad789c91e3c1e894c3c8e9f85d2b5841f83941e7c9eeb572cf42a449",
+  "files": [
+    {
+      "path": "validation/native-candidate-schematic-archive.json",
+      "bytes": 121189,
+      "sha256": "a515186ed5a73df0a73df2517a10f469ae6bd53a60da47aa529470c4795a96fd"
+    },
+    {
+      "path": "validation/native-candidate-schematic-netlist-source.json",
+      "bytes": 49124,
+      "sha256": "26b78d9a208999820b93f0c446c64b4681c0fcb6ac9a39c5079093667188a277"
+    },
+    {
+      "path": "validation/native-candidate-pcb-pin-net-comparison.json",
+      "bytes": 811,
+      "sha256": "db220e0e04612f7e3b778f9291b109d149e89c8e32f40aa178e9bf0d78b32fdb"
+    },
+    {
+      "path": "validation/native-candidate-pcb-netlist-source.json",
+      "bytes": 42554,
+      "sha256": "faacb87d58b2aa871cbcc8b4bf53a8c96230c7aa0ade126b3542c5088768bd81"
+    },
+    {
+      "path": "validation/native-candidate-component-poses.json",
+      "bytes": 20748,
+      "sha256": "7b906224e2a7bf31632e6a12f1845dd4b10a62e14e5dfa1a3ef8d6106c33eeaf"
+    },
+    {
+      "path": "validation/native-candidate-smt-source-preservation.json",
+      "bytes": 39164,
+      "sha256": "e737c01479b07ccd80bf4c82f985fc7b3872cb11a7de232ea336c621343c47ee"
+    },
+    {
+      "path": "validation/native-candidate-tht-drill-expectations.json",
+      "bytes": 51289,
+      "sha256": "885a0e98f468b00081b7f268a5784a1713b560b318463a3e0e23ca7a1f8ae4dd"
+    },
+    {
+      "path": "validation/native-candidate-nonpad-hole-expectations.json",
+      "bytes": 2101,
+      "sha256": "25f2bd9c9e54611d0740f7d43c55b4ad9f0255bc83f3424ae994ecfed2a15624"
+    },
+    {
+      "path": "validation/native-candidate-via-drill-expectations.json",
+      "bytes": 82666,
+      "sha256": "2fd974a5b85042d507c25fa14b05c8437bbdb985a5ad389b0a5b57dffb706adf"
+    },
+    {
+      "path": "validation/native-candidate-tented-via-expectations.json",
+      "bytes": 73185,
+      "sha256": "c1bf5058f0cf6eee745a96707b0a7f1bd5cc31ef02230d226e61fa95a9b64dd1"
+    },
+    {
+      "path": "hardware/schematic/Calxus_RevA_schematic_source_review.pdf",
+      "bytes": 80942,
+      "sha256": "24891f625b8d9dccddafdebf46731d7f47a03087fb6aeecb51e081d71136cc4e"
+    },
+    {
+      "path": "validation/schematic-source-review.json",
+      "bytes": 325163,
+      "sha256": "f56a15f2f5da8c0d15a9d4853466c6030d64b681979e8ffb89c8a95f37db5c84"
+    }
+  ]
+}

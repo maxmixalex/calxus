@@ -1,0 +1,8 @@
+{
+  "source": "calxus_work/evidence/native-copper-audit.json",
+  "lines_checked": 139,
+  "vias_checked": 61,
+  "violations": [],
+  "passed": true,
+  "scope": "Outer L4 unrelated line/via copper only. Does not check pours, arcs, polygons or moved pads; export/check these separately. L2/L3 continuous ground must not be removed by these corridors."
+}

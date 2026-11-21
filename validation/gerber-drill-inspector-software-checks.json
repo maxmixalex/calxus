@@ -1,0 +1,80 @@
+{
+  "pass": true,
+  "scope": "Synthetic Excellon software regression only; no final Gerber has been validated by this report",
+  "expectations_sha256": "1fb69445ba9392a53800d4916a3fa2335e799c72b28e36c76cd9f020d49dba28",
+  "parser": "gerbonara 1.6.3",
+  "cases": [
+    {
+      "name": "complete_56_holes_G85",
+      "expected_pass": true,
+      "observed_pass": true,
+      "parsed_drills": 56,
+      "holes_passing": 56,
+      "errors_detected": 0
+    },
+    {
+      "name": "complete_56_holes_G00_G01_router",
+      "expected_pass": true,
+      "observed_pass": true,
+      "parsed_drills": 56,
+      "holes_passing": 56,
+      "errors_detected": 0
+    },
+    {
+      "name": "cached_holes_ten_times_too_small",
+      "expected_pass": false,
+      "observed_pass": false,
+      "parsed_drills": 56,
+      "holes_passing": 0,
+      "errors_detected": 56
+    },
+    {
+      "name": "J2_slots_wrong_90_degree_rotation",
+      "expected_pass": false,
+      "observed_pass": false,
+      "parsed_drills": 56,
+      "holes_passing": 54,
+      "errors_detected": 2
+    },
+    {
+      "name": "missing_J2_shield6",
+      "expected_pass": false,
+      "observed_pass": false,
+      "parsed_drills": 55,
+      "holes_passing": 55,
+      "errors_detected": 1
+    },
+    {
+      "name": "duplicate_actual_drill",
+      "expected_pass": false,
+      "observed_pass": false,
+      "parsed_drills": 57,
+      "holes_passing": 55,
+      "errors_detected": 2
+    },
+    {
+      "name": "J2_signal_wrong_plating",
+      "expected_pass": false,
+      "observed_pass": false,
+      "parsed_drills": 56,
+      "holes_passing": 55,
+      "errors_detected": 1
+    },
+    {
+      "name": "unexplained_origin_translation",
+      "expected_pass": false,
+      "observed_pass": false,
+      "parsed_drills": 56,
+      "holes_passing": 0,
+      "errors_detected": 57
+    },
+    {
+      "name": "explicit_origin_translation",
+      "expected_pass": true,
+      "observed_pass": true,
+      "parsed_drills": 56,
+      "holes_passing": 56,
+      "errors_detected": 0
+    }
+  ]
+}

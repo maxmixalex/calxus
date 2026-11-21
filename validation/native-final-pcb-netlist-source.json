@@ -1,0 +1,2316 @@
+{
+  "components": {
+    "796fd2b6c597b5ba": {
+      "props": {
+        "Designator": "C1"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        }
+      }
+    },
+    "4c6aeae29581dcd6": {
+      "props": {
+        "Designator": "C2"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        }
+      }
+    },
+    "dbeece3349976426": {
+      "props": {
+        "Designator": "C3"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        }
+      }
+    },
+    "e5aa2ca7acea3210": {
+      "props": {
+        "Designator": "C4"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        }
+      }
+    },
+    "687da77a6cd4a678": {
+      "props": {
+        "Designator": "C5"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        }
+      }
+    },
+    "b0905855c95a7c49": {
+      "props": {
+        "Designator": "C6"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "5V_SERIAL"
+        }
+      }
+    },
+    "fddfff4a311d62e9": {
+      "props": {
+        "Designator": "C7"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "b6e4657be878d19e": {
+      "props": {
+        "Designator": "C8"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "43902dc030d82a80": {
+      "props": {
+        "Designator": "C9"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "5acb8991a2bc0976": {
+      "props": {
+        "Designator": "C10"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_1V8"
+        }
+      }
+    },
+    "c57fb27031ea43af": {
+      "props": {
+        "Designator": "C11"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_RESET"
+        }
+      }
+    },
+    "af0dd8a39e37a531": {
+      "props": {
+        "Designator": "C12"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_X1"
+        }
+      }
+    },
+    "fd19f3e1f327e9de": {
+      "props": {
+        "Designator": "C13"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_X2"
+        }
+      }
+    },
+    "032c29eacb8784b6": {
+      "props": {
+        "Designator": "C15"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "5V_SERIAL"
+        }
+      }
+    },
+    "54e9d6877ca6a9f8": {
+      "props": {
+        "Designator": "C16"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "UART_V3"
+        }
+      }
+    },
+    "e258cef16d8d006f": {
+      "props": {
+        "Designator": "C17"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "775a4dd64ff43f7b": {
+      "props": {
+        "Designator": "C18"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "ee795a552a30eae1": {
+      "props": {
+        "Designator": "C19"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "e0ecee93a6c7eafe": {
+      "props": {
+        "Designator": "C20"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_NATIVE"
+        }
+      }
+    },
+    "96419d24a2ab705b": {
+      "props": {
+        "Designator": "C21"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_USBA"
+        }
+      }
+    },
+    "29a6c0b1a4f0e7f2": {
+      "props": {
+        "Designator": "C22"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        }
+      }
+    },
+    "8b63389dcbeedc59": {
+      "props": {
+        "Designator": "D1"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "USB_UP_DP"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "USB_UP_DM"
+        },
+        "4": {
+          "number": "4",
+          "net": "USB_UP_DM"
+        },
+        "5": {
+          "number": "5",
+          "net": "VBUS_IN"
+        },
+        "6": {
+          "number": "6",
+          "net": "USB_UP_DP"
+        }
+      }
+    },
+    "0289a261105bb83a": {
+      "props": {
+        "Designator": "D2"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "USB_NATIVE_DP"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "USB_NATIVE_DM"
+        },
+        "4": {
+          "number": "4",
+          "net": "USB_NATIVE_DM"
+        },
+        "5": {
+          "number": "5",
+          "net": "VBUS_NATIVE"
+        },
+        "6": {
+          "number": "6",
+          "net": "USB_NATIVE_DP"
+        }
+      }
+    },
+    "dbdd9d3526413697": {
+      "props": {
+        "Designator": "D4"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "TI_RING"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "TI_TIP"
+        }
+      }
+    },
+    "19b7671e281200b0": {
+      "props": {
+        "Designator": "D5"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "CASIO_TX"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "CASIO_RX"
+        }
+      }
+    },
+    "2da067ef823de2b2": {
+      "props": {
+        "Designator": "D6"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "AUX_TX"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "AUX_RX"
+        }
+      }
+    },
+    "3251487f2d17c5c4": {
+      "props": {
+        "Designator": "D7"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "CC2"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "CC1"
+        }
+      }
+    },
+    "586007ef61af9b0e": {
+      "props": {
+        "Designator": "D8"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "TI_TIP"
+        },
+        "2": {
+          "number": "2",
+          "net": "TI_GPIO_TIP"
+        }
+      }
+    },
+    "fab79282d9b2a563": {
+      "props": {
+        "Designator": "D9"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "TI_RING"
+        },
+        "2": {
+          "number": "2",
+          "net": "TI_GPIO_RING"
+        }
+      }
+    },
+    "bf99366022752c87": {
+      "props": {
+        "Designator": "D10"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SIL_SUSPEND"
+        },
+        "2": {
+          "number": "2",
+          "net": "SIL_VREGEN"
+        }
+      }
+    },
+    "fd60e2071cd88b47": {
+      "props": {
+        "Designator": "D11"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SEL1"
+        },
+        "2": {
+          "number": "2",
+          "net": "SEL0"
+        },
+        "3": {
+          "number": "3",
+          "net": "MODE_NATIVE_N"
+        }
+      }
+    },
+    "7ecb28b9ad366e97": {
+      "props": {
+        "Designator": "D12"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "MODE_USBA_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "SEL1"
+        }
+      }
+    },
+    "12ed67f2f39fe65c": {
+      "props": {
+        "Designator": "D13"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "MODE_SILVER_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "SEL0"
+        }
+      }
+    },
+    "4d939424ad38bdd7": {
+      "props": {
+        "Designator": "D14"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "NATIVE_EN_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "USBA_EN_N"
+        },
+        "3": {
+          "number": "3",
+          "net": "MUX_EN_N"
+        }
+      }
+    },
+    "7aa440d7df763370": {
+      "props": {
+        "Designator": "D15"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SERIAL_EN_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "MUX_EN_N"
+        }
+      }
+    },
+    "b4fe0e8a440b10fb": {
+      "props": {
+        "Designator": "D16"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "UART_PULLUP"
+        },
+        "2": {
+          "number": "2",
+          "net": "3V3"
+        }
+      }
+    },
+    "1664932fadcbdc19": {
+      "props": {
+        "Designator": "J1"
+      },
+      "pinInfoMap": {
+        "B8": {
+          "number": "B8",
+          "net": ""
+        },
+        "A5": {
+          "number": "A5",
+          "net": "CC1"
+        },
+        "B7": {
+          "number": "B7",
+          "net": "USB_UP_DM"
+        },
+        "A6": {
+          "number": "A6",
+          "net": "USB_UP_DP"
+        },
+        "A7": {
+          "number": "A7",
+          "net": "USB_UP_DM"
+        },
+        "B6": {
+          "number": "B6",
+          "net": "USB_UP_DP"
+        },
+        "A8": {
+          "number": "A8",
+          "net": ""
+        },
+        "B5": {
+          "number": "B5",
+          "net": "CC2"
+        },
+        "A1B12": {
+          "number": "A1B12",
+          "net": "GND"
+        },
+        "B1A12": {
+          "number": "B1A12",
+          "net": "GND"
+        },
+        "B4A9": {
+          "number": "B4A9",
+          "net": "VBUS_IN"
+        },
+        "A4B9": {
+          "number": "A4B9",
+          "net": "VBUS_IN"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "GND"
+        },
+        "4": {
+          "number": "4",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        }
+      }
+    },
+    "c7ec60838bb943a0": {
+      "props": {
+        "Designator": "J3"
+      },
+      "pinInfoMap": {
+        "6": {
+          "number": "6",
+          "net": "GND"
+        },
+        "5": {
+          "number": "5",
+          "net": "GND"
+        },
+        "4": {
+          "number": "4",
+          "net": ""
+        },
+        "3": {
+          "number": "3",
+          "net": "USB_NATIVE_DP"
+        },
+        "2": {
+          "number": "2",
+          "net": "USB_NATIVE_DM"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_NATIVE"
+        }
+      }
+    },
+    "e1f62d3d73ed5d88": {
+      "props": {
+        "Designator": "J4"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "TI_RING"
+        },
+        "1": {
+          "number": "1",
+          "net": "TI_TIP"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        }
+      }
+    },
+    "f1ab66557675e99e": {
+      "props": {
+        "Designator": "J5"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "CASIO_TX"
+        },
+        "1": {
+          "number": "1",
+          "net": "CASIO_RX"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        }
+      }
+    },
+    "561801f7a460b1bc": {
+      "props": {
+        "Designator": "J6"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "AUX_RX"
+        },
+        "1": {
+          "number": "1",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "AUX_TX"
+        },
+        "4": {
+          "number": "4",
+          "net": ""
+        }
+      }
+    },
+    "8258b83d03526f54": {
+      "props": {
+        "Designator": "J7"
+      },
+      "pinInfoMap": {
+        "6": {
+          "number": "6",
+          "net": "AUX_TX"
+        },
+        "5": {
+          "number": "5",
+          "net": "AUX_RX"
+        },
+        "4": {
+          "number": "4",
+          "net": "UART_TX_EXT"
+        },
+        "3": {
+          "number": "3",
+          "net": "UART_RX_EXT"
+        },
+        "2": {
+          "number": "2",
+          "net": "CASIO_TX"
+        },
+        "1": {
+          "number": "1",
+          "net": "CASIO_RX"
+        }
+      }
+    },
+    "467634ecc469b1f1": {
+      "props": {
+        "Designator": "J8"
+      },
+      "pinInfoMap": {
+        "6": {
+          "number": "6",
+          "net": "SIL_RESET"
+        },
+        "5": {
+          "number": "5",
+          "net": "EE_WP"
+        },
+        "4": {
+          "number": "4",
+          "net": "EE_SDA"
+        },
+        "3": {
+          "number": "3",
+          "net": "EE_SCL"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "EE_VCC"
+        }
+      }
+    },
+    "02c8655c44cd7012": {
+      "props": {
+        "Designator": "J10"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "EE_WP"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        }
+      }
+    },
+    "c9fc55267029d694": {
+      "props": {
+        "Designator": "Q1"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "TI_BASE_TIP"
+        },
+        "2": {
+          "number": "2",
+          "net": "TI_GPIO_TIP"
+        },
+        "3": {
+          "number": "3",
+          "net": "TI_TIP"
+        }
+      }
+    },
+    "0aed2f50261314d5": {
+      "props": {
+        "Designator": "Q2"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "TI_BASE_RING"
+        },
+        "2": {
+          "number": "2",
+          "net": "TI_GPIO_RING"
+        },
+        "3": {
+          "number": "3",
+          "net": "TI_RING"
+        }
+      }
+    },
+    "2f21cc491e71f6ae": {
+      "props": {
+        "Designator": "R1"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "CC1"
+        }
+      }
+    },
+    "81a8eb6d5863e20b": {
+      "props": {
+        "Designator": "R2"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "CC2"
+        }
+      }
+    },
+    "1a41c6a8bb8733d4": {
+      "props": {
+        "Designator": "R3"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "VBUS_IN"
+        },
+        "1": {
+          "number": "1",
+          "net": "SEL1"
+        }
+      }
+    },
+    "05f65f455d5bd469": {
+      "props": {
+        "Designator": "R4"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "VBUS_IN"
+        },
+        "1": {
+          "number": "1",
+          "net": "SEL0"
+        }
+      }
+    },
+    "1ec19e815c96a9d8": {
+      "props": {
+        "Designator": "R5"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "VBUS_IN"
+        },
+        "1": {
+          "number": "1",
+          "net": "PWR_FAULT_N"
+        }
+      }
+    },
+    "f453a4c5592e67dd": {
+      "props": {
+        "Designator": "R6"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "ILIM_SERIAL"
+        }
+      }
+    },
+    "c5701a369870c42a": {
+      "props": {
+        "Designator": "R7"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "SIL_DP"
+        },
+        "1": {
+          "number": "1",
+          "net": "USB_SIL_DP"
+        }
+      }
+    },
+    "f81f6535e6d46dfb": {
+      "props": {
+        "Designator": "R8"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "SIL_DM"
+        },
+        "1": {
+          "number": "1",
+          "net": "USB_SIL_DM"
+        }
+      }
+    },
+    "bcede431e174bfcf": {
+      "props": {
+        "Designator": "R9"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "USB_SIL_DP"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_PUR"
+        }
+      }
+    },
+    "375454803d73e220": {
+      "props": {
+        "Designator": "R10"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "SIL_RESET"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "606bb6888edf4e51": {
+      "props": {
+        "Designator": "R11"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "SIL_VREGEN"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_RESET"
+        }
+      }
+    },
+    "25c90508c3413acf": {
+      "props": {
+        "Designator": "R12"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "SIL_1V8"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "6621ad067bbe053f": {
+      "props": {
+        "Designator": "R13"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_1V8"
+        }
+      }
+    },
+    "29c21b60fcfba0f3": {
+      "props": {
+        "Designator": "R14"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "3V3"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_TEST0"
+        }
+      }
+    },
+    "fb3bea76d8a0c8e4": {
+      "props": {
+        "Designator": "R15"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "3V3"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_TEST1"
+        }
+      }
+    },
+    "603061cf779c29a2": {
+      "props": {
+        "Designator": "R16"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "3V3"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_SIN"
+        }
+      }
+    },
+    "f739f350a774c1b6": {
+      "props": {
+        "Designator": "R17"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "TI_GPIO_TIP"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "2698083f3a5433cf": {
+      "props": {
+        "Designator": "R18"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "TI_GPIO_RING"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "67e6653799f2f216": {
+      "props": {
+        "Designator": "R19"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "TI_BASE_TIP"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "fb0bd4323db010af": {
+      "props": {
+        "Designator": "R20"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "TI_BASE_RING"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "c2a72d9a07ba9cfc": {
+      "props": {
+        "Designator": "R21"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "EE_VCC"
+        },
+        "1": {
+          "number": "1",
+          "net": "EE_SDA"
+        }
+      }
+    },
+    "f73eb6031f9dd74d": {
+      "props": {
+        "Designator": "R22"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "EE_VCC"
+        },
+        "1": {
+          "number": "1",
+          "net": "EE_SCL"
+        }
+      }
+    },
+    "78c1850fcfa6536f": {
+      "props": {
+        "Designator": "R23"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "EE_SDA"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_SDA"
+        }
+      }
+    },
+    "7888cfd50bd5c292": {
+      "props": {
+        "Designator": "R25"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "EE_VCC"
+        },
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    },
+    "ba1990b740825c02": {
+      "props": {
+        "Designator": "R27"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "EE_VCC"
+        },
+        "1": {
+          "number": "1",
+          "net": "EE_WP"
+        }
+      }
+    },
+    "4385a51d3057eb2c": {
+      "props": {
+        "Designator": "R28"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "UART_PULLUP"
+        },
+        "1": {
+          "number": "1",
+          "net": "UART_TX_OD"
+        }
+      }
+    },
+    "ea9faf7c41b3566e": {
+      "props": {
+        "Designator": "R29"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "UART_TX_EXT"
+        },
+        "1": {
+          "number": "1",
+          "net": "UART_TX_OD"
+        }
+      }
+    },
+    "9b5f3eae16cba2ca": {
+      "props": {
+        "Designator": "R30"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "UART_RX_FILTER"
+        },
+        "1": {
+          "number": "1",
+          "net": "UART_RX_EXT"
+        }
+      }
+    },
+    "08366868c6dc3113": {
+      "props": {
+        "Designator": "R31"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "UART_PULLUP"
+        },
+        "1": {
+          "number": "1",
+          "net": "UART_RX_FILTER"
+        }
+      }
+    },
+    "17fc420aa52e04ee": {
+      "props": {
+        "Designator": "R32"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "VBUS_IN"
+        },
+        "1": {
+          "number": "1",
+          "net": "NATIVE_EN_N"
+        }
+      }
+    },
+    "3bd155723e9db4bc": {
+      "props": {
+        "Designator": "R33"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "VBUS_IN"
+        },
+        "1": {
+          "number": "1",
+          "net": "USBA_EN_N"
+        }
+      }
+    },
+    "37ac8faaac9d625e": {
+      "props": {
+        "Designator": "R34"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "VBUS_IN"
+        },
+        "1": {
+          "number": "1",
+          "net": "SERIAL_EN_N"
+        }
+      }
+    },
+    "d680baafba26fd09": {
+      "props": {
+        "Designator": "R35"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "VBUS_IN"
+        },
+        "1": {
+          "number": "1",
+          "net": "MUX_EN_N"
+        }
+      }
+    },
+    "e06832ba274dc3db": {
+      "props": {
+        "Designator": "R36"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "ILIM_NATIVE"
+        }
+      }
+    },
+    "2c1d94b2c89691cb": {
+      "props": {
+        "Designator": "R37"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "ILIM_USBA"
+        }
+      }
+    },
+    "4acc6f736faef614": {
+      "props": {
+        "Designator": "SW1"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "NATIVE_EN_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "USBA_EN_N"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        },
+        "4": {
+          "number": "4",
+          "net": "SERIAL_EN_N"
+        },
+        "6": {
+          "number": "6",
+          "net": "MODE_NATIVE_N"
+        },
+        "7": {
+          "number": "7",
+          "net": "MODE_USBA_N"
+        },
+        "8": {
+          "number": "8",
+          "net": "GND"
+        },
+        "9": {
+          "number": "9",
+          "net": "MODE_SILVER_N"
+        },
+        "5": {
+          "number": "5",
+          "net": "SERIAL_EN_N"
+        },
+        "10": {
+          "number": "10",
+          "net": ""
+        }
+      }
+    },
+    "54992dff2800f3fd": {
+      "props": {
+        "Designator": "U1"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "MUX_EN_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "SEL1"
+        },
+        "3": {
+          "number": "3",
+          "net": "USB_UART_DP"
+        },
+        "4": {
+          "number": "4",
+          "net": "USB_SIL_DP"
+        },
+        "5": {
+          "number": "5",
+          "net": "USB_A_DP"
+        },
+        "6": {
+          "number": "6",
+          "net": "USB_NATIVE_DP"
+        },
+        "7": {
+          "number": "7",
+          "net": "USB_UP_DP"
+        },
+        "8": {
+          "number": "8",
+          "net": "GND"
+        },
+        "16": {
+          "number": "16",
+          "net": "VBUS_IN"
+        },
+        "15": {
+          "number": "15",
+          "net": ""
+        },
+        "14": {
+          "number": "14",
+          "net": "SEL0"
+        },
+        "13": {
+          "number": "13",
+          "net": "USB_UART_DM"
+        },
+        "12": {
+          "number": "12",
+          "net": "USB_SIL_DM"
+        },
+        "11": {
+          "number": "11",
+          "net": "USB_A_DM"
+        },
+        "10": {
+          "number": "10",
+          "net": "USB_NATIVE_DM"
+        },
+        "9": {
+          "number": "9",
+          "net": "USB_UP_DM"
+        }
+      }
+    },
+    "690e6b24eed3fefa": {
+      "props": {
+        "Designator": "U2"
+      },
+      "pinInfoMap": {
+        "33": {
+          "number": "33",
+          "net": "GND"
+        },
+        "32": {
+          "number": "32",
+          "net": "TP_GPIO30"
+        },
+        "31": {
+          "number": "31",
+          "net": "TP_GPIO31"
+        },
+        "30": {
+          "number": "30",
+          "net": "TI_GPIO_TIP"
+        },
+        "29": {
+          "number": "29",
+          "net": "TI_GPIO_RING"
+        },
+        "28": {
+          "number": "28",
+          "net": "GND"
+        },
+        "27": {
+          "number": "27",
+          "net": "SIL_X1"
+        },
+        "26": {
+          "number": "26",
+          "net": "SIL_X2"
+        },
+        "25": {
+          "number": "25",
+          "net": "3V3"
+        },
+        "24": {
+          "number": "24",
+          "net": "SIL_TEST1"
+        },
+        "23": {
+          "number": "23",
+          "net": "SIL_TEST0"
+        },
+        "22": {
+          "number": "22",
+          "net": ""
+        },
+        "21": {
+          "number": "21",
+          "net": ""
+        },
+        "20": {
+          "number": "20",
+          "net": ""
+        },
+        "19": {
+          "number": "19",
+          "net": ""
+        },
+        "18": {
+          "number": "18",
+          "net": "GND"
+        },
+        "17": {
+          "number": "17",
+          "net": "SIL_SIN"
+        },
+        "16": {
+          "number": "16",
+          "net": "3V3"
+        },
+        "15": {
+          "number": "15",
+          "net": "3V3"
+        },
+        "14": {
+          "number": "14",
+          "net": "3V3"
+        },
+        "13": {
+          "number": "13",
+          "net": "3V3"
+        },
+        "12": {
+          "number": "12",
+          "net": ""
+        },
+        "11": {
+          "number": "11",
+          "net": "SIL_SCL"
+        },
+        "10": {
+          "number": "10",
+          "net": "SIL_SDA"
+        },
+        "9": {
+          "number": "9",
+          "net": "SIL_RESET"
+        },
+        "8": {
+          "number": "8",
+          "net": "GND"
+        },
+        "7": {
+          "number": "7",
+          "net": "SIL_DM"
+        },
+        "6": {
+          "number": "6",
+          "net": "SIL_DP"
+        },
+        "5": {
+          "number": "5",
+          "net": "SIL_PUR"
+        },
+        "4": {
+          "number": "4",
+          "net": "SIL_1V8"
+        },
+        "3": {
+          "number": "3",
+          "net": "3V3"
+        },
+        "2": {
+          "number": "2",
+          "net": "SIL_SUSPEND"
+        },
+        "1": {
+          "number": "1",
+          "net": "SIL_VREGEN"
+        }
+      }
+    },
+    "07ff7399f57d3c70": {
+      "props": {
+        "Designator": "U3"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "5V_SERIAL"
+        },
+        "4": {
+          "number": "4",
+          "net": "UART_TX"
+        },
+        "5": {
+          "number": "5",
+          "net": "UART_RX"
+        },
+        "6": {
+          "number": "6",
+          "net": "UART_V3"
+        },
+        "7": {
+          "number": "7",
+          "net": "USB_UART_DP"
+        },
+        "8": {
+          "number": "8",
+          "net": "USB_UART_DM"
+        },
+        "9": {
+          "number": "9",
+          "net": "5V_SERIAL"
+        },
+        "10": {
+          "number": "10",
+          "net": ""
+        },
+        "11": {
+          "number": "11",
+          "net": ""
+        },
+        "12": {
+          "number": "12",
+          "net": ""
+        },
+        "13": {
+          "number": "13",
+          "net": ""
+        },
+        "14": {
+          "number": "14",
+          "net": ""
+        },
+        "15": {
+          "number": "15",
+          "net": ""
+        },
+        "16": {
+          "number": "16",
+          "net": ""
+        },
+        "17": {
+          "number": "17",
+          "net": "GND"
+        }
+      }
+    },
+    "eed7f392c5b23c6a": {
+      "props": {
+        "Designator": "U4"
+      },
+      "pinInfoMap": {
+        "5": {
+          "number": "5",
+          "net": "EE_SDA"
+        },
+        "6": {
+          "number": "6",
+          "net": "EE_SCL"
+        },
+        "7": {
+          "number": "7",
+          "net": "EE_WP"
+        },
+        "8": {
+          "number": "8",
+          "net": "EE_VCC"
+        },
+        "4": {
+          "number": "4",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "GND"
+        }
+      }
+    },
+    "3f1d56d80d17890c": {
+      "props": {
+        "Designator": "U5"
+      },
+      "pinInfoMap": {
+        "4": {
+          "number": "4",
+          "net": ""
+        },
+        "5": {
+          "number": "5",
+          "net": "3V3"
+        },
+        "1": {
+          "number": "1",
+          "net": "5V_SERIAL"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "5V_SERIAL"
+        }
+      }
+    },
+    "662036d47b9119cb": {
+      "props": {
+        "Designator": "U6"
+      },
+      "pinInfoMap": {
+        "3": {
+          "number": "3",
+          "net": "SERIAL_EN_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        },
+        "6": {
+          "number": "6",
+          "net": "5V_SERIAL"
+        },
+        "5": {
+          "number": "5",
+          "net": "ILIM_SERIAL"
+        },
+        "4": {
+          "number": "4",
+          "net": "PWR_FAULT_N"
+        }
+      }
+    },
+    "f5d1794089fd4fbd": {
+      "props": {
+        "Designator": "U7"
+      },
+      "pinInfoMap": {
+        "5": {
+          "number": "5",
+          "net": "3V3"
+        },
+        "4": {
+          "number": "4",
+          "net": "UART_TX_OD"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        },
+        "2": {
+          "number": "2",
+          "net": "UART_TX"
+        },
+        "1": {
+          "number": "1",
+          "net": ""
+        }
+      }
+    },
+    "96a3099e2e76fc2e": {
+      "props": {
+        "Designator": "U8"
+      },
+      "pinInfoMap": {
+        "5": {
+          "number": "5",
+          "net": "3V3"
+        },
+        "4": {
+          "number": "4",
+          "net": "UART_RX"
+        },
+        "3": {
+          "number": "3",
+          "net": "GND"
+        },
+        "2": {
+          "number": "2",
+          "net": "UART_RX_FILTER"
+        },
+        "1": {
+          "number": "1",
+          "net": ""
+        }
+      }
+    },
+    "33e6b4766de3eabb": {
+      "props": {
+        "Designator": "U9"
+      },
+      "pinInfoMap": {
+        "3": {
+          "number": "3",
+          "net": "NATIVE_EN_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        },
+        "6": {
+          "number": "6",
+          "net": "VBUS_NATIVE"
+        },
+        "5": {
+          "number": "5",
+          "net": "ILIM_NATIVE"
+        },
+        "4": {
+          "number": "4",
+          "net": "PWR_FAULT_N"
+        }
+      }
+    },
+    "36cb5fc14d126936": {
+      "props": {
+        "Designator": "U10"
+      },
+      "pinInfoMap": {
+        "3": {
+          "number": "3",
+          "net": "USBA_EN_N"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        },
+        "6": {
+          "number": "6",
+          "net": "VBUS_USBA"
+        },
+        "5": {
+          "number": "5",
+          "net": "ILIM_USBA"
+        },
+        "4": {
+          "number": "4",
+          "net": "PWR_FAULT_N"
+        }
+      }
+    },
+    "abc3fe6f9d5c5d45": {
+      "props": {
+        "Designator": "Y2"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SIL_X1"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "SIL_X2"
+        },
+        "4": {
+          "number": "4",
+          "net": "GND"
+        }
+      }
+    },
+    "a73dc0656f828ff9": {
+      "props": {
+        "Designator": "J9"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SIL_SCL"
+        },
+        "2": {
+          "number": "2",
+          "net": "EE_SCL"
+        }
+      }
+    },
+    "ec2ddbcc5cb015f4": {
+      "props": {
+        "Designator": "D3"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "USB_A_DP"
+        },
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "USB_A_DM"
+        },
+        "4": {
+          "number": "4",
+          "net": "USB_A_DM"
+        },
+        "5": {
+          "number": "5",
+          "net": "VBUS_USBA"
+        },
+        "6": {
+          "number": "6",
+          "net": "USB_A_DP"
+        }
+      }
+    },
+    "5737c3d802781e24": {
+      "props": {
+        "Designator": "C14"
+      },
+      "pinInfoMap": {
+        "2": {
+          "number": "2",
+          "net": "GND"
+        },
+        "1": {
+          "number": "1",
+          "net": "EE_VCC"
+        }
+      }
+    },
+    "b5596e790541d216": {
+      "props": {
+        "Designator": "J2"
+      },
+      "pinInfoMap": {
+        "6": {
+          "number": "6",
+          "net": "GND"
+        },
+        "5": {
+          "number": "5",
+          "net": "GND"
+        },
+        "4": {
+          "number": "4",
+          "net": "GND"
+        },
+        "3": {
+          "number": "3",
+          "net": "USB_A_DP"
+        },
+        "2": {
+          "number": "2",
+          "net": "USB_A_DM"
+        },
+        "1": {
+          "number": "1",
+          "net": "VBUS_USBA"
+        }
+      }
+    },
+    "5d7b442481657965": {
+      "props": {
+        "Designator": "TP1"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "GND"
+        }
+      }
+    },
+    "a53f37697c4cd50b": {
+      "props": {
+        "Designator": "TP2"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "VBUS_IN"
+        }
+      }
+    },
+    "1e628ec07e5650ed": {
+      "props": {
+        "Designator": "TP3"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "5V_SERIAL"
+        }
+      }
+    },
+    "1d0d5ce191ff21c2": {
+      "props": {
+        "Designator": "TP4"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "VBUS_NATIVE"
+        }
+      }
+    },
+    "b3f40bb7e17746f0": {
+      "props": {
+        "Designator": "TP5"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "VBUS_USBA"
+        }
+      }
+    },
+    "a8d220cb2ca71221": {
+      "props": {
+        "Designator": "TP7"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SIL_1V8"
+        }
+      }
+    },
+    "6b8717dffa88d4e5": {
+      "props": {
+        "Designator": "TP8"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "NATIVE_EN_N"
+        }
+      }
+    },
+    "f05975be88b05628": {
+      "props": {
+        "Designator": "TP9"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "USBA_EN_N"
+        }
+      }
+    },
+    "23adef9d00dc0b8d": {
+      "props": {
+        "Designator": "TP10"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SERIAL_EN_N"
+        }
+      }
+    },
+    "d3a8065c189391ac": {
+      "props": {
+        "Designator": "TP11"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "PWR_FAULT_N"
+        }
+      }
+    },
+    "949216b16ea44c77": {
+      "props": {
+        "Designator": "TP12"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SEL1"
+        }
+      }
+    },
+    "f93e5a0e922a7a5e": {
+      "props": {
+        "Designator": "TP13"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SEL0"
+        }
+      }
+    },
+    "206a9560a84e2dc4": {
+      "props": {
+        "Designator": "TP14"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "MUX_EN_N"
+        }
+      }
+    },
+    "f01b2d1435a43130": {
+      "props": {
+        "Designator": "TP16"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SIL_VREGEN"
+        }
+      }
+    },
+    "96c7b9894d493f7a": {
+      "props": {
+        "Designator": "TP17"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SIL_SUSPEND"
+        }
+      }
+    },
+    "7722fa9e03782fcf": {
+      "props": {
+        "Designator": "TP18"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "TI_GPIO_TIP"
+        }
+      }
+    },
+    "b31985b1c037cf81": {
+      "props": {
+        "Designator": "TP19"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "TI_GPIO_RING"
+        }
+      }
+    },
+    "34282d8e95a5a51d": {
+      "props": {
+        "Designator": "TP21"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "TP_GPIO31"
+        }
+      }
+    },
+    "0342b57612ca6026": {
+      "props": {
+        "Designator": "TP22"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "UART_TX"
+        }
+      }
+    },
+    "adc13bff8ffb4850": {
+      "props": {
+        "Designator": "TP23"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "UART_RX"
+        }
+      }
+    },
+    "d655ace6337a085f": {
+      "props": {
+        "Designator": "TP15"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "SIL_RESET"
+        }
+      }
+    },
+    "b023dfe74b68c33a": {
+      "props": {
+        "Designator": "TP20"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "TP_GPIO30"
+        }
+      }
+    },
+    "d560ba6b42d0aec4": {
+      "props": {
+        "Designator": "TP6"
+      },
+      "pinInfoMap": {
+        "1": {
+          "number": "1",
+          "net": "3V3"
+        }
+      }
+    }
+  }
+}

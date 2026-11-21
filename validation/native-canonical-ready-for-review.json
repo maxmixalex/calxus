@@ -1,0 +1,24 @@
+{
+  "jobId": "job-mcp-7a79e012-589c-4b1c-b8f4-f9a5b7ac4aec",
+  "completedAt": "2026-11-21T13:08:40.686Z",
+  "checkedAt": "2026-11-21T13:08:40.638Z",
+  "canonical_archive_sha256": "40d27f61240cb3974f0bd0ecc4c996582f56a4a142598cf3a2e6bce84b4ce4ac",
+  "active": {
+    "documentType": 3,
+    "uuid": "2a0c39c6c6694f40",
+    "tabId": "2a0c39c6c6694f40@6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785",
+    "parentProjectUuid": "6f31bb473de1899361a57910c51c08e861ce117b8335b0b090c2886f654c0785"
+  },
+  "saved": true,
+  "source_guard": "native-after-full-pcba-guard.json plus bounded floating-point diff;97COMPONENT andallnon-POURED records exactly equal",
+  "ratlines": {
+    "items": [],
+    "hasMore": false,
+    "total": 0
+  },
+  "lineCount": 1493,
+  "viaCount": 189,
+  "componentCount": 97,
+  "rawDrcFile": "D:/Works/Calc/Calxus/engineering/native-final-drc-raw-tree.json",
+  "manufacturing_release_accepted": false
+}

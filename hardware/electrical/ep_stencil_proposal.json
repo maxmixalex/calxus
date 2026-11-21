@@ -1,0 +1,247 @@
+{
+  "schema": "calxus.ep-stencil-proposal.v1",
+  "native_status": "r7 imported project footprint source actually verified: automatic EP paste disabled and exactly four independent rounded windows per chip. Final exported Top Paste Gerber still requires independent geometry and visual validation.",
+  "units": "mm except explicit _mil values",
+  "components": [
+    {
+      "reference": "U2",
+      "mpn": "TUSB3410RHBR",
+      "lcsc": "C2679332",
+      "native_ep_pin": "33",
+      "native_ep_id_snapshot": "690e6b24eed3fefae48",
+      "copper_size_mm": [
+        3.4999929999999995,
+        3.4999929999999995
+      ],
+      "current_native_paste_status": "r7 project-linked source verified topPasteMask=-3937 and bottomPasteMask=-3937, exactly four reviewed EP windows, no original single-window remainder. Actual final Gerber validation pending.",
+      "action_if_unsplit": "Use project/tools/patch_native_ep_stencil.py on fresh Calxus epro2 archive only. Replace existing EP fill with four windows; preserve all other source bytes and already-disabled automatic paste. Do not append windows over the original single opening or change global libraries.",
+      "basis": "TI RHB0032E exact stencil example geometry; actual library copper is3.50mm versus3.45mm in example.",
+      "window_count": 4,
+      "windows": [
+        {
+          "id": "U2_EP_PASTE_1",
+          "shape": "filled_rounded_rectangle",
+          "layer_role": "Top Paste",
+          "net": null,
+          "center_relative_to_actual_EP_mm": [
+            -0.845,
+            -0.845
+          ],
+          "width_mm": 1.49,
+          "height_mm": 1.49,
+          "corner_radius_mm": 0.05,
+          "nominal_board_center_mil": [
+            1856.532283464567,
+            951.0322834645668
+          ]
+        },
+        {
+          "id": "U2_EP_PASTE_2",
+          "shape": "filled_rounded_rectangle",
+          "layer_role": "Top Paste",
+          "net": null,
+          "center_relative_to_actual_EP_mm": [
+            0.845,
+            -0.845
+          ],
+          "width_mm": 1.49,
+          "height_mm": 1.49,
+          "corner_radius_mm": 0.05,
+          "nominal_board_center_mil": [
+            1923.067716535433,
+            951.0322834645668
+          ]
+        },
+        {
+          "id": "U2_EP_PASTE_3",
+          "shape": "filled_rounded_rectangle",
+          "layer_role": "Top Paste",
+          "net": null,
+          "center_relative_to_actual_EP_mm": [
+            -0.845,
+            0.845
+          ],
+          "width_mm": 1.49,
+          "height_mm": 1.49,
+          "corner_radius_mm": 0.05,
+          "nominal_board_center_mil": [
+            1856.532283464567,
+            1017.5677165354331
+          ]
+        },
+        {
+          "id": "U2_EP_PASTE_4",
+          "shape": "filled_rounded_rectangle",
+          "layer_role": "Top Paste",
+          "net": null,
+          "center_relative_to_actual_EP_mm": [
+            0.845,
+            0.845
+          ],
+          "width_mm": 1.49,
+          "height_mm": 1.49,
+          "corner_radius_mm": 0.05,
+          "nominal_board_center_mil": [
+            1923.067716535433,
+            1017.5677165354331
+          ]
+        }
+      ],
+      "web_mm": 0.19999999999999996,
+      "paste_open_area_mm2": 8.871815926535898,
+      "coverage_of_actual_copper_percent": 72.42327684821281,
+      "outer_edge_margin_mm": 0.15999649999999987,
+      "example_stencil_thickness_mm": 0.125,
+      "rounded_square_aperture_area_ratio_at_0125": 3.020624918651649,
+      "note": "Final steel thickness and minimum-pin aperture release reviewed with assembler for the whole board; no claim of printing or reflow qualification.",
+      "existing_single_fill": {
+        "id": "e15",
+        "footprint_uuid": "6d6747048cb070d5",
+        "nominal_size_mm": 2.8,
+        "nominal_coverage_percent": 64
+      },
+      "native_ep_id_snapshot_scope": "Historical pre-reimport EP primitive ID; final checks locate the actual pad by reference and native_ep_pin."
+    },
+    {
+      "reference": "U3",
+      "mpn": "CH343P",
+      "lcsc": "C2846043",
+      "native_ep_pin": "17",
+      "native_ep_id_snapshot": "07ff7399f57d3c70e46",
+      "copper_size_mm": [
+        1.6999966,
+        1.6999966
+      ],
+      "current_native_paste_status": "r7 project-linked source verified topPasteMask=-3937 and bottomPasteMask=-3937, exactly four reviewed EP windows, no original single-window remainder. Actual final Gerber validation pending.",
+      "action_if_unsplit": "Use project/tools/patch_native_ep_stencil.py on fresh Calxus epro2 archive only. Replace existing EP fill with four windows; preserve all other source bytes and already-disabled automatic paste. Do not append windows over the original single opening or change global libraries.",
+      "basis": "Project-specific four-window choice using TI generic50–70% exposed-pad coverage guidance; no CH343-specific WCH stencil rule found in reviewed documents.",
+      "window_count": 4,
+      "windows": [
+        {
+          "id": "U3_EP_PASTE_1",
+          "shape": "filled_rounded_rectangle",
+          "layer_role": "Top Paste",
+          "net": null,
+          "center_relative_to_actual_EP_mm": [
+            -0.425,
+            -0.425
+          ],
+          "width_mm": 0.65,
+          "height_mm": 0.65,
+          "corner_radius_mm": 0.05,
+          "nominal_board_center_mil": [
+            2345.467716535433,
+            396.66771653543304
+          ]
+        },
+        {
+          "id": "U3_EP_PASTE_2",
+          "shape": "filled_rounded_rectangle",
+          "layer_role": "Top Paste",
+          "net": null,
+          "center_relative_to_actual_EP_mm": [
+            0.425,
+            -0.425
+          ],
+          "width_mm": 0.65,
+          "height_mm": 0.65,
+          "corner_radius_mm": 0.05,
+          "nominal_board_center_mil": [
+            2378.932283464567,
+            396.66771653543304
+          ]
+        },
+        {
+          "id": "U3_EP_PASTE_3",
+          "shape": "filled_rounded_rectangle",
+          "layer_role": "Top Paste",
+          "net": null,
+          "center_relative_to_actual_EP_mm": [
+            -0.425,
+            0.425
+          ],
+          "width_mm": 0.65,
+          "height_mm": 0.65,
+          "corner_radius_mm": 0.05,
+          "nominal_board_center_mil": [
+            2345.467716535433,
+            430.1322834645669
+          ]
+        },
+        {
+          "id": "U3_EP_PASTE_4",
+          "shape": "filled_rounded_rectangle",
+          "layer_role": "Top Paste",
+          "net": null,
+          "center_relative_to_actual_EP_mm": [
+            0.425,
+            0.425
+          ],
+          "width_mm": 0.65,
+          "height_mm": 0.65,
+          "corner_radius_mm": 0.05,
+          "nominal_board_center_mil": [
+            2378.932283464567,
+            430.1322834645669
+          ]
+        }
+      ],
+      "web_mm": 0.19999999999999996,
+      "paste_open_area_mm2": 1.681415926535898,
+      "coverage_of_actual_copper_percent": 58.18071460968102,
+      "outer_edge_margin_mm": 0.09999829999999998,
+      "example_stencil_thickness_mm": 0.125,
+      "rounded_square_aperture_area_ratio_at_0125": 1.3375572102396784,
+      "note": "Final steel thickness and minimum-pin aperture release reviewed with assembler for the whole board; no claim of printing or reflow qualification.",
+      "existing_single_fill": {
+        "id": "e47",
+        "footprint_uuid": "c020f55e3a184cd3",
+        "nominal_size_mm": 1.36,
+        "nominal_coverage_percent": 64
+      },
+      "native_ep_id_snapshot_scope": "Historical pre-reimport EP primitive ID; final checks locate the actual pad by reference and native_ep_pin."
+    }
+  ],
+  "vippo": "The four EP vias remain resin-filled, planarized and copper-capped. Stencil windows do not replace VIPPO and do not change copper/via nets.",
+  "sources": [
+    {
+      "url": "https://www.ti.com/lit/ds/symlink/tusb3410.pdf",
+      "document": "SLLS519J, package RHB0032E 4223442/B08/2019",
+      "page_1based": 103,
+      "local_sha256": "1ee2c8831308d541c91d3b3d32babef48b30f727953e6938663a906af547c0fa"
+    },
+    {
+      "url": "https://www.ti.com/lit/an/slua271c/slua271c.pdf",
+      "document": "SLUA271C Dec2023",
+      "sections": [
+        "4.2",
+        "4.4"
+      ],
+      "page_1based": 11
+    },
+    {
+      "url": "https://www.wch-ic.com/downloads/CH343DS1_PDF.html",
+      "document": "CH343 datasheet V2.0",
+      "finding": "No dedicated EP stencil aperture/coverage rule in reviewed datasheet."
+    },
+    {
+      "url": "https://www.wch.cn/uploads/file/20200305/1583372123113134.pdf",
+      "document": "CH common package dimensions2E",
+      "page_1based": 44,
+      "finding": "QFN16-3x3 package physical EP1.8mm; package drawing is not PCB stencil recommendation."
+    }
+  ],
+  "required_final_check": [
+    "Read native EP pad paste properties and actual top-paste geometry.",
+    "Render exported paste Gerber; verify exactly four openings over each EP and no superimposed full EP aperture.",
+    "Record final stencil thickness, corner treatment and assembly engineering approval.",
+    "Verify filled/capped EP via fabrication and x-ray solder quality in first-article process."
+  ],
+  "native_evidence": {
+    "read_method": "Actual project footprint UUID via lib_Footprint.getDocumentSource fallback; not generic system library.",
+    "historical_single_window_snapshot": "../../validation/usb-manual-copper-audit/qfn-footprint-sources.json",
+    "historical_single_window_sha256": "a951d4b8d01074b51dbb00099552fbcc280c503a93469958f7d1c96d84c0c2fa",
+    "current_source_check": "../../validation/native-r7-qfn-paste.json",
+    "current_source_check_sha256": "49f96c8e9c8b933783be5cf4fc5ddc0fdb283d540cb3a472574018e2a3438ddc"
+  }
+}
